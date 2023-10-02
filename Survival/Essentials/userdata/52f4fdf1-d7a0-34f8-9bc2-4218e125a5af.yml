@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 181.43.151.106
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1672599918747
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1672599938281
+  login: 1672599741236
+money: '119520.0'
+last-account-name: Nico_0213
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 386.61840983014076
+  y: 77.0
+  z: -442.8906014387335
+  yaw: -93.73492431640625
+  pitch: 20.788915634155273
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 1458.4110562983103
+  y: 80.0
+  z: -602.5365256211646
+  yaw: 72.61962890625
+  pitch: 16.33405876159668
+homes:
+  home:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: 1455.2960054847133
+    y: 80.0
+    z: -602.7384830689231
+    yaw: -16.940109252929688
+    pitch: 23.94428825378418

@@ -1,0 +1,20 @@
+location: world_poderes:-112.500:66.000:16.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&f&lAncient Warrior'
+    height: 0.5
+  - content: '&fAtaque: &a&l||||||||'
+    height: 0.5
+  - content: '&fDefensa: &a&l|||||||'
+    height: 0.5
+  - content: '&fVelocidad: &e&l|||||'
+    height: 0.5
+  - content: '&fVida: &e&l|||||'
+    height: 0.3
+  actions: {}

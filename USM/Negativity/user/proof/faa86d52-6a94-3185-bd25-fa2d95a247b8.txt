@@ -1,0 +1,1 @@
+2021-09-27 01:07:10.804: (192ms) 100% FORCEFIELD > Big distance with: rabbit. Exact distance: 5.223564396075765, without thorns. Ping: 192. Player version: V1_16. TPS: [20.000297678087154, 20.005470374449807, 20.004757424834168]

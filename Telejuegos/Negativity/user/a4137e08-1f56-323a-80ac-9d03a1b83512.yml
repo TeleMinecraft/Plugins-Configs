@@ -1,0 +1,17 @@
+playername: Efmerxksks
+lang: es_ES
+minerate-full-mined: 15
+minerate:
+  diamond: 0
+  gold: 0
+  iron: 0
+  coal: 0
+  ancient debris: 0
+better-click: 10
+cheats:
+  timer: 5
+  antiknockback: 1
+  fastladder: 2
+  blink: 2
+  faststairs: 5
+creation-time: 1622951671081

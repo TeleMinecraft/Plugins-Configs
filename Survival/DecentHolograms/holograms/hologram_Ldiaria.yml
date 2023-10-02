@@ -1,0 +1,12 @@
+location: world:367.531:72.500:-440.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&e&l%excellentcrates_keys_diaria%'
+    height: 0.3
+  actions: {}

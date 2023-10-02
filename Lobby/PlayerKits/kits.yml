@@ -1,0 +1,116 @@
+Kits:
+  iron:
+    Items:
+      '1':
+        id: IRON_AXE
+        amount: 1
+      '2':
+        id: IRON_PICKAXE
+        amount: 1
+      '3':
+        id: IRON_SWORD
+        amount: 1
+    slot: 10
+    display_item: IRON_AXE
+    display_name: '&6&lIron &aKit'
+    display_lore:
+    - '&eThis kit includes:'
+    - '&8- &7x1 Iron Axe'
+    - '&8- &7x1 Iron Pickaxe'
+    - '&8- &7x1 Iron Sword'
+    - ''
+    - '&7Cooldown: &c3 hours'
+    - ''
+    - '&aLeft Click to claim!'
+    - '&bRight Click to preview!'
+    cooldown: 10800
+  diamond:
+    Items:
+      '1':
+        id: DIAMOND_AXE
+        amount: 1
+      '2':
+        id: DIAMOND_PICKAXE
+        amount: 1
+      '3':
+        id: DIAMOND_SWORD
+        name: '&4Super Sword'
+        lore:
+        - '&7Best sword on the server.'
+        - ''
+        - '&7Owner: &6%player%'
+        enchants:
+        - DAMAGE_ALL;5
+        amount: 1
+    Commands:
+    - bc &6%player% &ejust claimed a &aDIAMOND KIT&e!
+    slot: 11
+    display_item: DIAMOND_SWORD
+    display_name: '&6&lDiamond &aKit'
+    display_lore:
+    - '&eThis kit includes:'
+    - '&8- &7x1 Diamond Axe'
+    - '&8- &7x1 Diamond Pickaxe'
+    - '&8- &7x1 Diamond Sword'
+    - ''
+    - '&7Cooldown: &c12 hours'
+    - '&7Price: &a$5000'
+    - ''
+    - '&aLeft Click to buy!'
+    - '&bRight Click to preview!'
+    display_item_glowing: true
+    cooldown: 43200
+    price: 5000
+    permission: playerkits.kit.diamond
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&6&lDiamond &aKit'
+      display_lore:
+      - '&cYou don''t have permissions to claim'
+      - '&cthis kit.'
+      - ''
+      - '&7You need: &bVIP&6+ &7rank.'
+  arena:
+    slot: 1
+    display_item: IRON_SWORD
+    display_name: '&6&larena &aKit'
+    display_lore:
+    - '&7This is a description of the kit.'
+    - '&7You can add multiples &alines&7.'
+    cooldown: 3600
+    permission: playerkits.kit.arena
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&6&larena &aKit'
+      display_lore:
+      - '&cYou don''t have permissions to claim'
+      - '&cthis kit.'
+    one_time: false
+    auto_armor: true
+    Items:
+      '1':
+        id: STICK
+        amount: '1'
+        durability: '0'
+        enchants:
+        - ARROW_INFINITE;1
+        unbreakable: 'false'
+        preview_slot: 0
+      '2':
+        color: 3931935
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_HELMET
+        amount: '1'
+        durability: '0'
+        name: '&aCasco de práctica'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 1

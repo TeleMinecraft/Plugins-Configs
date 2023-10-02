@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 190.46.10.130
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1683074958269
+  login: 1683074887119
+money: '0'
+last-account-name: wuatonaql
+logoutlocation:
+  world: 2e1ce19e-1f4f-4123-8c05-bbc1db660846
+  world-name: world
+  x: -32.68525247712005
+  y: 32.0
+  z: 48.43849015332083
+  yaw: -145.7997283935547
+  pitch: 10.050039291381836

@@ -1,0 +1,14 @@
+name: Storbo
+events:
+  juego_amarillo:
+    one_time: true
+    cooldown: 0
+  juego_azul:
+    one_time: true
+    cooldown: 0
+  juego_rojo:
+    one_time: true
+    cooldown: 0
+  juego_verde:
+    one_time: true
+    cooldown: 0

@@ -1,0 +1,54 @@
+# This is an example book to show how to create one
+# Note: The placeholders in this book (like %player_name%) need PlaceholderAPI installed
+# with the proper expansion, see here for more informations: https://www.spigotmc.org/resources/placeholderapi.6245/
+
+# Item's name
+name: Comandos
+
+# Book's title
+title: Comandos
+
+# Book's author
+author: TeleServer
+
+# Book's generation
+# Valid values: ORIGINAL, COPY_OF_ORIGINAL, COPY_OF_COPY, TATTERED
+generation: ORIGINAL
+
+# Item's lore
+lore:
+- '<light_purple>Comandos'
+
+# Command to open this book
+# You can remove this by setting it to ''
+# Separate multiple commands with a space
+open_command: ''
+
+pages:
+  '1':
+  - '       <color:#11BC00><bold>Comandos<reset>'
+  - ''
+  'final':
+  - '       <color:#11BC00><bold>Comandos<reset>'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ' <click:run_command:/ib open help><hover:show_text:"<gray>Click para ir al inicio <br><gray>del libro de <green><underlined>ayuda"><dark_aqua><bold>><color:#00DC85><bold><underlined>Volver al índice<reset><dark_aqua><bold><<reset>'
+
+
+
+# For the placeholders to work correctly
+# you should download the Player and Vault
+# extensions for PlaceholderAPI:
+# /papi ecloud download Player
+# /papi ecloud download Vault
+# /papi reload

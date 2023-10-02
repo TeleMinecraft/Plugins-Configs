@@ -1,0 +1,29 @@
+timestamps:
+  login: 1594689911342
+  logout: 1594690512510
+  lastteleport: 1588540226372
+lastlocation:
+  world: world
+  x: -1190.661754208133
+  y: 12.0
+  z: 3596.2123842357228
+  yaw: -338.55176
+  pitch: 4.6503205
+logoutlocation:
+  world: world
+  x: -1058.6545717148895
+  y: 60.0
+  z: 3743.3346411072794
+  yaw: 288.1889
+  pitch: -2.6991751
+homes:
+  home:
+    world: world
+    x: -1047.6340298562072
+    y: 67.0
+    z: 3741.8967348989086
+    yaw: -26.09812
+    pitch: 30.899956
+money: '1216203'
+ip-address: 143.255.107.108
+last-account-name: Maguinium

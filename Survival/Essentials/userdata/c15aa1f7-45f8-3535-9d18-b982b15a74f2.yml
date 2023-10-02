@@ -1,0 +1,29 @@
+timestamps:
+  login: 1623370130555
+  lastteleport: 1623370264025
+  logout: 1623370993040
+lastlocation:
+  world: world
+  x: -948.7742310327762
+  y: 69.0
+  z: 934.2711450330975
+  yaw: -28.481567
+  pitch: -1.8034686
+money: '2100740.48800000000013186'
+homes:
+  home:
+    world: world
+    x: 323.0583193377482
+    y: 63.0
+    z: 5217.181964625238
+    yaw: 293.8096
+    pitch: 23.822739
+logoutlocation:
+  world: world
+  x: 233.76477106306518
+  y: 72.0
+  z: 5224.364032791087
+  yaw: -76.931076
+  pitch: 26.174498
+ip-address: 190.161.10.102
+last-account-name: itsPalomino

@@ -1,0 +1,15 @@
+playername: ramasdebonsai
+lang: es_ES
+minerate-full-mined: 6
+minerate:
+  diamond: 0
+  gold: 0
+  iron: 0
+  coal: 0
+  ancient debris: 0
+better-click: 8
+cheats:
+  timer: 3
+  forcefield: 2
+  speed: 1
+creation-time: 1625282576196

@@ -1,0 +1,14 @@
+playername: cacot
+lang: es_ES
+minerate-full-mined: 0
+minerate:
+  diamond: 0
+  gold: 0
+  iron: 0
+  coal: 0
+  ancient debris: 0
+better-click: 6
+cheats:
+  pingspoof: 1
+  speed: 10
+creation-time: 1618785063352

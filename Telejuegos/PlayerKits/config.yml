@@ -1,0 +1,104 @@
+Messages:
+  prefix: '&7[&4Kits&7] '
+  noPermissions: '&cNo tienes permisos para eso.'
+  commandCreateError: '&cDebes usar: &7/kit create <name>'
+  commandDeleteError: '&cDebes usare: &7/kit delete <name>'
+  commandClaimError: '&cDebes usar: &7/kit claim <kit>'
+  commandGiveError: '&cDebes usar: &7/kit give <kit> <player>'
+  commandEditError: '&cDebes usar: &7/kit edit <kit>'
+  commandPreviewError: '&cDebes usar: &7/kit preview <kit>'
+  kitAlreadyExists: '&cEl kit &7%name% &cya existe en la configuración.'
+  kitDoesNotExists: '&cEl kit &7%name% &cno existe.'
+  inventoryEmpty: '&cNecesita al menos 1 artículo en su inventario para crear un kit.'
+  kitCreated: '&aKit &7%name% &acreado correctamente.'
+  kitRemoved: '&aKit &7%name% &eliminado correctamente.'
+  inventoryName: '&1&lKits'
+  kitReceived: ''
+  configReload: '&aConfig Reloaded.'
+  seconds: s
+  minutes: m
+  hours: h
+  days: d
+  cooldownError: '&cNecesitas esperar &7%time% &cpara reclamar este kit nuevamente.'
+  kitNoPermissions: '&cNo tienes permisos para reclamar este kit.'
+  kitInCooldownLore:
+  - '&cNecesitas esperar &7%time%'
+  - '&cpara reclamar este kit nuevamente.'
+  commandList: '&6Lista de Kits'
+  commandListKit: '&6%number% &8» &a%kit%'
+  commandListKitNoPermissions: '&6%number% &8» &c%kit% &4(Sin permiso)'
+  commandListKitInCooldown: '&6%number% &8» &c%kit% &7(Espera: &8%time%&7)'
+  commandListKitOneTime: '&6%number% &8» &c%kit% &7(Reclamado&7)'
+  noSpaceError: '&cNo tienes suficiente espacio en tu inventario!'
+  materialNameError: '&cHay un error en tu configuración. Material: &7&l%material%
+    &cNo es válido para tu versión de Minecraft.'
+  oneTimeError: '&cNo puedes reclamar este kit nuevamente.'
+  kitOneTimeLore:
+  - '&cNo puedes reclamar este kit nuevamente.'
+  previewInventoryName: '&8&lVista previa del Kit'
+  backItemName: '&7Atrás'
+  playerNotOnline: '&cEl jugador &7%player% &cno está en línea.'
+  kitGive: '&aKit &7%kit% &dado a &e%player%&a!'
+  noMoneyError: '&cNo tienes suficiente dinero para reclamar este kit. &8(&a$&c%current_money%&7/&a$&c%required_money%&8)'
+  moneyInventoryName: '&9Compre el kit de confirmación'
+  moneyInventoryYes: '&a&lSi'
+  moneyInventoryNo: '&c&lNO'
+  moneyInventoryConfirmationName: '&6Estas segur@?'
+  moneyInventoryConfirmationLore:
+  - '&7Esto te costará: &a$%price%'
+  cantPreviewError: '&cNo puedes previsualizar este kit'
+  commandResetError: '&cDebes usar: &7/kit reset <player> <kit>'
+  kitResetCorrect: '&aKit &7%kit% &areiniciado para &7%player%&a!'
+  kitResetFail: '&cNo se pudo reiniciar el &7%kit% &cpara &7%player%&c!'
+  cooldownPlaceholderReady: '&a&lListo!'
+  errorPage: '&cEscoge una página válida.'
+Config:
+  inventorySize: 45
+  previewInventorySize: 54
+  preview_inventory_back_item_slot: 45
+  kit_preview: true
+  kit_preview_back_item: true
+  hide_kits_with_permissions: false
+  close_inventory_on_claim: false
+  drop_items_if_full_inventory: false
+  commands_before_items: false
+  preview_inventory_requires_permission: false
+  claim_kit_short_command: false
+  kit_error_sound: BLOCK_NOTE_BLOCK_PLING;10;0.1
+  kit_claim_sound: ENTITY_PLAYER_LEVELUP;10;1.5
+  kit_page_sound: BLOCK_LAVA_POP;10;1
+  update_notify: true
+  player_data_save_time: 300
+  inventory_pages_names:
+    '1': '&1&lKits'
+  mysql_database:
+    enabled: false
+    host: localhost
+    port: 3306
+    username: root
+    password: root
+    database: database
+  Inventory:
+    '0':
+      id: BLACK_STAINED_GLASS_PANE
+      name: ' '
+    '8':
+      id: BLACK_STAINED_GLASS_PANE
+      name: ' '
+    '36':
+      id: BLACK_STAINED_GLASS_PANE
+      name: ' '
+    '44':
+      id: BLACK_STAINED_GLASS_PANE
+      name: ' '
+    '18':
+      id: PLAYER_HEAD
+      name: '&6Previous Page'
+      skulldata: 2391d533-ab09-434d-9980-adafde4057a3;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmQ2OWUwNmU1ZGFkZmQ4NGU1ZjNkMWMyMTA2M2YyNTUzYjJmYTk0NWVlMWQ0ZDcxNTJmZGM1NDI1YmMxMmE5In19fQ==
+      type: previous_page
+    '26':
+      id: PLAYER_HEAD
+      name: '&6Next Page'
+      skulldata: d513d666-0992-42c7-9aa6-e518a83e0b38;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTliZjMyOTJlMTI2YTEwNWI1NGViYTcxM2FhMWIxNTJkNTQxYTFkODkzODgyOWM1NjM2NGQxNzhlZDIyYmYifX19
+      type: next_page
+  nbt_alternative_data_save: false

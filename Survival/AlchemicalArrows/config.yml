@@ -1,0 +1,244 @@
+CheckForUpdates: true
+MetricsEnabled: true
+
+DeathMessages:
+  Enabled: true
+  DeathByPlayer: "%player% fue asesinado por %killer% usando una %type%"
+  DeathBySkeleton: "%player% fue asesinado por un esqueleto usando una %type%"
+  DeathByBlockSource: "%player% fue asesinado por una %type%"
+
+Skeletons:
+  ShootPercentage: 19.0
+  LootDropChance: 29.0
+
+Crafting:
+  CauldronCrafting: false
+
+Arrow:
+  Air:
+    RecipeYield: 8
+    AllowInfinity: false
+    Colour: '255,255,255'
+    Effect:
+      BreatheRadius: 2
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10.0
+    Item:
+      DisplayName: "&f&lFlecha de Aire"
+      Lore:
+      - "&f&oSientes la brisa previa a la tormenta?"
+      - "&fLanza a tus enemigos por los aires"
+  
+  Confusion:
+    RecipeYield: 8
+    AllowInfinity: false
+    Colour: '255,102,249'
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10.0
+    Item:
+      DisplayName: "&d&lFlecha de Confusión"
+      Lore:
+      - "&d&o&kNo me siento muy bien"
+      - "&dPerturba incluso a los más valientes"
+  
+  Darkness:
+    RecipeYield: 8
+    AllowInfinity: false
+    Colour: '70,70,70'
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10.0
+    Item:
+      DisplayName: "&8&lFlecha oscura"
+      Lore:
+      - "&8&oFuera luces"
+      - "&8Aplica ceguera temporal a tus enemigos"
+  
+  Death:
+    RecipeYield: 8
+    AllowInfinity: false
+    Colour: '0,0,0'
+    Effect:
+      InstantDeathPossible: true
+      InstantDeathChance: 20.0
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10.0
+    Item:
+      DisplayName: "&0&lFlecha de la Muerte"
+      Lore:
+      - "&0&oNo cualquiera puede sostener este poder"
+      - "&0Úsala con cuidado, solo una puede destruirte"
+  
+  Earth:
+    RecipeYield: 8
+    AllowInfinity: false
+    Colour: '153,93,56'
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10.0
+    Item:
+      DisplayName: "&4&lFlecha de Tierra"
+      Lore:
+      - "&4&oEntre más te mueves más te undirás"
+      - "&4Entierra a tus oponentes"
+  
+  Ender:
+    RecipeYield: 8
+    AllowInfinity: false
+    Colour: '181,42,191'
+    Effect:
+      TeleportOnHitBlock: true
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10.0
+    Item:
+      DisplayName: "&5&lFlecha de Ender"
+      Lore:
+      - "&5&lNada estará fuera de tu alcance"
+      - "&5Inercambia posición con tu objetivo"
+  
+  Explosive:
+    RecipeYield: 8
+    AllowInfinity: false
+    Colour: '193,34,34'
+    Effect:
+      FuseTicks: 40
+      ExplosionStrength: 4
+    Skeleton:
+      CanShoot: false
+      LootdropWeight: 0.0
+    Item:
+      DisplayName: "&c&lFlecha Explosiva"
+      Lore:
+      - "&c&o0.5 kilotones de potencia"
+      - "&cExplota luego del contacto"
+  
+  Fire:
+    RecipeYield: 8
+    AllowInfinity: false
+    Colour: '232,11,11'
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10.0
+    Item:
+      DisplayName: "&6&lFlecha Ígnea"
+      Lore:
+      - "&6&oFavorita de pirómanos"
+      - "&6Incinera a tus enemigos"
+  
+  Frost:
+    RecipeYield: 8
+    AllowInfinity: false
+    Colour: '11,213,232'
+    Effect:
+      WaterFreezeRadius: 3.5
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10.0
+    Item:
+      DisplayName: "&b&lFlecha Criogénica"
+      Lore:
+      - "&b&o-273.15 °C"
+      - "&bRealentiza a tus oponentes"
+  
+  Grapple:
+    RecipeYield: 8
+    AllowInfinity: false
+    Colour: '244,187,95'
+    Effect:
+      GrappleForce: 2.5
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10.0
+    Item:
+      DisplayName: "&e&lFlecha Adhesiva"
+      Lore:
+      - "&e&oSimilar al artilugio de Batman"
+      - "&eÚsala como un gancho"
+  
+  Life:
+    RecipeYield: 8
+    AllowInfinity: false
+    Colour: '57,229,97'
+    Effect:
+      FloralRadius: 2
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10.0
+    Item:
+      DisplayName: "&a&lFlecha Sanadora"
+      Lore:
+      - "&a&oSerás el soporte del equipo!"
+      - "&aNo hace daño, sana a tus amigos"
+  
+  Light:
+    RecipeYield: 8
+    AllowInfinity: false
+    Colour: '255,250,0'
+    Effect:
+      StrikeLightning: true
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10.0
+    Item:
+      DisplayName: "&e&lFlecha Eléctrica"
+      Lore:
+      - "&e&oLa furia de Zeus!"
+      - "&eLanza un rayo a tus oponentes"
+  
+  Magic:
+    RecipeYield: 8
+    AllowInfinity: false
+    Colour: '247,163,255'
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10.0
+    Item:
+      DisplayName: "&d&lFlecha Mágica"
+      Lore:
+      - "&d&oSimplemente, mágico"
+      - "&dEmpuja a tus enemigos con una gran potencia"
+  
+  Magnetic:
+    RecipeYield: 8
+    AllowInfinity: false
+    Colour: '188,188,188'
+    Effect:
+      MagnetismRadius: 5.0
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10.0
+    Item:
+      DisplayName: "&7&lFlecha Magnética"
+      Lore:
+      - "&7&oPolos opuestos se atraen"
+      - "&7Acerca a tus oponentes para acabar con ellos"
+  
+  Necrotic:
+    RecipeYield: 8
+    AllowInfinity: false
+    Colour: '19,119,7'
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10.0
+    Item:
+      DisplayName: "&2&lFlecha Necrótica"
+      Lore:
+      - "&2&oImpregnada de Uranio-235"
+      - "&2Envenena todo lo que la rodea"
+  
+  Water:
+    RecipeYield: 8
+    AllowInfinity: false
+    Colour: '10,132,209'
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10.0
+    Item:
+      DisplayName: "&9&lFlecha de Agua"
+      Lore:
+      - "&9&oEl agua es vida? No en este caso"
+      - "&9Inflinge mucho daño al ser lanzada bajo el agua"

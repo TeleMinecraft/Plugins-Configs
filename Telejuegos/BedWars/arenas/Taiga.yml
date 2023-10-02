@@ -1,0 +1,184 @@
+name: Taiga
+pauseCountdown: 60
+gameTime: 1200
+world: bw1
+pos1: 101.0;1.0;-100.0;-280.0;34.0
+pos2: -100.5;256.0;101.0;-110.0;90.0
+specSpawn: 0.0;55.0;0.0;270.0;90.0
+lobbySpawn: 0.5;96.0;0.5;-0.0;90.0
+lobbySpawnWorld: bw1
+minPlayers: 2
+postGameWaiting: 3
+teams:
+  Rojo:
+    isNewColor: true
+    color: RED
+    maxPlayers: 1
+    bed: 0.0;31.0;65.0;0.0;0.0
+    spawn: 0.0;31.0;68.0;180.0;0.0
+  Azul:
+    isNewColor: true
+    color: LIGHT_BLUE
+    maxPlayers: 1
+    bed: -65.0;31.0;0.0;0.0;0.0
+    spawn: -70.0;31.0;0.0;270.0;0.0
+  Verde:
+    isNewColor: true
+    color: LIME
+    maxPlayers: 1
+    bed: 65.0;31.0;0.0;0.0;0.0
+    spawn: 70.0;31.0;0.0;90.0;0.0
+  Amarillo:
+    isNewColor: true
+    color: YELLOW
+    maxPlayers: 1
+    bed: 0.0;31.0;-65.0;0.0;0.0
+    spawn: 0.0;31.0;-68.0;0.0;0.0
+spawners:
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: -82.5;32.0;-0.5;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: hierro
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: -35.5;31.0;37.5;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: oro
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: 1.5;32.0;-82.5;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: hierro
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: -36.5;31.0;-35.5;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: oro
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: 83.5;32.0;1.5;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: hierro
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: 36.5;31.0;-36.5;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: oro
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: -0.5;32.0;83.5;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: hierro
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: -10.5;31.0;11.5;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: esmeralda
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: -10.5;31.0;-10.5;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: esmeralda
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: 11.5;31.0;-10.5;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: esmeralda
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: 11.5;31.0;11.5;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: esmeralda
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: 37.5;31.0;36.5;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: oro
+stores:
+- isBaby: 'false'
+  loc: 3.5;32.0;82.5;90.0;0.0
+  parent: 'false'
+  shop: null
+  name: §c§lTienda
+  skin: null
+  type: VILLAGER
+- isBaby: 'false'
+  loc: -2.5;32.0;-81.5;270.0;0.0
+  parent: 'false'
+  shop: null
+  name: §e§lTienda
+  skin: null
+  type: VILLAGER
+- isBaby: 'false'
+  loc: 82.5;32.0;-2.5;0.0;0.0
+  parent: 'false'
+  shop: null
+  name: §a§lTienda
+  skin: null
+  type: VILLAGER
+- isBaby: 'false'
+  loc: -81.5;32.0;3.5;180.0;0.0
+  parent: 'false'
+  shop: null
+  name: §9§lTienda
+  skin: null
+  type: VILLAGER
+constant:
+  compass-enabled: inherit
+  add-wool-to-inventory-on-join: inherit
+  in-lobby-colored-leather-by-team: inherit
+  allow-crafting: inherit
+  join-randomly-after-lobby-timeout: inherit
+  join-randomly-on-lobby-join: inherit
+  keep-inventory-on-death: inherit
+  prevent-killing-villagers: inherit
+  player-drops: inherit
+  friendlyfire: inherit
+  lobbybossbar: inherit
+  bossbar: inherit
+  lobbyscoreboard: inherit
+  scoreboard: inherit
+  prevent-spawning-mobs: inherit
+  spawner-holograms: inherit
+  spawner-disable-merge: inherit
+  game-start-items: inherit
+  player-respawn-items: inherit
+  spawner-holograms-countdown: inherit
+  damage-when-player-is-not-in-arena: inherit
+  remove-unused-target-blocks: inherit
+  allow-block-falling: inherit
+  holo-above-bed: inherit
+  allow-spectator-join: inherit
+  anchor-auto-fill: inherit
+  anchor-decreasing: inherit
+  cake-target-block-eating: inherit
+  target-block-explosions: inherit
+arenaTime: WORLD
+arenaWeather: default
+lobbyBossBarColor: GREEN
+gameBossBarColor: default

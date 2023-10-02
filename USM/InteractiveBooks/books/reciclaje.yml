@@ -1,0 +1,82 @@
+# This is an example book to show how to create one
+# Note: The placeholders in this book (like %player_name%) need PlaceholderAPI installed
+# with the proper expansion, see here for more informations: https://www.spigotmc.org/resources/placeholderapi.6245/
+
+# Item's name
+name: Reciclaje
+# Book's title
+title: Reciclaje
+
+# Book's author
+author: '§3Tele§bServer'
+
+# Book's generation
+# Valid values: ORIGINAL, COPY_OF_ORIGINAL, COPY_OF_COPY, TATTERED
+generation: ORIGINAL
+
+# Item's lore
+lore:
+- '§7§oReciclaje'
+
+# Command to open this book
+# You can remove this by setting it to ''
+# Separate multiple commands with a space
+open_command: ''
+
+pages:
+  '1':
+  - '§0§l     Reciclajes'
+  - ''
+  - '§6§l● <change page:2><tooltip:§7Click para saber más>§6§lPlásticos<reset>'
+  - ''
+  - '§2§l● <change page:2><tooltip:§7Click para saber más>§2§lVidrios<reset>'
+  - ''
+  - '§7§l● <change page:2><tooltip:§7Click para saber más>§7§lLatas de Aluminio<reset>'
+  - ''
+  - '§9§l● <change page:2><tooltip:§7Click para saber más>§9§lPapel y Cartón<reset>'
+  - ''
+  - '§3§l● <link:https://noticias.usm.cl/2020/06/12/usm-cero-residuos-se-reestructura-y-extiende-su-campo-de-accion/><tooltip:§bConoce más sobre el reciclaje en la USM>§3§lUSM 0 Residuos<reset>'
+  - ''
+  - '<tooltip:§aQué puntos de reciclaje existen en la USM y qué se puede reciclar en ellos?>§2§lPuntos verdes USM<reset>'
+  '2':
+  - '§6§l Tipos de Plásticos'
+  - '§6§l     reciclables'
+  - ''
+  - '§0§l→ <tooltip:§fTereftalato de polietileno (PET)>§0§lPET<reset>'
+  - '§0§l→ <tooltip:§fPolietileno de alta densidad (PEAD)>§0§lPEAD<reset>'
+  - '§0§l→ <tooltip:§fCloruro de polivinilo (PVC)>§0§lPVC<reset>'
+  - '§0§l→ <tooltip:§fPolietileno de baja densidad (PEBD)>§0§lPEBD<reset>'
+  - '§0§l→ <tooltip:§fPolipropileno (PP)>§0§lPP<reset>'
+  - '§0§l→ <tooltip:§fPoliestireno (PS)>§0§lPS<reset>'
+  - '§0§l→ <tooltip:§fTodas las demás resinas de plástico o mezclas>§0§lOtros<reset>'
+  - '§0§oSi el acrónimo inicia'
+  - '§0§ocon una R, significa'
+  - '§0§oque contiene plástico'
+  - '§0§oReciclado, ej: <tooltip:§fProducto PET que contiene plástico reciclado>§0§lR-PET<reset>'
+  '3':
+  - ''
+  '4':
+  - ''
+  '5':
+  - ''
+  '6':
+  - ''
+  '7':
+  - ''
+  '8':
+  - ''
+  '9':
+  - ''
+  '10':
+  - ''
+  '11':
+  - ''
+  '12':
+  - ''
+  
+# For the placeholders to work correctly
+# you should download the Player and Vault
+# extensions for PlaceholderAPI:
+# /papi ecloud download Player
+# /papi ecloud download Vault
+# /papi reload

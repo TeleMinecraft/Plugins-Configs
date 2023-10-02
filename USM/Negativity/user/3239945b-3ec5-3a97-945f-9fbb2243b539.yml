@@ -1,0 +1,24 @@
+playername: M3MEI
+lang: es_ES
+minerate-full-mined: 46998
+minerate:
+  diamond: 93
+  gold: 34
+  iron: 197
+  coal: 285
+  ancient debris: 0
+better-click: 56
+cheats:
+  timer: 4
+  antiknockback: 1
+  pingspoof: 5
+  inventorymove: 2
+  nuker: 1
+  airplace: 2
+  forcefield: 6
+  fastplace: 1
+  blink: 2
+  nofall: 2
+  spider: 1
+  speed: 7
+creation-time: 1621968898800

@@ -1,0 +1,192 @@
+# The first value is the particle effect.
+# The second value is the cost to unlock that particle effect.
+
+effects:
+  water:
+    displayname: '&bAgua'
+    icon: WATER_BUCKET
+    level: 5
+    cost: 50
+    particles:
+    - WATER_SPLASH:0:0:0:2:2
+    position: 2
+    page: 1
+  flame:
+    displayname: '&bFlama'
+    icon: BLAZE_POWDER
+    level: 5
+    cost: 50
+    particles:
+    - FLAME:0:0:0:2:2
+    position: 4
+    page: 1
+  smoke:
+    displayname: '&bHumo'
+    icon: CAMPFIRE
+    level: 5
+    cost: 50
+    particles:
+    - SMOKE_LARGE:0:0:0:2:2
+    position: 6
+    page: 1
+  critical:
+    displayname: '&bAtaque crítico'
+    icon: IRON_SWORD
+    level: 5
+    cost: 50
+    particles:
+    - CRIT:0:0:0:2:2
+    position: 8
+    page: 1
+  slime:
+    displayname: '&bSlime'
+    icon: SLIME_BALL
+    level: 5
+    cost: 50
+    particles:
+    - SLIME:0:0:0:2:2
+    position: 9
+    page: 1
+  snow:
+    displayname: '&bNieve'
+    icon: SNOWBALL
+    level: 5
+    cost: 50
+    particles:
+    - SNOWBALL:0:0:0:2:2
+    position: 11
+    page: 1
+  magic:
+    displayname: '&bMagia'
+    icon: BREWING_STAND
+    level: 5
+    cost: 50
+    particles:
+    - SPELL_WITCH:0:0:0:2:2
+    position: 13
+    page: 1
+  music:
+    displayname: '&bNota musical'
+    icon: NOTE_BLOCK
+    level: 5
+    cost: 50
+    particles:
+    - NOTE:0:0:-1:2:2
+    position: 15
+    page: 1
+  happy:
+    displayname: '&bAldeano feliz'
+    icon: EMERALD
+    level: 5
+    cost: 50
+    particles:
+    - VILLAGER_HAPPY:0:0:0:2:2
+    position: 17
+    page: 1
+  angry:
+    displayname: '&bAldeano enojado'
+    icon: FIRE_CHARGE
+    level: 5
+    cost: 50
+    particles:
+    - VILLAGER_ANGRY:0:0:0:2:2
+    position: 18
+    page: 1
+  potion:
+    displayname: '&bPoción'
+    icon: POTION
+    level: 5
+    cost: 50
+    particles:
+    - SPELL:0:0:0:2:2
+    position: 20
+    page: 1
+  poison:
+    displayname: '&bVeneno'
+    icon: POISONOUS_POTATO
+    level: 5
+    cost: 50
+    particles:
+    - SPELL_INSTANT:0:0:0:2:2
+    position: 22
+    page: 1
+  alphabet:
+    displayname: '&bMesa de Encantamientos'
+    icon: ENCHANTING_TABLE
+    level: 5
+    cost: 50
+    particles:
+    - ENCHANTMENT_TABLE:0:0:-1:2:2
+    position: 24
+    page: 1
+  lava:
+    displayname: '&bLava'
+    icon: LAVA_BUCKET
+    level: 5
+    cost: 50
+    particles:
+    - LAVA:0:0:0:2:2
+    position: 26
+    page: 1
+  lava_drip:
+    displayname: '&bGoteo de lava'
+    icon: MAGMA_BLOCK
+    level: 5
+    cost: 50
+    particles:
+    - DRIP_LAVA:0:0:0:2:2
+    position: 27
+    page: 1
+  heart:
+    displayname: '&bCorazón'
+    icon: ENCHANTED_GOLDEN_APPLE
+    level: 5
+    cost: 50
+    particles:
+    - HEART:0:1:0:2:2
+    position: 29
+    page: 1
+  redstone:
+    displayname: '&bRedstone'
+    icon: REDSTONE
+    level: 5
+    cost: 50
+    particles:
+    - REDSTONE:0:0:0:2:2
+    position: 31
+    page: 1
+  sparks:
+    displayname: '&bBrillo'
+    icon: FIREWORK_ROCKET
+    level: 5
+    cost: 50
+    particles:
+    - FIREWORKS_SPARK:0:0:0:2:2
+    position: 33
+    page: 1
+  portal:
+    displayname: '&bPortal'
+    icon: CRYING_OBSIDIAN
+    level: 5
+    cost: 50
+    particles:
+    - PORTAL:0:0:0:2:2
+    position: 35
+    page: 1
+  clouds:
+    displayname: '&bNubes'
+    icon: WHITE_DYE
+    level: 5
+    cost: 50
+    particles:
+    - CLOUD:0:0:0:2:2
+    position: 36
+    page: 1
+  none:
+    displayname: '&bSin particulas'
+    icon: BARRIER
+    level: 5
+    cost: 50
+    position: 0
+    page: 1
+menuSize: 45

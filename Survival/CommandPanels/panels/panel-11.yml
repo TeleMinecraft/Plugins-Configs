@@ -1,0 +1,172 @@
+panels:
+  panel-11:
+    perm: default
+    panelType: default
+    rows: 5
+    title: '&2&lTienda de Minerales &d&l&oVIP &23/3'
+    sound-on-open: BLOCK_NOTE_BLOCK_CHIME
+    animatevalue: 1
+    command: panel-11
+    item:
+      '0':
+        material: LIME_STAINED_GLASS_PANE
+        name: '&a20% de descuento para &l&oVIPS!'
+        animate0:
+          material: MAGENTA_STAINED_GLASS_PANE
+          name: '&d20% de descuento para &l&oVIPS!'
+      '1':
+        material: LIME_STAINED_GLASS_PANE
+        name: '&a20% de descuento para &l&oVIPS!'
+        animate0:
+          material: MAGENTA_STAINED_GLASS_PANE
+          name: '&d20% de descuento para &l&oVIPS!'
+      '2':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '3':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '4':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '5':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '6':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '7':
+        material: LIME_STAINED_GLASS_PANE
+        name: '&a20% de descuento para &l&oVIPS!'
+        animate0:
+          material: MAGENTA_STAINED_GLASS_PANE
+          name: '&d20% de descuento para &l&oVIPS!'
+      '8':
+        material: LIME_STAINED_GLASS_PANE
+        name: '&a20% de descuento para &l&oVIPS!'
+        animate0:
+          material: MAGENTA_STAINED_GLASS_PANE
+          name: '&d20% de descuento para &l&oVIPS!'
+      '9':
+        material: LIME_STAINED_GLASS_PANE
+        name: '&a20% de descuento para &l&oVIPS!'
+        animate0:
+          material: MAGENTA_STAINED_GLASS_PANE
+          name: '&d20% de descuento para &l&oVIPS!'
+      '17':
+        material: LIME_STAINED_GLASS_PANE
+        name: '&a20% de descuento para &l&oVIPS!'
+        animate0:
+          material: MAGENTA_STAINED_GLASS_PANE
+          name: '&d20% de descuento para &l&oVIPS!'
+      '18':
+        material: BLACK_STAINED_GLASS_PANE
+        name: '&a←'
+        enchanted: 'true'
+        commands:
+        - op= cp panel-10
+      '20':
+        material: EMERALD
+        name: '&a&lEsmeralda'
+        lore:
+        - '&7Click derecho para vender por &a$&a50'
+        - '&7Click izquierdo para comprar por &a$&a200'
+        - '&7Manten Shift para comprar o vender &ex64'
+        - '&7%cp-player-name% tienes: &a&o$&a&o%cp-player-balance%'
+        commands:
+        - left= buy= 200 emerald 1
+        - left= op= cp panel-11
+        - right= sell= 50 emerald 1
+        - right= op= cp panel-11
+        - leftshift= buy= 12800 emerald 64
+        - leftshift= op= cp panel-11
+        - rightshift= sell= 3200 emerald 64
+        - rightshift= op= cp panel-11
+      '22':
+        material: DIAMOND
+        name: '&b&lDiamante'
+        lore:
+        - '&7Click derecho para vender por &a$&a150'
+        - '&7Click izquierdo para comprar por &a$&a600'
+        - '&7Manten Shift para comprar o vender &ex64'
+        - '&7%cp-player-name% tienes: &a&o$&a&o%cp-player-balance%'
+        commands:
+        - left= buy= 600 diamond 1
+        - left= op= cp panel-11
+        - right= sell= 150 diamond 1
+        - right= op= cp panel-11
+        - leftshift= buy= 38400 diamond 64
+        - leftshift= op= cp panel-11
+        - rightshift= sell= 9600 diamond 64
+        - rightshift= op= cp panel-11
+      '24':
+        material: NETHERITE_INGOT
+        name: '&5&lNetherite'
+        lore:
+        - '&7Click derecho para vender por &a$&a2000'
+        - '&7Click izquierdo para comprar por &a$&a8000'
+        - '&7Manten Shift para comprar o vender &ex64'
+        - '&7%cp-player-name% tienes: &a&o$&a&o%cp-player-balance%'
+        commands:
+        - left= buy= 8000 netherite_ingot 1
+        - left= op= cp panel-11
+        - right= sell= 2000 netherite_ingot 1
+        - right= op= cp panel-11
+        - leftshift= buy= 512000 netherite_ingot 64
+        - leftshift= op= cp panel-11
+        - rightshift= sell= 128000 netherite_ingot 64
+        - rightshift= op= cp panel-11
+      '26':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '27':
+        material: LIME_STAINED_GLASS_PANE
+        name: '&a20% de descuento para &l&oVIPS!'
+        animate0:
+          material: MAGENTA_STAINED_GLASS_PANE
+          name: '&d20% de descuento para &l&oVIPS!'
+      '35':
+        material: LIME_STAINED_GLASS_PANE
+        name: '&a20% de descuento para &l&oVIPS!'
+        animate0:
+          material: MAGENTA_STAINED_GLASS_PANE
+          name: '&d20% de descuento para &l&oVIPS!'
+      '36':
+        material: LIME_STAINED_GLASS_PANE
+        name: '&a20% de descuento para &l&oVIPS!'
+        animate0:
+          material: MAGENTA_STAINED_GLASS_PANE
+          name: '&d20% de descuento para &l&oVIPS!'
+      '37':
+        material: LIME_STAINED_GLASS_PANE
+        name: '&a20% de descuento para &l&oVIPS!'
+        animate0:
+          material: MAGENTA_STAINED_GLASS_PANE
+          name: '&d20% de descuento para &l&oVIPS!'
+      '38':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '39':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '40':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '41':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '42':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '43':
+        material: LIME_STAINED_GLASS_PANE
+        name: '&a20% de descuento para &l&oVIPS!'
+        animate0:
+          material: MAGENTA_STAINED_GLASS_PANE
+          name: '&d20% de descuento para &l&oVIPS!'
+      '44':
+        material: LIME_STAINED_GLASS_PANE
+        name: '&a20% de descuento para &l&oVIPS!'
+        animate0:
+          material: MAGENTA_STAINED_GLASS_PANE
+          name: '&d20% de descuento para &l&oVIPS!'

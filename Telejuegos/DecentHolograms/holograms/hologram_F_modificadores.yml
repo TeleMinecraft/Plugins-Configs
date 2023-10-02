@@ -1,0 +1,14 @@
+location: world_arrows:2.500:53.000:-3.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&7&lVotar por los'
+    height: 0.3
+  - content: '&7&lmodificadores'
+    height: 0.3
+  actions: {}

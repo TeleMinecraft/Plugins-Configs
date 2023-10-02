@@ -1,0 +1,23 @@
+playername: chipydayy
+lang: es_ES
+minerate-full-mined: 22055
+minerate:
+  diamond: 46
+  gold: 40
+  iron: 242
+  coal: 303
+  ancient debris: 0
+better-click: 36
+cheats:
+  timer: 62
+  inventorymove: 1
+  antiknockback: 1
+  nuker: 3
+  forcefield: 3
+  fastplace: 1
+  step: 4
+  blink: 2
+  nofall: 7
+  spider: 1
+  speed: 42
+creation-time: 1618797639432

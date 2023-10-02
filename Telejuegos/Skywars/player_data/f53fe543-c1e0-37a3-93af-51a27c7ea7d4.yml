@@ -1,0 +1,15 @@
+uuid: f53fe543-c1e0-37a3-93af-51a27c7ea7d4
+wins: 0
+losses: 0
+kills: 0
+deaths: 0
+elo: 0
+xp: 0
+pareffect: none
+proeffect: none
+glasscolor: none
+killsound: none
+winsound: none
+taunt: none
+permissions:
+- sw.taunt.izi

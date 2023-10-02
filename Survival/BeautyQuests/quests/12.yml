@@ -1,0 +1,126 @@
+customItem:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: NETHERITE_HOE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    ItemFlags:
+    - HIDE_ATTRIBUTES
+timer: 10080
+name: §d§lGranjero Definitivo §2[Gremio]
+endRewards:
+- id: commandReward
+  commands:
+  - console: true
+    label: scoreboard players add {PLAYER} Prestigio 10
+- id: itemReward
+  items:
+  - v: 3337
+    type: DIAMOND_HOE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Plough
+        III"}],"text":""}'
+      enchants:
+        DURABILITY: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+  - v: 3337
+    type: DIAMOND_HOE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Persephone
+        III"}],"text":""}'
+      enchants:
+        DURABILITY: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+  - v: 3337
+    type: DIAMOND_HOE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Germination
+        III"}],"text":""}'
+      enchants:
+        DURABILITY: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+  - v: 3337
+    type: DIAMOND_HOE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Harvest
+        III"}],"text":""}'
+      enchants:
+        DURABILITY: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+  - v: 3337
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        MENDING: 1
+bypassLimit: true
+repeatable: true
+description: §ePrueba que eres el mejor Granjero!
+manager:
+  branches:
+    '0':
+      stages:
+        '0':
+          objects:
+            00000000-0000-0000-0000-0000000009ae:
+              amount: 20
+              object: blockdata:minecraft:wheat[age=7]
+            00000000-0000-0001-0000-0000000009ae:
+              amount: 20
+              object: blockdata:minecraft:carrots[age=7]
+            00000000-0000-0002-0000-0000000009ae:
+              amount: 20
+              object: blockdata:minecraft:potatoes[age=7]
+            00000000-0000-0003-0000-0000000009ae:
+              amount: 5
+              object: blockdata:minecraft:sweet_berry_bush[age=3]
+            00000000-0000-0004-0000-0000000009ae:
+              amount: 5
+              object: PUMPKIN
+            00000000-0000-0005-0000-0000000009ae:
+              amount: 5
+              object: MELON
+            00000000-0000-0006-0000-0000000009ae:
+              amount: 5
+              object: BEETROOTS
+            00000000-0000-0007-0000-0000000009ae:
+              amount: 5
+              object: blockdata:minecraft:cocoa[age=2,facing=north]
+          stageType: MINE
+        '1':
+          result:
+            v: 3337
+            type: HAY_BLOCK
+            amount: 3
+          stageType: CRAFT
+        '2':
+          result:
+            v: 3337
+            type: MELON
+            amount: 3
+          stageType: CRAFT
+        '3':
+          result:
+            v: 3337
+            type: PUMPKIN_PIE
+          stageType: CRAFT
+      endingStages: {}
+id: 12

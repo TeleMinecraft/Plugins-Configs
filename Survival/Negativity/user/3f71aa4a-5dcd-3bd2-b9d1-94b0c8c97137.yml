@@ -1,0 +1,13 @@
+playername: salotron
+lang: es_ES
+minerate-full-mined: 38
+minerate:
+  diamond: 0
+  gold: 0
+  iron: 0
+  coal: 20
+  ancient debris: 0
+better-click: 4
+cheats:
+  speed: 1
+creation-time: 1682994258366

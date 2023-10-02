@@ -1,0 +1,86 @@
+# Timed Rewards by ImABradley (Ibiza).
+#
+# /Contact
+# Spigot: https://www.spigotmc.org/members/292138/
+
+
+menu:
+  title: '&2&l          Depósitos'
+  size: 9
+  items:
+    reward1:
+      slot: 4
+      item:
+        amount: 1
+        material: SLIME_BALL
+        damage: 0
+        name: '&a&lDepósito Semanal'
+        lore:
+        - '&7Tiempo de espera: {cooldown_digital}'
+      cooldown: 604800
+      commands:
+      - '[CONSOLE]eco give {player} 50000'
+    reward2:
+      slot: 0
+      item:
+        amount: 1
+        material: GUNPOWDER
+        name: '&f'
+        lore: []
+      commands: []
+    reward3:
+      slot: 1
+      item:
+        amount: 1
+        material: BRICK
+        name: '&f'
+        lore: []
+      commands: []
+    reward4:
+      slot: 2
+      item:
+        amount: 1
+        material: BRICK
+        name: '&f'
+        lore: []
+      commands: []
+    reward5:
+      slot: 3
+      item:
+        amount: 1
+        material: BRICK
+        name: '&f'
+        lore: []
+      commands: []
+    reward6:
+      slot: 5
+      item:
+        amount: 1
+        material: BRICK
+        name: '&f'
+        lore: []
+      commands: []
+    reward7:
+      slot: 6
+      item:
+        amount: 1
+        material: BRICK
+        name: '&f'
+        lore: []
+      commands: []
+    reward8:
+      slot: 7
+      item:
+        amount: 1
+        material: BRICK
+        name: '&f'
+        lore: []
+      commands: []
+    reward9:
+      slot: 8
+      item:
+        amount: 1
+        material: GUNPOWDER
+        name: '&f'
+        lore: []
+      commands: []

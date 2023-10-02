@@ -1,0 +1,58 @@
+timestamps:
+  login: 1634752728370
+  logout: 1634753629599
+  lastteleport: 1634752850733
+lastlocation:
+  world: world
+  x: 94.78700281527837
+  y: 107.0
+  z: 2042.6139112142005
+  yaw: -103.52051
+  pitch: 60.14997
+logoutlocation:
+  world: world
+  x: -1866.7667396361055
+  y: 56.0
+  z: 125.70681258701791
+  yaw: 93.5941
+  pitch: -65.85016
+money: '1673853.40899999999951794'
+homes:
+  mio:
+    world: world
+    x: 629.3505785114752
+    y: 5.0
+    z: 1130.699999988079
+    yaw: 220.7947
+    pitch: 38.39996
+  casa:
+    world: world
+    x: -1859.3517679918539
+    y: 69.0
+    z: 122.16755832628165
+    yaw: -329.31445
+    pitch: 18.599918
+  sdf:
+    world: world
+    x: -1749.1687486774613
+    y: 77.0
+    z: -1060.6531620017959
+    yaw: -140.1037
+    pitch: 25.9507
+  tortuga:
+    world: world
+    x: -2215.7183926922994
+    y: 64.0
+    z: -1029.2583555570989
+    yaw: -231.68022
+    pitch: 23.699848
+  chipy:
+    world: world
+    x: 669.6999999880791
+    y: 71.0
+    z: 1425.2082963088637
+    yaw: -173.70058
+    pitch: 20.400003
+afk: false
+ip-address: 181.203.40.168
+last-account-name: eric

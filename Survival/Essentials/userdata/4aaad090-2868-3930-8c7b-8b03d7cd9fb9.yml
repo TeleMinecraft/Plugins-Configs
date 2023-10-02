@@ -1,0 +1,29 @@
+timestamps:
+  login: 1613862674011
+  logout: 1613862890928
+  lastteleport: 1613862293282
+lastlocation:
+  world: world
+  x: 467.72479999164216
+  y: 79.0
+  z: -416.7422399263167
+  yaw: 46.55796
+  pitch: 21.899675
+money: '1298309.875'
+logoutlocation:
+  world: world
+  x: 1710.731162109729
+  y: 66.0
+  z: 1974.3050162505235
+  yaw: 244.74622
+  pitch: 19.199673
+homes:
+  pika:
+    world: world
+    x: 1210.7531619926783
+    y: 82.0
+    z: 1928.8230945616717
+    yaw: 80.99893
+    pitch: 26.400326
+ip-address: 200.104.61.178
+last-account-name: Jucleoport

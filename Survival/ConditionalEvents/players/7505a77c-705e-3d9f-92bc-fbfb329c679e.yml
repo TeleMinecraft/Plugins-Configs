@@ -1,0 +1,14 @@
+name: Dario99
+events:
+  resistencia_y_skin_al_entrar:
+    one_time: false
+    cooldown: 1681082850339
+  random_tp:
+    one_time: false
+    cooldown: 1680475702398
+  descripcion_mision1:
+    one_time: false
+    cooldown: 1680726468666
+  mision_1:
+    one_time: false
+    cooldown: 1680726474150

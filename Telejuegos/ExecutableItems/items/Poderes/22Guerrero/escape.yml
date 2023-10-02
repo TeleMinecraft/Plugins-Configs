@@ -1,0 +1,90 @@
+name: '&f&lLuminous Escape'
+lore:
+- '#B5FFFDLanza un destello que'
+- '#B5FFFDdeslumbrará momentáneamente'
+- '#B5FFFDa tus oponentes cercanos'
+- ''
+- '#CCCCCC&oCooldown: 15s'
+material: GHAST_TEAR
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+storeItemInfo: false
+unbreakable: false
+usage: -1
+usageLimit: -1
+cancelEventIfNoPerm: false
+cancelEventIfNotOwner: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: false
+  hidePotionEffects: false
+  hideUsage: false
+  hideDye: false
+enchantments: {}
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-item-place: true
+  cancel-item-craft-no-custom: true
+  cancel-consumption: true
+  cancel-item-drop: true
+variables: {}
+attributes: {}
+activators:
+  activator1:
+    name: '&eactivator1'
+    option: PLAYER_RIGHT_CLICK
+    typeTarget: NO_TYPE_TARGET
+    usageModification: -1
+    cancelEvent: false
+    noActivatorRunIfTheEventIsCancelled: false
+    silenceOutput: false
+    autoUpdateItem: false
+    updateName: true
+    updateLore: true
+    updateDurability: false
+    updateAttributes: false
+    updateEnchants: false
+    updateCustomModelData: false
+    cooldownOptions:
+      cooldown: 10
+      isCooldownInTicks: false
+      cooldownMsg: '&cNo puedes utilizarlo aún!'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+    globalCooldownOptions:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+    otherEICooldowns: {}
+    requiredItems:
+      errorMessage: ''
+    requiredExecutableItems:
+      errorMessage: ''
+    detailedSlots:
+    - -1
+    commands:
+    - FRONTDASH 1.5 0.25
+    - LAUNCH escape 1
+    - /execute in minecraft:world_poderes run setblock -34 30 -17 minecraft:redstone_block
+    playerConditions: {}
+    worldConditions: {}
+    itemConditions: {}
+    customConditions: {}
+    placeholdersConditions: {}
+    variablesModification: {}

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 45.232.34.24
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1675539724178
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1675542571417
+  login: 1675538058604
+money: '297900.0'
+last-account-name: DD_Kaiso
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 1963.0970165223728
+  y: -53.0
+  z: 1071.7772326530724
+  yaw: 169.85952758789062
+  pitch: 3.900063991546631
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 2062.4016342442796
+  y: 70.0
+  z: 2060.7977452263244
+  yaw: 119.81231689453125
+  pitch: -4.349972248077393

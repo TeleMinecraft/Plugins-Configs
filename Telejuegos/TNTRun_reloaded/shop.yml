@@ -1,0 +1,18 @@
+'2':
+  name: '&fSnowballs x 20'
+  cost: 50
+  material: SNOWBALL
+  amount: 20
+  permission: tntrun.shop.5
+  lore:
+  - Snowballs + Knockback2
+  - Cost&6 50 &5coins
+  items:
+    '1':
+      material: SNOWBALL
+      amount: 20
+      displayname: '&cSnowballs'
+      lore:
+      - Snowballs
+      enchantments:
+      - KNOCKBACK#2

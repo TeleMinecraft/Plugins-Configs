@@ -1,0 +1,24 @@
+playername: masaki23
+lang: es_ES
+minerate-full-mined: 14049
+minerate:
+  diamond: 7
+  gold: 0
+  iron: 5
+  coal: 14
+  ancient debris: 0
+better-click: 32
+cheats:
+  forcefield: 35
+  blink: 1
+  speed: 54
+  timer: 52
+  inventorymove: 1
+  fly: 2
+  nuker: 5
+  fastplace: 2
+  step: 0
+  spider: 2
+  nofall: 1
+  faststairs: 1
+creation-time: 1616455316143

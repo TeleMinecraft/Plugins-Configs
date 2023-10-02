@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 181.42.40.16
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1682972887611
+  login: 1682972801611
+money: '0'
+last-account-name: MrRed404OWO
+logoutlocation:
+  world: 2e1ce19e-1f4f-4123-8c05-bbc1db660846
+  world-name: world
+  x: -133.06272900968585
+  y: 37.23675383660611
+  z: 68.26842467756018
+  yaw: -8.411407470703125
+  pitch: 10.092690467834473

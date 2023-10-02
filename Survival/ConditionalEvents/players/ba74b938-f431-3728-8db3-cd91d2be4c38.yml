@@ -1,0 +1,11 @@
+name: zero_flux566
+events:
+  event57:
+    one_time: false
+    cooldown: 1669587421322
+  resistencia_y_skin_al_entrar:
+    one_time: false
+    cooldown: 1676477651748
+  random_tp:
+    one_time: false
+    cooldown: 1676478365331

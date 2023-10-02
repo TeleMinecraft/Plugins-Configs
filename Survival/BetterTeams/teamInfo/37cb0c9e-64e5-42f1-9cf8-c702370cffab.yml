@@ -1,0 +1,18 @@
+name: AEL
+description: ''
+open: false
+pvp: true
+home: world:1454.7216462138867:80.0:-601.7618604018021:-43.48302:20.324812
+color: a
+chests: []
+players:
+- 52f4fdf1-d7a0-34f8-9bc2-4218e125a5af,OWNER
+- 66adebc9-2ba2-3cf6-95e8-2dc9067ba221,DEFAULT
+- 535fb7b0-5919-359b-b9e3-9f7d66277535,ADMIN
+level: 2
+tag: ''
+money: 54001.0
+score: 0
+warps:
+- aldea;world:1576.5317026061325:66.0:-1794.8804033969461:-46.049896:7.200013
+- mina;world:1601.410947451421:18.0:-1793.9993630837764:-170.40417:22.064798

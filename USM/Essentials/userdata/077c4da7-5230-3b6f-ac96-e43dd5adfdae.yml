@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 190.114.36.46
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1682986956114
+  login: 1682984214549
+money: '50000'
+last-account-name: CamaroXD
+logoutlocation:
+  world: 2e1ce19e-1f4f-4123-8c05-bbc1db660846
+  world-name: world
+  x: -395.7665260497954
+  y: 34.0
+  z: 98.06144782401708
+  yaw: 165.089599609375
+  pitch: 24.749347686767578

@@ -1,0 +1,5 @@
+name: nita_00
+events:
+  event57:
+    one_time: false
+    cooldown: 1674355988661

@@ -1,0 +1,316 @@
+#
+# ------------------------------------------------------+
+# |  __  __          _____ _____ _____          _       |
+# | |  \/  |   /\   / ____|_   _/ ____|   /\   | |      |
+# | | \  / |  /  \ | |  __  | || |       /  \  | |      |
+# | | |\/| | / /\ \| | |_ | | || |      / /\ \ | |      |
+# | | |  | |/ ____ \ |__| |_| || |____ / ____ \| |____  |
+# | |_|  |_/_/    \_\_____|_____\_____/_/    \_\______| |
+# |    ________      ________ _   _ _______ _____       |
+# |   |  ____\ \    / /  ____| \ | |__   __/ ____|      |
+# |   | |__   \ \  / /| |__  |  \| |  | | | (___        |
+# |   |  __|   \ \/ / |  __| | . ` |  | |  \___ \       |
+# |   | |____   \  /  | |____| |\  |  | |  ____) |      |
+# |   |______|   \/   |______|_| \_|  |_| |_____/       |
+# |                                                     |
+# +-----------------------------------------------------+
+#
+# You can make new events. For that, copy the config section of an event type you like, want:
+# Default ones (type: defaultEventName):
+# bomb: MoneyBomb
+# dj: DJEvent
+# rain: RedRain
+#
+# If you need help, contact me on Discord: sach#5092
+#
+
+Events:
+  # This is an example default event. You can copy paste the whole config section of "MoneyBomb"
+  # and make more events!
+  MoneyBomb:
+    permission: magicalevents.moneybomb # The event permission.
+    name: '&6&lMoney Bomb' # The event name.
+    type: bomb # The event type. (bomb, dj or rain)
+    duration: 200 # The event duration in ticks, 1 second = 20 ticks.
+    total-items: 100 # Total items to be dropped.
+    radius: 4 # The event radius. It'll variate about the height also.
+    height: 0 # Only matters for rain. The height of the explosion above the location the event is started at.
+    random: false # For MoneyBomb and DJ: should items be thrown in circle or randomly?
+    broadcasted:
+      enabled: false  # Broadcast a message when this event is started?
+      message: '&a&lEl evento {name} &b&lha comenzado en {x} {y} {z}' # What message?
+      message-type: actionbar # Where? (actionbar, title or chat)
+    item-in-gui: # The item in the GUI.
+      id: GOLD_INGOT
+    firework-color: # Color of Firework in RGB, must be between 0 and 255!
+      red: 255
+      green: 255
+      blue: 0
+      random: false
+    Items:
+      tenCoins:
+        id: GOLD_INGOT # The item ID
+        amount: 1 # The item amount.
+        enchantments: [] # The enchantments. An example is given with the DjEvent.
+        custom-displayname:
+          enabled: true # want a custom display name?
+          name: '&6$1000'
+        lore: []
+        # The chance. Not in percents but out of the sum of all the
+        # chances of the items. So if you have:
+        # Item1: 10, Item2: 30, Item3: 5 it'll be 10/45(22,2%), 30/45(66,7%), and 5/45(11,1%) for the chances.
+        chance: 20
+        limit: -1 # limit of how many times this item can be dropped. -1 for no limit.
+        money-reward-on-pickup:
+          enabled: false # You want a money reward? Requires vault!
+          money-value: 1000 # The money reward value
+        # Commands executed by the console when a player picks up the item.
+        # {player} will be replaced by the player's name.
+        commands-on-pick-up:
+          enabled: true
+          cancel-pickup: true # if true, commands will be executed but the item will disappear, like with money.
+          commands:
+            - "eco give {player} 1000"
+      twoCoins:
+        id: GOLD_NUGGET
+        amount: 1
+        enchantments: []
+        custom-displayname:
+          enabled: true
+          name: '&6$100'
+        lore: []
+        chance: 80
+        limit: -1 # limit of how many times this item can be dropped. -1 for no limit.
+        money-reward-on-pickup:
+          enabled: false
+          money-value: 100
+        # Commands executed by the console when a player picks up the item.
+        # {player} will be replaced by the player's name.
+        commands-on-pick-up:
+          enabled: true
+          cancel-pickup: true # if true, commands will be executed but the item will disappear, like with money.
+          commands:
+            - "eco give {player} 100"
+  # This is an example default event. You can copy paste the whole config section of "MoneyBomb"
+  # and make more events!
+  DJEvent:
+    permission: magicalevents.djevent # The event permission.
+    name: '&d&lAdmin Party' # The event name.
+    type: dj # The event type. (bomb, dj or rain)
+    duration: 200 # The event duration in ticks, 1 second = 20 ticks.
+    total-items: 50 # Total items to be dropped.
+    radius: 5 # The event radius. It'll variate about the height also.
+    height: 0 # Only matters for rain. The height of the explosion above the location the event is started at.
+    broadcasted:
+      enabled: false  # Broadcast a message when this event is started?
+      message: '&6&l{player} has started a {name} event in {world} at {x} {y} {z}' # What message?
+      message-type: actionbar # Where? (actionbar, title or chat)
+    item-in-gui: # The item in the GUI.
+      id: MUSIC_DISC_MELLOHI
+    firework-color: # Color of Firework in RGB, must be between 0 and 255!
+      red: 255
+      green: 0
+      blue: 255
+      random: false
+    Items: # The items thrown in the event.
+      diamond:
+        id: DIAMOND # The item ID
+        amount: 1 # The item amount.
+        enchantments: [] # The enchantments. An example is given with the DjEvent.
+        custom-displayname:
+          enabled: false # want a custom display name?
+          name: diamond # What display name?
+        lore: [] # The lore, the description.
+        # The chance. Not in percents but out of the sum of all the
+        # chances of the items. So if you have:
+        # Item1: 10, Item2: 30, Item3: 5 it'll be 10/45(22,2%), 30/45(66,7%), and 5/45(11,1%) for the chances.
+        chance: 10
+        limit: -1 # limit of how many times this item can be dropped. -1 for no limit.
+        money-reward-on-pickup:
+          enabled: false # You want a money reward? Requires vault!
+          money-value: 0 # The money reward value
+        # Commands executed by the console when a player picks up the item.
+        # {player} will be replaced by the player's name.
+        commands-on-pick-up:
+          enabled: false
+          cancel-pickup: false # if true, commands will be executed but the item will disappear, like with money.
+          commands: [ ]
+      iron:
+        id: IRON_INGOT
+        data: 0
+        amount: 1
+        enchantments: []
+        custom-displayname:
+          enabled: false
+          name: iron
+        lore: []
+        chance: 50
+        limit: -1 # limit of how many times this item can be dropped. -1 for no limit.
+        money-reward-on-pickup:
+          enabled: false
+          money-value: 0
+        # Commands executed by the console when a player picks up the item.
+        # {player} will be replaced by the player's name.
+        commands-on-pick-up:
+          enabled: false
+          cancel-pickup: false # if true, commands will be executed but the item will disappear, like with money.
+          commands: [ ]
+      gold:
+        id: GOLD_INGOT
+        amount: 1
+        enchantments: []
+        custom-displayname:
+          enabled: false
+          name: gold
+        lore: []
+        chance: 30
+        limit: -1 # limit of how many times this item can be dropped. -1 for no limit.
+        money-reward-on-pickup:
+          enabled: false
+          money-value: 0
+        # Commands executed by the console when a player picks up the item.
+        # {player} will be replaced by the player's name.
+        commands-on-pick-up:
+          enabled: false
+          cancel-pickup: false # if true, commands will be executed but the item will disappear, like with money.
+          commands: []
+      emerald:
+        id: EMERALD
+        data: 0
+        amount: 1
+        enchantments: []
+        custom-displayname:
+          enabled: false
+          name: emerald
+        lore: []
+        chance: 10
+        limit: -1 # limit of how many times this item can be dropped. -1 for no limit.
+        money-reward-on-pickup:
+          enabled: false
+          money-value: 0
+        # Commands executed by the console when a player picks up the item.
+        # {player} will be replaced by the player's name.
+        commands-on-pick-up:
+          enabled: false
+          cancel-pickup: false # if true, commands will be executed but the item will disappear, like with money.
+          commands: []
+  RedRain:
+    permission: magicalevents.redrain # The event permission.
+    name: '&4&lRed Rain' # The event name.
+    type: rain # The event type. (bomb, dj or rain)
+    duration: 200 # The event duration in ticks, 1 second = 20 ticks. For rain, it's 12 ticks between each explosion of items.
+    total-items: 100 # Total items to be dropped.
+    items-per-explosion: 10 # Amount of items at each explosion. Here 10 items with 50 in total means 5 explosions in 5 seconds (100 ticks), so 1 second between each.
+    radius: 6 # The event radius. It'll variate about the height also.
+    height: 20 # Only matters for rain. The height of the explosion above the location the event is started at.
+    random: false # For MoneyBomb and DJ: should items be thrown in circle or randomly?
+    broadcasted:
+      enabled: false  # Broadcast a message when this event is started?
+      message: '&6&l{player} has started a {name} event in {world} at {x} {y} {z}' # What message?
+      message-type: actionbar # Where? (actionbar, title or chat)
+    item-in-gui: # The item in the GUI.
+      id: REDSTONE
+    firework-color: # Color of Fireworks in RGB, must be between 0 and 255!
+      red: 255
+      green: 0
+      blue: 0
+      random: false # if true, random fireworks will explode :D
+    Items: # The items thrown in the event.
+      redstone:
+        id: REDSTONE # The item ID
+        amount: 1 # The item amount.
+        enchantments: [] # The enchantments. An example is given with the DjEvent.
+        custom-displayname:
+          enabled: false # want a custom display name?
+          name: redstone # What display name?
+        lore: [] # The lore, the description.
+        # The chance. Not in percents but out of the sum of all the
+        # chances of the items. So if you have:
+        # Item1: 10, Item2: 30, Item3: 5 it'll be 10/45(22,2%), 30/45(66,7%), and 5/45(11,1%) for the chances.
+        chance: 50
+        limit: 25 # limit of how many times this item can be dropped. -1 for no limit.
+        money-reward-on-pickup:
+          enabled: false # You want a money reward? Requires vault!
+          money-value: 0 # The money reward value
+        # Commands executed by the console when a player picks up the item.
+        # {player} will be replaced by the player's name.
+        commands-on-pick-up:
+          enabled: false
+          cancel-pickup: false # if true, commands will be executed but the item will disappear, like with money.
+          commands: [ ]
+      piston:
+        id: PISTON
+        amount: 1
+        enchantments: []
+        custom-displayname:
+          enabled: false
+          name: piston
+        lore: []
+        chance: 20
+        limit: -1 # limit of how many times this item can be dropped. -1 for no limit.
+        money-reward-on-pickup:
+          enabled: false
+          money-value: 0
+        # Commands executed by the console when a player picks up the item.
+        # {player} will be replaced by the player's name.
+        commands-on-pick-up:
+          enabled: false
+          cancel-pickup: false # if true, commands will be executed but the item will disappear, like with money.
+          commands: [ ]
+      stickypiston:
+        id: STICKY_PISTON
+        amount: 1
+        enchantments: []
+        custom-displayname:
+          enabled: false
+          name: stickypiston
+        lore: []
+        chance: 10
+        limit: -1 # limit of how many times this item can be dropped. -1 for no limit.
+        money-reward-on-pickup:
+          enabled: false
+          money-value: 0
+        # Commands executed by the console when a player picks up the item.
+        # {player} will be replaced by the player's name.
+        commands-on-pick-up:
+          enabled: false
+          cancel-pickup: false # if true, commands will be executed but the item will disappear, like with money.
+          commands: [ ]
+      redtorch:
+        id: REDSTONE_TORCH
+        amount: 1
+        enchantments: []
+        custom-displayname:
+          enabled: false
+          name: redtorch
+        lore: []
+        chance: 20
+        limit: -1 # limit of how many times this item can be dropped. -1 for no limit.
+        money-reward-on-pickup:
+          enabled: false
+          money-value: 0
+        # Commands executed by the console when a player picks up the item.
+        # {player} will be replaced by the player's name.
+        commands-on-pick-up:
+          enabled: false
+          cancel-pickup: false # if true, commands will be executed but the item will disappear, like with money.
+          commands: [ ]
+      repeater:
+        id: REPEATER
+        amount: 1
+        enchantments: []
+        custom-displayname:
+          enabled: false
+          name: repeater
+        lore: []
+        chance: 20
+        limit: -1 # limit of how many times this item can be dropped. -1 for no limit.
+        money-reward-on-pickup:
+          enabled: false
+          money-value: 0
+        # Commands executed by the console when a player picks up the item.
+        # {player} will be replaced by the player's name.
+        commands-on-pick-up:
+          enabled: false
+          cancel-pickup: false # if true, commands will be executed but the item will disappear, like with money.
+          commands: []

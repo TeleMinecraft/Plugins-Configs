@@ -1,0 +1,15 @@
+Prefix: '&5MagicalEvents >'
+No-Permission: '{prefix} &cNo tienes permisos'
+Debug-On: '{prefix} &c&lDebug has been turned &a&lON'
+Debug-Off: '{prefix} &c&lDebug has been turned &4&lOFF'
+No-Permission-To-Event:
+  gui: '&cNo tienes permisos'
+  chat: '{prefix} &cNo tienes permisos'
+Error-Happened: '{prefix} &4Ocurrió un error inesperado!'
+Config-Reloaded: '{prefix} &c&lConfig reloaded!'
+money-reward:
+  item-name: '&e&l${money}'
+  action-bar-message:
+    enabled: false
+    message: '&e&l+ ${money}!'
+none: '&c&l-'

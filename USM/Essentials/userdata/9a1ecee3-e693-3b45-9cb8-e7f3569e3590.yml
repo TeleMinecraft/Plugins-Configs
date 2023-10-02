@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 179.60.71.248
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1690080719262
+  login: 1690080465773
+money: '0'
+last-account-name: Rockbaider
+logoutlocation:
+  world: 2e1ce19e-1f4f-4123-8c05-bbc1db660846
+  world-name: world
+  x: -85.88736844846859
+  y: 39.0
+  z: 70.01230953364256
+  yaw: -110.5728988647461
+  pitch: 27.455047607421875

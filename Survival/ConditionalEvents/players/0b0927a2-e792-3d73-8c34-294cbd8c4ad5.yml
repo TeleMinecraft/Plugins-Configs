@@ -1,0 +1,26 @@
+name: MonoMaczi
+events:
+  resistencia_y_skin_al_entrar:
+    one_time: false
+    cooldown: 1690841306262
+  mision_14:
+    one_time: false
+    cooldown: 1679351115101
+  descripcion_mision14:
+    one_time: false
+    cooldown: 1679362670600
+  mision_15:
+    one_time: false
+    cooldown: 1679362677608
+  mision_8:
+    one_time: false
+    cooldown: 1679362680354
+  descripcion_mision8:
+    one_time: false
+    cooldown: 1679362681303
+  descripcion_mision11:
+    one_time: false
+    cooldown: 1679362695499
+  descripcion_mision18:
+    one_time: false
+    cooldown: 1679362706955

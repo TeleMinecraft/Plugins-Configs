@@ -1,0 +1,98 @@
+timestamps:
+  login: 1689896719778
+  logout: 1689898461254
+  lastteleport: 1689897578183
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: 427.5
+  y: 54.0
+  z: -474.5
+  yaw: -90.0
+  pitch: 0.0
+  world-name: world
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: 416.6847493423374
+  y: 77.0
+  z: -480.8086309141821
+  yaw: -17.5506591796875
+  pitch: 28.350019454956055
+  world-name: world
+money: '34161558.54550000000264399'
+homes:
+  casa2:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: -4262.371883288564
+    y: 64.0
+    z: 2765.142520800881
+    yaw: 1.6983642578125
+    pitch: 14.383337020874023
+    world-name: world
+  endportal:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: -4012.3598021180146
+    y: 43.0
+    z: 3343.424122145288
+    yaw: 1.28173828125
+    pitch: 2.9999959468841553
+    world-name: world
+  casa4:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: -1374.6472184575678
+    y: 71.0625
+    z: -1032.9935308045453
+    yaw: 183.24139404296875
+    pitch: 14.22213363647461
+    world-name: world
+  quintillisas:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: -4067.9709457553267
+    y: 71.0
+    z: 1002.2795783994734
+    yaw: -328.4783935546875
+    pitch: 1.7257733345031738
+    world-name: world
+  aldeanos:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: 3616.713588209313
+    y: 70.0
+    z: 4106.3281062876
+    yaw: -183.59744262695312
+    pitch: -8.19381046295166
+    world-name: world
+  dripstone_caves:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: -4286.083546981464
+    y: 62.0
+    z: 10520.212839397998
+    yaw: 154.46356201171875
+    pitch: 35.69879913330078
+  cave_duo_biome:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: -3118.2157735445867
+    y: 98.0
+    z: 8956.378513735814
+    yaw: -59.16222381591797
+    pitch: 30.698932647705078
+afk: false
+nickname: §4§lR§c§li§6§lc§e§lh§a§la§b§lr§9§ld
+ip-address: 190.163.103.208
+last-account-name: Richard363
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+lastAccountName: Richard363
+ipAddress: 190.45.48.152

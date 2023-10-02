@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 201.188.230.72
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1665185012297
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1665187165819
+  login: 1665184277679
+money: '700.0'
+last-account-name: SombraA1231B
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 542.7834896071151
+  y: 79.0
+  z: -369.1635333783736
+  yaw: 64.4844970703125
+  pitch: 26.999948501586914
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 127.30000001192093
+  y: 73.0
+  z: -662.5429781600772
+  yaw: -12.89703369140625
+  pitch: 71.99980926513672

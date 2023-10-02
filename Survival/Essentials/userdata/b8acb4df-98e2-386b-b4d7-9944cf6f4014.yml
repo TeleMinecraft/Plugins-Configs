@@ -1,0 +1,28 @@
+lastAccountName: Killmine
+timestamps:
+  login: 1644967220586
+  logout: 1644967731078
+  lastteleport: 1644967572380
+ipAddress: 181.73.48.85
+lastlocation:
+  world: world
+  x: -512.5
+  y: 62.0
+  z: 2944.5
+  yaw: 45.000004
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: -529.4071002241575
+  y: 62.0625
+  z: 2943.027829920512
+  yaw: 231.44958
+  pitch: 7.7999935
+homes:
+  home:
+    world: world
+    x: -509.27652519873936
+    y: 62.0625
+    z: 2941.470029875418
+    yaw: 4.500046
+    pitch: 22.349987

@@ -1,0 +1,12 @@
+logoutlocation:
+  world: world
+  x: 0.5
+  y: 33.0
+  z: 0.5
+  yaw: 270.0
+  pitch: 0.0
+timestamps:
+  logout: 1603196373701
+  login: 1602997076583
+ip-address: 0.0.0.0
+last-account-name: centniqqa

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 45.238.21.131
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1651112604666
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1651112879834
+  login: 1651112854832
+money: '1000'
+last-account-name: _DrBlacky69_
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 417.96566046912125
+  y: 64.0
+  z: -514.5145688524465
+  yaw: -90.30013275146484
+  pitch: 15.74990463256836
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 449.5
+  y: 77.0
+  z: 528.5
+  yaw: -87.318359375
+  pitch: 36.14997482299805

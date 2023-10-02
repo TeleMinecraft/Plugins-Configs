@@ -1,0 +1,44 @@
+timestamps:
+  login: 1613006173829
+  logout: 1613006587815
+  lastteleport: 1612832003082
+lastlocation:
+  world: world
+  x: 482.30000001192093
+  y: 76.0
+  z: 503.7087197155312
+  yaw: -235.20642
+  pitch: -3.609099
+money: '1160084.3534999999999992'
+logoutlocation:
+  world: world
+  x: 1271.3557432091854
+  y: 69.0
+  z: 1860.090483853265
+  yaw: -259.12457
+  pitch: -0.520782
+homes:
+  home:
+    world: world
+    x: 1262.7462870537645
+    y: 70.0
+    z: 1857.1859542394504
+    yaw: -303.0027
+    pitch: 24.149973
+  japon:
+    world: world
+    x: -4468.001300794896
+    y: 71.0
+    z: 2892.581960782866
+    yaw: -56.759033
+    pitch: 8.031182
+  granja:
+    world: world
+    x: -4404.848931539624
+    y: 64.0
+    z: 2722.775917911202
+    yaw: -127.25903
+    pitch: 23.99999
+nickname: §4§lDex
+ip-address: 201.188.97.179
+last-account-name: Dex

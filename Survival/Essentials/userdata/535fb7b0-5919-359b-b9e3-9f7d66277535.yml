@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 181.43.201.224
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1665539167116
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1665539190408
+  login: 1665534826602
+money: '102158.8870000000000444'
+last-account-name: Raiden383
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 1633.9300522440833
+  y: 22.0
+  z: -1753.4352940544152
+  yaw: -178.64453125
+  pitch: 19.199974060058594
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 1469.1788058710333
+  y: 65.0
+  z: -601.3780249073309
+  yaw: -179.69927978515625
+  pitch: 12.9000244140625
+homes:
+  home:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: 1452.0000569485649
+    y: 76.0
+    z: -603.0662321942867
+    yaw: -90.15019226074219
+    pitch: 24.599990844726562

@@ -1,0 +1,38 @@
+timestamps:
+  login: 1660009534545
+  logout: 1660011412650
+  lastteleport: 1597973269629
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+lastlocation:
+  world: world
+  x: 414.60011060740277
+  y: 64.0
+  z: -519.9013013114245
+  yaw: 355.2020263671875
+  pitch: 10.49996280670166
+  world-name: ''
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: 63.43958365525724
+  y: 87.0
+  z: -983.2773566507117
+  yaw: -100.66419219970703
+  pitch: 14.904043197631836
+  world-name: world
+money: '1212202'
+ip-address: 200.83.41.135
+last-account-name: Drigo
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false

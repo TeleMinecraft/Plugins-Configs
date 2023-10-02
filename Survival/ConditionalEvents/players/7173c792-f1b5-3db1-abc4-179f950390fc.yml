@@ -1,0 +1,5 @@
+name: DesiList753
+events:
+  resistencia_y_skin_al_entrar:
+    one_time: false
+    cooldown: 1677909509148

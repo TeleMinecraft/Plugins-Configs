@@ -1,0 +1,16 @@
+playername: juako_tortuga_XD
+lang: es_ES
+minerate-full-mined: 22
+minerate:
+  diamond: 0
+  gold: 0
+  iron: 0
+  coal: 0
+  ancient debris: 0
+better-click: 8
+cheats:
+  speed: 4
+  timer: 58
+  pingspoof: 5
+  nofall: 1
+creation-time: 1622149787902

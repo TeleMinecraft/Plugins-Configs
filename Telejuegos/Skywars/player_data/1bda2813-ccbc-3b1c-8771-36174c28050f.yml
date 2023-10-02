@@ -1,0 +1,15 @@
+wins: 1
+losses: 0
+kills: 1
+deaths: 0
+pareffect: none
+proeffect: none
+glasscolor: none
+winsound: none
+killsound: none
+taunt: izi
+uuid: 1bda2813-ccbc-3b1c-8771-36174c28050f
+player_name: zappash1
+xp: 8
+permissions:
+- sw.taunt.izi

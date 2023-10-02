@@ -1,0 +1,2 @@
+2022-02-12 18:57:32.444: (0ms) 100% BLINK > PositionLook packet: 0 Position Packet: 104 (=104) Ping: 0 Warn for Timer: 0. Player version: V1_16. TPS: [20.000037287948093, 20.036149277957396, 20.054748448612237]
+2022-02-12 18:57:34.442: (0ms) 100% BLINK > PositionLook packet: 0 Position Packet: 120 (=120) Ping: 0 Warn for Timer: 1. Player version: V1_16. TPS: [20.000034304912244, 20.0355528148711, 20.05444733214487]

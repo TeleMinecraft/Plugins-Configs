@@ -1,0 +1,329 @@
+#
+#  event10:
+#    type: player_join
+#    conditions:
+#    - '%luckperms_primary_group_name% !equals owner'
+#    - '%luckperms_primary_group_name% !equals admin'
+#    - '%luckperms_primary_group_name% !equals constructor'
+#    - '%luckperms_primary_group_name% !equals vip'
+#    - '%luckperms_primary_group_name% !equals funa'
+#    actions:
+#      default:
+#      - 'wait: 5'
+#      - 'console_command: lp user %player% parent set vip'
+#      - 'message: &a&lFelicidades! Has desbloqueado las recompensas exclusivas del mes de febrero!'
+#      - 'message: &7Disfruta del rango &d&l&oVIP &7y sus beneficios!'
+#      - 'message: &7Entra al &eSurvival &7para recibir más recompensas!'
+#      - 'message: &7Entra a los &5Teljuegos &7para recibir más recompensas!'
+
+Messages:
+  prefix: '&4[&bConditionalEvents&4] '
+  commandReload: '&aConfig Reloaded.'
+  commandNoPermissions: '&cYou don''t have permissions to use this command.'
+  commandResetError: '&cUse &7/ce reset <player> <event>'
+  eventDoesNotExists: '&cThat event doesn''t exists on the config.'
+  cooldownReset: '&aCooldown was reset for player &e%player% &aon event &e%event%&a!'
+  seconds: s
+  minutes: m
+  hours: h
+  days: d
+  eventEnableError: '&cUse &7/ce enable <event>'
+  eventDisableError: '&cUse &7/ce disable <event>'
+  eventEnabled: '&aEvent &7%event% &aenabled.'
+  eventDisabled: '&aEvent &7%event% &adisabled.'
+  placeholderAPICooldownReady: Ready!
+  placeholderAPICooldownNameError: No event with that name!
+  eventDataResetAll: '&aAll data reset for player &e%player%&a!'
+  eventDataReset: '&aData reset for player &e%player% &aon event &e%event%&a!'
+  commandDebugError: '&cUse &7/ce debug <event>'
+  debugEnabled: '&aDebug now enabled for event &7%event%&a!'
+  debugDisabled: '&aDebug disabled for event &7%event%&a!'
+  onlyPlayerCommand: '&cThis command can be only used by a player.'
+  playerDoesNotExists: '&cThat player doesn''''t have any data.'
+  debugEnabledPlayer: '&aDebug now enabled for event &7%event% &aand player &7%player%&a!'
+  debugDisabledPlayer: '&aDebug disabled for event &7%event% &aand player &7%player%&a!'
+  eventDataResetForAllPlayers: '&aData reset for &eall players &aon event &e%event%&a!'
+  eventDataResetAllForAllPlayers: '&aAll player data reset.'
+  commandCallError: '&cUse &7/ce call <event> (optional)%variable1%=<value1>;%variableN%=<valueN>'
+  commandCallInvalidEvent: '&cYou can only execute a CALL event.'
+  commandCallCorrect: '&aEvent &7%event% &asuccessfully executed.'
+  commandCallFailed: '&cEvent &7%event% &ccould not be executed. Maybe a format error?'
+Events:
+  owner_join:
+    type: player_join
+    conditions:
+    - '%player% equals Storbo execute actions1'
+    - '%player% !equals Storbo execute actions2'
+    actions:
+      actions1:
+      - 'console_command: execute at Storbo run summon minecraft:lightning_bolt'
+      - 'console_command: title %player% title {"text":"Bienvenid@ %player%","color":"aqua"}'
+      - 'console_command: title %player% subtitle ["",{"text":"Pásala bien en el TeleServer!
+        ","color":"gray"}]'
+      actions2:
+      - 'console_command: title %player% title {"text":"Bienvenid@ %player%","color":"aqua"}'
+      - 'console_command: title %player% subtitle ["",{"text":"Pásala bien en el TeleServer!
+        ","color":"gray"}]'
+  motd:
+    type: player_join
+    conditions:
+    - '%random_1_8% > 0'
+    actions:
+      default:
+      - 'message: &b------------------------------'
+      - 'message: &3         Hola %luckperms_prefix%%player%&3!'
+      - 'message: &3   Actualmente estás en el &9Lobby'
+      - 'message: &b------------------------------'
+  rotating_heads:
+    type: player_join
+    conditions:
+    - '%random_1_10% >= 0'
+    actions:
+      default:
+      - 'wait: 10'
+      - 'console_command: hd reload'
+      - 'console_command: dh reload'
+  skin_set:
+    type: player_join
+    conditions:
+    - '%random_1_3% >= 1'
+    actions:
+      default:
+      - 'wait: 5'
+      - 'console_command: skin set %player% %player%'
+  warp_survival:
+    type: block_interact
+    conditions:
+    - '%block_x% == 0'
+    - '%block_y% == 32'
+    - '%block_z% == -7'
+    - '%block_world% equals world'
+    - '%block% equals LIGHT_WEIGHTED_PRESSURE_PLATE'
+    - '%action_type% equals PHYSICAL'
+    actions:
+      default:
+      - 'player_command_as_op: essentials:warp Survival'
+      - 'title: 20;40;20;%rgb_gradient_#009F07:#FBFF00_Sección Survival%;none'
+      - 'playsound: ENTITY_ENDERMAN_TELEPORT;10;0.1'
+  warp_info:
+    type: block_interact
+    conditions:
+    - '%block_x% == 7'
+    - '%block_y% == 32'
+    - '%block_z% == 0'
+    - '%block_world% equals world'
+    - '%block% equals LIGHT_WEIGHTED_PRESSURE_PLATE'
+    - '%action_type% equals PHYSICAL'
+    actions:
+      default:
+      - 'player_command_as_op: essentials:warp Info'
+      - 'title: 20;40;20;%rgb_gradient_#FFFFFF:#000000_Sección Info%;none'
+      - 'playsound: ENTITY_ENDERMAN_TELEPORT;10;0.1'
+  warp_usm:
+    type: block_interact
+    conditions:
+    - '%block_x% == 0'
+    - '%block_y% == 32'
+    - '%block_z% == 7'
+    - '%block_world% equals world'
+    - '%block% equals LIGHT_WEIGHTED_PRESSURE_PLATE'
+    - '%action_type% equals PHYSICAL'
+    actions:
+      default:
+      - 'player_command_as_op: essentials:warp USM'
+      - 'title: 20;40;20;%rgb_gradient_#00E8FF:#005A5B_Sección USM%;none'
+      - 'playsound: ENTITY_ENDERMAN_TELEPORT;10;0.1'
+  warp_telejuegos:
+    type: block_interact
+    conditions:
+    - '%block_x% == -7'
+    - '%block_y% == 32'
+    - '%block_z% == 0'
+    - '%block_world% equals world'
+    - '%block% equals LIGHT_WEIGHTED_PRESSURE_PLATE'
+    - '%action_type% equals PHYSICAL'
+    actions:
+      default:
+      - 'player_command_as_op: essentials:warp Telejuegos'
+      - 'title: 20;40;20;%rgb_gradient_#5F0082:#FF00E4_Sección Telejuegos%;none'
+      - 'playsound: ENTITY_ENDERMAN_TELEPORT;10;0.1'
+  into_survival:
+    type: custom
+    custom_event_data:
+      event: net.raidstone.wgevents.events.RegionEnteredEvent
+      variables_to_capture:
+      - '%region%;getRegionName()'
+      player_variable: getPlayer()
+    conditions:
+    - '%region% equals enter_survival'
+    actions:
+      default:
+      - 'actionbar: #52F2FF&lUsa click izq/der para avanzar/retroceder en los hologramas!;100'
+  arenaIN:
+    type: custom
+    custom_event_data:
+      event: net.raidstone.wgevents.events.RegionEnteredEvent
+      variables_to_capture:
+      - '%region%;getRegionName()'
+      player_variable: getPlayer()
+    conditions:
+    - '%region% equals ring'
+    actions:
+      default:
+      - 'console_command: minecraft:clear %player% minecraft:nether_star 1'
+      - 'console_command: kit give arena %player%'
+  arenaOUT:
+    type: custom
+    custom_event_data:
+      event: net.raidstone.wgevents.events.RegionLeftEvent
+      variables_to_capture:
+      - '%region%;getRegionName()'
+      player_variable: getPlayer()
+    conditions:
+    - '%region% equals ring'
+    actions:
+      default:
+      - 'console_command: minecraft:clear %player% minecraft:stick'
+      - 'console_command: minecraft:clear %player% minecraft:leather_helmet'
+      - 'console_command: cp panel-1 item %player%'
+      - 'console_command: effect give %player% minecraft:instant_health 1 100 true'
+      - 'console_command: effect give %player% minecraft:saturation 1 100 true'
+  secciones:
+    type: custom
+    custom_event_data:
+      event: net.raidstone.wgevents.events.RegionEnteredEvent
+      variables_to_capture:
+      - '%region%;getRegionName()'
+      player_variable: getPlayer()
+    conditions:
+    - '%region% equals seccion_info execute actions1'
+    - '%region% equals seccion_survival execute actions2'
+    - '%region% equals seccion_telejuegos execute actions3'
+    - '%region% equals seccion_usm execute actions4'
+    - '%region% equals survival_oculta execute actions5'
+    actions:
+      actions1:
+      - 'console_command: ca set completed example seccion-info true %player%'
+      actions2:
+      - 'console_command: ca set completed example seccion-survival true %player%'
+      actions3:
+      - 'console_command: ca set completed example seccion-telejuegos true %player%'
+      actions4:
+      - 'console_command: ca set completed example seccion-usm true %player%'
+      actions5:
+      - 'console_command: ca set completed example zona-oculta true %player%'
+  juego_amarillo:
+    type: repetitive
+    repetitive_time: 10
+    conditions:
+    - '%objective_score_amarillo2% > 0'
+    - '%customadvancements_progress_example.juego-amarillo% == 0'
+    actions:
+      default:
+      - 'console_command: ca set completed example juego-amarillo true %player%'
+  juego_verde:
+    type: repetitive
+    repetitive_time: 10
+    conditions:
+    - '%objective_score_verde2% > 0'
+    - '%customadvancements_progress_example.juego-verde% == 0'
+    actions:
+      default:
+      - 'console_command: ca set completed example juego-verde true %player%'
+  juego_rojo:
+    type: repetitive
+    repetitive_time: 10
+    conditions:
+    - '%objective_score_rojo2% > 0'
+    - '%customadvancements_progress_example.juego-rojo% == 0'
+    actions:
+      default:
+      - 'console_command: ca set completed example juego-rojo true %player%'
+  juego_azul:
+    type: repetitive
+    repetitive_time: 10
+    conditions:
+    - '%objective_score_azul2% > 0'
+    - '%customadvancements_progress_example.juego-azul% == 0'
+    actions:
+      default:
+      - 'console_command: ca set completed example juego-azul true %player%'
+  logro_servidores:
+    type: repetitive
+    repetitive_time: 10
+    conditions:
+    - '%servervariables_value_server_survival% == 1'
+    - '%servervariables_value_server_telejuegos% == 1'
+    - '%servervariables_value_server_usm% == 1'
+    - '%customadvancements_progress_example.servidores% == 0'
+    actions:
+      default:
+      - 'console_command: ca set completed example servidores true %player%'
+  logro_inicio:
+    type: item_interact
+    conditions:
+    - '%item% == NETHER_STAR'
+    - '%customadvancements_progress_example.inicio% == 0'
+    actions:
+      default:
+      - 'console_command: ca set completed example inicio true %player%'
+  logro_npc:
+    type: citizens_right_click_npc
+    conditions:
+    - '%npc_id% >= 0'
+    - '%npc_id% < 6'
+    - '%customadvancements_progress_example.npc% == 0'
+    actions:
+      default:
+      - 'console_command: ca set completed example npc true %player%'
+  top_rojo:
+    type: repetitive
+    repetitive_time: 10
+    conditions:
+    - '%ajlb_position_objective_score_rojo2_alltime% < 4'
+    - '%customadvancements_progress_example.top-rojo% == 0'
+    actions:
+      default:
+      - 'console_command: ca set completed example top-rojo true %player%'
+  top_amarillo:
+    type: repetitive
+    repetitive_time: 10
+    conditions:
+    - '%ajlb_position_objective_score_amarillo2_alltime% < 4'
+    - '%customadvancements_progress_example.top-amarillo% == 0'
+    actions:
+      default:
+      - 'console_command: ca set completed example top-amarillo true %player%'
+  top_verde:
+    type: repetitive
+    repetitive_time: 10
+    conditions:
+    - '%ajlb_position_objective_score_verde2_alltime% < 4'
+    - '%customadvancements_progress_example.top-verde% == 0'
+    actions:
+      default:
+      - 'console_command: ca set completed example top-verde true %player%'
+  top_azul:
+    type: repetitive
+    repetitive_time: 10
+    conditions:
+    - '%ajlb_position_objective_score_azul2_alltime% < 4'
+    - '%customadvancements_progress_example.top-azul% == 0'
+    actions:
+      default:
+      - 'console_command: ca set completed example top-azul true %player%'
+  vip_rainbow:
+    type: player_join
+    conditions:
+    - '%vault_groups% contains vip'
+    actions:
+      default:
+      - 'console_command: eglow set %player% rainbow fast'
+
+
+
+Config:
+  update_notification: true
+  register_commands: []
+  data_save_time: 5
+  debug_actions: true

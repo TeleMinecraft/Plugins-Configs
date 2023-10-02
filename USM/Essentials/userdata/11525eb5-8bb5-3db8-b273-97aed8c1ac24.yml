@@ -1,0 +1,19 @@
+lastlocation:
+  world: world
+  x: 0.5
+  y: 33.0
+  z: 0.5
+  yaw: 270.0
+  pitch: 0.0
+timestamps:
+  login: 1614739578732
+  logout: 1614739582305
+logoutlocation:
+  world: world
+  x: 0.5
+  y: 33.0
+  z: 0.5
+  yaw: 270.0
+  pitch: 0.0
+ip-address: 186.34.43.20
+last-account-name: pankowsito

@@ -1,0 +1,111 @@
+tutorials:
+  Survival:
+    stats:
+      plays: 109
+    invisible: false
+    permission: false
+    block-chat: false
+    blocks-commands: false
+    rewards: []
+    command-whitelist: []
+    points:
+      '0':
+        type: TIMED
+        location: world 426.5 91.0 -503.5 135.0 45.0
+        time: 10.0
+        locplayer: false
+        locview: false
+        messages: []
+        commands:
+        - minecraft:gamemode adventure @p
+        title:
+          title: '&7&lLa &6&lCiudad'
+          subtitle: '&7Tu primer &nlugar de aparición'
+          fade-in: 20
+          stay: 150
+          fade-out: 20
+      '1':
+        type: TIMED
+        location: world 458.5 83.0 -492.5 75.0 0.0
+        time: 6.0
+        locplayer: false
+        locview: false
+        messages: []
+        commands: []
+        title:
+          title: '&7&lAquí verás'
+          subtitle: '&aTiendas&7, &dconsejos&7, &brecompensas &7y más...'
+          fade-in: 20
+          stay: 80
+          fade-out: 20
+      '2':
+        type: TIMED
+        location: world 409.5 84.0 -458.5 0.0 35.0
+        time: 6.0
+        locplayer: false
+        locview: false
+        messages: []
+        commands: []
+        title:
+          title: '&a&lTienda de XP'
+          subtitle: '&7Multiplicadores de &nexperiencia'
+          fade-in: 20
+          stay: 80
+          fade-out: 20
+      '3':
+        type: TIMED
+        location: world 396.5 82.0 -442.5 90.0 22.5
+        time: 6.0
+        locplayer: false
+        locview: false
+        messages: []
+        commands: []
+        title:
+          title: '&b&lRecompensas'
+          subtitle: '&eDiarias&7, &5Semanal &7y para &d&l&oVIPS'
+          fade-in: 20
+          stay: 80
+          fade-out: 20
+      '4':
+        type: TIMED
+        location: world 437.5 86.0 515.5 -75.0 22.5
+        time: 10.0
+        locplayer: false
+        locview: false
+        messages: []
+        commands: []
+        title:
+          title: '&7&lEl &9&lPoblado'
+          subtitle: '&aTeleBazar&7, &1iglesia&7, &5tienda oculta &7y más!'
+          fade-in: 20
+          stay: 150
+          fade-out: 20
+      '5':
+        type: TIMED
+        location: world 485.5 83.0 533.5 -167.5 22.5
+        time: 6.0
+        locplayer: false
+        locview: false
+        messages: []
+        commands: []
+        title:
+          title: '&7&lUsa &1&o/warps'
+          subtitle: '&7Para venir a estos &alugares especiales&7!'
+          fade-in: 20
+          stay: 80
+          fade-out: 20
+      '6':
+        type: TIMED
+        location: world 415.5 78.0 -514.5 0.0 0.0
+        time: 10.0
+        locplayer: false
+        locview: false
+        messages: []
+        commands:
+        - minecraft:gamemode survival @p
+        title:
+          title: '&aDisfruta del &eSurvival'
+          subtitle: '&7Recuerda usar /? si tienes dudas!'
+          fade-in: 20
+          stay: 150
+          fade-out: 20

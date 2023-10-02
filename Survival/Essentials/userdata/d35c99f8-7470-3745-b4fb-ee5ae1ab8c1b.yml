@@ -1,0 +1,29 @@
+timestamps:
+  login: 1613860431549
+  logout: 1613860448675
+  lastteleport: 1613860012392
+lastlocation:
+  world: world
+  x: 1183.8473455354062
+  y: 73.7531999805212
+  z: 1815.3971155402326
+  yaw: -275.67807
+  pitch: 9.605163
+money: '1396404.375'
+logoutlocation:
+  world: world
+  x: 1670.3922864567019
+  y: 68.0
+  z: 2026.3178975903377
+  yaw: -263.51102
+  pitch: 6.3386765
+homes:
+  home:
+    world: world
+    x: 1191.4653914378177
+    y: 71.0
+    z: 1817.54867164029
+    yaw: -264.17435
+    pitch: 24.96208
+ip-address: 200.86.112.11
+last-account-name: La_Moras

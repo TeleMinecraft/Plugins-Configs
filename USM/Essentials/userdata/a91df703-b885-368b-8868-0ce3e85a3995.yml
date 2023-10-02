@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 200.83.232.231
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1675039066015
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1682966907963
+  login: 1682966793031
+money: '0.0'
+last-account-name: elbeca
+logoutlocation:
+  world: 2e1ce19e-1f4f-4123-8c05-bbc1db660846
+  world-name: world
+  x: -60.287246742080654
+  y: 32.0
+  z: 65.41667375631383
+  yaw: 24.301124572753906
+  pitch: 18.450048446655273
+lastlocation:
+  world: 2e1ce19e-1f4f-4123-8c05-bbc1db660846
+  world-name: world
+  x: -11.5
+  y: 30.0
+  z: 12.5
+  yaw: 0.0
+  pitch: 0.0

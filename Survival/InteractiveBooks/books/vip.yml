@@ -1,0 +1,112 @@
+# This is an example book to show how to create one
+# Note: The placeholders in this book (like %player_name%) need PlaceholderAPI installed
+# with the proper expansion, see here for more informations: https://www.spigotmc.org/resources/placeholderapi.6245/
+
+# Item's name
+name: VIP
+
+# Book's title
+title: VIP
+
+# Book's author
+author: TeleServer
+
+# Book's generation
+# Valid values: ORIGINAL, COPY_OF_ORIGINAL, COPY_OF_COPY, TATTERED
+generation: ORIGINAL
+
+# Item's lore
+lore:
+- <light_purple>Todo sobre el <italic>VIP
+
+# Command to open this book
+# You can remove this by setting it to ''
+# Separate multiple commands with a space
+open_command: ''
+
+pages:
+  '1':
+  - '      <#FF00FF><bold>Rango <italic>VIP<reset>'
+  - ''
+  - '<black>Este rango se obtiene'
+  - '<black>haciendo una donación'
+  - '<black>de 1000 pesos o más,'
+  - '<black>este dinero se utiliza'
+  - '<black>en su mantención y'
+  - '<black>futuras mejoras.'
+  - ''
+  - '<black>Si decides obtenerlo,'
+  - '<black>tendrás este rango'
+  - '<black>durante 30 días'
+  - '<black>exactos desde el día'
+  - '<black>que hagas el aporte.'
+  '2':
+  - ' <#FF00FF><bold>Beneficios del <italic>VIP<reset>'
+  - ''
+  - '<#FF00FF>●<reset><hover:show_text:"<green>Podrás usar el comando <gold><italic>/tpa<green> en cualquier momento"><black>Acceso a <dark_blue><bold>/tpa<reset>'
+  - '<#FF00FF>●<reset><hover:show_text:"<green>Acceso a <gold>7<green> homes diferentes en el <dark_green>Survival"><black>Hasta <bold>7 <black>homes<reset>'
+  - '<#FF00FF>●<reset><hover:show_text:"<green>Rol en el <blue>Discord<green> del TeleServer"><black>Rol exclusivo en<reset> <click:open_url:"http://dc.teleserver.network/"><hover:show_text:"<blue>Discord Oficial"><blue><bold>DC<reset>'
+  - '<#FF00FF>●<reset><hover:show_text:"<green>Acceso a poder reclamar <gold>mayor <green>cantidad de terrenos en el <dark_green>Survival<green> con los <dark_green>Bloques de Protección"><black>Mayores terrenos<reset>'
+  - '<#FF00FF>●<reset><hover:show_text:"<green>Los cosméticos de <aqua><bold>Sky<aqua><bold>Wars<reset><green> serán totalmente gratuitos para tí"><black>Cosméticos gratis<reset>'
+  - '<#FF00FF>●<reset><hover:show_text:"<green>Tendrás acceso a las novedades del servidor <dark_green><underlined>antes que todos los demás"><black>Acceso anticipado<reset>'
+  - '<#FF00FF>●<reset><hover:show_text:"<green>A través del comando <gold><italic>/nick [apodo]<reset> <green>podrás establecer tu apodo personalizado que verán todos los demás cuando hables en el chat"><black>Apodo personalizado<reset>'
+  - '<#FF00FF>●<reset><hover:show_text:"<green>En el mundo de <dark_green>Tiendas de jugadores<green>, tendrás acceso a <gold>2 parcelas <green>para construir tu <dark_green>Tienda"><black>Tiendas más grandes<reset>'
+  - '<#FF00FF>●<reset><hover:show_text:"<green>En el mundo de <dark_green>Tiendas de jugadores<green>, tendrás acceso a mayor variedad de <gold>mobs <green>para vender items en tu <dark_green>Tienda"><black>Mejores Tiendas<reset>'
+  - '<#FF00FF>●<reset><hover:show_text:"<green>Recibe 3 <yellow>Llaves Diarias <green>extra cada 5 días"><black>Más Llaves Diarias<reset>'
+  - '<#FF00FF>●<reset><hover:show_text:"<green>Recibe 3 <dark_purple>Llaves Semanales <green>extra cada 10 días"><black>Más Llaves Semanal<reset>'
+  - '<#FF00FF>●<reset><hover:show_text:"<green>Al escribir en el chat se verá de un <gold>color distintivo"><black>Color especial<reset>'
+  '3':
+  - ' <light_purple><bold>Beneficios del <italic>VIP<reset>'
+  - ''
+  - '<#FF00FF>●<reset><hover:show_text:"<green>Tendrás acceso a escribir en el chat con distintos <gold>colores <green>y <gold>formatos"><black>Chat mejorado<reset>'
+  - '<#FF00FF>●<reset><hover:show_text:"<green>Al morir en el <dark_green>Survival <green>tus tumbas durarán el <gold>3hrs <green>(el triple de lo normal)"><black>Tumbas duraderas<reset>'
+  - '<#FF00FF>●<reset><hover:show_text:"<green>Cada mes en el <light_purple>Instagram<green> oficial del servidor verás una pequeña mención y agradecimiento por tu aporte <light_purple>❤"><black>Mención especial <dark_red>❤<reset>'
+  - ''
+  - '<#FF00FF>●<reset><hover:show_text:"<green>Rebajas en Tiendas del <dark_green>Survival"><black><bold>Descuentos:<reset>'
+  - '<hover:show_text:"<green>Paga un <gold>10%<green> menos en tus compras en la principal Tienda de jugadores"><dark_green>10% <black>TeleBazar<reset>'
+  - '<hover:show_text:"<green>Paga un <gold>20%<green> menos al comprar Cajas de Recompensas"><dark_green>20% <black>Tienda de Cajas<reset>'
+  - '<hover:show_text:"<green>Paga un <gold>30%<green> menos al comprar minerales"><dark_green>30% <black>Tienda Minerales<reset>'
+  '4':
+  - '  <#FF00FF><bold>Quiero tener <italic>VIP<reset>'
+  - ''
+  - '<black><bold>Cómo lo obtengo?<reset>'
+  - '<black>Háblanos en <hover:show_text:"<aqua>@teleminecraft.s"><click:open_url:"http://in.teleserver.network/"><dark_blue>instagram<reset>'
+  - '<black>o por <hover:show_text:"<blue>Discord Oficial"><click:open_url:"http://dc.teleserver.network/"><blue>discord<reset> <black>en el'
+  - '<black>canal <italic>#donaciones-vip<reset>'
+  - '<black>y luego realiza la'
+  - '<black>transferencia, éstas'
+  - '<black>son nuetras opciones:'
+  - ''
+  - '<hover:show_text:"<yellow>Haz click aquí para ver los datos de la cuenta a la que debes transferir"><click:open_url:"https://drive.google.com/file/d/1u-_AOO3a3gNzPu0Xzrw51eQG9q8xSKS8/view?usp=sharing"><gold>Transferencia normal<reset>'
+  - '<hover:show_text:"<light_purple>Haz click aquí para ir al link de cobro de MACH"><click:open_url:"https://bajamach.com/YSaL5B1xS8"><dark_purple>Pago por <bold>MACH<reset>'
+  - ''
+  - ' <click:run_command:/ib open help><hover:show_text:"<gray>Click para ir al inicio <br><gray>del libro de <green><underlined>ayuda"><dark_aqua><bold>><color:#00DC85><bold><underlined>Volver al índice<reset><dark_aqua><bold><<reset>'
+
+
+# For the placeholders to work correctly
+# you should download the Player and Vault
+# extensions for PlaceholderAPI:
+# /papi ecloud download Player
+# /papi ecloud download Vault
+# /papi reload
+
+#________________________________________________
+#-Acceso a /tpa
+#-Hasta 7 homes en Survival
+#-10% de descuento en el TeleBazar
+#-30% de descuento en la Tienda de Minerales
+#-20% de descuento en la Tienda de Cajas
+#-20% de descuento en Multiplicadores de XP
+#-Rol en el Discord del Server
+#-Acceso a poder reclamar mayor cantidad de terrenos con los Bloques de Protección
+#-Cosméticos gratuitos en SkyWars
+#-Acceso anticipado a novedades
+#-Apodos personalizados con /nick [apodo]
+#-Mención mensual especial en nuestro Instagram
+#-En el mundo de Tiendas de jugadores, tienes acceso a 2 parcelas para crear tu Tienda
+#-Mayor variedad de mobs para vender items en tu Tienda
+#-3 llaves diarias extra cada 5 días
+#-3 llaves semanales extra cada 10 días
+#-Color especial en el chat por defecto
+#-Acceso a escribir con colores y formatos en el chat
+#-Las tumbas con tus items al morir en el Survival duran 3hrs

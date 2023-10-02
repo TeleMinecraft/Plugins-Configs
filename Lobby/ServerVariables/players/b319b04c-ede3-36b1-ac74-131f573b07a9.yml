@@ -1,0 +1,5 @@
+name: Storbo
+variables:
+  server_telejuegos: '1'
+  server_survival: '1'
+  server_usm: '1'

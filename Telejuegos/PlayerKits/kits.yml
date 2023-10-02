@@ -1,0 +1,3090 @@
+Kits:
+  Wood:
+    slot: 1
+    display_item: OAK_LOG
+    display_name: '&4&lWild Druid Kit'
+    display_lore:
+    - ''
+    - '&4Wood Grip'
+    - '&4Natural Healing'
+    - '&4Rooting'
+    cooldown: 0
+    permission: playerkits.kit.Wood
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&6&lWood &aKit'
+      display_lore:
+      - '&cYou don''t have permissions to claim'
+      - '&cthis kit.'
+    auto_armor: true
+    Commands:
+    - attribute %player% generic.max_health base set 86
+    - attribute %player% generic.movement_speed base set 0.1
+    - attribute %player% generic.attack_damage base set -1
+    - attribute %player% generic.armor base set 8
+    - scoreboard players reset %player% Pcorazon
+    - scoreboard players reset %player% Pfuego
+    - scoreboard players reset %player% Prayo
+    - scoreboard players reset %player% Pslime
+    - scoreboard players reset %player% Pveneno
+    - scoreboard players reset %player% Phielo
+    - scoreboard players reset %player% Pguardian
+    - scoreboard players reset %player% Pmar
+    - scoreboard players reset %player% Pviento
+    - scoreboard players reset %player% Pender
+    - scoreboard players reset %player% Pflor
+    - scoreboard players reset %player% Ppuro
+    - scoreboard players reset %player% Phierro
+    - scoreboard players reset %player% Ptnt
+    - scoreboard players reset %player% Pwither
+    - scoreboard players set %player% Pmadera 1
+    Items:
+      '1':
+        nbt:
+        - Unbreakable;true;boolean
+        id: STONE_SWORD
+        amount: '1'
+        durability: '0'
+        name: '&fPower Sword'
+        enchants:
+        - LOOT_BONUS_BLOCKS;1
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 0
+      '2':
+        nbt:
+        - PublicBukkitValues;{"executableitems:ei-id":"grip","score:usage":-1};compound
+        id: STICK
+        amount: '1'
+        durability: '0'
+        name: '&4&lWood Grip'
+        lore:
+        - '&x&B&5&F&F&F&DAtrapa a tus enemigos'
+        - ''
+        - '&x&C&C&C&C&C&C&oCooldown: 7s'
+        unbreakable: 'false'
+        preview_slot: 1
+      '3':
+        nbt:
+        - PublicBukkitValues;{"executableitems:ei-id":"tree","score:usage":-1};compound
+        id: OAK_SAPLING
+        amount: '1'
+        durability: '0'
+        name: '&4&lNatural Healing'
+        lore:
+        - '&x&B&5&F&F&F&DRegenera vida'
+        - '&x&B&5&F&F&F&Dy te protege'
+        - ''
+        - '&x&C&C&C&C&C&C&oCooldown: 20s'
+        unbreakable: 'false'
+        preview_slot: 2
+      '4':
+        nbt:
+        - PublicBukkitValues;{"executableitems:ei-id":"root","score:usage":-1};compound
+        id: OAK_LOG
+        amount: '1'
+        durability: '0'
+        name: '&4&lRooting'
+        lore:
+        - '&x&B&5&F&F&F&DDesata el poder'
+        - '&x&B&5&F&F&F&Dde la naturaleza'
+        - ''
+        - '&x&C&C&C&C&C&C&oCooldown: 35s'
+        unbreakable: 'false'
+        preview_slot: 3
+      '5':
+        id: COOKED_BEEF
+        amount: '64'
+        durability: '0'
+        preview_slot: 4
+      '6':
+        skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzVlYWRlMDI5ZjE5ODlhMTE0NGU4MWRkOGJkZGM3ZGI1ODdiMTQ3NzQwNDA2Njc0MjM2YmU5MmQ3YzM1MmM1MSJ9fX0=
+        id: PLAYER_HEAD
+        amount: '1'
+        durability: '0'
+        name: '&4Wild Druid Head'
+        unbreakable: 'false'
+        preview_slot: 5
+      '7':
+        color: 6563840
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_CHESTPLATE
+        amount: '1'
+        durability: '0'
+        name: '&4Wooden Chestplate'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 6
+      '8':
+        color: 6563840
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_LEGGINGS
+        amount: '1'
+        durability: '0'
+        name: '&4Wooden Leggings'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 7
+      '9':
+        color: 6563840
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_BOOTS
+        amount: '1'
+        durability: '0'
+        name: '&4Wooden Boots'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 8
+  Heart:
+    slot: 2
+    display_item: NETHER_WART_BLOCK
+    display_name: '&c&lReaper of Life Kit'
+    display_lore:
+    - ''
+    - '&cFate Sealed'
+    - '&cHealing Wave'
+    - '&cPain Aura'
+    cooldown: 0
+    permission: playerkits.kit.Corazon
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&6&lCorazon &aKit'
+      display_lore:
+      - '&cYou don''t have permissions to claim'
+      - '&cthis kit.'
+    auto_armor: true
+    Commands:
+    - attribute %player% generic.movement_speed base set 0.14
+    - attribute %player% generic.max_health base set 86
+    - attribute %player% generic.attack_damage base set -1
+    - attribute %player% generic.armor base set 2
+    - scoreboard players reset %player% Pmadera
+    - scoreboard players reset %player% Pfuego
+    - scoreboard players reset %player% Prayo
+    - scoreboard players reset %player% Pslime
+    - scoreboard players reset %player% Pveneno
+    - scoreboard players reset %player% Phielo
+    - scoreboard players reset %player% Pguardian
+    - scoreboard players reset %player% Pmar
+    - scoreboard players reset %player% Pviento
+    - scoreboard players reset %player% Pender
+    - scoreboard players reset %player% Pflor
+    - scoreboard players reset %player% Ppuro
+    - scoreboard players reset %player% Phierro
+    - scoreboard players reset %player% Ptnt
+    - scoreboard players reset %player% Pwither
+    - scoreboard players set %player% Pcorazon 1
+    Items:
+      '1':
+        nbt:
+        - Unbreakable;true;boolean
+        id: STONE_SWORD
+        amount: '1'
+        durability: '0'
+        name: '&fPower Sword'
+        enchants:
+        - LOOT_BONUS_BLOCKS;1
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 0
+      '2':
+        nbt:
+        - PublicBukkitValues;{"executableitems:ei-id":"seal","score:usage":-1};compound
+        id: NETHER_WART
+        amount: '1'
+        durability: '0'
+        name: '&c&lFate Sealed'
+        lore:
+        - '&x&B&5&F&F&F&DMarca a tus oponentes'
+        - ''
+        - '&x&C&C&C&C&C&C&oCooldown: 5s'
+        unbreakable: 'false'
+        preview_slot: 1
+      '3':
+        nbt:
+        - PublicBukkitValues;{"executableitems:ei-id":"heal","score:usage":-1};compound
+        id: APPLE
+        amount: '1'
+        durability: '0'
+        name: '&c&lHealing Wave'
+        lore:
+        - '&x&B&5&F&F&F&DCura en un'
+        - '&x&B&5&F&F&F&Dárea pequeña'
+        - ''
+        - '&x&C&C&C&C&C&C&oCooldown: 30s'
+        unbreakable: 'false'
+        preview_slot: 2
+      '4':
+        nbt:
+        - PublicBukkitValues;{"executableitems:ei-id":"pain","score:usage":-1};compound
+        id: NETHER_WART_BLOCK
+        amount: '1'
+        durability: '0'
+        name: '&c&lPain Aura'
+        lore:
+        - '&x&B&5&F&F&F&DMaldice a un jugador'
+        - '&x&B&5&F&F&F&Den un aura de agonía'
+        - ''
+        - '&x&C&C&C&C&C&C&oCooldown: 45s'
+        unbreakable: 'false'
+        preview_slot: 3
+      '5':
+        id: COOKED_BEEF
+        amount: '32'
+        durability: '0'
+        preview_slot: 4
+      '6':
+        skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWI4MGZkOTlmMzgwNDgyM2JiZjE2YjhmZjJjMTk5OGU1OGQ4ZjQ1MThiZmU0ZGY3MDE2MzMyOTI4NDZlZDg3MSJ9fX0=
+        id: PLAYER_HEAD
+        amount: '1'
+        durability: '0'
+        name: '&cReaper of Life Head'
+        unbreakable: 'false'
+        preview_slot: 5
+      '7':
+        color: 16711680
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_CHESTPLATE
+        amount: '1'
+        durability: '0'
+        name: '&cCrimson Chestplate'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 6
+      '8':
+        color: 16711680
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_LEGGINGS
+        amount: '1'
+        durability: '0'
+        name: '&cCrimson Leggings'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 7
+      '9':
+        color: 16711680
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_BOOTS
+        amount: '1'
+        durability: '0'
+        name: '&cCrimson Boots'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 8
+  Fire:
+    slot: 3
+    display_item: MAGMA_BLOCK
+    display_name: '&6&lPyromaniac Kit'
+    display_lore:
+    - ''
+    - '&6Fire Orb'
+    - '&6Igneous Wand'
+    - '&6Unleashing Inferno'
+    cooldown: 0
+    permission: playerkits.kit.Fire
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&6&lFire &aKit'
+      display_lore:
+      - '&cYou don''t have permissions to claim'
+      - '&cthis kit.'
+    auto_armor: true
+    Commands:
+    - attribute %player% generic.movement_speed base set 0.12
+    - attribute %player% generic.max_health base set 44
+    - attribute %player% generic.attack_damage base set 2.7
+    - attribute %player% generic.armor base set -0.5
+    - scoreboard players reset %player% Pmadera
+    - scoreboard players reset %player% Pcorazon
+    - scoreboard players reset %player% Prayo
+    - scoreboard players reset %player% Pslime
+    - scoreboard players reset %player% Pveneno
+    - scoreboard players reset %player% Phielo
+    - scoreboard players reset %player% Pguardian
+    - scoreboard players reset %player% Pmar
+    - scoreboard players reset %player% Pviento
+    - scoreboard players reset %player% Pender
+    - scoreboard players reset %player% Pflor
+    - scoreboard players reset %player% Ppuro
+    - scoreboard players reset %player% Phierro
+    - scoreboard players reset %player% Ptnt
+    - scoreboard players reset %player% Pwither
+    - scoreboard players set %player% Pfuego 1
+    Items:
+      '1':
+        nbt:
+        - Unbreakable;true;boolean
+        id: STONE_SWORD
+        amount: '1'
+        durability: '0'
+        name: '&fPower Sword'
+        enchants:
+        - LOOT_BONUS_BLOCKS;1
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 0
+      '2':
+        nbt:
+        - PublicBukkitValues;{"executableitems:ei-id":"fire","score:usage":-1};compound
+        id: FIRE_CHARGE
+        amount: '1'
+        durability: '0'
+        name: '&6&lFire orb'
+        lore:
+        - '&x&B&5&F&F&F&DGenera una bola'
+        - '&x&B&5&F&F&F&Dde fuego lanzable'
+        - ''
+        - '&x&C&C&C&C&C&C&oCooldown: 7s'
+        unbreakable: 'false'
+        preview_slot: 1
+      '3':
+        nbt:
+        - PublicBukkitValues;{"executableitems:ei-id":"wand","score:usage":-1};compound
+        id: BLAZE_ROD
+        amount: '1'
+        durability: '0'
+        name: '&6&lIgneous Wand'
+        lore:
+        - '&x&B&5&F&F&F&DLanza 3 llamaradas que'
+        - '&x&B&5&F&F&F&Dqueman a tus enemigos'
+        - ''
+        - '&x&C&C&C&C&C&C&oCooldown: 10s'
+        unbreakable: 'false'
+        preview_slot: 2
+      '4':
+        nbt:
+        - PublicBukkitValues;{"executableitems:ei-id":"hell","score:usage":-1};compound
+        id: MAGMA_BLOCK
+        amount: '1'
+        durability: '0'
+        name: '&6&lUnleashing Inferno'
+        lore:
+        - '&x&B&5&F&F&F&DDesata el apocalipsis'
+        - ''
+        - '&x&C&C&C&C&C&C&oCooldown: 25s'
+        unbreakable: 'false'
+        preview_slot: 3
+      '5':
+        id: COOKED_BEEF
+        amount: '32'
+        durability: '0'
+        preview_slot: 4
+      '6':
+        color: 16747520
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_BOOTS
+        amount: '1'
+        durability: '0'
+        name: '&6Magma Boots'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 5
+      '7':
+        color: 16747520
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_LEGGINGS
+        amount: '1'
+        durability: '0'
+        name: '&6Magma Leggins'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 6
+      '8':
+        color: 16419840
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_CHESTPLATE
+        amount: '1'
+        durability: '0'
+        name: '&6Magma Chestplate'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 7
+      '9':
+        skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzA0NTAxYjI5MjVkOTE3NTZkY2UzNTJmM2M0M2ZhOTVjOTE1YmY5NTJmNWM4YjgxM2M0Zjg0NmUwZjExZGUzNCJ9fX0=
+        id: PLAYER_HEAD
+        amount: '1'
+        durability: '0'
+        name: '&6Pyromaniac Head'
+        unbreakable: 'false'
+        preview_slot: 8
+  Light:
+    slot: 4
+    display_item: GLOWSTONE
+    display_name: '&e&lPaladin of Light'
+    display_lore:
+    - ''
+    - '&eMithril Axe'
+    - '&eTimeless Lapse'
+    - '&eLightning Strike'
+    cooldown: 0
+    permission: playerkits.kit.Light
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&6&lLight &aKit'
+      display_lore:
+      - '&cYou don''t have permissions to claim'
+      - '&cthis kit.'
+    auto_armor: true
+    Commands:
+    - attribute %player% generic.movement_speed base set 0.2
+    - attribute %player% generic.max_health base set 44
+    - attribute %player% generic.attack_damage base set 1.5
+    - attribute %player% generic.armor base set -2.5
+    - scoreboard players reset %player% Pmadera
+    - scoreboard players reset %player% Pcorazon
+    - scoreboard players reset %player% Pfuego
+    - scoreboard players reset %player% Pslime
+    - scoreboard players reset %player% Pveneno
+    - scoreboard players reset %player% Phielo
+    - scoreboard players reset %player% Pguardian
+    - scoreboard players reset %player% Pmar
+    - scoreboard players reset %player% Pviento
+    - scoreboard players reset %player% Pender
+    - scoreboard players reset %player% Pflor
+    - scoreboard players reset %player% Ppuro
+    - scoreboard players reset %player% Phierro
+    - scoreboard players reset %player% Ptnt
+    - scoreboard players reset %player% Pwither
+    - scoreboard players set %player% Prayo 1
+    Items:
+      '1':
+        nbt:
+        - Unbreakable;true;boolean
+        id: STONE_SWORD
+        amount: '1'
+        durability: '0'
+        name: '&fPower Sword'
+        enchants:
+        - LOOT_BONUS_BLOCKS;1
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 0
+      '2':
+        attributes:
+          GENERIC_ATTACK_SPEED:
+            modifiers:
+            - '&eDefault name;-3.5;ADD_NUMBER;bbc7c9e3-d73b-447e-8636-29a3f107fc12;HAND'
+          GENERIC_ATTACK_DAMAGE:
+            modifiers:
+            - '&eDefault name;5.0;ADD_NUMBER;1d2ff3b2-c548-4efd-8774-d5549bb355ce;HAND'
+        nbt:
+        - Unbreakable;true;boolean
+        - PublicBukkitValues;{"executableitems:ei-id":"axe","score:usage":-1};compound
+        id: GOLDEN_AXE
+        amount: '1'
+        durability: '0'
+        name: '&e&lMithril Axe'
+        lore:
+        - '&x&B&5&F&F&F&DLanza esta poderosa'
+        - '&x&B&5&F&F&F&Darma y disfruta viendo'
+        - '&x&B&5&F&F&F&Da tus enemigos caer'
+        - ''
+        - '&x&C&C&C&C&C&C&oCooldown: 7s'
+        enchants:
+        - PROTECTION_FALL;6
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        unbreakable: 'true'
+        preview_slot: 1
+      '3':
+        nbt:
+        - PublicBukkitValues;{"executableitems:ei-id":"time","score:usage":-1};compound
+        id: CLOCK
+        amount: '1'
+        durability: '0'
+        name: '&e&lTimeless Lapse'
+        lore:
+        - '&x&B&5&F&F&F&DDetiene tu flujo temporal'
+        - '&x&B&5&F&F&F&Dhaciéndote invulnerable'
+        - ''
+        - '&x&C&C&C&C&C&C&oCooldown: 30s'
+        unbreakable: 'false'
+        preview_slot: 2
+      '4':
+        nbt:
+        - PublicBukkitValues;{"executableitems:ei-id":"light","score:usage":-1};compound
+        id: GLOWSTONE
+        amount: '1'
+        durability: '0'
+        name: '&e&lLighting Strike'
+        lore:
+        - '&x&B&5&F&F&F&DGolpea a enemigos cercanos'
+        - '&x&B&5&F&F&F&Da la velocidad de la luz'
+        - ''
+        - '&x&C&C&C&C&C&C&oCooldown: 45s'
+        unbreakable: 'false'
+        preview_slot: 3
+      '5':
+        id: COOKED_BEEF
+        amount: '32'
+        durability: '0'
+        preview_slot: 4
+      '6':
+        color: 16776960
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_BOOTS
+        amount: '1'
+        durability: '0'
+        name: '&eElectric Boots'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 5
+      '7':
+        color: 16776960
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_LEGGINGS
+        amount: '1'
+        durability: '0'
+        name: '&eElectric Leggings'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 6
+      '8':
+        color: 16776960
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_CHESTPLATE
+        amount: '1'
+        durability: '0'
+        name: '&eElectric Chestplate'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 7
+      '9':
+        skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE0MzlhMDhlY2ZiOTNmMWU5OTdmOGRlYjZkMDdmMWU1OWY4NmRjN2M4NmM3OWU2MWU1ZjgwZjkwYzU3OWViNCJ9fX0=
+        id: PLAYER_HEAD
+        amount: '1'
+        durability: '0'
+        name: '&ePaladin of Light Head'
+        unbreakable: 'false'
+        preview_slot: 8
+  Slime:
+    slot: 5
+    display_item: SLIME_BLOCK
+    display_name: '&a&lSticky Warrior Kit'
+    display_lore:
+    - ''
+    - '&aSlime Jump'
+    - '&aSticky Trap'
+    - '&aSticky Punishment'
+    cooldown: 0
+    permission: playerkits.kit.Slime
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&6&lSlime &aKit'
+      display_lore:
+      - '&cYou don''t have permissions to claim'
+      - '&cthis kit.'
+    auto_armor: true
+    Commands:
+    - attribute %player% generic.movement_speed base set 0.16
+    - attribute %player% generic.max_health base set 34
+    - attribute %player% generic.attack_damage base set 1.5
+    - attribute %player% generic.armor base set -0.5
+    - scoreboard players reset %player% Pmadera
+    - scoreboard players reset %player% Pcorazon
+    - scoreboard players reset %player% Pfuego
+    - scoreboard players reset %player% Prayo
+    - scoreboard players reset %player% Pveneno
+    - scoreboard players reset %player% Phielo
+    - scoreboard players reset %player% Pguardian
+    - scoreboard players reset %player% Pmar
+    - scoreboard players reset %player% Pviento
+    - scoreboard players reset %player% Pender
+    - scoreboard players reset %player% Pflor
+    - scoreboard players reset %player% Ppuro
+    - scoreboard players reset %player% Phierro
+    - scoreboard players reset %player% Ptnt
+    - scoreboard players reset %player% Pwither
+    - scoreboard players set %player% Pslime 1
+    Items:
+      '1':
+        nbt:
+        - Unbreakable;true;boolean
+        id: STONE_SWORD
+        amount: '1'
+        durability: '0'
+        name: '&fPower Sword'
+        enchants:
+        - LOOT_BONUS_BLOCKS;1
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 0
+      '2':
+        nbt:
+        - PublicBukkitValues;{"executableitems:ei-id":"arrow","score:usage":-1};compound
+        id: SLIME_BALL
+        amount: '1'
+        durability: '0'
+        name: '&a&lSlime Jump'
+        lore:
+        - '&x&B&5&F&F&F&DLanzas una bola de'
+        - '&x&B&5&F&F&F&Dslime para escapar'
+        - ''
+        - '&x&C&C&C&C&C&C&oCooldown: 10s'
+        unbreakable: 'false'
+        preview_slot: 1
+      '3':
+        nbt:
+        - PublicBukkitValues;{"executableitems:ei-id":"sticky","score:usage":-1};compound
+        id: VINE
+        amount: '1'
+        durability: '0'
+        name: '&a&lSticky Trap'
+        lore:
+        - '&x&B&5&F&F&F&DRealentiza los movimientos'
+        - '&x&B&5&F&F&F&Dy ataques de tus enemigos'
+        - ''
+        - '&x&C&C&C&C&C&C&oCooldown: 7s'
+        unbreakable: 'false'
+        preview_slot: 2
+      '4':
+        nbt:
+        - PublicBukkitValues;{"executableitems:ei-id":"slime","score:usage":-1};compound
+        id: SLIME_BLOCK
+        amount: '1'
+        durability: '0'
+        name: '&a&lSticky Punishment'
+        lore:
+        - '&x&B&5&F&F&F&DUn ataque fulminante'
+        - '&x&B&5&F&F&F&Dque además ralentiza'
+        - ''
+        - '&x&C&C&C&C&C&C&oCooldown: 60s'
+        unbreakable: 'false'
+        preview_slot: 3
+      '5':
+        id: COOKED_BEEF
+        amount: '32'
+        durability: '0'
+        preview_slot: 4
+      '6':
+        color: 65280
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_BOOTS
+        amount: '1'
+        durability: '0'
+        name: '&aSticky Boots'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 5
+      '7':
+        color: 65280
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_LEGGINGS
+        amount: '1'
+        durability: '0'
+        name: '&aSticky Leggins'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 6
+      '8':
+        color: 65280
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_CHESTPLATE
+        amount: '1'
+        durability: '0'
+        name: '&aSticky Chestplate'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 7
+      '9':
+        skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjA0NTI1M2I2M2YyNjdjMDg4ODNjM2FiMzQ2MGEzZjllNzhkZTRjY2VhZDEwNGY2YzQxZjMyM2Y0OTRmMmVkNSJ9fX0=
+        id: PLAYER_HEAD
+        amount: '1'
+        durability: '0'
+        name: '&aSticky Warrior Head'
+        unbreakable: 'false'
+        preview_slot: 8
+  Poison:
+    slot: 6
+    display_item: GREEN_GLAZED_TERRACOTTA
+    display_name: '&2&lChernobyl U-235 Kit'
+    display_lore:
+    - ''
+    - '&2Hallucinogenic Blowgun'
+    - '&2Radioactive Potato'
+    - '&2Atomic Zone'
+    cooldown: 0
+    permission: playerkits.kit.Poison
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&6&lPoison &aKit'
+      display_lore:
+      - '&cYou don''t have permissions to claim'
+      - '&cthis kit.'
+    auto_armor: true
+    Commands:
+    - attribute %player% generic.movement_speed base set 0.1
+    - attribute %player% generic.max_health base set 70
+    - attribute %player% generic.attack_damage base set 2.1
+    - attribute %player% generic.armor base set 2
+    - scoreboard players reset %player% Pmadera
+    - scoreboard players reset %player% Pcorazon
+    - scoreboard players reset %player% Pfuego
+    - scoreboard players reset %player% Prayo
+    - scoreboard players reset %player% Pslime
+    - scoreboard players reset %player% Phielo
+    - scoreboard players reset %player% Pguardian
+    - scoreboard players reset %player% Pmar
+    - scoreboard players reset %player% Pviento
+    - scoreboard players reset %player% Pender
+    - scoreboard players reset %player% Pflor
+    - scoreboard players reset %player% Ppuro
+    - scoreboard players reset %player% Phierro
+    - scoreboard players reset %player% Ptnt
+    - scoreboard players reset %player% Pwither
+    - scoreboard players set %player% Pveneno 1
+    Items:
+      '1':
+        nbt:
+        - Unbreakable;true;boolean
+        id: STONE_SWORD
+        amount: '1'
+        durability: '0'
+        name: '&fPower Sword'
+        enchants:
+        - LOOT_BONUS_BLOCKS;1
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 0
+      '2':
+        nbt:
+        - PublicBukkitValues;{"executableitems:ei-id":"nausea","score:usage":-1};compound
+        id: BAMBOO
+        amount: '1'
+        durability: '0'
+        name: '&2&lHallucinogenic Blowgun'
+        lore:
+        - '&x&B&5&F&F&F&DLanza un dardo que'
+        - '&x&B&5&F&F&F&Dmarea a tus oponentes'
+        - ''
+        - '&x&C&C&C&C&C&C&oCooldown: 10s'
+        unbreakable: 'false'
+        preview_slot: 1
+      '3':
+        nbt:
+        - PublicBukkitValues;{"executableitems:ei-id":"poison","score:usage":-1};compound
+        id: POISONOUS_POTATO
+        amount: '1'
+        durability: '0'
+        name: '&2&lRadioactive Potato'
+        lore:
+        - '&x&B&5&F&F&F&DEnvenena al contacto'
+        - ''
+        - '&x&C&C&C&C&C&C&oCooldown: 15s'
+        unbreakable: 'false'
+        preview_slot: 2
+      '4':
+        nbt:
+        - PublicBukkitValues;{"executableitems:ei-id":"nuclear","score:usage":-1};compound
+        id: GREEN_GLAZED_TERRACOTTA
+        amount: '1'
+        durability: '0'
+        name: '&2&lAtomic Zone'
+        lore:
+        - '&x&B&5&F&F&F&DGenera una explosión'
+        - '&x&B&5&F&F&F&Dnuclear y deja una'
+        - '&x&B&5&F&F&F&Dzona con radioactividad'
+        - ''
+        - '&x&C&C&C&C&C&C&oCooldown: 60s'
+        unbreakable: 'false'
+        preview_slot: 3
+      '5':
+        id: COOKED_BEEF
+        amount: '32'
+        durability: '0'
+        preview_slot: 4
+      '6':
+        color: 38400
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_BOOTS
+        amount: '1'
+        durability: '0'
+        name: '&2Radioactive Boots'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 5
+      '7':
+        color: 38400
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_LEGGINGS
+        amount: '1'
+        durability: '0'
+        name: '&2Radioactive Leggings'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 6
+      '8':
+        color: 38400
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_CHESTPLATE
+        amount: '1'
+        durability: '0'
+        name: '&2Radioactive Chestplate'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 7
+      '9':
+        skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzc4MGVlYTQ5YjZmNzRiNDM2NmVmZDhhY2M5N2I2OTNiYjI2MjhjOWUyNmI3NzdjYzFiZGU0YjE3Yzc1Mzk0ZCJ9fX0=
+        id: PLAYER_HEAD
+        amount: '1'
+        durability: '0'
+        name: '&2Chernobyl U-235 Head'
+        unbreakable: 'false'
+        preview_slot: 8
+  Ice:
+    slot: 7
+    display_item: BLUE_ICE
+    display_name: '&b&lLich King Kit'
+    display_lore:
+    - ''
+    - '&bIce Stun'
+    - '&bCryogenic Heal'
+    - '&bAbsolute Zero'
+    cooldown: 0
+    permission: playerkits.kit.Ice
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&6&lIce &aKit'
+      display_lore:
+      - '&cYou don''t have permissions to claim'
+      - '&cthis kit.'
+    auto_armor: true
+    Commands:
+    - attribute %player% generic.movement_speed base set 0.12
+    - attribute %player% generic.max_health base set 70
+    - attribute %player% generic.attack_damage base set 1.5
+    - attribute %player% generic.armor base set 2
+    - scoreboard players reset %player% Pmadera
+    - scoreboard players reset %player% Pcorazon
+    - scoreboard players reset %player% Pfuego
+    - scoreboard players reset %player% Prayo
+    - scoreboard players reset %player% Pslime
+    - scoreboard players reset %player% Pveneno
+    - scoreboard players reset %player% Pguardian
+    - scoreboard players reset %player% Pmar
+    - scoreboard players reset %player% Pviento
+    - scoreboard players reset %player% Pender
+    - scoreboard players reset %player% Pflor
+    - scoreboard players reset %player% Ppuro
+    - scoreboard players reset %player% Phierro
+    - scoreboard players reset %player% Ptnt
+    - scoreboard players reset %player% Pwither
+    - scoreboard players set %player% Phielo 1
+    Items:
+      '1':
+        nbt:
+        - Unbreakable;true;boolean
+        id: STONE_SWORD
+        amount: '1'
+        durability: '0'
+        name: '&fPower Sword'
+        enchants:
+        - LOOT_BONUS_BLOCKS;1
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 0
+      '2':
+        nbt:
+        - PublicBukkitValues;{"executableitems:ei-id":"snow","score:usage":-1};compound
+        id: SNOWBALL
+        amount: '1'
+        durability: '0'
+        name: '&b&lIce Stun'
+        lore:
+        - '&x&B&5&F&F&F&DLanza una bola de nieve'
+        - '&x&B&5&F&F&F&Dque congela a cualquier'
+        - '&x&B&5&F&F&F&Denemigo al impactarlo'
+        - ''
+        - '&x&C&C&C&C&C&C&oCooldown: 7s'
+        enchants:
+        - PROTECTION_FALL;6
+        hide-flags:
+        - HIDE_ENCHANTS
+        unbreakable: 'false'
+        preview_slot: 1
+      '3':
+        nbt:
+        - PublicBukkitValues;{"executableitems:ei-id":"ice","score:usage":-1};compound
+        id: ICE
+        amount: '1'
+        durability: '0'
+        name: '&b&lCryogenic Heal'
+        lore:
+        - '&x&B&5&F&F&F&DRegenera vida'
+        - '&x&B&5&F&F&F&Dy te protege'
+        - ''
+        - '&x&C&C&C&C&C&C&oCooldown: 30s'
+        unbreakable: 'false'
+        preview_slot: 2
+      '4':
+        nbt:
+        - PublicBukkitValues;{"executableitems:ei-id":"freeze","score:usage":-1};compound
+        id: BLUE_ICE
+        amount: '1'
+        durability: '0'
+        name: '&b&lAbsolute Zero'
+        lore:
+        - '&x&B&5&F&F&F&DCongela todo'
+        - '&x&B&5&F&F&F&Da tu alrededor'
+        - ''
+        - '&x&C&C&C&C&C&C&oCooldown: 35s'
+        unbreakable: 'false'
+        preview_slot: 3
+      '5':
+        id: COOKED_BEEF
+        amount: '32'
+        durability: '0'
+        preview_slot: 4
+      '6':
+        color: 65535
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_BOOTS
+        amount: '1'
+        durability: '0'
+        name: '&bFrozen Boots'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 5
+      '7':
+        color: 65535
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_LEGGINGS
+        amount: '1'
+        durability: '0'
+        name: '&bFrozen Leggings'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 6
+      '8':
+        color: 65535
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_CHESTPLATE
+        amount: '1'
+        durability: '0'
+        name: '&bFrozen Chestplate'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 7
+      '9':
+        skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWE3ODI1NjViNjEzZGNmOTUyYThiZTVjOTU1ZDAyYTc1Nzg5ZjI1MDYwNDc3YTI0MDBhZTllMGU1ZTVmNDc3YiJ9fX0=
+        id: PLAYER_HEAD
+        amount: '1'
+        durability: '0'
+        name: '&bLick King Head'
+        unbreakable: 'false'
+        preview_slot: 8
+  Guardian:
+    slot: 9
+    display_item: PRISMARINE_BRICKS
+    display_name: '&3&lAtlantis Protector Kit'
+    display_lore:
+    - ''
+    - '&3Deep Look'
+    - '&3Heart of the Temple'
+    - '&3Warriors of Atlantis'
+    cooldown: 0
+    permission: playerkits.kit.Guardian
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&6&lGuardian &aKit'
+      display_lore:
+      - '&cYou don''t have permissions to claim'
+      - '&cthis kit.'
+    auto_armor: true
+    Commands:
+    - attribute %player% generic.movement_speed base set 0.1
+    - attribute %player% generic.max_health base set 44
+    - attribute %player% generic.attack_damage base set 1.5
+    - attribute %player% generic.armor base set 4
+    - scoreboard players reset %player% Pmadera
+    - scoreboard players reset %player% Pcorazon
+    - scoreboard players reset %player% Pfuego
+    - scoreboard players reset %player% Prayo
+    - scoreboard players reset %player% Pslime
+    - scoreboard players reset %player% Pveneno
+    - scoreboard players reset %player% Phielo
+    - scoreboard players reset %player% Pmar
+    - scoreboard players reset %player% Pviento
+    - scoreboard players reset %player% Pender
+    - scoreboard players reset %player% Pflor
+    - scoreboard players reset %player% Ppuro
+    - scoreboard players reset %player% Phierro
+    - scoreboard players reset %player% Ptnt
+    - scoreboard players reset %player% Pwither
+    - scoreboard players set %player% Pguardian 1
+    Items:
+      '1':
+        nbt:
+        - Unbreakable;true;boolean
+        id: STONE_SWORD
+        amount: '1'
+        durability: '0'
+        name: '&fPower Sword'
+        enchants:
+        - LOOT_BONUS_BLOCKS;1
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 0
+      '2':
+        nbt:
+        - PublicBukkitValues;{"executableitems:ei-id":"look","score:usage":-1};compound
+        id: PRISMARINE_SHARD
+        amount: '1'
+        durability: '0'
+        name: '&3&lDeep Look'
+        lore:
+        - '&x&B&5&F&F&F&DLanza un láser que'
+        - '&x&B&5&F&F&F&Dperfora a tus enemigos'
+        - ''
+        - '&x&C&C&C&C&C&C&oCooldown: 7s'
+        unbreakable: 'false'
+        preview_slot: 1
+      '3':
+        nbt:
+        - PublicBukkitValues;{"executableitems:ei-id":"heart","score:usage":-1};compound
+        id: HEART_OF_THE_SEA
+        amount: '1'
+        durability: '0'
+        name: '&3&lHeart of the Temple'
+        lore:
+        - '&x&B&5&F&F&F&DCrea un ritual que'
+        - '&x&B&5&F&F&F&Dregenera tu vida'
+        - ''
+        - '&x&C&C&C&C&C&C&oCooldown: 20s'
+        unbreakable: 'false'
+        preview_slot: 2
+      '4':
+        nbt:
+        - PublicBukkitValues;{"executableitems:ei-id":"trident","score:usage":-1};compound
+        id: PRISMARINE_BRICKS
+        amount: '1'
+        durability: '0'
+        name: '&3&lWarriors of Atlantis'
+        lore:
+        - '&x&B&5&F&F&F&DInvoca guerreros ancestrales'
+        - '&x&B&5&F&F&F&Dque ejecutarán un poderoso'
+        - '&x&B&5&F&F&F&Dataque fulminante a tus enemigos'
+        - ''
+        - '&x&C&C&C&C&C&C&oCooldown: 60s'
+        unbreakable: 'false'
+        preview_slot: 3
+      '5':
+        id: COOKED_BEEF
+        amount: '32'
+        durability: '0'
+        preview_slot: 4
+      '6':
+        color: 38550
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_BOOTS
+        amount: '1'
+        durability: '0'
+        name: '&3Boots Of Atlantis'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 5
+      '7':
+        color: 38550
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_LEGGINGS
+        amount: '1'
+        durability: '0'
+        name: '&3Leggings Of Atlantis'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 6
+      '8':
+        color: 38550
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_CHESTPLATE
+        amount: '1'
+        durability: '0'
+        name: '&3Chestplate Of Atlantis'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 7
+      '9':
+        skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWEwN2JiMGExMjZlZTgxNmYxZjNkMjE0MjE0NDY1MTY2NDg5ODZkN2ZjMjIzNTZkOGViNGRkOGViMjAyMWMyIn19fQ==
+        id: PLAYER_HEAD
+        amount: '1'
+        durability: '0'
+        name: '&3Atlantis Protector Head'
+        unbreakable: 'false'
+        preview_slot: 8
+  Kraken:
+    slot: 10
+    display_item: TUBE_CORAL_BLOCK
+    display_name: '&9&lChosen of Cthulhu Kit'
+    display_lore:
+    - ''
+    - '&9Mysterius Anemone'
+    - '&9Pufferfish Whip'
+    - '&9Kraken Manifestation'
+    cooldown: 0
+    permission: playerkits.kit.Kraken
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&6&lKraken &aKit'
+      display_lore:
+      - '&cYou don''t have permissions to claim'
+      - '&cthis kit.'
+    auto_armor: true
+    Commands:
+    - attribute %player% generic.armor base set 6
+    - attribute %player% generic.max_health base set 44
+    - attribute %player% generic.attack_damage base set 1.5
+    - attribute %player% generic.movement_speed base set 0.12
+    - scoreboard players reset %player% Pmadera
+    - scoreboard players reset %player% Pcorazon
+    - scoreboard players reset %player% Pfuego
+    - scoreboard players reset %player% Prayo
+    - scoreboard players reset %player% Pslime
+    - scoreboard players reset %player% Pveneno
+    - scoreboard players reset %player% Phielo
+    - scoreboard players reset %player% Pguardian
+    - scoreboard players reset %player% Pviento
+    - scoreboard players reset %player% Pender
+    - scoreboard players reset %player% Pflor
+    - scoreboard players reset %player% Ppuro
+    - scoreboard players reset %player% Phierro
+    - scoreboard players reset %player% Ptnt
+    - scoreboard players reset %player% Pwither
+    - scoreboard players set %player% Pmar 1
+    Items:
+      '1':
+        nbt:
+        - Unbreakable;true;boolean
+        id: STONE_SWORD
+        amount: '1'
+        durability: '0'
+        name: '&fPower Sword'
+        enchants:
+        - LOOT_BONUS_BLOCKS;1
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 0
+      '2':
+        nbt:
+        - PublicBukkitValues;{"executableitems:ei-id":"coral","score:usage":-1};compound
+        id: TUBE_CORAL
+        amount: '1'
+        durability: '0'
+        name: '&9&lMysterious Anemone'
+        lore:
+        - '&x&B&5&F&F&F&DGenera un aliado acuático...'
+        - '&x&B&5&F&F&F&D&oTortuga: Te otorga resitencia'
+        - '&x&B&5&F&F&F&D&oCalamar: Ciega enemigos en área'
+        - '&x&B&5&F&F&F&D&oDelfín: Te otorga velocidad'
+        - ''
+        - '&x&C&C&C&C&C&C&oCooldown: 10s'
+        unbreakable: 'false'
+        preview_slot: 1
+      '3':
+        nbt:
+        - PublicBukkitValues;{"executableitems:ei-id":"fish","score:usage":-1};compound
+        id: PUFFERFISH_BUCKET
+        amount: '1'
+        durability: '0'
+        name: '&9&lPufferfish Whip'
+        lore:
+        - '&x&B&5&F&F&F&DClava un pez globo en'
+        - '&x&B&5&F&F&F&Dla cabeza de un enemigo'
+        - ''
+        - '&x&C&C&C&C&C&C&oCooldown: 15s'
+        unbreakable: 'false'
+        preview_slot: 2
+      '4':
+        nbt:
+        - PublicBukkitValues;{"executableitems:ei-id":"kraken","score:usage":-1};compound
+        id: TUBE_CORAL_BLOCK
+        amount: '1'
+        durability: '0'
+        name: '&9&lKraken Manifestation'
+        lore:
+        - '&x&B&5&F&F&F&DInvoca un mounstro milenario que'
+        - '&x&B&5&F&F&F&Datraerá a todo enemigo en un radio'
+        - '&x&B&5&F&F&F&Dradio de 7 bloques a tu al rededor'
+        - '&x&B&5&F&F&F&Dy los devorará sin piedad alguna'
+        - ''
+        - '&x&C&C&C&C&C&C&oCooldown: 50s'
+        unbreakable: 'false'
+        preview_slot: 3
+      '5':
+        id: COOKED_BEEF
+        amount: '32'
+        durability: '0'
+        preview_slot: 4
+      '6':
+        color: 2964735
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_BOOTS
+        amount: '1'
+        durability: '0'
+        name: '&9Deep Boots'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 5
+      '7':
+        color: 2964735
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_LEGGINGS
+        amount: '1'
+        durability: '0'
+        name: '&9Deep Leggins'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 6
+      '8':
+        color: 2964735
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_CHESTPLATE
+        amount: '1'
+        durability: '0'
+        name: '&9Deep Chestplate'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 7
+      '9':
+        skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjRkNjJhNDAyY2I2YjA3OTQzNzFiMDI0MDgyYjdlNDhjMTY5ZTI0ZTY0MzU2YzRlMGYwNmRiNzE0MTVhYzcyZCJ9fX0=
+        id: PLAYER_HEAD
+        amount: '1'
+        durability: '0'
+        name: '&9Chosen of Cthulhu Head'
+        unbreakable: 'false'
+        preview_slot: 8
+  Wind:
+    slot: 11
+    display_item: LAPIS_BLOCK
+    display_name: '&1&lWind Master Kit'
+    display_lore:
+    - ''
+    - '&1Wind Current'
+    - '&1Air Cut'
+    - '&1Eolo´s Rage'
+    cooldown: 0
+    permission: playerkits.kit.Wind
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&6&lWind &aKit'
+      display_lore:
+      - '&cYou don''t have permissions to claim'
+      - '&cthis kit.'
+    auto_armor: true
+    Commands:
+    - attribute %player% generic.armor base set -0.5
+    - attribute %player% generic.max_health base set 50
+    - attribute %player% generic.attack_damage base set 2
+    - attribute %player% generic.movement_speed base set 0.18
+    - scoreboard players reset %player% Pmadera
+    - scoreboard players reset %player% Pcorazon
+    - scoreboard players reset %player% Pfuego
+    - scoreboard players reset %player% Prayo
+    - scoreboard players reset %player% Pslime
+    - scoreboard players reset %player% Pveneno
+    - scoreboard players reset %player% Phielo
+    - scoreboard players reset %player% Pguardian
+    - scoreboard players reset %player% Pmar
+    - scoreboard players reset %player% Pender
+    - scoreboard players reset %player% Pflor
+    - scoreboard players reset %player% Ppuro
+    - scoreboard players reset %player% Phierro
+    - scoreboard players reset %player% Ptnt
+    - scoreboard players reset %player% Pwither
+    - scoreboard players set %player% Pviento 1
+    Items:
+      '1':
+        nbt:
+        - Unbreakable;true;boolean
+        id: STONE_SWORD
+        amount: '1'
+        durability: '0'
+        name: '&fPower Sword'
+        enchants:
+        - LOOT_BONUS_BLOCKS;1
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 0
+      '2':
+        nbt:
+        - PublicBukkitValues;{"executableitems:ei-id":"wind","score:usage":-1};compound
+        id: BLUE_DYE
+        amount: '1'
+        durability: '0'
+        name: '&1&lWind Current'
+        lore:
+        - '&x&B&5&F&F&F&DLas corrientes de viento te'
+        - '&x&B&5&F&F&F&Delevarán y luego impulsarán'
+        - '&x&B&5&F&F&F&Dcon fuerza hacia el suelo, al'
+        - '&x&B&5&F&F&F&Dcaer, inflingirás daño en área'
+        - ''
+        - '&x&C&C&C&C&C&C&oCooldown: 15s'
+        unbreakable: 'false'
+        preview_slot: 1
+      '3':
+        nbt:
+        - PublicBukkitValues;{"executableitems:ei-id":"gale","score:usage":-1};compound
+        id: LAPIS_LAZULI
+        amount: '1'
+        durability: '0'
+        name: '&1&lAir Cut'
+        lore:
+        - '&x&B&5&F&F&F&DLanza una ráfaga de'
+        - '&x&B&5&F&F&F&Dviento que levanta a tus'
+        - '&x&B&5&F&F&F&Doponentes por los aires'
+        - ''
+        - '&x&C&C&C&C&C&C&oCooldown: 20s'
+        unbreakable: 'false'
+        preview_slot: 2
+      '4':
+        nbt:
+        - PublicBukkitValues;{"executableitems:ei-id":"tornado","score:usage":-1};compound
+        id: LAPIS_BLOCK
+        amount: '1'
+        durability: '0'
+        name: '&1&lEolo´s Rage'
+        lore:
+        - '&x&B&5&F&F&F&DDesata el poder de los'
+        - '&x&B&5&F&F&F&Dvientos a tu alrededor'
+        - ''
+        - '&x&C&C&C&C&C&C&oCooldown: 45s'
+        unbreakable: 'false'
+        preview_slot: 3
+      '5':
+        id: COOKED_BEEF
+        amount: '32'
+        durability: '0'
+        preview_slot: 4
+      '6':
+        color: 2700
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_BOOTS
+        amount: '1'
+        durability: '0'
+        name: '&1Wind Boots'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 5
+      '7':
+        color: 2700
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_LEGGINGS
+        amount: '1'
+        durability: '0'
+        name: '&1Wind Leggins'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 6
+      '8':
+        color: 2700
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_CHESTPLATE
+        amount: '1'
+        durability: '0'
+        name: '&1Wind Chestplate'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 7
+      '9':
+        skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTM5YTA0YTJlMTZkMDliYzgzNjY1Zjc2Yzc4MDA4YzNkNzRjYmRhMTgxOGU4MDFlMTNiZTZlN2M0YmMyZjgyNCJ9fX0=
+        id: PLAYER_HEAD
+        amount: '1'
+        durability: '0'
+        name: '&1Wind Master Head'
+        unbreakable: 'false'
+        preview_slot: 8
+  Ender:
+    slot: 12
+    display_item: PURPUR_BLOCK
+    display_name: '&5&lDragon Son Kit'
+    display_lore:
+    - ''
+    - '&5Dimensional Distorter'
+    - '&5Dragon Blessing'
+    - '&5Dragon Fury'
+    cooldown: 0
+    permission: playerkits.kit.Ender
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&6&lEnder &aKit'
+      display_lore:
+      - '&cYou don''t have permissions to claim'
+      - '&cthis kit.'
+    auto_armor: true
+    Commands:
+    - attribute %player% generic.armor base set -0.5
+    - attribute %player% generic.max_health base set 44
+    - attribute %player% generic.attack_damage base set 3.3
+    - attribute %player% generic.movement_speed base set 0.12
+    - scoreboard players reset %player% Pmadera
+    - scoreboard players reset %player% Pcorazon
+    - scoreboard players reset %player% Pfuego
+    - scoreboard players reset %player% Prayo
+    - scoreboard players reset %player% Pslime
+    - scoreboard players reset %player% Pveneno
+    - scoreboard players reset %player% Phielo
+    - scoreboard players reset %player% Pguardian
+    - scoreboard players reset %player% Pmar
+    - scoreboard players reset %player% Pviento
+    - scoreboard players reset %player% Pflor
+    - scoreboard players reset %player% Ppuro
+    - scoreboard players reset %player% Phierro
+    - scoreboard players reset %player% Ptnt
+    - scoreboard players reset %player% Pwither
+    - scoreboard players set %player% Pender 1
+    - scoreboard players set ulti Pender 0
+    Items:
+      '1':
+        nbt:
+        - Unbreakable;true;boolean
+        id: STONE_SWORD
+        amount: '1'
+        durability: '0'
+        name: '&fPower Sword'
+        enchants:
+        - LOOT_BONUS_BLOCKS;1
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 0
+      '2':
+        nbt:
+        - PublicBukkitValues;{"executableitems:ei-id":"tp","score:usage":-1};compound
+        id: ENDER_EYE
+        amount: '1'
+        durability: '0'
+        name: '&5&lDimensional Distorter'
+        lore:
+        - '&x&B&5&F&F&F&DGolpea a un enemigo para'
+        - '&x&B&5&F&F&F&Dseleccionarlo, luego con'
+        - '&x&B&5&F&F&F&Dclick derecho lanzarás una'
+        - '&x&B&5&F&F&F&Denderpearl que teletransporta'
+        - '&x&B&5&F&F&F&Da tu oponente, si no tienes'
+        - '&x&B&5&F&F&F&Da un jugador seleccionado,'
+        - '&x&B&5&F&F&F&Dtú serás teletransportado.'
+        - ''
+        - '&x&C&C&C&C&C&C&oCooldown: 35s'
+        unbreakable: 'false'
+        preview_slot: 1
+      '3':
+        nbt:
+        - PublicBukkitValues;{"executableitems:ei-id":"crystal","score:usage":-1};compound
+        id: END_CRYSTAL
+        amount: '1'
+        durability: '0'
+        name: '&5&lDragon Blessing'
+        lore:
+        - '&x&B&5&F&F&F&DInvoca cristales del'
+        - '&x&B&5&F&F&F&Dend para regenerarte'
+        - ''
+        - '&x&C&C&C&C&C&C&oCooldown: 15s'
+        unbreakable: 'false'
+        preview_slot: 2
+      '4':
+        nbt:
+        - PublicBukkitValues;{"executableitems:ei-id":"dragon","score:usage":-1};compound
+        id: PURPUR_BLOCK
+        amount: '1'
+        durability: '0'
+        name: '&5&lDragon Fury'
+        lore:
+        - '&x&B&5&F&F&F&DLibera tu verdadero poder!'
+        - ''
+        - '&x&C&C&C&C&C&C&oCooldown: 60s'
+        unbreakable: 'false'
+        preview_slot: 3
+      '5':
+        id: COOKED_BEEF
+        amount: '32'
+        durability: '0'
+        preview_slot: 4
+      '6':
+        color: 13107400
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_BOOTS
+        amount: '1'
+        durability: '0'
+        name: '&5Scales Boots'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 5
+      '7':
+        color: 13107400
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_LEGGINGS
+        amount: '1'
+        durability: '0'
+        name: '&5Scales Leggins'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 6
+      '8':
+        color: 13107400
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_CHESTPLATE
+        amount: '1'
+        durability: '0'
+        name: '&5Scales Chestplate'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 7
+      '9':
+        skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODMxNTJiMzhkYzE0MjU4OGQxNGZkZDM4YWFhMGI1NGU2MTM4NjBmN2QxNTM5NTM1YjMyYzAxZWIyMjBmZTY3YiJ9fX0=
+        id: PLAYER_HEAD
+        amount: '1'
+        durability: '0'
+        name: '&5Dragon Son Head'
+        unbreakable: 'false'
+        preview_slot: 8
+  Ender2:
+    slot: 13
+    display_item: PURPUR_BLOCK
+    display_name: '&5&lDragon Son &oUlti &5&lKit'
+    display_lore:
+    - ''
+    - '&5Dragon´s Breath'
+    - '&5Dragon´s Flutter'
+    cooldown: 0
+    permission: playerkits.kit.Ender2
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&6&lEnder2 &aKit'
+      display_lore:
+      - '&cYou don''t have permissions to claim'
+      - '&cthis kit.'
+    auto_armor: true
+    display_item_glowing: true
+    Items:
+      '1':
+        nbt:
+        - Unbreakable;true;boolean
+        id: STONE_SWORD
+        amount: '1'
+        durability: '0'
+        name: '&fPower Sword'
+        enchants:
+        - LOOT_BONUS_BLOCKS;1
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 0
+      '2':
+        nbt:
+        - PublicBukkitValues;{"executableitems:ei-id":"enderball","score:usage":-1};compound
+        - Unbreakable;true;boolean
+        id: DRAGON_BREATH
+        amount: '1'
+        durability: '0'
+        name: '&5&lDragon´s Breath'
+        lore:
+        - '&x&B&5&F&F&F&DLanza bolas de fuego'
+        - '&x&B&5&F&F&F&Dque dejan un charco'
+        - '&x&B&5&F&F&F&Dde aliento de dragón'
+        - ''
+        - '&x&C&C&C&C&C&C&oCooldown: 7s'
+        enchants:
+        - PROTECTION_FALL;6
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        unbreakable: 'true'
+        preview_slot: 1
+      '3':
+        nbt:
+        - PublicBukkitValues;{"executableitems:ei-id":"enderpush","score:usage":-1};compound
+        id: DRAGON_EGG
+        amount: '1'
+        durability: '0'
+        name: '&5&lDragon´s Flutter'
+        lore:
+        - '&x&B&5&F&F&F&DAleja a tus enemigos'
+        - '&x&B&5&F&F&F&Dlanzándolos lejos de ti'
+        - ''
+        - '&x&C&C&C&C&C&C&oCooldown: 10s'
+        unbreakable: 'false'
+        preview_slot: 2
+      '4':
+        nbt:
+        - PublicBukkitValues;{"executableitems:ei-id":"dragon","score:usage":-1};compound
+        id: PURPUR_BLOCK
+        amount: '1'
+        durability: '0'
+        name: '&5&lDragon Fury'
+        lore:
+        - '&x&B&5&F&F&F&DLibera tu verdadero poder!'
+        - ''
+        - '&x&C&C&C&C&C&C&oCooldown: 60s'
+        unbreakable: 'false'
+        preview_slot: 3
+      '5':
+        id: COOKED_BEEF
+        amount: '32'
+        durability: '0'
+        preview_slot: 4
+      '6':
+        color: 13107400
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_BOOTS
+        amount: '1'
+        durability: '0'
+        name: '&5Scales Boots'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 5
+      '7':
+        color: 13107400
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_LEGGINGS
+        amount: '1'
+        durability: '0'
+        name: '&5Scales Leggins'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 6
+      '8':
+        color: 13107400
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_CHESTPLATE
+        amount: '1'
+        durability: '0'
+        name: '&5Scales Chestplate'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 7
+      '9':
+        id: DRAGON_HEAD
+        amount: '1'
+        durability: '0'
+        name: '&5Dragon Head'
+        unbreakable: 'false'
+        preview_slot: 8
+  Flower:
+    slot: 14
+    display_item: PINK_GLAZED_TERRACOTTA
+    display_name: '&d&lAlbafica Kit'
+    display_lore:
+    - ''
+    - '&dPollen Burst'
+    - '&dRegeneration Blossom'
+    - '&dBee Master'
+    cooldown: 0
+    permission: playerkits.kit.Flower
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&6&lFlower &aKit'
+      display_lore:
+      - '&cYou don''t have permissions to claim'
+      - '&cthis kit.'
+    auto_armor: true
+    Commands:
+    - attribute %player% generic.armor base set 6
+    - attribute %player% generic.max_health base set 34
+    - attribute %player% generic.attack_damage base set 2.1
+    - attribute %player% generic.movement_speed base set 0.14
+    - scoreboard players reset %player% Pmadera
+    - scoreboard players reset %player% Pcorazon
+    - scoreboard players reset %player% Pfuego
+    - scoreboard players reset %player% Prayo
+    - scoreboard players reset %player% Pslime
+    - scoreboard players reset %player% Pveneno
+    - scoreboard players reset %player% Phielo
+    - scoreboard players reset %player% Pguardian
+    - scoreboard players reset %player% Pmar
+    - scoreboard players reset %player% Pviento
+    - scoreboard players reset %player% Pender
+    - scoreboard players reset %player% Ppuro
+    - scoreboard players reset %player% Phierro
+    - scoreboard players reset %player% Ptnt
+    - scoreboard players reset %player% Pwither
+    - scoreboard players set %player% Pflor 1
+    Items:
+      '1':
+        nbt:
+        - Unbreakable;true;boolean
+        id: STONE_SWORD
+        amount: '1'
+        durability: '0'
+        name: '&fPower Sword'
+        enchants:
+        - LOOT_BONUS_BLOCKS;1
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 0
+      '2':
+        nbt:
+        - PublicBukkitValues;{"executableitems:ei-id":"flower","score:usage":-1};compound
+        id: ALLIUM
+        amount: '1'
+        durability: '0'
+        name: '&d&lPollen Burst'
+        lore:
+        - '&x&B&5&F&F&F&DLanza una semilla que creará 5'
+        - '&x&B&5&F&F&F&Dflores que soltarán un montón de'
+        - '&x&B&5&F&F&F&Dpolen, levantando a tus enemigos'
+        - ''
+        - '&x&C&C&C&C&C&C&oCooldown: 20s'
+        unbreakable: 'false'
+        preview_slot: 1
+      '3':
+        nbt:
+        - PublicBukkitValues;{"executableitems:ei-id":"blossom","score:usage":-1};compound
+        id: LILAC
+        amount: '1'
+        durability: '0'
+        name: '&d&lRegeneration Blossom'
+        lore:
+        - '&x&B&5&F&F&F&DGenera una flor que'
+        - '&x&B&5&F&F&F&Dte protege y regenera'
+        - ''
+        - '&x&C&C&C&C&C&C&oCooldown: 15s'
+        unbreakable: 'false'
+        preview_slot: 2
+      '4':
+        nbt:
+        - PublicBukkitValues;{"executableitems:ei-id":"bee","score:usage":-1};compound
+        id: PINK_GLAZED_TERRACOTTA
+        amount: '1'
+        durability: '0'
+        name: '&d&lBee Master'
+        lore:
+        - '&x&B&5&F&F&F&DMarca a tu enemigo con un'
+        - '&x&B&5&F&F&F&Dlíquido especial, toda abeja'
+        - '&x&B&5&F&F&F&Dde la zona irá a atacarlo!'
+        - ''
+        - '&x&C&C&C&C&C&C&oCooldown: 35s'
+        unbreakable: 'false'
+        preview_slot: 3
+      '5':
+        id: COOKED_BEEF
+        amount: '32'
+        durability: '0'
+        preview_slot: 4
+      '6':
+        color: 16737480
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_BOOTS
+        amount: '1'
+        durability: '0'
+        name: '&dPetals Boots'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 5
+      '7':
+        color: 16737480
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_LEGGINGS
+        amount: '1'
+        durability: '0'
+        name: '&dPetals Leggins'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 6
+      '8':
+        color: 16737480
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_CHESTPLATE
+        amount: '1'
+        durability: '0'
+        name: '&dPetals Chestplate'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 7
+      '9':
+        skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzZmNTE0YzNhZGZkYTI2ZWNlMzg2YzNkN2NmNjZkNjkxMWRhYjBhYmZjZTM4ZjM4NTJmMTlkZTBhM2VkNDZjZSJ9fX0=
+        id: PLAYER_HEAD
+        amount: '1'
+        durability: '0'
+        name: '&dAlbafica Head'
+        unbreakable: 'false'
+        preview_slot: 8
+  Yang:
+    slot: 15
+    display_item: BLACK_STAINED_GLASS
+    display_name: '&f&lAncient Warrior (Yang)'
+    display_lore:
+    - ''
+    - '&fLuminous Escape'
+    - '&fPurity Scroll'
+    - '&fYin Mode'
+    cooldown: 0
+    permission: playerkits.kit.Yang
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&6&lYang &aKit'
+      display_lore:
+      - '&cYou don''t have permissions to claim'
+      - '&cthis kit.'
+    auto_armor: true
+    display_item_glowing: true
+    Commands:
+    - attribute %player% generic.armor base set 6
+    - attribute %player% generic.max_health base set 44
+    - attribute %player% generic.attack_damage base set 2.1
+    - attribute %player% generic.movement_speed base set 0.1
+    - scoreboard players reset %player% Pmadera
+    - scoreboard players reset %player% Pcorazon
+    - scoreboard players reset %player% Pfuego
+    - scoreboard players reset %player% Prayo
+    - scoreboard players reset %player% Pslime
+    - scoreboard players reset %player% Pveneno
+    - scoreboard players reset %player% Phielo
+    - scoreboard players reset %player% Pguardian
+    - scoreboard players reset %player% Pmar
+    - scoreboard players reset %player% Pviento
+    - scoreboard players reset %player% Pender
+    - scoreboard players reset %player% Pflor
+    - scoreboard players reset %player% Phierro
+    - scoreboard players reset %player% Ptnt
+    - scoreboard players reset %player% Pwither
+    - scoreboard players set %player% Ppuro 1
+    - scoreboard players set ulti Ppuro 0
+    Items:
+      '1':
+        nbt:
+        - Unbreakable;true;boolean
+        id: STONE_SWORD
+        amount: '1'
+        durability: '0'
+        name: '&fPower Sword'
+        enchants:
+        - LOOT_BONUS_BLOCKS;1
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 0
+      '2':
+        nbt:
+        - PublicBukkitValues;{"executableitems:ei-id":"escape","score:usage":-1};compound
+        id: GHAST_TEAR
+        amount: '1'
+        durability: '0'
+        name: '&f&lLuminous Escape'
+        lore:
+        - '&x&B&5&F&F&F&DLanza un destello que'
+        - '&x&B&5&F&F&F&Ddeslumbrará momentáneamente'
+        - '&x&B&5&F&F&F&Da tus oponentes cercanos'
+        - ''
+        - '&x&C&C&C&C&C&C&oCooldown: 15s'
+        unbreakable: 'false'
+        preview_slot: 1
+      '3':
+        nbt:
+        - PublicBukkitValues;{"executableitems:ei-id":"paper","score:usage":-1};compound
+        id: PAPER
+        amount: '1'
+        durability: '0'
+        name: '&f&lPurity Scroll'
+        lore:
+        - '&x&B&5&F&F&F&DElimina cualquier'
+        - '&x&B&5&F&F&F&Defecto negativo'
+        - ''
+        - '&x&C&C&C&C&C&C&oCooldown: 25s'
+        unbreakable: 'false'
+        preview_slot: 2
+      '4':
+        nbt:
+        - PublicBukkitValues;{"executableitems:ei-id":"yin","score:usage":-1};compound
+        id: BLACK_STAINED_GLASS
+        amount: '1'
+        durability: '0'
+        name: '&x&3&0&3&0&3&0&lYin Mode'
+        lore:
+        - '&x&B&5&F&F&F&DCambia a tu modo Yin'
+        - '&x&B&5&F&F&F&D(Habilidades ofensivas)'
+        - ''
+        - '&x&C&C&C&C&C&C&oCooldown: 5s'
+        enchants:
+        - PROTECTION_FALL;6
+        hide-flags:
+        - HIDE_ENCHANTS
+        unbreakable: 'false'
+        preview_slot: 3
+      '5':
+        id: COOKED_BEEF
+        amount: '32'
+        durability: '0'
+        preview_slot: 4
+      '6':
+        color: 16777215
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_BOOTS
+        amount: '1'
+        durability: '0'
+        name: '&fAncient Boots'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 5
+      '7':
+        color: 16777215
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_LEGGINGS
+        amount: '1'
+        durability: '0'
+        name: '&fAncient Leggins'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 6
+      '8':
+        color: 16777215
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_CHESTPLATE
+        amount: '1'
+        durability: '0'
+        name: '&fAncient Chestplate'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 7
+      '9':
+        skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmUzMWMwZTZjNzMxZDA2YjhjNGNmYTI4NmRjY2NlMWFhYjc0M2JlNTA0YmMyYmEwNmJhMjU5NjMxNjY0MDZiMiJ9fX0=
+        id: PLAYER_HEAD
+        amount: '1'
+        durability: '0'
+        name: '&f☯ Ancient Warrior Head'
+        unbreakable: 'false'
+        preview_slot: 8
+  Yin:
+    slot: 16
+    display_item: WHITE_STAINED_GLASS
+    display_name: '&f&lAncient Warrior (Yin)'
+    display_lore:
+    - ''
+    - '&fCorrupted Katana'
+    - '&fCursed Shard'
+    - '&fYang Mode'
+    cooldown: 0
+    permission: playerkits.kit.Yin
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&6&lYin &aKit'
+      display_lore:
+      - '&cYou don''t have permissions to claim'
+      - '&cthis kit.'
+    auto_armor: true
+    Commands:
+    - attribute %player% generic.armor base set 6
+    - attribute %player% generic.max_health base set 44
+    - attribute %player% generic.attack_damage base set 2.1
+    - attribute %player% generic.movement_speed base set 0.1
+    - scoreboard players reset %player% Pmadera
+    - scoreboard players reset %player% Pcorazon
+    - scoreboard players reset %player% Pfuego
+    - scoreboard players reset %player% Prayo
+    - scoreboard players reset %player% Pslime
+    - scoreboard players reset %player% Pveneno
+    - scoreboard players reset %player% Phielo
+    - scoreboard players reset %player% Pguardian
+    - scoreboard players reset %player% Pmar
+    - scoreboard players reset %player% Pviento
+    - scoreboard players reset %player% Pender
+    - scoreboard players reset %player% Pflor
+    - scoreboard players reset %player% Phierro
+    - scoreboard players reset %player% Ptnt
+    - scoreboard players reset %player% Pwither
+    - scoreboard players set %player% Ppuro 1
+    - scoreboard players set ulti Ppuro 1
+    Items:
+      '1':
+        nbt:
+        - Unbreakable;true;boolean
+        id: STONE_SWORD
+        amount: '1'
+        durability: '0'
+        name: '&fPower Sword'
+        enchants:
+        - LOOT_BONUS_BLOCKS;1
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 0
+      '2':
+        attributes:
+          GENERIC_MAX_HEALTH:
+            modifiers:
+            - '&eDefault name;-18.0;ADD_NUMBER;755d92a9-4312-43fe-9e71-6d57cb413750;HAND'
+        nbt:
+        - Unbreakable;true;boolean
+        - PublicBukkitValues;{"executableitems:ei-id":"katana","score:usage":-1};compound
+        id: NETHERITE_SWORD
+        amount: '1'
+        durability: '0'
+        name: '&x&3&0&3&0&3&0&lCorrupted Katana'
+        lore:
+        - '&x&B&5&F&F&F&DTe lanzas hacia el'
+        - '&x&B&5&F&F&F&Denemigo pero te vuelves'
+        - '&x&B&5&F&F&F&Ddébil mientras tengas'
+        - '&x&B&5&F&F&F&Desta arma en tu mano'
+        - ''
+        - '&x&C&C&C&C&C&C&oCooldown: 15s'
+        enchants:
+        - PROTECTION_FALL;6
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 1
+      '3':
+        nbt:
+        - PublicBukkitValues;{"executableitems:ei-id":"shard","score:usage":-1};compound
+        id: FLINT
+        amount: '1'
+        durability: '0'
+        name: '&x&3&0&3&0&3&0&lCursed Shard'
+        lore:
+        - '&x&B&5&F&F&F&DTe inflinges daño'
+        - '&x&B&5&F&F&F&Da cambio de obtener'
+        - '&x&B&5&F&F&F&Dfuerza y velocidad'
+        - ''
+        - '&x&C&C&C&C&C&C&oCooldown: 15s'
+        enchants:
+        - PROTECTION_FALL;6
+        hide-flags:
+        - HIDE_ENCHANTS
+        unbreakable: 'false'
+        preview_slot: 2
+      '4':
+        nbt:
+        - PublicBukkitValues;{"executableitems:ei-id":"yang","score:usage":-1};compound
+        id: WHITE_STAINED_GLASS
+        amount: '1'
+        durability: '0'
+        name: '&f&lYang Mode'
+        lore:
+        - '&x&B&5&F&F&F&DCambia a tu modo Yang'
+        - '&x&B&5&F&F&F&D(Habilidades defensivas)'
+        - ''
+        - '&x&C&C&C&C&C&C&oCooldown: 5s'
+        unbreakable: 'false'
+        preview_slot: 3
+      '5':
+        id: COOKED_BEEF
+        amount: '64'
+        durability: '0'
+        preview_slot: 4
+      '6':
+        color: 16777215
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_BOOTS
+        amount: '1'
+        durability: '0'
+        name: '&fAncient Boots'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 5
+      '7':
+        color: 16777215
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_LEGGINGS
+        amount: '1'
+        durability: '0'
+        name: '&fAncient Leggins'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 6
+      '8':
+        color: 16777215
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_CHESTPLATE
+        amount: '1'
+        durability: '0'
+        name: '&fAncient Chestplate'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 7
+      '9':
+        skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGFhN2UyODU4ZTZmZjdhNmIwZDFjODgzNGZlZjJhMTk2YmY4MWY1YWRkZTM2NTA0YjhjNTkxY2MwYTNmODA5YiJ9fX0=
+        id: PLAYER_HEAD
+        amount: '1'
+        durability: '0'
+        name: '&8☯ &fAncient Warrior Head'
+        unbreakable: 'false'
+        preview_slot: 8
+  Iron:
+    slot: 17
+    display_item: IRON_BLOCK
+    display_name: '&7&lTitanium Peony Kit'
+    display_lore:
+    - ''
+    - '&7Shackles'
+    - '&7Steel Breastplate'
+    - '&7Titanium Army'
+    cooldown: 0
+    permission: playerkits.kit.Iron
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&6&lIron &aKit'
+      display_lore:
+      - '&cYou don''t have permissions to claim'
+      - '&cthis kit.'
+    auto_armor: true
+    Commands:
+    - attribute %player% generic.max_health base set 44
+    - attribute %player% generic.movement_speed base set 0.1
+    - attribute %player% generic.attack_damage base set 2.1
+    - attribute %player% generic.armor base set 6
+    - scoreboard players reset %player% Pmadera
+    - scoreboard players reset %player% Pcorazon
+    - scoreboard players reset %player% Pfuego
+    - scoreboard players reset %player% Prayo
+    - scoreboard players reset %player% Pslime
+    - scoreboard players reset %player% Pveneno
+    - scoreboard players reset %player% Phielo
+    - scoreboard players reset %player% Pguardian
+    - scoreboard players reset %player% Pmar
+    - scoreboard players reset %player% Pviento
+    - scoreboard players reset %player% Pender
+    - scoreboard players reset %player% Pflor
+    - scoreboard players reset %player% Ppuro
+    - scoreboard players reset %player% Ptnt
+    - scoreboard players reset %player% Pwither
+    - scoreboard players set %player% Phierro 1
+    Items:
+      '1':
+        color: 13158600
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_BOOTS
+        amount: '1'
+        durability: '0'
+        name: '&7Titanium Boots'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 0
+      '2':
+        color: 13158600
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_LEGGINGS
+        amount: '1'
+        durability: '0'
+        name: '&7Titanium Leggins'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 1
+      '3':
+        color: 13158600
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_CHESTPLATE
+        amount: '1'
+        durability: '0'
+        name: '&7Titanium Chestplate'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 2
+      '4':
+        skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWJhYWFjOWIxN2RkOTYyODk1MjkyMDFjOTUxNWNjYjkyNDg0OTNmMGQ3OWM2NWM2NDA1NGFjMjNmZWZhMGQ5NCJ9fX0=
+        id: PLAYER_HEAD
+        amount: '1'
+        durability: '0'
+        name: '&7Titanium Peony Head'
+        unbreakable: 'false'
+        preview_slot: 3
+      '5':
+        nbt:
+        - Unbreakable;true;boolean
+        id: STONE_SWORD
+        amount: '1'
+        durability: '0'
+        name: '&fPower Sword'
+        enchants:
+        - LOOT_BONUS_BLOCKS;1
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 4
+      '6':
+        nbt:
+        - PublicBukkitValues;{"executableitems:ei-id":"boots","score:usage":-1};compound
+        - Unbreakable;true;boolean
+        id: IRON_BOOTS
+        amount: '1'
+        durability: '0'
+        name: '&7&lShackles'
+        lore:
+        - '&x&B&5&F&F&F&DLanza un pesado grillete'
+        - '&x&B&5&F&F&F&Dque inmoviliza al enemigo'
+        - ''
+        - '&x&C&C&C&C&C&C&oCooldown: 10s'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        unbreakable: 'true'
+        preview_slot: 5
+      '7':
+        nbt:
+        - PublicBukkitValues;{"executableitems:ei-id":"defense","score:usage":-1};compound
+        id: IRON_CHESTPLATE
+        amount: '1'
+        durability: '0'
+        name: '&7&lSteel Breastplate'
+        lore:
+        - '&x&B&5&F&F&F&DFortalece tu defensa'
+        - '&x&B&5&F&F&F&Da su máxima capacidad'
+        - ''
+        - '&x&C&C&C&C&C&C&oCooldown: 30s'
+        hide-flags:
+        - HIDE_ATTRIBUTES
+        unbreakable: 'false'
+        preview_slot: 6
+      '8':
+        nbt:
+        - PublicBukkitValues;{"executableitems:ei-id":"soldier","score:usage":-1};compound
+        id: IRON_BLOCK
+        amount: '1'
+        durability: '0'
+        name: '&7&lTitanium Army'
+        lore:
+        - '&x&B&5&F&F&F&DGenera un soldado'
+        - '&x&B&5&F&F&F&Dde titanio pequeño'
+        - '&x&B&5&F&F&F&Dpero muy poderoso'
+        - '&x&B&5&F&F&F&D(Máximo 5 a la vez)'
+        - ''
+        - '&x&C&C&C&C&C&C&oCooldown: 25s'
+        unbreakable: 'false'
+        preview_slot: 7
+      '9':
+        id: COOKED_BEEF
+        amount: '32'
+        durability: '0'
+        preview_slot: 8
+  TNT:
+    slot: 19
+    display_item: CRACKED_STONE_BRICKS
+    display_name: '&8&lDetonator Kit'
+    display_lore:
+    - ''
+    - '&8Exhaust Explosion'
+    - '&8Localized Bombardment'
+    - '&8Explosive Look'
+    cooldown: 0
+    permission: playerkits.kit.TNT
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&6&lTNT &aKit'
+      display_lore:
+      - '&cYou don''t have permissions to claim'
+      - '&cthis kit.'
+    auto_armor: true
+    Commands:
+    - attribute %player% generic.max_health base set 50
+    - attribute %player% generic.movement_speed base set 0.08
+    - attribute %player% generic.attack_damage base set 3.3
+    - attribute %player% generic.armor base set -7
+    - scoreboard players reset %player% Pmadera
+    - scoreboard players reset %player% Pcorazon
+    - scoreboard players reset %player% Pfuego
+    - scoreboard players reset %player% Prayo
+    - scoreboard players reset %player% Pslime
+    - scoreboard players reset %player% Pveneno
+    - scoreboard players reset %player% Phielo
+    - scoreboard players reset %player% Pguardian
+    - scoreboard players reset %player% Pmar
+    - scoreboard players reset %player% Pviento
+    - scoreboard players reset %player% Pender
+    - scoreboard players reset %player% Pflor
+    - scoreboard players reset %player% Ppuro
+    - scoreboard players reset %player% Phierro
+    - scoreboard players reset %player% Pwither
+    - scoreboard players set %player% Ptnt 1
+    Items:
+      '1':
+        nbt:
+        - Unbreakable;true;boolean
+        id: STONE_SWORD
+        amount: '1'
+        durability: '0'
+        name: '&fPower Sword'
+        enchants:
+        - LOOT_BONUS_BLOCKS;1
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 0
+      '2':
+        nbt:
+        - PublicBukkitValues;{"executableitems:ei-id":"creeper","score:usage":-1};compound
+        id: GUNPOWDER
+        amount: '1'
+        durability: '0'
+        name: '&8&lExhaust Explosion'
+        lore:
+        - '&x&B&5&F&F&F&DGenera una explosión en tus'
+        - '&x&B&5&F&F&F&Dpies para impulsarte con ella'
+        - ''
+        - '&x&C&C&C&C&C&C&oCooldown: 15s'
+        unbreakable: 'false'
+        preview_slot: 1
+      '3':
+        nbt:
+        - PublicBukkitValues;{"executableitems:ei-id":"tnt","score:usage":-1};compound
+        id: TNT_MINECART
+        amount: '1'
+        durability: '0'
+        name: '&8&lTNT Delivery'
+        lore:
+        - '&x&B&5&F&F&F&DCon click derecho coloca'
+        - '&x&B&5&F&F&F&Dunas marcas especiales, las'
+        - '&x&B&5&F&F&F&Dcuales serán bombardeadas al'
+        - '&x&B&5&F&F&F&Dactivarlas con clik izquierdo'
+        - '&x&B&5&F&F&F&D(Máximo 4 marcas a la vez)'
+        - ''
+        - '&x&C&C&C&C&C&C&oCooldown: 7s'
+        unbreakable: 'false'
+        preview_slot: 2
+      '4':
+        nbt:
+        - PublicBukkitValues;{"executableitems:ei-id":"explosion","score:usage":-1};compound
+        id: CRACKED_STONE_BRICKS
+        amount: '1'
+        durability: '0'
+        name: '&8&lExplosive Look'
+        lore:
+        - '&x&B&5&F&F&F&DCrea una explosión constante'
+        - '&x&B&5&F&F&F&Djusto donde estás mirando'
+        - ''
+        - '&x&C&C&C&C&C&C&oCooldown: 50s'
+        unbreakable: 'false'
+        preview_slot: 3
+      '5':
+        id: COOKED_BEEF
+        amount: '32'
+        durability: '0'
+        preview_slot: 4
+      '6':
+        color: 6579300
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_BOOTS
+        amount: '1'
+        durability: '0'
+        name: '&8Gunpowder Boots'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 5
+      '7':
+        color: 6579300
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_LEGGINGS
+        amount: '1'
+        durability: '0'
+        name: '&8Gunpowder Leggins'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 6
+      '8':
+        color: 6579300
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_CHESTPLATE
+        amount: '1'
+        durability: '0'
+        name: '&8Gunpowder Chestplate'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 7
+      '9':
+        skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDE2OGRmMWEyYWI5YmY1NzFhNzBkNGU3YzU2NDdmY2VjZDQ3YWEwMGVkNjEwZTc0MzZjNGJjZmU2YzIzN2VhNyJ9fX0=
+        id: PLAYER_HEAD
+        amount: '1'
+        durability: '0'
+        name: '&8Detonator Head'
+        unbreakable: 'false'
+        preview_slot: 8
+  Wither:
+    slot: 20
+    display_item: NETHERITE_BLOCK
+    display_name: '&x&3&0&3&0&3&0&lVacuum Entity Kit'
+    display_lore:
+    - ''
+    - '&x&3&0&3&0&3&0Wither Flower'
+    - '&x&3&0&3&0&3&0Void Black Hole'
+    - '&x&3&0&3&0&3&0Wither Overload'
+    cooldown: 0
+    Commands:
+    - attribute %player% generic.max_health base set 26
+    - attribute %player% generic.movement_speed base set 0.18
+    - attribute %player% generic.attack_damage base set 3.3
+    - attribute %player% generic.armor base set -2.5
+    - scoreboard players reset %player% Pmadera
+    - scoreboard players reset %player% Pcorazon
+    - scoreboard players reset %player% Pfuego
+    - scoreboard players reset %player% Prayo
+    - scoreboard players reset %player% Pslime
+    - scoreboard players reset %player% Pveneno
+    - scoreboard players reset %player% Phielo
+    - scoreboard players reset %player% Pguardian
+    - scoreboard players reset %player% Pmar
+    - scoreboard players reset %player% Pviento
+    - scoreboard players reset %player% Pender
+    - scoreboard players reset %player% Pflor
+    - scoreboard players reset %player% Ppuro
+    - scoreboard players reset %player% Phierro
+    - scoreboard players reset %player% Ptnt
+    - scoreboard players set %player% Pwither 1
+    permission: playerkits.kit.Wither
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&6&lWither &aKit'
+      display_lore:
+      - '&cYou don''t have permissions to claim'
+      - '&cthis kit.'
+    auto_armor: true
+    Items:
+      '1':
+        nbt:
+        - Unbreakable;true;boolean
+        id: STONE_SWORD
+        amount: '1'
+        durability: '0'
+        name: '&fPower Sword'
+        enchants:
+        - LOOT_BONUS_BLOCKS;1
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 0
+      '2':
+        nbt:
+        - PublicBukkitValues;{"executableitems:ei-id":"rose","score:usage":-1};compound
+        id: WITHER_ROSE
+        amount: '1'
+        durability: '0'
+        name: '&x&2&0&2&0&2&0&lWither Flower'
+        lore:
+        - '&x&B&5&F&F&F&DAplica el efecto del'
+        - '&x&B&5&F&F&F&Dwither con sus espinas'
+        - '&x&B&5&F&F&F&Dal golpear a un oponente'
+        - ''
+        - '&x&C&C&C&C&C&C&oCooldown: 15s'
+        unbreakable: 'false'
+        preview_slot: 1
+      '3':
+        nbt:
+        - PublicBukkitValues;{"executableitems:ei-id":"skull","score:usage":-1};compound
+        id: ANVIL
+        amount: '1'
+        durability: '0'
+        name: '&x&2&0&2&0&2&0&lVoid Black Hole'
+        lore:
+        - '&x&B&5&F&F&F&DLanza un objeto tan denso que'
+        - '&x&B&5&F&F&F&Dcrea un vórtice oscuro que'
+        - '&x&B&5&F&F&F&Dabsorbe a todos tus enemigos'
+        - ''
+        - '&x&C&C&C&C&C&C&oCooldown: 25s'
+        enchants:
+        - PROTECTION_FALL;6
+        hide-flags:
+        - HIDE_ENCHANTS
+        unbreakable: 'false'
+        preview_slot: 2
+      '4':
+        nbt:
+        - PublicBukkitValues;{"executableitems:ei-id":"wither","score:usage":-1};compound
+        id: NETHERITE_BLOCK
+        amount: '1'
+        durability: '0'
+        name: '&x&2&0&2&0&2&0&lWither Overload'
+        lore:
+        - '&x&B&5&F&F&F&DGenera un wither que crece'
+        - '&x&B&5&F&F&F&Dpoco a poco, al llegar a'
+        - '&x&B&5&F&F&F&Dsu tamaño máximo, creará'
+        - '&x&B&5&F&F&F&Duna devastadora explosión'
+        - ''
+        - '&x&C&C&C&C&C&C&oCooldown: 45s'
+        unbreakable: 'false'
+        preview_slot: 3
+      '5':
+        id: COOKED_BEEF
+        amount: '32'
+        durability: '0'
+        preview_slot: 4
+      '6':
+        color: 0
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_BOOTS
+        amount: '1'
+        durability: '0'
+        name: '&x&2&0&2&0&2&0Void Boots'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 5
+      '7':
+        color: 0
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_LEGGINGS
+        amount: '1'
+        durability: '0'
+        name: '&x&2&0&2&0&2&0Void Leggins'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 6
+      '8':
+        color: 0
+        nbt:
+        - Unbreakable;true;boolean
+        id: LEATHER_CHESTPLATE
+        amount: '1'
+        durability: '0'
+        name: '&x&2&0&2&0&2&0Void Chestplate'
+        hide-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        unbreakable: 'true'
+        preview_slot: 7
+      '9':
+        skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjExNzc3OTE2ZTc1NjQ0M2UzMGEwNDNmMmJjOWNjZTBkMGZlNjI0YmQ2MTkyZDdiYTIzZjk2YTFkNzFiOWYzZiJ9fX0=
+        id: PLAYER_HEAD
+        amount: '1'
+        durability: '0'
+        name: '&x&2&0&2&0&2&0Vacuum Entity Head'
+        unbreakable: 'false'
+        preview_slot: 8

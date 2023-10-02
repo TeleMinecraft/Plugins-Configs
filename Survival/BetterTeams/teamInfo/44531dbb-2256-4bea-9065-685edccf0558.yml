@@ -1,0 +1,60 @@
+name: saracatunga
+description: ''
+open: false
+pvp: false
+home: ''
+color: b
+chests: []
+players:
+- d318e5b3-e0dd-3827-98c5-d17b4d397423,OWNER
+- 4736039c-d76a-37c0-aae9-d63176dd743a,DEFAULT
+level: 2
+tag: ''
+money: 21000.0
+warps:
+- rojas;world:673.6956811270272:72.0:340.6741056565509:-91.34729:18.600101
+- casaahorasi;world:70149.5:63.0:2509.5:-44.250008:-1.0500002
+echest:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: PURPLE_SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: H4sIAAAAAAAA/5XKuw6CMAAF0FsEhar4xOefOBmJg7PuhmA1jaUlWGL8exc/wHvmIwGJ9GBc+Txar/3nUjwSRCevqpcEsBUIz8Z5CES5a63fxwj0DVmlrSqb4u53ddvURl3fzhn8tqB2QO0OtUNqR9TuUrtH7ZjaCbUltfvUHlB7SO2U2iNqj6k9ofaU2jNqz6mdUXtB7SW1V9ReU3vz3wa+/KqAUP0EAAA=
+      blockMaterial: PURPLE_SHULKER_BOX
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: RED_SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: H4sIAAAAAAAA/43KzRKBYACG0bcUFUL+uRMrw1hYszdNxTSqbyafMe7exgU8Z30iKVJ8qEz2PDW2tN9r+gjln21RvyJJW0fepTJWjvyjeTd2H8gtcyV12RRZm97tri3y28eYSv/q8Ory2uHV49Xntctrj9eA15DXiNc+rwNeh7zGvI54HfM64TXhdcrrjNc5rwtel7yueF3zugFV+gFL0eM2rAQAAA==
+      blockMaterial: RED_SHULKER_BOX
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: OAK_LOG
+    amount: 64
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: OAK_LOG
+    amount: 26
+  '24':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: NETHERITE_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 5
+        LOOT_BONUS_BLOCKS: 3
+        MENDING: 1
+        DURABILITY: 3
+      repair-cost: 31
+      Damage: 1034
+score: 0

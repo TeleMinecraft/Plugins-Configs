@@ -1,0 +1,6 @@
+2021-05-28 03:02:29.393: (310ms) 99% ANTIKNOCKBACK > Distance after damage: 0.040678767440773; Damager: pufferfish Ping: 310. Player version: V1_16. TPS: [20.044103542028445, 20.09353876569124, 20.046687961915545]
+2021-05-29 06:32:14.324: (214ms) 95% BLINK > PositionLook packet: 54 Position Packet: 21 (=75) Ping: 214 Warn for Timer: 0. Player version: V1_16. TPS: [19.555443587624897, 20.032701867717375, 20.052830346816787]
+2021-05-29 06:32:50.263: (210ms) 93% BLINK > PositionLook packet: 47 Position Packet: 26 (=73) Ping: 210 Warn for Timer: 1. Player version: V1_16. TPS: [20.179672393513055, 20.13889415428697, 20.08874073647867]
+2021-05-29 06:36:15.177: (211ms) 97% BLINK > PositionLook packet: 2 Position Packet: 75 (=77) Ping: 211 Warn for Timer: 2. Player version: V1_16. TPS: [20.063235900394126, 20.185168915124862, 20.12959429712903]
+2021-06-02 01:03:22.332: (176ms) 91% BLINK > PositionLook packet: 48 Position Packet: 23 (=71) Ping: 176 Warn for Timer: 0. Player version: V1_16. TPS: [19.946836795527137, 19.906008607951502, 19.986905909856407]
+2021-06-02 01:03:22.333: (176ms) 100% TIMER > Flying: 0, position: 23, look: 3, positionLook: 48, sum: 36.0, median: 35. Player version: V1_16. TPS: [19.946836795527137, 19.906008607951502, 19.986905909856407]

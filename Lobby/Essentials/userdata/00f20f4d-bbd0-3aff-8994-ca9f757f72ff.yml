@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 201.214.214.71
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1685145603670
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1686351409332
+  login: 1686351386337
+money: '0'
+last-account-name: orozc048
+lastlocation:
+  world: 8039c8bf-b4ad-4692-9f73-205fa07ddece
+  world-name: world
+  x: 0.7653153746853769
+  y: 32.247392804072476
+  z: -6.6084453004364585
+  yaw: 165.80010986328125
+  pitch: 42.85002136230469
+logoutlocation:
+  world: 8039c8bf-b4ad-4692-9f73-205fa07ddece
+  world-name: world
+  x: 16.346115916194975
+  y: 30.0
+  z: 0.648284676919114
+  yaw: -96.94998168945312
+  pitch: -7.9499993324279785

@@ -1,0 +1,14 @@
+location: world:502.516:77.500:545.488
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&a&lTienda de'
+    height: 0.3
+  - content: '&a&lMinerales'
+    height: 0.3
+  actions: {}

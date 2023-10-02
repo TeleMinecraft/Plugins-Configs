@@ -1,0 +1,161 @@
+panels:
+  panel-20:
+    perm: default
+    rows: 5
+    title: '&4Tienda Bloques de Protección &8XP'
+    item:
+      '11':
+        material: COAL_ORE
+        stack: 1
+        name: '&c&lProtección de 8x8'
+        lore:
+        - '&7Click para comprar por &b8Lvl de XP'
+        commands:
+        - xp-paywall= 8 level
+        - op= ps give 8 %cp-player-name% 1
+        - op= cp panel-20
+      '13':
+        material: IRON_ORE
+        stack: 1
+        name: '&6&lProtección de 16x16'
+        lore:
+        - '&7Click para comprar por &b16Lvl de XP'
+        commands:
+        - xp-paywall= 16 level
+        - op= ps give 16 %cp-player-name% 1
+        - op= cp panel-20
+      '15':
+        material: GOLD_ORE
+        stack: 1
+        name: '&e&lProtección de 32x32'
+        lore:
+        - '&7Click para comprar por &b32Lvl de XP'
+        commands:
+        - xp-paywall= 32 level
+        - op= ps give 32 %cp-player-name% 1
+        - op= cp panel-20
+      '29':
+        material: EMERALD_ORE
+        stack: 1
+        name: '&a&lProtección de 48x48'
+        lore:
+        - '&7Click para comprar por &b48Lvl de XP'
+        commands:
+        - xp-paywall= 48 level
+        - op= ps give 48 %cp-player-name% 1
+        - op= cp panel-20
+      '31':
+        material: DIAMOND_ORE
+        stack: 1
+        name: '&b&lProtección de 64x64'
+        lore:
+        - '&7Click para comprar por &b64Lvl de XP'
+        commands:
+        - xp-paywall= 64 level
+        - op= ps give 64 %cp-player-name% 1
+        - op= cp panel-20
+      '0':
+        material: RED_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '1':
+        material: RED_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '2':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '3':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '4':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '5':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '6':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '7':
+        material: YELLOW_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '8':
+        material: YELLOW_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '9':
+        material: RED_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '17':
+        material: YELLOW_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '18':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '26':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '27':
+        material: YELLOW_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '33':
+        material: EXPERIENCE_BOTTLE
+        stack: 1
+        name: '&9Actualmente estás comprando por experiencia'
+        lore:
+        - '&7Tienes: &b&o%player_level% Niveles de XP'
+        - '&7Click para cambiar a compra por dinero'
+        commands:
+        - op= cp panel-19
+      '36':
+        material: YELLOW_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '38':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '39':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '40':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '41':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '42':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '43':
+        material: RED_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '44':
+        material: RED_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '35':
+        material: RED_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '37':
+        material: YELLOW_STAINED_GLASS_PANE
+        stack: 1
+        name: ''

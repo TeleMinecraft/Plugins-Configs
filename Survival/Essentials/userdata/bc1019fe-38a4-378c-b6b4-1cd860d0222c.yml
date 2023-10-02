@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 170.82.190.14
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1675030141235
+  login: 1675027766482
+money: '251000'
+last-account-name: DLT_DARKGOD
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 415.5
+  y: 78.0
+  z: -514.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: -1527.8800824976076
+  y: 138.0
+  z: 2228.218762129394
+  yaw: 38.18556213378906
+  pitch: 44.850013732910156

@@ -1,0 +1,29 @@
+timestamps:
+  login: 1612922067864
+  logout: 1612922896621
+  lastteleport: 1612751996658
+lastlocation:
+  world: world
+  x: 531.7631867444534
+  y: 61.0
+  z: -212.6898125635383
+  yaw: 248.25616
+  pitch: 32.192085
+money: '1161441.8510000000000351'
+logoutlocation:
+  world: world
+  x: 1257.699999988079
+  y: 52.0
+  z: 1867.699999988079
+  yaw: 102.75009
+  pitch: 10.050276
+homes:
+  home:
+    world: world
+    x: 1174.6990426737646
+    y: 69.0
+    z: 1878.4101258432686
+    yaw: -69.74977
+    pitch: 23.699963
+ip-address: 152.174.13.55
+last-account-name: Ali_B747

@@ -1,0 +1,38 @@
+timestamps:
+  login: 1651017594010
+  logout: 1651018045714
+  lastteleport: 1651018004391
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: 754.0794426804383
+  y: 63.0
+  z: 1402.879215190019
+  yaw: 20.850309371948242
+  pitch: 37.64990997314453
+  world-name: world
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: 265.19093637680083
+  y: 64.0
+  z: -910.5542970978798
+  yaw: -91.63506317138672
+  pitch: 11.5499906539917
+  world-name: world
+money: '3026309.875'
+ip-address: 186.189.85.235
+last-account-name: Joacojajaxd2011
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false

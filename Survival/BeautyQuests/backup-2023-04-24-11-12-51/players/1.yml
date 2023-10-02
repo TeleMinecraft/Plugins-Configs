@@ -1,0 +1,148 @@
+identifier: b319b04c-ede3-36b1-ac74-131f573b07a9
+quests:
+- questID: 1
+  currentStage: 0
+  datas:
+    starting_time: 1675057588946
+    stage0:
+      remaining:
+        0: 1
+        1: 1
+        2: 1
+  currentBranch: 0
+  timesFinished: 1
+- questID: 2
+  currentStage: 0
+  datas:
+    starting_time: 1675057485796
+    stage0:
+      amount: 1
+  currentBranch: 0
+- questID: 3
+  currentStage: 0
+  datas:
+    stage0:
+      remaining:
+        2: 1
+  currentBranch: 0
+- questID: 4
+  currentStage: 0
+  datas:
+    stage0:
+      remaining:
+        2: 5
+        3: 5
+        4: 3
+        5: 3
+  currentBranch: 0
+- questID: 5
+  currentStage: 0
+  datas:
+    stage0:
+      remaining:
+        7: 1
+  currentBranch: 0
+- questID: 6
+  currentStage: 0
+  datas:
+    stage0:
+      remaining:
+        1: 5
+  currentBranch: 0
+- questID: 7
+  currentStage: 0
+  datas:
+    starting_time: 1675057601093
+    stage0:
+      remaining:
+        0: 2
+        1: 2
+  currentBranch: 0
+  timesFinished: 1
+- questID: 8
+  currentStage: 0
+  datas:
+    stage0:
+      remaining:
+        0: 3
+        1: 3
+  currentBranch: 0
+- questID: 9
+  currentStage: 0
+  datas:
+    stage0:
+      remaining:
+        0: 10
+  currentBranch: 0
+- questID: 10
+  currentStage: 0
+  datas:
+    stage0:
+      remaining:
+        1: 5
+        2: 5
+  currentBranch: 0
+- questID: 11
+  currentStage: 0
+  datas:
+    stage0:
+      remaining:
+        1: 10
+        2: 10
+  currentBranch: 0
+- questID: 12
+  currentStage: 0
+  datas:
+    stage0:
+      remaining:
+        0: 20
+        2: 20
+        3: 5
+        7: 5
+  currentBranch: 0
+- questID: 13
+  currentStage: 0
+  datas:
+    starting_time: 1675057602497
+    stage0:
+      remaining:
+        0: 1
+  currentBranch: 0
+  timesFinished: 1
+- questID: 14
+  currentStage: 0
+  datas:
+    stage0:
+      remaining:
+        0: 1
+  currentBranch: 0
+- questID: 15
+  currentStage: 0
+  datas:
+    stage0:
+      remaining:
+        0: 3
+  currentBranch: 0
+- questID: 16
+  currentStage: 0
+  datas:
+    stage0:
+      remaining:
+        0: 2
+  currentBranch: 0
+- questID: 17
+  currentStage: 0
+  datas:
+    stage0:
+      amount: 1
+  currentBranch: 0
+- questID: 18
+  currentStage: 0
+  datas:
+    stage0: {}
+  currentBranch: 0
+- questID: 20
+  timesFinished: 1
+- questID: 24
+- questID: 26
+- questID: 27

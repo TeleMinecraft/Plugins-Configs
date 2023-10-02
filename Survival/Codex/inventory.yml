@@ -1,0 +1,316 @@
+Inventories:
+  main:
+    slots: 45
+    title: '&0Descubrimientos &0» &5&lCategorías'
+    '21':
+      type: history
+      item: BOOK
+      name: '&7Categoría: %name%'
+      lore:
+      - '&eExisten muchos secretos, misterios'
+      - '&ey conocimiento que puedes develar.'
+      - ''
+      - '&7Desbloqueado: %unlocked% &8(&a%percentage%&8)'
+      open_inventory: history_discoveries
+    '22':
+      type: regions
+      item: FILLED_MAP
+      name: '&7Categoría: %name%'
+      lore:
+      - '&eEn este basto mundo existen lugares'
+      - '&eincreíbles que puedes explorar.'
+      - ''
+      - '&7Desbloqueado: %unlocked% &8(&a%percentage%&8)'
+      open_inventory: regions_discoveries
+    '23':
+      type: monsters
+      item: WITHER_SKELETON_SKULL
+      name: '&7Categoría: %name%'
+      lore:
+      - '&eEn este mundo existen muchos'
+      - '&eseres horribles además de tí.'
+      - ''
+      - '&7Desbloqueado: %unlocked% &8(&a%percentage%&8)'
+      open_inventory: monsters_discoveries
+    0;8;36;44:
+      item: PURPLE_STAINED_GLASS_PANE
+      name: ' '
+    1;7;9;17;27;35;37;43:
+      item: BLACK_STAINED_GLASS_PANE
+      name: ' '
+  history_discoveries:
+    slots: 45
+    title: '&0Descubrimientos &0» &2&lVivencias'
+    '11':
+      type: history;1
+      item: CHEST
+      name: '&fDescubrimiento: %name%'
+      lore:
+      - '%lore%'
+    '12':
+      type: history;2
+      item: ENDER_CHEST
+      name: '&fDescubrimiento: %name%'
+      lore:
+      - '%lore%'
+    '13':
+      type: history;3
+      item: EMERALD
+      name: '&fDescubrimiento: %name%'
+      lore:
+      - '%lore%'
+    '14':
+      type: history;4
+      item: ENCHANTING_TABLE
+      name: '&fDescubrimiento: %name%'
+      lore:
+      - '%lore%'
+    '15':
+      type: history;5
+      item: TURTLE_SPAWN_EGG
+      name: '&fDescubrimiento: %name%'
+      lore:
+      - '%lore%'
+    '20':
+      type: history;6
+      item: BREWING_STAND
+      name: '&fDescubrimiento: %name%'
+      lore:
+      - '%lore%'
+    '21':
+      type: history;7
+      skull_data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTM0YTU5MmE3OTM5N2E4ZGYzOTk3YzQzMDkxNjk0ZmMyZmI3NmM4ODNhNzZjY2U4OWYwMjI3ZTVjOWYxZGZlIn19fQ==
+      name: '&fDescubrimiento: %name%'
+      lore:
+      - '%lore%'
+    '22':
+      type: history;8
+      skull_data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjExMWU4MDI0MjJiNTM5MjkyZjFmOTJiMzgzM2VkZmQ2NTEzODYwODU5NGFhYWI0YWNiMzIyMDc3YzM2NTg3YiJ9fX0=
+      name: '&fDescubrimiento: %name%'
+      lore:
+      - '%lore%'
+    '23':
+      type: history;9
+      item: CARVED_PUMPKIN
+      name: '&fDescubrimiento: %name%'
+      lore:
+      - '%lore%'
+    '24':
+      type: history;10
+      item: EGG
+      name: '&fDescubrimiento: %name%'
+      lore:
+      - '%lore%'
+    '29':
+      type: history;11
+      skull_data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWFiZmFiZjBhZGIyYTYxNWU5MDFmZTAwNDBlMzIyYzUxZmI3ZDExYzgyY2ZhZmEyMWU1MjIxYTVmNmEyZTAzMCJ9fX0=
+      name: '&fDescubrimiento: %name%'
+      lore:
+      - '%lore%'
+    '30':
+      type: history;12
+      skull_data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGQzMTE3M2U3YjdjNzhlNWU0OGRjZmY2NmQ1Nzk4MGFlY2EzODI0Y2Q4NTg0YWFjNDZkNzdjMjYwYzM4YmI0YyJ9fX0=
+      name: '&fDescubrimiento: %name%'
+      lore:
+      - '%lore%'
+    '40':
+      skull_data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzM4YWIxNDU3NDdiNGJkMDljZTAzNTQzNTQ5NDhjZTY5ZmY2ZjQxZDllMDk4YzY4NDhiODBlMTg3ZTkxOSJ9fX0=
+      name: '&7Atrás'
+      open_inventory: main
+    0;8;36;44:
+      item: LIME_STAINED_GLASS_PANE
+      name: ' '
+    1;7;9;17;27;35;37;43:
+      item: BLACK_STAINED_GLASS_PANE
+      name: ' '
+  regions_discoveries:
+    slots: 45
+    title: '&0Descubrimientos &0» &3&lLugares'
+    '11':
+      type: regions;1
+      item: STONE_BRICKS
+      name: '&fDescubrimiento: %name%'
+      lore:
+      - '%lore%'
+    '12':
+      type: regions;2
+      item: OAK_LOG
+      name: '&fDescubrimiento: %name%'
+      lore:
+      - '%lore%'
+    '13':
+      type: regions;3
+      item: EMERALD_BLOCK
+      name: '&fDescubrimiento: %name%'
+      lore:
+      - '%lore%'
+    '14':
+      type: regions;4
+      item: NETHER_GOLD_ORE
+      name: '&fDescubrimiento: %name%'
+      lore:
+      - '%lore%'
+    '15':
+      type: regions;5
+      item: OBSERVER
+      name: '&fDescubrimiento: %name%'
+      lore:
+      - '%lore%'
+    '20':
+      type: regions;6
+      item: BRICKS
+      name: '&fDescubrimiento: %name%'
+      lore:
+      - '%lore%'
+    '21':
+      type: regions;7
+      item: HEART_OF_THE_SEA
+      name: '&fDescubrimiento: %name%'
+      lore:
+      - '%lore%'
+    '22':
+      type: regions;8
+      item: BELL
+      name: '&fDescubrimiento: %name%'
+      lore:
+      - '%lore%'
+    '40':
+      skull_data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzM4YWIxNDU3NDdiNGJkMDljZTAzNTQzNTQ5NDhjZTY5ZmY2ZjQxZDllMDk4YzY4NDhiODBlMTg3ZTkxOSJ9fX0=
+      name: '&7Atrás'
+      open_inventory: main
+    0;8;36;44:
+      item: LIGHT_BLUE_STAINED_GLASS_PANE
+      name: ' '
+    1;7;9;17;27;35;37;43:
+      item: BLACK_STAINED_GLASS_PANE
+      name: ' '
+  monsters_discoveries:
+    slots: 45
+    title: '&0Descubrimiento &0» &4&lMobs 1/2'
+    '11':
+      type: monsters;1
+      item: WITHER_SKELETON_SKULL
+      name: '&fDescubrimiento: %name%'
+      lore:
+      - '%lore%'
+    '12':
+      type: monsters;2
+      skull_data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGIwNzA1NDA1NGI3OGQ1YzliYTk5YWMwMjZiMjU0ZGM3YTA5OWRhNzU5YjY3Njk3MTNkMTJjYWNjMmY1YjRmZiJ9fX0=
+      name: '&fDescubrimiento: %name%'
+      lore:
+      - '%lore%'
+    '13':
+      type: monsters;3
+      skull_data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTIwZTg0ZDMyZDFlOWM5MTlkM2ZkYmI1M2YyYjM3YmEyNzRjMTIxYzU3YjI4MTBlNWE0NzJmNDBkYWNmMDA0ZiJ9fX0=
+      name: '&fDescubrimiento: %name%'
+      lore:
+      - '%lore%'
+    '14':
+      type: monsters;4
+      skull_data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjY3ZGEzNzlmNTFkODVkNzRmZGJhMzlhMTY0ZDNmNTA2MmVmMmZmYzBiM2UwNGQzMzkzNzY3NzM5MzFhNGUifX19
+      name: '&fDescubrimiento: %name%'
+      lore:
+      - '%lore%'
+    '15':
+      type: monsters;5
+      skull_data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjY5ZDBkNDcxMTE1M2EwODljNTU2N2E3NDliMjc4NzljNzY5ZDNiZGNlYTZmZGE5ZDZmNjZlOTNkZDhjNDUxMiJ9fX0=
+      name: '&fDescubrimiento: %name%'
+      lore:
+      - '%lore%'
+    '20':
+      type: monsters;6
+      skull_data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzg0ZGY3OWM0OTEwNGIxOThjZGFkNmQ5OWZkMGQwYmNmMTUzMWM5MmQ0YWI2MjY5ZTQwYjdkM2NiYmI4ZTk4YyJ9fX0=
+      name: '&fDescubrimiento: %name%'
+      lore:
+      - '%lore%'
+    '21':
+      type: monsters;7
+      skull_data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJjZWIzOWRkNGRlMjRhN2FkZmUyOTFhM2EwY2ZjN2NmNGY2NDVkZTU5YjYwM2ZjZmUwNmM2YjVhMDZlMjYifX19
+      name: '&fDescubrimiento: %name%'
+      lore:
+      - '%lore%'
+    '22':
+      type: monsters;8
+      skull_data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWJjYWViYzAxNWQ5NWM1ZDM1NGQwYTFhNDBjYTVhNGU3Y2YxNWE5YWRkZjZkOTc0ZWI3N2YxYzQzODlmMDdiOSJ9fX0=
+      name: '&fDescubrimiento: %name%'
+      lore:
+      - '%lore%'
+    '23':
+      type: monsters;9
+      skull_data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDljMmM5Y2U2N2ViNTk3MWNjNTk1ODQ2M2U2YzlhYmFiOGU1OTlhZGMyOTVmNGQ0MjQ5OTM2YjAwOTU3NjlkZCJ9fX0=
+      name: '&fDescubrimiento: %name%'
+      lore:
+      - '%lore%'
+    '24':
+      type: monsters;10
+      skull_data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMDZhZWE2YWNhMWE4MWIyM2JkOGM1ZTUwOGZlNzY2NDhmYzJlNDFmYWExYzhmYzI2Y2ZhOGJkY2U0MTYzIn19fQ==
+      name: '&fDescubrimiento: %name%'
+      lore:
+      - '%lore%'
+    '29':
+      type: monsters;11
+      skull_data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGFlZTZiYjM3Y2JmYzkyYjBkODZkYjVhZGE0NzkwYzY0ZmY0NDY4ZDY4Yjg0OTQyZmRlMDQ0MDVlOGVmNTMzMyJ9fX0=
+      name: '&fDescubrimiento: %name%'
+      lore:
+      - '%lore%'
+    '30':
+      type: monsters;12
+      skull_data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWI1ZTUwNWRmNzFjM2E1ZDI5Mjg5MmViYjBkYjI3YjhkYTYxMWIzOGM1NDk4ZTI2MWY2NzVlNzljOTAxYTgzYyJ9fX0=
+      name: '&fDescubrimiento: %name%'
+      lore:
+      - '%lore%'
+    '31':
+      type: monsters;13
+      skull_data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDE2Yzk5MzQ0ZTM3ODNkYzVmOWM5ZGNkMzEyNWNiODhiN2RjNDliN2Q3YTg5ZTJmZTAyYzA4Y2IyMjZiMTVmMCJ9fX0=
+      name: '&fDescubrimiento: %name%'
+      lore:
+      - '%lore%'
+    '32':
+      type: monsters;14
+      skull_data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmIyZGI1NzlmMGM1NTEyZmE2NzFhNDhkNmU5MWY2NGQwNmYwNmI3ZTljYjNmNmMxODQzZjUxMTQzNDRmNjliNyJ9fX0=
+      name: '&fDescubrimiento: %name%'
+      lore:
+      - '%lore%'
+    '33':
+      type: monsters;15
+      skull_data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzQ2ODMwZGE1ZjgzYTNhYWVkODM4YTk5MTU2YWQ3ODFhNzg5Y2ZjZjEzZTI1YmVlZjdmNTRhODZlNGZhNCJ9fX0=
+      name: '&fDescubrimiento: %name%'
+      lore:
+      - '%lore%'
+    '40':
+      skull_data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzM4YWIxNDU3NDdiNGJkMDljZTAzNTQzNTQ5NDhjZTY5ZmY2ZjQxZDllMDk4YzY4NDhiODBlMTg3ZTkxOSJ9fX0=
+      name: '&7Atrás'
+      open_inventory: main
+    '41':
+      skull_data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjgyYWQxYjljYjRkZDIxMjU5YzBkNzVhYTMxNWZmMzg5YzNjZWY3NTJiZTM5NDkzMzgxNjRiYWM4NGE5NmUifX19
+      name: '&7Siguiente'
+      open_inventory: monsters_discoveries2
+    0;8;36;44:
+      item: RED_STAINED_GLASS_PANE
+      name: ' '
+    1;7;9;17;27;35;37;43:
+      item: BLACK_STAINED_GLASS_PANE
+      name: ' '
+  monsters_discoveries2:
+    slots: 45
+    title: '&0Descubrimiento &0» &4&lMobs 2/2'
+    0;8;36;44:
+      item: RED_STAINED_GLASS_PANE
+      name: ' '
+    1;7;9;17;27;35;37;43:
+      item: BLACK_STAINED_GLASS_PANE
+      name: ' '
+    '11':
+      type: monsters;16
+      skull_data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDk2YmM4ZWJkNGUxM2Y0OTZkOGQ3NGM1NjVkZDU2ZTk5YTRhZjJlMmVhN2EyN2E5NmMxYWJkMjg0MTg0YiJ9fX0=
+      name: '&fDescubrimiento: %name%'
+      lore:
+      - '%lore%'
+    '39':
+      skull_data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzdhZWU5YTc1YmYwZGY3ODk3MTgzMDE1Y2NhMGIyYTdkNzU1YzYzMzg4ZmYwMTc1MmQ1ZjQ0MTlmYzY0NSJ9fX0=
+      name: '&7Anterior'
+      open_inventory: monsters_discoveries
+    '40':
+      skull_data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzM4YWIxNDU3NDdiNGJkMDljZTAzNTQzNTQ5NDhjZTY5ZmY2ZjQxZDllMDk4YzY4NDhiODBlMTg3ZTkxOSJ9fX0=
+      name: '&7Atrás'
+      open_inventory: main

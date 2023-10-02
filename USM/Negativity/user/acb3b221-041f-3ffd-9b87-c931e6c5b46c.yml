@@ -1,0 +1,25 @@
+playername: PaNaCoTa2133
+lang: es_ES
+minerate-full-mined: 25219
+minerate:
+  diamond: 16
+  gold: 10
+  iron: 57
+  coal: 86
+  ancient debris: 0
+better-click: 43
+cheats:
+  autoclick: 5
+  forcefield: 3
+  blink: 1
+  noslowdown: 1
+  speed: 2
+  timer: 5
+  antiknockback: 5
+  inventorymove: 1
+  nuker: 1
+  airplace: 2
+  fastplace: 2
+  spider: 1
+  nofall: 4
+creation-time: 1622055555907

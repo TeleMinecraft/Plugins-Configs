@@ -1,0 +1,29 @@
+timestamps:
+  login: 1588030134870
+  logout: 1588032474996
+  lastteleport: 1588031400134
+lastlocation:
+  world: world_nether
+  x: 80.30000001192093
+  y: 74.0
+  z: -64.89548106143775
+  yaw: 128.82426
+  pitch: 0.60008514
+logoutlocation:
+  world: world_nether
+  x: 434.95879134017173
+  y: 53.0
+  z: -119.14374699589794
+  yaw: 87.575775
+  pitch: -3.149946
+money: '1216514.45000000000003371'
+homes:
+  home:
+    world: world
+    x: 1171.5744379236394
+    y: 65.0
+    z: -500.02360583687465
+    yaw: 274.47382
+    pitch: 7.799978
+ip-address: 200.86.165.14
+last-account-name: Nunitox

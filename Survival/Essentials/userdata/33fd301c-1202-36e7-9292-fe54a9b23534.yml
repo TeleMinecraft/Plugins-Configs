@@ -1,0 +1,29 @@
+timestamps:
+  login: 1629341444128
+  logout: 1629344147292
+  lastteleport: 1629343997195
+lastlocation:
+  world: world
+  x: 420.6633888608536
+  y: 11.0
+  z: -1252.0160832971703
+  yaw: 180.80939
+  pitch: -2.5510144
+logoutlocation:
+  world: world
+  x: 422.04331130597797
+  y: 75.5
+  z: -1536.7764431087078
+  yaw: 284.17023
+  pitch: 64.35021
+money: '1133277.3770000000000182'
+homes:
+  home:
+    world: world
+    x: 419.76933972655553
+    y: 71.0
+    z: -1535.9008144757115
+    yaw: 290.32812
+    pitch: 35.100616
+ip-address: 186.104.86.184
+last-account-name: Blacktechnologic

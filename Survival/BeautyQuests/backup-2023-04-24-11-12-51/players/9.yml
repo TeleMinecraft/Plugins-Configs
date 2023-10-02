@@ -1,0 +1,12 @@
+identifier: d142962c-d93b-3408-af54-353b951d6866
+quests:
+- stage0datas:
+    remaining:
+      0: 1
+      2: 1
+  questID: 1
+  currentStage: 0
+  currentBranch: 0
+- questID: 10
+  timer: 1634701132213
+  timesFinished: 1

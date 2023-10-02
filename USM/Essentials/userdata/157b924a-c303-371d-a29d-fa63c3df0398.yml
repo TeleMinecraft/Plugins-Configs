@@ -1,0 +1,20 @@
+timestamps:
+  login: 1631915361626
+  lastteleport: 1626582181602
+  logout: 1631915421720
+lastlocation:
+  world: world
+  x: -19.5
+  y: 30.0
+  z: 63.5
+  yaw: -142.80048
+  pitch: 22.199913
+logoutlocation:
+  world: world
+  x: 0.5
+  y: 33.0
+  z: 0.5
+  yaw: 270.0
+  pitch: 0.0
+ip-address: 167.250.55.101
+last-account-name: DockerCompose

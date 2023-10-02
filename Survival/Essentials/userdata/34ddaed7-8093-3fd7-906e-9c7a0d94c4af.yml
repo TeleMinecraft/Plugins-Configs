@@ -1,0 +1,36 @@
+timestamps:
+  login: 1611474467435
+  lastteleport: 1611295287095
+  logout: 1611474785393
+lastlocation:
+  world: world
+  x: 2563.0811647272367
+  y: 72.0
+  z: 3883.9441564972913
+  yaw: -158.66614
+  pitch: 14.850006
+money: '1182209.875'
+logoutlocation:
+  world: world
+  x: -1225.961937038928
+  y: 250.0
+  z: 1561.2010258031262
+  yaw: -209.05927
+  pitch: 20.55029
+homes:
+  home:
+    world: world
+    x: 2563.6233509195163
+    y: 72.0
+    z: 3884.545273866098
+    yaw: 0.78393555
+    pitch: 3.1499918
+  carlosgei:
+    world: world
+    x: -1221.6529532084987
+    y: 250.0
+    z: 1562.7262266128814
+    yaw: -178.83406
+    pitch: 21.777422
+ip-address: 181.161.46.128
+last-account-name: TaylorSeries

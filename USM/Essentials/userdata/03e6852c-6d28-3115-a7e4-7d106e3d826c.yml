@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 186.21.60.199
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1684621200308
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1684621279486
+  login: 1684621012866
+money: '0'
+last-account-name: Brownie
+lastlocation:
+  world: 2e1ce19e-1f4f-4123-8c05-bbc1db660846
+  world-name: world
+  x: -334.46761367970083
+  y: 35.57143182850739
+  z: 140.85507370316617
+  yaw: -109.115966796875
+  pitch: 7.882901668548584
+logoutlocation:
+  world: 2e1ce19e-1f4f-4123-8c05-bbc1db660846
+  world-name: world
+  x: -47.40703765496784
+  y: 34.18187038724775
+  z: 65.46103128401333
+  yaw: -97.49624633789062
+  pitch: 19.025476455688477

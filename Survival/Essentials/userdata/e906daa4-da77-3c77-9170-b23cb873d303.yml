@@ -1,0 +1,36 @@
+timestamps:
+  login: 1632274775890
+  lastteleport: 1632275844674
+  logout: 1632276461400
+lastlocation:
+  world: world
+  x: -2248.0625286882987
+  y: 78.0
+  z: 278.30000001192093
+  yaw: -76.85536
+  pitch: 25.05009
+homes:
+  home:
+    world: world
+    x: -1840.486713724025
+    y: 58.0
+    z: 350.8624379712537
+    yaw: 210.89255
+    pitch: 21.599785
+  playa:
+    world: world
+    x: -1861.1609188608718
+    y: 64.0
+    z: -3077.3232019038537
+    yaw: 118.49359
+    pitch: 21.600042
+money: '11782229.18450000001104569'
+logoutlocation:
+  world: world
+  x: -2226.5811524868036
+  y: 79.0
+  z: 286.5529206489119
+  yaw: -268.71368
+  pitch: 1.3501275
+ip-address: 190.82.249.98
+last-account-name: Danny332

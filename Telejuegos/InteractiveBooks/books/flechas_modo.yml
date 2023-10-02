@@ -1,0 +1,48 @@
+# This is an example book to show how to create one
+# Note: The placeholders in this book (like %player_name%) need PlaceholderAPI installed
+# with the proper expansion, see here for more informations: https://www.spigotmc.org/resources/placeholderapi.6245/
+
+# Item's name
+name: ExampleName
+
+# Book's title
+title: ExampleTitle
+
+# Book's author
+author: ExampleAuthor
+
+# Book's generation
+# Valid values: ORIGINAL, COPY_OF_ORIGINAL, COPY_OF_COPY, TATTERED
+generation: ORIGINAL
+
+# Item's lore
+lore:
+- Example lore 1
+- Example lore 2
+
+# Command to open this book
+# You can remove this by setting it to ''
+# Separate multiple commands with a space
+open_command: ''
+
+pages:
+  '1':
+  - '    §0§lVotación por'
+  - ' §0§lel modo de juego:'
+  - ''
+  - '<run command:/v_solo><tooltip:§fVotar por modo §a§lSolo>§a█<reset> <tooltip:§fModo §asolitario§f, todos contra todos!>§a§lSolo:<reset> §a§l§o%objective_score_Fsolo_Votos%<reset>'
+  - '<run command:/v_team><tooltip:§fVotar por modo §6§lTeam>§6█<reset> <tooltip:§fModo en §6grupo§f, apoya a tu equipo!>§6§lTeam:<reset> §6§l§o%objective_score_Fteam_Votos%<reset>'
+  - ''
+  - ''
+  - '    §0§lVotación por'
+  - ' §0§lel tipo de juego:'
+  - ''
+  - '<run command:/v_rondas><tooltip:§fVotar por el tipo de juego §d§lRondas>§d█<reset> <tooltip:§fTipo de juego por §drondas§f, gana el juego el mejor de 3>§d§lRondas:<reset> §d§l§o%objective_score_Frondas_Votos%<reset>'
+  - '<run command:/v_normal><tooltip:§fVotar por el tipo de juego §c§lNormal>§c█<reset> <tooltip:§fTipo de juego §cnormal§f, gana el juego el último jugador en pie>§c§lNormal:<reset> §c§l§o%objective_score_Fnormal_Votos%<reset>'
+  
+# For the placeholders to work correctly
+# you should download the Player and Vault
+# extensions for PlaceholderAPI:
+# /papi ecloud download Player
+# /papi ecloud download Vault
+# /papi reload

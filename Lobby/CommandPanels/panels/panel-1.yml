@@ -1,0 +1,164 @@
+panels:
+  panel-1:
+    perm: default
+    panelType: default
+    rows: 3
+    title: '&9&lSelector de Servidores'
+    command: menu
+    sound-on-open: BLOCK_NOTE_BLOCK_CHIME
+    open-with-item:
+      material: NETHER_STAR
+      name: '&b&lSelector de Servidores'
+      lore:
+      - '&7Click para abrir el menú!'
+      stationary: 4
+    item:
+      '0':
+        material: MAGENTA_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - cpc
+      '1':
+        material: LIGHT_BLUE_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - cpc
+      '2':
+        material: MAGENTA_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - cpc
+      '3':
+        material: LIGHT_BLUE_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - cpc
+      '4':
+        material: MAGENTA_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - cpc
+      '5':
+        material: LIGHT_BLUE_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - cpc
+      '6':
+        material: MAGENTA_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - cpc
+      '7':
+        material: LIGHT_BLUE_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - cpc
+      '8':
+        material: MAGENTA_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - cpc
+      '9':
+        material: LIGHT_BLUE_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - cpc
+      '10':
+        material: PODZOL
+        name: §2§lSurvival §7%bungee_survival%/150
+        lore:
+        - §7[Click para ir al Survival]
+        commands:
+        - svar set server_survival 1 %cp-player-name%
+        - force-server= survival
+      '12':
+        material: FIREWORK_ROCKET
+        name: §d§lTelejuegos §7%bungee_telejuegos%/100
+        commands:
+        - svar set server_telejuegos 1 %cp-player-name%
+        - force-server= telejuegos
+        lore:
+        - §7[Click para ir a los Telejuegos]
+      '14':
+        material: WRITABLE_BOOK
+        name: §3§lUSM §7%bungee_usm%/150
+        lore:
+        - §7[Click para ir a la USM]
+        commands:
+        - svar set server_usm 1 %cp-player-name%
+        - force-server= usm
+      '16':
+        material: COOKIE
+        name: §e§lOtros...
+        lore:
+        - §6Redes sociales
+        - §dObtener §oVIP
+        - §9Informaciones
+        - §bQuiénes somos?
+        commands:
+        - cp panel-2
+      '17':
+        material: LIGHT_BLUE_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - cpc
+      '18':
+        material: MAGENTA_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - cpc
+      '19':
+        material: LIGHT_BLUE_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - cpc
+      '20':
+        material: MAGENTA_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - cpc
+      '21':
+        material: LIGHT_BLUE_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - cpc
+      '22':
+        material: MAGENTA_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - cpc
+      '23':
+        material: LIGHT_BLUE_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - cpc
+      '24':
+        material: MAGENTA_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - cpc
+      '25':
+        material: LIGHT_BLUE_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - cpc
+      '26':
+        material: MAGENTA_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - cpc
+      '11':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - cpc
+      '13':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - cpc
+      '15':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - cpc

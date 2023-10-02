@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 186.106.249.94
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1675047568415
+  login: 1675046394012
+money: '0'
+last-account-name: awadeuwusito
+logoutlocation:
+  world: 2e1ce19e-1f4f-4123-8c05-bbc1db660846
+  world-name: world
+  x: -218.9479196757754
+  y: -5158.475854384747
+  z: 205.01784471482242
+  yaw: -161.8214111328125
+  pitch: -7.3499436378479

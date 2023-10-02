@@ -1,0 +1,5 @@
+name: paltuki
+events:
+  event57:
+    one_time: false
+    cooldown: 1669488984067

@@ -1,0 +1,1 @@
+2022-02-13 02:51:03.809: (153ms) 98% BLINK > PositionLook packet: 51 Position Packet: 27 (=78) Ping: 153 Warn for Timer: 0. Player version: V1_16. TPS: [20.000588397567565, 20.012918831425758, 20.017417572878422]

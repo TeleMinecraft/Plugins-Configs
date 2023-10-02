@@ -1,0 +1,14 @@
+name: ShisposBuddy123
+events:
+  event57:
+    one_time: false
+    cooldown: 1673110318119
+  event21:
+    one_time: false
+    cooldown: 1673110826203
+  event22:
+    one_time: false
+    cooldown: 1673110835001
+  event62:
+    one_time: false
+    cooldown: 1673110866493

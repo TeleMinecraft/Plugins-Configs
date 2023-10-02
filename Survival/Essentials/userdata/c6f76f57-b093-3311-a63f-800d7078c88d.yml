@@ -1,0 +1,63 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 201.188.68.180
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1659238872324
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1659239588818
+  login: 1659238632815
+money: '104247792.410500000000006'
+last-account-name: Natcram
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 584.303949458364
+  y: 90.0
+  z: 770.9155303667837
+  yaw: -15.769500732421875
+  pitch: 30.599973678588867
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 1848.409379867121
+  y: 108.0
+  z: 1341.3622460456872
+  yaw: 2.254638671875
+  pitch: 9.150044441223145
+homes:
+  home:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: 1847.6541738793821
+    y: 109.0
+    z: 1339.6951877682332
+    yaw: -97.94888305664062
+    pitch: 25.049991607666016
+  desert:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: 2210.290198101477
+    y: 70.0
+    z: 3450.8996228161673
+    yaw: -173.8414306640625
+    pitch: 21.750627517700195
+  gatos:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: -1772.4995989466154
+    y: 72.0
+    z: 268.1540659214594
+    yaw: 86.998291015625
+    pitch: 18.000019073486328

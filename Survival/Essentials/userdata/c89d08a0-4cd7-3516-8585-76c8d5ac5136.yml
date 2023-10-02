@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 190.82.252.208
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1678648518904
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1678648858893
+  login: 1678648500832
+money: '16100.0'
+last-account-name: feirune
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: -1282.9492646206456
+  y: 70.0625
+  z: -1129.0961763960563
+  yaw: -85.74307250976562
+  pitch: 13.116055488586426
+homes:
+  home:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: -84.24032535965361
+    y: 64.0
+    z: 930.1131167797363
+    yaw: -99.6966552734375
+    pitch: 5.2345991134643555
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 453.0744440996068
+  y: 43.0
+  z: 1165.2485004973798
+  yaw: -134.8626708984375
+  pitch: 19.67838478088379

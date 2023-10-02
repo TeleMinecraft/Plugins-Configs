@@ -1,0 +1,25 @@
+options:
+  auto_active: true
+  rewards: {}
+  display_name: '&2&lVicencias'
+  description: '&fMuy pronto...'
+  item: BOOK
+  gui_location: auto
+  minecraft-gui-display: true
+  minecraft-gui-background: textures/block/deepslate_bricks.png
+advancements:
+  seccion_info:
+    type: impossible
+    value: ignored
+    amount: 1
+    rewards: []
+    display:
+      name: §e§lMi primera recompensa!
+      item: CHEST
+      description: '&fAbre tu primera Recompensa Diaria'
+      gui_location: auto
+      unit: none
+      minecraft-gui-frame: TASK
+      minecraft-toast: true
+      minecraft-chat-announce: false
+      minecraft-progress-type: AUTO

@@ -1,0 +1,16 @@
+uuid: 557e3a81-4358-323b-bf55-ba442a1d46af
+wins: 0
+losses: 2
+kills: 0
+deaths: 2
+xp: 0
+pareffect: none
+proeffect: none
+glasscolor: black
+killsound: none
+winsound: none
+taunt: izi
+elo: -5
+permissions:
+- sw.taunt.izi
+- sw.glasscolor.black

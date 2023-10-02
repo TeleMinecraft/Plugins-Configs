@@ -1,0 +1,13 @@
+last-fill-material: AIR
+portal-server: Survival
+point-one: world,3.0,30.0,-96.0,0.0,0.0
+point-two: world,-3.0,32.0,-96.0,0.0,0.0
+teleport-location: world,3.0,32.0,-96.0,0.0,0.0
+commands-only: false
+commands:
+- svar set server_survival 1 {player}
+disabled: false
+message: ''
+title: ''
+sub-title: ''
+bar-message: ''

@@ -1,0 +1,22 @@
+location: world_skywars:11.500:38.000:-26.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&6&lDinero'
+    height: 0.3
+  - content: Se obtiene al &4matar
+    height: 0.3
+  - content: o &a&nganando partidas.
+    height: 0.3
+  - content: Con este, podrás comprar
+    height: 0.3
+  - content: únicos&r.
+    height: 0.3
+  - content: '#ICON: gold_nugget'
+    height: 0.6
+  actions: {}

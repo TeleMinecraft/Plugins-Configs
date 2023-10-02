@@ -1,0 +1,23 @@
+playername: benjidiho
+lang: es_ES
+minerate-full-mined: 11090
+minerate:
+  diamond: 230
+  gold: 60
+  iron: 336
+  coal: 277
+  ancient debris: 0
+better-click: 33
+cheats:
+  timer: 17
+  pingspoof: 2
+  antiknockback: 1
+  nuker: 2
+  forcefield: 1
+  fastplace: 1
+  blink: 1
+  noslowdown: 1
+  nofall: 1
+  spider: 1
+  speed: 17
+creation-time: 1622959968909

@@ -1,0 +1,22 @@
+location: world:415.500:80.000:-509.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '#00FF00Si estás perdido o tienes'
+    height: 0.3
+  - content: '#00FF00alguna duda usa: &u&l/help'
+    height: 0.3
+  - content: '#00FF00o haz click a este cartel.'
+    height: 0.3
+  actions:
+    LEFT:
+    - COMMAND:/help
+    - SOUND:BLOCK_NOTE_BLOCK_PLING
+    RIGHT:
+    - COMMAND:/help
+    - SOUND:BLOCK_NOTE_BLOCK_PLING

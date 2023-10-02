@@ -1,0 +1,36 @@
+timestamps:
+  login: 1628648369345
+  logout: 1628649254524
+  lastteleport: 1628637886644
+lastlocation:
+  world: world
+  x: 1230.7593736668239
+  y: 24.0
+  z: -577.6964784158126
+  yaw: -284.97647
+  pitch: 20.699997
+homes:
+  home:
+    world: world
+    x: 1211.310518066246
+    y: 88.0
+    z: -666.3000000119209
+    yaw: -183.1614
+    pitch: 38.09986
+  home2:
+    world: world
+    x: 1236.2332283295382
+    y: 15.0
+    z: -556.6999999880791
+    yaw: 17.879478
+    pitch: 10.949923
+money: '425507.875'
+logoutlocation:
+  world: world
+  x: 1207.4102121603564
+  y: 73.5
+  z: -681.0731066783846
+  yaw: -3.4710083
+  pitch: -12.599342
+ip-address: 45.225.93.243
+last-account-name: Chelo_Perez

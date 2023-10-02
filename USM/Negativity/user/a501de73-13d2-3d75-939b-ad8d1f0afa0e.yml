@@ -1,0 +1,13 @@
+playername: SlendyFernilo
+lang: es_ES
+minerate-full-mined: 115
+minerate:
+  diamond: 0
+  gold: 0
+  iron: 0
+  coal: 0
+  ancient debris: 0
+better-click: 10
+cheats:
+  forcefield: 6
+creation-time: 1651370488603

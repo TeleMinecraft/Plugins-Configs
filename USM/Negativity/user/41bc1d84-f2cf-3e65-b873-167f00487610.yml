@@ -1,0 +1,13 @@
+playername: frenton
+lang: es_ES
+minerate-full-mined: 983
+minerate:
+  diamond: 63
+  gold: 33
+  iron: 59
+  coal: 54
+  ancient debris: 0
+better-click: 6
+cheats:
+  timer: 2
+creation-time: 1629688626428

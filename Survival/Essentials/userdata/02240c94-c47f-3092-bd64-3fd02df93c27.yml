@@ -1,0 +1,40 @@
+timestamps:
+  login: 1666903524480
+  logout: 1666903582538
+  lastteleport: 1666903565941
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: 472.2847782238259
+  y: 77.0
+  z: 528.8517124455932
+  yaw: 90.78642272949219
+  pitch: 7.478673934936523
+  world-name: world
+money: '9302769.14499999999994172'
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: -1299.0495952379135
+  y: 66.0
+  z: -1068.3438246599635
+  yaw: -73.92898559570312
+  pitch: 10.791144371032715
+  world-name: world
+afk: false
+ip-address: 190.114.41.138
+last-account-name: CristoPsx
+lastAccountName: CristoPsx
+ipAddress: 190.114.41.138
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false

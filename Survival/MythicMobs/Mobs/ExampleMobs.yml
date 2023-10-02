@@ -1,0 +1,403 @@
+# For more information, check out the plugin manual or join us on Discord:
+# http://www.mythicmobs.net
+#  
+
+SkeletalKnight:
+  Type: WITHER_SKELETON
+  Display: '&8&lSkeletal Knight'
+  Health: 40
+  Damage: 8
+  Equipment:
+  - IRON_HELMET HEAD
+  - IRON_CHESTPLATE CHEST
+  - IRON_LEGGINGS LEGS
+  - IRON_BOOTS FEET
+  - IRON_SWORD HAND
+  - SHIELD OFFHAND
+  Drops:
+  - SkeletalKnightItemDrops
+  LevelModifiers:
+  - health 5
+  - damage 0.5
+  Options:
+    MovementSpeed: 0.1
+SkeletonKing:
+  Type: WITHER_SKELETON
+  Display: '&6&lSkeleton King'
+  Health: 500
+  Damage: 10
+  Skills:
+  - skill{s=SummonSkeletons} @self 0.1
+  - skill{s=SmashAttack} @target >0 0.3
+  Equipment:
+  - KingsCrown HEAD
+  - SkeletonKingSword HAND
+  Drops:
+  - SkeletonKingDrops
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.2
+    MaxCombatDistance: 25
+    PreventOtherDrops: true
+SkeletalMinion:
+  Type: SKELETON
+  Display: '&6Skeletal Minion'
+  Health: 10
+  Damage: 2
+  Options:
+    MovementSpeed: 0.1
+    PreventOtherDrops: true
+  Equipment:
+  - IRON_HELMET HEAD
+  - BOW HAND
+AngrySludge:
+  Type: SLIME
+  Display: '&a&lAngry Sludge'
+  Health: 100
+  Damage: 2
+  Options:
+    AlwaysShowName: true
+    Size: 10
+    MovementSpeed: 0.3
+    PreventSlimeSplit: true
+    PreventOtherDrops: true
+    MaxCombatDistance: 30
+    KnockbackResistance: 1
+  Skills:
+  - skill{s=SummonSlimes} @self 0.2
+  - skill{s=AngrySludgePoison} 0.5
+  - blockmask{material=SLIME_BLOCK;r=1;duration=100} @self ~onTimer:12
+  Drops:
+  - AngrySludgeItemDrops
+Slimes:
+  Type: SLIME
+  Display: '&aMini Slime'
+  Options:
+    Size: 1
+    MovementSpeed: 0.3
+    PreventSlimeSplit: true
+    PreventOtherDrops: true
+    MaxCombatDistance: 3
+MoneyRabbit:
+  Type: RABBIT
+  Display: '&e&lMoney Rabbit'
+  Health: 75
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.7
+    PreventOtherDrops: true
+  Skills:
+  - skill{s=RabbitTP} @target >0 1
+  Drops:
+  - MoneyRabbitItemDrops
+AncestralGolem:
+  Type: IRON_GOLEM
+  Display: '&1&lAncestral Golem'
+  Health: 700
+  Damage: 10
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.2
+    PreventOtherDrops: true
+    MaxCombatDistance: 20
+  Skills:
+  - skill{s=IronAtack} @target >0 0.3
+  Drops:
+  - AncestralGolemItemDrops
+GuardianH:
+  Type: DROWNED
+  Display: '&3Jörmundgander Henchman'
+  Equipment:
+  - IRON_HELMET HEAD
+  - TRIDENT HAND
+  - Sea OFFHAND
+  Health: 20
+  Options:
+    MovementSpeed: 0.3
+    PreventOtherDrops: true
+  Skills:
+  - skill{s=Light} @target >0 0.7
+  Drops:
+  - GuardianHItemDrops
+GuardianS:
+  Type: DROWNED
+  Display: '&3Jörmundgander Henchman'
+  Equipment:
+  - IRON_HELMET HEAD
+  - TRIDENT HAND
+  - Shell OFFHAND
+  Health: 20
+  Options:
+    MovementSpeed: 0.3
+    PreventOtherDrops: true
+  Skills:
+  - skill{s=Light} @target >0 0.7
+  Drops:
+  - GuardianSItemDrops
+SuperCreeper:
+  Type: CREEPER
+  Display: '&b&lOverloaded Creeper'
+  Health: 15
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.2
+    PreventOtherDrops: true
+    ExplosionRadius: 4
+    SuperCharged: true
+    FuseTicks: 100
+  Drops:
+  - SuperCreeperItemDrops
+BlazeKing:
+  Type: BLAZE
+  Display: '&e&lBlaze King'
+  Health: 400
+  Damage: 25
+  KillMessages:
+  - '<caster.name> &4redujo a cenizas a &e<target.name>'
+  BossBar:
+    Enabled: true
+    Title: '&e&lBlaze King'
+    Range: 40
+    Color: RED
+    Style: SOLID
+    CreateFog: true
+    DarkenSky: true
+  Skills:
+  - skill{s=FireBall} @self 1
+  - message{m="<mob.name>&4 fue derrotado por &e<trigger.name>"} @Server ~onDeath
+  - ignite{ticks=50} @PlayersInRadius{r=4} ~onDamaged
+  - skill{s=FireGrip} @self 0.5 ~onTimer:200 <50%
+  - effect:geyser{type=LAVA;height=3;speed=10} ~onTimer: 10
+  - skill{s=BlazeDeath} @self ~onDeath
+  - effect:particleorbital{p=flame;a=10;points=64;an=1;hs=0;vs=0;s=0;y=2;ticks=130;in=1;rx=0;ry=0;r=2;yOffset=0.7} @self ~onTimer:130
+  Drops:
+  - BlazeKingItemDrops
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomstroll
+  - 3 movetowardstarget
+  - 4 randomlookaround
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  DamageModifiers:
+  - ENTITY_EXPLOSION 0
+  - BLOCK_EXPLOSION 0
+  - POISON 0.5
+  - PROJECTILE 0.25
+  - WITHER 0.5
+  - THORNS 0.25
+  - MAGIC 0.5
+  - ENTITY_ATTACK 1.25
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    Despawn: true
+    AttackSpeed: 0.75
+    MovementSpeed: 0.35
+    MaxCombatDistance: 35
+    PreventOtherDrops: true
+    FollowRange: 30
+    Glowing: true
+    KnockbackResistance: 0.75
+SquidC:
+  Type: SQUID
+  Display: '&3Elusive Squid'
+  Skills:
+  - potion{type=BLINDNESS;duration=50;level=15} ~onDamaged
+  - potion{type=BLINDNESS;duration=50;level=15} ~onDeath
+  - potion{type=SLOW;duration=50;level=1} ~onDamaged
+  - potion{type=SLOW;duration=50;level=1} ~onDeath
+  - effect:particlesphere{p=reddust;color=#000000;amount=200;radius=2} @self ~onTimer:100
+  Options:
+    MovementSpeed: 0.7
+    PreventOtherDrops: true
+    MaxCombatDistance: 3
+    AlwaysShowName: true
+  AIGoalSelectors:
+  - 0 fleeplayers
+  AITargetSelectors:
+  - 0 clear
+  Drops:
+  - SquidCItemDrops
+ChickenR:
+  Type: CHICKEN
+  Options:
+    MovementSpeed: 0.35
+    MaxCombatDistance: 30
+ZombieFlaite:
+  Type: BABY_ZOMBIE
+  Display: '&2Zombie Flaite'
+  Health: 10
+  Damage: 0.1
+  Mount: ChickenR
+  Options:
+    MovementSpeed: 0.35
+    PreventOtherDrops: true
+    MaxCombatDistance: 30
+    AlwaysShowName: true
+    PreventTransformation: true
+    PreventRandomEquipment: true
+  Skills:
+  - currencytake{amount=1000} @Target ~onAttack
+  - command{c="tellraw <target.name> {"text":"Te han robado $1000!","color":"red"}"} ~onAttack
+  Drops:
+  - ZombieFlaiteItemDrops
+  Equipment:
+  - Navaja HAND
+PillagerPlus:
+  Type: PILLAGER
+  Display: '&4Pillager Shooter'
+  Health: 15
+  Damage: 20
+  Options:
+    MovementSpeed: 0.25
+    PreventOtherDrops: true
+    AttackSpeed: 1000.0
+    MaxCombatDistance: 30
+    AlwaysShowName: true
+    PreventRandomEquipment: true
+  Drops:
+  - PillagerPlusItemDrops
+  Equipment:
+  - Ballesta HAND
+SkeletonPlus:
+  Type: SKELETON
+  Display: '&eMultiple Skeleton'
+  Health: 4
+  Options:
+    MovementSpeed: 0.35
+    MaxCombatDistance: 30
+    AlwaysShowName: true
+    PreventRandomEquipment: true
+  Equipment:
+  - Casquito HEAD
+  - BOW HAND
+  Skills:
+  - summon{mob=SkeletonPlus;amount=1} @Self ~onDeath 0.75
+EndermanR:
+  Type: ENDERMAN
+  Display: '&5Modified Enderman'
+  Options:
+    MaxCombatDistance: 30
+    AlwaysShowName: true
+  Skills:
+  - skill{s=EndermanR} @self ~onSpawn
+  - skill{s=EndermanR} @self ~onTeleport
+  Drops:
+  - EndermanRItemDrops
+SucioKripy:
+  Type: CREEPER
+  Display: '&2&lSucio Kripy'
+  Health: 10
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.3
+    PreventOtherDrops: true
+    ExplosionRadius: 1
+    SuperCharged: false
+    FuseTicks: 10
+  Skills:
+  - skill{s=KripyExplosion} @self ~onDeath 1
+  - skill{s=KripyExplosion} @self ~onExplode 1
+  - skill{s=KripyExplosion} @self ~onKillPlayer 1
+  - skill{s=KripyExplosion} @self ~onAttack 1
+  Drops:
+  - SucioKripyItemDrops
+AncientPhantom:
+  Type: PHANTOM
+  Display: '&9&lAncient Phantom'
+  Health: 50
+  Damage: 5.0
+  Options:
+    MovementSpeed: 0.50
+    PreventOtherDrops: true
+    MaxCombatDistance: 30
+    AlwaysShowName: true
+    PreventTransformation: true
+    PreventRandomEquipment: true
+  Skills:
+  - command{c="data merge entity <caster.uuid> {Size:20}"} ~onSpawn
+  - command{c="effect give <caster.uuid> minecraft:glowing 999999 10 true"} ~onSpawn
+  - skill{s=PhantomI} @self ~onDamaged
+  Drops:
+  - AncientPhantomItemDrops
+Oni_E:
+  Type: WITHER_SKELETON
+  Display: '&4Oni Essence'
+  Health: 15
+  Options:
+    MovementSpeed: 0.20
+    MaxCombatDistance: 30
+    AlwaysShowName: true
+    PreventRandomEquipment: true
+  Equipment:
+  - Mini_Oni HEAD
+  - KatanaOni HAND
+  Drops:
+  - Oni_EItemDrops
+  Skills:
+  - skill{s=Wither} @Target ~onAttack
+SunMob:
+  Type: ZOMBIFIED_PIGLIN
+  Display: '&6&lSun Mob'
+  Health: 300
+  Damage: 5
+  Options:
+    MovementSpeed: 0.2
+    MaxCombatDistance: 35
+    AlwaysShowName: true
+    PreventRandomEquipment: true
+    PreventOtherDrops: true
+  BossBar:
+    Enabled: true
+    Title: '&6&lSun Mob  &7[&e<caster.hp>&7/&e<caster.mhp>&7]'
+    Range: 40
+    Color: RED
+    Style: SOLID
+    DarkenSky: true
+  DamageModifiers:
+  - ENTITY_EXPLOSION 0
+  - BLOCK_EXPLOSION 0
+  - POISON 0.5
+  - PROJECTILE 0.5
+  - WITHER 0.5
+  - THORNS 0.25
+  - MAGIC 0.5
+  - ENTITY_ATTACK 1.25
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomstroll
+  - 3 movetowardstarget
+  - 4 randomlookaround
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Skills:
+  - model{mid=sun_mob;n=true} @self ~onSpawn
+  - randomskill{skills=SunBall,MagmaLaunch,SunJump,SunPush} @self ~onTimer:10
+  - skill{s=SunBasic;sync=true} @self ~onAttack
+  - skill{s=SunAtack;sync=true} @self ~onAttack
+  - skill{s=SunThrow} @self 1 ~onDamaged
+  - skill{s=SunDeath} @self ~onDeath
+  - skill{s=SunRegeneration} @self ~onTimer:40
+Copper_golem:
+  Type: IRON_GOLEM
+  Display: '&6Copper Golem'
+  Health: 50
+  Damage: 2
+  Options:
+    MovementSpeed: 0.2
+    MaxCombatDistance: 35
+    AlwaysShowName: true
+    PreventRandomEquipment: true
+    PreventOtherDrops: true
+    Tameable: true
+  Skills:
+  - model{mid=copper_golem;n=true} @self ~onSpawn
+  - skill{s=CopperGolemSpawn} @self ~onSpawn
+  - skill{s=CopperGolemLightning} @self ~onDamaged
+  #- skill{s=CopperGolemSetOwner} @trigger ~onInteract

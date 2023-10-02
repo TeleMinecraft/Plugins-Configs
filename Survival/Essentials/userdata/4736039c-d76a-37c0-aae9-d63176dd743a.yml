@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 181.42.21.136
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1691780225802
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1691780244290
+  login: 1691779968978
+money: '111988.2700000000000004'
+last-account-name: Atlas_zero_566
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 659.9834708264957
+  y: 58.0
+  z: 309.7413912330019
+  yaw: -151.60873413085938
+  pitch: 8.700762748718262
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 668.7373107804782
+  y: 72.0
+  z: 338.51638859656475
+  yaw: 178.23516845703125
+  pitch: 6.749977111816406
+homes:
+  choza:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: 668.6572494383145
+    y: 72.0
+    z: 345.35902969902094
+    yaw: 124.83505249023438
+    pitch: 32.39996337890625

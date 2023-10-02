@@ -1,0 +1,3 @@
+waiting: '&7Jugadores necesarios:&a {MIN}&7 | Jugadores actuales:&e {COUNT}'
+starting: '&6La partida comienza en:&a {SECONDS} s'
+playing: '&eTiempo restante:&6 {SECONDS} &aJugadores vivos:&6 {COUNT}'

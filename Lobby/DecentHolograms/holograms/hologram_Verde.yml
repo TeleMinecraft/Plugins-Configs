@@ -1,0 +1,36 @@
+location: world:-59.500:34.000:-8.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&2█ &a&lTop Récords &2█'
+    height: 0.3
+  - content: '&b&l1. &b%ajlb_lb_objective_score_verde2_1_alltime_name% %ajlb_lb_objective_score_verde2_1_alltime_value%'
+    height: 0.3
+  - content: '#ICON: PLAYER_HEAD (%ajlb_lb_objective_score_verde2_1_alltime_name%)'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&b&l2. &b%ajlb_lb_objective_score_verde2_2_alltime_name% %ajlb_lb_objective_score_verde2_2_alltime_value%'
+    height: 0.3
+  - content: '&b&l3. &b%ajlb_lb_objective_score_verde2_3_alltime_name% %ajlb_lb_objective_score_verde2_3_alltime_value%'
+    height: 0.3
+  - content: '&2&l4. &a%ajlb_lb_objective_score_verde2_4_alltime_name% &2%ajlb_lb_objective_score_verde2_4_alltime_value%'
+    height: 0.3
+  - content: '&2&l5. &a%ajlb_lb_objective_score_verde2_5_alltime_name% &2%ajlb_lb_objective_score_verde2_5_alltime_value%'
+    height: 0.3
+  - content: '&2&l6. &a%ajlb_lb_objective_score_verde2_6_alltime_name% &2%ajlb_lb_objective_score_verde2_6_alltime_value%'
+    height: 0.3
+  - content: '&2&l7. &a%ajlb_lb_objective_score_verde2_7_alltime_name% &2%ajlb_lb_objective_score_verde2_7_alltime_value%'
+    height: 0.3
+  - content: '&2&l8. &a%ajlb_lb_objective_score_verde2_8_alltime_name% &2%ajlb_lb_objective_score_verde2_8_alltime_value%'
+    height: 0.3
+  - content: '&2&l9. &a%ajlb_lb_objective_score_verde2_9_alltime_name% &2%ajlb_lb_objective_score_verde2_9_alltime_value%'
+    height: 0.3
+  - content: '&2&l10. &a%ajlb_lb_objective_score_verde2_10_alltime_name% &2%ajlb_lb_objective_score_verde2_10_alltime_value%'
+    height: 0.3
+  actions: {}

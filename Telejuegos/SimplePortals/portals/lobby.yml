@@ -1,0 +1,13 @@
+last-fill-material: AIR
+portal-server: Lobby
+point-one: world,10.0,253.0,-10.0,0.0,0.0
+point-two: world,-10.0,253.0,10.0,0.0,0.0
+teleport-location: world,10.0,255.0,-10.0,0.0,0.0
+commands-only: false
+commands: []
+disabled: false
+message: ''
+title: ''
+sub-title: ''
+bar-message: ''
+cooldown: 0

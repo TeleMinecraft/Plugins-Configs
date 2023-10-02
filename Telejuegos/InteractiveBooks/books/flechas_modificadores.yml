@@ -1,0 +1,50 @@
+# This is an example book to show how to create one
+# Note: The placeholders in this book (like %player_name%) need PlaceholderAPI installed
+# with the proper expansion, see here for more informations: https://www.spigotmc.org/resources/placeholderapi.6245/
+
+# Item's name
+name: ExampleName
+
+# Book's title
+title: ExampleTitle
+
+# Book's author
+author: ExampleAuthor
+
+# Book's generation
+# Valid values: ORIGINAL, COPY_OF_ORIGINAL, COPY_OF_COPY, TATTERED
+generation: ORIGINAL
+
+# Item's lore
+lore:
+- Example lore 1
+- Example lore 2
+
+# Command to open this book
+# You can remove this by setting it to ''
+# Separate multiple commands with a space
+open_command: ''
+
+pages:
+  '1':
+  - '     §0§lVotación de'
+  - '  §0§lmodificadores:'
+  - ''
+  - '<run command:/v_rapido><tooltip:§fVotar por §b§lUltra Carga>§b█<reset> <tooltip:§fCon este modificador la recarga de tus habilidades es §bultra rápida!>§b§lUltra Carga<reset> §b§l§o%objective_score_Frapido_Votos%<reset>'
+  - ''
+  - '<run command:/v_vida><tooltip:§fVotar por §5§lUltra Vida>§5█<reset> <tooltip:§fCon este modificador tendrás §53 barras de corazones!>§5§lUltra Vida<reset> §5§l§o%objective_score_Fvida_Votos%<reset>'
+  - ''
+  - '<run command:/v_ciego><tooltip:§fVotar por §8§lUltra Instinto>§0█<reset> <tooltip:§fCon este modificador, tendrás §8ceguera constante§f, usa todos tus otros sentidos para llegar a la victoria>§0§lUltra Instinto<reset> §0§l§o%objective_score_Fciego_Votos%<reset>'
+  - ''
+  - '<run command:/v_nada><tooltip:§fVotar por §a§lNingún modificador>§a█<reset> <tooltip:§fSin atributos que modifiquen la partida>§a§lNinguno<reset> §a§l§o%objective_score_Fnada_Votos%<reset>'
+  - ''
+  - '       §0§lHorario:'
+  - '<run command:/v_dia><tooltip:§fVotar por §e§lDía>§e█<reset> <tooltip:§fArena en modo §eDía§f, disfruta del §esol>§e§lDía<reset> §e§l§o%objective_score_Fdia_Votos%<reset>'
+  - '<run command:/v_noche><tooltip:§fVotar por §1§lNoche>§1█<reset> <tooltip:§fArena en modo §1Noche§f, adáptate a la §1oscuridad>§1§lNoche<reset> §1§l§o%objective_score_Fnoche_Votos%<reset>'
+  
+# For the placeholders to work correctly
+# you should download the Player and Vault
+# extensions for PlaceholderAPI:
+# /papi ecloud download Player
+# /papi ecloud download Vault
+# /papi reload

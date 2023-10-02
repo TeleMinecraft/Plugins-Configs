@@ -1,0 +1,181 @@
+name: §4Sin'Ichi
+starts_with:
+- NPC with id 89
+block_movement: false
+slow_effect: false
+save_conversation_progress: false
+start_conversation_radius: 0
+end_conversation_radius: 5
+requires_permission: false
+cooldown: 0
+hologram_dialogues:
+  enabled: false
+  offset_y: 2.7
+  offset_horizontal: 0.0
+conversation:
+  conversation1:
+    dialogue:
+      dialogue1:
+        text:
+        - '#A5FFFCHola, qué tal?'
+        time: 1
+        conditional_dialogue:
+          conditional_dialogue1:
+            requires:
+            - '%objective_score_Ckatana% == 1'
+            start_conversation: conversation8
+          conditional_dialogue2:
+            requires:
+            - '%objective_score_Ckatana% == 2'
+            start_conversation: conversation11
+    options:
+      option1:
+        text: §fTodo bien, no te había visto por aquí antes
+        start_conversation: conversation2
+      option2:
+        text: §fMás o menos, no te reconozco, de dónde eres?
+        start_conversation: conversation4
+      option3:
+        text: §fNo muy bien, pero bueno, qué te trae por aquí?
+        start_conversation: conversation5
+      option4:
+        text: §fQué haces aquí?
+        start_conversation: conversation3
+    random_dialogue: false
+    interrupt_actions: []
+  conversation2:
+    dialogue:
+      dialogue1:
+        text:
+        - '#A5FFFCMe alegro, yo estoy un poco cansado'
+        - '#A5FFFCSoy §4Sin´Ichi #A5FFFCy vengo de muy lejos...'
+        time: 4
+        show_name: false
+        start_conversation: conversation6
+    random_dialogue: false
+    interrupt_actions: []
+  conversation3:
+    dialogue:
+      dialogue1:
+        text:
+        - '#A5FFFCOh, em, soy §4Sin´Ichi'
+        - '#A5FFFCVine hasta aquí por órdenes'
+        - '#A5FFFCde mi hermano mayor...'
+        time: 4
+        show_name: false
+        start_conversation: conversation6
+    random_dialogue: false
+    interrupt_actions: []
+  conversation4:
+    dialogue:
+      dialogue1:
+        text:
+        - '#A5FFFCOh, espero las cosas mejoren,'
+        - '#A5FFFCSoy §4Sin´Ichi #A5FFFCy vengo de muy lejos...'
+        time: 4
+        show_name: false
+        start_conversation: conversation6
+    random_dialogue: false
+    interrupt_actions: []
+  conversation5:
+    dialogue:
+      dialogue1:
+        text:
+        - '#A5FFFCOh, todos tenemos un mal día a veces'
+        - '#A5FFFCSoy §4Sin´Ichi #A5FFFCy vengo de muy lejos...'
+        time: 4
+        show_name: false
+        start_conversation: conversation6
+    random_dialogue: false
+    interrupt_actions: []
+  conversation6:
+    dialogue:
+      dialogue1:
+        text:
+        - §4Sasaki Kojiro#A5FFFC, mi hermano,
+        - '#A5FFFCme envió hasta aquí para'
+        - '#A5FFFCpromocionar su §6Tienda de Katanas'
+        time: 4
+        show_name: false
+    options:
+      option1:
+        text: §6Tienda de Katanas§f? Dónde se encuentra?
+        start_conversation: conversation8
+      option2:
+        text: §fLa verdad no me interesa
+        start_conversation: conversation7
+    random_dialogue: false
+    interrupt_actions: []
+  conversation7:
+    dialogue:
+      dialogue1:
+        text:
+        - '#A5FFFCOh, entiendo, si cambias de'
+        - '#A5FFFCopinión, estaré aquí por un tiempo'
+        time: 4
+    random_dialogue: false
+    interrupt_actions: []
+  conversation8:
+    dialogue:
+      dialogue1:
+        text:
+        - '#A5FFFCMi hermano dijo que no'
+        - '#A5FFFCcualquiera puede tener acceso'
+        - '#A5FFFCa la tienda, debes cumplir'
+        - '#A5FFFCcon ciertos §5requisitos #A5FFFCpara'
+        - '#A5FFFCconocer la ubicación de'
+        - '#A5FFFCla §6Tienda de Katanas'
+        time: 2
+        actions:
+        - 'console_command: scoreboard players set %player% Ckatana 1'
+        show_name: false
+    options:
+      option1:
+        text: '#FF6A6ACreo que no estoy list@ &7§o(Requisitos: Completar la misión:
+          Defensor de Aldeas y tener un Prestigio >= 50)'
+        start_conversation: conversation9
+        requires:
+        - '%beautyquests_advancement_13% != Finalizado or %objective_score_prestigio%
+          < 50'
+      option2:
+        text: §aTengo lo necesario!
+        start_conversation: conversation10
+        requires:
+        - '%beautyquests_advancement_13% == Finalizado'
+        - '%objective_score_prestigio% >= 50'
+    random_dialogue: false
+    interrupt_actions: []
+  conversation9:
+    dialogue:
+      dialogue1:
+        text:
+        - '#A5FFFCVeo que no, pero no'
+        - '#A5FFFCte desesperes, vuelve'
+        - '#A5FFFCcuando estés preparad@'
+        time: 1
+        show_name: false
+    random_dialogue: false
+    interrupt_actions: []
+  conversation10:
+    dialogue:
+      dialogue1:
+        text:
+        - '#A5FFFCVeo que tienes lo necesario,'
+        - '#A5FFFCcompleta una última prueba'
+        - '#A5FFFCy demostrarás ser dign@'
+        - '#A5FFFCde la §6Tienda de Katanas'
+        time: 3
+        actions:
+        - 'console_command: quest start %player% 19'
+        - 'console_command: scoreboard players set %player% Ckatana 2'
+        show_name: false
+    random_dialogue: false
+    interrupt_actions: []
+  conversation11:
+    dialogue:
+      dialogue1:
+        text:
+        - '#A5FFFCDale saludos a mi hermano!'
+        time: 1
+    random_dialogue: false
+    interrupt_actions: []

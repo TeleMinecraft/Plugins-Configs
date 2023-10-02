@@ -1,0 +1,96 @@
+timestamps:
+  login: 1687564538609
+  lastteleport: 1687564591904
+  logout: 1687564974705
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: 3996.5
+  y: 6.0
+  z: 91.5
+  yaw: 4.410888671875
+  pitch: 4.649542331695557
+  world-name: world
+money: '0.71300000000369712'
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: 6332.306248017838
+  y: 68.0
+  z: -186.30000001192093
+  yaw: 40.185279846191406
+  pitch: 23.999980926513672
+  world-name: world
+homes:
+  spawnesqueletos:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: 2570.300000011921
+    y: 23.0
+    z: 3947.300000011921
+    yaw: -19.420774459838867
+    pitch: 12.149842262268066
+    world-name: world
+  vale:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: -442.5597941217314
+    y: 69.0
+    z: 2841.3919588737026
+    yaw: 164.41006469726562
+    pitch: 8.849847793579102
+    world-name: world
+  base:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: 6341.2508012218495
+    y: 63.0
+    z: -166.5448034367587
+    yaw: 32.552459716796875
+    pitch: 10.19995403289795
+    world-name: world
+  vilaller:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: -519.6002472776906
+    y: 42.5
+    z: 1015.0943738218762
+    yaw: -178.4951629638672
+    pitch: -7.850245952606201
+    world-name: world
+  madera:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: 3397.0419766446407
+    y: 72.0
+    z: 3954.432768739901
+    yaw: -172.94178771972656
+    pitch: 14.400009155273438
+    world-name: world
+  nuevabase:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: 6116.643027887197
+    y: 69.0
+    z: 9619.582428645897
+    yaw: -21.429595947265625
+    pitch: 22.50004768371582
+    world-name: world
+  aldeanos:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: 3996.486409892486
+    y: 6.0
+    z: 91.5619700578865
+    yaw: 4.410888671875
+    pitch: 4.649542331695557
+    world-name: world
+afk: false
+nickname: §c§oR§f§ou§c§oX§f§o_§c§oA§f§op§c§ol§f§oa§c§on§f§oa§c§od§f§oo§c§or§f§oa
+ip-address: 186.79.169.46
+last-account-name: Ruxur_jfc
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false

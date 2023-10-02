@@ -1,0 +1,5 @@
+name: Rockbaider
+events:
+  resistencia_y_skin_al_entrar:
+    one_time: false
+    cooldown: 1690082703201

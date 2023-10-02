@@ -1,0 +1,394 @@
+panels:
+  panel-25:
+    perm: default
+    rows: 6
+    sound-on-open: BLOCK_NOTE_BLOCK_PLING
+    title: '$FF7800&lR&0&le$FF7800&lc&0&lo$FF7800&lm&0&lp$FF7800&le&0&ln$FF7800&ls&0&la$FF7800&ls &0&ld$FF7800&le &0&lH$FF7800&la&0&ll$FF7800&ll&0&lo$FF7800&lw&0&le$FF7800&le&0&ln'
+    item:
+      '0':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&a'
+      '1':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&a'
+      '2':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&a'
+      '3':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&a'
+      '4':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&a'
+      '5':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&a'
+      '6':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&a'
+      '7':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&a'
+      '8':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&a'
+      '9':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&a'
+      '10':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        enchanted: 'true'
+        name: '&6&lCalabaza con &d&ldulces'
+        lore:
+        - ''
+        - '&7&oRecompensa I'
+        - '&aClick para reclamar!'
+        commands:
+        - msg= &aRecompensa obtenida!
+        - console= si give halloween1 1 %cp-player-name% true
+        - set-data= r_h_1 1 %cp-player-name%
+        - sound= ENTITY_PLAYER_LEVELUP
+        - cpc
+        has0:
+          value0: 1
+          compare0: '%cp-data-r_h_1%'
+          material: BLACK_STAINED_GLASS_PANE
+          name: '&6&lCalabaza con &d&ldulces'
+          lore:
+          - ''
+          - '&8&oRecompensa reclamada'
+      '11':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        enchanted: 'true'
+        name: '$00860E&lCabeza de Frankestein'
+        lore:
+        - ''
+        - '&7&oRecompensa II'
+        - '&aClick para reclamar!'
+        commands:
+        - msg= &aRecompensa obtenida!
+        - console= si give halloween2 1 %cp-player-name% true
+        - set-data= r_h_2 1 %cp-player-name%
+        - sound= ENTITY_PLAYER_LEVELUP
+        - cpc
+        has0:
+          value0: 1
+          compare0: '%cp-data-r_h_2%'
+          material: BLACK_STAINED_GLASS_PANE
+          name: '$00860E&lCabeza de Frankestein'
+          lore:
+          - ''
+          - '&8&oRecompensa reclamada'
+      '12':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&a'
+      '13':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&a'
+      '14':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&a'
+      '15':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        enchanted: 'true'
+        name: '$B60011&lCabeza de Drácula'
+        lore:
+        - ''
+        - '&7&oRecompensa III'
+        - '&aClick para reclamar!'
+        commands:
+        - msg= &aRecompensa obtenida!
+        - console= si give halloween3 1 %cp-player-name% true
+        - set-data= r_h_3 1 %cp-player-name%
+        - sound= ENTITY_PLAYER_LEVELUP
+        - cpc
+        has0:
+          value0: 1
+          compare0: '%cp-data-r_h_3%'
+          material: BLACK_STAINED_GLASS_PANE
+          name: '$B60011&lCabeza de Drácula'
+          lore:
+          - ''
+          - '&8&oRecompensa reclamada'
+      '16':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        enchanted: 'true'
+        name: '$F18700&lCabeza de Freddy Krueger'
+        lore:
+        - ''
+        - '&7&oRecompensa IV'
+        - '&aClick para reclamar!'
+        commands:
+        - msg= &aRecompensa obtenida!
+        - console= si give halloween4 1 %cp-player-name% true
+        - set-data= r_h_4 1 %cp-player-name%
+        - sound= ENTITY_PLAYER_LEVELUP
+        - cpc
+        has0:
+          value0: 1
+          compare0: '%cp-data-r_h_4%'
+          material: BLACK_STAINED_GLASS_PANE
+          name: '$F18700&lCabeza de Freddy Krueger'
+          lore:
+          - ''
+          - '&8&oRecompensa reclamada'
+      '17':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&a'
+      '18':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&a'
+      '19':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&a'
+      '20':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&a'
+      '21':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&a'
+      '22':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&a'
+      '23':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&a'
+      '24':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&a'
+      '25':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&a'
+      '26':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&a'
+      '27':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&a'
+      '28':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&a'
+      '29':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        enchanted: 'true'
+        name: '$9E3200&lCabeza de Jason Vorhees'
+        lore:
+        - ''
+        - '&7&oRecompensa V'
+        - '&aClick para reclamar!'
+        commands:
+        - msg= &aRecompensa obtenida!
+        - console= si give halloween5 1 %cp-player-name% true
+        - set-data= r_h_5 1 %cp-player-name%
+        - sound= ENTITY_PLAYER_LEVELUP
+        - cpc
+        has0:
+          value0: 1
+          compare0: '%cp-data-r_h_5%'
+          material: BLACK_STAINED_GLASS_PANE
+          name: '$9E3200&lCabeza de Jason Vorhees'
+          lore:
+          - ''
+          - '&8&oRecompensa reclamada'
+      '30':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&a'
+      '31':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        enchanted: 'true'
+        name: '$F3F3F3&lCabeza de Jack Skellington'
+        lore:
+        - ''
+        - '&7&oRecompensa VII'
+        - '&aClick para reclamar!'
+        commands:
+        - msg= &aRecompensa obtenida!
+        - console= si give halloween7 1 %cp-player-name% true
+        - set-data= r_h_7 1 %cp-player-name%
+        - sound= ENTITY_PLAYER_LEVELUP
+        - cpc
+        has0:
+          value0: 1
+          compare0: '%cp-data-r_h_7%'
+          material: BLACK_STAINED_GLASS_PANE
+          name: '$F3F3F3&lCabeza de Jack Skellington'
+          lore:
+          - ''
+          - '&8&oRecompensa reclamada'
+      '32':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&a'
+      '33':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        enchanted: 'true'
+        name: '$008BFF&lSpawner Extractor'
+        lore:
+        - ''
+        - '&7&oRecompensa IX'
+        - '&aClick para reclamar!'
+        commands:
+        - msg= &aRecompensa obtenida!
+        - console= si give spawner_stractor 1 %cp-player-name% true
+        - set-data= r_h_9 1 %cp-player-name%
+        - sound= ENTITY_PLAYER_LEVELUP
+        - cpc
+        has0:
+          value0: 1
+          compare0: '%cp-data-r_h_9%'
+          material: BLACK_STAINED_GLASS_PANE
+          name: '$008BFF&lSpawner Extractor'
+          lore:
+          - ''
+          - '&8&oRecompensa reclamada'
+      '34':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&a'
+      '35':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&a'
+      '36':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&a'
+      '37':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&a'
+      '38':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&a'
+      '39':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        enchanted: 'true'
+        name: '$EA0000&lCabeza de Jigsaw'
+        lore:
+        - ''
+        - '&7&oRecompensa VI'
+        - '&aClick para reclamar!'
+        commands:
+        - msg= &aRecompensa obtenida!
+        - console= si give halloween6 1 %cp-player-name% true
+        - set-data= r_h_6 1 %cp-player-name%
+        - sound= ENTITY_PLAYER_LEVELUP
+        - cpc
+        has0:
+          value0: 1
+          compare0: '%cp-data-r_h_6%'
+          material: BLACK_STAINED_GLASS_PANE
+          name: '$EA0000&lCabeza de Jigsaw'
+          lore:
+          - ''
+          - '&8&oRecompensa reclamada'
+      '40':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&a'
+      '41':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        enchanted: 'true'
+        name: '$BBBBBB&lCabeza de La Muerte'
+        lore:
+        - ''
+        - '&7&oRecompensa VIII'
+        - '&aClick para reclamar!'
+        commands:
+        - msg= &aRecompensa obtenida!
+        - console= si give halloween8 1 %cp-player-name% true
+        - set-data= r_h_8 1 %cp-player-name%
+        - sound= ENTITY_PLAYER_LEVELUP
+        - cpc
+        has0:
+          value0: 1
+          compare0: '%cp-data-r_h_8%'
+          material: BLACK_STAINED_GLASS_PANE
+          name: '$BBBBBB&lCabeza de La Muerte'
+          lore:
+          - ''
+          - '&8&oRecompensa reclamada'
+      '42':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&a'
+      '43':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&a'
+      '44':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&a'
+      '45':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&a'
+      '46':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&a'
+      '47':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&a'
+      '48':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&a'
+      '49':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&a'
+      '50':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&a'
+      '51':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&a'
+      '52':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&a'
+      '53':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&a'

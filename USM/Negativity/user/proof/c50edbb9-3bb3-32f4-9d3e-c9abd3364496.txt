@@ -1,0 +1,2 @@
+2021-04-29 02:43:03.215: (156ms) 100% SPEED > Player in ground. WalkSpeed: 0.1599999964237213, Distance between from/to location: 1.209775289051667, walkTest: true, walkWithEssentialsTest: true. Player version: V1_16. TPS: [16.867474447184772, 16.346460923296085, 16.411639532958624]
+2021-04-29 18:15:45.578: (172ms) 100% ANTIKNOCKBACK > Distance after damage: 0.0; Damager: lightning Ping: 172. Player version: V1_16. TPS: [20.01057598988574, 20.016373577761215, 20.00976339444764]

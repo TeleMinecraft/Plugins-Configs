@@ -1,0 +1,91 @@
+name: '#202020&lWither Flower'
+lore:
+- '#B5FFFDAplica el efecto del'
+- '#B5FFFDwither con sus espinas'
+- '#B5FFFDal golpear a un oponente'
+- ''
+- '#CCCCCC&oCooldown: 15s'
+material: WITHER_ROSE
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+storeItemInfo: false
+unbreakable: false
+usage: -1
+usageLimit: -1
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: false
+  hidePotionEffects: false
+  hideUsage: false
+  hideDye: false
+enchantments: {}
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-consumption: true
+  cancel-item-place: true
+  cancel-item-drop: true
+  cancel-item-craft-no-custom: true
+cancelEventIfNoPerm: false
+cancelEventIfNotOwner: false
+disabledWorlds: []
+variables: {}
+activators:
+  activator1:
+    name: '&eactivator1'
+    option: PLAYER_CLICK_ON_PLAYER
+    detailedClick: LEFT
+    usageModification: -1
+    cancelEvent: false
+    noActivatorRunIfTheEventIsCancelled: false
+    silenceOutput: false
+    autoUpdateItem: false
+    updateName: true
+    updateLore: true
+    updateDurability: false
+    updateAttributes: false
+    updateEnchants: false
+    updateCustomModelData: false
+    cooldownOptions:
+      cooldown: 15
+      isCooldownInTicks: false
+      cooldownMsg: '&cNo puedes utilizarlo aún!'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+    globalCooldownOptions:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cNo puedes utilizarlo aún!'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+    otherEICooldowns: {}
+    requiredItems:
+      errorMessage: ''
+    requiredExecutableItems:
+      errorMessage: ''
+    detailedSlots:
+    - -1
+    commands:
+    - /scoreboard players set %target% Pwither 2
+    - /execute in minecraft:world_poderes run setblock -34 30 -21 minecraft:redstone_block
+    playerConditions: {}
+    worldConditions: {}
+    itemConditions: {}
+    customConditions: {}
+    placeholdersConditions: {}
+    targetCommands: []
+    targetConditions: {}
+    variablesModification: {}
+recognitions: []
+attributes: {}
+config_5: true
+config_update: true

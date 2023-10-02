@@ -1,0 +1,301 @@
+panels:
+  panel-3:
+    perm: default
+    panelType: default
+    rows: 5
+    title: '&6&lMenú de ayuda'
+    command: panel-3
+    sound-on-open: BLOCK_NOTE_BLOCK_CHIME
+    animatevalue: 2
+    item:
+      '19':
+        material: NETHER_STAR
+        name: §b§lSelector de Servidores
+        commands:
+        - op= cp panel-1
+        lore:
+        - §7Click para abrir el menu
+      '21':
+        material: FILLED_MAP
+        name: §2§lDónde ir en el Survival?
+        commands:
+        - op= st play Survival
+        lore:
+        - §7Estás perdido? Haz click!
+      '23':
+        material: BOOK
+        name: §9§lInformación Completa
+        commands:
+        - op= ibooks open help
+        lore:
+        - §7Aquí podrás saber
+        - §7todo sobre el Survival
+      '25':
+        material: RED_BED
+        name: §e§lHome
+        lore:
+        - §7Click para un
+        - §7tp a tu lugar
+        - §7de aparición
+        commands:
+        - op= home bed
+      '0':
+        material: RED_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - cpc
+        animate0:
+          material: LIME_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - cpc
+        animate1:
+          material: BLUE_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - cpc
+      '1':
+        material: RED_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - cpc
+        animate0:
+          material: LIME_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - cpc
+        animate1:
+          material: BLUE_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - cpc
+      '2':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - cpc
+      '3':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - cpc
+      '4':
+        material: RED_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - cpc
+        animate0:
+          material: LIME_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - cpc
+        animate1:
+          material: BLUE_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - cpc
+      '5':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - cpc
+      '6':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - cpc
+      '7':
+        material: RED_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - cpc
+        animate0:
+          material: LIME_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - cpc
+        animate1:
+          material: BLUE_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - cpc
+      '8':
+        material: RED_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - cpc
+        animate0:
+          material: LIME_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - cpc
+        animate1:
+          material: BLUE_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - cpc
+      '9':
+        material: RED_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - cpc
+        animate0:
+          material: LIME_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - cpc
+        animate1:
+          material: BLUE_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - cpc
+      '17':
+        material: RED_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - cpc
+        animate0:
+          material: LIME_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - cpc
+        animate1:
+          material: BLUE_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - cpc
+      '18':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - cpc
+      '26':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - cpc
+      '27':
+        material: RED_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - cpc
+        animate0:
+          material: LIME_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - cpc
+        animate1:
+          material: BLUE_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - cpc
+      '35':
+        material: RED_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - cpc
+        animate0:
+          material: LIME_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - cpc
+        animate1:
+          material: BLUE_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - cpc
+      '36':
+        material: RED_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - cpc
+        animate0:
+          material: LIME_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - cpc
+        animate1:
+          material: BLUE_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - cpc
+      '37':
+        material: RED_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - cpc
+        animate0:
+          material: LIME_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - cpc
+        animate1:
+          material: BLUE_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - cpc
+      '38':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - cpc
+      '39':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - cpc
+      '40':
+        material: RED_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - cpc
+        animate0:
+          material: LIME_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - cpc
+        animate1:
+          material: BLUE_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - cpc
+      '41':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - cpc
+      '42':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - cpc
+      '43':
+        material: RED_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - cpc
+        animate0:
+          material: LIME_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - cpc
+        animate1:
+          material: BLUE_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - cpc
+      '44':
+        material: RED_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - cpc
+        animate0:
+          material: LIME_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - cpc
+        animate1:
+          material: BLUE_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - cpc

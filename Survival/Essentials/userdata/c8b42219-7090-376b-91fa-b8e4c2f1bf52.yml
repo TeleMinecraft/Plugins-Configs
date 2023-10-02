@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 190.236.180.191
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1664241014922
+  login: 1664235748817
+money: '300000'
+last-account-name: Walls34
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 415.5
+  y: 78.0
+  z: -514.5
+  yaw: 0.0
+  pitch: 0.0
+homes:
+  home:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: 152.69892890272519
+    y: 71.0
+    z: 1771.5100043072405
+    yaw: 90.0521240234375
+    pitch: 58.58823776245117
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 152.69999998807907
+  y: 71.0625
+  z: 1771.863223878342
+  yaw: 93.91119384765625
+  pitch: 12.925923347473145

@@ -1,0 +1,18 @@
+fullInventory: '&c&l[ExecutableItems] &cTu inventario esta lleno &6%item% &cSe te a entregado cerca de tus pies'
+timeLeft: "&3Espera &b%time%"
+requirePermission: "&c&l[ExecutableItems] &cNo tienes permiso para usar este objeto !"
+giveMessage: "&a&l[ExecutableItems] &aHaz dado a &e%player% &6%quantity% &ade &e%item%"
+setActionbarOn: "&aHas puesto tu barra de acción &a&lActiva &apor ExecutableItems"
+haveActionbarOn: "&aYa tienes la barra de acción &a&lON &apor ExecutableItems"
+setActionbarOff: "&cHas puesto tu barra de acción en &4&lOFF &cpor ExecutableItems"
+haveActionbarOff: "&cYa tienes la barra de acción &4&lOFF &cpor ExecutableItems"
+actionbarMessage: '&e&l%time%'
+actionbarEnd: '&a&lListo para usar'
+use: '&7&oTiempo De Uso: '
+noHit: "&c&l[ExecutableItems] &cNingún jugador ha sido golpeado"
+validHit: "&a&l[ExecutableItems] &aBien hecho, haz golpeado al jugador %player% !"
+receivedHit: "&e&l[ExecutableItems] &eEl jugador &6%player% &ete ha golpeado con el Objeto: %item%"
+receiveItem: ''
+confirmMessage: "&8&l[ExecutableItems] &7➤ Haga clic de nuevo para confirmar el uso de este item"
+cancelCraft: "&4&l[ExecutableItems] &cYou cant craft with ExecutableItems"
+pickupLimitMessage: "&4&l[ExecutableItems] &cYou cant have more than %limit% ExecutableItems"

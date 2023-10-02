@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 190.21.75.115
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1665281342093
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1665282967416
+  login: 1665280722860
+money: '25000.0'
+last-account-name: Rorro3814
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 394.1529908062959
+  y: 77.0
+  z: -445.28375638710384
+  yaw: -153.20635986328125
+  pitch: 11.676521301269531
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 1454.300000011921
+  y: 76.0
+  z: -603.6999999880791
+  yaw: -72.12307739257812
+  pitch: 15.688729286193848
+homes:
+  home:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: 1464.7042243277974
+    y: 76.0
+    z: -598.83081098013
+    yaw: 82.04548645019531
+    pitch: 3.948456048965454

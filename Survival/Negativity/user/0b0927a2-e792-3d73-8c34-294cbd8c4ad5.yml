@@ -1,0 +1,16 @@
+playername: MonoMaczi
+lang: es_ES
+minerate-full-mined: 6936
+minerate:
+  diamond: 1
+  gold: 0
+  iron: 2
+  coal: 9
+  ancient debris: 0
+better-click: 12
+cheats:
+  timer: 114
+  forcefield: 6
+  blink: 1
+  speed: 24
+creation-time: 1663973007058

@@ -1,0 +1,92 @@
+name: "#FFF300&lArrows#FF8F00&lWar"
+discover_title:
+  title: "&5Descubrimiento!"
+  subtitle: "&7ArrowsWar: %name%"
+  fade_in: 20
+  stay: 60
+  fade_out: 20
+discover_message:
+- "&7Para ver tu nuevo logro usa &b/codex                          "
+discover_sound:
+  name: ENTITY_PLAYER_LEVELUP
+  volume: 10
+  pitch: 0.1
+discoveries:
+  1:
+    name: "&eGuerra de Puntería"
+    lore:
+    - "&7Juega &nArrowsWar"
+    #commands:
+    #- "xp give %player% 1"
+    #discovered_on_region: test
+    #discovered_on_mob_kill:
+    #  type: ZOMBIE
+    #  name: "Test"
+  2:
+    name: "&eOrgullo de Legolas"
+    lore:
+    - "&7Gana una partida de &nArrowsWar"
+  3:
+    name: "&eQuién aguanta más?"
+    lore:
+    - "&7Gana una partida de &nArrowsWar"
+    - "&7con el modificador &nUltra Vida"
+  4:
+    name: "&eSentidos agudos"
+    lore:
+    - "&7Gana una partida de &nArrowsWar"
+    - "&7con el modificador &nUltra Instintio"
+  5:
+    name: "&eConcentración y Velocidad"
+    lore:
+    - "&7Gana una partida de &nArrowsWar"
+    - "&7con el modificador &nUltra Carga"
+  6:
+    name: "&eIndagador/a de Clases"
+    lore:
+    - "&7Prueba todas las clases de &nArrowsWar"
+  7:
+    name: "&eMultifuncional"
+    lore:
+    - "&7Gana una partida en &nArrowsWar"
+    - "&7con cada una de las clases"
+  8:
+    name: "&eKiller Machine"
+    lore:
+    - "&7Gana una partida de &nArrowsWar"
+    - "&7en el modo &nRondas&7 con un 3-0"
+  9:
+    name: "&eBetrayal"
+    lore:
+    - "&7Mata a un compañero de Equipo"
+  10:
+    name: "&eSobrecarga"
+    lore:
+    - "&7Usando la clase &nLIGHTBRINGER"
+    - "&7muere por uno de tus propios rayos"
+  11:
+    name: "&eCaída Mortal"
+    lore:
+    - "&7Usando la clase &nThe Chosen"
+    - "&7mata a alguien por daño de"
+    - "&7caída utilizando tu &nhabilidad"
+  12:
+    name: "&ePVP Lover"
+    lore:
+    - "&7Mata a otro jugador sin usar flechas"
+  13:
+    name: "&eEl Camino de la Victoria"
+    lore:
+    - "&7Gana una partida de &nArrowsWar"
+    - "&7cuando el área se está cerrando"
+  14:
+    name: "&eHabilidad propia"
+    lore:
+    - "&7Gana una partida de &nArrowsWar&7 sin cargar"
+    - "&7por completo ninguna de tus habilidades"
+  15:
+    name: "&eCalidad le gana a Cantidad"
+    lore:
+    - "&7Gana una partida de &nArrowsWar"
+    - "&7en modo &nTeam&7 estando en un"
+    - "&7equipo con desventaja numérica"

@@ -1,0 +1,64 @@
+timestamps:
+  login: 1665340049361
+  logout: 1665341393873
+  lastteleport: 1665341343106
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: -3430.883359197554
+  y: 156.0
+  z: 2853.9491622249097
+  yaw: 119.01177978515625
+  pitch: 22.313379287719727
+  world-name: world
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: 11760.443927197062
+  y: 87.0
+  z: 15711.699999988079
+  yaw: -81.76589965820312
+  pitch: 17.017065048217773
+  world-name: world
+homes:
+  home:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: 11823.312574603584
+    y: 86.0
+    z: 15705.933138942997
+    yaw: -1.0007498264312744
+    pitch: 21.57376480102539
+    world-name: world
+  casa1:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: -3430.1377449009506
+    y: 156.0
+    z: 2853.813077013487
+    yaw: -144.58802795410156
+    pitch: 22.313377380371094
+    world-name: world
+  camas:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: -4476.826649910751
+    y: 56.0625
+    z: 2782.889347094008
+    yaw: 17.088085174560547
+    pitch: 20.100542068481445
+    world-name: world
+money: '17486884.19249999999690454'
+nickname: §4§lShadowHokage
+ip-address: 201.239.63.108
+last-account-name: masaki23
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false

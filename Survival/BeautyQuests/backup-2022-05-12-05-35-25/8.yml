@@ -1,0 +1,46 @@
+customItem:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2860
+  type: RED_MUSHROOM_BLOCK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    ItemFlags:
+    - HIDE_ATTRIBUTES
+name: §3§lBuen@ para la Callampa §2[Gremio]
+description: §eRecoge hongos
+repeatable: true
+endRewards:
+- id: commandReward
+  commands:
+  - console: true
+    delay: 0
+    label: scoreboard players add {PLAYER} Prestigio 2
+- id: itemReward
+  items:
+  - v: 2860
+    type: MYCELIUM
+bypassLimit: true
+timer: 1440
+id: 8
+manager:
+  branches:
+  - order: 0
+    stages:
+    - stageType: MINE
+      customText: null
+      objects:
+        0:
+          amount: 3
+          object: BROWN_MUSHROOM
+        1:
+          amount: 3
+          object: RED_MUSHROOM
+      order: 0
+    - result:
+        v: 2860
+        type: MUSHROOM_STEW
+      stageType: CRAFT
+      customText: null
+      order: 1
+    endingStages: []

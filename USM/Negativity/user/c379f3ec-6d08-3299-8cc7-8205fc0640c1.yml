@@ -1,0 +1,27 @@
+playername: zpeedyy
+lang: es_ES
+minerate-full-mined: 324314
+minerate:
+  diamond: 153
+  gold: 284
+  iron: 1130
+  coal: 2134
+  ancient debris: 0
+better-click: 55
+cheats:
+  fastladder: 1
+  autoclick: 3
+  forcefield: 2
+  blink: 1
+  noslowdown: 1
+  speed: 173
+  timer: 2
+  antiknockback: 1
+  inventorymove: 1
+  nuker: 2
+  airplace: 128
+  fastplace: 1
+  nofall: 1
+  spider: 1
+  faststairs: 1
+creation-time: 1620694256610

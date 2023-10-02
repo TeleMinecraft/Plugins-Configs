@@ -1,0 +1,8 @@
+name: CristoPsx
+events:
+  event57:
+    one_time: false
+    cooldown: 1666903524455
+  event90:
+    one_time: false
+    cooldown: 1666903574427

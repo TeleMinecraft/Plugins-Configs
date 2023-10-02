@@ -1,0 +1,49 @@
+lastAccountName: ThorLegend108
+timestamps:
+  login: 1673053454824
+  logout: 1673056890154
+  lastteleport: 1673056270636
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+ipAddress: 190.160.229.44
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: 405.1491318443112
+  y: 94.0
+  z: -541.7827145454044
+  yaw: -70.05267333984375
+  pitch: 40.799991607666016
+  world-name: world
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: 419.7953074411715
+  y: 72.0
+  z: -545.3219932491808
+  yaw: 96.75294494628906
+  pitch: 4.649685382843018
+  world-name: world
+money: '308000.0'
+homes:
+  home:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: 414.7625321285627
+    y: 76.0
+    z: -549.2248969511436
+    yaw: 99.89987182617188
+    pitch: 11.249804496765137
+    world-name: world
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 201.214.79.32
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+last-account-name: ThorLegend108

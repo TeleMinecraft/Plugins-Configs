@@ -1,0 +1,36 @@
+timestamps:
+  login: 1628635959616
+  logout: 1628638128433
+  lastteleport: 1628637734362
+lastlocation:
+  world: world
+  x: 1185.5
+  y: 56.0
+  z: -718.5
+  yaw: 258.75003
+  pitch: 34.199986
+logoutlocation:
+  world: world
+  x: 1230.8333992076668
+  y: 24.0
+  z: -577.7753244115099
+  yaw: 90.01099
+  pitch: 21.900032
+money: '975300'
+homes:
+  home:
+    world: world
+    x: 1206.872896510411
+    y: 65.0
+    z: -703.579625798934
+    yaw: 4.6661377
+    pitch: 21.74986
+  home2:
+    world: world
+    x: 1246.5387196637685
+    y: 15.0
+    z: -560.0743410919887
+    yaw: 111.46455
+    pitch: 8.849944
+ip-address: 181.43.145.10
+last-account-name: Pipe2311

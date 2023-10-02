@@ -1,0 +1,55 @@
+timestamps:
+  login: 1670677029244
+  lastteleport: 1664116444139
+  logout: 1670677134436
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: -3244.8684148414704
+  y: 59.5625
+  z: 1365.7055120024656
+  yaw: -53.6896858215332
+  pitch: 13.776659965515137
+  world-name: world
+money: '109602.0'
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: -10889.048348493096
+  y: 30.0
+  z: 21255.516390916007
+  yaw: -163.69375610351562
+  pitch: 29.399974822998047
+  world-name: world
+ip-address: 186.79.161.22
+last-account-name: Mabroso
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+homes:
+  a:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: -3246.02307315468
+    y: 59.0
+    z: 1366.2318114105747
+    yaw: 59.564208984375
+    pitch: 34.89452362060547
+  b:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: -12700.662337874874
+    y: 69.0
+    z: 22101.090372099094
+    yaw: -132.9044189453125
+    pitch: 28.335390090942383

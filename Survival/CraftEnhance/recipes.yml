@@ -1,0 +1,1511 @@
+God_Apple:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: ENCHANTED_GOLDEN_APPLE
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - BLAZE_POWDER
+  - GOLD_BLOCK
+  - BLAZE_POWDER
+  - GOLD_BLOCK
+  - GOLDEN_APPLE
+  - GOLD_BLOCK
+  - BLAZE_POWDER
+  - GOLD_BLOCK
+  - BLAZE_POWDER
+  permission: null
+  page: 1
+  slot: 5
+  result_slot: -1
+  category: default
+  shapeless: false
+Dragon_Head:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: DRAGON_HEAD
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - TOTEM_OF_UNDYING
+  - END_CRYSTAL
+  - TOTEM_OF_UNDYING
+  - END_CRYSTAL
+  - DRAGON_EGG
+  - END_CRYSTAL
+  - TOTEM_OF_UNDYING
+  - END_CRYSTAL
+  - TOTEM_OF_UNDYING
+  permission: null
+  page: 1
+  slot: 6
+  result_slot: -1
+  category: default
+  shapeless: false
+Bottled_Knowledge:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §2§lBottled Knowledge
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - EXPERIENCE_BOTTLE
+  - EXPERIENCE_BOTTLE
+  - EXPERIENCE_BOTTLE
+  - EXPERIENCE_BOTTLE
+  - EXPERIENCE_BOTTLE
+  - EXPERIENCE_BOTTLE
+  - EXPERIENCE_BOTTLE
+  - EXPERIENCE_BOTTLE
+  - EXPERIENCE_BOTTLE
+  permission: null
+  page: 1
+  slot: 1
+  result_slot: -1
+  category: default
+  shapeless: false
+Experience_Bottle:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: EXPERIENCE_BOTTLE1
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - ENDER_PEARL
+  - EMERALD
+  - ENDER_PEARL
+  - ENDER_PEARL
+  - POTION
+  - ENDER_PEARL
+  - POTION
+  - POTION
+  - POTION
+  permission: null
+  page: 1
+  slot: 0
+  result_slot: -1
+  category: default
+  shapeless: false
+Experience_Bottle2:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §1§lGreat Bottled Knowledge
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - §2§lBottled Knowledge
+  - §2§lBottled Knowledge
+  - §2§lBottled Knowledge
+  - §2§lBottled Knowledge
+  - §2§lBottled Knowledge
+  - §2§lBottled Knowledge
+  - §2§lBottled Knowledge
+  - §2§lBottled Knowledge
+  - §2§lBottled Knowledge
+  permission: null
+  page: 1
+  slot: 2
+  result_slot: -1
+  category: default
+  shapeless: false
+Compacted_Sugar:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §2§lCompacted Sugar
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - SUGAR
+  - SUGAR
+  - SUGAR
+  - SUGAR
+  - SUGAR
+  - SUGAR
+  - SUGAR
+  - SUGAR
+  - SUGAR
+  permission: null
+  page: 1
+  slot: 7
+  result_slot: -1
+  category: default
+  shapeless: false
+Cobweb:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: COBWEB
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - STRING
+  - null
+  - STRING
+  - null
+  - STRING
+  - null
+  - STRING
+  - null
+  - STRING
+  permission: null
+  page: 1
+  slot: 8
+  result_slot: -1
+  category: default
+  shapeless: false
+Monster_Essence:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §4§lMonster Essence
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - ROTTEN_FLESH
+  - BONE
+  - GUNPOWDER
+  - SPIDER_EYE
+  - §7§lEntity Essence
+  - ENDER_PEARL
+  - SLIME_BALL
+  - GHAST_TEAR
+  - BLAZE_ROD
+  permission: null
+  page: 2
+  slot: 0
+  result_slot: -1
+  category: default
+  shapeless: true
+Animal_Essence:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §2§lAnimal Essence
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - PORKCHOP
+  - FEATHER
+  - LEATHER
+  - WHITE_WOOL
+  - §7§lEntity Essence
+  - INK_SAC
+  - RABBIT_FOOT
+  - SCUTE
+  - HONEYCOMB
+  permission: null
+  page: 2
+  slot: 1
+  result_slot: -1
+  category: default
+  shapeless: true
+Villager_Essence:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §6§lVillager Essence
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - LOOM
+  - EMERALD
+  - CARTOGRAPHY_TABLE
+  - FLETCHING_TABLE
+  - §7§lEntity Essence
+  - BLAST_FURNACE
+  - SMITHING_TABLE
+  - STONECUTTER
+  - BARREL
+  permission: null
+  page: 2
+  slot: 2
+  result_slot: -1
+  category: default
+  shapeless: true
+Horse_Essence:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §6§lHorse Essence1
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - APPLE
+  - SADDLE
+  - WHEAT
+  - LEATHER
+  - §7§lEntity Essence
+  - LEATHER
+  - LEATHER
+  - LEAD
+  - LEATHER
+  permission: null
+  page: 2
+  slot: 3
+  result_slot: -1
+  category: default
+  shapeless: true
+Bee_Essence:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §e§lBee Essence
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - SUGAR
+  - SUGAR
+  - SUGAR
+  - DANDELION
+  - §7§lEntity Essence
+  - POPPY
+  - POPPY
+  - HONEY_BOTTLE
+  - DANDELION
+  permission: null
+  page: 2
+  slot: 4
+  result_slot: -1
+  category: default
+  shapeless: true
+Cat_Essence:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §f§lCat Essence
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - COD
+  - NAME_TAG
+  - SALMON
+  - COOKED_COD
+  - §7§lEntity Essence
+  - COOKED_SALMON
+  - STRING
+  - STRING
+  - STRING
+  permission: null
+  page: 2
+  slot: 5
+  result_slot: -1
+  category: default
+  shapeless: true
+Cave_Spider_Essence:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §4§lCave Spider Essence
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - SPIDER_EYE
+  - POTION1
+  - SPIDER_EYE
+  - STRING
+  - §7§lEntity Essence
+  - STRING
+  - SPIDER_EYE
+  - STRING
+  - SPIDER_EYE
+  permission: null
+  page: 2
+  slot: 6
+  result_slot: -1
+  category: default
+  shapeless: true
+Chicken_Essence:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §f§lChicken Essence
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - WHEAT_SEEDS
+  - EGG
+  - WHEAT_SEEDS
+  - FEATHER
+  - §7§lEntity Essence
+  - FEATHER
+  - CHICKEN
+  - COOKED_CHICKEN
+  - CHICKEN
+  permission: null
+  page: 2
+  slot: 7
+  result_slot: -1
+  category: default
+  shapeless: true
+Cow_Essence:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §8§lCow Essence
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - WHEAT
+  - MILK_BUCKET
+  - WHEAT
+  - LEATHER
+  - §7§lEntity Essence
+  - LEATHER
+  - BEEF
+  - COOKED_BEEF
+  - BEEF
+  permission: null
+  page: 2
+  slot: 8
+  result_slot: -1
+  category: default
+  shapeless: true
+Creeper_Essence:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §a§lCreeper Essence
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - GUNPOWDER
+  - GUNPOWDER
+  - GUNPOWDER
+  - GUNPOWDER
+  - §7§lEntity Essence
+  - GUNPOWDER
+  - TNT
+  - TNT
+  - TNT
+  permission: null
+  page: 2
+  slot: 9
+  result_slot: -1
+  category: default
+  shapeless: true
+Enderman_Essence:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §5§lEnderman Essence
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - ENDER_PEARL
+  - ENDER_EYE
+  - ENDER_PEARL
+  - ENDER_PEARL
+  - §7§lEntity Essence
+  - ENDER_PEARL
+  - END_STONE
+  - END_STONE
+  - END_STONE
+  permission: null
+  page: 2
+  slot: 10
+  result_slot: -1
+  category: default
+  shapeless: true
+Ghast_Essence:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §f§lGhast Essence
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - GHAST_TEAR
+  - FIRE_CHARGE
+  - GHAST_TEAR
+  - GHAST_TEAR
+  - §7§lEntity Essence
+  - GHAST_TEAR
+  - NETHERRACK
+  - NETHERRACK
+  - NETHERRACK
+  permission: null
+  page: 2
+  slot: 11
+  result_slot: -1
+  category: default
+  shapeless: true
+Guardian_Essence:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §3§lGuardian Essence
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - PRISMARINE_SHARD
+  - PRISMARINE_CRYSTALS
+  - PRISMARINE_SHARD
+  - PRISMARINE_SHARD
+  - §7§lEntity Essence
+  - PRISMARINE_SHARD
+  - PRISMARINE_BRICKS
+  - PRISMARINE_BRICKS
+  - PRISMARINE_BRICKS
+  permission: null
+  page: 2
+  slot: 12
+  result_slot: -1
+  category: default
+  shapeless: true
+Magma_Cube_Essence:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §6§lMagma Cube Essence
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - MAGMA_CREAM
+  - LAVA_BUCKET
+  - MAGMA_CREAM
+  - MAGMA_CREAM
+  - §7§lEntity Essence
+  - MAGMA_CREAM
+  - MAGMA_BLOCK
+  - MAGMA_BLOCK
+  - MAGMA_BLOCK
+  permission: null
+  page: 2
+  slot: 13
+  result_slot: -1
+  category: default
+  shapeless: true
+Mooshroom_Essence:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §c§lMooshroom Essence
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - BROWN_MUSHROOM
+  - MILK_BUCKET
+  - BROWN_MUSHROOM
+  - RED_MUSHROOM
+  - §7§lEntity Essence
+  - RED_MUSHROOM
+  - MUSHROOM_STEW
+  - MUSHROOM_STEW
+  - MUSHROOM_STEW
+  permission: null
+  page: 2
+  slot: 14
+  result_slot: -1
+  category: default
+  shapeless: true
+Pig_Essence:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §d§lPig Essence
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - CARROT
+  - CARROT_ON_A_STICK
+  - CARROT
+  - CARROT
+  - §7§lEntity Essence
+  - CARROT
+  - PORKCHOP
+  - COOKED_PORKCHOP
+  - PORKCHOP
+  permission: null
+  page: 2
+  slot: 15
+  result_slot: -1
+  category: default
+  shapeless: true
+Pillager_Essence:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §4§lPillager Essence
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - ARROW
+  - §6Ominous Banner1
+  - ARROW
+  - CROSSBOW
+  - §7§lEntity Essence
+  - CROSSBOW
+  - EMERALD
+  - EMERALD
+  - EMERALD
+  permission: null
+  page: 2
+  slot: 16
+  result_slot: -1
+  category: default
+  shapeless: true
+Sheep_Essence:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §f§lSheep Essence
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - WHEAT
+  - SHEARS
+  - WHEAT
+  - WHITE_WOOL
+  - §7§lEntity Essence
+  - WHITE_WOOL
+  - MUTTON
+  - COOKED_MUTTON
+  - MUTTON
+  permission: null
+  page: 2
+  slot: 17
+  result_slot: -1
+  category: default
+  shapeless: true
+Shulker_Essence:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §5§lShulker Essence
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - CHORUS_FRUIT
+  - SHULKER_SHELL
+  - CHORUS_FRUIT
+  - CHORUS_FRUIT
+  - §7§lEntity Essence
+  - CHORUS_FRUIT
+  - PURPUR_BLOCK
+  - PURPUR_BLOCK
+  - PURPUR_BLOCK
+  permission: null
+  page: 2
+  slot: 18
+  result_slot: -1
+  category: default
+  shapeless: true
+Skeleton_Essence:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §7§lSkeleton Essence
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - ARROW
+  - BOW
+  - ARROW
+  - ARROW
+  - §7§lEntity Essence
+  - ARROW
+  - BONE
+  - BONE
+  - BONE
+  permission: null
+  page: 2
+  slot: 19
+  result_slot: -1
+  category: default
+  shapeless: true
+Slime_Essence:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §a§lSlime Essence
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - SLIME_BALL
+  - SLIME_BALL
+  - SLIME_BALL
+  - SLIME_BALL
+  - §7§lEntity Essence
+  - SLIME_BALL
+  - SLIME_BALL
+  - SLIME_BLOCK
+  - SLIME_BALL
+  permission: null
+  page: 2
+  slot: 20
+  result_slot: -1
+  category: default
+  shapeless: true
+Spider_Essence:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §8§lSpider Essence
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - SPIDER_EYE
+  - STRING
+  - SPIDER_EYE
+  - COBWEB
+  - §7§lEntity Essence
+  - COBWEB
+  - SPIDER_EYE
+  - COBWEB
+  - SPIDER_EYE
+  permission: null
+  page: 2
+  slot: 21
+  result_slot: -1
+  category: default
+  shapeless: true
+Turtle_Essence:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §2§lTurtle Essence
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - SCUTE
+  - SCUTE
+  - SCUTE
+  - WATER_BUCKET
+  - §7§lEntity Essence
+  - WATER_BUCKET
+  - KELP
+  - KELP
+  - KELP
+  permission: null
+  page: 2
+  slot: 22
+  result_slot: -1
+  category: default
+  shapeless: true
+Zombie_Essence:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §2§lZombie Essence
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - ROTTEN_FLESH
+  - LEATHER_HELMET
+  - ROTTEN_FLESH
+  - LEATHER_CHESTPLATE
+  - §7§lEntity Essence
+  - LEATHER_LEGGINGS
+  - ROTTEN_FLESH
+  - LEATHER_BOOTS
+  - ROTTEN_FLESH
+  permission: null
+  page: 2
+  slot: 23
+  result_slot: -1
+  category: default
+  shapeless: true
+Witch_Essence:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §5§lWitch Essence
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - REDSTONE
+  - BREWING_STAND
+  - GLOWSTONE_DUST
+  - REDSTONE
+  - §7§lEntity Essence
+  - GLOWSTONE_DUST
+  - POTION2
+  - POTION3
+  - POTION4
+  permission: null
+  page: 2
+  slot: 24
+  result_slot: -1
+  category: default
+  shapeless: true
+Wither_Skeleton_Essence:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §8§lWither Skeleton Essence
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - SOUL_SAND
+  - WITHER_SKELETON_SKULL
+  - STONE_SWORD
+  - COAL
+  - §7§lEntity Essence
+  - COAL
+  - BONE
+  - BONE
+  - BONE
+  permission: null
+  page: 2
+  slot: 25
+  result_slot: -1
+  category: default
+  shapeless: true
+Wolf_Essence:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §7§lWolf Essence
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - ROTTEN_FLESH
+  - NAME_TAG
+  - ROTTEN_FLESH
+  - BONE
+  - §7§lEntity Essence
+  - BONE
+  - BONE
+  - BONE
+  - BONE
+  permission: null
+  page: 2
+  slot: 26
+  result_slot: -1
+  category: default
+  shapeless: true
+Blaze_Essence:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §6§lBlaze Essence
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - BLAZE_POWDER
+  - FIRE_CHARGE
+  - BLAZE_POWDER
+  - BLAZE_POWDER
+  - §7§lEntity Essence
+  - BLAZE_POWDER
+  - BLAZE_POWDER
+  - BLAZE_ROD
+  - BLAZE_POWDER
+  permission: null
+  page: 2
+  slot: 27
+  result_slot: -1
+  category: default
+  shapeless: true
+Zombie_Horse_Essence:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §2§lZombie Horse Essence
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - §6§lHorse Essence1
+  - §2§lZombie Essence
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  permission: null
+  page: 2
+  slot: 28
+  result_slot: -1
+  category: default
+  shapeless: true
+Skeleton_Horse_Essence:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §7§lSkeleton Horse Essence
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - §6§lHorse Essence1
+  - §7§lSkeleton Essence
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  permission: null
+  page: 2
+  slot: 29
+  result_slot: -1
+  category: default
+  shapeless: true
+Panda_Essence:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §7§lPanda Essence
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - BAMBOO
+  - JUNGLE_SAPLING
+  - BAMBOO
+  - BAMBOO
+  - §7§lEntity Essence
+  - BAMBOO
+  - JUNGLE_LOG
+  - JUNGLE_LOG
+  - JUNGLE_LOG
+  permission: null
+  page: 2
+  slot: 30
+  result_slot: -1
+  category: default
+  shapeless: true
+recipe1:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §6§lEnhanced Nehterite1
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - TOTEM_OF_UNDYING
+  - NETHERITE_BLOCK
+  - §1§lGreat Bottled Knowledge
+  - NETHERITE_BLOCK
+  - NETHER_STAR
+  - NETHERITE_BLOCK
+  - §1§lGreat Bottled Knowledge
+  - NETHERITE_BLOCK
+  - TOTEM_OF_UNDYING
+  permission: null
+  page: 1
+  slot: 9
+  result_slot: -1
+  category: default
+  shapeless: false
+recipe2:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §e§l24K Gold Block
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - GOLD_BLOCK
+  - GOLD_BLOCK
+  - GOLD_BLOCK
+  - GOLD_BLOCK
+  - ENCHANTED_GOLDEN_APPLE
+  - GOLD_BLOCK
+  - GOLD_BLOCK
+  - GOLD_BLOCK
+  - GOLD_BLOCK
+  permission: null
+  page: 1
+  slot: 10
+  result_slot: -1
+  category: default
+  shapeless: false
+recipe3:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §2§lBottled Knowledge1
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - null
+  - null
+  - null
+  - null
+  - §1§lGreat Bottled Knowledge
+  - null
+  - null
+  - null
+  - null
+  permission: null
+  page: 1
+  slot: 3
+  result_slot: -1
+  category: default
+  shapeless: true
+recipe4:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: EXPERIENCE_BOTTLE2
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - null
+  - null
+  - null
+  - null
+  - §2§lBottled Knowledge
+  - null
+  - null
+  - null
+  - null
+  permission: null
+  page: 1
+  slot: 4
+  result_slot: -1
+  category: default
+  shapeless: true
+recipe5:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §c§lProtector Nivel I
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - COAL
+  - COAL
+  - COAL
+  - COAL
+  - COMPASS
+  - COAL
+  - COAL
+  - COAL
+  - COAL
+  permission: null
+  page: 0
+  slot: 0
+  result_slot: -1
+  category: default
+  shapeless: false
+recipe6:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §6§lProtector Nivel II
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - IRON_INGOT
+  - IRON_INGOT
+  - IRON_INGOT
+  - IRON_INGOT
+  - §c§lProtector Nivel I
+  - IRON_INGOT
+  - IRON_INGOT
+  - IRON_INGOT
+  - IRON_INGOT
+  permission: null
+  page: 0
+  slot: 1
+  result_slot: -1
+  category: default
+  shapeless: false
+recipe7:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §e§lProtector Nivel III
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - GOLD_INGOT
+  - GOLD_INGOT
+  - GOLD_INGOT
+  - GOLD_INGOT
+  - §6§lProtector Nivel II
+  - GOLD_INGOT
+  - GOLD_INGOT
+  - GOLD_INGOT
+  - GOLD_INGOT
+  permission: null
+  page: 0
+  slot: 2
+  result_slot: -1
+  category: default
+  shapeless: false
+recipe8:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §a§lProtector Nivel IV
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - EMERALD
+  - EMERALD
+  - EMERALD
+  - EMERALD
+  - §e§lProtector Nivel III
+  - EMERALD
+  - EMERALD
+  - EMERALD
+  - EMERALD
+  permission: null
+  page: 0
+  slot: 3
+  result_slot: -1
+  category: default
+  shapeless: false
+recipe9:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §b§lProtector Nivel V
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - DIAMOND
+  - DIAMOND
+  - DIAMOND
+  - DIAMOND
+  - §a§lProtector Nivel IV
+  - DIAMOND
+  - DIAMOND
+  - DIAMOND
+  - DIAMOND
+  permission: null
+  page: 0
+  slot: 4
+  result_slot: -1
+  category: default
+  shapeless: false
+recipe10:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §1§lNordic Iron
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - NETHERITE_INGOT
+  - NETHERITE_INGOT
+  - NETHERITE_INGOT
+  - NETHERITE_INGOT
+  - IRON_INGOT
+  - NETHERITE_INGOT
+  - NETHERITE_INGOT
+  - NETHERITE_INGOT
+  - NETHERITE_INGOT
+  permission: null
+  page: 1
+  slot: 11
+  result_slot: -1
+  category: default
+  shapeless: false
+recipe11:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §1§lYggdrasil Stick
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - BLAZE_ROD
+  - LEATHER
+  - BLAZE_ROD
+  - LEATHER
+  - STICK
+  - LEATHER
+  - BLAZE_ROD
+  - LEATHER
+  - BLAZE_ROD
+  permission: null
+  page: 1
+  slot: 12
+  result_slot: -1
+  category: default
+  shapeless: false
+recipe12:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §6§lInfernal Essence
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - null
+  - §b§lOverloaded Gunpowder
+  - null
+  - null
+  - §e§lBlaze King Rod
+  - null
+  - null
+  - §6§lEnhanced Nehterite1
+  - null
+  permission: null
+  page: 1
+  slot: 13
+  result_slot: -1
+  category: default
+  shapeless: true
+recipe13:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §1§lHigh Leather
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - CHAIN
+  - LEATHER
+  - CHAIN
+  - LEATHER
+  - LEATHER
+  - LEATHER
+  - CHAIN
+  - LEATHER
+  - CHAIN
+  permission: null
+  page: 1
+  slot: 14
+  result_slot: -1
+  category: default
+  shapeless: false
+recipe14:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §x§F§B§0§0§F§F§lFirework XL Charge1
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - §b§lOverloaded Gunpowder
+  - BLAZE_POWDER
+  - §x§0§0§F§F§9§7§lAncient Phantom Membrane
+  - FEATHER
+  - FIREWORK_ROCKET
+  - FEATHER
+  - §x§0§0§F§F§9§7§lAncient Phantom Membrane
+  - BLAZE_POWDER
+  - §b§lOverloaded Gunpowder
+  permission: null
+  page: 1
+  slot: 15
+  result_slot: -1
+  category: default
+  shapeless: false
+recipe15:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §e§lUndead Core
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - null
+  - null
+  - null
+  - SKELETON_SKULL
+  - DIAMOND
+  - ZOMBIE_HEAD
+  - null
+  - DRAGON_BREATH
+  - null
+  permission: null
+  page: 1
+  slot: 16
+  result_slot: -1
+  category: default
+  shapeless: true
+recipe16:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §e§lBurden String
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - null
+  - null
+  - null
+  - STRING
+  - FIRE_CHARGE
+  - STRING
+  - null
+  - null
+  - null
+  permission: null
+  page: 1
+  slot: 17
+  result_slot: -1
+  category: default
+  shapeless: false
+recipe17:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §x§6§7§0§0§0§0§lConcentrated Cursed Essence
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - WITHER_ROSE
+  - §x§C§7§3§F§0§0§lOni Essence
+  - WITHER_ROSE
+  - CRYING_OBSIDIAN
+  - §6§lEnhanced Nehterite1
+  - CRYING_OBSIDIAN
+  - SOUL_SAND
+  - SOUL_SAND
+  - SOUL_SAND
+  permission: null
+  page: 1
+  slot: 18
+  result_slot: -1
+  category: default
+  shapeless: false
+recipe18:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §8§lSharp Stone
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - FLINT
+  - COBBLESTONE
+  - FLINT
+  - FLINT
+  - COBBLESTONE
+  - FLINT
+  - FLINT
+  - COBBLESTONE
+  - FLINT
+  permission: null
+  page: 1
+  slot: 20
+  result_slot: -1
+  category: default
+  shapeless: false
+recipe19:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §x§9§D§5§7§2§4§lKnowledge Wood
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - EXPERIENCE_BOTTLE
+  - EXPERIENCE_BOTTLE
+  - EXPERIENCE_BOTTLE
+  - EXPERIENCE_BOTTLE
+  - OAK_PLANKS
+  - EXPERIENCE_BOTTLE
+  - EXPERIENCE_BOTTLE
+  - EXPERIENCE_BOTTLE
+  - EXPERIENCE_BOTTLE
+  permission: null
+  page: 1
+  slot: 19
+  result_slot: -1
+  category: default
+  shapeless: false
+recipe20:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §x§E§0§E§0§E§0§lAblaze Iron
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - FLINT
+  - SKELETON_SKULL
+  - FLINT
+  - FLINT
+  - IRON_BLOCK
+  - FLINT
+  - FLINT
+  - GHAST_TEAR
+  - FLINT
+  permission: null
+  page: 1
+  slot: 21
+  result_slot: -1
+  category: default
+  shapeless: false
+recipe21:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §b§lTemplated Diamond
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - FLINT
+  - WITHER_SKELETON_SKULL
+  - FLINT
+  - WITHER_SKELETON_SKULL
+  - DIAMOND_BLOCK
+  - WITHER_SKELETON_SKULL
+  - FLINT
+  - §2§lBottled Knowledge
+  - FLINT
+  permission: null
+  page: 1
+  slot: 22
+  result_slot: -1
+  category: default
+  shapeless: false
+recipe22:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §x§4§A§0§0§8§C§lNetherite forged by the Shögun
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - FLINT
+  - NETHER_STAR
+  - FLINT
+  - §b§lOverloaded Gunpowder
+  - NETHERITE_BLOCK
+  - §b§lOverloaded Gunpowder
+  - FLINT
+  - §1§lGreat Bottled Knowledge
+  - FLINT
+  permission: null
+  page: 1
+  slot: 23
+  result_slot: -1
+  category: default
+  shapeless: false
+recipe23:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §fAnticucho
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - null
+  - §fPimentón
+  - COOKED_BEEF
+  - null
+  - COOKED_BEEF
+  - §fCebolla1
+  - STICK
+  - null
+  - null
+  permission: null
+  page: 3
+  slot: 0
+  result_slot: -1
+  category: default
+  shapeless: true
+recipe24:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §fPebre1
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - null
+  - null
+  - null
+  - §fCebolla1
+  - §fTomate1
+  - §fCilantro1
+  - null
+  - BOWL
+  - null
+  permission: null
+  page: 3
+  slot: 1
+  result_slot: -1
+  category: default
+  shapeless: true
+recipe25:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §fChupalla
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - WHEAT
+  - WHEAT
+  - WHEAT
+  - WHEAT
+  - STRING
+  - WHEAT
+  - null
+  - null
+  - null
+  permission: null
+  page: 3
+  slot: 3
+  result_slot: -1
+  category: default
+  shapeless: false
+recipe26:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §fChoripán
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - null
+  - null
+  - null
+  - null
+  - §fLonganiza1
+  - null
+  - null
+  - BREAD
+  - null
+  permission: null
+  page: 3
+  slot: 4
+  result_slot: -1
+  category: default
+  shapeless: true
+recipe27:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §fChoripán con Pebre
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - null
+  - null
+  - null
+  - null
+  - §fPebre1
+  - null
+  - null
+  - §fChoripán
+  - null
+  permission: null
+  page: 3
+  slot: 5
+  result_slot: -1
+  category: default
+  shapeless: true
+recipe28:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §fSombrero Huaso
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - null
+  - BLACK_WOOL
+  - null
+  - BLACK_CARPET
+  - STRING
+  - BLACK_CARPET
+  - null
+  - null
+  - null
+  permission: null
+  page: 3
+  slot: 2
+  result_slot: -1
+  category: default
+  shapeless: false
+recipe29:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.FurnaceRecipe
+  result: §fCostillar Asado
+  duration: 200
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - §fCostillar Crudo
+  permission: null
+  page: 3
+  slot: 6
+  result_slot: -1
+  category: furnace
+  exp: 5.0
+recipe30:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §x§F§F§0§0§F§F§lMezcla §0§l§kmortal
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - §x§A§0§0§1§1§7§lGarrafa de Vino Tinto
+  - null
+  - §x§F§C§F§F§5§5§lVino Blanco §x§0§A§7§3§0§0§lSanta Helena
+  - null
+  - null
+  - null
+  - §x§F§F§F§F§0§0§l§oPipeño
+  - null
+  - §x§D§4§1§7§1§7§lBáltica
+  permission: null
+  page: 3
+  slot: 7
+  result_slot: -1
+  category: default
+  shapeless: true
+recipe31:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §x§F§F§0§0§E§C§lAxolotl Essence
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - MOSS_CARPET
+  - GLOW_BERRIES
+  - MOSS_CARPET
+  - BIG_DRIPLEAF
+  - §7§lEntity Essence
+  - BIG_DRIPLEAF
+  - BIG_DRIPLEAF
+  - WATER_BUCKET
+  - BIG_DRIPLEAF
+  permission: null
+  page: 2
+  slot: 31
+  result_slot: -1
+  category: default
+  shapeless: false

@@ -1,0 +1,24 @@
+playername: MrTocomple
+lang: es_ES
+minerate-full-mined: 69705
+minerate:
+  diamond: 78
+  gold: 30
+  iron: 182
+  coal: 373
+  ancient debris: 0
+better-click: 44
+cheats:
+  timer: 5
+  antiknockback: 5
+  inventorymove: 1
+  autoclick: 5
+  nuker: 2
+  airplace: 2
+  forcefield: 6
+  fastplace: 1
+  blink: 1
+  nofall: 3
+  spider: 1
+  speed: 66
+creation-time: 1622060554851

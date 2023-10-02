@@ -1,0 +1,153 @@
+tarjetactarut:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Tarjeta
+        Cuenta RUT"}],"text":""}'
+      custom-model-data: 2
+moneda_10:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: GOLD_NUGGET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"10$"}],"text":""}'
+      custom-model-data: 10
+moneda_50:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: GOLD_NUGGET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"50$"}],"text":""}'
+      custom-model-data: 50
+moneda_100:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: GOLD_NUGGET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"100$"}],"text":""}'
+      custom-model-data: 100
+moneda_500:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: GOLD_NUGGET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"500$"}],"text":""}'
+      custom-model-data: 500
+billete_1000:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: GOLD_INGOT
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#1ED808","text":"$1000"}],"text":""}'
+      custom-model-data: 1000
+billete_2000:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: GOLD_INGOT
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#8A1DFE","text":"$2000"}],"text":""}'
+      custom-model-data: 2000
+billete_5000:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: GOLD_INGOT
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF2525","text":"$5000"}],"text":""}'
+      custom-model-data: 5000
+billete_10000:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: GOLD_INGOT
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#4447FF","text":"$10000"}],"text":""}'
+      custom-model-data: 10000
+billete_20000:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: GOLD_INGOT
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF8613","text":"$20000"}],"text":""}'
+      custom-model-data: 20000
+completo_i:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: BREAD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF3030","text":"Comple"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"to
+        Ita"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#15B000","text":"liano"}],"text":""}'
+      custom-model-data: 1
+junaeb:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"JUNAEB"}],"text":""}'
+      custom-model-data: 3
+credencial:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Credencial
+        USM"}],"text":""}'
+      custom-model-data: 1
+super8:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: BREAD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFF700","text":"Super
+        "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#DE1C1C","text":"8"}],"text":""}'
+      custom-model-data: 2
+vuelo:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: FEATHER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Vuelo"}],"text":""}'

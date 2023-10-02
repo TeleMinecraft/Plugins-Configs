@@ -1,0 +1,17 @@
+uuid: 03fedb30-4d76-3b2c-9cdd-325cc873329e
+player_name: michinoyaa
+wins: 1
+losses: 2
+kills: 1
+deaths: 2
+xp: 8
+pareffect: none
+proeffect: none
+glasscolor: cyan
+killsound: none
+winsound: none
+taunt: izi
+elo: 2
+permissions:
+- sw.glasscolor.cyan
+- sw.taunt.izi

@@ -1,0 +1,38 @@
+name: "#B2B2B2&lAnvil#FF4200&lStorm"
+discover_title:
+  title: "&5Descubrimiento!"
+  subtitle: "&7AnvilStorm: %name%"
+  fade_in: 20
+  stay: 60
+  fade_out: 20
+discover_message:
+- "&7Para ver tu nuevo logro usa &b/codex                          "
+discover_sound:
+  name: ENTITY_PLAYER_LEVELUP
+  volume: 10
+  pitch: 0.1
+discoveries:
+  1:
+    name: "&6Enfrentar la tormenta"
+    lore:
+    - "&7Juega &nAnvilStorm"
+    #commands:
+    #- "xp give %player% 1"
+    #discovered_on_region: test
+    #discovered_on_mob_kill:
+    #  type: ZOMBIE
+    #  name: "Test"
+  2:
+    name: "&6Superar la Tormenta"
+    lore:
+    - "&7Gana una partida de &nAnvilStorm"
+  3:
+    name: "&6Soy el único aquí...?"
+    lore:
+    - "&7Sé el único jugador en pie"
+    - "&7en una partida de &nAnvilStorm"
+  4:
+    name: "&6Superviviente Extremo"
+    lore:
+    - "&7Gana en &nAnvilStorm&7 sin usar"
+    - "&7ningún tótem de la inmortalidad"

@@ -1,0 +1,21 @@
+#  Server tutorial
+#      by MartenM
+# For an example config with more explaining look at the spigot page!
+no permission command: '&cNo tienes permisos para eso.'
+no permission tutorial: '&cNo tienes permisos para eso.'
+enable first join tutorial: false
+first join tutorial id: ''
+language: English
+npc:
+  remove-invalid: true
+  retry-time: 5
+command-whitelist:
+- help
+datasource:
+  mysql:
+    port: 3306
+    enabled: false
+    username: root
+    password: root
+    host: localhost
+    database: minecraft

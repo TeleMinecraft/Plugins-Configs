@@ -1,0 +1,43 @@
+customItem:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: TRIDENT
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    ItemFlags:
+    - HIDE_ATTRIBUTES
+name: §9§lJörmundgander Hunter §2[Gremio]
+description: §eMata ambos tipos de Jörmundgander Henchman
+repeatable: true
+endRewards:
+- id: commandReward
+  commands:
+  - console: true
+    label: scoreboard players add {PLAYER} Prestigio 5
+- id: itemReward
+  items:
+  - v: 2975
+    type: NAUTILUS_SHELL
+  - v: 2975
+    type: HEART_OF_THE_SEA
+timer: 1440
+manager:
+  branches:
+    '0':
+      stages:
+        '0':
+          objects:
+            '0':
+              amount: 2
+              object:
+                factoryName: mythicMobs
+                value: GuardianH
+            '1':
+              amount: 2
+              object:
+                factoryName: mythicMobs
+                value: GuardianS
+          stageType: MOBS
+      endingStages: {}
+id: 7

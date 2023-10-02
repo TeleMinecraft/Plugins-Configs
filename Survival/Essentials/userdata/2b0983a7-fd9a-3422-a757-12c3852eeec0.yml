@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 181.42.52.157
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1651340185946
+  login: 1651340164703
+money: '0'
+last-account-name: KiddCochayuyo
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 415.58634376613696
+  y: 64.0
+  z: -514.2977530767774
+  yaw: 2.249908447265625
+  pitch: 0.44995978474617004
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 413.5622169586996
+  y: 67.0
+  z: -501.3723766694202
+  yaw: 140.84873962402344
+  pitch: 20.249958038330078

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 181.43.34.98
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1654546902020
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1654548360792
+  login: 1654543358569
+money: '6120.0'
+last-account-name: _Kitaru_
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 563.4707329611357
+  y: 69.0
+  z: 1357.137499988079
+  yaw: -131.56617736816406
+  pitch: 24.899864196777344
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 2195.8827925073692
+  y: 65.0
+  z: 2737.0431413672127
+  yaw: 98.67877197265625
+  pitch: 7.350090503692627

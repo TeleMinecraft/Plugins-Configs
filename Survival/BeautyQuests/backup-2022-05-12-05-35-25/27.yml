@@ -1,0 +1,106 @@
+name: §6§lMisión de Halloween
+bypassLimit: true
+customItem:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2860
+  type: CARVED_PUMPKIN
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    ItemFlags:
+    - HIDE_ATTRIBUTES
+endRewards:
+- id: itemReward
+  items:
+  - v: 2860
+    type: PRISMARINE_SHARD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#008BFF","text":"Spawner
+        Extractor"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF0000","text":"Item
+        de 1 solo uso!"}],"text":""}'
+      enchants:
+        DURABILITY: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+- id: commandReward
+  commands:
+  - console: true
+    delay: 0
+    label: playsound minecraft:music_disc.chirp ambient {PLAYER} ~ ~ ~ 0.1 1 1
+id: 27
+manager:
+  branches:
+  - order: 0
+    stages:
+    - stageType: MOBS
+      customText: null
+      objects:
+        0:
+          amount: 10
+          object:
+            factoryName: bukkitEntity
+            value: ZOMBIE
+        1:
+          amount: 10
+          object:
+            factoryName: bukkitEntity
+            value: SKELETON
+      text: §7Caza de muertos vivientes
+      rewards:
+      - id: itemReward
+        items:
+        - v: 2860
+          type: CARVED_PUMPKIN
+          amount: 5
+      order: 0
+    - stageType: MOBS
+      customText: null
+      objects:
+        0:
+          amount: 3
+          object:
+            factoryName: bukkitEntity
+            value: ENDERMAN
+      text: §7Qué está pasando con los Enderman?
+      rewards:
+      - id: itemReward
+        items:
+        - v: 2860
+          type: JACK_O_LANTERN
+          amount: 3
+      order: 1
+    - stageType: MOBS
+      customText: null
+      objects:
+        0:
+          amount: 5
+          object:
+            factoryName: bukkitEntity
+            value: CAVE_SPIDER
+      text: §7Búsqueda en las cuevas
+      rewards:
+      - id: itemReward
+        items:
+        - v: 2860
+          type: COBWEB
+          amount: 5
+      order: 2
+    - stageType: PLACE_BLOCKS
+      customText: null
+      objects:
+        0:
+          amount: 5
+          object: COBWEB
+        1:
+          amount: 5
+          object: CARVED_PUMPKIN
+        2:
+          amount: 3
+          object: JACK_O_LANTERN
+      text: §7Decoración de Halloween
+      order: 3
+    endingStages: []

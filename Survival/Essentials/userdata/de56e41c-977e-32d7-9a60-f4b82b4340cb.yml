@@ -1,0 +1,38 @@
+timestamps:
+  login: 1653250703414
+  logout: 1653250961106
+  lastteleport: 1653250755781
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: 4037.3794228148236
+  y: 6.0
+  z: 64.65706401778687
+  yaw: -98.79367065429688
+  pitch: 11.584382057189941
+  world-name: world
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: 428.09805665715606
+  y: 77.0
+  z: -437.517231541419
+  yaw: 78.13099670410156
+  pitch: -0.5758501887321472
+  world-name: world
+money: '1423810.6500000000000402'
+afk: false
+ip-address: 181.73.143.25
+last-account-name: gatoH50
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false

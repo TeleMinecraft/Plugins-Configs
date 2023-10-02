@@ -1,0 +1,158 @@
+panels:
+  panel-1:
+    perm: default
+    panelType: default
+    rows: 3
+    title: '&9&lSelector de Servidores'
+    command: menu
+    sound-on-open: BLOCK_NOTE_BLOCK_CHIME
+    open-with-item:
+      material: NETHER_STAR
+      name: '&b&lSelector de Servidores'
+      lore:
+      - '&7Click para abrir el menú!'
+    item:
+      '0':
+        material: MAGENTA_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - op= cp panel-3
+      '1':
+        material: LIGHT_BLUE_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - op= cp panel-3
+      '2':
+        material: MAGENTA_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - op= cp panel-3
+      '3':
+        material: LIGHT_BLUE_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - op= cp panel-3
+      '4':
+        material: MAGENTA_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - op= cp panel-3
+      '5':
+        material: LIGHT_BLUE_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - op= cp panel-3
+      '6':
+        material: MAGENTA_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - op= cp panel-3
+      '7':
+        material: LIGHT_BLUE_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - op= cp panel-3
+      '8':
+        material: MAGENTA_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - op= cp panel-3
+      '9':
+        material: LIGHT_BLUE_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - op= cp panel-3
+      '10':
+        material: GRASS_BLOCK
+        name: §b§lLobby §7%bungee_lobby%/50
+        lore:
+        - §7[Click para ir al Lobby]
+        commands:
+        - force-server= lobby
+      '11':
+        material: LIGHT_BLUE_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - op= cp panel-3
+      '12':
+        material: FIREWORK_ROCKET
+        name: §d§lTelejuegos §7%bungee_telejuegos%/100
+        lore:
+        - §7[Click para ir a los Telejuegos]
+        commands:
+        - force-server= telejuegos
+      '13':
+        material: LIGHT_BLUE_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - op= cp panel-3
+      '14':
+        material: WRITABLE_BOOK
+        name: §3§lUSM §7%bungee_usm%/150
+        lore:
+        - §7[Click para ir a la USM]
+        commands:
+        - force-server= usm
+      '15':
+        material: LIGHT_BLUE_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - op= cp panel-3
+      '16':
+        material: COMPASS
+        name: §d§lWarps
+        commands:
+        - op= cp panel-4
+        lore:
+        - §7Haz click para ver
+        - §7los warps disponibles
+      '17':
+        material: LIGHT_BLUE_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - op= cp panel-3
+      '18':
+        material: MAGENTA_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - op= cp panel-3
+      '19':
+        material: LIGHT_BLUE_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - op= cp panel-3
+      '20':
+        material: MAGENTA_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - op= cp panel-3
+      '21':
+        material: LIGHT_BLUE_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - op= cp panel-3
+      '22':
+        material: MAGENTA_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - op= cp panel-3
+      '23':
+        material: LIGHT_BLUE_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - op= cp panel-3
+      '24':
+        material: MAGENTA_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - op= cp panel-3
+      '25':
+        material: LIGHT_BLUE_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - op= cp panel-3
+      '26':
+        material: MAGENTA_STAINED_GLASS_PANE
+        name: ''
+        commands:
+        - op= cp panel-3

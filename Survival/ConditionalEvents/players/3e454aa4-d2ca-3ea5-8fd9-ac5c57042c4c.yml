@@ -1,0 +1,8 @@
+name: _Yuuichi_
+events:
+  resistencia_y_skin_al_entrar:
+    one_time: false
+    cooldown: 1683412338142
+  random_tp:
+    one_time: false
+    cooldown: 1683412352529

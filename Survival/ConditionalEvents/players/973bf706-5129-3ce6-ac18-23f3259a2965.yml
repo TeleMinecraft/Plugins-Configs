@@ -1,0 +1,23 @@
+name: Bastiramelo
+events:
+  event57:
+    one_time: false
+    cooldown: 1666904987492
+  event90:
+    one_time: false
+    cooldown: 1666910765177
+  event61:
+    one_time: false
+    cooldown: 1666905840384
+  event53:
+    one_time: false
+    cooldown: 1666908171411
+  event35:
+    one_time: false
+    cooldown: 1666908181218
+  event43:
+    one_time: false
+    cooldown: 1666908193177
+  event21:
+    one_time: false
+    cooldown: 1666908198509

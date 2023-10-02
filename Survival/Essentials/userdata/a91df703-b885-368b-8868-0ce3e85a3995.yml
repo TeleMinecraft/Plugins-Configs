@@ -1,0 +1,63 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 190.46.54.238
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1683077632330
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1683082455863
+  login: 1683082323454
+money: '15577763.73999999999986031'
+last-account-name: elbeca
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 1509.203168032567
+  y: 73.0
+  z: -50.89466509017252
+  yaw: -4.947265625
+  pitch: 25.949270248413086
+homes:
+  home:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: -1624.3871038970776
+    y: 72.0
+    z: 426.7195462762521
+    yaw: 145.49261474609375
+    pitch: 23.698522567749023
+  a:
+    world: ddd15208-45ed-42b1-90a4-dbd0adfbea42
+    world-name: world_nether
+    x: 96.30000001192093
+    y: 77.0
+    z: -1163.4734154546081
+    yaw: -117.05838012695312
+    pitch: 23.050458908081055
+  c:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: 1208.062308219651
+    y: 56.0
+    z: -715.5439733688405
+    yaw: 117.90362548828125
+    pitch: 20.8498592376709
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 1210.1970426089597
+  y: 64.0
+  z: -701.6920745704446
+  yaw: -152.98760986328125
+  pitch: -35.54987716674805

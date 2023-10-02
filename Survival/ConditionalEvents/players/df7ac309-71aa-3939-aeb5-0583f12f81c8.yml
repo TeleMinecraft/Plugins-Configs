@@ -1,0 +1,8 @@
+name: SaaFigue2726
+events:
+  resistencia_y_skin_al_entrar:
+    one_time: false
+    cooldown: 1693450015369
+  random_tp:
+    one_time: false
+    cooldown: 1693452004682

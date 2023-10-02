@@ -1,0 +1,16 @@
+playername: MatiVice
+lang: es_ES
+minerate-full-mined: 785
+minerate:
+  diamond: 0
+  gold: 5
+  iron: 36
+  coal: 27
+  ancient debris: 0
+better-click: 6
+cheats:
+  timer: 10
+  forcefield: 1
+  blink: 1
+  speed: 74
+creation-time: 1619238451100

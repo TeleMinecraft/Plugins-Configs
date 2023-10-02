@@ -1,0 +1,346 @@
+panels:
+  panel-4:
+    perm: default
+    panelType: default
+    sound-on-open: BLOCK_NOTE_BLOCK_CHIME
+    rows: 5
+    animatevalue: 2
+    title: '&1&lWarps disponibles'
+    item:
+      '0':
+        material: LIME_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+        commands:
+        - op= tp ~ ~ ~
+        animate0:
+          material: BLACK_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - op= tp ~ ~ ~
+      '1':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+        commands:
+        - op= tp ~ ~ ~
+        animate0:
+          material: LIME_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - op= tp ~ ~ ~
+      '2':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+        commands:
+        - op= tp ~ ~ ~
+        animate0:
+          material: LIME_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - op= tp ~ ~ ~
+      '3':
+        material: LIME_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+        commands:
+        - op= tp ~ ~ ~
+        animate0:
+          material: BLACK_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - op= tp ~ ~ ~
+      '4':
+        material: LIME_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+        commands:
+        - op= tp ~ ~ ~
+        animate0:
+          material: BLACK_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - op= tp ~ ~ ~
+      '5':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+        commands:
+        - op= tp ~ ~ ~
+        animate0:
+          material: LIME_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - op= tp ~ ~ ~
+      '6':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+        commands:
+        - op= tp ~ ~ ~
+        animate0:
+          material: LIME_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - op= tp ~ ~ ~
+      '7':
+        material: LIME_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+        commands:
+        - op= tp ~ ~ ~
+        animate0:
+          material: BLACK_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - op= tp ~ ~ ~
+      '8':
+        material: LIME_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+        commands:
+        - op= tp ~ ~ ~
+        animate0:
+          material: BLACK_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - op= tp ~ ~ ~
+      '9':
+        material: LIME_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+        commands:
+        - op= tp ~ ~ ~
+        animate0:
+          material: BLACK_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - op= tp ~ ~ ~
+      '17':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+        commands:
+        - op= tp ~ ~ ~
+        animate0:
+          material: LIME_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - op= tp ~ ~ ~
+      '18':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+        commands:
+        - op= tp ~ ~ ~
+        animate0:
+          material: LIME_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - op= tp ~ ~ ~
+      '26':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+        commands:
+        - op= tp ~ ~ ~
+        animate0:
+          material: LIME_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - op= tp ~ ~ ~
+      '27':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+        commands:
+        - op= tp ~ ~ ~
+        animate0:
+          material: LIME_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - op= tp ~ ~ ~
+      '35':
+        material: LIME_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+        commands:
+        - op= tp ~ ~ ~
+        animate0:
+          material: BLACK_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - op= tp ~ ~ ~
+      '36':
+        material: LIME_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+        commands:
+        - op= tp ~ ~ ~
+        animate0:
+          material: BLACK_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - op= tp ~ ~ ~
+      '37':
+        material: LIME_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+        commands:
+        - op= tp ~ ~ ~
+        animate0:
+          material: BLACK_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - op= tp ~ ~ ~
+      '38':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+        commands:
+        - op= tp ~ ~ ~
+        animate0:
+          material: LIME_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - op= tp ~ ~ ~
+      '39':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+        commands:
+        - op= tp ~ ~ ~
+        animate0:
+          material: LIME_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - op= tp ~ ~ ~
+      '40':
+        material: LIME_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+        commands:
+        - op= tp ~ ~ ~
+        animate0:
+          material: BLACK_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - op= tp ~ ~ ~
+      '41':
+        material: LIME_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+        commands:
+        - op= tp ~ ~ ~
+        animate0:
+          material: BLACK_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - op= tp ~ ~ ~
+      '42':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+        commands:
+        - op= tp ~ ~ ~
+        animate0:
+          material: LIME_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - op= tp ~ ~ ~
+      '43':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+        commands:
+        - op= tp ~ ~ ~
+        animate0:
+          material: LIME_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - op= tp ~ ~ ~
+      '44':
+        material: LIME_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+        commands:
+        - op= tp ~ ~ ~
+        animate0:
+          material: BLACK_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - op= tp ~ ~ ~
+      '12':
+        material: PUMPKIN_PIE
+        stack: 1
+        name: §e§lTaberna
+        commands:
+        - warp Taberna
+        lore:
+        - §7[Click para ir]
+      '10':
+        material: WRITABLE_BOOK
+        stack: 1
+        name: §5§lMisiones
+        commands:
+        - warp Misiones
+        lore:
+        - §7[Click para ir]
+      '30':
+        material: EMERALD
+        name: §a§lTeleBazar
+        commands:
+        - op= warp TeleBazar
+        lore:
+        - §7[Click para ir]
+        stack: 1
+      '28':
+        material: STONE_BRICKS
+        name: §6§lCiudad
+        commands:
+        - op= warp Ciudad
+        lore:
+        - §7[Click para ir]
+        stack: 1
+      '16':
+        material: OAK_LOG
+        name: §9§lPoblado
+        commands:
+        - op= warp Poblado
+        lore:
+        - §7[Click para ir]
+        stack: 1
+      '14':
+        material: CHEST
+        stack: 1
+        name: §b§lRecompensas
+        commands:
+        - op= warp Recompensas
+        lore:
+        - §7[Click para ir]
+      '32':
+        material: END_PORTAL_FRAME
+        stack: 1
+        name: '&5&lPortal al End'
+        lore:
+        - '&cDebes matar al Ender Dragon'
+        - '&cpara desbloquear este warp'
+        has0:
+          value0: '%objective_score_killdragon% ISGREATER'
+          compare0: 1
+          material: END_PORTAL_FRAME
+          name: '&1&lPortal al End'
+          lore:
+          - '&7[Click para ir]'
+          commands:
+          - op= mvtp %cp-player-name% world
+          - op= minecraft:tp %cp-player-name% 449.5 51 -497.5 0 0
+          - cpc
+          - msg= &6Teletransportando al &5Portal al End&6...
+      '34':
+        material: ENCHANTED_GOLDEN_APPLE
+        stack: 1
+        name: §d§lTiendas Especiales
+        commands:
+        - op= cp panel-22

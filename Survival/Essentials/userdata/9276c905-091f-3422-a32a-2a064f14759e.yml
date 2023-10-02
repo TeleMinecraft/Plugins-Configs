@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 45.232.34.66
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1661219664987
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1661219692760
+  login: 1661217582003
+money: '635300.0'
+last-account-name: DDKaiso
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 6341.714186014736
+  y: 16.875
+  z: -176.7234869355469
+  yaw: 120.05828857421875
+  pitch: -1.8103358745574951
+homes:
+  imperio:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: -728.8662086404022
+    y: -8.0
+    z: 2142.876234842794
+    yaw: -127.74993133544922
+    pitch: 24.14999771118164
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: -724.8642509281206
+  y: -6.0
+  z: 2138.487500011921
+  yaw: 159.35008239746094
+  pitch: 22.05000114440918

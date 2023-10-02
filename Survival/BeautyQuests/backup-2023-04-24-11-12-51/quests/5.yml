@@ -1,0 +1,70 @@
+endRewards:
+- id: commandReward
+  commands:
+  - console: true
+    label: scoreboard players add {PLAYER} Prestigio 10
+- id: itemReward
+  items:
+  - v: 2975
+    type: NETHERITE_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Ultimate
+        Pickaxe"}],"text":""}'
+      enchants:
+        DIG_SPEED: 5
+        LOOT_BONUS_BLOCKS: 3
+        MENDING: 1
+        DURABILITY: 3
+        VANISHING_CURSE: 1
+timer: 10080
+name: §d§lMinero Definitivo §2[Gremio]
+customItem:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: NETHERITE_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    ItemFlags:
+    - HIDE_ATTRIBUTES
+repeatable: true
+description: §eDemuestra que eres el mejor minero!
+bypassLimit: true
+manager:
+  branches:
+    '0':
+      stages:
+        '0':
+          objects:
+            '0':
+              amount: 64
+              object: COAL_ORE
+            '1':
+              amount: 32
+              object: IRON_ORE
+            '2':
+              amount: 25
+              object: GOLD_ORE
+            '3':
+              amount: 20
+              object: NETHER_GOLD_ORE
+            '4':
+              amount: 15
+              object: REDSTONE_ORE
+            '5':
+              amount: 15
+              object: LAPIS_ORE
+            '6':
+              amount: 5
+              object: DIAMOND_ORE
+            '7':
+              amount: 1
+              object: EMERALD_ORE
+            '8':
+              amount: 3
+              object: ANCIENT_DEBRIS
+          stageType: MINE
+      endingStages: {}
+id: 5

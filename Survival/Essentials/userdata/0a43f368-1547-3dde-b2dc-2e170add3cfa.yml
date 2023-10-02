@@ -1,0 +1,36 @@
+timestamps:
+  login: 1628633208728
+  lastteleport: 1628638005081
+  logout: 1628638068347
+lastlocation:
+  world: world
+  x: 1183.2150638077508
+  y: 56.5625
+  z: -727.6999999880791
+  yaw: 4.3500066
+  pitch: 11.999998
+homes:
+  home:
+    world: world
+    x: 1238.3801856543835
+    y: 14.0
+    z: -559.6121749520815
+    yaw: -85.946686
+    pitch: 28.649971
+  home2:
+    world: world_the_end
+    x: 2595.5873266262047
+    y: 57.0
+    z: 780.1615009911792
+    yaw: -163.68588
+    pitch: 38.999718
+logoutlocation:
+  world: world
+  x: 1215.5746225337025
+  y: 89.0
+  z: -666.7459176577954
+  yaw: -155.09999
+  pitch: 13.200008
+money: '205200'
+ip-address: 190.162.155.175
+last-account-name: Xx_Elucidator_xX

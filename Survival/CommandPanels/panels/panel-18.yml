@@ -1,0 +1,152 @@
+panels:
+  panel-18:
+    perm: default
+    panelType: default
+    rows: 5
+    title: '&8&lTienda de Transporte'
+    command: panel-18
+    item:
+      '0':
+        material: ORANGE_STAINED_GLASS_PANE
+        name: ''
+      '1':
+        material: ORANGE_STAINED_GLASS_PANE
+        name: ''
+      '2':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '3':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '4':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+        enchanted: 'true'
+      '5':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '6':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '7':
+        material: ORANGE_STAINED_GLASS_PANE
+        name: ''
+      '8':
+        material: ORANGE_STAINED_GLASS_PANE
+        name: ''
+      '9':
+        material: ORANGE_STAINED_GLASS_PANE
+        name: ''
+      '17':
+        material: ORANGE_STAINED_GLASS_PANE
+        name: ''
+      '18':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '20':
+        material: SADDLE
+        name: §6§lCompar un Caballo
+        lore:
+        - '&7Click izquierdo para'
+        - '&7compar un Caballo &a&o$1000'
+        - '&7'
+        - '&7Click derecho para compar'
+        - '&7un Caballo amaestrado &a&o$1200'
+        commands:
+        - left= paywall= 1000
+        - left= op= execute in minecraft:overworld positioned 426 77 -430 run summon
+          minecraft:horse ~ ~ ~
+        - left= op= minecraft:give %cp-player-name% minecraft:saddle 1
+        - left= op= execute in minecraft:overworld run tp %cp-player-name% 428 77
+          -430 90 20
+        - right= paywall= 1200
+        - right= op= execute in minecraft:overworld positioned 426 77 -430 run summon
+          minecraft:horse ~ ~ ~
+        - right= op= execute in minecraft:overworld positioned 426 77 -430 run data
+          merge entity @e[limit=1,sort=nearest,type=minecraft:horse] {Tame:1b,SaddleItem:{id:"minecraft:saddle",Count:1b}}
+        - right= op= execute in minecraft:overworld run tp %cp-player-name% 428 77
+          -430 90 20
+        - op= cpc
+      '22':
+        material: CHEST
+        name: §f§lCaja de Transportes
+        lore:
+        - '&7Click izquierdo para'
+        - §7comprar &a1 &7x §a$7500
+        - '&7'
+        - '&7Click derecho para'
+        - §7comprar &a5 &7x §a$25000
+        commands:
+        - left= paywall= 7500
+        - left= op= crate give %cp-player-name% transporte 1
+        - right= paywall= 25000
+        - right= op= crate give %cp-player-name% transporte 5
+        - op= cp panel-18
+      '24':
+        material: BARRIER
+        name: §b§lCaballos+
+        lore:
+        - §cSolo para VIPS!
+        commands:
+        - msg= &c&lSolo para VIPS! &7&o(Obtienes este rango donando $1000+)
+        - op= cpc
+        has0:
+          value0: '%cp-player-name% HASPERM'
+          compare0: essentials.tpa
+          material: DIAMOND_HORSE_ARMOR
+          name: §b§lCaballos+
+          lore:
+          - '&7Click izquierdo para comprar'
+          - '&7compar un &2Caballo Zombificado &a&o$5000'
+          - '&7'
+          - '&7Click derecho para comprar'
+          - '&7compar un &fCaballo Esquelético &a&o$5000'
+          commands:
+          - left= paywall= 5000
+          - left= op= execute in minecraft:overworld positioned 426 77 -430 run summon
+            zombie_horse ~ ~ ~ {Tame:1b,SaddleItem:{id:"minecraft:saddle",Count:1b}}
+          - left= op= execute in minecraft:overworld run tp %cp-player-name% 428 77
+            -430 90 20
+          - right= paywall= 5000
+          - right= op= execute in minecraft:overworld positioned 426 77 -430 run summon
+            skeleton_horse ~ ~ ~ {Tame:1b,SaddleItem:{id:"minecraft:saddle",Count:1b}}
+          - right= op= execute in minecraft:overworld run tp %cp-player-name% 428
+            77 -430 90 20
+          - op= cpc
+      '26':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '27':
+        material: ORANGE_STAINED_GLASS_PANE
+        name: ''
+      '35':
+        material: ORANGE_STAINED_GLASS_PANE
+        name: ''
+      '36':
+        material: ORANGE_STAINED_GLASS_PANE
+        name: ''
+      '37':
+        material: ORANGE_STAINED_GLASS_PANE
+        name: ''
+      '38':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '39':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '40':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+        enchanted: 'true'
+      '41':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '42':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '43':
+        material: ORANGE_STAINED_GLASS_PANE
+        name: ''
+      '44':
+        material: ORANGE_STAINED_GLASS_PANE
+        name: ''

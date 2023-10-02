@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 186.156.222.38
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1651374555906
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1651379363355
+  login: 1651378962784
+money: '23367.807499999999999'
+last-account-name: Pardox_34
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 608.7982875120255
+  y: 72.0
+  z: -565.688279734695
+  yaw: -157.04705810546875
+  pitch: 20.55000877380371
+homes:
+  home:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: 444.4708290473567
+    y: -47.0
+    z: -731.7090263901812
+    yaw: 102.59703063964844
+    pitch: 12.600055694580078
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 585.6999999880791
+  y: 81.0
+  z: -659.4283253925415
+  yaw: -14.69866943359375
+  pitch: 0.15015877783298492

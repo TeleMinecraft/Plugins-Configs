@@ -1,0 +1,171 @@
+chestItems:
+  '65':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: SNOWBALL
+      amount: 2
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: EGG
+      amount: 2
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: BOW
+  '50':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: EGG
+      amount: 4
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: SNOWBALL
+      amount: 4
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: ARROW
+      amount: 4
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: OAK_PLANKS
+      amount: 16
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: STONE
+      amount: 16
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: COOKED_BEEF
+      amount: 2
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: COOKED_CHICKEN
+      amount: 2
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: STONE_PICKAXE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: STONE_SWORD
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: STONE_AXE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: STONE_SHOVEL
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: SHIELD
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: EXPERIENCE_BOTTLE
+      amount: 20
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: LAPIS_LAZULI
+      amount: 3
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: COBWEB
+      amount: 3
+  '40':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: IRON_BOOTS
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: IRON_HELMET
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: IRON_LEGGINGS
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: IRON_CHESTPLATE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: GOLDEN_APPLE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: IRON_AXE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: IRON_SWORD
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: ENDER_PEARL
+      amount: 2
+  '30':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: DIAMOND_PICKAXE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: DIAMOND_SHOVEL
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_strength
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:long_regeneration
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:healing
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:harming
+  '25':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: DIAMOND_CHESTPLATE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: DIAMOND_BOOTS
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: DIAMOND_LEGGINGS
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: DIAMOND_HELMET
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: DIAMOND_SWORD
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: DIAMOND_AXE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: ENDER_PEARL
+      amount: 2
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: TRIDENT
+  '20':
+    items: []
+  '10':
+    items: []
+  '5':
+    items: []
+  '60':
+    items: []
+  '55':
+    items: []

@@ -1,0 +1,28 @@
+playername: Ramsama1
+lang: es_ES
+minerate-full-mined: 272848
+minerate:
+  diamond: 115
+  gold: 51
+  iron: 380
+  coal: 999
+  ancient debris: 0
+better-click: 31
+cheats:
+  fastladder: 1
+  forcefield: 1
+  blink: 1
+  noslowdown: 1
+  speed: 5
+  timer: 5
+  antiknockback: 3
+  inventorymove: 1
+  fly: 1
+  nuker: 2
+  airplace: 2
+  airjump: 4
+  fastplace: 1
+  step: 6
+  nofall: 5
+  spider: 1
+creation-time: 1617806843969

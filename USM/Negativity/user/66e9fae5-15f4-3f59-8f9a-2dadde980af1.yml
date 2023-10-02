@@ -1,0 +1,18 @@
+playername: Thefinalstexts
+lang: es_ES
+minerate-full-mined: 1249
+minerate:
+  diamond: 0
+  gold: 0
+  iron: 1
+  coal: 0
+  ancient debris: 0
+better-click: 29
+cheats:
+  timer: 11
+  inventorymove: 2
+  fly: 3
+  forcefield: 10
+  blink: 1
+  speed: 3
+creation-time: 1615005916697

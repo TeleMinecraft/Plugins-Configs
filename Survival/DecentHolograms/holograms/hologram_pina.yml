@@ -1,0 +1,16 @@
+location: world:-1988.500:67.000:8303.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&f&lRequisito IV'
+    height: 0.3
+  - content: '#FDFF61&oHelado de Piña'
+    height: 1.5
+  - content: '#ICON: SWEET_BERRIES {CustomModelData:3}'
+    height: 0.6
+  actions: {}

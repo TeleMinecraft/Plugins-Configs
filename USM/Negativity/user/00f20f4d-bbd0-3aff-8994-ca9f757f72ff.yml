@@ -1,0 +1,27 @@
+playername: orozc048
+lang: es_ES
+minerate-full-mined: 46975
+minerate:
+  diamond: 42
+  gold: 30
+  iron: 94
+  coal: 188
+  ancient debris: 0
+better-click: 25
+cheats:
+  autoclick: 5
+  forcefield: 1
+  blink: 2
+  noslowdown: 1
+  speed: 26
+  timer: 3
+  antiknockback: 5
+  inventorymove: 1
+  nuker: 1
+  airplace: 2
+  airjump: 1
+  fastplace: 3
+  step: 9
+  nofall: 2
+  spider: 1
+creation-time: 1618159358997

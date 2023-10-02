@@ -1,0 +1,64 @@
+# This is an example book to show how to create one
+# Note: The placeholders in this book (like %player_name%) need PlaceholderAPI installed
+# with the proper expansion, see here for more informations: https://www.spigotmc.org/resources/placeholderapi.6245/
+
+# Item's name
+name: Importante
+
+# Book's title
+title: Importante
+
+# Book's author
+author: TeleServer
+
+# Book's generation
+# Valid values: ORIGINAL, COPY_OF_ORIGINAL, COPY_OF_COPY, TATTERED
+generation: ORIGINAL
+
+# Item's lore
+lore:
+- '<light_purple>Importante'
+
+# Command to open this book
+# You can remove this by setting it to ''
+# Separate multiple commands with a space
+open_command: ''
+
+pages:
+  '1':
+  - '   <dark_red><bold>✘ <red><bold>Importante<reset><dark_red><bold> ✘<reset>'
+  - ''
+  - '<black>El <aqua><bold>Tele<dark_aqua><bold>Server<reset>'
+  - '<black>fue creado y es'
+  - '<black>administrado por'
+  - '<black>estudiantes de la'
+  - '<black>USM, ninguno es'
+  - '<black>experto en hacer'
+  - '<black>servidores ni en'
+  - '<black>como programarlos.'
+  - '<dark_green><italic>Agradeceríamos que'
+  - '<dark_green><italic>no intentes forzar'
+  - '<dark_green><italic>bugs ni entrar a'
+  - '<dark_green><italic>zonas restringidas.<reset>'
+  '2':
+  - '   <dark_red><bold>✘ <red><bold>Importante<dark_red><bold> ✘<reset>'
+  - ''
+  - '<black>Recuerda que puedes'
+  - '<black>usar <hover:show_text:"<gold>Abrir menú de ayuda"><click:run_command:/help><gold><bold>/help<reset> <black>en'
+  - '<black>cualquier momento.'
+  - ''
+  - '<black>Si tienes <dark_blue><bold>dudas<reset><black>,'
+  - '<dark_green><bold>sugerencias<reset> <black>o una'
+  - '<dark_purple><bold>petición<reset> <black>contáctanos'
+  - '<black>a nuestro <click:open_url:"http://in.teleserver.network/"><hover:show_text:"<aqua>@teleminecraft.s"><light_purple><italic><underlined>Instagram<reset>'
+  - '<black>o escríbenos en el'
+  - '<click:open_url:"http://dc.teleserver.network/"><hover:show_text:"<blue>Discord Oficial"><blue><italic><underlined>Discord<reset> <black>del server.'
+  - ''
+  - ' <click:run_command:/ib open help><hover:show_text:"<gray>Click para ir al inicio <br><gray>del libro de <green><underlined>ayuda"><dark_aqua><bold>><color:#00DC85><bold><underlined>Volver al índice<reset><dark_aqua><bold><<reset>'
+
+# For the placeholders to work correctly
+# you should download the Player and Vault
+# extensions for PlaceholderAPI:
+# /papi ecloud download Player
+# /papi ecloud download Vault
+# /papi reload

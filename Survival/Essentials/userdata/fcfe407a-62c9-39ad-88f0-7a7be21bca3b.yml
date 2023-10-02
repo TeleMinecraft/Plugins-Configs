@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 190.160.142.112
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1693450415048
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1693452010039
+  login: 1693450084732
+money: '0'
+last-account-name: Qaxecs
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 754.6846653608064
+  y: 122.0
+  z: 734.532094195008
+  yaw: 102.15019226074219
+  pitch: -16.49994468688965
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 4450.6943062337905
+  y: 67.0
+  z: 7375.508498506069
+  yaw: 93.15003204345703
+  pitch: 9.15000057220459

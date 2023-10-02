@@ -1,0 +1,29 @@
+lastAccountName: Shulitoris
+timestamps:
+  login: 1644873907883
+  lastteleport: 1644876003843
+  logout: 1644876664648
+ipAddress: 186.11.97.93
+lastlocation:
+  world: world
+  x: 259.18373141944966
+  y: 67.0
+  z: -915.5034904100298
+  yaw: -241.80518
+  pitch: 18.449991
+logoutlocation:
+  world: world
+  x: 418.98750001192093
+  y: 77.0
+  z: -484.94999998807907
+  yaw: -225.14992
+  pitch: 18.150078
+money: '806107.875'
+homes:
+  home:
+    world: world
+    x: 257.47769045899537
+    y: 65.0
+    z: -911.9956177464618
+    yaw: -1.0456848
+    pitch: 28.650013

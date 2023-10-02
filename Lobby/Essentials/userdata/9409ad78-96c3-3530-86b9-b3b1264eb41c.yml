@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 200.124.54.139
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1682210655313
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1682210718515
+  login: 1682210227156
+money: '0'
+last-account-name: TicTac_710
+lastlocation:
+  world: 8039c8bf-b4ad-4692-9f73-205fa07ddece
+  world-name: world
+  x: 1.0780691276434988
+  y: 32.0
+  z: 7.811752937812565
+  yaw: 36.80647659301758
+  pitch: 11.206377983093262
+logoutlocation:
+  world: 8039c8bf-b4ad-4692-9f73-205fa07ddece
+  world-name: world
+  x: -0.055452314440874985
+  y: 30.0
+  z: -94.07053961146538
+  yaw: 27.861644744873047
+  pitch: 2.261838912963867

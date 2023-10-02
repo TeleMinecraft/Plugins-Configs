@@ -1,0 +1,21 @@
+timestamps:
+  login: 1587252654169
+  logout: 1587253308185
+  lastteleport: 1586732421294
+lastlocation:
+  world: world
+  x: 2276.410615983676
+  y: 64.0
+  z: 3119.3505761727642
+  yaw: -195.14966
+  pitch: 18.750229
+logoutlocation:
+  world: world
+  x: 183.15862445051118
+  y: 63.0
+  z: -494.72400475254557
+  yaw: 82.88447
+  pitch: 10.403834
+money: '1213203'
+ip-address: 186.11.21.55
+last-account-name: SnakeCell

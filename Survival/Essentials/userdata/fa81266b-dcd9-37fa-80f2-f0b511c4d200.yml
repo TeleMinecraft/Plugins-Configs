@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 190.215.133.233
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1693450420012
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1693452043640
+  login: 1693450165082
+money: '0'
+last-account-name: IgnaFigurita
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 6.516365149999844
+  y: 69.0
+  z: 823.5576000926145
+  yaw: -34.20831298828125
+  pitch: 12.59964370727539
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 420.43313303393563
+  y: 78.0
+  z: -307.92769650992744
+  yaw: 144.2681884765625
+  pitch: 22.349538803100586

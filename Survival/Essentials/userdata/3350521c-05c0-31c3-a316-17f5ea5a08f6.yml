@@ -1,0 +1,29 @@
+timestamps:
+  login: 1621468968444
+  logout: 1621469685471
+  lastteleport: 1621469643848
+lastlocation:
+  world: world
+  x: 373.30000001192093
+  y: 17.0
+  z: -403.69999998807907
+  yaw: 344.68848
+  pitch: 23.099894
+logoutlocation:
+  world: world
+  x: 291.855716764994
+  y: 68.0
+  z: -300.1798252911307
+  yaw: 206.09723
+  pitch: 34.800007
+homes:
+  home:
+    world: world
+    x: 288.192198468756
+    y: 68.0
+    z: -294.55689324209544
+    yaw: 220.79749
+    pitch: 14.699935
+money: '1069921.3704999999999961'
+ip-address: 190.44.244.210
+last-account-name: zazon222

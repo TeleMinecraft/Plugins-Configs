@@ -1,0 +1,89 @@
+timestamps:
+  login: 1681056939643
+  logout: 1681059164643
+  lastteleport: 1681058749885
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+lastlocation:
+  world: ddd15208-45ed-42b1-90a4-dbd0adfbea42
+  x: 1254.0252727299176
+  y: 59.0
+  z: 5880.300000011921
+  yaw: -176.75091552734375
+  pitch: -1.8892426490783691
+  world-name: world_nether
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: -7243.699999988079
+  y: 11.0
+  z: 7086.300000011921
+  yaw: 95.882080078125
+  pitch: -29.00393295288086
+  world-name: world
+money: '3701248.76849999998707636'
+homes:
+  granjas:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: 1438.1923293545346
+    y: 63.0
+    z: 2495.541135726625
+    yaw: 0.2142333984375
+    pitch: 39.474037170410156
+    world-name: world
+  end:
+    world: ab11b9bc-66dd-401b-9b82-5d243e23e02c
+    x: 4.3344106257667345
+    y: 60.0
+    z: -16.01262819484823
+    yaw: 5.78594970703125
+    pitch: 11.305538177490234
+    world-name: world_the_end
+  base:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: -2023.8089778137785
+    y: 41.0
+    z: -1877.3015419654207
+    yaw: 51.7784423828125
+    pitch: 13.730833053588867
+    world-name: world
+  creepers:
+    world: ddd15208-45ed-42b1-90a4-dbd0adfbea42
+    x: 44.587692428441045
+    y: 59.5
+    z: 6403.001828775426
+    yaw: 2.02356219291687
+    pitch: 6.6035356521606445
+    world-name: world_nether
+  wither:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: 861.5482866321657
+    y: 14.0
+    z: -482.1998871583843
+    yaw: 179.7259521484375
+    pitch: 2.128682851791382
+    world-name: world
+  megacueva:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: -7363.9326147648635
+    y: 57.0
+    z: 7144.27785824992
+    yaw: -163.5216064453125
+    pitch: 11.434745788574219
+afk: false
+ip-address: 201.223.222.49
+last-account-name: zpeedyy
+lastAccountName: zpeedyy
+ipAddress: 200.74.1.185
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false

@@ -1,0 +1,29 @@
+timestamps:
+  login: 1613416444656
+  logout: 1613416725030
+  lastteleport: 1613416521366
+lastlocation:
+  world: world
+  x: 375.7418987821007
+  y: 76.5
+  z: -443.21037756512925
+  yaw: 271.33032
+  pitch: 10.881811
+logoutlocation:
+  world: world
+  x: 443.19713779490263
+  y: 80.0
+  z: 670.1924626083211
+  yaw: 244.39734
+  pitch: 25.971575
+money: '2241508.70000000000278627'
+homes:
+  home:
+    world: world
+    x: 486.5824660390226
+    y: 9.0
+    z: 659.1604879261428
+    yaw: 251.04095
+    pitch: 13.678377
+ip-address: 190.114.58.39
+last-account-name: the_ricahrd

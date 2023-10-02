@@ -1,0 +1,14 @@
+last-fill-material: AIR
+point-one: world,-97.0,29.0,1.0,0.0,0.0
+point-two: world,-94.0,29.0,-1.0,0.0,0.0
+teleport-location: world,-92.45018518509902,30.0,0.3076104794669916,83.549904,19.05
+commands-only: false
+commands:
+- svar set server_telejuegos 1 {player}
+disabled: false
+message: ''
+title: ''
+sub-title: ''
+bar-message: ''
+cooldown: 0
+portal-server: telejuegos

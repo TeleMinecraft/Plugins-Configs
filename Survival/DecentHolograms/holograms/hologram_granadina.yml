@@ -1,0 +1,16 @@
+location: world:-1988.500:67.000:8301.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&f&lRequisito III'
+    height: 0.3
+  - content: '&#FF0000&oGranadina'
+    height: 2.0
+  - content: '#ICON: POTION {CustomModelData:9}'
+    height: 0.6
+  actions: {}

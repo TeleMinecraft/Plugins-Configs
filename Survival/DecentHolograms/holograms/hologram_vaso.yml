@@ -1,0 +1,16 @@
+location: world:-1988.500:67.000:8294.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&lRequisito I'
+    height: 0.3
+  - content: '&b&oVaso Gigante'
+    height: 2.3
+  - content: '#ICON: GLASS_BOTTLE {CustomModelData:1}'
+    height: 0.6
+  actions: {}

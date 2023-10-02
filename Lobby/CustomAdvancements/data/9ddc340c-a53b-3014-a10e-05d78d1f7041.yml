@@ -1,0 +1,193 @@
+example:
+  npc:
+    progress: 0
+    active: false
+    completed: false
+    unlocked: false
+    announced: false
+  seccion_info:
+    progress: 0
+    active: false
+    completed: false
+    unlocked: false
+    announced: false
+  juego_amarillo:
+    progress: 0
+    active: false
+    completed: false
+    unlocked: false
+    announced: false
+  servidores:
+    progress: 0
+    active: false
+    completed: false
+    unlocked: false
+    announced: false
+  top3:
+    progress: 0
+    active: false
+    completed: false
+    unlocked: false
+    announced: false
+  inicio:
+    progress: 1
+    active: false
+    completed: false
+    unlocked: false
+    announced: false
+  top4:
+    progress: 0
+    active: false
+    completed: false
+    unlocked: false
+    announced: false
+  top1:
+    progress: 0
+    active: false
+    completed: false
+    unlocked: false
+    announced: false
+  top2:
+    progress: 0
+    active: false
+    completed: false
+    unlocked: false
+    announced: false
+  seccion_telejuegos:
+    progress: 0
+    active: false
+    completed: false
+    unlocked: false
+    announced: false
+  seccion_usm:
+    progress: 0
+    active: false
+    completed: false
+    unlocked: false
+    announced: false
+  juego_azul:
+    progress: 0
+    active: false
+    completed: false
+    unlocked: false
+    announced: false
+  puerta_secreta:
+    progress: 0
+    active: false
+    completed: false
+    unlocked: false
+    announced: false
+  seccion_survival:
+    progress: 0
+    active: false
+    completed: false
+    unlocked: false
+    announced: false
+  vip:
+    progress: 0
+    active: false
+    completed: false
+    unlocked: false
+    announced: false
+  juego_verde:
+    progress: 0
+    active: false
+    completed: false
+    unlocked: false
+    announced: false
+  juego_rojo:
+    progress: 0
+    active: false
+    completed: false
+    unlocked: false
+    announced: false
+  zona_oculta:
+    progress: 0
+    active: false
+    completed: false
+    unlocked: false
+    announced: false
+  juego-azul:
+    progress: 0
+    active: false
+    completed: false
+    unlocked: false
+    announced: false
+  seccion-usm:
+    progress: 1
+    active: false
+    completed: false
+    unlocked: false
+    announced: false
+  juego-amarillo:
+    progress: 1
+    active: false
+    completed: false
+    unlocked: false
+    announced: false
+  zona-oculta:
+    progress: 0
+    active: false
+    completed: false
+    unlocked: false
+    announced: false
+  seccion-survival:
+    progress: 0
+    active: false
+    completed: false
+    unlocked: false
+    announced: false
+  top-azul:
+    progress: 1
+    active: false
+    completed: false
+    unlocked: false
+    announced: false
+  juego-rojo:
+    progress: 1
+    active: false
+    completed: false
+    unlocked: false
+    announced: false
+  seccion-telejuegos:
+    progress: 0
+    active: false
+    completed: false
+    unlocked: false
+    announced: false
+  seccion-info:
+    progress: 0
+    active: false
+    completed: false
+    unlocked: false
+    announced: false
+  top-rojo:
+    progress: 1
+    active: false
+    completed: false
+    unlocked: false
+    announced: false
+  puerta-secreta:
+    progress: 0
+    active: false
+    completed: false
+    unlocked: false
+    announced: false
+  top-amarillo:
+    progress: 1
+    active: false
+    completed: false
+    unlocked: false
+    announced: false
+  top-verde:
+    progress: 1
+    active: false
+    completed: false
+    unlocked: false
+    announced: false
+  juego-verde:
+    progress: 1
+    active: false
+    completed: false
+    unlocked: false
+    announced: false

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 191.113.199.141
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1665022762316
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1665197386162
+  login: 1665187186222
+money: '49000.0'
+last-account-name: Guarip
+lastlocation:
+  world: 2e1ce19e-1f4f-4123-8c05-bbc1db660846
+  world-name: world
+  x: -7.852790086676528
+  y: 31.80240884447399
+  z: 5.0426147537263715
+  yaw: -42.68402099609375
+  pitch: 8.058688163757324
+logoutlocation:
+  world: 2e1ce19e-1f4f-4123-8c05-bbc1db660846
+  world-name: world
+  x: -247.111749479533
+  y: 34.90801898951367
+  z: 93.28815132497469
+  yaw: -5.671875
+  pitch: -7.240843772888184

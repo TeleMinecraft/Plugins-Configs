@@ -1,0 +1,23 @@
+command:
+    only-player: '&cYou have to be a player to execute this command.'
+    no-permission: '&cNo tienes permiso para eso'
+    invalid-usage: '&cEse comando no existe'
+
+economy:
+    cost: '&4${cost} has been removed for using /wild'
+    insufficient-fund: '&2You do''t have enough to use the command'
+
+general:
+    movedMsg: '&cNo te muevas durante la teletransportación'
+    cooldown: '&cDebes esperar {wait}s para usar esto de nuevo'
+    limit_reached: '&cHas alcanzado el número de usos'
+
+teleporting:
+    noWorld: '&cNo se puede usar ese comando aquí'
+    noLocFound: '&cNo hay posibles lugares cerca'
+    teleporting: '&3Teletransportando a {loc}'
+    warmUp: '&3Teletransportando en {sec}s...'
+
+lang_ver: 2
+
+

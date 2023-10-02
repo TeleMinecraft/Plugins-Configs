@@ -1,0 +1,2692 @@
+ENCHANTED_GOLDEN_APPLE:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: ENCHANTED_GOLDEN_APPLE
+BLAZE_POWDER:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: BLAZE_POWDER
+GOLD_BLOCK:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: GOLD_BLOCK
+GOLDEN_APPLE:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: GOLDEN_APPLE
+DRAGON_HEAD:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: DRAGON_HEAD
+TOTEM_OF_UNDYING:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: TOTEM_OF_UNDYING
+END_CRYSTAL:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: END_CRYSTAL
+DRAGON_EGG:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: DRAGON_EGG
+§2§lBottled Knowledge:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: EXPERIENCE_BOTTLE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Bottled
+      Knowledge"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+EXPERIENCE_BOTTLE:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: EXPERIENCE_BOTTLE
+EXPERIENCE_BOTTLE1:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: EXPERIENCE_BOTTLE
+  amount: 4
+ENDER_PEARL:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: ENDER_PEARL
+EMERALD:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: EMERALD
+POTION:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: POTION
+  meta:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:water
+§1§lGreat Bottled Knowledge:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: EXPERIENCE_BOTTLE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_blue","text":"Great
+      Bottled Knowledge"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":true,"text":"EPIC"}],"text":""}'
+§2§lCompacted Sugar:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: SUGAR
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Compacted
+      Sugar"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+SUGAR:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: SUGAR
+§4§lMonster Essence:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: FIREWORK_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: FIREWORK_EFFECT
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"Monster
+      Essence"}],"text":""}'
+    ItemFlags:
+    - HIDE_ENCHANTS
+    - HIDE_ATTRIBUTES
+    - HIDE_POTION_EFFECTS
+    - HIDE_DYE
+    firework-effect:
+      ==: Firework
+      flicker: false
+      trail: false
+      colors:
+      - ==: Color
+        RED: 255
+        BLUE: 0
+        GREEN: 0
+      fade-colors:
+      - ==: Color
+        RED: 255
+        BLUE: 0
+        GREEN: 0
+      type: BALL
+ROTTEN_FLESH:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: ROTTEN_FLESH
+BONE:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: BONE
+SPIDER_EYE:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: SPIDER_EYE
+GUNPOWDER:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: GUNPOWDER
+SLIME_BALL:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: SLIME_BALL
+PHANTOM_MEMBRANE:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: PHANTOM_MEMBRANE
+GHAST_TEAR:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: GHAST_TEAR
+BLAZE_ROD:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: BLAZE_ROD
+§2§lAnimal Essence:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: FIREWORK_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: FIREWORK_EFFECT
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Animal
+      Essence"}],"text":""}'
+    ItemFlags:
+    - HIDE_ENCHANTS
+    - HIDE_ATTRIBUTES
+    - HIDE_POTION_EFFECTS
+    - HIDE_DYE
+    firework-effect:
+      ==: Firework
+      flicker: false
+      trail: false
+      colors:
+      - ==: Color
+        RED: 0
+        BLUE: 0
+        GREEN: 120
+      fade-colors:
+      - ==: Color
+        RED: 0
+        BLUE: 0
+        GREEN: 120
+      type: BALL
+PORKCHOP:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: PORKCHOP
+FEATHER:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: FEATHER
+LEATHER:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: LEATHER
+WHITE_WOOL:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: WHITE_WOOL
+RABBIT_FOOT:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: RABBIT_FOOT
+INK_SAC:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: INK_SAC
+SCUTE:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: SCUTE
+SALMON:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: SALMON
+HONEY_BOTTLE:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: HONEY_BOTTLE
+COBWEB:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: COBWEB
+STRING:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: STRING
+§4§lMonster Essence1:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: FIREWORK_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: FIREWORK_EFFECT
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"Monster
+      Essence"}],"text":""}'
+    ItemFlags:
+    - HIDE_POTION_EFFECTS
+    firework-effect:
+      ==: Firework
+      flicker: false
+      trail: false
+      colors:
+      - ==: Color
+        RED: 255
+        BLUE: 0
+        GREEN: 0
+      fade-colors:
+      - ==: Color
+        RED: 255
+        BLUE: 0
+        GREEN: 0
+      type: BALL
+§7§lEntity Essence:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: FIREWORK_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: FIREWORK_EFFECT
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Entity
+      Essence"}],"text":""}'
+    ItemFlags:
+    - HIDE_POTION_EFFECTS
+    firework-effect:
+      ==: Firework
+      flicker: false
+      trail: false
+      colors:
+      - ==: Color
+        RED: 97
+        BLUE: 97
+        GREEN: 97
+      fade-colors:
+      - ==: Color
+        RED: 97
+        BLUE: 97
+        GREEN: 97
+      type: BALL
+§2§lAnimal Essence1:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: FIREWORK_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: FIREWORK_EFFECT
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Animal
+      Essence"}],"text":""}'
+    ItemFlags:
+    - HIDE_POTION_EFFECTS
+    firework-effect:
+      ==: Firework
+      flicker: false
+      trail: false
+      colors:
+      - ==: Color
+        RED: 0
+        BLUE: 0
+        GREEN: 120
+      fade-colors:
+      - ==: Color
+        RED: 0
+        BLUE: 0
+        GREEN: 120
+      type: BALL
+§6§lVillager Essence:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: FIREWORK_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: FIREWORK_EFFECT
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Villager
+      Essence"}],"text":""}'
+    ItemFlags:
+    - HIDE_POTION_EFFECTS
+    firework-effect:
+      ==: Firework
+      flicker: false
+      trail: false
+      colors:
+      - ==: Color
+        RED: 181
+        BLUE: 91
+        GREEN: 130
+      fade-colors:
+      - ==: Color
+        RED: 181
+        BLUE: 91
+        GREEN: 130
+      type: BALL
+LOOM:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: LOOM
+CARTOGRAPHY_TABLE:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: CARTOGRAPHY_TABLE
+FLETCHING_TABLE:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: FLETCHING_TABLE
+§7§lEntity Essence1:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: FIREWORK_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: FIREWORK_EFFECT
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Entity
+      Essence"}],"text":""}'
+    ItemFlags:
+    - HIDE_POTION_EFFECTS
+    firework-effect:
+      ==: Firework
+      flicker: false
+      trail: false
+      colors:
+      - ==: Color
+        RED: 97
+        BLUE: 97
+        GREEN: 97
+      fade-colors:
+      - ==: Color
+        RED: 97
+        BLUE: 97
+        GREEN: 97
+      type: BALL
+BLAST_FURNACE:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: BLAST_FURNACE
+SMITHING_TABLE:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: SMITHING_TABLE
+STONECUTTER:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: STONECUTTER
+BARREL:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: BARREL
+§6§lHorse Essence:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: FIREWORK_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: FIREWORK_EFFECT
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Horse
+      Essence"}],"text":""}'
+    ItemFlags:
+    - HIDE_POTION_EFFECTS
+    firework-effect:
+      ==: Firework
+      flicker: false
+      trail: false
+      colors:
+      - ==: Color
+        RED: 115
+        BLUE: 0
+        GREEN: 65
+      fade-colors:
+      - ==: Color
+        RED: 115
+        BLUE: 0
+        GREEN: 65
+      type: BALL
+APPLE:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: APPLE
+SADDLE:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: SADDLE
+WHEAT:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: WHEAT
+LEAD:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: LEAD
+§6§lHorse Essence1:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: FIREWORK_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: FIREWORK_EFFECT
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Horse
+      Essence"}],"text":""}'
+    ItemFlags:
+    - HIDE_POTION_EFFECTS
+    firework-effect:
+      ==: Firework
+      flicker: false
+      trail: false
+      colors:
+      - ==: Color
+        RED: 115
+        BLUE: 0
+        GREEN: 65
+      fade-colors:
+      - ==: Color
+        RED: 115
+        BLUE: 0
+        GREEN: 65
+      type: BALL
+§e§lBee Essence:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: FIREWORK_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: FIREWORK_EFFECT
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Bee
+      Essence"}],"text":""}'
+    ItemFlags:
+    - HIDE_POTION_EFFECTS
+    firework-effect:
+      ==: Firework
+      flicker: false
+      trail: false
+      colors:
+      - ==: Color
+        RED: 247
+        BLUE: 0
+        GREEN: 255
+      fade-colors:
+      - ==: Color
+        RED: 247
+        BLUE: 0
+        GREEN: 255
+      type: BALL
+DANDELION:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: DANDELION
+§7§lEntity Essence2:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: FIREWORK_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: FIREWORK_EFFECT
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Entity
+      Essence"}],"text":""}'
+    ItemFlags:
+    - HIDE_POTION_EFFECTS
+    firework-effect:
+      ==: Firework
+      flicker: false
+      trail: false
+      colors:
+      - ==: Color
+        RED: 97
+        BLUE: 97
+        GREEN: 97
+      fade-colors:
+      - ==: Color
+        RED: 97
+        BLUE: 97
+        GREEN: 97
+      type: BALL
+POPPY:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: POPPY
+§f§lCat Essence:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: FIREWORK_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: FIREWORK_EFFECT
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Cat
+      Essence"}],"text":""}'
+    ItemFlags:
+    - HIDE_POTION_EFFECTS
+    firework-effect:
+      ==: Firework
+      flicker: false
+      trail: false
+      colors:
+      - ==: Color
+        RED: 194
+        BLUE: 194
+        GREEN: 194
+      fade-colors:
+      - ==: Color
+        RED: 194
+        BLUE: 194
+        GREEN: 194
+      type: BALL
+COD:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: COD
+NAME_TAG:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: NAME_TAG
+COOKED_COD:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: COOKED_COD
+COOKED_SALMON:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: COOKED_SALMON
+§4§lCave Spider Essence:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: FIREWORK_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: FIREWORK_EFFECT
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"Cave
+      Spider Essence"}],"text":""}'
+    ItemFlags:
+    - HIDE_POTION_EFFECTS
+    firework-effect:
+      ==: Firework
+      flicker: false
+      trail: false
+      colors:
+      - ==: Color
+        RED: 28
+        BLUE: 105
+        GREEN: 71
+      fade-colors:
+      - ==: Color
+        RED: 28
+        BLUE: 105
+        GREEN: 71
+      type: BALL
+POTION1:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: POTION
+  meta:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:poison
+§f§lChicken Essence:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: FIREWORK_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: FIREWORK_EFFECT
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Chicken
+      Essence"}],"text":""}'
+    ItemFlags:
+    - HIDE_POTION_EFFECTS
+    firework-effect:
+      ==: Firework
+      flicker: false
+      trail: false
+      colors:
+      - ==: Color
+        RED: 255
+        BLUE: 255
+        GREEN: 255
+      fade-colors:
+      - ==: Color
+        RED: 255
+        BLUE: 255
+        GREEN: 255
+      type: BALL
+WHEAT_SEEDS:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: WHEAT_SEEDS
+EGG:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: EGG
+CHICKEN:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: CHICKEN
+COOKED_CHICKEN:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: COOKED_CHICKEN
+§8§lCow Essence:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: FIREWORK_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: FIREWORK_EFFECT
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Cow
+      Essence"}],"text":""}'
+    ItemFlags:
+    - HIDE_POTION_EFFECTS
+    firework-effect:
+      ==: Firework
+      flicker: false
+      trail: false
+      colors:
+      - ==: Color
+        RED: 94
+        BLUE: 1
+        GREEN: 41
+      fade-colors:
+      - ==: Color
+        RED: 94
+        BLUE: 1
+        GREEN: 41
+      type: BALL
+MILK_BUCKET:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: MILK_BUCKET
+BEEF:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: BEEF
+COOKED_BEEF:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: COOKED_BEEF
+§a§lCreeper Essence:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: FIREWORK_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: FIREWORK_EFFECT
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Creeper
+      Essence"}],"text":""}'
+    ItemFlags:
+    - HIDE_POTION_EFFECTS
+    firework-effect:
+      ==: Firework
+      flicker: false
+      trail: false
+      colors:
+      - ==: Color
+        RED: 0
+        BLUE: 0
+        GREEN: 255
+      fade-colors:
+      - ==: Color
+        RED: 0
+        BLUE: 0
+        GREEN: 255
+      type: BALL
+TNT:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: TNT
+§5§lEnderman Essence:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: FIREWORK_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: FIREWORK_EFFECT
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Enderman
+      Essence"}],"text":""}'
+    ItemFlags:
+    - HIDE_POTION_EFFECTS
+    firework-effect:
+      ==: Firework
+      flicker: false
+      trail: false
+      colors:
+      - ==: Color
+        RED: 96
+        BLUE: 107
+        GREEN: 0
+      fade-colors:
+      - ==: Color
+        RED: 96
+        BLUE: 107
+        GREEN: 0
+      type: BALL
+ENDER_EYE:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: ENDER_EYE
+END_STONE:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: END_STONE
+§f§lGhast Essence:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: FIREWORK_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: FIREWORK_EFFECT
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Ghast
+      Essence"}],"text":""}'
+    ItemFlags:
+    - HIDE_POTION_EFFECTS
+    firework-effect:
+      ==: Firework
+      flicker: false
+      trail: false
+      colors:
+      - ==: Color
+        RED: 224
+        BLUE: 224
+        GREEN: 224
+      fade-colors:
+      - ==: Color
+        RED: 224
+        BLUE: 224
+        GREEN: 224
+      type: BALL
+FIRE_CHARGE:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: FIRE_CHARGE
+NETHERRACK:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: NETHERRACK
+§3§lGuardian Essence:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: FIREWORK_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: FIREWORK_EFFECT
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"Guardian
+      Essence"}],"text":""}'
+    ItemFlags:
+    - HIDE_POTION_EFFECTS
+    firework-effect:
+      ==: Firework
+      flicker: false
+      trail: false
+      colors:
+      - ==: Color
+        RED: 0
+        BLUE: 209
+        GREEN: 167
+      fade-colors:
+      - ==: Color
+        RED: 0
+        BLUE: 209
+        GREEN: 167
+      type: BALL
+PRISMARINE_SHARD:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: PRISMARINE_SHARD
+PRISMARINE_CRYSTALS:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: PRISMARINE_CRYSTALS
+PRISMARINE_BRICKS:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: PRISMARINE_BRICKS
+§6§lMagma Cube Essence:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: FIREWORK_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: FIREWORK_EFFECT
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Magma
+      Cube Essence"}],"text":""}'
+    ItemFlags:
+    - HIDE_POTION_EFFECTS
+    firework-effect:
+      ==: Firework
+      flicker: false
+      trail: false
+      colors:
+      - ==: Color
+        RED: 255
+        BLUE: 0
+        GREEN: 111
+      fade-colors:
+      - ==: Color
+        RED: 255
+        BLUE: 0
+        GREEN: 111
+      type: BALL
+MAGMA_CREAM:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: MAGMA_CREAM
+LAVA_BUCKET:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: LAVA_BUCKET
+MAGMA_BLOCK:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: MAGMA_BLOCK
+§c§lMooshroom Essence:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: FIREWORK_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: FIREWORK_EFFECT
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Mooshroom
+      Essence"}],"text":""}'
+    ItemFlags:
+    - HIDE_POTION_EFFECTS
+    firework-effect:
+      ==: Firework
+      flicker: false
+      trail: false
+      colors:
+      - ==: Color
+        RED: 255
+        BLUE: 46
+        GREEN: 46
+      fade-colors:
+      - ==: Color
+        RED: 255
+        BLUE: 46
+        GREEN: 46
+      type: BALL
+BROWN_MUSHROOM:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: BROWN_MUSHROOM
+RED_MUSHROOM:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: RED_MUSHROOM
+MUSHROOM_STEW:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: MUSHROOM_STEW
+§d§lPig Essence:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: FIREWORK_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: FIREWORK_EFFECT
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Pig
+      Essence"}],"text":""}'
+    ItemFlags:
+    - HIDE_POTION_EFFECTS
+    firework-effect:
+      ==: Firework
+      flicker: false
+      trail: false
+      colors:
+      - ==: Color
+        RED: 247
+        BLUE: 255
+        GREEN: 130
+      fade-colors:
+      - ==: Color
+        RED: 247
+        BLUE: 255
+        GREEN: 130
+      type: BALL
+CARROT:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: CARROT
+CARROT_ON_A_STICK:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: CARROT_ON_A_STICK
+COOKED_PORKCHOP:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: COOKED_PORKCHOP
+§4§lPillager Essence:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: FIREWORK_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: FIREWORK_EFFECT
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"Pillager
+      Essence"}],"text":""}'
+    ItemFlags:
+    - HIDE_POTION_EFFECTS
+    firework-effect:
+      ==: Firework
+      flicker: false
+      trail: false
+      colors:
+      - ==: Color
+        RED: 128
+        BLUE: 24
+        GREEN: 24
+      fade-colors:
+      - ==: Color
+        RED: 128
+        BLUE: 24
+        GREEN: 24
+      type: BALL
+ARROW:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: ARROW
+§6Ominous Banner:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: WHITE_BANNER
+  meta:
+    ==: ItemMeta
+    meta-type: BANNER
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Ominous
+      Banner"}],"text":""}'
+    patterns:
+    - ==: Pattern
+      color: CYAN
+      pattern: mr
+    - ==: Pattern
+      color: LIGHT_GRAY
+      pattern: bs
+    - ==: Pattern
+      color: GRAY
+      pattern: cs
+    - ==: Pattern
+      color: LIGHT_GRAY
+      pattern: bo
+    - ==: Pattern
+      color: BLACK
+      pattern: ms
+    - ==: Pattern
+      color: LIGHT_GRAY
+      pattern: hh
+    - ==: Pattern
+      color: LIGHT_GRAY
+      pattern: mc
+    - ==: Pattern
+      color: BLACK
+      pattern: bo
+CROSSBOW:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: CROSSBOW
+§f§lSheep Essence:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: FIREWORK_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: FIREWORK_EFFECT
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Sheep
+      Essence"}],"text":""}'
+    ItemFlags:
+    - HIDE_POTION_EFFECTS
+    firework-effect:
+      ==: Firework
+      flicker: false
+      trail: false
+      colors:
+      - ==: Color
+        RED: 255
+        BLUE: 255
+        GREEN: 255
+      fade-colors:
+      - ==: Color
+        RED: 255
+        BLUE: 255
+        GREEN: 255
+      type: BALL
+SHEARS:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: SHEARS
+MUTTON:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: MUTTON
+COOKED_MUTTON:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: COOKED_MUTTON
+§5§lShulker Essence:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: FIREWORK_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: FIREWORK_EFFECT
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Shulker
+      Essence"}],"text":""}'
+    ItemFlags:
+    - HIDE_POTION_EFFECTS
+    firework-effect:
+      ==: Firework
+      flicker: false
+      trail: false
+      colors:
+      - ==: Color
+        RED: 128
+        BLUE: 181
+        GREEN: 49
+      fade-colors:
+      - ==: Color
+        RED: 128
+        BLUE: 181
+        GREEN: 49
+      type: BALL
+CHORUS_FRUIT:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: CHORUS_FRUIT
+SHULKER_SHELL:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: SHULKER_SHELL
+PURPUR_BLOCK:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: PURPUR_BLOCK
+§7§lSkeleton Essence:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: FIREWORK_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: FIREWORK_EFFECT
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Skeleton
+      Essence"}],"text":""}'
+    ItemFlags:
+    - HIDE_POTION_EFFECTS
+    firework-effect:
+      ==: Firework
+      flicker: false
+      trail: false
+      colors:
+      - ==: Color
+        RED: 181
+        BLUE: 179
+        GREEN: 179
+      fade-colors:
+      - ==: Color
+        RED: 181
+        BLUE: 179
+        GREEN: 179
+      type: BALL
+BOW:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: BOW
+§a§lSlime Essence:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: FIREWORK_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: FIREWORK_EFFECT
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Slime
+      Essence"}],"text":""}'
+    ItemFlags:
+    - HIDE_POTION_EFFECTS
+    firework-effect:
+      ==: Firework
+      flicker: false
+      trail: false
+      colors:
+      - ==: Color
+        RED: 9
+        BLUE: 0
+        GREEN: 255
+      fade-colors:
+      - ==: Color
+        RED: 9
+        BLUE: 0
+        GREEN: 255
+      type: BALL
+SLIME_BLOCK:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: SLIME_BLOCK
+§8§lSpider Essence:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: FIREWORK_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: FIREWORK_EFFECT
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Spider
+      Essence"}],"text":""}'
+    ItemFlags:
+    - HIDE_POTION_EFFECTS
+    firework-effect:
+      ==: Firework
+      flicker: false
+      trail: false
+      colors:
+      - ==: Color
+        RED: 0
+        BLUE: 0
+        GREEN: 0
+      fade-colors:
+      - ==: Color
+        RED: 0
+        BLUE: 0
+        GREEN: 0
+      type: BALL
+§2§lTurtle Essence:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: FIREWORK_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: FIREWORK_EFFECT
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Turtle
+      Essence"}],"text":""}'
+    ItemFlags:
+    - HIDE_POTION_EFFECTS
+    firework-effect:
+      ==: Firework
+      flicker: false
+      trail: false
+      colors:
+      - ==: Color
+        RED: 5
+        BLUE: 0
+        GREEN: 153
+      fade-colors:
+      - ==: Color
+        RED: 5
+        BLUE: 0
+        GREEN: 153
+      type: BALL
+WATER_BUCKET:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: WATER_BUCKET
+KELP:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: KELP
+§2§lZombie Essence:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: FIREWORK_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: FIREWORK_EFFECT
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Zombie
+      Essence"}],"text":""}'
+    ItemFlags:
+    - HIDE_POTION_EFFECTS
+    firework-effect:
+      ==: Firework
+      flicker: false
+      trail: false
+      colors:
+      - ==: Color
+        RED: 3
+        BLUE: 0
+        GREEN: 84
+      fade-colors:
+      - ==: Color
+        RED: 3
+        BLUE: 0
+        GREEN: 84
+      type: BALL
+LEATHER_HELMET:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: LEATHER_HELMET
+LEATHER_CHESTPLATE:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: LEATHER_CHESTPLATE
+LEATHER_LEGGINGS:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: LEATHER_LEGGINGS
+LEATHER_BOOTS:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: LEATHER_BOOTS
+§5§lWitch Essence:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: FIREWORK_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: FIREWORK_EFFECT
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Witch
+      Essence"}],"text":""}'
+    ItemFlags:
+    - HIDE_POTION_EFFECTS
+    firework-effect:
+      ==: Firework
+      flicker: false
+      trail: false
+      colors:
+      - ==: Color
+        RED: 60
+        BLUE: 99
+        GREEN: 0
+      fade-colors:
+      - ==: Color
+        RED: 60
+        BLUE: 99
+        GREEN: 0
+      type: BALL
+REDSTONE:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: REDSTONE
+BREWING_STAND:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: BREWING_STAND
+GLOWSTONE_DUST:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: GLOWSTONE_DUST
+POTION2:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: POTION
+  meta:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:mundane
+POTION3:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: POTION
+  meta:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:thick
+POTION4:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: POTION
+  meta:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:awkward
+§8§lWither Skeleton Essence:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: FIREWORK_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: FIREWORK_EFFECT
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Wither
+      Skeleton Essence"}],"text":""}'
+    ItemFlags:
+    - HIDE_POTION_EFFECTS
+    firework-effect:
+      ==: Firework
+      flicker: false
+      trail: false
+      colors:
+      - ==: Color
+        RED: 0
+        BLUE: 0
+        GREEN: 0
+      fade-colors:
+      - ==: Color
+        RED: 0
+        BLUE: 0
+        GREEN: 0
+      type: BALL
+SOUL_SAND:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: SOUL_SAND
+WITHER_SKELETON_SKULL:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: WITHER_SKELETON_SKULL
+STONE_SWORD:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: STONE_SWORD
+COAL:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: COAL
+§7§lWolf Essence:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: FIREWORK_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: FIREWORK_EFFECT
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Wolf
+      Essence"}],"text":""}'
+    ItemFlags:
+    - HIDE_POTION_EFFECTS
+    firework-effect:
+      ==: Firework
+      flicker: false
+      trail: false
+      colors:
+      - ==: Color
+        RED: 173
+        BLUE: 173
+        GREEN: 173
+      fade-colors:
+      - ==: Color
+        RED: 173
+        BLUE: 173
+        GREEN: 173
+      type: BALL
+§6§lBlaze Essence:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: FIREWORK_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: FIREWORK_EFFECT
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Blaze
+      Essence"}],"text":""}'
+    ItemFlags:
+    - HIDE_POTION_EFFECTS
+    firework-effect:
+      ==: Firework
+      flicker: false
+      trail: false
+      colors:
+      - ==: Color
+        RED: 255
+        BLUE: 0
+        GREEN: 153
+      fade-colors:
+      - ==: Color
+        RED: 255
+        BLUE: 0
+        GREEN: 153
+      type: BALL
+§7§lSkeleton Horse Essence:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: FIREWORK_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: FIREWORK_EFFECT
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Skeleton
+      Horse Essence"}],"text":""}'
+    ItemFlags:
+    - HIDE_POTION_EFFECTS
+    firework-effect:
+      ==: Firework
+      flicker: false
+      trail: false
+      colors:
+      - ==: Color
+        RED: 181
+        BLUE: 179
+        GREEN: 179
+      fade-colors:
+      - ==: Color
+        RED: 181
+        BLUE: 179
+        GREEN: 179
+      type: BALL
+§2§lZombie Horse Essence:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: FIREWORK_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: FIREWORK_EFFECT
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Zombie
+      Horse Essence"}],"text":""}'
+    ItemFlags:
+    - HIDE_POTION_EFFECTS
+    firework-effect:
+      ==: Firework
+      flicker: false
+      trail: false
+      colors:
+      - ==: Color
+        RED: 3
+        BLUE: 0
+        GREEN: 84
+      fade-colors:
+      - ==: Color
+        RED: 3
+        BLUE: 0
+        GREEN: 84
+      type: BALL
+HONEYCOMB:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: HONEYCOMB
+§7§lPanda Essence:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: FIREWORK_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: FIREWORK_EFFECT
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Panda
+      Essence"}],"text":""}'
+    ItemFlags:
+    - HIDE_ATTRIBUTES
+    - HIDE_POTION_EFFECTS
+    - HIDE_DYE
+    firework-effect:
+      ==: Firework
+      flicker: false
+      trail: false
+      colors:
+      - ==: Color
+        RED: 0
+        BLUE: 0
+        GREEN: 0
+      fade-colors:
+      - ==: Color
+        RED: 0
+        BLUE: 0
+        GREEN: 0
+      type: BALL
+BAMBOO:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: BAMBOO
+JUNGLE_SAPLING:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: JUNGLE_SAPLING
+§7§lEntity Essence3:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: FIREWORK_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: FIREWORK_EFFECT
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Entity
+      Essence"}],"text":""}'
+    ItemFlags:
+    - HIDE_POTION_EFFECTS
+    firework-effect:
+      ==: Firework
+      flicker: false
+      trail: false
+      colors:
+      - ==: Color
+        RED: 97
+        BLUE: 97
+        GREEN: 97
+      fade-colors:
+      - ==: Color
+        RED: 97
+        BLUE: 97
+        GREEN: 97
+      type: BALL
+JUNGLE_LOG:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: JUNGLE_LOG
+§6§lEnhanced Nehterite:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: NETHERITE_BLOCK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Enhanced
+      Nehterite"}],"text":""}'
+    enchants:
+      VANISHING_CURSE: 1
+    ItemFlags:
+    - HIDE_ENCHANTS
+NETHERITE_BLOCK:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: NETHERITE_BLOCK
+NETHER_STAR:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: NETHER_STAR
+§6§lEnhanced Nehterite1:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: NETHERITE_BLOCK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Enhanced
+      Nehterite"}],"text":""}'
+    enchants:
+      VANISHING_CURSE: 1
+    ItemFlags:
+    - HIDE_ENCHANTS
+24k Gold Block:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: GOLD_BLOCK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"text":"24k Gold Block"}],"text":""}'
+    enchants:
+      PROTECTION_EXPLOSIONS: 1
+    ItemFlags:
+    - HIDE_ENCHANTS
+§e§l24K Gold Block:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: GOLD_BLOCK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"24K
+      Gold Block"}],"text":""}'
+    enchants:
+      DURABILITY: 1
+    ItemFlags:
+    - HIDE_ENCHANTS
+§2§lBottled Knowledge1:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: EXPERIENCE_BOTTLE
+  amount: 9
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Bottled
+      Knowledge"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+EXPERIENCE_BOTTLE2:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: EXPERIENCE_BOTTLE
+  amount: 9
+§c§lProtector Nivel I:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: COMPASS
+  meta:
+    ==: ItemMeta
+    meta-type: COMPASS
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Protector
+      Nivel I"}],"text":""}'
+    enchants:
+      DURABILITY: 1
+    ItemFlags:
+    - HIDE_ENCHANTS
+    LodestoneTracked: false
+MAP:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: MAP
+COMPASS:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: COMPASS
+§6§lProtector Nivel II:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: COMPASS
+  meta:
+    ==: ItemMeta
+    meta-type: COMPASS
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Protector
+      Nivel II"}],"text":""}'
+    enchants:
+      DURABILITY: 1
+    ItemFlags:
+    - HIDE_ENCHANTS
+    LodestoneTracked: false
+IRON_INGOT:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: IRON_INGOT
+§e§lProtector Nivel III:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: COMPASS
+  meta:
+    ==: ItemMeta
+    meta-type: COMPASS
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Protector
+      Nivel III"}],"text":""}'
+    enchants:
+      DURABILITY: 1
+    ItemFlags:
+    - HIDE_ENCHANTS
+    LodestoneTracked: false
+GOLD_INGOT:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: GOLD_INGOT
+§a§lProtector Nivel IV:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: COMPASS
+  meta:
+    ==: ItemMeta
+    meta-type: COMPASS
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Protector
+      Nivel IV"}],"text":""}'
+    enchants:
+      DURABILITY: 1
+    ItemFlags:
+    - HIDE_ENCHANTS
+    LodestoneTracked: false
+§b§lProtector Nivel V:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: COMPASS
+  meta:
+    ==: ItemMeta
+    meta-type: COMPASS
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Protector
+      Nivel V"}],"text":""}'
+    enchants:
+      DURABILITY: 1
+    ItemFlags:
+    - HIDE_ENCHANTS
+    LodestoneTracked: false
+DIAMOND:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: DIAMOND
+§1§lNordic Iron:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: IRON_INGOT
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_blue","text":"Nordic
+      Iron"}],"text":""}'
+    enchants:
+      BINDING_CURSE: 1
+    ItemFlags:
+    - HIDE_ENCHANTS
+NETHERITE_INGOT:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: NETHERITE_INGOT
+§1§lYggdrasil Stick:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: STICK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_blue","text":"Yggdrasil
+      Stick"}],"text":""}'
+    enchants:
+      BINDING_CURSE: 1
+    ItemFlags:
+    - HIDE_ENCHANTS
+STICK:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: STICK
+§6§lInfernal Essence:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: BLAZE_POWDER
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Infernal
+      Essence"}],"text":""}'
+    enchants:
+      FIRE_ASPECT: 3
+      KNOCKBACK: 3
+    ItemFlags:
+    - HIDE_ENCHANTS
+§b§lOverloaded Gunpowder:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: GUNPOWDER
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Overloaded
+      Gunpowder"}],"text":""}'
+    enchants:
+      KNOCKBACK: 3
+    ItemFlags:
+    - HIDE_ENCHANTS
+§e§lBlaze King Rod:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: BLAZE_ROD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Blaze
+      King Rod"}],"text":""}'
+    enchants:
+      FIRE_ASPECT: 3
+    ItemFlags:
+    - HIDE_ENCHANTS
+§1§lHigh Leather:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: LEATHER
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_blue","text":"High
+      Leather"}],"text":""}'
+    enchants:
+      LOOT_BONUS_BLOCKS: 1
+    ItemFlags:
+    - HIDE_ENCHANTS
+CHAIN:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: CHAIN
+§6Ominous Banner1:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: WHITE_BANNER
+  meta:
+    ==: ItemMeta
+    meta-type: BANNER
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Ominous
+      Banner"}],"text":""}'
+    ItemFlags:
+    - HIDE_POTION_EFFECTS
+    patterns:
+    - ==: Pattern
+      color: CYAN
+      pattern: mr
+    - ==: Pattern
+      color: LIGHT_GRAY
+      pattern: bs
+    - ==: Pattern
+      color: GRAY
+      pattern: cs
+    - ==: Pattern
+      color: LIGHT_GRAY
+      pattern: bo
+    - ==: Pattern
+      color: BLACK
+      pattern: ms
+    - ==: Pattern
+      color: LIGHT_GRAY
+      pattern: hh
+    - ==: Pattern
+      color: LIGHT_GRAY
+      pattern: mc
+    - ==: Pattern
+      color: BLACK
+      pattern: bo
+§x§F§B§0§0§F§F§lFirework XL Charge:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: FIREWORK_ROCKET
+  meta:
+    ==: ItemMeta
+    meta-type: FIREWORK
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FB00FF","text":"Firework
+      XL Charge"}],"text":""}'
+    enchants:
+      DURABILITY: 1
+    ItemFlags:
+    - HIDE_ENCHANTS
+    power: 10
+§x§0§0§F§F§9§7§lAncient Phantom Membrane:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: PHANTOM_MEMBRANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#00FF97","text":"Ancient
+      Phantom Membrane"}],"text":""}'
+    enchants:
+      DURABILITY: 1
+    ItemFlags:
+    - HIDE_ENCHANTS
+FIREWORK_ROCKET:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: FIREWORK_ROCKET
+  meta:
+    ==: ItemMeta
+    meta-type: FIREWORK
+    power: 1
+§e§lUndead Core:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: PLAYER_HEAD
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Undead
+      Core"}],"text":""}'
+    enchants:
+      DURABILITY: 1
+    ItemFlags:
+    - HIDE_ENCHANTS
+    skull-owner:
+      ==: PlayerProfile
+      uniqueId: df233cdb-06a0-4e00-aded-23b67fc6cdaa
+      properties:
+      - name: textures
+        value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2UyZmJhZWYzMzFlOTA1ZDRiMmM1ZTY5MzVkZWY5NGM4ZTRjMzJlY2EwMzE3ZDE0M2E0NDExOTNhZThmODI0ZSJ9fX0=
+SKELETON_SKULL:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: SKELETON_SKULL
+ZOMBIE_HEAD:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: ZOMBIE_HEAD
+DRAGON_BREATH:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: DRAGON_BREATH
+§e§lBurden String:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: STRING
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Burden
+      String"}],"text":""}'
+    enchants:
+      DURABILITY: 1
+    ItemFlags:
+    - HIDE_ENCHANTS
+§x§F§B§0§0§F§F§lFirework XL Charge1:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: FIREWORK_ROCKET
+  amount: 10
+  meta:
+    ==: ItemMeta
+    meta-type: FIREWORK
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FB00FF","text":"Firework
+      XL Charge"}],"text":""}'
+    enchants:
+      DURABILITY: 1
+    ItemFlags:
+    - HIDE_ENCHANTS
+    power: 10
+§x§6§7§0§0§0§0§lConcentrated Cursed Essence:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: NETHERITE_INGOT
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#670000","text":"Concentrated
+      Cursed Essence"}],"text":""}'
+    enchants:
+      DURABILITY: 1
+    ItemFlags:
+    - HIDE_ENCHANTS
+WITHER_ROSE:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: WITHER_ROSE
+CRYING_OBSIDIAN:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: CRYING_OBSIDIAN
+§8§lSharp Stone:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: COBBLESTONE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Sharp
+      Stone"}],"text":""}'
+    enchants:
+      DURABILITY: 1
+    ItemFlags:
+    - HIDE_ENCHANTS
+FLINT:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: FLINT
+COBBLESTONE:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: COBBLESTONE
+§x§9§D§5§7§2§4§lKnowledge Wood:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: OAK_PLANKS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#9D5724","text":"Knowledge
+      Wood"}],"text":""}'
+    enchants:
+      DURABILITY: 1
+    ItemFlags:
+    - HIDE_ENCHANTS
+OAK_PLANKS:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: OAK_PLANKS
+§x§E§0§E§0§E§0§lAblaze Iron:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: IRON_BLOCK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E0E0E0","text":"Ablaze
+      Iron"}],"text":""}'
+    enchants:
+      DURABILITY: 1
+    ItemFlags:
+    - HIDE_ENCHANTS
+IRON_BLOCK:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: IRON_BLOCK
+§b§lTemplated Diamond:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: DIAMOND_BLOCK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Templated
+      Diamond"}],"text":""}'
+    enchants:
+      DURABILITY: 1
+    ItemFlags:
+    - HIDE_ENCHANTS
+DIAMOND_BLOCK:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: DIAMOND_BLOCK
+§x§4§A§0§0§8§C§lNetherite forged by the Shögun:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: NETHERITE_BLOCK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#4A008C","text":"Netherite
+      forged by the Shögun"}],"text":""}'
+    enchants:
+      DURABILITY: 1
+    ItemFlags:
+    - HIDE_ENCHANTS
+§x§C§7§3§F§0§0§lOni Essence:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: PLAYER_HEAD
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#C73F00","text":"Oni
+      Essence"}],"text":""}'
+    skull-owner:
+      ==: PlayerProfile
+      uniqueId: e2429501-4d59-4c53-8fb4-f1b4bfe48308
+      properties:
+      - name: textures
+        value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDk2YmM4ZWJkNGUxM2Y0OTZkOGQ3NGM1NjVkZDU2ZTk5YTRhZjJlMmVhN2EyN2E5NmMxYWJkMjg0MTg0YiJ9fX0=
+§fPebre:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: BEETROOT_SOUP
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Pebre"}],"text":""}'
+    custom-model-data: 1
+§fCebolla:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: POTATO
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Cebolla"}],"text":""}'
+    custom-model-data: 4
+§fTomate:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: POTATO
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Tomate"}],"text":""}'
+    custom-model-data: 1
+§fCilantro:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: POTATO
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Cilantro"}],"text":""}'
+    custom-model-data: 2
+BOWL:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: BOWL
+§x§F§F§8§0§0§0§lAnt§x§F§3§F§F§0§0§licu§x§7§B§3§8§0§0§lcho:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: COOKED_BEEF
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF8000","text":"Ant"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#F3FF00","text":"icu"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#7B3800","text":"cho"}],"text":""}'
+    custom-model-data: 1
+§fPimentones:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: POTATO
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Pimentones"}],"text":""}'
+    custom-model-data: 3
+§x§C§6§4§B§0§0§lChoripan:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: GOLDEN_CARROT
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#C64B00","text":"Choripan"}],"text":""}'
+    custom-model-data: 2
+§fLonganiza:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: CARROT
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Longaniza"}],"text":""}'
+    custom-model-data: 1
+BREAD:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: BREAD
+§x§C§6§4§B§0§0§lChoripan con §x§F§F§0§0§0§0§lP§2§le§f§lb§x§F§F§0§0§0§0§lr§2§le:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: GOLDEN_CARROT
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#C64B00","text":"Choripan
+      con "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF0000","text":"P"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"e"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"b"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF0000","text":"r"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"e"}],"text":""}'
+    custom-model-data: 3
+§x§F§F§C§1§0§0§lSopaipilla con §x§F§F§0§0§0§0§lP§2§le§f§lb§x§F§F§0§0§0§0§lr§2§le:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: COOKED_BEEF
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFC100","text":"Sopaipilla
+      con "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF0000","text":"P"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"e"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"b"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF0000","text":"r"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"e"}],"text":""}'
+    custom-model-data: 3
+§x§F§F§C§1§0§0§lSopaipilla:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: COOKED_BEEF
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFC100","text":"Sopaipilla"}],"text":""}'
+    custom-model-data: 2
+§6§lMote con Huesillo:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: POTION
+  meta:
+    ==: ItemMeta
+    meta-type: POTION
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Mote
+      con Huesillo"}],"text":""}'
+    custom-model-data: 9
+    custom-color:
+      ==: Color
+      RED: 255
+      BLUE: 255
+      GREEN: 255
+    custom-effects:
+    - ==: PotionEffect
+      effect: 23
+      duration: 100
+      amplifier: 2
+      ambient: true
+      has-particles: true
+      has-icon: true
+    - ==: PotionEffect
+      effect: 26
+      duration: 1200
+      amplifier: 9
+      ambient: true
+      has-particles: true
+      has-icon: true
+§fMote:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: DRIED_KELP
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Mote"}],"text":""}'
+    custom-model-data: 1
+§fHuesillo:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: DRIED_KELP
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Huesillo"}],"text":""}'
+    custom-model-data: 2
+GLASS_BOTTLE:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: GLASS_BOTTLE
+§a§lMelón con Vino:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: POTION
+  meta:
+    ==: ItemMeta
+    meta-type: POTION
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Melón
+      con Vino"}],"text":""}'
+    custom-model-data: 8
+    custom-color:
+      ==: Color
+      RED: 255
+      BLUE: 255
+      GREEN: 255
+    custom-effects:
+    - ==: PotionEffect
+      effect: 9
+      duration: 200
+      amplifier: 1
+      ambient: true
+      has-particles: true
+      has-icon: true
+    - ==: PotionEffect
+      effect: 10
+      duration: 1200
+      amplifier: 1
+      ambient: true
+      has-particles: true
+      has-icon: true
+    - ==: PotionEffect
+      effect: 17
+      duration: 700
+      amplifier: 0
+      ambient: true
+      has-particles: true
+      has-icon: true
+    - ==: PotionEffect
+      effect: 26
+      duration: 700
+      amplifier: 6
+      ambient: true
+      has-particles: true
+      has-icon: true
+§x§F§F§F§B§7§6§lVino Blanco §x§0§4§5§3§0§0§lSanta Helena:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: POTION
+  meta:
+    ==: ItemMeta
+    meta-type: POTION
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFFB76","text":"Vino
+      Blanco "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#045300","text":"Santa
+      Helena"}],"text":""}'
+    custom-model-data: 7
+    custom-color:
+      ==: Color
+      RED: 255
+      BLUE: 255
+      GREEN: 255
+    custom-effects:
+    - ==: PotionEffect
+      effect: 9
+      duration: 600
+      amplifier: 5
+      ambient: true
+      has-particles: true
+      has-icon: true
+    - ==: PotionEffect
+      effect: 18
+      duration: 700
+      amplifier: 1
+      ambient: true
+      has-particles: true
+      has-icon: true
+    - ==: PotionEffect
+      effect: 1
+      duration: 700
+      amplifier: 2
+      ambient: true
+      has-particles: true
+      has-icon: true
+§fMelón:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: COOKED_BEEF
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Melón"}],"text":""}'
+    custom-model-data: 4
+§x§F§F§0§0§0§0§lTer§x§F§F§F§0§0§0§lrem§f§loto:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: POTION
+  meta:
+    ==: ItemMeta
+    meta-type: POTION
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF0000","text":"Ter"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFF000","text":"rem"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"oto"}],"text":""}'
+    custom-model-data: 3
+    custom-color:
+      ==: Color
+      RED: 255
+      BLUE: 255
+      GREEN: 255
+    custom-effects:
+    - ==: PotionEffect
+      effect: 9
+      duration: 400
+      amplifier: 2
+      ambient: true
+      has-particles: true
+      has-icon: true
+    - ==: PotionEffect
+      effect: 22
+      duration: 6000
+      amplifier: 1
+      ambient: true
+      has-particles: true
+      has-icon: true
+    - ==: PotionEffect
+      effect: 5
+      duration: 6000
+      amplifier: 0
+      ambient: true
+      has-particles: true
+      has-icon: true
+    - ==: PotionEffect
+      effect: 3
+      duration: 6000
+      amplifier: 4
+      ambient: true
+      has-particles: true
+      has-icon: true
+    - ==: PotionEffect
+      effect: 2
+      duration: 6000
+      amplifier: 1
+      ambient: true
+      has-particles: true
+      has-icon: true
+    - ==: PotionEffect
+      effect: 26
+      duration: 3000
+      amplifier: 4
+      ambient: true
+      has-particles: true
+      has-icon: true
+§fHelado de Piña:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: COOKIE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Helado
+      de Piña"}],"text":""}'
+    custom-model-data: 1
+§x§F§F§F§7§0§0§lPipeño:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: POTION
+  meta:
+    ==: ItemMeta
+    meta-type: POTION
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFF700","text":"Pipeño"}],"text":""}'
+    custom-model-data: 1
+    ItemFlags:
+    - HIDE_ATTRIBUTES
+    - HIDE_DYE
+    custom-color:
+      ==: Color
+      RED: 255
+      BLUE: 255
+      GREEN: 255
+    custom-effects:
+    - ==: PotionEffect
+      effect: 9
+      duration: 300
+      amplifier: 3
+      ambient: true
+      has-particles: true
+      has-icon: true
+§x§F§F§0§0§0§0§lGranadina:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: POTION
+  meta:
+    ==: ItemMeta
+    meta-type: POTION
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF0000","text":"Granadina"}],"text":""}'
+    custom-model-data: 2
+    custom-color:
+      ==: Color
+      RED: 255
+      BLUE: 255
+      GREEN: 255
+    custom-effects:
+    - ==: PotionEffect
+      effect: 17
+      duration: 200
+      amplifier: 2
+      ambient: true
+      has-particles: true
+      has-icon: true
+HONEY_BLOCK:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: HONEY_BLOCK
+BUNDLE:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: BUNDLE
+RABBIT_HIDE:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: RABBIT_HIDE
+GOLD_NUGGET:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: GOLD_NUGGET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    custom-model-data: 1
+§fAnticucho:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: COOKED_PORKCHOP
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Anticucho"}],"text":""}'
+    custom-model-data: 4
+§fPimentón:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: APPLE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Pimentón"}],"text":""}'
+    custom-model-data: 4
+§fCebolla1:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: APPLE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Cebolla"}],"text":""}'
+    custom-model-data: 1
+§fPebre1:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: MUSHROOM_STEW
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Pebre"}],"text":""}'
+    custom-model-data: 1
+§fTomate1:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: APPLE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Tomate"}],"text":""}'
+    custom-model-data: 3
+§fCilantro1:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: APPLE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Cilantro"}],"text":""}'
+    custom-model-data: 2
+§fChupalla:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: WHEAT
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Chupalla"}],"text":""}'
+    custom-model-data: 2
+§fSopaipilla con Pebre:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: BREAD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Sopaipilla
+      con Pebre"}],"text":""}'
+    custom-model-data: 3
+§fSopaipilla:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: BREAD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Sopaipilla"}],"text":""}'
+    custom-model-data: 2
+§fChoripán:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: COOKED_PORKCHOP
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Choripán"}],"text":""}'
+    custom-model-data: 2
+§fLonganiza1:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: BREAD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Longaniza"}],"text":""}'
+    custom-model-data: 1
+§fChoripán con Pebre:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: COOKED_PORKCHOP
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Choripán
+      con Pebre"}],"text":""}'
+    custom-model-data: 3
+§fSombrero Huaso:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: WHEAT
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Sombrero
+      Huaso"}],"text":""}'
+    custom-model-data: 1
+BLACK_WOOL:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: BLACK_WOOL
+BLACK_CARPET:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: BLACK_CARPET
+§fCostillar Asado:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: BREAD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Costillar
+      Asado"}],"text":""}'
+    custom-model-data: 6
+§fCostillar Crudo:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: BREAD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Costillar
+      Crudo"}],"text":""}'
+    custom-model-data: 5
+§x§F§F§0§0§F§F§lMezcla §0§l§kmortal:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: POTION
+  meta:
+    ==: ItemMeta
+    meta-type: POTION
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF00FF","text":"Mezcla
+      "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":true,"color":"black","text":"mortal"}],"text":""}'
+    custom-model-data: 10
+    ItemFlags:
+    - HIDE_ENCHANTS
+    - HIDE_ATTRIBUTES
+    - HIDE_UNBREAKABLE
+    - HIDE_DESTROYS
+    - HIDE_PLACED_ON
+    - HIDE_POTION_EFFECTS
+    - HIDE_DYE
+    potion-type: minecraft:water
+§x§A§0§0§1§1§7§lGarrafa de Vino Tinto:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: POTION
+  meta:
+    ==: ItemMeta
+    meta-type: POTION
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#A00117","text":"Garrafa
+      de Vino Tinto"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Item
+      para experimentos"}],"text":""}'
+    custom-model-data: 7
+    ItemFlags:
+    - HIDE_POTION_EFFECTS
+    potion-type: minecraft:water
+§x§F§C§F§F§5§5§lVino Blanco §x§0§A§7§3§0§0§lSanta Helena:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: POTION
+  meta:
+    ==: ItemMeta
+    meta-type: POTION
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FCFF55","text":"Vino
+      Blanco "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#0A7300","text":"Santa
+      Helena"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Item
+      para experimentos"}],"text":""}'
+    custom-model-data: 2
+    ItemFlags:
+    - HIDE_POTION_EFFECTS
+    potion-type: minecraft:water
+§x§F§F§F§F§0§0§l§oPipeño:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: POTION
+  meta:
+    ==: ItemMeta
+    meta-type: POTION
+    display-name: '{"extra":[{"bold":true,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFFF00","text":"Pipeño"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Item
+      para experimentos"}],"text":""}'
+    custom-model-data: 6
+    ItemFlags:
+    - HIDE_POTION_EFFECTS
+    potion-type: minecraft:water
+§x§D§4§1§7§1§7§lBáltica:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: POTION
+  meta:
+    ==: ItemMeta
+    meta-type: POTION
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#D41717","text":"Báltica"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Item
+      para experimentos"}],"text":""}'
+    custom-model-data: 1
+    ItemFlags:
+    - HIDE_POTION_EFFECTS
+    potion-type: minecraft:water
+§x§F§F§0§0§E§C§lAxolotl Essence:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: FIREWORK_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: FIREWORK_EFFECT
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF00EC","text":"Axolotl
+      Essence"}],"text":""}'
+    ItemFlags:
+    - HIDE_ENCHANTS
+    - HIDE_ATTRIBUTES
+    - HIDE_UNBREAKABLE
+    - HIDE_DESTROYS
+    - HIDE_PLACED_ON
+    - HIDE_POTION_EFFECTS
+    - HIDE_DYE
+    firework-effect:
+      ==: Firework
+      flicker: false
+      trail: false
+      colors:
+      - ==: Color
+        RED: 195
+        BLUE: 205
+        GREEN: 84
+      - ==: Color
+        RED: 216
+        BLUE: 152
+        GREEN: 129
+      - ==: Color
+        RED: 195
+        BLUE: 205
+        GREEN: 84
+      - ==: Color
+        RED: 216
+        BLUE: 152
+        GREEN: 129
+      - ==: Color
+        RED: 195
+        BLUE: 205
+        GREEN: 84
+      - ==: Color
+        RED: 216
+        BLUE: 152
+        GREEN: 129
+      fade-colors: []
+      type: BALL
+MOSS_CARPET:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: MOSS_CARPET
+GLOW_BERRIES:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: GLOW_BERRIES
+BIG_DRIPLEAF:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: BIG_DRIPLEAF

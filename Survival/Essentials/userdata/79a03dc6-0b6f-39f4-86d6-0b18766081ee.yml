@@ -1,0 +1,29 @@
+timestamps:
+  login: 1598544752501
+  logout: 1598545417414
+  lastteleport: 1598504389919
+lastlocation:
+  world: world
+  x: 395.6327978251101
+  y: 77.0
+  z: -446.1769825656895
+  yaw: 217.64948
+  pitch: 10.649979
+logoutlocation:
+  world: world
+  x: -4622.499767021134
+  y: 59.0
+  z: 2875.368782949786
+  yaw: -5.870162
+  pitch: -4.049996
+money: '1224781.750'
+homes:
+  home:
+    world: world
+    x: -4468.455443297695
+    y: 70.0
+    z: 2781.512499988079
+    yaw: 76.47858
+    pitch: 24.750011
+ip-address: 201.241.56.61
+last-account-name: rrrr

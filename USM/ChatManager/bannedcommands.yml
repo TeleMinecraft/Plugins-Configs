@@ -1,0 +1,12 @@
+Banned-Commands:
+  - pl
+  - plugins
+  - gmc
+  - gamemode
+  - op
+  - stop
+  - restart
+  - kill
+  - ip
+  - lag
+  - tps

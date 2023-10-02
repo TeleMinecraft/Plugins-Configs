@@ -1,0 +1,29 @@
+timestamps:
+  login: 1627586136044
+  lastteleport: 1620244929374
+  logout: 1627587107493
+lastlocation:
+  world: world
+  x: 985.5
+  y: 76.0
+  z: 2396.5
+  yaw: -142.04999
+  pitch: 18.749998
+money: '970002.0'
+logoutlocation:
+  world: world
+  x: 490.5
+  y: 86.0
+  z: -371.5
+  yaw: -88.200005
+  pitch: 12.600009
+homes:
+  home:
+    world: world
+    x: 987.1691518507678
+    y: 76.0
+    z: 2392.788130530454
+    yaw: -9.101868
+    pitch: 25.199862
+ip-address: 186.79.102.81
+last-account-name: Joundrix

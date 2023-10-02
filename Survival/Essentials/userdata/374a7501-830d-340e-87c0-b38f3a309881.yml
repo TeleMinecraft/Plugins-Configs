@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 167.250.55.164
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1679438449538
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1679438788242
+  login: 1679437561926
+money: '6593000.0'
+last-account-name: XINOEKISDE
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: -535.0002467547585
+  y: 62.0625
+  z: 2941.049946459134
+  yaw: 113.50418853759766
+  pitch: 6.4955830574035645
+homes:
+  home:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: -532.6373593668335
+    y: 62.0625
+    z: 2941.7392522466484
+    yaw: 67.30415344238281
+    pitch: 12.945571899414062
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 417.62346822356153
+  y: 77.0
+  z: -487.5696851982412
+  yaw: -73.45123291015625
+  pitch: 8.54944896697998

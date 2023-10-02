@@ -1,0 +1,1 @@
+2023-03-20 02:06:27.005: (0ms) 100% BLINK > No packet. Last other than KeepAlive: PacketPlayInPosition there is: 3200ms . Ping: 0. Warn: 0. Player version: V1_18. TPS: [20.000003221667185, 19.999995144467846, 19.999998721200082]

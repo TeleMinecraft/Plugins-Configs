@@ -1,0 +1,13 @@
+wins: 7
+losses: 0
+kills: 9
+deaths: 8
+pareffect: portal
+proeffect: portal
+glasscolor: black
+winsound: enderdragondeath
+killsound: dragongrowl
+taunt: lobby
+uuid: d08177c0-2cf4-31d4-bdf9-716890033081
+player_name: Richard363
+xp: 620

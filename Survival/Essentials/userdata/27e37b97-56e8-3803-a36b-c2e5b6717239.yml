@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 190.114.61.248
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1656204265491
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1656204876212
+  login: 1656203802194
+money: '96800.0'
+last-account-name: crix
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: -19389.158543740454
+  y: 63.0
+  z: -565.06853388785
+  yaw: -82.047119140625
+  pitch: 26.550125122070312
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: -19404.783892587908
+  y: 46.0
+  z: -447.62224707353994
+  yaw: 88.43590545654297
+  pitch: 29.399824142456055
+homes:
+  home:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: -19410.45929716415
+    y: 45.0
+    z: -448.12604023529576
+    yaw: 147.27052307128906
+    pitch: 5.6998291015625

@@ -1,0 +1,44 @@
+timestamps:
+  login: 1624373514197
+  lastteleport: 1613948755262
+  logout: 1624373756002
+lastlocation:
+  world: world
+  x: 1154.1252963929016
+  y: 61.0
+  z: 1896.699999988079
+  yaw: -87.88599
+  pitch: 12.824348
+money: '1386329.80999999999996513'
+homes:
+  home:
+    world: world
+    x: 1185.4511472017114
+    y: 64.0625
+    z: 1840.6388161139498
+    yaw: -15.786011
+    pitch: 38.183723
+  mina:
+    world: world
+    x: 1375.2324354616824
+    y: 11.0
+    z: 1956.369500936316
+    yaw: -275.36877
+    pitch: -2.5220985
+  spawner:
+    world: world
+    x: 1122.6955614442115
+    y: 27.0
+    z: 1906.9043173984653
+    yaw: -263.58704
+    pitch: 21.45044
+logoutlocation:
+  world: world
+  x: 1182.3118798007608
+  y: 61.0
+  z: 1855.824534460965
+  yaw: -119.77588
+  pitch: 28.63025
+nickname: astro
+ip-address: 190.13.190.228
+last-account-name: Astrowell

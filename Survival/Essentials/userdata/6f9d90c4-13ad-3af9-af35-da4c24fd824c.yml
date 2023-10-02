@@ -1,0 +1,87 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 190.44.182.155
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1656120713215
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1656120715764
+  login: 1656119212356
+money: '6193407.43399999999986281'
+last-account-name: Z3RV3R0
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 635.0787185484993
+  y: 80.0
+  z: 546.2416233418118
+  yaw: 154.638916015625
+  pitch: 27.45003318786621
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: -19379.5
+  y: 63.0
+  z: -539.5
+  yaw: -6.233099460601807
+  pitch: 10.200003623962402
+homes:
+  hielo:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: -5848.2613494657135
+    y: 63.0
+    z: 309.54498986858937
+    yaw: -33.70927810668945
+    pitch: 43.34934997558594
+  home:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: -19379.874453032986
+    y: 64.0
+    z: -539.4180089340153
+    yaw: 69.21703338623047
+    pitch: 20.54998207092285
+  grava:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: -21535.343163927413
+    y: 64.0
+    z: -5.338848998059037
+    yaw: -125.07296752929688
+    pitch: 14.551424026489258
+  cofres:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: -19409.804029601462
+    y: 47.0
+    z: -517.689222800574
+    yaw: 143.3172607421875
+    pitch: 27.74943733215332
+  aldeanos:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: -19424.55595535245
+    y: 63.0
+    z: -557.7879730619605
+    yaw: 35.50115966796875
+    pitch: 13.799985885620117
+  mina:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: 1697.2004514560651
+    y: 38.0
+    z: 297.58646271153714
+    yaw: 137.99171447753906
+    pitch: 2.8511128425598145

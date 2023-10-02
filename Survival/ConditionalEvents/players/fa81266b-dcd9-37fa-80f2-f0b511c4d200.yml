@@ -1,0 +1,8 @@
+name: IgnaFigurita
+events:
+  event57:
+    one_time: false
+    cooldown: 1675011971339
+  resistencia_y_skin_al_entrar:
+    one_time: false
+    cooldown: 1693450165052

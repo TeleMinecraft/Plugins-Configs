@@ -1,0 +1,216 @@
+Name: '&4&lCaja de Discos'
+Animation_Config: csgo_auto
+Preview_Config: default
+Permission_Required: false
+Attached_Citizens: ''
+Opening:
+  Cooldown: 1
+  Cost:
+    MONEY: 0.0
+    EXP: 0.0
+Key:
+  Ids: []
+Block:
+  Locations: []
+  Pushback:
+    Enabled: false
+  Hologram:
+    Enabled: false
+    Offset:
+      Y: 1.5
+    Text:
+    - '&c&lMYSTERY CRATE'
+    - '&7Buy a key at &cwww.myserver.com&c'
+  Effect:
+    Model: SIMPLE
+    Particle:
+      Name: FLAME
+      Data: ''
+Rewards:
+  List:
+    '11':
+      Name: '&e&lDisco 11'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400bmqqbeclhn4ob6egt6qtbjd5hlup39edhluc9h0400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400bmqqbeclhn4ob6egt6qtbjd5hlup39edhluc9h0400agrfeln78080
+      Ignored_For_Permissions: []
+    '1':
+      Name: '&e&lDisco 13'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400bmqqbeclhn4ob6egt6qtbjd5hlup39edhluc9j0400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400bmqqbeclhn4ob6egt6qtbjd5hlup39edhluc9j0400agrfeln78080
+      Ignored_For_Permissions: []
+    disc5:
+      Name: '&e&lDisco 5'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01crb9dpim6sj1cpq3krbledkm6nr4d5pm6npl0400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01crb9dpim6sj1cpq3krbledkm6nr4d5pm6npl0400agrfeln78080
+      Ignored_For_Permissions: []
+    '3':
+      Name: '&e&lDisco Blocks'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01mrb9dpim6sj1cpq3krbledkm6nr4d5pm6nr2dhnm6qrj0400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01mrb9dpim6sj1cpq3krbledkm6nr4d5pm6nr2dhnm6qrj0400agrfeln78080
+      Ignored_For_Permissions: []
+    '2':
+      Name: '&e&lDisco Cat'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip0031mmirj5cdp62pjk79mnasr9cdfm8qbjcdfm6obk0400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip0031mmirj5cdp62pjk79mnasr9cdfm8qbjcdfm6obk0400agrfeln78080
+      Ignored_For_Permissions: []
+    '4':
+      Name: '&e&lDisco Chirp'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i006jdd5n6aoric5j78ejdelpmioqvchkn6oqvcdk6isjg0400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i006jdd5n6aoric5j78ejdelpmioqvchkn6oqvcdk6isjg0400agrfeln78080
+      Ignored_For_Permissions: []
+    '5':
+      Name: '&e&lDisco Far'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip0031mmirj5cdp62pjk79mnasr9cdfm8qbjcdfmcobi0400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip0031mmirj5cdp62pjk79mnasr9cdfm8qbjcdfmcobi0400agrfeln78080
+      Ignored_For_Permissions: []
+    '6':
+      Name: '&e&lDisco Mall'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800pdlkmspb3e9gmct1qdlqn6qb3bti6isr3btmm2r3c0400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800pdlkmspb3e9gmct1qdlqn6qb3bti6isr3btmm2r3c0400agrfeln78080
+      Ignored_For_Permissions: []
+    '7':
+      Name: '&e&lDisco Mellohi'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400e6qqbeclhn4ob6egt6qtbjd5hlup39edhlurb5dhm6uq390400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400e6qqbeclhn4ob6egt6qtbjd5hlup39edhlurb5dhm6uq390400agrfeln78080
+      Ignored_For_Permissions: []
+    otherside:
+      Name: '&e&lDisco Otherside'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800udlkmspb3e9gmct1qdlqn6qb3bti6isr3btnn8q35e9pmip350400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800udlkmspb3e9gmct1qdlqn6qb3bti6isr3btnn8q35e9pmip350400agrfeln78080
+      Ignored_For_Permissions: []
+    '13':
+      Name: '&e&lDisco Pigstep'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400e6qqbeclhn4ob6egt6qtbjd5hlup39edhlus39ctpn8pbg0400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400e6qqbeclhn4ob6egt6qtbjd5hlup39edhlus39ctpn8pbg0400agrfeln78080
+      Ignored_For_Permissions: []
+    '8':
+      Name: '&e&lDisco Stal'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800pdlkmspb3e9gmct1qdlqn6qb3bti6isr3btpn8obc0400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800pdlkmspb3e9gmct1qdlqn6qb3bti6isr3btpn8obc0400agrfeln78080
+      Ignored_For_Permissions: []
+    '9':
+      Name: '&e&lDisco Strad'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i006jdd5n6aoric5j78ejdelpmioqvchkn6oqvedq74ob40400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i006jdd5n6aoric5j78ejdelpmioqvchkn6oqvedq74ob40400agrfeln78080
+      Ignored_For_Permissions: []
+    '12':
+      Name: '&e&lDisco Wait'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800pdlkmspb3e9gmct1qdlqn6qb3bti6isr3btrm2qbk0400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800pdlkmspb3e9gmct1qdlqn6qb3bti6isr3btrm2qbk0400agrfeln78080
+      Ignored_For_Permissions: []
+    '10':
+      Name: '&e&lDisco Ward'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800pdlkmspb3e9gmct1qdlqn6qb3bti6isr3btrm2sj40400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800pdlkmspb3e9gmct1qdlqn6qb3bti6isr3btrm2sj40400agrfeln78080
+      Ignored_For_Permissions: []
+Item:
+  Material: CHEST
+  Name: '&4&lCaja de Discos'
+  Lore:
+  - '&7Click izquierdo para ver los premios'
+  - '&aClick derecho para abrir!'

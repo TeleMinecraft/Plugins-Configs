@@ -1,0 +1,48 @@
+identifier: a4137e08-1f56-323a-80ac-9d03a1b83512
+quests:
+- questID: 1
+  timesFinished: 1
+- stage0datas:
+    remaining:
+      0: 5
+      1: 3
+  questID: 2
+  currentStage: 1
+  currentBranch: 0
+- questID: 3
+  timesFinished: 1
+- questID: 4
+  timesFinished: 1
+- questID: 7
+  timesFinished: 1
+- questID: 10
+  timesFinished: 1
+- questID: 11
+  timesFinished: 1
+- stage0datas:
+    remaining:
+      3: 1
+      5: 2
+      6: 5
+  questID: 12
+  currentStage: 0
+  currentBranch: 0
+- questID: 13
+  timesFinished: 1
+- stage0datas:
+    remaining:
+      0: 1
+  questID: 14
+  currentStage: 0
+  currentBranch: 0
+  timesFinished: 1
+- questID: 16
+  timesFinished: 1
+- questID: 17
+  timesFinished: 1
+- questID: 20
+  timesFinished: 1
+- questID: 24
+  timesFinished: 1
+- questID: 27
+  timesFinished: 1

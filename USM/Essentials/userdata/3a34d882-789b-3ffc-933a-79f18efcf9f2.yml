@@ -1,0 +1,9 @@
+logoutlocation:
+  world: world
+  x: 0.5
+  y: 33.0
+  z: 0.5
+  yaw: 270.0
+  pitch: 0.0
+timestamps:
+  logout: 1596415397303

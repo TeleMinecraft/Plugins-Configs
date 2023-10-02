@@ -1,0 +1,144 @@
+panels:
+  panel-2:
+    perm: default
+    rows: 6
+    title: '&1&lVotaciones'
+    item:
+      '0':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&7'
+      '1':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '2':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '3':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '4':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '5':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '6':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '7':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '8':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '9':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '17':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '18':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '20':
+        material: IRON_SWORD
+        stack: 1
+        name: '&9&lModo de juego'
+        lore:
+        - '&7Click izquierdo para'
+        - '&7votar por &9&oEquipos'
+        - '&7Click derecho para votar'
+        - '&7por &9&oTodos contra todos'
+      '22':
+        material: CLOCK
+        stack: 1
+        name: '&e&lHorario de juego'
+        lore:
+        - '&7Click izquierdo para votar por &e&oDía'
+        - '&7Click derecho para votar por &e&oNoche'
+      '24':
+        material: COOKIE
+        stack: 1
+        name: '&a&lEntrenamiento'
+        lore:
+        - '&cPróximamente'
+      '26':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '27':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '29':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: '&8Aún no has votado'
+      '31':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: '&8Aún no has votado'
+      '33':
+        material: RED_STAINED_GLASS_PANE
+        stack: 1
+        name: '&cNo disponible aún...'
+      '35':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '36':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '44':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '45':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '46':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '47':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '48':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '49':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '50':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '51':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '52':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '53':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: ''

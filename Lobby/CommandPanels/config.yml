@@ -1,0 +1,90 @@
+# |------------------------------------------------------------------------
+# |                       CommandPanels Config File
+# |                           By RockyHawk v4.0
+# | https://www.spigotmc.org/resources/command-panels-custom-guis.67788/
+# |------------------------------------------------------------------------
+input:
+  input-cancel: cancel
+  input-cancelled: '&cCancelled!'
+  max-input-length: -1
+  input-message:
+  - '%cp-tag%&aEnter Input for Command'
+  - '&cType &4%cp-args% &cto Cancel the command'
+hexcodes:
+  start_tag: $
+  end_tag: ''
+placeholders:
+  primary:
+    start: '%'
+    end: '%'
+  secondary:
+    start: '{'
+    end: '}'
+updater:
+  update-checks: true
+  auto-update: true
+  minor-updates-only: true
+purchase:
+  permission:
+    enable: true
+    success: '&aYou have successfully passed the permission check for "%cp-args%".'
+    failure: '&cInefficient Permissions'
+  coins:
+    enable: true
+    success: '&aSuccessfully Bought For %cp-args% Coins.'
+    failure: '&cInsufficient Coins!'
+  data:
+    enable: true
+    success: '&aSuccessfully Bought For $%cp-args%'
+    failure: '&cInsufficient Funds!'
+  currency:
+    enable: true
+    success: '&aSuccessfully Bought For $%cp-args%'
+    failure: '&cInsufficient Funds!'
+  tokens:
+    enable: true
+    success: '&aSuccessfully Bought For %cp-args% Tokens.'
+    failure: '&cInsufficient Tokens!'
+  item:
+    enable: true
+    success: '&aSuccessfully Sold %cp-args%.'
+    failure: '&cInsufficient Items!'
+  xp:
+    enable: true
+    success: '&aSuccessfully Bought For %cp-args% xp level.'
+    failure: '&cInsufficient xp levels!'
+config:
+  allow-unsafe-mini-message: false
+  hotbar-items: true
+  custom-commands: true
+  auto-register-commands: false
+  auto-update-panels: false
+  refresh-panels: true
+  panel-blocks: true
+  refresh-delay: 4
+  server-ping-timeout: 10
+  stop-sound: true
+  disabled-world-message: true
+  update-notifications: true
+  panel-snooper: false
+  ingame-editor: true
+  input-cancel: cancel
+  input-cancelled: '&cCancelled!'
+  input-message:
+  - '%cp-tag%&aEnter Input for Command'
+  - '&cType &4%cp-args% &cto Cancel the command'
+  format:
+    input: '&cYour Input is too long!'
+    tag: '&6[&bCommandPanels&6]'
+    perms: '&cNo permission.'
+    reload: '&aReloaded.'
+    nopanel: '&cPanel not found.'
+    noitem: '&cPanel doesn''t have clickable item.'
+    notitem: '&cPlayer not found.'
+    error: '&cError found in config at'
+    needmoney: '&cInsufficient Funds!'
+    needitems: '&cInsufficient Items!'
+    bought: '&aSuccessfully Bought For $%cp-args%'
+    sold: '&aSuccessfully Sold Item!'
+    offline: Offline
+    offlineHeadValue: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmU1Mjg2YzQ3MGY2NmZmYTFhMTgzMzFjYmZmYjlhM2MyYTQ0MjRhOGM3MjU5YzQ0MzZmZDJlMzU1ODJhNTIyIn19fQ==

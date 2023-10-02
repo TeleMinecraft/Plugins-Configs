@@ -1,0 +1,15 @@
+playername: killminekuro
+lang: es_ES
+minerate-full-mined: 0
+minerate:
+  diamond: 0
+  gold: 0
+  iron: 0
+  coal: 0
+  ancient debris: 0
+better-click: 3
+cheats:
+  airjump: 1
+  blink: 1
+  speed: 2
+creation-time: 1620084022709

@@ -1,0 +1,265 @@
+# For more information, check out the plugin manual or join us on Discord:
+# http://www.mythicmobs.net
+#  
+
+SmashAttack:
+  Cooldown: 8
+  Conditions:
+  - targetwithin 25
+  Skills:
+  - message{cooldown=30;m="<mob.name>&r: Seguro que enfrentarme fue una buena idea?"} @PlayersInRadius{r=10}
+  - teleport @target
+  - effect:sound{s=mob.endermen.portal;volume=1.0;pitch=0.5}
+  - delay 10
+  - damage{amount=5;ignorearmor=true} @PlayersInRadius{r=5}
+  - throw{velocity=10;velocityY=5} @PlayersInRadius{r=5}
+  - effect:explosion @Self
+SummonSkeletons:
+  Cooldown: 10
+  Skills:
+  - summon{mob=SkeletalMinion;amount=2;noise=5} @Self
+  - delay 20
+  - summon{mob=SkeletalMinion;amount=2;noise=5} @Self
+  - delay 20
+  - summon{mob=SkeletalMinion;amount=2;noise=5} @Self
+AngrySludgePoison:
+  Cooldown: 10
+  Skills:
+  - potion{type=POISON;lvl=2;duration=100} @PlayersInRadius{r=15}
+  - effect:particles{p=happyVillager;amount=1000;hSpread=15;ySpread=1;speed=0;yOFfset=0.5}
+    @Self
+SummonSlimes:
+  Cooldown: 10
+  Skills:
+  - summon{mob=Slimes;amount=1;noise=5} @Self
+  - delay 20
+  - summon{mob=Slimes;amount=1;noise=5} @Self
+RabbitTP:
+  Cooldown: 5
+  Skills:
+  - teleport{spreadh=5;spreadv=3} @target
+  - delay 10
+  - teleport{spreadh=5;spreadv=3} @target
+IronAtack:
+  Cooldown: 10
+  Conditions:
+  - targetwithin 15
+  Skills:
+  - teleport @target
+  - potion{type=WEAKNESS;lvl=3;duration=10} @PlayersInRadius{r=15}
+  - effect:sound{s=mob.endermen.portal;volume=1.0;pitch=0.5}
+  - delay 10
+  - damage{amount=7;ignorearmor=true} @PlayersInRadius{r=5}
+  - throw{velocity=10;velocityY=10} @PlayersInRadius{r=5}
+  - effect:explosion @Self
+Light:
+  Cooldown: 10
+  Conditions:
+  - targetwithin 10
+  Skills:
+  - command{c="minecraft:summon lightning_bolt ~ ~ ~ ";asTarget=true;op=true} @PlayersInRadius{r=10}
+FireBall:
+  Cooldown: 5
+  Conditions:
+  - targetwithin 30
+  Skills:
+  - shootfireball{y=3;v=1;ps=true;i=1;ft=20} @target
+  - delay 20
+  - shootfireball{y=3;v=1;ps=true;i=1;ft=20} @target
+  - delay 20
+  - shootfireball{y=3;v=1;ps=true;i=1;ft=20} @target
+FireGrip:
+  Conditions:
+  - targetwithin 20
+  Skills:
+  - effect:flames @self
+  - delay 5
+  - effect:flames @self
+  - delay 5
+  - effect:flames @self
+  - delay 5
+  - effect:flames @self
+  - delay 20
+  - forcepull{spread=4} @EntitiesInRadius{r=15}
+  - effect:explosion @Self
+  - damage{amount=10;ignorearmor=true} @PlayersInRadius{r=5}
+  - throw{velocity=15;velocityY=5} @PlayersInRadius{r=5}
+BlazeDeath:
+  Skills:
+  - effect:explosion @Self
+  - effect:particles{p=explosion_huge}
+  - effect:particlesphere{particle=flame;amount=400;radius=5} @self
+  - ignite{ticks=100} @PlayersInRadius{r=10}
+EndermanR:
+  Skills:
+  - command{c="execute if score Tseg Tienda matches 0..6 run data merge entity <caster.uuid> {carriedBlockState:{Name:"minecraft:netherite_block"}}"}
+  - command{c="execute if score Tseg Tienda matches 7..12 run data merge entity <caster.uuid> {carriedBlockState:{Name:"minecraft:coal_block"}}"}
+  - command{c="execute if score Tseg Tienda matches 13..18 run data merge entity <caster.uuid> {carriedBlockState:{Name:"minecraft:iron_block"}}"}
+  - command{c="execute if score Tseg Tienda matches 19..24 run data merge entity <caster.uuid> {carriedBlockState:{Name:"minecraft:lapis_block"}}"}
+  - command{c="execute if score Tseg Tienda matches 25..30 run data merge entity <caster.uuid> {carriedBlockState:{Name:"minecraft:gold_block"}}"}
+  - command{c="execute if score Tseg Tienda matches 31..36 run data merge entity <caster.uuid> {carriedBlockState:{Name:"minecraft:redstone_block"}}"}
+  - command{c="execute if score Tseg Tienda matches 37..42 run data merge entity <caster.uuid> {carriedBlockState:{Name:"minecraft:slime_block"}}"}
+  - command{c="execute if score Tseg Tienda matches 43..48 run data merge entity <caster.uuid> {carriedBlockState:{Name:"minecraft:honey_block"}}"}
+  - command{c="execute if score Tseg Tienda matches 49..54 run data merge entity <caster.uuid> {carriedBlockState:{Name:"minecraft:emerald_block"}}"}
+  - command{c="execute if score Tseg Tienda matches 55..60 run data merge entity <caster.uuid> {carriedBlockState:{Name:"minecraft:diamond_block"}}"}
+KripyExplosion:
+  Skills:
+  - effect:explosion @Self
+  - command{c="execute at <caster.uuid> run effect give @a[distance=0..10] minecraft:nausea 20 9 true";op=true} @Self
+PhantomI:
+  Skills:
+  - command{c="effect clear <caster.uuid> minecraft:glowing"}
+  - command{c="effect give <caster.uuid> minecraft:invisibility 10 10 true"}
+  - delay 100
+  - command{c="effect give <caster.uuid> minecraft:glowing 999999 10 true"}
+Wither:
+  Skills:
+  - potion{type=WITHER;lvl=3;duration=50} @PlayersInRadius{r=5}
+SunThrow:
+  Cooldown: 5
+  Conditions:
+  - targetwithin 5
+  Skills:
+  - state{mid=sun_mob;s=atack1;} @self
+  - delay 10
+  - stun{d=20} @self
+  - throw{velocity=25;velocityY=10} @PlayersInRadius{r=3}
+  - sound{s=entity.blaze.hurt;v=10;p=0.1} @self
+  - delay 10
+  - throw{velocity=25;velocityY=10} @PlayersInRadius{r=3}
+  - sound{s=entity.blaze.hurt;v=10;p=0.1} @self
+SunBall:
+  Cooldown: 5
+  Conditions:
+  - targetwithin 10 true
+  - targetwithin 5 false
+  Skills:
+  - effect:flames @self
+  - delay 5
+  - stun{d=20} @self
+  - state{mid=sun_mob;s=atack2;} @self
+  - delay 20
+  - sound{s=entity.blaze.shoot;v=10} @SelfLocation
+  - shootfireball{y=3;v=0.3;ps=true;i=true;ft=5} @target
+MagmaLaunch:
+  Cooldown: 15
+  Conditions:
+  - targetwithin 25 true
+  - targetwithin 10 false
+  Skills:
+  - skill{skill=MagmaLaunchI}
+MagmaLaunchI:
+  Skills:
+  - state{mid=sun_mob;s=atack3;} @self
+  - stun{d=30} @self
+  - delay 10
+  - projectile{onTick=MagmaLaunchT;onHit=MagmaLaunchH;onEnd=MagmaLaunchF;v=18;i=1;hR=2;vR=2;vO=1.5;hO=1;g=1.2} @PIR{r=20;limit=1;sort=RANDOM}
+  - delay 10
+  - projectile{onTick=MagmaLaunchT;onHit=MagmaLaunchH;onEnd=MagmaLaunchF;v=18;i=1;hR=2;vR=2;vO=1.5;hO=1;g=1.2} @PIR{r=20;limit=1;sort=RANDOM}
+  - delay 10
+  - projectile{onTick=MagmaLaunchT;onHit=MagmaLaunchH;onEnd=MagmaLaunchF;v=18;i=1;hR=2;vR=2;vO=1.5;hO=1;g=1.2} @PIR{r=20;limit=1;sort=RANDOM}
+  - delay 10
+  - projectile{onTick=MagmaLaunchT;onHit=MagmaLaunchH;onEnd=MagmaLaunchF;v=18;i=1;hR=2;vR=2;vO=1.5;hO=1;g=1.2} @PIR{r=20;limit=1;sort=RANDOM}
+  - delay 10
+  - projectile{onTick=MagmaLaunchT;onHit=MagmaLaunchH;onEnd=MagmaLaunchF;v=18;i=1;hR=2;vR=2;vO=1.5;hO=1;g=1.2} @PIR{r=20;limit=1;sort=RANDOM}
+  - delay 10
+MagmaLaunchT:
+  Skills:
+  - effect:particles{particle=block_crack;m=MAGMA_BLOCK;amount=5;hS=0.1;vS=0.1;speed=0} @origin
+  - effect:itemspray{item=MAGMA_BLOCK;amount=1;velocity=0.01;d=20} @origin
+  - sound{s=block.basalt.break;v=10;p=0.1} @origin
+MagmaLaunchH:
+  Skills:
+  - damage{a=10-15}
+  - shieldbreak{duration=10} @target
+MagmaLaunchF:
+  Skills:
+  - effect:explosion @origin
+SunRegeneration:
+  Cooldown: 10
+  Conditions:
+  - health{h=<300} true
+  - incombat{} false
+  Skills:
+  - stun{d=50} @self
+  - effect:particleorbital{r=1.5;points=180;t=45;i=1;vy=20;particle=heart;oy=1} @self
+  - state{mid=sun_mob;s=regeneration;} @self
+  - delay 10
+  - sound{s=entity.player.levelup;v=10} @self
+  - healpercent{m=0.2} @self
+SunAtack:
+  Cooldown: 2
+  Skills:
+  - CancelEvent
+  - stun{d=5} @self
+  - state{mid=sun_mob;s=mele;li=0;lo=0}
+  - delay 20
+  - totem{ch=1;onStart=SunMele;int=1;md=1} @Forward{f=1}
+SunMele:
+  Skills:
+  - basedamage{m=2} @PlayersNearOrigin{r=3;limit=1;sort=NEAREST}
+SunBasic:
+  Skills:
+  - CancelEvent
+SunJump:
+  Cooldown: 5
+  Skills:
+  - skill{skill=SunJumpI} @PIR{r=20;limit=1;sort=FURTHEST}
+SunJumpI:
+  Conditions:
+  - targetwithin 20 true
+  TargetConditions:
+  - distance{d=>7}
+  Cooldown: 5
+  Skills:
+  - state{mid=sun_mob;s=atack4;li=0;lo=0}
+  - delay 10
+  - jump{velocity=1}
+  - Aura{auraName=SunEffect;onTick=SunEffect;interval=3;d=12} @self
+  - sound{s=entity.blaze.shoot;v=10} @SelfLocation
+  - delay 10
+  - leap{velocity=500}
+  - potion{type=SLOW_FALLING;lvl=10;duration=40;hasParticles=false} @self
+  - delay 10
+  - effect:particle{particle=flame;amount=200;vS=0.05;hS=0.05;speed=0.2} @self
+  - sound{s=entity.firework_rocket.large_blast;v=10;p=0.1} @SelfLocation
+  - damage{a=3-5;ia=true;pi=true} @PIR{r=3.5}
+  - throw{velocity=0.1;velocityY=8} @PIR{r=3.5}
+  - stun{d=60} @self
+SunEffect:
+  Skills:
+  - effect:particlering{particle=cloud;radius=1;points=32;amount=1;hS=0;vS=0;y=0.1} @self
+SunDeath:
+  Skills:
+  - delay 20
+  - effect:particle{particle=cloud;amount=50;hS=1;vS=1;speed=0} @self
+SunPush:
+  Cooldown: 5
+  Conditions:
+  - targetwithin 3 true
+  Skills:
+  - skill{skill=SunPushI} @PIR{r=3}
+SunPushI:
+  Skills:
+  - stun{d=30} @self
+  - sound{s=block.conduit.activate;v=10;p=1.5} @SelfLocation
+  - effect:particlesphere{particle=redstone;amount=300;radius=3;color=#ff0000} @SelfLocation
+  - damage{a=7;ia=true;pi=true}
+  - stun{d=10} @target
+  - throw{velocity=35;velocityY=0} @target
+  - velocity{m=multiply;x=1;y=0;z=1} @target
+CopperGolemSpawn:  
+  Skills:
+  - stun{d=80} @self
+  - state{mid=copper_golem;s=spawn;li=0;lo=0}
+CopperGolemLightning:
+  Conditions:
+  - damagecause{cause=LIGHTNING} true
+  Cooldown: 1
+  Skills:
+  - state{mid=copper_golem;s=lightning;li=0;lo=0}
+  - potion{type=FIRE_RESISTANCE;duration=300;level=100;p=false}
+CopperGolemSetOwner:
+  Skills:
+  - setowner @trigger
+  - throw{velocity=35;velocityY=2} @PIR{r=10}

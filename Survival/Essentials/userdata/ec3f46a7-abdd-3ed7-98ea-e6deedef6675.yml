@@ -1,0 +1,29 @@
+timestamps:
+  login: 1596937624182
+  logout: 1596943385573
+  lastteleport: 1596943252304
+lastlocation:
+  world: world
+  x: 2231.699999988079
+  y: 11.0
+  z: -785.6829459758446
+  yaw: -5.4281144
+  pitch: 16.500225
+logoutlocation:
+  world: world
+  x: 2193.9824122912423
+  y: 40.0
+  z: -727.1587704578053
+  yaw: 4.7711835
+  pitch: 8.099965
+homes:
+  home:
+    world: world
+    x: 2192.983849740043
+    y: 40.0
+    z: -713.2759531101473
+    yaw: -94.67905
+    pitch: -0.30005676
+money: '1237439.12800000000007425'
+ip-address: 190.20.29.33
+last-account-name: chimi_8

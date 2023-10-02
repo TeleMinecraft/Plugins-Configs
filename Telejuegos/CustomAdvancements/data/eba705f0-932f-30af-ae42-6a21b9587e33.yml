@@ -1,0 +1,19 @@
+anvilstorm:
+  rapido:
+    progress: 0
+    active: false
+    completed: false
+    unlocked: false
+    announced: false
+  solo:
+    progress: 0
+    active: false
+    completed: false
+    unlocked: false
+    announced: false
+  ganar:
+    progress: 0
+    active: false
+    completed: false
+    unlocked: false
+    announced: false

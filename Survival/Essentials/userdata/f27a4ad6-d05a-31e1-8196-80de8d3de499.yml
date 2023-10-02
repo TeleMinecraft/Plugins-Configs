@@ -1,0 +1,29 @@
+timestamps:
+  login: 1623376043393
+  logout: 1623376601651
+  lastteleport: 1623374374216
+lastlocation:
+  world: world
+  x: 770.3000000119209
+  y: 63.0
+  z: -348.57987654956
+  yaw: -111.31658
+  pitch: 18.131264
+logoutlocation:
+  world: world
+  x: 465.89296946920575
+  y: 79.5
+  z: 524.5303481686122
+  yaw: -345.57626
+  pitch: 90.0
+homes:
+  home:
+    world: world
+    x: 774.17264732903
+    y: 62.0
+    z: -349.0785006912764
+    yaw: 92.48887
+    pitch: 58.856888
+money: '184903.230'
+ip-address: 190.232.205.144
+last-account-name: andrewYTelpro

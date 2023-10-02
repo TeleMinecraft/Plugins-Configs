@@ -1,0 +1,90 @@
+timestamps:
+  login: 1663384398366
+  logout: 1663386016082
+  lastteleport: 1663385883495
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: 414.33618286645464
+  y: 77.0
+  z: -475.6242029280613
+  yaw: 15.219085693359375
+  pitch: 14.695878982543945
+  world-name: world
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: -4020.831671702563
+  y: 92.1875
+  z: 969.7705636442987
+  yaw: -177.8214111328125
+  pitch: 34.998748779296875
+  world-name: world
+homes:
+  home:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: -3707.468522972208
+    y: 63.0
+    z: 1287.6116356591335
+    yaw: -92.137939453125
+    pitch: 29.38518524169922
+    world-name: world
+  base:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: -3709.1487925247675
+    y: 63.0
+    z: 1287.44816679861
+    yaw: -89.18447875976562
+    pitch: 14.686305046081543
+    world-name: world
+  casa:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: -4427.023819676027
+    y: 67.0
+    z: 2600.368987644406
+    yaw: -1.99627685546875
+    pitch: 0.27516794204711914
+    world-name: world
+  blaze:
+    world: ddd15208-45ed-42b1-90a4-dbd0adfbea42
+    x: -648.1480312437412
+    y: 67.0
+    z: 1014.7392340565441
+    yaw: 347.6699523925781
+    pitch: 5.78659200668335
+    world-name: world_nether
+  whiter:
+    world: ddd15208-45ed-42b1-90a4-dbd0adfbea42
+    x: -780.055596002269
+    y: 66.5
+    z: 1973.40532601994
+    yaw: -268.6492919921875
+    pitch: 5.029798984527588
+    world-name: world_nether
+  raids:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: -3428.7873529424883
+    y: 156.0
+    z: 2853.649760392352
+    yaw: 276.6766357421875
+    pitch: 22.2388973236084
+    world-name: world
+money: '415534108.67799999999964350'
+nickname: §1§lD1L4N1X
+afk: false
+ip-address: 186.105.112.45
+last-account-name: D1L4N1X
+lastAccountName: D1L4N1X
+ipAddress: 191.112.8.214
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false

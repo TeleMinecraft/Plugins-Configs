@@ -1,0 +1,22 @@
+playername: Pipe2311
+lang: es_ES
+minerate-full-mined: 4814
+minerate:
+  diamond: 18
+  gold: 18
+  iron: 104
+  coal: 52
+  ancient debris: 0
+better-click: 41
+cheats:
+  autoclick: 3
+  timer: 44
+  forcefield: 1
+  blink: 3
+  speed: 15
+  antiknockback: 1
+  nuker: 2
+  fastplace: 2
+  nofall: 3
+  spider: 1
+creation-time: 1623211288570

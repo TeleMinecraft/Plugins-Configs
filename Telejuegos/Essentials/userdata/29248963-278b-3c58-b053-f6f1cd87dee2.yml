@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 201.241.56.246
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1677818746100
+  login: 1677812785133
+money: '0'
+logoutlocation:
+  world: c6d56105-53bd-4568-9036-ed6f9482083a
+  world-name: world_poderes
+  x: -8.763417795697768
+  y: 39.0
+  z: -1.0081454760985544
+  yaw: -166.03192138671875
+  pitch: 4.649862766265869
+last-account-name: PlayerTest
+lastlocation:
+  world: e79d3dd0-8b8a-4103-bae2-25428e23a084
+  world-name: world
+  x: 1.5
+  y: 31.5
+  z: 0.5
+  yaw: 0.0
+  pitch: 0.0

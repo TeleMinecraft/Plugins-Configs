@@ -1,0 +1,14 @@
+location: world_death:2.534:32.000:-56.599
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&eBienvenid@ al'
+    height: 0.3
+  - content: '&4&lTemplo del Sacrificio'
+    height: 0.3
+  actions: {}

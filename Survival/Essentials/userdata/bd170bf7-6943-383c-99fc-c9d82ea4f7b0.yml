@@ -1,0 +1,29 @@
+timestamps:
+  login: 1596590019543
+  logout: 1596592921141
+  lastteleport: 1596592702509
+lastlocation:
+  world: world
+  x: 415.47177174682207
+  y: 63.0
+  z: -509.9320047041113
+  yaw: -258.7501
+  pitch: 7.80002
+money: '1215569.3850000000000337'
+logoutlocation:
+  world: world
+  x: -2986.162302804441
+  y: 74.0
+  z: -4608.104118862305
+  yaw: -171.40161
+  pitch: 6.7500153
+homes:
+  home:
+    world: world
+    x: -2985.363872514387
+    y: 74.0
+    z: -4612.693582664634
+    yaw: -85.90227
+    pitch: 83.00206
+ip-address: 181.72.42.198
+last-account-name: crisis

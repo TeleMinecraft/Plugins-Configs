@@ -1,0 +1,110 @@
+name: Daniiiii6
+events:
+  event57:
+    one_time: false
+    cooldown: 1675019113602
+  resistencia_y_skin_al_entrar:
+    one_time: false
+    cooldown: 1692490547381
+  random_tp:
+    one_time: false
+    cooldown: 1692400429282
+  mision_15:
+    one_time: false
+    cooldown: 1675461239858
+  descripcion_mision15:
+    one_time: false
+    cooldown: 1676210330472
+  descripcion_mision16:
+    one_time: false
+    cooldown: 1685126103119
+  descripcion_mision17:
+    one_time: false
+    cooldown: 1676210340711
+  mision_17:
+    one_time: false
+    cooldown: 1675461269385
+  descripcion_mision18:
+    one_time: false
+    cooldown: 1679946121105
+  descripcion_mision12:
+    one_time: false
+    cooldown: 1680808207389
+  mision_12:
+    one_time: false
+    cooldown: 1680542638921
+  descripcion_mision6:
+    one_time: false
+    cooldown: 1676210349120
+  descripcion_mision2:
+    one_time: false
+    cooldown: 1676210367219
+  mision_2:
+    one_time: false
+    cooldown: 1675461318697
+  descripcion_mision1:
+    one_time: false
+    cooldown: 1679946149166
+  mision_1:
+    one_time: false
+    cooldown: 1676210374162
+  descripcion_mision7:
+    one_time: false
+    cooldown: 1679946142574
+  mision_7:
+    one_time: false
+    cooldown: 1675461325902
+  descripcion_mision13:
+    one_time: false
+    cooldown: 1685126108686
+  descripcion_mision8:
+    one_time: false
+    cooldown: 1685126110782
+  mision_8:
+    one_time: false
+    cooldown: 1675461337809
+  descripcion_mision9:
+    one_time: false
+    cooldown: 1690299224695
+  descripcion_mision14:
+    one_time: false
+    cooldown: 1679946133413
+  evento_pascua2022:
+    one_time: false
+    cooldown: 1675536279728
+  descripcion_mision3:
+    one_time: false
+    cooldown: 1679946109821
+  mision_3:
+    one_time: false
+    cooldown: 1676210365220
+  mision_18:
+    one_time: false
+    cooldown: 1676210346721
+  descripcion_mision5:
+    one_time: false
+    cooldown: 1676210350818
+  descripcion_mision4:
+    one_time: false
+    cooldown: 1676210356812
+  mision_4:
+    one_time: false
+    cooldown: 1676210361178
+  mision_13:
+    one_time: false
+    cooldown: 1679351137974
+  descripcion_mision11:
+    one_time: false
+    cooldown: 1680808209839
+  mision_11:
+    one_time: false
+    cooldown: 1680808210385
+  descripcion_mision10:
+    one_time: false
+    cooldown: 1680808211386
+  mision_10:
+    one_time: false
+    cooldown: 1680808211883
+  mision_9:
+    one_time: false
+    cooldown: 1685300637071

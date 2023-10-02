@@ -1,0 +1,156 @@
+Name: '&9&lCaja de Minerales'
+Animation_Config: csgo_auto
+Preview_Config: default
+Permission_Required: false
+Attached_Citizens: ''
+Opening:
+  Cooldown: 1
+  Cost:
+    MONEY: 0.0
+    EXP: 0.0
+Key:
+  Ids: []
+Block:
+  Locations: []
+  Pushback:
+    Enabled: false
+  Hologram:
+    Enabled: false
+    Offset:
+      Y: 1.5
+    Text:
+    - '&c&lMYSTERY CRATE'
+    - '&7Buy a key at &cwww.myserver.com&c'
+  Effect:
+    Model: SIMPLE
+    Particle:
+      Name: FLAME
+      Data: ''
+Rewards:
+  List:
+    '1':
+      Name: '&8&lCarbón'
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip001pmmirj5cdp62pjk79hmuobc0400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip001pmmirj5cdp62pjk79hmuobc0400agrfeln78g00
+      Ignored_For_Permissions: []
+    crate_editor:
+      Name: '&6&lCobre'
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01crb9dpim6sj1cpq3korfe1o6asivd5n6errk0400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01crb9dpim6sj1cpq3korfe1o6asivd5n6errk0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '2':
+      Name: '&7&lHierro'
+      Chance: 20.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800kdlkmspb3e9gmct1qd5p6urivd5n6errk0400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800kdlkmspb3e9gmct1qd5p6urivd5n6errk0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '3':
+      Name: '&e&lOro'
+      Chance: 15.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800kdlkmspb3e9gmct1qctnmop2vd5n6errk0400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800kdlkmspb3e9gmct1qctnmop2vd5n6errk0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '4':
+      Name: '&c&lRedstone'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb40096qqbeclhn4ob6egt74pb4edq6urj50400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb40096qqbeclhn4ob6egt74pb4edq6urj50400agrfeln78g00
+      Ignored_For_Permissions: []
+    '5':
+      Name: '&9&lLapislazuli'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01crb9dpim6sj1cpq3kr31e1kn6nrcc5t7ar390400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01crb9dpim6sj1cpq3kr31e1kn6nrcc5t7ar390400agrfeln78g00
+      Ignored_For_Permissions: []
+    '6':
+      Name: '&f&lCuarzo'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i0043dd5n6aoric5j78ejhelgn4t3q0400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i0043dd5n6aoric5j78ejhelgn4t3q0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '7':
+      Name: '&a&lEsmeralda'
+      Chance: 5.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg012rb9dpim6sj1cpq3kpbdclp62r340400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg012rb9dpim6sj1cpq3kpbdclp62r340400agrfeln78g00
+      Ignored_For_Permissions: []
+    '8':
+      Name: '&b&lDiamante'
+      Chance: 3.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg012rb9dpim6sj1cpq3kp39c5mmurj40400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg012rb9dpim6sj1cpq3kp39c5mmurj40400agrfeln78g00
+      Ignored_For_Permissions: []
+    '9':
+      Name: '&5&lNetherite'
+      Chance: 1.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800pdlkmspb3e9gmct1qdpin8q35e9kn8pavd5n6errk0400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800pdlkmspb3e9gmct1qdpin8q35e9kn8pavd5n6errk0400agrfeln78g00
+      Ignored_For_Permissions: []
+Item:
+  Material: CHEST
+  Name: '&9&lCaja de Minerales'
+  Lore:
+  - '&7Click izquierdo para ver los premios'
+  - '&aClick derecho para abrir!'

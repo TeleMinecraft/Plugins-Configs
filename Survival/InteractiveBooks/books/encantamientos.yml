@@ -1,0 +1,52 @@
+# This is an example book to show how to create one
+# Note: The placeholders in this book (like %player_name%) need PlaceholderAPI installed
+# with the proper expansion, see here for more informations: https://www.spigotmc.org/resources/placeholderapi.6245/
+
+# Item's name
+name: Encantamientos
+
+# Book's title
+title: Encantamientos
+
+# Book's author
+author: TeleServer
+
+# Book's generation
+# Valid values: ORIGINAL, COPY_OF_ORIGINAL, COPY_OF_COPY, TATTERED
+generation: ORIGINAL
+
+# Item's lore
+lore:
+- <gold>Encantamientos especiales
+- <gold>y sus características
+
+# Command to open this book
+# You can remove this by setting it to ''
+# Separate multiple commands with a space
+open_command: ''
+
+pages:
+  '1':
+  - ' <gold><bold>✦Encantamientos✦<reset>'
+  - ''
+  - '<dark_gray><bold>> <click:change_page:2><tooltip:<gray>Click para ver los <dark_aqua><bold>Encantamientos para Tijeras><dark_aqua><bold>Tijeras<reset>'
+  - '<dark_gray><bold>> <click:change_page:3><tooltip:<gray>Click para ver los <dark_blue><bold>Encantamientos para Cañas de pescar><dark_blue><bold>Cañas de pescar<reset>'
+  - '<dark_gray><bold>> <click:change_page:4><tooltip:<gray>Click para ver los <dark_aqua><bold>Encantamientos para Cascos><dark_aqua><bold>Cascos<reset>'
+  - '<dark_gray><bold>> <click:change_page:6><tooltip:<gray>Click para ver los <dark_blue><bold>Encantamientos para Pecheras><dark_blue><bold>Pecheras<reset>'
+  - '<dark_gray><bold>> <click:change_page:8><tooltip:<gray>Click para ver los <dark_aqua><bold>Encantamientos para Pantalones><dark_aqua><bold>Pantalones<reset>'
+  - '<dark_gray><bold>> <click:change_page:11><tooltip:<gray>Click para ver los <dark_blue><bold>Encantamientos para Botas><dark_blue><bold>Botas<reset>'
+  - '<dark_gray><bold>> <click:change_page:16><tooltip:<gray>Click para ver los <dark_aqua><bold>Encantamientos para Hazadas><dark_aqua><bold>Hazadas<reset>'
+  - '<dark_gray><bold>> <click:change_page:18><tooltip:<gray>Click para ver los <dark_blue><bold>Encantamientos para Palas><dark_blue><bold>Palas<reset>'
+  - '<dark_gray><bold>> <click:change_page:23><tooltip:<gray>Click para ver los <dark_aqua><bold>Encantamientos para Hachas><dark_aqua><bold>Hachas<reset>'
+  - '<dark_gray><bold>> <click:change_page:26><tooltip:<gray>Click para ver los <dark_blue><bold>Encantamientos para Picos><dark_blue><bold>Picos<reset>'
+  - '<dark_gray><bold>> <click:change_page:33><tooltip:<gray>Click para ver los <dark_aqua><bold>Encantamientos para Arcos><dark_aqua><bold>Arcos<reset>'
+  - '<dark_gray><bold>> <click:change_page:40><tooltip:<gray>Click para ver los <dark_blue><bold>Encantamientos para Espadas><dark_blue><bold>Espadas<reset>'
+  '2':
+  - ' <gold><bold>✦Encantamientos✦<reset>'
+  
+# For the placeholders to work correctly
+# you should download the Player and Vault
+# extensions for PlaceholderAPI:
+# /papi ecloud download Player
+# /papi ecloud download Vault
+# /papi reload

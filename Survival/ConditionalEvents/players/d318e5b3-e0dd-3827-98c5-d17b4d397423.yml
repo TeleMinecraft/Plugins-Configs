@@ -1,0 +1,113 @@
+name: lorenzouz
+events:
+  event57:
+    one_time: false
+    cooldown: 1670530257756
+  event90:
+    one_time: false
+    cooldown: 1667346213387
+  event35:
+    one_time: false
+    cooldown: 1666378885794
+  event33:
+    one_time: false
+    cooldown: 1666378891887
+  event34:
+    one_time: false
+    cooldown: 1666378894439
+  event56:
+    one_time: false
+    cooldown: 1666625502597
+  event55:
+    one_time: false
+    cooldown: 1666625518633
+  event53:
+    one_time: false
+    cooldown: 1666625510628
+  event51:
+    one_time: false
+    cooldown: 1666625516400
+  event61:
+    one_time: false
+    cooldown: 1667317103611
+  event62:
+    one_time: false
+    cooldown: 1670530604168
+  event39:
+    one_time: false
+    cooldown: 1669673124261
+  resistencia_y_skin_al_entrar:
+    one_time: false
+    cooldown: 1691707524408
+  random_tp:
+    one_time: false
+    cooldown: 1677165872357
+  descripcion_mision14:
+    one_time: false
+    cooldown: 1686617459112
+  mision_14:
+    one_time: false
+    cooldown: 1691701394733
+  descripcion_mision13:
+    one_time: false
+    cooldown: 1691706530804
+  descripcion_mision5:
+    one_time: false
+    cooldown: 1678657948610
+  descripcion_mision6:
+    one_time: false
+    cooldown: 1678658113404
+  descripcion_mision7:
+    one_time: false
+    cooldown: 1678645419824
+  descripcion_mision8:
+    one_time: false
+    cooldown: 1678658092555
+  descripcion_mision9:
+    one_time: false
+    cooldown: 1678645421719
+  descripcion_mision12:
+    one_time: false
+    cooldown: 1678645429731
+  descripcion_mision15:
+    one_time: false
+    cooldown: 1678831171755
+  descripcion_mision16:
+    one_time: false
+    cooldown: 1678831238509
+  descripcion_mision17:
+    one_time: false
+    cooldown: 1678657932501
+  descripcion_mision18:
+    one_time: false
+    cooldown: 1678657938958
+  descripcion_mision1:
+    one_time: false
+    cooldown: 1678645409065
+  descripcion_mision2:
+    one_time: false
+    cooldown: 1678645410365
+  descripcion_mision3:
+    one_time: false
+    cooldown: 1678645412376
+  descripcion_mision4:
+    one_time: false
+    cooldown: 1678657924203
+  descripcion_mision10:
+    one_time: false
+    cooldown: 1678645422637
+  descripcion_mision11:
+    one_time: false
+    cooldown: 1678645423621
+  mision_13:
+    one_time: false
+    cooldown: 1691706533272
+  mision_18:
+    one_time: false
+    cooldown: 1678657940554
+  mision_5:
+    one_time: false
+    cooldown: 1678657949562
+  mision_8:
+    one_time: false
+    cooldown: 1678658094460

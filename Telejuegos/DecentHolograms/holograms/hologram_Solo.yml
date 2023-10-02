@@ -1,0 +1,14 @@
+location: world_skywars:-11.500:32.000:-10.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&b&lMapa aleatorio'
+    height: 0.3
+  - content: '&b&len Solitario'
+    height: 0.3
+  actions: {}

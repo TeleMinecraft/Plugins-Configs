@@ -1,0 +1,59 @@
+name: RobertxDess
+events:
+  resistencia_y_skin_al_entrar:
+    one_time: false
+    cooldown: 1690725167152
+  evento_pascua2022:
+    one_time: false
+    cooldown: 1689982842539
+  random_tp:
+    one_time: false
+    cooldown: 1690118726401
+  descripcion_mision1:
+    one_time: false
+    cooldown: 1690110483275
+  descripcion_mision2:
+    one_time: false
+    cooldown: 1690110475673
+  mision_2:
+    one_time: false
+    cooldown: 1689992667464
+  descripcion_mision3:
+    one_time: false
+    cooldown: 1690110485672
+  mision_3:
+    one_time: false
+    cooldown: 1689992697213
+  descripcion_mision8:
+    one_time: false
+    cooldown: 1689993987049
+  mision_1:
+    one_time: false
+    cooldown: 1689994043166
+  mision_4:
+    one_time: false
+    cooldown: 1689994058815
+  descripcion_mision9:
+    one_time: false
+    cooldown: 1690110490272
+  descripcion_mision13:
+    one_time: false
+    cooldown: 1690110500123
+  descripcion_mision18:
+    one_time: false
+    cooldown: 1690262884180
+  descripcion_mision11:
+    one_time: false
+    cooldown: 1690110518772
+  descripcion_mision10:
+    one_time: false
+    cooldown: 1690110522623
+  descripcion_mision12:
+    one_time: false
+    cooldown: 1690110524223
+  mision_10:
+    one_time: false
+    cooldown: 1690110536222
+  mision_18:
+    one_time: false
+    cooldown: 1690262882679

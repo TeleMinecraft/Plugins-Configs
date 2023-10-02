@@ -1,0 +1,21 @@
+location: world:-18.500:22.500:-66.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '<#ffff00>&lLugares Ocultos</#0DDE00>'
+    height: 0.3
+  - content: '&fA lo largo del mundo se'
+    height: 0.3
+  - content: '&fencuentran escondidos muchos'
+    height: 0.3
+  - content: '#00AEFFlugares secretos &fque esperan'
+    height: 0.3
+  - content: '&fa ser descubiertos, hallarlos'
+    height: 0.3
+  - content: '&fconlleva &ngrandes&d recompensas&f.'
+  actions: {}

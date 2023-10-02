@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 190.160.49.83
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1675788439892
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1676673320830
+  login: 1676673286924
+money: '0'
+last-account-name: Daniiiii6
+lastlocation:
+  world: e79d3dd0-8b8a-4103-bae2-25428e23a084
+  world-name: world
+  x: 2.559391035947268
+  y: 31.5
+  z: 1.6861360102230354
+  yaw: 118.35011291503906
+  pitch: 30.299942016601562
+logoutlocation:
+  world: e79d3dd0-8b8a-4103-bae2-25428e23a084
+  world-name: world
+  x: 3.6340136089206023
+  y: 31.5
+  z: 1.2300917538114564
+  yaw: 99.601318359375
+  pitch: 1.1999986171722412

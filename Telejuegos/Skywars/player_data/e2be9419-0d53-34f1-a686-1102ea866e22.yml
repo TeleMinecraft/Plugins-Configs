@@ -1,0 +1,18 @@
+uuid: e2be9419-0d53-34f1-a686-1102ea866e22
+wins: 0
+losses: 10
+kills: 2
+deaths: 9
+elo: 9
+xp: 6
+pareffect: none
+proeffect: none
+glasscolor: none
+killsound: none
+winsound: none
+taunt: none
+permissions:
+- sw.taunt.none
+- sw.glasscolor.none
+- sw.taunt.izi
+- sw.killsound.none

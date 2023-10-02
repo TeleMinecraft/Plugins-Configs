@@ -1,0 +1,13 @@
+playername: pelao
+lang: es_ES
+minerate-full-mined: 222
+minerate:
+  diamond: 0
+  gold: 0
+  iron: 9
+  coal: 28
+  ancient debris: 0
+better-click: 4
+cheats:
+  speed: 1
+creation-time: 1661117555524

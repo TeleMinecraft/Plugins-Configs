@@ -1,0 +1,260 @@
+name: '#202020&lVoid Black Hole'
+lore:
+- '#B5FFFDLanza un objeto tan denso que'
+- '#B5FFFDcrea un vórtice oscuro que'
+- '#B5FFFDabsorbe a todos tus enemigos'
+- ''
+- '#CCCCCC&oCooldown: 25s'
+material: ANVIL
+glow: true
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+storeItemInfo: false
+unbreakable: false
+usage: -1
+usageLimit: -1
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: false
+  hidePotionEffects: false
+  hideUsage: false
+  hideDye: false
+enchantments: {}
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-consumption: true
+  cancel-item-place: true
+  cancel-item-drop: true
+  cancel-item-craft-no-custom: true
+cancelEventIfNoPerm: false
+cancelEventIfNotOwner: false
+disabledWorlds: []
+variables: {}
+activators:
+  activator0:
+    name: '&eActivator'
+    option: PLAYER_RIGHT_CLICK
+    typeTarget: NO_TYPE_TARGET
+    usageModification: 0
+    cancelEvent: false
+    noActivatorRunIfTheEventIsCancelled: false
+    silenceOutput: false
+    autoUpdateItem: false
+    updateName: true
+    updateLore: true
+    updateDurability: false
+    updateAttributes: false
+    updateEnchants: false
+    updateCustomModelData: false
+    cooldownOptions:
+      cooldown: 25
+      isCooldownInTicks: false
+      cooldownMsg: '&cNo puedes utilizarlo aún!'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+    globalCooldownOptions:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+    otherEICooldowns: {}
+    requiredItems: {}
+    requiredExecutableItems: {}
+    detailedSlots:
+    - -1
+    commands:
+    - /scoreboard players reset Skull Ptiempo
+    - /scoreboard players set SkullS Ptiempo 30
+    - LAUNCH wither1
+    playerConditions: {}
+    worldConditions: {}
+    itemConditions: {}
+    customConditions: {}
+    placeholdersConditions: {}
+    variablesModification: {}
+  activator1:
+    name: '&eProyectil'
+    option: PROJECTILE_HIT_PLAYER
+    usageModification: 0
+    cancelEvent: false
+    noActivatorRunIfTheEventIsCancelled: false
+    silenceOutput: false
+    autoUpdateItem: false
+    updateName: true
+    updateLore: true
+    updateDurability: false
+    updateAttributes: false
+    updateEnchants: false
+    updateCustomModelData: false
+    cooldownOptions:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cNo puedes utilizarlo aún!'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+    globalCooldownOptions:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+    otherEICooldowns: {}
+    requiredItems: {}
+    requiredExecutableItems: {}
+    detailedSlots:
+    - -1
+    commands: []
+    playerConditions: {}
+    worldConditions: {}
+    itemConditions: {}
+    customConditions: {}
+    placeholdersConditions: {}
+    targetCommands: []
+    targetConditions: {}
+    variablesModification: {}
+  activator2:
+    name: Bloque
+    option: PROJECTILE_HIT_BLOCK
+    usageModification: 0
+    cancelEvent: false
+    noActivatorRunIfTheEventIsCancelled: false
+    silenceOutput: false
+    autoUpdateItem: false
+    updateName: true
+    updateLore: true
+    updateDurability: false
+    updateAttributes: false
+    updateEnchants: false
+    updateCustomModelData: false
+    cooldownOptions:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cNo puedes utilizarlo aún!'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+    globalCooldownOptions:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+    otherEICooldowns: {}
+    requiredItems: {}
+    requiredExecutableItems: {}
+    detailedSlots:
+    - -1
+    commands: []
+    playerConditions: {}
+    worldConditions: {}
+    itemConditions: {}
+    customConditions: {}
+    placeholdersConditions: {}
+    detailedBlocks:
+      blocks: []
+      cancelEventIfNotValid: false
+      messageIfNotValid: '&4&l[Error] &cthe block is not correct !'
+    blockCommands:
+    - /execute in minecraft:world_poderes positioned %block_x% %block_y% %block_z%
+      run playsound minecraft:block.anvil.land ambient @a[distance=0..10] ~ ~ ~ 10
+      0.5 1
+    - /execute in minecraft:world_poderes positioned %block_x% %block_y%+1.5 %block_z%
+      run summon armor_stand ~ ~-1.9 ~ {ArmorItems:[{},{},{},{id:"minecraft:anvil",Count:1b,tag:{Enchantments:[{}]}}],Tags:["VoidW"],Invisible:1b,Marker:1b}
+    - DELAY 1
+    - /execute in minecraft:world_poderes run setblock -38 33 -21 minecraft:redstone_block
+    - DELAY 1
+    - AROUND 10 CONDITIONS(%::objective_score_Pwither::%!=1) CUSTOMDASH1 %block_x%
+      %block_y% %block_z% true
+    - /execute in minecraft:world_poderes positioned %block_x% %block_y% %block_z%
+      run playsound minecraft:entity.enderman.teleport ambient @a[distance=0..10]
+      ~ ~ ~ 10 0 1
+    - DELAYTICK 5
+    - AROUND 10 CONDITIONS(%::objective_score_Pwither::%!=1) CUSTOMDASH1 %block_x%
+      %block_y% %block_z% true
+    - /execute in minecraft:world_poderes positioned %block_x% %block_y% %block_z%
+      run playsound minecraft:entity.enderman.teleport ambient @a[distance=0..10]
+      ~ ~ ~ 10 0 1
+    - DELAYTICK 5
+    - AROUND 10 CONDITIONS(%::objective_score_Pwither::%!=1) CUSTOMDASH1 %block_x%
+      %block_y% %block_z% true
+    - /execute in minecraft:world_poderes positioned %block_x% %block_y% %block_z%
+      run playsound minecraft:entity.enderman.teleport ambient @a[distance=0..10]
+      ~ ~ ~ 10 0 1
+    - DELAYTICK 5
+    - AROUND 10 CONDITIONS(%::objective_score_Pwither::%!=1) CUSTOMDASH1 %block_x%
+      %block_y% %block_z% true
+    - /execute in minecraft:world_poderes positioned %block_x% %block_y% %block_z%
+      run playsound minecraft:entity.enderman.teleport ambient @a[distance=0..10]
+      ~ ~ ~ 10 0 1
+    - DELAYTICK 5
+    - AROUND 10 CONDITIONS(%::objective_score_Pwither::%!=1) CUSTOMDASH1 %block_x%
+      %block_y% %block_z% true
+    - /execute in minecraft:world_poderes positioned %block_x% %block_y% %block_z%
+      run playsound minecraft:entity.enderman.teleport ambient @a[distance=0..10]
+      ~ ~ ~ 10 0 1
+    - DELAYTICK 5
+    - AROUND 10 CONDITIONS(%::objective_score_Pwither::%!=1) CUSTOMDASH1 %block_x%
+      %block_y% %block_z% true
+    - /execute in minecraft:world_poderes positioned %block_x% %block_y% %block_z%
+      run playsound minecraft:entity.enderman.teleport ambient @a[distance=0..10]
+      ~ ~ ~ 10 0 1
+    - DELAYTICK 5
+    - AROUND 10 CONDITIONS(%::objective_score_Pwither::%!=1) CUSTOMDASH1 %block_x%
+      %block_y% %block_z% true
+    - /execute in minecraft:world_poderes positioned %block_x% %block_y% %block_z%
+      run playsound minecraft:entity.enderman.teleport ambient @a[distance=0..10]
+      ~ ~ ~ 10 0 1
+    - DELAYTICK 5
+    - AROUND 10 CONDITIONS(%::objective_score_Pwither::%!=1) CUSTOMDASH1 %block_x%
+      %block_y% %block_z% true
+    - /execute in minecraft:world_poderes positioned %block_x% %block_y% %block_z%
+      run playsound minecraft:entity.enderman.teleport ambient @a[distance=0..10]
+      ~ ~ ~ 10 0 1
+    - DELAYTICK 5
+    - AROUND 10 CONDITIONS(%::objective_score_Pwither::%!=1) CUSTOMDASH1 %block_x%
+      %block_y% %block_z% true
+    - /execute in minecraft:world_poderes positioned %block_x% %block_y% %block_z%
+      run playsound minecraft:entity.enderman.teleport ambient @a[distance=0..10]
+      ~ ~ ~ 10 0 1
+    - DELAYTICK 5
+    - AROUND 10 CONDITIONS(%::objective_score_Pwither::%!=1) CUSTOMDASH1 %block_x%
+      %block_y% %block_z% true
+    - /execute in minecraft:world_poderes positioned %block_x% %block_y% %block_z%
+      run playsound minecraft:entity.enderman.teleport ambient @a[distance=0..10]
+      ~ ~ ~ 10 0 1
+    - DELAYTICK 5
+    - AROUND 10 CONDITIONS(%::objective_score_Pwither::%!=1) CUSTOMDASH1 %block_x%
+      %block_y% %block_z% true
+    - /execute in minecraft:world_poderes positioned %block_x% %block_y% %block_z%
+      run playsound minecraft:entity.enderman.teleport ambient @a[distance=0..10]
+      ~ ~ ~ 10 0 1
+    - DELAYTICK 5
+    - AROUND 10 CONDITIONS(%::objective_score_Pwither::%!=1) CUSTOMDASH1 %block_x%
+      %block_y% %block_z% true
+    - /execute in minecraft:world_poderes positioned %block_x% %block_y% %block_z%
+      run playsound minecraft:entity.enderman.teleport ambient @a[distance=0..10]
+      ~ ~ ~ 10 0 1
+    - DELAYTICK 5
+    - AROUND 10 CONDITIONS(%::objective_score_Pwither::%!=1) CUSTOMDASH1 %block_x%
+      %block_y% %block_z% true
+    - /execute in minecraft:world_poderes positioned %block_x% %block_y% %block_z%
+      run playsound minecraft:entity.enderman.teleport ambient @a[distance=0..10]
+      ~ ~ ~ 10 0 1
+    - DELAY 1
+    - /execute in minecraft:world_poderes run setblock -38 33 -21 minecraft:air
+    - /minecraft:kill @e[tag=VoidW]
+    blockConditions: {}
+    variablesModification: {}
+recognitions: []
+attributes: {}
+config_5: true
+config_update: true

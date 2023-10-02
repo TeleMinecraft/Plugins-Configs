@@ -1,0 +1,21 @@
+timestamps:
+  login: 1626914706695
+  logout: 1626915335598
+  lastteleport: 1626297060376
+lastlocation:
+  world: world
+  x: -2970.070859185463
+  y: 67.9375
+  z: -4534.570530690784
+  yaw: 176.97614
+  pitch: 42.53063
+logoutlocation:
+  world: world
+  x: -2641.073669444393
+  y: 62.0
+  z: -4701.462523021185
+  yaw: 325.27405
+  pitch: 66.98355
+money: '175000'
+ip-address: 186.21.211.60
+last-account-name: aronpiper

@@ -1,0 +1,14 @@
+location: world_tnt:0.500:29.750:-18.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&6&lUnirse a una partida'
+    height: 0.3
+  - content: '&6&lde &#FF0000&lTNT&4&lRUN'
+    height: 0.3
+  actions: {}

@@ -1,0 +1,30 @@
+timestamps:
+  login: 1589086113048
+  logout: 1589087961928
+  lastteleport: 1587955833729
+logoutlocation:
+  world: void_world
+  x: 31.4538372948615
+  y: 46.49382911291293
+  z: 106.390817616946
+  yaw: -356.5389
+  pitch: 5.8500495
+lastlocation:
+  world: world
+  x: 771.5
+  y: 73.0000002
+  z: -3002.5
+  yaw: 6.2999997
+  pitch: 4.650001
+afk: false
+money: '1220884.8387500000000552'
+homes:
+  home:
+    world: world
+    x: 3671.123430136957
+    y: 60.0
+    z: 418.8532468171348
+    yaw: -336.14917
+    pitch: 12.9000225
+ip-address: 200.83.92.248
+last-account-name: H4T3_Y0U

@@ -1,0 +1,72 @@
+timestamps:
+  login: 1691868440220
+  lastteleport: 1691869137323
+  logout: 1691869363730
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: 641.1567707780397
+  y: 72.0
+  z: 1384.827546218726
+  yaw: 17.061153411865234
+  pitch: 14.701057434082031
+  world-name: world
+money: '73618.22449999999972307'
+homes:
+  home:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: 641.6851519026848
+    y: 73.0
+    z: 1391.6306582478335
+    yaw: 12.2608642578125
+    pitch: 73.65094757080078
+    world-name: world
+  spawn:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: 533.3034468235079
+    y: 24.0
+    z: 1211.1927761977981
+    yaw: -351.31109619140625
+    pitch: 22.049081802368164
+    world-name: world
+  spawn2:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: 481.7682247465977
+    y: 5.0
+    z: 1407.921593217644
+    yaw: -185.17926025390625
+    pitch: 22.199888229370117
+    world-name: world
+  base:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: -1740.8849341940954
+    y: 78.0
+    z: -1073.4161528308675
+    yaw: -74.54025268554688
+    pitch: 61.0500602722168
+    world-name: world
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: 369.90381831293155
+  y: 70.0
+  z: -446.60916087937306
+  yaw: 52.94769287109375
+  pitch: -4.500012397766113
+  world-name: world
+nickname: §e§l§oc§9§l§oh§6§l§oi§a§l§op§c§l§oy§3§l§od§d§l§oa§b§l§oy§5§l§oy
+ip-address: 170.82.190.108
+last-account-name: chipydayy
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false

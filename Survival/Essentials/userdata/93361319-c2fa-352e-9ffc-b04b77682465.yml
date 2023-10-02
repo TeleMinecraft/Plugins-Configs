@@ -1,0 +1,48 @@
+timestamps:
+  login: 1689959264316
+  logout: 1689959372321
+  lastteleport: 1654741081292
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: -1148.699999988079
+  y: 39.13151994006131
+  z: -1037.699999988079
+  yaw: 146.9749755859375
+  pitch: -90.0
+  world-name: world
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: 1765.758195730383
+  y: 69.0
+  z: 595.4656340399637
+  yaw: -94.1995849609375
+  pitch: 9.599993705749512
+  world-name: world
+money: '2104052.0'
+homes:
+  home:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: -1167.4420767998317
+    y: 77.0
+    z: -1024.467543907354
+    yaw: -286.950439453125
+    pitch: 6.600028038024902
+    world-name: world
+nickname: §3GravityCube
+ip-address: 179.56.111.170
+last-account-name: GravityCube
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false

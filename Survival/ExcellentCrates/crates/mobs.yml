@@ -1,0 +1,876 @@
+Name: '&3&lCaja de Mobs'
+Animation_Config: wander
+Preview_Config: default
+Permission_Required: false
+Attached_Citizens: ''
+Opening:
+  Cooldown: 15
+  Cost:
+    MONEY: 0.0
+    EXP: 0.0
+Key:
+  Ids: []
+Block:
+  Locations: []
+  Pushback:
+    Enabled: false
+  Hologram:
+    Enabled: false
+    Offset:
+      Y: 1.5
+    Text:
+    - '&c&lMYSTERY CRATE'
+    - '&7Buy a key at &cwww.myserver.com&c'
+  Effect:
+    Model: SIMPLE
+    Particle:
+      Name: FLAME
+      Data: ''
+Rewards:
+  List:
+    allay:
+      Name: '&3&lAllays'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800pdlkmspb3e9gmct1qc5m6oobpbtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800pdlkmspb3e9gmct1qc5m6oobpbtpn0obndpfmapr70400agrfeln78g00
+      Ignored_For_Permissions: []
+    axolot:
+      Name: '&3&lAjolotes'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01mrb9dpim6sj1cpq3kobodtm6ut3cbtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01mrb9dpim6sj1cpq3kobodtm6ut3cbtpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    9e650ad3-c86c-469d-b4e2-20c90b5d414d:
+      Name: '&3&lMurciélagos'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400bmqqbeclhn4ob6egt64obkbtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400bmqqbeclhn4ob6egt64obkbtpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    33cedced-7292-46b8-bdea-8c857a3577d0:
+      Name: '&3&lAbejas'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400bmqqbeclhn4ob6egt64pb5btpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400bmqqbeclhn4ob6egt64pb5btpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    9ddba785-b1f7-4cdf-bdac-71be527d98b1:
+      Name: '&3&lBlazes'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800pdlkmspb3e9gmct1qc9m62uj5btpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800pdlkmspb3e9gmct1qc9m62uj5btpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    848a0435-495a-4591-b5d8-73d9588f32de:
+      Name: '&3&lGatos'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400bmqqbeclhn4ob6egt66obkbtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400bmqqbeclhn4ob6egt66obkbtpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    7513c081-5cff-48cd-b4be-3a1e4c688f41:
+      Name: '&3&lArañas de Cueva'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i007rdd5n6aoric5j78ej3c5r6anrje1km8pbibtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i007rdd5n6aoric5j78ej3c5r6anrje1km8pbibtpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    606bebb3-44c0-48df-81ea-41bd8cca2dc5:
+      Name: '&3&lGallinas'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01mrb9dpim6sj1cpq3kor8d5hmmpbebtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01mrb9dpim6sj1cpq3kor8d5hmmpbebtpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    488eaff8-ec36-42c2-a38a-6a089a7a48d0:
+      Name: '&3&lBacalaos'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400bmqqbeclhn4ob6egt66rr4btpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400bmqqbeclhn4ob6egt66rr4btpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    37adac50-941d-4065-88ea-e0921ff60546:
+      Name: '&3&lVacas'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400bmqqbeclhn4ob6egt66rrnbtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400bmqqbeclhn4ob6egt66rrnbtpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    257607c4-09ec-42dd-a93f-aed2f8e227b2:
+      Name: '&3&lCreepers'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01mrb9dpim6sj1cpq3koriclin0pbibtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01mrb9dpim6sj1cpq3koriclin0pbibtpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    2f4ef115-e828-4713-b27e-b871b094986a:
+      Name: '&3&lDelfines'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01mrb9dpim6sj1cpq3kp3fdho6gqbebtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01mrb9dpim6sj1cpq3kp3fdho6gqbebtpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    c78f11b7-bd24-451c-ae2e-3db4137f8a83:
+      Name: '&3&lBurros'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i006jdd5n6aoric5j78ej4dtn6mpbpbtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i006jdd5n6aoric5j78ej4dtn6mpbpbtpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    6f864db6-5ccd-4622-89ef-0ba9e85503bb:
+      Name: '&3&lAhogados'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01mrb9dpim6sj1cpq3kp3idtrmspb4btpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01mrb9dpim6sj1cpq3kp3idtrmspb4btpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    85a62f84-35b2-44f6-b0a3-939f5312c403:
+      Name: '&3&lElder Guardians'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip0049mmirj5cdp62pjk79imop35e9fmetb1e9i6iobebtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip0049mmirj5cdp62pjk79imop35e9fmetb1e9i6iobebtpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    578e46b6-cb9b-4e71-a5de-8ad99cbfe6a4:
+      Name: '&3&lEndermans'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400e6qqbeclhn4ob6egt6arj4clp6qobebtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400e6qqbeclhn4ob6egt6arj4clp6qobebtpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    8193d03f-28e0-4a2b-993a-87bb04b28ac6:
+      Name: '&3&lEndermites'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip003lmmirj5cdp62pjk79imsp35e9mmit35btpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip003lmmirj5cdp62pjk79imsp35e9mmit35btpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    0aa2b643-26eb-4c98-b8fa-d16eb337a85b:
+      Name: '&3&lEvokers'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i006jdd5n6aoric5j78ej5epnmmpbibtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i006jdd5n6aoric5j78ej5epnmmpbibtpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    51cb3369-799c-43a8-a7d3-1245d25d5ccb:
+      Name: '&3&lZorros'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400bmqqbeclhn4ob6egt6crrobtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400bmqqbeclhn4ob6egt6crrobtpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    frogs:
+      Name: '&3&lRanas'
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip0031mmirj5cdp62pjk79j74rr7btpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip0031mmirj5cdp62pjk79j74rr7btpn0obndpfmapr70400agrfeln78g00
+      Ignored_For_Permissions: []
+    b6b568d4-6912-40cb-8706-3f6383e05149:
+      Name: '&3&lGhasts'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800pdlkmspb3e9gmct1qctk62srkbtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800pdlkmspb3e9gmct1qctk62srkbtpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    glowsquid:
+      Name: '&3&lCalamares Brillantes'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800udlkmspb3e9gmct1qctm6utqvedonaqb4btpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800udlkmspb3e9gmct1qctm6utqvedonaqb4btpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    cabras:
+      Name: '&3&lCabras'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip0031mmirj5cdp62pjk79jmuobkbtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip0031mmirj5cdp62pjk79jmuobkbtpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    2e3e6e4e-6813-4d7e-834f-b4a2ee9b7dd1:
+      Name: '&3&lGuardianes'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400e6qqbeclhn4ob6egt6etb1e9i6iobebtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400e6qqbeclhn4ob6egt6etb1e9i6iobebtpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    715b9230-7c8e-44c0-b2ad-1289bf246c36:
+      Name: '&3&lHoglins'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i006jdd5n6aoric5j78ej8dtjmoqbebtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i006jdd5n6aoric5j78ej8dtjmoqbebtpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    049d5a24-de84-465c-b582-f04dc0111cdc:
+      Name: '&3&lCaballos'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800pdlkmspb3e9gmct1qd1nn4sr5btpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800pdlkmspb3e9gmct1qd1nn4sr5btpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    50d549ab-4091-4ef8-8bcd-7ead26d1eb70:
+      Name: '&3&lZombies Momificados'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip0031mmirj5cdp62pjk79k7asrbbtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip0031mmirj5cdp62pjk79k7asrbbtpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    0a595909-491e-4476-a939-2a18a38d4ac1:
+      Name: '&3&lLlamas'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800pdlkmspb3e9gmct1qdhm62rb1btpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800pdlkmspb3e9gmct1qdhm62rb1btpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    9c4185fa-88f8-4200-b634-377ff53c827a:
+      Name: '&3&lCubos de Magma'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800udlkmspb3e9gmct1qdlgmerb1bthnaoj5btpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800udlkmspb3e9gmct1qdlgmerb1bthnaoj5btpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    3f538b2e-02e1-461c-81ee-297e4c3ef945:
+      Name: '&3&lVacasetas'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip003lmmirj5cdp62pjk79mmurrjd1p6urrdbtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip003lmmirj5cdp62pjk79mmurrjd1p6urrdbtpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    70e7e74e-775b-4522-b0a8-ff7b16158a2f:
+      Name: '&3&lMulas'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip0031mmirj5cdp62pjk79mnar35btpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip0031mmirj5cdp62pjk79mnar35btpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    3427f7b7-aee1-46ac-a607-32a263c74f59:
+      Name: '&3&lOcelotes'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i006jdd5n6aoric5j78ejfcdimorrkbtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i006jdd5n6aoric5j78ejfcdimorrkbtpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    89496414-e156-491c-91ee-adbf346ad5a7:
+      Name: '&3&lPandas'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800pdlkmspb3e9gmct1qe1gmsp31btpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800pdlkmspb3e9gmct1qe1gmsp31btpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    fa56d47f-ecc4-4789-b1f3-c60b6825b398:
+      Name: '&3&lLoros'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i006jdd5n6aoric5j78ejgc5p74rrkbtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i006jdd5n6aoric5j78ejgc5p74rrkbtpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    48060b45-edea-463f-92dc-75b89707925b:
+      Name: '&3&lPhantoms'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01mrb9dpim6sj1cpq3ks38c5n78rrdbtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01mrb9dpim6sj1cpq3ks38c5n78rrdbtpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    2a8fb5cb-825b-4fd7-8f4e-e1998ff0e678:
+      Name: '&3&lCerdos'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400bmqqbeclhn4ob6egt70qb7btpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400bmqqbeclhn4ob6egt70qb7btpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    46854c49-359f-4350-a5fc-26b98b8de0b0:
+      Name: '&3&lPiglins Brutos'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg020rb9dpim6sj1cpq3ks39ctm6irivc9p7at35btpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg020rb9dpim6sj1cpq3ks39ctm6irivc9p7at35btpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    1ea5ce98-51f7-4e4e-ae0c-1242e4b3fca0:
+      Name: '&3&lPiglins'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i006jdd5n6aoric5j78ejgd5jmoqbebtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i006jdd5n6aoric5j78ejgd5jmoqbebtpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    bbb20347-91f4-436b-a00b-cbf182903531:
+      Name: '&3&lPillagers'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400e6qqbeclhn4ob6egt70qbcdhgmepbibtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400e6qqbeclhn4ob6egt70qbcdhgmepbibtpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    7b0a30bc-8a94-4eff-88f8-6302d0b0051f:
+      Name: '&3&lOsos Polares'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800udlkmspb3e9gmct1qe1nmoobibth6aobibtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800udlkmspb3e9gmct1qe1nmoobibth6aobibtpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    1400b7d3-07f8-41cd-8f3c-e93bf4b81854:
+      Name: '&3&lPeces Globo'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800udlkmspb3e9gmct1qe1qmcpj5e9j6isr8btpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800udlkmspb3e9gmct1qe1qmcpj5e9j6isr8btpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    f4f5a60f-a879-4d3b-9f5a-824e44580f41:
+      Name: '&3&lConejos'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i006jdd5n6aoric5j78ejic5h64qbkbtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i006jdd5n6aoric5j78ejic5h64qbkbtpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    97fcc503-6f02-4c5a-ab86-61ae80b80179:
+      Name: '&3&lRavagers'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01mrb9dpim6sj1cpq3ksj1epgmepbibtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01mrb9dpim6sj1cpq3ksj1epgmepbibtpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    45c6629b-91a0-4647-87c5-617ad3b444ae:
+      Name: '&3&lSalmones'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i006jdd5n6aoric5j78ejjc5m6qrrebtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i006jdd5n6aoric5j78ejjc5m6qrrebtpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    2fceaba7-3e71-4788-88a5-bcef9f4ae771:
+      Name: '&3&lOvejas'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800pdlkmspb3e9gmct1qedk6apbgbtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800pdlkmspb3e9gmct1qedk6apbgbtpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    2143255a-bb61-402b-99d8-50a9217ee471:
+      Name: '&3&lShulkers'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01mrb9dpim6sj1cpq3ksr8elm6mpbibtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01mrb9dpim6sj1cpq3ksr8elm6mpbibtpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    fda72fc5-1d71-4d77-8668-0c45926f7754:
+      Name: '&3&lSilverfishs'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800udlkmspb3e9gmct1qedkmotj5e9j6isr8btpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800udlkmspb3e9gmct1qedkmotj5e9j6isr8btpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    97169fe1-d8d2-480a-a25f-edc9f49edbf7:
+      Name: '&3&lCaballos Esqueléticos'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip0049mmirj5cdp62pjk79pmmpbcclq6urivd1nn4sr5btpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip0049mmirj5cdp62pjk79pmmpbcclq6urivd1nn4sr5btpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    b3f6e5e4-ada3-44cd-a445-873c2212a80a:
+      Name: '&3&lEsqueletos'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400e6qqbeclhn4ob6egt76qr5dhin8rrebtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400e6qqbeclhn4ob6egt76qr5dhin8rrebtpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    5dc681e6-fb4a-403c-ada4-1e841fd9df3e:
+      Name: '&3&lSlimes'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800pdlkmspb3e9gmct1qedm6irb5btpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800pdlkmspb3e9gmct1qedm6irb5btpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    a67b507d-c3c8-42c2-9f24-4a5d15c5c6e5:
+      Name: '&3&lArañas'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i006jdd5n6aoric5j78ejje1km8pbibtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i006jdd5n6aoric5j78ejje1km8pbibtpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    38557941-b88b-4458-bcb1-fc94d39fa11d:
+      Name: '&3&lCalamares'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800pdlkmspb3e9gmct1qedonaqb4btpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800pdlkmspb3e9gmct1qedonaqb4btpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    17d932b5-cacc-440e-a44d-c619afadd51a:
+      Name: '&3&lEsqueletos Glaciales'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800pdlkmspb3e9gmct1qedq74obpbtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800pdlkmspb3e9gmct1qedq74obpbtpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    b79d8384-6c27-4fc5-af5f-945c42aae8fa:
+      Name: '&3&lStriders'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01mrb9dpim6sj1cpq3ksrke9km8pbibtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01mrb9dpim6sj1cpq3ksrke9km8pbibtpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    d78a25e1-1adc-4582-9f76-039ade7fa918:
+      Name: '&3&lLlamas Ambulantes'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg020rb9dpim6sj1cpq3kt3ic5i6asivdhm62rb1btpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg020rb9dpim6sj1cpq3kt3ic5i6asivdhm62rb1btpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    80f9e208-c997-45bc-9437-2c5a5ba36942:
+      Name: '&3&lPeces Tropicales'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400gmqqbeclhn4ob6egt78sjfe1km6obcbtj6isr8btpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400gmqqbeclhn4ob6egt78sjfe1km6obcbtj6isr8btpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    f55b1e22-c5c5-49d0-adca-a40a07ab5462:
+      Name: '&3&lTortugas'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i006jdd5n6aoric5j78ejkelp78r35btpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i006jdd5n6aoric5j78ejkelp78r35btpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    b479c1f7-5f92-4f47-82b9-aa4a642c3fc4:
+      Name: '&3&lVexs'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400bmqqbeclhn4ob6egt7cpbobtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400bmqqbeclhn4ob6egt7cpbobtpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    f640d768-ce64-4e22-87f8-cf2f7b42dc32:
+      Name: '&3&lAldeanos'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400e6qqbeclhn4ob6egt7cqbcdhgmepbibtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400e6qqbeclhn4ob6egt7cqbcdhgmepbibtpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    7125688c-7349-4635-a31f-fc9141aef26e:
+      Name: '&3&lVindicators'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800udlkmspb3e9gmct1qepkmsp39cdgn8rribtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800udlkmspb3e9gmct1qepkmsp39cdgn8rribtpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    cfbe79d1-5196-4aaf-912d-71d9b5f0ca62:
+      Name: '&3&lAldeano Ambulante'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i0093dd5n6aoric5j78ejnc5n68pbid5n6enrke9gm8pbibtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i0093dd5n6aoric5j78ejnc5n68pbid5n6enrke9gm8pbibtpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    warden:
+      Name: '&3&lWardens'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i006jdd5n6aoric5j78ejnc5p68pbebtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i006jdd5n6aoric5j78ejnc5p68pbebtpn0obndpfmapr70400agrfeln78g00
+      Ignored_For_Permissions: []
+    68b46726-64d2-4f69-bf8b-fda4d79ba56f:
+      Name: '&3&lBrujas'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800pdlkmspb3e9gmct1qetkn8or8btpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800pdlkmspb3e9gmct1qetkn8or8btpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    15f54c40-8a05-43ef-ba45-55762dfef032:
+      Name: '&3&lEsqueletos Wither'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km8013dlkmspb3e9gmct1qetkn8q35e9fn6qr5dhin8rrebtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km8013dlkmspb3e9gmct1qetkn8q35e9fn6qr5dhin8rrebtpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    5b9d6f4d-31e1-4d7b-b414-079ad805fc9b:
+      Name: '&3&lLobos'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip0031mmirj5cdp62pjk79rmur36btpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip0031mmirj5cdp62pjk79rmur36btpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    b262715c-c061-42a7-83d7-fa788d4c939a:
+      Name: '&3&lZoglins'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i006jdd5n6aoric5j78ejqdtjmoqbebtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i006jdd5n6aoric5j78ejqdtjmoqbebtpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    cb1c29ec-db4d-4c92-8ccf-c307da817f4a:
+      Name: '&3&lCaballos Zombificados'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg020rb9dpim6sj1cpq3kujfdlh6ipavd1nn4sr5btpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg020rb9dpim6sj1cpq3kujfdlh6ipavd1nn4sr5btpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    deb9edd4-b907-4489-8317-e7aceb3e20b7:
+      Name: '&3&lZombies'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i006jdd5n6aoric5j78ejqdtmm4qb5btpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i006jdd5n6aoric5j78ejqdtmm4qb5btpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    d083e072-47f2-4dcc-89cc-731cf8f82cff:
+      Name: '&3&lAldeanos Zombie'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km8013dlkmspb3e9gmct1qf9nmqoj9clfncqbcdhgmepbibtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km8013dlkmspb3e9gmct1qf9nmqoj9clfncqbcdhgmepbibtpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+    e1fe73ea-5710-4009-99c0-11f9268d700b:
+      Name: '&3&lPiglins Zombificados'
+      Chance: 1.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i0093dd5n6aoric5j78ejqdtmm4qb6d5im8nrgd5jmoqbebtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i0093dd5n6aoric5j78ejqdtmm4qb6d5im8nrgd5jmoqbebtpn0obndpfmapr70400agrfeln782g0
+      Ignored_For_Permissions: []
+Item:
+  Material: CHEST
+  Name: '&3&lCaja de Mobs'
+  Lore:
+  - '&7Click izquierdo para ver los premios'
+  - '&aClick derecho para abrir!'

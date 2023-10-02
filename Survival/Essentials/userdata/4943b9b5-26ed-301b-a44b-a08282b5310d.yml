@@ -1,0 +1,44 @@
+timestamps:
+  login: 1606482371982
+  logout: 1606484387523
+  lastteleport: 1606484189421
+lastlocation:
+  world: world
+  x: -1205.1872960328876
+  y: 44.0
+  z: -1427.6534462246689
+  yaw: 38.12506
+  pitch: 25.199917
+logoutlocation:
+  world: world
+  x: 582.6900792620056
+  y: 76.0
+  z: 526.3087049573542
+  yaw: 359.98016
+  pitch: 25.499903
+money: '3602732.35600000000038787'
+homes:
+  mina:
+    world: world
+    x: -1069.5789180066163
+    y: 12.0
+    z: -1464.888307496885
+    yaw: 27.067444
+    pitch: 33.299965
+  exp:
+    world: world
+    x: -1209.0366980527017
+    y: 44.0
+    z: -1425.8431677919887
+    yaw: 85.52579
+    pitch: 14.549915
+  casa:
+    world: world
+    x: 4898.182228741175
+    y: 86.0
+    z: 1821.6378110740832
+    yaw: 176.84995
+    pitch: 27.15003
+nickname: §3§lHunterX
+ip-address: 191.125.131.228
+last-account-name: DilaonX

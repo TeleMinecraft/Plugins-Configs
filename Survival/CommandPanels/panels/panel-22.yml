@@ -1,0 +1,355 @@
+panels:
+  panel-22:
+    perm: default
+    sound-on-open: BLOCK_NOTE_BLOCK_CHIME
+    rows: 5
+    animatevalue: 2
+    title: '&d&lTiendas Especiales'
+    item:
+      '0':
+        material: MAGENTA_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+        commands:
+        - op= cp panel-4
+        animate0:
+          material: BLACK_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - op= tp ~ ~ ~
+      '1':
+        material: MAGENTA_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+        commands:
+        - op= cp panel-4
+        animate0:
+          material: BLACK_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - op= tp ~ ~ ~
+      '2':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+        commands:
+        - op= cp panel-4
+        animate0:
+          material: MAGENTA_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - op= tp ~ ~ ~
+      '3':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+        commands:
+        - op= cp panel-4
+        animate0:
+          material: MAGENTA_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - op= tp ~ ~ ~
+      '4':
+        material: MAGENTA_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+        commands:
+        - op= cp panel-4
+        animate0:
+          material: BLACK_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - op= tp ~ ~ ~
+      '5':
+        material: MAGENTA_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+        commands:
+        - op= cp panel-4
+        animate0:
+          material: BLACK_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - op= tp ~ ~ ~
+      '6':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+        commands:
+        - op= cp panel-4
+        animate0:
+          material: MAGENTA_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - op= tp ~ ~ ~
+      '7':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+        commands:
+        - op= cp panel-4
+        animate0:
+          material: MAGENTA_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - op= tp ~ ~ ~
+      '8':
+        material: MAGENTA_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+        commands:
+        - op= cp panel-4
+        animate0:
+          material: BLACK_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - op= tp ~ ~ ~
+      '9':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+        commands:
+        - op= cp panel-4
+        animate0:
+          material: MAGENTA_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - op= tp ~ ~ ~
+      '17':
+        material: MAGENTA_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+        commands:
+        - op= cp panel-4
+        animate0:
+          material: BLACK_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - op= tp ~ ~ ~
+      '18':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+        commands:
+        - op= cp panel-4
+        animate0:
+          material: MAGENTA_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - op= tp ~ ~ ~
+      '20':
+        material: OBSERVER
+        stack: 1
+        name: '&5&lTienda Oculta'
+        lore:
+        - '&cAún no descubres este lugar...'
+        commands:
+        - msg= &8&lPista &7&oSe encuentra en el &nPoblado
+        - cpc
+        has0:
+          value0: '%objective_score_TiendaO%'
+          compare0: 1
+          material: OBSERVER
+          name: '&5&lTienda Oculta'
+          lore:
+          - '&7[Click para ir]'
+          commands:
+          - op= mvtp %cp-player-name% world
+          - op= minecraft:tp %cp-player-name% 479 23 541 0 0
+          - cpc
+          - msg= &6Teletransportando a &cTienda Oculta&6...
+      '21':
+        material: HEART_OF_THE_SEA
+        stack: 1
+        name: '&3&lTienda Nórdica'
+        lore:
+        - '&7[Click para ir]'
+        commands:
+        - op= mvtp %cp-player-name% world
+        - op= minecraft:tp %cp-player-name% 4458 67 7375 90 0
+        - cpc
+        - msg= &6Teletransportando a &cTienda Nórdica&6...
+      '22':
+        material: IRON_SWORD
+        stack: 1
+        customdata: 1000002
+        name: '&6&lTienda de Katanas'
+        lore:
+        - '&cAún no descubres este lugar...'
+        commands:
+        - msg= &8&lPista &7&oDebes hablar con &nSin'Ichi
+        - cpc
+        has0:
+          value0: '%objective_score_TiendaK%'
+          compare0: 1
+          material: IRON_SWORD
+          customdata: 1000002
+          name: '&6&lTienda de Katanas'
+          lore:
+          - '&7[Click para ir]'
+          commands:
+          - op= mvtp %cp-player-name% world
+          - op= minecraft:tp %cp-player-name% -3351 64 7810 0 -15
+          - cpc
+          - msg= &6Teletransportando a &cTienda de Katanas&6...
+      '23':
+        material: NETHER_GOLD_ORE
+        stack: 1
+        name: '&4&lTienda Infernal'
+        lore:
+        - '&cAún no descubres este lugar...'
+        commands:
+        - msg= &8&lPista &7&oMira a los ojos a &nHerobrine
+        - cpc
+        has0:
+          value0: '%objective_score_TiendaI%'
+          compare0: 1
+          material: NETHER_GOLD_ORE
+          name: '&4&lTienda Infernal'
+          lore:
+          - '&7[Click para ir]'
+          commands:
+          - op= mvtp %cp-player-name% world
+          - op= minecraft:tp %cp-player-name% 427 54 -475 270 0
+          - cpc
+          - msg= &6Teletransportando a &cTienda Infernal&6...
+      '24':
+        material: IRON_SWORD
+        stack: 1
+        customdata: 1000004
+        name: '&e&lTienda de Lanzas' 
+        lore:
+        - '&cNo disponible aún...'
+      '26':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+        commands:
+        - op= cp panel-4
+        animate0:
+          material: MAGENTA_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - op= tp ~ ~ ~
+      '27':
+        material: MAGENTA_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+        commands:
+        - op= cp panel-4
+        animate0:
+          material: BLACK_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - op= tp ~ ~ ~
+      '35':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+        commands:
+        - op= cp panel-4
+        animate0:
+          material: MAGENTA_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - op= tp ~ ~ ~
+      '36':
+        material: MAGENTA_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+        commands:
+        - op= cp panel-4
+        animate0:
+          material: BLACK_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - op= tp ~ ~ ~
+      '37':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+        commands:
+        - op= cp panel-4
+        animate0:
+          material: MAGENTA_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - op= tp ~ ~ ~
+      '38':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+        commands:
+        - op= cp panel-4
+        animate0:
+          material: MAGENTA_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - op= tp ~ ~ ~
+      '39':
+        material: MAGENTA_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+        commands:
+        - op= cp panel-4
+        animate0:
+          material: BLACK_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - op= tp ~ ~ ~
+      '40':
+        material: MAGENTA_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+        commands:
+        - op= cp panel-4
+        animate0:
+          material: BLACK_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - op= tp ~ ~ ~
+      '41':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+        commands:
+        - op= cp panel-4
+        animate0:
+          material: MAGENTA_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - op= tp ~ ~ ~
+      '42':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+        commands:
+        - op= cp panel-4
+        animate0:
+          material: MAGENTA_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - op= tp ~ ~ ~
+      '43':
+        material: MAGENTA_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+        commands:
+        - op= cp panel-4
+        animate0:
+          material: BLACK_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - op= tp ~ ~ ~
+      '44':
+        material: MAGENTA_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+        commands:
+        - op= cp panel-4
+        animate0:
+          material: BLACK_STAINED_GLASS_PANE
+          name: ''
+          commands:
+          - op= tp ~ ~ ~

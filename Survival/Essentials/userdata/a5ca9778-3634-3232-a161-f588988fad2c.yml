@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 200.124.53.6
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1659989103601
+  login: 1659988804147
+money: '0'
+last-account-name: Choclotodojunto
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 415.5
+  y: 78.0
+  z: -514.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 1024.6456934690211
+  y: 71.0
+  z: 225.52592574581777
+  yaw: -128.819091796875
+  pitch: 37.57789611816406

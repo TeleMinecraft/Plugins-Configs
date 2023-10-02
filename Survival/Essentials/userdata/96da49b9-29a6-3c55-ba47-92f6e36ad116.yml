@@ -1,0 +1,29 @@
+timestamps:
+  login: 1623531328973
+  logout: 1623531582888
+  lastteleport: 1623469746493
+lastlocation:
+  world: world
+  x: 420.4894231339816
+  y: 77.0
+  z: -452.7150796249606
+  yaw: 273.78406
+  pitch: 7.684648
+money: '1327834.000'
+logoutlocation:
+  world: world
+  x: 3078.513946494943
+  y: 254.0
+  z: 958.3000000119209
+  yaw: 181.24518
+  pitch: 16.912579
+homes:
+  home:
+    world: world
+    x: -2017.055865687732
+    y: 63.0
+    z: -1890.0482140005797
+    yaw: 195.67589
+    pitch: 32.54496
+ip-address: 200.74.1.224
+last-account-name: Juxnpxhouston

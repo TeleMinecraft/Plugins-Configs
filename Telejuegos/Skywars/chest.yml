@@ -1,0 +1,227 @@
+chestItems:
+  '50':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: OAK_PLANKS
+      amount: 8
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: STONE
+      amount: 8
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: BREAD
+      amount: 3
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: APPLE
+      amount: 3
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: BAKED_POTATO
+      amount: 3
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: WATER_BUCKET
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: LAVA_BUCKET
+  '40':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: SNOWBALL
+      amount: 2
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: EGG
+      amount: 2
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: BOW
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: EXPERIENCE_BOTTLE
+      amount: 3
+  '35':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: LEATHER_BOOTS
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: LEATHER_CHESTPLATE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: LEATHER_HELMET
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: LEATHER_LEGGINGS
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: WOODEN_SHOVEL
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: WOODEN_PICKAXE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: WOODEN_AXE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: WOODEN_SWORD
+  '30':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: EGG
+      amount: 12
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: SNOWBALL
+      amount: 12
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: ARROW
+      amount: 12
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: OAK_PLANKS
+      amount: 16
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: STONE
+      amount: 16
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: COOKED_BEEF
+      amount: 2
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: COOKED_CHICKEN
+      amount: 2
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: STONE_PICKAXE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: STONE_SWORD
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: STONE_AXE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: STONE_SHOVEL
+  '25':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: GOLDEN_BOOTS
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: GOLDEN_LEGGINGS
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: GOLDEN_HELMET
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: GOLDEN_CHESTPLATE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: EXPERIENCE_BOTTLE
+      amount: 5
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: IRON_PICKAXE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: IRON_SHOVEL
+  '20':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: ARROW
+      amount: 8
+  '15':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: IRON_BOOTS
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: IRON_HELMET
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: IRON_LEGGINGS
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: IRON_CHESTPLATE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: GOLDEN_APPLE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: IRON_AXE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: IRON_SWORD
+  '10':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: DIAMOND_PICKAXE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: DIAMOND_SHOVEL
+  '5':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: DIAMOND_CHESTPLATE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: DIAMOND_BOOTS
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: DIAMOND_LEGGINGS
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: DIAMOND_HELMET
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: DIAMOND_SWORD
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: DIAMOND_AXE
+  '100':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: STONE
+      amount: 16
+  '90':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: OAK_PLANKS
+      amount: 8
+  '45':
+    items: []
+  '1':
+    items: []
+  '99':
+    items: []
+  '80':
+    items: []
+  '55':
+    items: []
+  '60':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: EXPERIENCE_BOTTLE
+      amount: 5
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: LAPIS_LAZULI
+      amount: 6

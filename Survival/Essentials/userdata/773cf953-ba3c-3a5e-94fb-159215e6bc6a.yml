@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 190.164.89.33
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1664156859027
+  login: 1664156660722
+money: '1000'
+last-account-name: RedLolingamer
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 415.5
+  y: 78.0
+  z: -514.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 463.0866349690498
+  y: 72.0
+  z: -764.4983421312754
+  yaw: -110.248779296875
+  pitch: -82.64995574951172

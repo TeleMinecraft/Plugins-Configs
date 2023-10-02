@@ -1,0 +1,19 @@
+playername: DarkWzzard19
+lang: es_ES
+minerate-full-mined: 10642
+minerate:
+  diamond: 0
+  gold: 24
+  iron: 161
+  coal: 314
+  ancient debris: 0
+better-click: 13
+cheats:
+  speed: 50
+  timer: 2
+  antiknockback: 2
+  nuker: 2
+  forcefield: 1
+  blink: 1
+  spider: 1
+creation-time: 1622673100985

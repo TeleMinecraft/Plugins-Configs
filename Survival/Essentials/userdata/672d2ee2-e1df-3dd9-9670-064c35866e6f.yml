@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 186.78.77.211
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1663871831635
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1663871837358
+  login: 1663871814808
+money: '0'
+last-account-name: CoRonOboROS
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 415.36776142599905
+  y: 78.0
+  z: -512.9988227972873
+  yaw: 5.412337303161621
+  pitch: 9.582496643066406
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 415.9098810531882
+  y: 77.0
+  z: -505.18464516080263
+  yaw: 3.1941661834716797
+  pitch: 23.423892974853516

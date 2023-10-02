@@ -1,0 +1,90 @@
+timestamps:
+  login: 1686351409350
+  lastteleport: 1686351943113
+  logout: 1686352401548
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+lastlocation:
+  world: 568a12f8-ed5a-459a-8069-bbe60c3cf4b0
+  x: 27.202979063961667
+  y: 61.0
+  z: -52.90749228089384
+  yaw: 170.84994506835938
+  pitch: 24.15001678466797
+  world-name: world_the_end
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: 997.9125034720154
+  y: 72.0
+  z: 2397.2370522314054
+  yaw: -3.841064453125
+  pitch: 18.45001220703125
+  world-name: world
+money: '1121630627.700000000000944305'
+homes:
+  casita:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: 994.9405254174221
+    y: 65.0
+    z: 2305.6991219617753
+    yaw: -143.04571533203125
+    pitch: 22.949934005737305
+    world-name: world
+  zombie:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: 1461.2955438635124
+    y: 22.0
+    z: 2905.5537555438873
+    yaw: 24.483596801757812
+    pitch: 46.5004997253418
+    world-name: world
+  spawnnuevos:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: -338.0496808861871
+    y: 25.0
+    z: 105.32900655760199
+    yaw: -146.521240234375
+    pitch: 10.34997844696045
+    world-name: world
+  osi:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: 3331.923888734947
+    y: 69.0
+    z: -115.37101050315354
+    yaw: -81.38858032226562
+    pitch: -23.70001792907715
+    world-name: world
+  mushroom:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: 11644.625309748273
+    y: 74.0
+    z: 34883.94890470159
+    yaw: 25.936279296875
+    pitch: 9.82231616973877
+  baseses:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: 4156.28327349441
+    y: 11.0
+    z: 53.34639231338727
+    yaw: 168.3956756591797
+    pitch: -7.579715728759766
+afk: false
+nickname: §3§lo§f§lr§3§lo§f§lz§3§lc§f§l0§3§l4§f§l8
+ip-address: 201.214.214.71
+last-account-name: orozc048
+lastAccountName: orozc048
+ipAddress: 201.214.56.214
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false

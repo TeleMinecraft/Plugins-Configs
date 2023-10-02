@@ -1,0 +1,29 @@
+timestamps:
+  login: 1591063320992
+  logout: 1591067418956
+  lastteleport: 1591067396685
+lastlocation:
+  world: world
+  x: -2950.3942115737696
+  y: 64.0
+  z: -4515.6121188537645
+  yaw: 118.8866
+  pitch: 21.750088
+homes:
+  home:
+    world: world
+    x: -1262.2176240476751
+    y: 72.0
+    z: -4001.4599996148986
+    yaw: 182.18614
+    pitch: 25.050001
+logoutlocation:
+  world: world
+  x: -1262.4761333408346
+  y: 72.0
+  z: -4002.9298906171657
+  yaw: 182.18614
+  pitch: 25.050001
+money: '1213203'
+ip-address: 190.101.247.206
+last-account-name: SrNico

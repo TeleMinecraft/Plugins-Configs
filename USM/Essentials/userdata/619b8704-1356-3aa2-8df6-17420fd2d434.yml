@@ -1,0 +1,21 @@
+logoutlocation:
+  world: world
+  x: -13.298101025372915
+  y: 31.0
+  z: 1.0654301897319742
+  yaw: 94.90029
+  pitch: 11.650033
+timestamps:
+  logout: 1629842457893
+  login: 1629842444052
+  lastteleport: 1628539949240
+afk: false
+lastlocation:
+  world: world
+  x: 0.5
+  y: 33.0
+  z: 0.5
+  yaw: 263.2499
+  pitch: 67.05002
+ip-address: 190.114.41.138
+last-account-name: Cebrp

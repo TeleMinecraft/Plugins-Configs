@@ -1,0 +1,6 @@
+2021-07-03 03:28:40.74: (214ms) 100% SPEED > Player in ground. WalkSpeed: 0.1599999964237213, Distance between from/to location: 1.2498550978513616, walkTest: true, walkWithEssentialsTest: true. Player version: V1_16. TPS: [20.00054873268973, 20.020500629028295, 20.018110160453855]
+2021-07-03 04:39:00.959: (156ms) 100% FORCEFIELD > Big distance with: zombie. Exact distance: 4.161168706104753, without thorns. Ping: 156. Player version: V1_16. TPS: [20.007477885891966, 20.04986750294811, 20.089541151151142]
+2021-07-03 04:39:01.01: (156ms) 100% FORCEFIELD > Big distance with: zombie. Exact distance: 4.161168706104753, without thorns. Ping: 156. Player version: V1_16. TPS: [20.007477885891966, 20.04986750294811, 20.089541151151142]
+2021-07-03 04:50:18.147: (172ms) 100% TIMER > Flying: 0, position: 0, look: 28, positionLook: 0, sum: 28.0, median: 28. Player version: V1_16. TPS: [20.005655664948808, 19.975005813339887, 20.013609976329843]
+2021-07-03 04:50:19.529: (172ms) 100% TIMER > Flying: 0, position: 0, look: 28, positionLook: 0, sum: 27.0, median: 28. Player version: V1_16. TPS: [19.621008682877523, 19.896178095839232, 19.987121747599847]
+2021-07-03 04:50:20.683: (172ms) 100% TIMER > Flying: 0, position: 0, look: 23, positionLook: 0, sum: 28.0, median: 28. Player version: V1_16. TPS: [19.621008682877523, 19.896178095839232, 19.987121747599847]

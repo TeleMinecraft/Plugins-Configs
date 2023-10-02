@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 186.107.19.227
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1682979344259
+  login: 1682979328347
+money: '0'
+last-account-name: Belepapa
+lastlocation:
+  world: 8039c8bf-b4ad-4692-9f73-205fa07ddece
+  world-name: world
+  x: 0.5
+  y: 33.0
+  z: 0.5
+  yaw: 270.0
+  pitch: 0.0
+logoutlocation:
+  world: 8039c8bf-b4ad-4692-9f73-205fa07ddece
+  world-name: world
+  x: 0.49282213760088345
+  y: 33.0
+  z: 1.357025806528436
+  yaw: 1.0
+  pitch: 6.0

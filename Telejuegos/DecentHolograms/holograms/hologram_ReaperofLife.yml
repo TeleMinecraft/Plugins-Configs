@@ -1,0 +1,20 @@
+location: world_poderes:-94.500:65.500:6.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&c&lReaper of Life'
+    height: 0.5
+  - content: '&fAtaque: &6&l|||'
+    height: 0.5
+  - content: '&fDefensa: &e&l|||||'
+    height: 0.5
+  - content: '&fVelocidad: &a&l|||||||'
+    height: 0.5
+  - content: '&fVida: &b&l||||||||||'
+    height: 0.5
+  actions: {}

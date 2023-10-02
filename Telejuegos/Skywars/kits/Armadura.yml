@@ -1,0 +1,90 @@
+inventory:
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: NETHERITE_BOOTS
+- ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: IRON_LEGGINGS
+- ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: DIAMOND_CHESTPLATE
+- ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: IRON_HELMET
+- null
+armor:
+- ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: NETHERITE_BOOTS
+- ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: IRON_LEGGINGS
+- ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: DIAMOND_CHESTPLATE
+- ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: IRON_HELMET
+requirePermission: true
+icon:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: DIAMOND_CHESTPLATE
+lockedIcon:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: BARRIER
+position: 1
+page: 1
+name: '&7&lArmadura'
+enabled: true
+lores:
+  unlocked:
+  - '&aClick para seleccionar'
+  - '&7Casco de Hierro x1'
+  - '&7Pechera de Diamante x1'
+  - '&7Pantalones de Hierro x1'
+  - '&7Botas de Netherite x1'
+  locked: '&cNo tienes acceso a este kit!'
+gameSettings:
+  noRegen: false
+  noPvp: false
+  soupPvp: false
+  noFallDamage: false
+filename: Armadura

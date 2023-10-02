@@ -1,0 +1,27 @@
+playername: Richard363
+lang: es_ES
+minerate-full-mined: 49241
+minerate:
+  diamond: 16
+  gold: 0
+  iron: 3
+  coal: 105
+  ancient debris: 0
+better-click: 37
+cheats:
+  forcefield: 4
+  blink: 2
+  speed: 4
+  timer: 5
+  inventorymove: 1
+  pingspoof: 4
+  antiknockback: 1
+  fly: 18
+  airplace: 8
+  airjump: 15
+  fastplace: 1
+  step: 4
+  nofall: 1
+  spider: 1
+  faststairs: 1
+creation-time: 1615242559669

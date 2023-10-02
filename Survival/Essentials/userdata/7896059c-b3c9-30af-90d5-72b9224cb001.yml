@@ -1,0 +1,55 @@
+timestamps:
+  login: 1651211089441
+  logout: 1651212507605
+  lastteleport: 1651211266667
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: 2551.0245247683547
+  y: 79.0
+  z: 3884.6951460693836
+  yaw: 1.050262451171875
+  pitch: 44.099918365478516
+  world-name: world
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: 43.84101138506987
+  y: 63.0
+  z: 1570.840638871474
+  yaw: 167.09222412109375
+  pitch: 10.50000286102295
+  world-name: world
+homes:
+  home:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: 43.229169694648775
+    y: 63.0
+    z: 1565.2473483465185
+    yaw: 97.49090576171875
+    pitch: 46.049991607666016
+    world-name: world
+  aldeanos:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: 3617.5
+    y: 70.0
+    z: 4115.5
+    yaw: -278.8842468261719
+    pitch: 15.300132751464844
+    world-name: world
+money: '1209796.02925000000136264'
+ip-address: 186.156.214.8
+last-account-name: rionio
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false

@@ -1,0 +1,181 @@
+panels:
+  panel-23:
+    perm: default
+    sound-on-open: BLOCK_BELL_USE
+    rows: 5
+    title: '$FF6800&lTienda de Katanas'
+    item:
+      '0':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: '&0'
+      '1':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&0'
+      '2':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: '&0'
+      '3':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: '&0'
+      '4':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&0'
+      '5':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: '&0'
+      '6':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: '&0'
+      '7':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&0'
+      '8':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: '&0'
+      '9':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&0'
+      '10':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: '&0'
+      '11':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: '&0'
+      '12':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&0'
+      '14':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&0'
+      '15':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: '&0'
+      '16':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: '&0'
+      '17':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&0'
+      '18':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: '&0'
+      '19':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&0'
+      '20':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&0'
+      '22':
+        material: ENDER_CHEST
+        stack: 1
+        name: '&6&lCaja de Katanas'
+        lore:
+        - '&7Click para comprar por &a&o$750000'
+        - '&7'
+        - '&7Tienes: &a&o$&a&o%cp-player-balance%'
+        commands:
+        - left= paywall= 750000
+        - left= op= crate give %cp-player-name% katana 1
+        - right= paywall= 750000
+        - right= op= crate give %cp-player-name% katana 1
+        - op= cp panel-23
+      '24':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&0'
+      '25':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&0'
+      '26':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: '&0'
+      '27':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&0'
+      '28':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: '&0'
+      '29':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: '&0'
+      '30':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&0'
+      '32':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&0'
+      '33':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: '&0'
+      '34':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: '&0'
+      '35':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&0'
+      '36':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: '&0'
+      '37':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&0'
+      '38':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: '&0'
+      '39':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: '&0'
+      '40':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&0'
+      '41':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: '&0'
+      '42':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: '&0'
+      '43':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&0'
+      '44':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: '&0'

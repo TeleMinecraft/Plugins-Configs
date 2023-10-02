@@ -1,0 +1,20 @@
+uuid: 02240c94-c47f-3092-bd64-3fd02df93c27
+wins: 16
+losses: 10
+kills: 10
+deaths: 10
+elo: 2147483612
+xp: 110
+pareffect: none
+proeffect: none
+glasscolor: none
+killsound: none
+winsound: none
+taunt: bots
+permissions:
+- sw.taunt.izi
+- sw.taunt.teclado
+- sw.killsound.none
+- sw.taunt.facilito
+- sw.taunt.hace
+- sw.taunt.bots

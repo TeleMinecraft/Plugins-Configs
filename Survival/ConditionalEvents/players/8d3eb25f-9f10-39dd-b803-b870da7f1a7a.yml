@@ -1,0 +1,8 @@
+name: Tiramisushi
+events:
+  event57:
+    one_time: false
+    cooldown: 1670625445126
+  event62:
+    one_time: false
+    cooldown: 1670623973419

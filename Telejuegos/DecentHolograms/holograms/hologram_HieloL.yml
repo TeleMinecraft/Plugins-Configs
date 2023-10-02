@@ -1,0 +1,12 @@
+location: world_ice:3.500:158.000:-8.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&dVolver al &a&lLobby'
+    height: 0.3
+  actions: {}

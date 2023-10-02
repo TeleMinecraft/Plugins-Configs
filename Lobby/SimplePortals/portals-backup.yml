@@ -1,0 +1,46 @@
+Survival:
+  last-fill-material: AIR
+  portal-server: Survival
+  point-1:
+    world: world
+    x: 3.0
+    y: 30.0
+    z: -96.0
+  point-2:
+    world: world
+    x: -3.0
+    y: 32.0
+    z: -96.0
+  teleport-location:
+    world: world
+    x: 3.0
+    y: 32.0
+    z: -96.0
+    yaw: 0.0
+    pitch: 0.0
+  commands-only: false
+  commands: []
+  disabled: false
+Telejuegos:
+  last-fill-material: AIR
+  portal-server: Telejuegos
+  point-1:
+    world: world
+    x: -71.0
+    y: 29.0
+    z: 0.0
+  point-2:
+    world: world
+    x: -71.0
+    y: 29.0
+    z: 0.0
+  teleport-location:
+    world: world
+    x: -71.0
+    y: 31.0
+    z: 0.0
+    yaw: 0.0
+    pitch: 0.0
+  commands-only: false
+  commands: []
+  disabled: false

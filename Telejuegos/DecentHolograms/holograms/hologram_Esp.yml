@@ -1,0 +1,20 @@
+location: world_skywars:11.020:34.200:-28.089
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: En el &bMenú Espectador
+    height: 0.3
+  - content: puedes &dobservar
+    height: 0.3
+  - content: las &9partidas en curso&r.
+    height: 0.3
+  - content: ¡Mira y aprende de los demás!
+    height: 0.3
+  - content: '#ICON: ender_eye'
+    height: 0.6
+  actions: {}

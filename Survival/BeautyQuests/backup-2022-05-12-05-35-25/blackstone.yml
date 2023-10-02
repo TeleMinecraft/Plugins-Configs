@@ -1,0 +1,50 @@
+customItem:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2860
+  type: CHISELED_POLISHED_BLACKSTONE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    ItemFlags:
+    - HIDE_ATTRIBUTES
+name: §8§lBlackstone Lover §2[Gremio]
+description: §eDemuestra tu amor por la Blackstone
+repeatable: true
+endRewards:
+- id: commandReward
+  commands:
+  - console: true
+    delay: 0
+    label: scoreboard players add {PLAYER} Prestigio 3
+- id: itemReward
+  items:
+  - v: 2860
+    type: GILDED_BLACKSTONE
+    amount: 3
+bypassLimit: true
+timer: 1440
+id: 9
+manager:
+  branches:
+  - order: 0
+    stages:
+    - stageType: MINE
+      customText: null
+      objects:
+        0:
+          amount: 10
+          object: BLACKSTONE
+      order: 0
+    - result:
+        v: 2860
+        type: POLISHED_BLACKSTONE
+      stageType: CRAFT
+      customText: null
+      order: 1
+    - result:
+        v: 2860
+        type: POLISHED_BLACKSTONE_BRICKS
+      stageType: CRAFT
+      customText: null
+      order: 2
+    endingStages: []

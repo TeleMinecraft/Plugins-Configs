@@ -1,0 +1,147 @@
+# For more information, check out the plugin manual or join us on Discord:
+# http://www.mythicmobs.net
+#  
+
+RandomSkeletonKing:
+  MobType: SkeletonKing
+  Worlds: world
+  Chance: 0.002
+  Priority: 1
+  Action: REPLACE
+  PointType: LAND
+  Conditions:
+  - outside true
+RandomSkeletalKnight:
+  MobType: SkeletalKnight
+  Worlds: world,world_nether
+  Chance: 0.01
+  Priority: 1
+  Action: REPLACE
+  PointType: LAND
+  Conditions:
+  - outside true
+RandomAngrySludge:
+  MobType: AngrySludge
+  Worlds: world
+  Chance: 0.003
+  PointType: LAND
+  Priority: 1
+  Action: REPLACE
+  Conditions:
+  - outside true
+RandomMoneyRabbit:
+  MobType: MoneyRabbit
+  Worlds: world
+  PointType: REPLACE
+  Chance: 0.002
+  Priority: 1
+  Action: REPLACE
+  Conditions:
+  - outside true
+RandomAncestralGolem:
+  MobType: AncestralGolem
+  Worlds: world
+  Chance: 0.001
+  Priority: 1
+  Action: REPLACE
+  PointType: LAND
+  Conditions:
+  - outside true
+RandomGuardianH:
+  MobType: GuardianH
+  Worlds: world
+  Chance: 0.005
+  Priority: 1
+  Action: REPLACE
+  PointType: SEA
+RandomGuardianS:
+  MobType: GuardianS
+  Worlds: world
+  Chance: 0.005
+  Priority: 1
+  Action: REPLACE
+  PointType: SEA
+RandomSuperCreeper:
+  MobType: SuperCreeper
+  Worlds: world
+  Chance: 0.003
+  Priority: 1
+  Action: REPLACE
+  PointType: LAND
+  Conditions:
+  - outside true
+RandomBlazeKing:
+  MobType: BlazeKing
+  Worlds: world_nether
+  Biomes: NETHER_WASTES
+  Chance: 0.001
+  Priority: 1
+  Action: REPLACE
+RandomSquidC:
+  MobType: SquidC
+  Worlds: world
+  Chance: 0.01
+  Priority: 1
+  Action: REPLACE
+  PointType: SEA
+RandomZombieFlaite:
+  MobType: ZombieFlaite
+  Worlds: world
+  Chance: 0.005
+  Priority: 1
+  Action: REPLACE
+  PointType: LAND
+  Conditions:
+  - outside true
+RandomSkeletonPlus:
+  MobType: SkeletonPlus
+  Worlds: world
+  Chance: 0.003
+  Priority: 1
+  Action: REPLACE
+  PointType: LAND
+  Conditions:
+  - outside true
+RandomPillagerPlus:
+  MobType: PillagerPlus
+  Worlds: world
+  Chance: 0.003
+  Priority: 1
+  Action: REPLACE
+  PointType: LAND
+  Conditions:
+  - outside true
+RandomEndermanR:
+  MobType: EndermanR
+  Worlds: world,world_nether,world_the_end
+  Chance: 0.003
+  Priority: 1
+  Action: REPLACE
+  PointType: LAND
+  Conditions:
+  - outside true
+RandomSucioKripy:
+  MobType: SucioKripy
+  Worlds: world
+  Chance: 0.004
+  Priority: 1
+  Action: REPLACE
+  PointType: LAND
+  Conditions:
+  - outside true
+RandomAncientPhantom:
+  MobType: AncientPhantom
+  Worlds: world
+  Chance: 0.002
+  Priority: 1
+  Action: ADD
+  Conditions:
+  - outside true
+  - altitude{a=70-250}
+RandomOni_E:
+  MobType: Oni_E
+  Worlds: world_nether
+  Chance: 0.005
+  Priority: 1
+  Action: REPLACE
+  PointType: ADD

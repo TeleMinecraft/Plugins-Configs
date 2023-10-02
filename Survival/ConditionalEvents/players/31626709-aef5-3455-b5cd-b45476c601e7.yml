@@ -1,0 +1,113 @@
+name: LEJUDIO
+events:
+  resistencia_y_skin_al_entrar:
+    one_time: false
+    cooldown: 1683489372290
+  descripcion_mision1:
+    one_time: false
+    cooldown: 1683491227316
+  mision_1:
+    one_time: false
+    cooldown: 1683490037576
+  descripcion_mision2:
+    one_time: false
+    cooldown: 1683491226825
+  descripcion_mision3:
+    one_time: false
+    cooldown: 1683491226289
+  mision_3:
+    one_time: false
+    cooldown: 1683490047576
+  descripcion_mision4:
+    one_time: false
+    cooldown: 1683491225517
+  descripcion_mision5:
+    one_time: false
+    cooldown: 1683491224924
+  descripcion_mision6:
+    one_time: false
+    cooldown: 1683491224317
+  descripcion_mision12:
+    one_time: false
+    cooldown: 1683491222828
+  descripcion_mision11:
+    one_time: false
+    cooldown: 1683490059526
+  descripcion_mision10:
+    one_time: false
+    cooldown: 1683491221620
+  descripcion_mision13:
+    one_time: false
+    cooldown: 1683491219340
+  mision_13:
+    one_time: false
+    cooldown: 1683490068383
+  descripcion_mision14:
+    one_time: false
+    cooldown: 1683491218567
+  descripcion_mision16:
+    one_time: false
+    cooldown: 1683490074278
+  mision_16:
+    one_time: false
+    cooldown: 1683490078624
+  descripcion_mision17:
+    one_time: false
+    cooldown: 1683490129075
+  descripcion_mision18:
+    one_time: false
+    cooldown: 1683491223469
+  mision_5:
+    one_time: false
+    cooldown: 1683490091775
+  mision_6:
+    one_time: false
+    cooldown: 1683490116524
+  mision_12:
+    one_time: false
+    cooldown: 1683490122274
+  mision_18:
+    one_time: false
+    cooldown: 1683490123776
+  mision_17:
+    one_time: false
+    cooldown: 1683490125324
+  descripcion_mision15:
+    one_time: false
+    cooldown: 1683491216667
+  mision_15:
+    one_time: false
+    cooldown: 1683491217420
+  mision_14:
+    one_time: false
+    cooldown: 1683491218716
+  descripcion_mision7:
+    one_time: false
+    cooldown: 1683491219917
+  mision_8:
+    one_time: false
+    cooldown: 1683491220267
+  descripcion_mision8:
+    one_time: false
+    cooldown: 1683491220568
+  descripcion_mision9:
+    one_time: false
+    cooldown: 1683491221067
+  mision_9:
+    one_time: false
+    cooldown: 1683491221269
+  mision_10:
+    one_time: false
+    cooldown: 1683491221918
+  mision_11:
+    one_time: false
+    cooldown: 1683491222519
+  mision_4:
+    one_time: false
+    cooldown: 1683491225720
+  mision_2:
+    one_time: false
+    cooldown: 1683491226968
+  random_tp:
+    one_time: false
+    cooldown: 1683491605529

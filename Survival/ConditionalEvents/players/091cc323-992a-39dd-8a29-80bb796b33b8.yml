@@ -1,0 +1,8 @@
+name: Trilux
+events:
+  resistencia_y_skin_al_entrar:
+    one_time: false
+    cooldown: 1681069023038
+  random_tp:
+    one_time: false
+    cooldown: 1679791977636

@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 190.21.79.136
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1660852694607
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1660852861736
+  login: 1660847027721
+money: '15952616.54749999999975306'
+last-account-name: ARroRroZChaufan
+lastlocation:
+  world: ddd15208-45ed-42b1-90a4-dbd0adfbea42
+  world-name: world_nether
+  x: 236.70519732818462
+  y: 56.0
+  z: 1212.5207513001703
+  yaw: -14.659423828125
+  pitch: 30.449975967407227
+logoutlocation:
+  world: ddd15208-45ed-42b1-90a4-dbd0adfbea42
+  world-name: world_nether
+  x: 113.27426913769237
+  y: 83.0
+  z: 136.66508776452284
+  yaw: -158.71482849121094
+  pitch: 4.800433158874512
+homes:
+  home:
+    world: ddd15208-45ed-42b1-90a4-dbd0adfbea42
+    world-name: world_nether
+    x: 233.30000001192093
+    y: 56.60376365469679
+    z: 1214.0072087474919
+    yaw: -99.4073486328125
+    pitch: 13.500043869018555

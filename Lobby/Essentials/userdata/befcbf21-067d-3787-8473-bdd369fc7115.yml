@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 179.8.33.23
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1685073034825
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1685073109874
+  login: 1685072989376
+money: '0'
+last-account-name: savloo
+lastlocation:
+  world: 8039c8bf-b4ad-4692-9f73-205fa07ddece
+  world-name: world
+  x: -7.029694168123709
+  y: 32.03584062504456
+  z: 0.4934781337132735
+  yaw: 93.74835205078125
+  pitch: 11.39997673034668
+logoutlocation:
+  world: 8039c8bf-b4ad-4692-9f73-205fa07ddece
+  world-name: world
+  x: -66.4671536805225
+  y: 30.5
+  z: 0.5947312216071546
+  yaw: -86.0972900390625
+  pitch: 4.649799823760986

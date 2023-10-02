@@ -1,0 +1,294 @@
+panels:
+  panel-2:
+    perm: default
+    rows: 6
+    title: '$FF9E00&l     Cajero Automático'
+    item:
+      '0':
+        material: INK_SAC
+        stack: 1
+        name: §f
+        customdata: 2
+      '1':
+        material: INK_SAC
+        stack: 1
+        name: §f
+        customdata: 1
+      '2':
+        material: INK_SAC
+        stack: 1
+        name: §f
+        customdata: 1
+      '3':
+        material: INK_SAC
+        stack: 1
+        name: §f
+        customdata: 1
+      '4':
+        material: INK_SAC
+        stack: 1
+        name: §f
+        customdata: 1
+      '5':
+        material: INK_SAC
+        stack: 1
+        name: §f
+        customdata: 1
+      '6':
+        material: INK_SAC
+        stack: 1
+        name: §f
+        customdata: 1
+      '7':
+        material: INK_SAC
+        stack: 1
+        name: §f
+        customdata: 1
+      '8':
+        material: INK_SAC
+        stack: 1
+        name: §f
+        customdata: 2
+      '9':
+        material: INK_SAC
+        stack: 1
+        name: '&7■'
+        commands:
+        - cpc
+        - msg= &6Procesando...
+        - delay= 1 msg= &aTu saldo es de &o$%cp-player-balance%
+        customdata: 3
+      '10':
+        material: INK_SAC
+        stack: 1
+        name: §9$004DFFConsultar saldo
+        customdata: 4
+      '11':
+        material: INK_SAC
+        stack: 1
+        name: §9$004DFFConsultar saldo
+        customdata: 5
+      '12':
+        material: INK_SAC
+        stack: 1
+        name: §9$004DFFConsultar saldo
+        customdata: 5
+      '13':
+        material: INK_SAC
+        stack: 1
+        name: §f
+        customdata: 1
+      '14':
+        material: INK_SAC
+        stack: 1
+        name: §9$004DFFRetiro de billetes de $10000
+        customdata: 5
+      '15':
+        material: INK_SAC
+        stack: 1
+        name: §9$004DFFRetiro de billetes de $10000
+        customdata: 5
+      '16':
+        material: INK_SAC
+        stack: 1
+        name: §9$004DFFRetiro de billetes de $10000
+        customdata: 6
+      '17':
+        material: INK_SAC
+        stack: 1
+        name: '&7■'
+        commands:
+        - open= panel-6
+        customdata: 3
+      '18':
+        material: INK_SAC
+        stack: 1
+        name: '&7■'
+        commands:
+        - open= panel-3
+        customdata: 3
+      '19':
+        material: INK_SAC
+        stack: 1
+        name: §9$004DFFRetiro de billetes de $1000
+        customdata: 4
+      '20':
+        material: INK_SAC
+        stack: 1
+        name: §$004DFFRetiro de billetes de $1000
+        customdata: 5
+      '21':
+        material: INK_SAC
+        stack: 1
+        name: §9$004DFFRetiro de billetes de $1000
+        customdata: 5
+      '22':
+        material: INK_SAC
+        stack: 1
+        name: §f
+        customdata: 1
+      '23':
+        material: INK_SAC
+        stack: 1
+        name: §9$004DFFRetiro de billetes de $20000
+        customdata: 5
+      '24':
+        material: INK_SAC
+        stack: 1
+        name: §9$004DFFRetiro de billetes de $20000
+        customdata: 5
+      '25':
+        material: INK_SAC
+        stack: 1
+        name: §9$004DFFRetiro de billetes de $20000
+        customdata: 6
+      '26':
+        material: INK_SAC
+        stack: 1
+        name: '&7■'
+        commands:
+        - open= panel-7
+        customdata: 3
+      '27':
+        material: INK_SAC
+        stack: 1
+        name: '&7■'
+        commands:
+        - open= panel-4
+        customdata: 3
+      '28':
+        material: INK_SAC
+        stack: 1
+        name: §9$004DFFRetiro de billetes de $2000
+        customdata: 4
+      '29':
+        material: INK_SAC
+        stack: 1
+        name: §9$004DFFRetiro de billetes de $2000
+        customdata: 5
+      '30':
+        material: INK_SAC
+        stack: 1
+        name: §9$004DFFRetiro de billetes de $2000
+        customdata: 5
+      '31':
+        material: INK_SAC
+        stack: 1
+        name: §f
+        customdata: 1
+      '32':
+        material: INK_SAC
+        stack: 1
+        name: §9$004DFFRetiro Semanal
+        customdata: 5
+      '33':
+        material: INK_SAC
+        stack: 1
+        name: §9$004DFFRetiro Semanal
+        customdata: 5
+      '34':
+        material: INK_SAC
+        stack: 1
+        name: §9$004DFFRetiro Semanal
+        customdata: 6
+      '35':
+        material: INK_SAC
+        stack: 1
+        name: '&7■'
+        commands:
+        - op= reward
+        customdata: 3
+      '36':
+        material: INK_SAC
+        stack: 1
+        name: '&7■'
+        commands:
+        - open= panel-5
+        customdata: 3
+      '37':
+        material: INK_SAC
+        stack: 1
+        name: §9$004DFFRetiro de billetes de $5000
+        customdata: 4
+      '38':
+        material: INK_SAC
+        stack: 1
+        name: §9$004DFFRetiro de billetes de $5000
+        customdata: 5
+      '39':
+        material: INK_SAC
+        stack: 1
+        name: §9$004DFFRetiro de billetes de $5000
+        customdata: 5
+      '40':
+        material: INK_SAC
+        stack: 1
+        name: §f
+        customdata: 1
+      '41':
+        material: INK_SAC
+        stack: 1
+        name: §9$004DFFSalir
+        customdata: 5
+      '42':
+        material: INK_SAC
+        stack: 1
+        name: §9$004DFFSalir
+        customdata: 5
+      '43':
+        material: INK_SAC
+        stack: 1
+        name: §9$004DFFSalir
+        customdata: 6
+      '44':
+        material: INK_SAC
+        stack: 1
+        customdata: 3
+        commands:
+        - cpc
+        name: '&7■'
+      '45':
+        material: INK_SAC
+        stack: 1
+        name: §f
+        customdata: 2
+      '46':
+        material: INK_SAC
+        stack: 1
+        name: §f
+        customdata: 1
+      '47':
+        material: INK_SAC
+        stack: 1
+        name: §f
+        customdata: 1
+      '48':
+        material: INK_SAC
+        stack: 1
+        name: §f
+        customdata: 1
+      '49':
+        material: INK_SAC
+        stack: 1
+        name: §f
+        customdata: 1
+      '50':
+        material: INK_SAC
+        stack: 1
+        name: §f
+        customdata: 1
+      '51':
+        material: INK_SAC
+        stack: 1
+        name: §f
+        customdata: 1
+      '52':
+        material: INK_SAC
+        stack: 1
+        name: §f
+        customdata: 1
+      '53':
+        material: INK_SAC
+        stack: 1
+        name: §f
+        customdata: 2

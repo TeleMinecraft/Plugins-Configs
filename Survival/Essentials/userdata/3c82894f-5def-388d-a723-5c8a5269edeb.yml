@@ -1,0 +1,29 @@
+timestamps:
+  login: 1587926757404
+  lastteleport: 1587880820741
+  logout: 1587929056704
+lastlocation:
+  world: world
+  x: 3613.6624493445365
+  y: 7.0
+  z: -466.5024635168999
+  yaw: -89.620674
+  pitch: 16.052706
+money: '1214608.5600000000000228'
+homes:
+  home:
+    world: world
+    x: 3364.634988639214
+    y: 62.0
+    z: 337.3643337898571
+    yaw: 166.6619
+    pitch: 35.540085
+logoutlocation:
+  world: world
+  x: 3578.4119856336556
+  y: 64.875
+  z: 1613.1202936488696
+  yaw: 105.808685
+  pitch: 16.922705
+ip-address: 190.44.112.14
+last-account-name: TakimotoHifumin

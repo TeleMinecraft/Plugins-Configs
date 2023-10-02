@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 170.82.191.159
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1651118432901
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1651212500959
+  login: 1651211076534
+money: '-39000'
+last-account-name: Aohry
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 3457.4330696701386
+  y: 75.5
+  z: 3993.592593256082
+  yaw: -104.5628662109375
+  pitch: 4.199654579162598
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 53.86836983549459
+  y: 64.0
+  z: 1583.0177005821222
+  yaw: 125.09233093261719
+  pitch: 31.95062828063965
+homes:
+  home:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: 43.150758870373025
+    y: 63.0
+    z: 1567.7637218527577
+    yaw: -6.160963535308838
+    pitch: 25.950159072875977

@@ -1,0 +1,408 @@
+Name: '&2&lCaja de Flechas'
+Animation_Config: mystery_auto_1
+Preview_Config: default
+Permission_Required: false
+Attached_Citizens: ''
+Opening:
+  Cooldown: 1
+  Cost:
+    MONEY: 0.0
+    EXP: 0.0
+Key:
+  Ids: []
+Block:
+  Locations: []
+  Pushback:
+    Enabled: false
+  Hologram:
+    Enabled: false
+    Offset:
+      Y: 1.5
+    Text:
+    - '&c&lMYSTERY CRATE'
+    - '&7Buy a key at &cwww.myserver.com&c'
+  Effect:
+    Model: SIMPLE
+    Particle:
+      Name: FLAME
+      Data: ''
+Rewards:
+  List:
+    98201cb1-5498-4f3b-8bcb-77ecd8011661:
+      Name: '&e&lFlecha Espectral'
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip0031mmirj5cdp62pjk79pn0pb3ehp62r2vc5p74rrn0400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip0031mmirj5cdp62pjk79pn0pb3ehp62r2vc5p74rrn0400agrfeln78400
+      Ignored_For_Permissions: []
+    6cba165c-d98f-4a32-ab1f-0d138bb94c3a:
+      Name: '&7&lFlecha de Invisibilidad'
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01crb9dpim6sj1cpq3kt39e1o6ap2vc5p74rrn18006t31cs4001igdtq6irre00dmqqbeclhn4ob6egt6orrectfmirjmd5pmioj9dhkn8u800400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01crb9dpim6sj1cpq3kt39e1o6ap2vc5p74rrn18006t31cs4001igdtq6irre00dmqqbeclhn4ob6egt6orrectfmirjmd5pmioj9dhkn8u800400agrfeln78400
+      Ignored_For_Permissions: []
+    665055a9-631a-4adc-b7cf-17fcd8f162ad:
+      Name: '&a&lFlecha de Salto'
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01crb9dpim6sj1cpq3kt39e1o6ap2vc5p74rrn18006t31cs4001igdtq6irre00b6qqbeclhn4ob6egt6orrectfmopb1e1kmspo00400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01crb9dpim6sj1cpq3kt39e1o6ap2vc5p74rrn18006t31cs4001igdtq6irre00b6qqbeclhn4ob6egt6orrectfmopb1e1kmspo00400agrfeln78400
+      Ignored_For_Permissions: []
+    e07e96ff-94f6-42c4-94a4-df2a70b3eb7d:
+      Name: '&c&lFlecha de Curación Instantánea'
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip002pmmirj5cdp62pjk79q6is3gcli5uobie9nne2g00dq62po800350rrkd5nms00odlkmspb3e9gmct1qedq74rrectfmgpb1dhkmspo00400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip002pmmirj5cdp62pjk79q6is3gcli5uobie9nne2g00dq62po800350rrkd5nms00odlkmspb3e9gmct1qedq74rrectfmgpb1dhkmspo00400agrfeln78400
+      Ignored_For_Permissions: []
+    0e763a4a-84d1-4c38-880b-6a415da2fcd6:
+      Name: '&8&lFlecha del Maestro Tortuga'
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400b6qqbeclhn4ob6egt78qbge1im8nr1e9p6utoa001n8ob71000ck3fehkmurg03hmmirj5cdp62pjk79m6urj7btq7asjkdhilurb1edq6asg00400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400b6qqbeclhn4ob6egt78qbge1im8nr1e9p6utoa001n8ob71000ck3fehkmurg03hmmirj5cdp62pjk79m6urj7btq7asjkdhilurb1edq6asg00400agrfeln78400
+      Ignored_For_Permissions: []
+    49dc24a4-eac8-4a2a-8378-5e25bd21dae5:
+      Name: '&b&lFlecha de Velocidad'
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip002pmmirj5cdp62pjk79q6is3gcli5uobie9nne2g00dq62po800350rrkd5nms00odlkmspb3e9gmct1qdhnmspqvedrmipjkdpin6so00400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip002pmmirj5cdp62pjk79q6is3gcli5uobie9nne2g00dq62po800350rrkd5nms00odlkmspb3e9gmct1qdhnmspqvedrmipjkdpin6so00400agrfeln78400
+      Ignored_For_Permissions: []
+    dda53004-e4ef-4199-bb32-8716833df57c:
+      Name: '&1&lFlecha de Visión Nocturna'
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01crb9dpim6sj1cpq3kt39e1o6ap2vc5p74rrn18006t31cs4001igdtq6irre00dmqqbeclhn4ob6egt6orrectfmsqb7d1q5utj9edkmurg00400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01crb9dpim6sj1cpq3kt39e1o6ap2vc5p74rrn18006t31cs4001igdtq6irre00dmqqbeclhn4ob6egt6orrectfmsqb7d1q5utj9edkmurg00400agrfeln78400
+      Ignored_For_Permissions: []
+    f588c32e-14c2-4982-8932-79e555057f2c:
+      Name: '&6&lFlecha de Resistencia al Fuego'
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800mdlkmspb3e9gmct1qehkn0s35chfm2sjidtrgk003ehgme2000p86ut39dtn007jdd5n6aoric5j78ejcdtn6enr6d5p6anriclpmisrkc5n66p800400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800mdlkmspb3e9gmct1qehkn0s35chfm2sjidtrgk003ehgme2000p86ut39dtn007jdd5n6aoric5j78ejcdtn6enr6d5p6anriclpmisrkc5n66p800400agrfeln78400
+      Ignored_For_Permissions: []
+    615295b5-5b4c-4821-8bfb-ce6bb79f72db:
+      Name: '&9&lFlecha de Respiración Acuática'
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800mdlkmspb3e9gmct1qehkn0s35chfm2sjidtrgk003ehgme2000p86ut39dtn007jdd5n6aoric5j78ejcdtn6enrnc5q6asivc9p6aobkd1kmspo00400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800mdlkmspb3e9gmct1qehkn0s35chfm2sjidtrgk003ehgme2000p86ut39dtn007jdd5n6aoric5j78ejcdtn6enrnc5q6asivc9p6aobkd1kmspo00400agrfeln78400
+      Ignored_For_Permissions: []
+    cf416631-affe-45f8-91f6-cd92e894b634:
+      Name: '&4&lFlecha de Daño Instantáneo'
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip002pmmirj5cdp62pjk79q6is3gcli5uobie9nne2g00dq62po800350rrkd5nms00odlkmspb3e9gmct1qedq74rrectfmgobidlkmspo00400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip002pmmirj5cdp62pjk79q6is3gcli5uobie9nne2g00dq62po800350rrkd5nms00odlkmspb3e9gmct1qedq74rrectfmgobidlkmspo00400agrfeln78400
+      Ignored_For_Permissions: []
+    2805e05c-3ef5-4524-a529-51148639e163:
+      Name: '&f&lFlecha de Caída Lenta'
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01crb9dpim6sj1cpq3kt39e1o6ap2vc5p74rrn18006t31cs4001igdtq6irre00dmqqbeclhn4ob6egt6orrectfn6r3fetfmcobcdhkmspo00400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01crb9dpim6sj1cpq3kt39e1o6ap2vc5p74rrn18006t31cs4001igdtq6irre00dmqqbeclhn4ob6egt6orrectfn6r3fetfmcobcdhkmspo00400agrfeln78400
+      Ignored_For_Permissions: []
+    58bea255-0914-493a-a388-829e37f23612:
+      Name: '&8&lFlecha de Debilidad'
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400b6qqbeclhn4ob6egt78qbge1im8nr1e9p6utoa001n8ob71000ck3fehkmurg02tmmirj5cdp62pjk79m6urj7btrmaobbdpin6so00400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400b6qqbeclhn4ob6egt78qbge1im8nr1e9p6utoa001n8ob71000ck3fehkmurg02tmmirj5cdp62pjk79m6urj7btrmaobbdpin6so00400agrfeln78400
+      Ignored_For_Permissions: []
+    af14eeb8-9958-4f94-9970-20d756e107ee:
+      Name: '&2&lFlecha de Veneno'
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i005jdd5n6aoric5j78ejkd5o70pb4btgn4sjfes5000rkc5jgg006a1nn8qbfdo01arb9dpim6sj1cpq3kr3fdpjlus3fd5pmurg00400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i005jdd5n6aoric5j78ejkd5o70pb4btgn4sjfes5000rkc5jgg006a1nn8qbfdo01arb9dpim6sj1cpq3kr3fdpjlus3fd5pmurg00400agrfeln78400
+      Ignored_For_Permissions: []
+    fdedfcc6-b0b2-4bbd-9e2b-c9abe02b0e6d:
+      Name: '&4&lFlecha de Fuerza'
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400b6qqbeclhn4ob6egt78qbge1im8nr1e9p6utoa001n8ob71000ck3fehkmurg02tmmirj5cdp62pjk79m6urj7btpn8sj5dpjn8q000400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400b6qqbeclhn4ob6egt78qbge1im8nr1e9p6utoa001n8ob71000ck3fehkmurg02tmmirj5cdp62pjk79m6urj7btpn8sj5dpjn8q000400agrfeln78400
+      Ignored_For_Permissions: []
+    ed31d5ba-dab7-424d-bb2b-0f1acb4f1744:
+      Name: '&2&lFlecha de Suerte'
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip002pmmirj5cdp62pjk79q6is3gcli5uobie9nne2g00dq62po800350rrkd5nms00edlkmspb3e9gmct1qdhqm6qo00400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip002pmmirj5cdp62pjk79q6is3gcli5uobie9nne2g00dq62po800350rrkd5nms00edlkmspb3e9gmct1qdhqm6qo00400agrfeln78400
+      Ignored_For_Permissions: []
+    c4e8520f-56c7-4d68-b056-4ad5e18c52e8:
+      Name: '&d&lFlecha de Regeneración'
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01crb9dpim6sj1cpq3kt39e1o6ap2vc5p74rrn18006t31cs4001igdtq6irre00dmqqbeclhn4ob6egt6orrectfn4pb7cln6asj1ehkmurg00400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01crb9dpim6sj1cpq3kt39e1o6ap2vc5p74rrn18006t31cs4001igdtq6irre00dmqqbeclhn4ob6egt6orrectfn4pb7cln6asj1ehkmurg00400agrfeln78400
+      Ignored_For_Permissions: []
+    6a8d1311-3e0d-4b3a-8b29-66bcdb9e9f12:
+      Name: '&0&lFlecha de la Muerte'
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800mdlkmspb3e9gmct1qehkn0s35chfm2sjidtrgk003ehgme2g00ti6isrgdhgni2000h762rb502dnm8j5f1q74o9279dnm8j2dtm688hqehp7ap9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8j2dhgm6qp25gh78pboegh3k8i6dhim6q3141i6a83cc4g4qtb5e9q6a8jtbkm24t35f1q24eh249ugi0049hnn4p88000000g0ltti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ejke9qmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24ojcc5hmm8hc49q6au3k48t24jjf41hnaobce5qmipbic4g70tb5chii0srfedq6arj5e8g6asrkckg70rr4clp24vat5gh78pboegh3k8h2fk0bcup2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49h6oob3dch2o8jkcls788hq4b1pksr1dhgi0orfdog66tb9chgm8rpc41pmur3f41qmso90e1qmap3541i6asrke9qmisjkckh7qn9c49q6au3k48t248jt001g03q3elpn8rrd9lnm8pbc8hgn8o800008e0o01546ip358pm62prj00000803008k6tbjehnmqk3fehkmuri3dtm6usg0000002000p86ut39dtn003rdd5n6aoric5j78ej5dlo78u800400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800mdlkmspb3e9gmct1qehkn0s35chfm2sjidtrgk003ehgme2g00ti6isrgdhgni2000h762rb502dnm8j5f1q74o9279dnm8j2dtm688hqehp7ap9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8j2dhgm6qp25gh78pboegh3k8i6dhim6q3141i6a83cc4g4qtb5e9q6a8jtbkm24t35f1q24eh249ugi0049hnn4p88000000g0ltti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ejke9qmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24ojcc5hmm8hc49q6au3k48t24jjf41hnaobce5qmipbic4g70tb5chii0srfedq6arj5e8g6asrkckg70rr4clp24vat5gh78pboegh3k8h2fk0bcup2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49h6oob3dch2o8jkcls788hq4b1pksr1dhgi0orfdog66tb9chgm8rpc41pmur3f41qmso90e1qmap3541i6asrke9qmisjkckh7qn9c49q6au3k48t248jt001g03q3elpn8rrd9lnm8pbc8hgn8o800008e0o01546ip358pm62prj00000803008k6tbjehnmqk3fehkmuri3dtm6usg0000002000p86ut39dtn003rdd5n6aoric5j78ej5dlo78u800400agrfeln78180
+      Ignored_For_Permissions: []
+    56f68f8d-a7af-4e9c-bedd-abd92a59ab90:
+      Name: '&2&lFlecha Necrótica'
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01crb9dpim6sj1cpq3kt39e1o6ap2vc5p74rrn18006t31cs5001r4d5pn0r31f440012ec5mma04ufch6au3ke9gi4eirfch64rrccgh3kt3ieliio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h68obiddfmesj5cln24b12ehingt1278h4cr35cdk6282eclhn5gtjehkm6o92fleio8jkcls788hq48h7q2800h66usj51000000202inm8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqehp7ap9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8j4c5p6mnr7e9imarh25gh78pboegh3k8i9dlo74pb7dpgm8o90chii0lbic5n6irpd68pja8jtbkm24t35f1q24eh249ug1arr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h68obiddfmesj5cln24b12ehingt1278h4arjmcln6arj141q6up3f41m6u83helii0r3141p6up35c4h7qn9c49q6au3k48t248jt001g03q3elpn8rrd9lnm8pbc8hgn8o80000940o01546ip358pm62prj00000803008k6tbjehnmqk3fehkmuri3dtm6usg02drge2000p86ut39dtn003rdd5n6aoric5j78ej5dlo78u800400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01crb9dpim6sj1cpq3kt39e1o6ap2vc5p74rrn18006t31cs5001r4d5pn0r31f440012ec5mma04ufch6au3ke9gi4eirfch64rrccgh3kt3ieliio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h68obiddfmesj5cln24b12ehingt1278h4cr35cdk6282eclhn5gtjehkm6o92fleio8jkcls788hq48h7q2800h66usj51000000202inm8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqehp7ap9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8j4c5p6mnr7e9imarh25gh78pboegh3k8i9dlo74pb7dpgm8o90chii0lbic5n6irpd68pja8jtbkm24t35f1q24eh249ug1arr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h68obiddfmesj5cln24b12ehingt1278h4arjmcln6arj141q6up3f41m6u83helii0r3141p6up35c4h7qn9c49q6au3k48t248jt001g03q3elpn8rrd9lnm8pbc8hgn8o80000940o01546ip358pm62prj00000803008k6tbjehnmqk3fehkmuri3dtm6usg02drge2000p86ut39dtn003rdd5n6aoric5j78ej5dlo78u800400agrfeln78180
+      Ignored_For_Permissions: []
+    f5ecbb96-0f4a-4f29-b5be-bfa0b2f1d1c6:
+      Name: '&4&lFlecha de Tierra'
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400b6qqbeclhn4ob6egt78qbge1im8nr1e9p6utoa001n8ob71800ep39edo6oobp10008jj1dlig16rr49ingt3ic4h3kmrr49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49i62sjbbtp6ap125gh78pboegh3k8i6dhim6q3141i6a82kd5in4sj149ulqb12ehingt1278h24v890024orrick400000080b0up2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279q74tb55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2chgn4qqve9im88hc49q6au3k48t24hbeehp6a83doegn683kckg6qtb5epin683doegn683kckg7arj4d5pc78bj49ulqb12ehingt1278h24v80khti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8j4c5p6mnricli24b12ehingt1278h4arjkd5in4sj141gi0t3lecg6us3fdpimst35ech7qn9c49q6au3k48t248jt001g03q3elpn8rrd9lnm8pbc8hgn8o800008g0o01546ip358pm62prj00000803008k6tbjehnmqk3fehkmuri3dtm6usg0j5ejg2000p86ut39dtn003rdd5n6aoric5j78ej5dlo78u800400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400b6qqbeclhn4ob6egt78qbge1im8nr1e9p6utoa001n8ob71800ep39edo6oobp10008jj1dlig16rr49ingt3ic4h3kmrr49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49i62sjbbtp6ap125gh78pboegh3k8i6dhim6q3141i6a82kd5in4sj149ulqb12ehingt1278h24v890024orrick400000080b0up2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279q74tb55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2chgn4qqve9im88hc49q6au3k48t24hbeehp6a83doegn683kckg6qtb5epin683doegn683kckg7arj4d5pc78bj49ulqb12ehingt1278h24v80khti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8j4c5p6mnricli24b12ehingt1278h4arjkd5in4sj141gi0t3lecg6us3fdpimst35ech7qn9c49q6au3k48t248jt001g03q3elpn8rrd9lnm8pbc8hgn8o800008g0o01546ip358pm62prj00000803008k6tbjehnmqk3fehkmuri3dtm6usg0j5ejg2000p86ut39dtn003rdd5n6aoric5j78ej5dlo78u800400agrfeln78180
+      Ignored_For_Permissions: []
+    de32559e-ac5a-4e10-aa7b-19358245ff61:
+      Name: '&5&lFlecha de Ender'
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400b6qqbeclhn4ob6egt78qbge1im8nr1e9p6utoa001n8ob71800ep39edo6oobp10008jj1dlig17br49ingt3ic4h3kmrr49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49i62sjbbto7asjgdhii4b12ehingt1278h4cr35cdk62834ckg4arj4clp24vat5gh78pboegh3k8h2fk4g012cdtp6a2000000405efch6au3ke9gi4eirfch64rrccgh3kt3ieliio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h68obiddfn0tbie1m6a8hc49q6au3k48t24jj1chgi0pbjehgn5gt141j7apbic4g68p90ehqi0obccdgmsor549ulqb12ehingt1278h24v80mdti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8j4c5p6mnrgelp70r3548m24t35f1q24eh295n6asj3c5mm4qb141o6usr9cdks7cre41hmurh0ehqi0rr2d9in8qbmdsh7qn9c49q6au3k48t248jt001g03q3elpn8rrd9lnm8pbc8hgn8o800008i0o01546ip358pm62prj00000803008k6tbjehnmqk3fehkmuri3dtm6usg0mklbu2000p86ut39dtn003rdd5n6aoric5j78ej5dlo78u800400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400b6qqbeclhn4ob6egt78qbge1im8nr1e9p6utoa001n8ob71800ep39edo6oobp10008jj1dlig17br49ingt3ic4h3kmrr49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49i62sjbbto7asjgdhii4b12ehingt1278h4cr35cdk62834ckg4arj4clp24vat5gh78pboegh3k8h2fk4g012cdtp6a2000000405efch6au3ke9gi4eirfch64rrccgh3kt3ieliio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h68obiddfn0tbie1m6a8hc49q6au3k48t24jj1chgi0pbjehgn5gt141j7apbic4g68p90ehqi0obccdgmsor549ulqb12ehingt1278h24v80mdti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8j4c5p6mnrgelp70r3548m24t35f1q24eh295n6asj3c5mm4qb141o6usr9cdks7cre41hmurh0ehqi0rr2d9in8qbmdsh7qn9c49q6au3k48t248jt001g03q3elpn8rrd9lnm8pbc8hgn8o800008i0o01546ip358pm62prj00000803008k6tbjehnmqk3fehkmuri3dtm6usg0mklbu2000p86ut39dtn003rdd5n6aoric5j78ej5dlo78u800400agrfeln78180
+      Ignored_For_Permissions: []
+    1b3168a6-d221-41e5-948b-93e9d1cae8b6:
+      Name: '&6&lFlecha Ígnea'
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01crb9dpim6sj1cpq3kt39e1o6ap2vc5p74rrn18006t31cs5001r4d5pn0r31f440012ec5mma04kfch6au3ke9gi4eirfch64rrccgh3kt3ieliio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h6errccgh2o8jkcls788hq4936opb3d1gi1gsdctn6ao92fleio8jkcls788hq48h7q2800h66usj51000000202enm8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqehp7ap9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8j7dtm688hc49q6au3k48t24hj1epnn4qbkc4g68p90e1kn5gtjdlgmsrrj49ulqb12ehingt1278h24v80jtti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8j7dtm688hc49q6au3k48t24ibecdkmspbic4g6283kelpi0pbeclmmiprfech7qn9c49q6au3k48t248jt001g03q3elpn8rrd9lnm8pbc8hgn8o800008m0o01546ip358pm62prj00000803008k6tbjehnmqk3fehkmuri3dtm6usg0t05gm2000p86ut39dtn003rdd5n6aoric5j78ej5dlo78u800400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01crb9dpim6sj1cpq3kt39e1o6ap2vc5p74rrn18006t31cs5001r4d5pn0r31f440012ec5mma04kfch6au3ke9gi4eirfch64rrccgh3kt3ieliio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h6errccgh2o8jkcls788hq4936opb3d1gi1gsdctn6ao92fleio8jkcls788hq48h7q2800h66usj51000000202enm8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqehp7ap9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8j7dtm688hc49q6au3k48t24hj1epnn4qbkc4g68p90e1kn5gtjdlgmsrrj49ulqb12ehingt1278h24v80jtti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8j7dtm688hc49q6au3k48t24ibecdkmspbic4g6283kelpi0pbeclmmiprfech7qn9c49q6au3k48t248jt001g03q3elpn8rrd9lnm8pbc8hgn8o800008m0o01546ip358pm62prj00000803008k6tbjehnmqk3fehkmuri3dtm6usg0t05gm2000p86ut39dtn003rdd5n6aoric5j78ej5dlo78u800400agrfeln78180
+      Ignored_For_Permissions: []
+    4ea2970c-8389-4c1d-894a-0f8c0f89cc9d:
+      Name: '&7&lFlecha Magnética'
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip002pmmirj5cdp62pjk79q6is3gcli5uobie9nne2g00dq62poa003m8qbje1m62u880024sobdck09gup2cls78sj148t5mup2c9nmop1279q74tb55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2ctp62u925gh78pboegh3k8i6dhim6q31416m2preoekn8qb3c4h7qn9c49q6au3k48t248jt14008j3fe9igg000001017rr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t78sjlckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49jn4obp48m24t35f1q24eh2a1nmorrj41nn0tb5edq6usp0edii0obke9gmarh2fleio8jkcls788hq48h7q05kfch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24pric5si4b12ehingt1278h42or5e9hm283141q7asp0dto6urj5dpq6asp0e1gn4o90c5hm2oj1e8g66rre41imor3fech7qn9c49q6au3k48t248jt001g03q3elpn8rrd9lnm8pbc8hgn8o80000920o01546ip358pm62prj00000803008k6tbjehnmqk3fehkmuri3dtm6usg0niubo2000p86ut39dtn003rdd5n6aoric5j78ej5dlo78u800400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip002pmmirj5cdp62pjk79q6is3gcli5uobie9nne2g00dq62poa003m8qbje1m62u880024sobdck09gup2cls78sj148t5mup2c9nmop1279q74tb55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2ctp62u925gh78pboegh3k8i6dhim6q31416m2preoekn8qb3c4h7qn9c49q6au3k48t248jt14008j3fe9igg000001017rr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t78sjlckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49jn4obp48m24t35f1q24eh2a1nmorrj41nn0tb5edq6usp0edii0obke9gmarh2fleio8jkcls788hq48h7q05kfch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24pric5si4b12ehingt1278h42or5e9hm283141q7asp0dto6urj5dpq6asp0e1gn4o90c5hm2oj1e8g66rre41imor3fech7qn9c49q6au3k48t248jt001g03q3elpn8rrd9lnm8pbc8hgn8o80000920o01546ip358pm62prj00000803008k6tbjehnmqk3fehkmuri3dtm6usg0niubo2000p86ut39dtn003rdd5n6aoric5j78ej5dlo78u800400agrfeln78180
+      Ignored_For_Permissions: []
+    33f13519-0c9a-4ba9-9940-133435830599:
+      Name: '&8&lFlecha Oscura'
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i005jdd5n6aoric5j78ejkd5o70pb4btgn4sjfes5000rkc5jgk007chkn6s3cc5sgg0049pgmqp80j5ti4pboehp628hqbdti4ojfdhi24ejke9qmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24p31e9llupric5si4b12ehingt1278h4cr35cdk6283fedhnasj149ulqb12ehingt1278h24v890024orrick4000000809eup2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279q74tb55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2chgn4qqvctp62u925gh78pboegh3k8i6elin4o90dhqm6pbj49ulqb12ehingt1278h24v80mdti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8j4c5p6mnr7e9gni8hc49q6au3k48t24gbgdhkm6o90cdimetb5e9gi0t35dlo6usj1dgg6283kelpi0pbeclmmiprfech7qn9c49q6au3k48t248jt001g03q3elpn8rrd9lnm8pbc8hgn8o800008c0o01546ip358pm62prj00000803008k6tbjehnmqk3fehkmuri3dtm6usg08p34c2000p86ut39dtn003rdd5n6aoric5j78ej5dlo78u800400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i005jdd5n6aoric5j78ejkd5o70pb4btgn4sjfes5000rkc5jgk007chkn6s3cc5sgg0049pgmqp80j5ti4pboehp628hqbdti4ojfdhi24ejke9qmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24p31e9llupric5si4b12ehingt1278h4cr35cdk6283fedhnasj149ulqb12ehingt1278h24v890024orrick4000000809eup2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279q74tb55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2chgn4qqvctp62u925gh78pboegh3k8i6elin4o90dhqm6pbj49ulqb12ehingt1278h24v80mdti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8j4c5p6mnr7e9gni8hc49q6au3k48t24gbgdhkm6o90cdimetb5e9gi0t35dlo6usj1dgg6283kelpi0pbeclmmiprfech7qn9c49q6au3k48t248jt001g03q3elpn8rrd9lnm8pbc8hgn8o800008c0o01546ip358pm62prj00000803008k6tbjehnmqk3fehkmuri3dtm6usg08p34c2000p86ut39dtn003rdd5n6aoric5j78ej5dlo78u800400agrfeln78180
+      Ignored_For_Permissions: []
+    efad9576-3fe3-4acb-bcea-c103c396136a:
+      Name: '&9&lFlecha de Agua'
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400b6qqbeclhn4ob6egt78qbge1im8nr1e9p6utoa001n8ob71800ep39edo6oobp10008jj1dlig15br49ingt3ic4h3kmrr49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49h6otb548m24t35f1q24eh28pm6aor8c4g68p9085jnao92fleio8jkcls788hq48h7q2800h66usj51000000202jnm8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqehp7ap9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8j2dhqma8hc49q6au3k48t24hbc41gmetb141in683md5i62fp09pni0pbe41in6t3541hm2srf49ulqb12ehingt1278h24v80n1ti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8j2dhqma8hc49q6au3k48t24ibecpm6irj7ckg6qtb3d1ni0p31oeomu831dgg76pbi41m62rjqc5i62832c5l6u835dgg62prlc4h7qn9c49q6au3k48t248jt001g03q3elpn8rrd9lnm8pbc8hgn8o80000960o01546ip358pm62prj00000803008k6tbjehnmqk3fehkmuri3dtm6usg01a2d22000p86ut39dtn003rdd5n6aoric5j78ej5dlo78u800400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400b6qqbeclhn4ob6egt78qbge1im8nr1e9p6utoa001n8ob71800ep39edo6oobp10008jj1dlig15br49ingt3ic4h3kmrr49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49h6otb548m24t35f1q24eh28pm6aor8c4g68p9085jnao92fleio8jkcls788hq48h7q2800h66usj51000000202jnm8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqehp7ap9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8j2dhqma8hc49q6au3k48t24hbc41gmetb141in683md5i62fp09pni0pbe41in6t3541hm2srf49ulqb12ehingt1278h24v80n1ti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8j2dhqma8hc49q6au3k48t24ibecpm6irj7ckg6qtb3d1ni0p31oeomu831dgg76pbi41m62rjqc5i62832c5l6u835dgg62prlc4h7qn9c49q6au3k48t248jt001g03q3elpn8rrd9lnm8pbc8hgn8o80000960o01546ip358pm62prj00000803008k6tbjehnmqk3fehkmuri3dtm6usg01a2d22000p86ut39dtn003rdd5n6aoric5j78ej5dlo78u800400agrfeln78180
+      Ignored_For_Permissions: []
+    c9b70a83-2c30-4f96-95cd-8079b70562e8:
+      Name: '&a&lFlecha Sanadora'
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400b6qqbeclhn4ob6egt78qbge1im8nr1e9p6utoa001n8ob71800ep39edo6oobp10008jj1dlig15rr49ingt3ic4h3kmrr49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49jn4pb5doh2o8jkcls788hq4936opb3d1gi0kr1dpgm8rric4h7qn9c49q6au3k48t248jt14008j3fe9igg000001019br49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t78sjlckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49jn4pb5doh2o8jkcls788hq499masm3k5pi0pbc41pmus3fe9q6a834clm20pbhelkn0rp149ulqb12ehingt1278h24v80l5ti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8j7e9imarh25gh78pboegh3k8iedsg6gob3ckg68oe3m5nio83jc5n6283141q7asp0c5mmiprfech7qn9c49q6au3k48t248jt001g03q3elpn8rrd9lnm8pbc8hgn8o800008s0o01546ip358pm62prj00000803008k6tbjehnmqk3fehkmuri3dtm6usg077im22000p86ut39dtn003rdd5n6aoric5j78ej5dlo78u800400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400b6qqbeclhn4ob6egt78qbge1im8nr1e9p6utoa001n8ob71800ep39edo6oobp10008jj1dlig15rr49ingt3ic4h3kmrr49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49jn4pb5doh2o8jkcls788hq4936opb3d1gi0kr1dpgm8rric4h7qn9c49q6au3k48t248jt14008j3fe9igg000001019br49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t78sjlckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49jn4pb5doh2o8jkcls788hq499masm3k5pi0pbc41pmus3fe9q6a834clm20pbhelkn0rp149ulqb12ehingt1278h24v80l5ti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8j7e9imarh25gh78pboegh3k8iedsg6gob3ckg68oe3m5nio83jc5n6283141q7asp0c5mmiprfech7qn9c49q6au3k48t248jt001g03q3elpn8rrd9lnm8pbc8hgn8o800008s0o01546ip358pm62prj00000803008k6tbjehnmqk3fehkmuri3dtm6usg077im22000p86ut39dtn003rdd5n6aoric5j78ej5dlo78u800400agrfeln78180
+      Ignored_For_Permissions: []
+    2db5b3f7-6965-4030-8118-ed8ab0ed1cca:
+      Name: '&b&lFlecha Criogénica'
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip002pmmirj5cdp62pjk79q6is3gcli5uobie9nne2g00dq62poa003m8qbje1m62u880024sobdck09iup2cls78sj148t5mup2c9nmop1279q74tb55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2c5onao925gh78pboegh3k8i6dhim6q31411n4qbfcv1qirj9cdgi4vat5gh78pboegh3k8h2fk4g012cdtp6a2000000404ifch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12d5q62r39cch3kt3ieliio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h62sblc4h2o8jkcls788hq48mj4dpj5ooja862m11i4vat5gh78pboegh3k8h2fk0a4up2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49gn2tb148m24t35f1q24eh2a9im2r35dpq6iuj141gi0t3lecg6us3fdpimst35ech7qn9c49q6au3k48t248jt001g03q3elpn8rrd9lnm8pbc8hgn8o800008o0o01546ip358pm62prj00000803008k6tbjehnmqk3fehkmuri3dtm6usg01faug2000p86ut39dtn003rdd5n6aoric5j78ej5dlo78u800400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip002pmmirj5cdp62pjk79q6is3gcli5uobie9nne2g00dq62poa003m8qbje1m62u880024sobdck09iup2cls78sj148t5mup2c9nmop1279q74tb55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2c5onao925gh78pboegh3k8i6dhim6q31411n4qbfcv1qirj9cdgi4vat5gh78pboegh3k8h2fk4g012cdtp6a2000000404ifch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12d5q62r39cch3kt3ieliio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h62sblc4h2o8jkcls788hq48mj4dpj5ooja862m11i4vat5gh78pboegh3k8h2fk0a4up2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49gn2tb148m24t35f1q24eh2a9im2r35dpq6iuj141gi0t3lecg6us3fdpimst35ech7qn9c49q6au3k48t248jt001g03q3elpn8rrd9lnm8pbc8hgn8o800008o0o01546ip358pm62prj00000803008k6tbjehnmqk3fehkmuri3dtm6usg01faug2000p86ut39dtn003rdd5n6aoric5j78ej5dlo78u800400agrfeln78180
+      Ignored_For_Permissions: []
+    bdc0c317-00a1-4674-88aa-5322dea6f11e:
+      Name: '&c&lFlecha Explosiva'
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400b6qqbeclhn4ob6egt78qbge1im8nr1e9p6utoa001n8ob71800ep39edo6oobp10008jj1dlig15jr49ingt3ic4h3kmrr49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49p6ap125gh78pboegh3k8i6dhim6q31412ngs3cdtpmitj149ulqb12ehingt1278h24v890024orrick4000000809uup2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279q74tb55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2e9im88hc49q6au3k48t24c1e6kg6mqbcdtq6urj5ecg68p90e1nn8pbecdkm28jtbkm24t35f1q24eh249ug18br49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h74pb448m24t35f1q24eh28ls70r3fehgi0r3lcljmu834clm20orfdpq62orkdsh7qn9c49q6au3k48t248jt001g03q3elpn8rrd9lnm8pbc8hgn8o800008k0o01546ip358pm62prj00000803008k6tbjehnmqk3fehkmuri3dtm6usg0o4h242000p86ut39dtn003rdd5n6aoric5j78ej5dlo78u800400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400b6qqbeclhn4ob6egt78qbge1im8nr1e9p6utoa001n8ob71800ep39edo6oobp10008jj1dlig15jr49ingt3ic4h3kmrr49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49p6ap125gh78pboegh3k8i6dhim6q31412ngs3cdtpmitj149ulqb12ehingt1278h24v890024orrick4000000809uup2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279q74tb55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2e9im88hc49q6au3k48t24c1e6kg6mqbcdtq6urj5ecg68p90e1nn8pbecdkm28jtbkm24t35f1q24eh249ug18br49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h74pb448m24t35f1q24eh28ls70r3fehgi0r3lcljmu834clm20orfdpq62orkdsh7qn9c49q6au3k48t248jt001g03q3elpn8rrd9lnm8pbc8hgn8o800008k0o01546ip358pm62prj00000803008k6tbjehnmqk3fehkmuri3dtm6usg0o4h242000p86ut39dtn003rdd5n6aoric5j78ej5dlo78u800400agrfeln78180
+      Ignored_For_Permissions: []
+    5d544578-f6c5-4228-8163-44d5d1fb6450:
+      Name: '&d&lFlecha Mágica'
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800mdlkmspb3e9gmct1qehkn0s35chfm2sjidtrgk003ehgme2g00ti6isrgdhgni2000h762rb502enm8j5f1q74o9279dnm8j2dtm688hqehp7ap9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jcd5jmgt2ve1qn4s3cckh2o8jkcls788hq4936opb3d1gi0je3k5jmior149ulqb12ehingt1278h24v890024orrick400000080a6up2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279q74tb55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2dhkmeq3kbto7asjgdhii4b12ehingt1278h56qbde1m6arb5dpq6ab10dn1q2pr9cdni4vat5gh78pboegh3k8h2fk0bmup2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49m6ipr8ehfn0tbie1m6a8hc49q6au3k48t24hbde1qmko90c4g78tbj41imspbdd5jmusp0cdnms83ldpgi0pric5n20s3fehimsor9c4h7qn9c49q6au3k48t248jt001g03q3elpn8rrd9lnm8pbc8hgn8o80000900o01546ip358pm62prj00000803008k6tbjehnmqk3fehkmuri3dtm6usg0uuhvu2000p86ut39dtn003rdd5n6aoric5j78ej5dlo78u800400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800mdlkmspb3e9gmct1qehkn0s35chfm2sjidtrgk003ehgme2g00ti6isrgdhgni2000h762rb502enm8j5f1q74o9279dnm8j2dtm688hqehp7ap9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jcd5jmgt2ve1qn4s3cckh2o8jkcls788hq4936opb3d1gi0je3k5jmior149ulqb12ehingt1278h24v890024orrick400000080a6up2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279q74tb55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2dhkmeq3kbto7asjgdhii4b12ehingt1278h56qbde1m6arb5dpq6ab10dn1q2pr9cdni4vat5gh78pboegh3k8h2fk0bmup2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49m6ipr8ehfn0tbie1m6a8hc49q6au3k48t24hbde1qmko90c4g78tbj41imspbdd5jmusp0cdnms83ldpgi0pric5n20s3fehimsor9c4h7qn9c49q6au3k48t248jt001g03q3elpn8rrd9lnm8pbc8hgn8o80000900o01546ip358pm62prj00000803008k6tbjehnmqk3fehkmuri3dtm6usg0uuhvu2000p86ut39dtn003rdd5n6aoric5j78ej5dlo78u800400agrfeln78180
+      Ignored_For_Permissions: []
+    045ed0f0-f3f2-4146-8fe0-691954649b7b:
+      Name: '&d&lFlecha de Confusión'
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800mdlkmspb3e9gmct1qehkn0s35chfm2sjidtrgk003ehgme2g00ti6isrgdhgni2000h762rb502hnm8j5f1q74o9279dnm8j2dtm688hqehp7ap9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jcd5jmgt2ve1qn4s3cckh2o8jkcls788hq4936opb3d1gi0p35411murj6elpmjgtjdoh7qn9c49q6au3k48t248jt14008j3fe9igg000001018rr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t78sjlckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279q74tb55gh66rrcdtp24eh2dhkmeq3kbto7asjgdhii4b12ehingt1278h4srp0dlii0sr9cln78rp0dlqni832d5ims8jtbkm24t35f1q24eh249ug1dbr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h6oqb7d1q5us3le9o6op925gh78pboegh3k8igclp78tbic9gi0qbecdm7asrf41gi0r3fecg6rgt1ecg7cobcd5imst35ech7qn9c49q6au3k48t248jt001g03q3elpn8rrd9lnm8pbc8hgn8o800008a0o01546ip358pm62prj00000803008k6tbjehnmqk3fehkmuri3dtm6usg0vtjfi2000p86ut39dtn003rdd5n6aoric5j78ej5dlo78u800400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800mdlkmspb3e9gmct1qehkn0s35chfm2sjidtrgk003ehgme2g00ti6isrgdhgni2000h762rb502hnm8j5f1q74o9279dnm8j2dtm688hqehp7ap9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jcd5jmgt2ve1qn4s3cckh2o8jkcls788hq4936opb3d1gi0p35411murj6elpmjgtjdoh7qn9c49q6au3k48t248jt14008j3fe9igg000001018rr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t78sjlckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279q74tb55gh66rrcdtp24eh2dhkmeq3kbto7asjgdhii4b12ehingt1278h4srp0dlii0sr9cln78rp0dlqni832d5ims8jtbkm24t35f1q24eh249ug1dbr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h6oqb7d1q5us3le9o6op925gh78pboegh3k8igclp78tbic9gi0qbecdm7asrf41gi0r3fecg6rgt1ecg7cobcd5imst35ech7qn9c49q6au3k48t248jt001g03q3elpn8rrd9lnm8pbc8hgn8o800008a0o01546ip358pm62prj00000803008k6tbjehnmqk3fehkmuri3dtm6usg0vtjfi2000p86ut39dtn003rdd5n6aoric5j78ej5dlo78u800400agrfeln78180
+      Ignored_For_Permissions: []
+    0a0286f9-a446-4dd6-91fa-6d314633b8be:
+      Name: '&e&lFlecha Eléctrica'
+      Chance: 5.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400b6qqbeclhn4ob6egt78qbge1im8nr1e9p6utoa001n8ob71800ep39edo6oobp10008jj1dlig16jr49ingt3ic4h3kmrr49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49smar3cdtri4b12ehingt1278h4cr35cdk62825dj1qiorke9km6o92fleio8jkcls788hq48h7q2800h66usj51000000202d7m8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqehp7ap9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jpclm6orrn48m24t35f1q24eh29hgi0pjle9km2834ckg5kpblecgi4vat5gh78pboegh3k8h2fk0aeup2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49smar3cdtri4b12ehingt1278h4oobef9gi0tbe41p62ubf41gi0t3lecg6us3fdpimst35ech7qn9c49q6au3k48t248jt001g03q3elpn8rrd9lnm8pbc8hgn8o800008u0o01546ip358pm62prj00000803008k6tbjehnmqk3fehkmuri3dtm6usg0vvt002000p86ut39dtn003rdd5n6aoric5j78ej5dlo78u800400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400b6qqbeclhn4ob6egt78qbge1im8nr1e9p6utoa001n8ob71800ep39edo6oobp10008jj1dlig16jr49ingt3ic4h3kmrr49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49smar3cdtri4b12ehingt1278h4cr35cdk62825dj1qiorke9km6o92fleio8jkcls788hq48h7q2800h66usj51000000202d7m8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqehp7ap9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jpclm6orrn48m24t35f1q24eh29hgi0pjle9km2834ckg5kpblecgi4vat5gh78pboegh3k8h2fk0aeup2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49smar3cdtri4b12ehingt1278h4oobef9gi0tbe41p62ubf41gi0t3lecg6us3fdpimst35ech7qn9c49q6au3k48t248jt001g03q3elpn8rrd9lnm8pbc8hgn8o800008u0o01546ip358pm62prj00000803008k6tbjehnmqk3fehkmuri3dtm6usg0vvt002000p86ut39dtn003rdd5n6aoric5j78ej5dlo78u800400agrfeln78180
+      Ignored_For_Permissions: []
+    cb331c5e-17f1-4613-b81d-edb23e438533:
+      Name: '&f&lFlecha de Aire'
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400b6qqbeclhn4ob6egt78qbge1im8nr1e9p6utoa001n8ob71800ep39edo6oobp10008jj1dlig15jr49ingt3ic4h3kmrr49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49rmgqbkckh2o8jkcls788hq4936opb3d1gi0p35410misj549ulqb12ehingt1278h24v890024orrick400000080asup2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279q74tb55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2adkmarjkclpi0r3141h74qbjc4g70sj5epkm283141m6283kdtp6qpbeehgju8jtbkm24t35f1q24eh249ug1arr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278h4oobef9gi0o90ehqn6835dpimqqb7dtpi0s3fe8g6orrj41gmisj5ech7qn9c49q6au3k48t248jt001g03q3elpn8rrd9lnm8pbc8hgn8o80000880o01546ip358pm62prj00000803008k6tbjehnmqk3fehkmuri3dtm6usg0vvvvu2000p86ut39dtn003rdd5n6aoric5j78ej5dlo78u800400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400b6qqbeclhn4ob6egt78qbge1im8nr1e9p6utoa001n8ob71800ep39edo6oobp10008jj1dlig15jr49ingt3ic4h3kmrr49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49rmgqbkckh2o8jkcls788hq4936opb3d1gi0p35410misj549ulqb12ehingt1278h24v890024orrick400000080asup2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279q74tb55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2adkmarjkclpi0r3141h74qbjc4g70sj5epkm283141m6283kdtp6qpbeehgju8jtbkm24t35f1q24eh249ug1arr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278h4oobef9gi0o90ehqn6835dpimqqb7dtpi0s3fe8g6orrj41gmisj5ech7qn9c49q6au3k48t248jt001g03q3elpn8rrd9lnm8pbc8hgn8o80000880o01546ip358pm62prj00000803008k6tbjehnmqk3fehkmuri3dtm6usg0vvvvu2000p86ut39dtn003rdd5n6aoric5j78ej5dlo78u800400agrfeln78180
+      Ignored_For_Permissions: []
+Item:
+  Material: CHEST
+  Name: '&2&lCaja de Flechas'
+  Lore:
+  - '&7Click izquierdo para ver los premios'
+  - '&aClick derecho para abrir!'

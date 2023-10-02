@@ -1,0 +1,116 @@
+#######################                       #######################
+#      _____                                                        #
+#     /    /  /\     /                              _               #
+#    /___ /  /  \   / |\_/|  _  ___ |\       \   / |_| /| /|        #
+#   /    /  /    \ /  |   | | |  |  | |  -->  \_/.  _|. |. |        #
+#  /    /  /      /   |   | |_|  |  |/                              #
+#                                                                   #
+####################         Strings.yml         ####################
+
+#
+#All strings in this file support placeholders!
+#
+
+#
+#Online Placeholders:
+#
+
+#
+#Placeholder: %online%
+#Description: display real server's online
+#
+
+#
+#Placeholder: %fakeOnline%
+#Description: display fake server's online
+#
+#This placeholder only works if you
+#allow usage of Data.yml file in
+#config.yml, by setting Data: true
+#
+
+#
+#MaxPlayers Placeholders:
+#
+
+#
+#Placeholder: %maxplayers%
+#Description: display number of real server's slots
+#
+
+#
+#Placeholder: %fakeMaxplayers%
+#Description: display number of fake server's
+#
+#This placeholder only works if you
+#allow usage of Data.yml file in
+#config.yml, by setting Data: true
+#
+
+#
+#Hex Colors Placeholders:
+#
+
+#
+#Placeholder: %#<color>%
+#Description: make a message of any color
+#Example: %#C8A2C8% or %#1CA9C9%
+#
+
+#
+#Placeholder: %#<from-color>->#<to-color>:<text>;<arg-1>;<arg-2>;...<arg-6>%
+#(place formatting codes after ; (these are &k,&l,&m,&n,&o,&r)
+#If you don't want to use formatting codes, don't place them)
+#Description: make a gradient message
+#Example: %#C8A2C8->#1CA9C9:Gradient!;&l%
+#
+#IMPORTANT!
+#Please note that the order of the formatting codes
+#is not strict, but the result directly depends on it.
+#To ensure that the outcome text meets your expectations,
+#arrange the codes in the correct order for you.
+#
+    
+Motd:
+    
+    #What should be displayed on line 1 of your Motd:
+    #(if you have more than 1 line, random will be selected
+    #but it will be on the same position as a line in LineTwo section)
+    LineOne:
+        - "&b         ⚔&a ¡La Network Telemática! &b⚔ &2[1.19.4+]"
+        - "&b         ⚔&a ¡La Network Telemática! &b⚔ &2[1.19.4+]"
+        - "&b         ⚔&a ¡La Network Telemática! &b⚔ &2[1.19.4+]"
+    
+    #What should be displayed on line 2 of your Motd:
+    #(if you have more than 1 line, random will be selected
+    #but it will be on the same position as a line in LineOne section)
+    LineTwo:
+        - "&e      ⛏ Survival ⛏ &7| &d⚛ Telejuegos ⚛ &7| &3⚜ USM ⚜"
+        - "&3      ⚜ USM ⚜ &7| &e⛏ Survival ⛏ &7| &d⚛ Telejuegos ⚛"
+        - "&d      ⚛ Telejuegos ⚛ &7| &3⚜ USM ⚜ &7| &e⛏ Survival ⛏"
+    
+HoverBox:
+
+    #What text should be displayed when you hover over a player amount text:
+    HoverText:
+        - "&6--------------------"
+        - ""
+        - "&7Actualmente hay &a%online%"
+        - "&7jugadores conectados"
+        - ""
+        - "&7Síguenos en Instagram:"
+        - "&d➤ @teleminecraft.s"
+        - "&7Únete a nuestro discord:"
+        - "&9➤ dc.teleserver.network"
+        - ""
+        - "&7Descubre más sobre nuestro"
+        - "&7proyecto del servidor USM!"
+        - "&b➤ @comunidad.minecraft.usm"
+        - ""
+        - "&6--------------------"
+        
+Version:
+    
+    #What text should be displayed instead of player amount text:
+    VersionText: "&a&lÚNETE &a&l>&b&l>&c&l>                                          &7&l[&7%online%/%maxplayers%&l]"
+    

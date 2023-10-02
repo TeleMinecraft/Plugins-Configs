@@ -1,0 +1,29 @@
+timestamps:
+  login: 1613442827368
+  lastteleport: 1613445079304
+  logout: 1613446072484
+lastlocation:
+  world: world
+  x: 1828.5920957798908
+  y: 69.0
+  z: 3272.559533015765
+  yaw: 159.89139
+  pitch: 8.210029
+money: '1192802.0'
+logoutlocation:
+  world: world
+  x: 1884.2294734049613
+  y: 64.0
+  z: 2020.9484410657772
+  yaw: 336.8092
+  pitch: 16.210844
+homes:
+  home:
+    world: world
+    x: 1878.1526098859297
+    y: 64.0
+    z: 2015.7079981153954
+    yaw: 316.34628
+    pitch: 6.6771855
+ip-address: 190.215.174.112
+last-account-name: LayaN

@@ -1,0 +1,28 @@
+timestamps:
+  login: 1589249129578
+  logout: 1589253808775
+lastlocation:
+  world: world
+  x: 415.58634376613696
+  y: 64.0
+  z: -514.2977530767774
+  yaw: 2.2499084
+  pitch: 0.44995978
+homes:
+  home:
+    world: world
+    x: 786.8182251724681
+    y: 67.0
+    z: -287.4932230307114
+    yaw: 71.099976
+    pitch: 19.649668
+money: '1213496.7699999999999878'
+logoutlocation:
+  world: world
+  x: 790.0486046277161
+  y: 67.0
+  z: -286.1016095599856
+  yaw: 154.94675
+  pitch: 18.150064
+ip-address: 190.5.32.232
+last-account-name: Chelaias

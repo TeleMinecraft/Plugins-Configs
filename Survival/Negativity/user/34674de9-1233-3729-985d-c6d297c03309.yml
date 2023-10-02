@@ -1,0 +1,16 @@
+playername: amaro_rv
+lang: es_ES
+minerate-full-mined: 552
+minerate:
+  diamond: 0
+  gold: 0
+  iron: 5
+  coal: 20
+  ancient debris: 0
+better-click: 9
+cheats:
+  timer: 89
+  forcefield: 3
+  nofall: 2
+  speed: 19
+creation-time: 1629340557092

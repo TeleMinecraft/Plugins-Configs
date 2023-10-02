@@ -1,0 +1,110 @@
+panels:
+  panel-3:
+    perm: default
+    panelType: default
+    rows: 3
+    title: '&6&lMenú de ayuda'
+    command: panel-3
+    item:
+      '10':
+        material: NETHER_STAR
+        name: §b§lSelector de Servidores
+        commands:
+        - op= cp panel-1
+        lore:
+        - §7Click para abrir el menu
+      '12':
+        material: FILLED_MAP
+        name: §6§lDónde ir en el Lobby?
+        commands:
+        - op= st play Lobby
+        lore:
+        - §7Estás perdido? Haz click!
+      '14':
+        material: BOOK
+        name: §9§lInformación Completa
+        commands:
+        - op= ibooks open help
+        lore:
+        - §7Aquí podrás saber
+        - §7todo sobre el Lobby
+      '16':
+        material: COMPASS
+        name: §d§lIr al spawn
+        commands:
+        - op= spawn
+        - msg= &aTeletransporte exitoso
+        lore:
+        - §7Haz click para aparecer en el inicio
+      '0':
+        material: ORANGE_STAINED_GLASS_PANE
+        name: ''
+      '1':
+        material: LIME_STAINED_GLASS_PANE
+        name: ''
+      '2':
+        material: ORANGE_STAINED_GLASS_PANE
+        name: ''
+      '3':
+        material: LIME_STAINED_GLASS_PANE
+        name: ''
+      '4':
+        material: ORANGE_STAINED_GLASS_PANE
+        name: ''
+      '5':
+        material: LIME_STAINED_GLASS_PANE
+        name: ''
+      '6':
+        material: ORANGE_STAINED_GLASS_PANE
+        name: ''
+      '7':
+        material: LIME_STAINED_GLASS_PANE
+        name: ''
+      '8':
+        material: ORANGE_STAINED_GLASS_PANE
+        name: ''
+      '9':
+        material: LIME_STAINED_GLASS_PANE
+        name: ''
+      '11':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        name: ''
+      '13':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        name: ''
+      '15':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        name: ''
+      '17':
+        material: LIME_STAINED_GLASS_PANE
+        name: ''
+      '18':
+        material: ORANGE_STAINED_GLASS_PANE
+        name: ''
+      '19':
+        material: LIME_STAINED_GLASS_PANE
+        name: ''
+      '20':
+        material: ORANGE_STAINED_GLASS_PANE
+        name: ''
+      '21':
+        material: LIME_STAINED_GLASS_PANE
+        name: ''
+      '22':
+        material: ORANGE_STAINED_GLASS_PANE
+        name: ''
+      '23':
+        material: LIME_STAINED_GLASS_PANE
+        name: ''
+      '24':
+        material: ORANGE_STAINED_GLASS_PANE
+        name: ''
+      '25':
+        material: LIME_STAINED_GLASS_PANE
+        name: ''
+      '26':
+        material: ORANGE_STAINED_GLASS_PANE
+        name: ''
+      '32':
+        material: LIME_STAINED_GLASS_PANE
+        name: ''

@@ -1,0 +1,1 @@
+2023-06-16 18:56:12.681: (137ms) 100% SPEED > Player NOT in ground. WalkSpeed: 0.2 Distance between from/to location: 1.4258813321961992. Player version: V1_19. TPS: [19.999996622667236, 19.999998524466776, 19.999999484888903]

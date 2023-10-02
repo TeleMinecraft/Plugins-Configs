@@ -1,0 +1,219 @@
+name: Ice
+pauseCountdown: 60
+gameTime: 3600
+world: bw1
+pos1: 891.5;122.0;116.5;198.58551;90.0
+pos2: 1118.1767176379706;1.3478006566510337;-120.58226453621599;55.93634;11.099999
+specSpawn: 1000.5;60.0;0.5;0.0;90.0
+lobbySpawn: 1000.5;122.0;0.5;359.68713;90.0
+lobbySpawnWorld: bw1
+minPlayers: 4
+postGameWaiting: 3
+teams:
+  Rojo:
+    isNewColor: false
+    color: RED
+    maxPlayers: 4
+    bed: 1002.0;29.0;85.0;0.0;0.0
+    spawn: 1003.5;30.0;92.5;180.0;0.0
+  Verde:
+    isNewColor: false
+    color: LIME
+    maxPlayers: 4
+    bed: 915.0;29.0;2.0;0.0;0.0
+    spawn: 907.5;30.0;3.5;270.0;0.0
+  Azul:
+    isNewColor: false
+    color: LIGHT_BLUE
+    maxPlayers: 4
+    bed: 998.0;29.0;-85.0;0.0;0.0
+    spawn: 997.5;30.0;-92.5;0.0;0.0
+  Amarillo:
+    isNewColor: false
+    color: YELLOW
+    maxPlayers: 4
+    bed: 1085.0;29.0;-2.0;0.0;0.0
+    spawn: 1093.5;30.0;-2.5;90.0;0.0
+spawners:
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: 1000.5;37.0;0.5;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: esmeralda
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: 1010.5;30.0;-14.5;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: esmeralda
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: 985.5;30.0;-9.5;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: esmeralda
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: 990.5;30.0;15.5;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: esmeralda
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: 1015.5;30.0;10.5;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: esmeralda
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: 1056.5;31.0;56.5;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: oro
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: 1056.5;31.0;-55.5;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: oro
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: 944.5;31.0;-55.5;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: oro
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: 944.5;31.0;56.5;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: oro
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: 994.5;33.0;95.5;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: hierro
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: 1095.5;33.0;6.5;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: hierro
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: 1006.5;33.0;-94.5;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: hierro
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: 905.5;33.0;-5.5;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: hierro
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: 994.5;33.0;95.5;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: hierro
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: 1095.5;33.0;6.5;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: hierro
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: 1006.5;33.0;-94.5;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: hierro
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: 905.5;33.0;-5.5;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: hierro
+stores:
+- isBaby: 'false'
+  loc: 1093.5;30.0;-6.5;0.0;0.0
+  parent: 'false'
+  shop: null
+  name: §eTienda
+  skin: null
+  type: SNOWMAN
+- isBaby: 'false'
+  loc: 1007.5;30.0;93.5;90.0;0.0
+  parent: 'false'
+  shop: null
+  name: §cTienda
+  skin: null
+  type: SNOWMAN
+- isBaby: 'false'
+  loc: 993.5;30.0;-92.5;270.0;0.0
+  parent: 'false'
+  shop: null
+  name: §9Tienda
+  skin: null
+  type: SNOWMAN
+- isBaby: 'false'
+  loc: 907.5;30.0;7.5;180.0;0.0
+  parent: 'false'
+  shop: null
+  name: §aTienda
+  skin: null
+  type: SNOWMAN
+constant:
+  compass-enabled: inherit
+  add-wool-to-inventory-on-join: inherit
+  in-lobby-colored-leather-by-team: inherit
+  allow-crafting: inherit
+  join-randomly-after-lobby-timeout: inherit
+  join-randomly-on-lobby-join: inherit
+  keep-inventory-on-death: inherit
+  prevent-killing-villagers: inherit
+  player-drops: inherit
+  friendlyfire: inherit
+  lobbybossbar: inherit
+  bossbar: inherit
+  lobbyscoreboard: inherit
+  scoreboard: inherit
+  prevent-spawning-mobs: inherit
+  spawner-holograms: inherit
+  spawner-disable-merge: inherit
+  game-start-items: inherit
+  player-respawn-items: inherit
+  spawner-holograms-countdown: inherit
+  damage-when-player-is-not-in-arena: inherit
+  remove-unused-target-blocks: inherit
+  allow-block-falling: inherit
+  holo-above-bed: inherit
+  allow-spectator-join: inherit
+  anchor-auto-fill: inherit
+  anchor-decreasing: inherit
+  cake-target-block-eating: inherit
+  target-block-explosions: inherit
+arenaTime: WORLD
+arenaWeather: default
+lobbyBossBarColor: GREEN
+gameBossBarColor: BLUE

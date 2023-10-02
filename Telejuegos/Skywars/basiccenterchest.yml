@@ -1,0 +1,145 @@
+chestItems:
+  '50':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: EGG
+      amount: 12
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: SNOWBALL
+      amount: 12
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: ARROW
+      amount: 12
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: OAK_PLANKS
+      amount: 16
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: STONE
+      amount: 16
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: COOKED_BEEF
+      amount: 2
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: COOKED_MUTTON
+      amount: 2
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: COOKED_CHICKEN
+      amount: 2
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: STONE_PICKAXE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: STONE_SWORD
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: STONE_AXE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: STONE_SHOVEL
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: COBWEB
+      amount: 3
+  '40':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: GOLDEN_BOOTS
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: GOLDEN_LEGGINGS
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: GOLDEN_HELMET
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: GOLDEN_CHESTPLATE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: ENDER_PEARL
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: EXPERIENCE_BOTTLE
+      amount: 10
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: IRON_PICKAXE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: IRON_SHOVEL
+  '35':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: IRON_BOOTS
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: IRON_HELMET
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: IRON_LEGGINGS
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: IRON_CHESTPLATE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: IRON_AXE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: IRON_SWORD
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: ENDER_PEARL
+  '100':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: GOLDEN_APPLE
+  '90':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: FISHING_ROD
+  '80':
+    items: []
+  '70':
+    items: []
+  '60':
+    items: []
+  '55':
+    items: []
+  '45':
+    items: []
+  '30':
+    items: []
+  '25':
+    items: []
+  '20':
+    items: []
+  '15':
+    items: []
+  '10':
+    items: []
+  '5':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: TRIDENT
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          LOYALTY: 3
+  '1':
+    items: []
+  '26':
+    items: []

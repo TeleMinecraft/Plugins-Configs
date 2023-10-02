@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 190.163.103.208
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1689894977166
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1691457547239
+  login: 1691457540344
+money: '0'
+last-account-name: Richard363
+lastlocation:
+  world: 8039c8bf-b4ad-4692-9f73-205fa07ddece
+  world-name: world
+  x: 1.7520674524999265
+  y: 32.5
+  z: -3.7593703711158977
+  yaw: 1.2000304460525513
+  pitch: 13.04988956451416
+logoutlocation:
+  world: 8039c8bf-b4ad-4692-9f73-205fa07ddece
+  world-name: world
+  x: 0.5
+  y: 33.0
+  z: 0.5
+  yaw: -90.0
+  pitch: 0.0

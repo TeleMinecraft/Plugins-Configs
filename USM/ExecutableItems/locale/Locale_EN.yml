@@ -1,0 +1,42 @@
+receiveItem: '&a&l[ExecutableItems] &aYou have received &e%quantity% &ax &e%item%'
+fullInventory: '&c&l[ExecutableItems] &cYour inventory is full the &6%item% &chas
+  been give to you around your feet'
+timeLeft: '&c&l[ExecutableItems] &cYou can''t use this item for again &e%time%'
+requirePermission: '&c&l[ExecutableItems] &cYou do not have the permission to use
+  this item !'
+giveMessage: '&a&l[ExecutableItems] &aYou have given &e%player% &6%quantity% &aof
+  &e%item%'
+setActionbarOn: '&aYou have set your actionbar on &a&lON &afor ExecutableItems'
+haveActionbarOn: '&aYou have already actionbar &a&lON &afor ExecutableItems'
+setActionbarOff: '&cYou have set your actionbar on &4&lOFF &cfor ExecutableItems'
+haveActionbarOff: '&cYou have already actionbar &4&lOFF &cfor ExecutableItems'
+actionbarMessage: '&a&lTime left for &e&l%item% &a&l: &e&l%time%'
+actionbarEnd: '&c&lDESACTIVATION OF &e&l%item%'
+use: '&7&oRemaining use: '
+noHit: '&c&l[ExecutableItems] &cNo player has been hit'
+validHit: '&a&l[ExecutableItems] &aWell done you have hit the player %player% !'
+receivedHit: '&e&l[ExecutableItems] &eThe player &6%player% &ehave hit you with Executable
+  item: %item%'
+confirmMessage: '&8&l[ExecutableItems] &7➤ Click again to confirm the use of this
+  item'
+cancelCraft: '&4&l[ExecutableItems] &cYou cant craft with ExecutableItems'
+pickupLimitMessage: '&4&l[ExecutableItems] &cYou cant have more than %limit% ExecutableItems'
+noEntityHit: '&c&l[ExecutableItems] &cNo entity has been hit'
+disableWorld: '&4&l[ExecutableItems] &cYou cant use this ExecutableItem in this world'
+requiredEIFirstPart: '&4Required ExecutableItem(s): '
+requiredEIQuantity: ' &cx &6'
+requiredEISeparator: '&c | '
+requiredItemsFirstPart: '&4Required Item(s): '
+requiredItemsQuantity: ' &cx &6'
+requiredItemsSeparator: '&c | '
+requiredLevel: '&4&l[ExecutableItems] &cYou dont have: &6%level% &clevel !'
+waitProjectile: '&cYou must wait, this projectile hasn''t hit something for the moment
+  !'
+invalidOwner: '&4&l[ExecutableItems] &cYou can''t use this item because your are not
+  his owner !'
+errorUPDItem: '&4&l[ExecutableItems] &cError you have reach the max amount of the
+  use per day (%max_use_per_day_item%) for this item: %item%'
+errorUPDActivator: '&4&l[ExecutableItems] &cError you have reach the max amount of
+  the use per day (%max_use_per_day_activator%) for this activator: %activator%'
+customCommandDamageKillMessage: '%player% destroy %target% with %item%'
+noOwner: '&cNo owner'

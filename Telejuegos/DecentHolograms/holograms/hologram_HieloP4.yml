@@ -1,0 +1,18 @@
+location: world_ice:3.468:159.200:9.481
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '#ICON: cobweb'
+    height: 0.6
+  - content: '&2&lSticky curse'
+    height: 0.3
+  - content: '&c-15% &rvelocidad'
+    height: 0.3
+  - content: '&e5s &rde duración'
+    height: 0.3
+  actions: {}

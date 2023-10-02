@@ -1,0 +1,55 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 181.43.202.81
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1662567523275
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1662606088802
+  login: 1662605873831
+money: '25364.8100000000005491'
+last-account-name: MrJet_
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 499.90730563809836
+  y: 76.0
+  z: 547.1404124224929
+  yaw: -124.87871551513672
+  pitch: 20.54371452331543
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 11786.748573206301
+  y: 88.0
+  z: 15722.055629328623
+  yaw: 6.62359619140625
+  pitch: 19.27359962463379
+homes:
+  home:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: 11820.81276419055
+    y: 86.0
+    z: 15698.818853588895
+    yaw: -174.82940673828125
+    pitch: 27.66061782836914
+  prueba:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: 8156.322567343409
+    y: 63.0
+    z: 7861.689017033761
+    yaw: -153.37355041503906
+    pitch: 63.07622146606445

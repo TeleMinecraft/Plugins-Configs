@@ -1,0 +1,38 @@
+timestamps:
+  login: 1682909060068
+  logout: 1682909428862
+  lastteleport: 1632168065984
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+lastlocation:
+  world: world
+  x: 8.450744313248322
+  y: 32.0
+  z: 1.035051721500305
+  yaw: 107.74984741210938
+  pitch: -5.90000057220459
+  world-name: ''
+logoutlocation:
+  world: 2e1ce19e-1f4f-4123-8c05-bbc1db660846
+  x: -240.50697522571622
+  y: 32.0
+  z: 65.66546743712625
+  yaw: -78.44903564453125
+  pitch: 12.600034713745117
+  world-name: world
+afk: false
+ip-address: 190.44.117.244
+last-account-name: taztico
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+money: '0'

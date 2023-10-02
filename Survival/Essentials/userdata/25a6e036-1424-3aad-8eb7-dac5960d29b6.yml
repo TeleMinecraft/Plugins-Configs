@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 190.82.158.54
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1659474935894
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1659475366143
+  login: 1659474032589
+money: '301323.625'
+last-account-name: Dani
+lastlocation:
+  world: ddd15208-45ed-42b1-90a4-dbd0adfbea42
+  world-name: world_nether
+  x: -27.48497548543073
+  y: 32.0
+  z: 133.77381438342024
+  yaw: 179.2499542236328
+  pitch: 21.15003776550293
+homes:
+  home:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: -250.67273578232337
+    y: 49.0
+    z: 537.0928288928003
+    yaw: -1.1759033203125
+    pitch: 20.549976348876953
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: -245.64358864782278
+  y: 49.0
+  z: 541.032682558532
+  yaw: -17.52643585205078
+  pitch: 22.499984741210938

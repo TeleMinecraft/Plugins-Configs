@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 192.181.229.249
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1674952782928
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1674953039587
+  login: 1674951320791
+money: '10000.0'
+last-account-name: motakuV1
+lastlocation:
+  world: 2e1ce19e-1f4f-4123-8c05-bbc1db660846
+  world-name: world
+  x: -9.262915061182694
+  y: 30.0
+  z: 12.950741206700636
+  yaw: -126.16606903076172
+  pitch: 22.397563934326172
+logoutlocation:
+  world: 2e1ce19e-1f4f-4123-8c05-bbc1db660846
+  world-name: world
+  x: -14.5
+  y: 32.5
+  z: 15.5
+  yaw: -88.3502426147461
+  pitch: 39.45001983642578

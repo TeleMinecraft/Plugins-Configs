@@ -1,0 +1,36 @@
+timestamps:
+  login: 1616440987534
+  logout: 1616441340388
+  lastteleport: 1615413654981
+lastlocation:
+  world: world
+  x: 1199.1835364590756
+  y: 60.0
+  z: 1929.2735214552263
+  yaw: 134.51352
+  pitch: -10.248229
+money: '1169362.49999999999983085'
+logoutlocation:
+  world: world
+  x: 1204.8382066501667
+  y: 82.0
+  z: 1933.1275014365494
+  yaw: -176.24998
+  pitch: 5.495154
+homes:
+  home:
+    world: world
+    x: 1211.7267952095674
+    y: 78.0
+    z: 1936.53344562351
+    yaw: 89.64905
+    pitch: 60.322098
+  spawn:
+    world: world
+    x: 1122.7453552617997
+    y: 27.0
+    z: 1904.959691547629
+    yaw: -253.78554
+    pitch: 22.328632
+ip-address: 181.43.216.120
+last-account-name: Tio_Pikachu

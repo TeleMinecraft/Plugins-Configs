@@ -1,0 +1,18 @@
+uuid: 00f20f4d-bbd0-3aff-8994-ca9f757f72ff
+wins: 5
+losses: 9
+kills: 7
+deaths: 10
+elo: -11
+xp: 46
+pareffect: none
+proeffect: none
+glasscolor: none
+killsound: none
+winsound: none
+taunt: facilito
+permissions:
+- sw.glasscolor.none
+- sw.taunt.facilito
+- sw.killsound.none
+player_name: orozc048

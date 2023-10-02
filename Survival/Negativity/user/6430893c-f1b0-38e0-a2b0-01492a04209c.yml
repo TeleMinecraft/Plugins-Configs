@@ -1,0 +1,19 @@
+playername: HNA999
+lang: es_ES
+minerate-full-mined: 6856
+minerate:
+  diamond: 31
+  gold: 68
+  iron: 306
+  coal: 229
+  ancient debris: 0
+better-click: 35
+cheats:
+  speed: 121
+  timer: 7
+  nuker: 1
+  airplace: 16
+  forcefield: 2
+  blink: 5
+  spider: 1
+creation-time: 1624075126177

@@ -1,0 +1,29 @@
+timestamps:
+  login: 1588643861017
+  lastteleport: 1587873326139
+  logout: 1588643898779
+lastlocation:
+  world: world
+  x: -4764.084525904779
+  y: 65.0
+  z: -627.8049753172781
+  yaw: 271.9414
+  pitch: 24.450024
+money: '1214760.7080000000000002'
+logoutlocation:
+  world: world
+  x: -4754.074999988079
+  y: 64.0
+  z: -653.8243965509446
+  yaw: -275.25714
+  pitch: -1.8000741
+homes:
+  home:
+    world: world
+    x: -4736.279777358823
+    y: 64.0
+    z: -653.189163576561
+    yaw: -295.05347
+    pitch: 23.09994
+ip-address: 201.241.194.154
+last-account-name: Melexor

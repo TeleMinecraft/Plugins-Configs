@@ -1,0 +1,29 @@
+timestamps:
+  login: 1614208138405
+  logout: 1614212942079
+  lastteleport: 1614208140123
+lastlocation:
+  world: world
+  x: 2798.699999988079
+  y: 35.0
+  z: 1629.300000011921
+  yaw: -319.85144
+  pitch: 41.550117
+logoutlocation:
+  world: world
+  x: 2790.144993098591
+  y: 52.0
+  z: 1599.9136485514173
+  yaw: 57.90042
+  pitch: 34.05007
+money: '1119490.0'
+homes:
+  home:
+    world: world
+    x: 2790.3592319965855
+    y: 52.0
+    z: 1600.669763162585
+    yaw: -8.878052
+    pitch: 31.799974
+ip-address: 191.125.0.63
+last-account-name: s4l1er1

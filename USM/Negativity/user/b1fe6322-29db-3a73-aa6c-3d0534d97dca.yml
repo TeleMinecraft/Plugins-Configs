@@ -1,0 +1,16 @@
+playername: cenitz
+lang: es_ES
+minerate-full-mined: 7433
+minerate:
+  diamond: 0
+  gold: 0
+  iron: 72
+  coal: 130
+  ancient debris: 0
+better-click: 15
+cheats:
+  speed: 6
+  timer: 231
+  forcefield: 1
+  spider: 1
+creation-time: 1618174040567

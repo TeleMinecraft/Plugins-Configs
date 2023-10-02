@@ -1,0 +1,134 @@
+panels:
+  panel-1:
+    perm: default
+    panelType: default
+    rows: 3
+    title: '&9&lSelector de Servidores'
+    command: menu
+    sound-on-open: BLOCK_NOTE_BLOCK_CHIME
+    open-with-item:
+      material: NETHER_STAR
+      name: '&b&lSelector de Servidores'
+      lore:
+      - '&7Click para abrir el menú!'
+    item:
+      '0':
+        material: LIGHT_BLUE_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '1':
+        material: MAGENTA_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '2':
+        material: LIGHT_BLUE_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '3':
+        material: MAGENTA_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '4':
+        material: LIGHT_BLUE_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '5':
+        material: MAGENTA_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '6':
+        material: LIGHT_BLUE_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '7':
+        material: MAGENTA_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '8':
+        material: LIGHT_BLUE_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '9':
+        material: MAGENTA_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '11':
+        material: MAGENTA_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '12':
+        material: LIGHT_BLUE_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '14':
+        material: LIGHT_BLUE_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '17':
+        material: MAGENTA_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '18':
+        material: LIGHT_BLUE_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '19':
+        material: MAGENTA_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '20':
+        material: LIGHT_BLUE_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '21':
+        material: MAGENTA_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '22':
+        material: LIGHT_BLUE_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '23':
+        material: MAGENTA_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '24':
+        material: LIGHT_BLUE_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '25':
+        material: MAGENTA_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '26':
+        material: LIGHT_BLUE_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '10':
+        material: GRASS_BLOCK
+        stack: 1
+        name: §b§lLobby §7%bungee_lobby%/50
+        lore:
+        - §7[Click para ir al Lobby]
+        commands:
+        - force-server= lobby
+      '13':
+        material: PODZOL
+        stack: 1
+        name: §2§lSurvival §7%bungee_survival%/150
+        lore:
+        - §7[Click para ir al Survival]
+        commands:
+        - force-server= survival
+      '16':
+        material: FIREWORK_ROCKET
+        name: §d§lTelejuegos §7%bungee_telejuegos%/100
+        lore:
+        - §7[Click para ir a los Telejuegos]
+        commands:
+        - force-server= telejuegos
+        stack: 1
+      '15':
+        material: MAGENTA_STAINED_GLASS_PANE
+        stack: 1
+        name: ''

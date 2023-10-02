@@ -1,0 +1,79 @@
+# This is an example book to show how to create one
+# Note: The placeholders in this book (like %player_name%) need PlaceholderAPI installed
+# with the proper expansion, see here for more informations: https://www.spigotmc.org/resources/placeholderapi.6245/
+
+# Item's name
+name: Zonas
+
+# Book's title
+title: Zonas
+
+# Book's author
+author: TeleServer
+
+# Book's generation
+# Valid values: ORIGINAL, COPY_OF_ORIGINAL, COPY_OF_COPY, TATTERED
+generation: ORIGINAL
+
+# Item's lore
+lore:
+- '<light_purple>Zonas'
+
+# Command to open this book
+# You can remove this by setting it to ''
+# Separate multiple commands with a space
+open_command: ''
+
+pages:
+  '1':
+  - ' <click:change_page:2><hover:show_text:"<gray><underlined>Click<reset><gray> para ver información <br>sobre las <color:#FFFF00><bold>Zonas especiales"><color:#FFFF00><bold>Zonas especiales<reset>'
+  - ''
+  - '<color:dark_purple>● <click:change_page:3><hover:show_text:"<gray><underlined>Click<reset><gray> para ver información <br>sobre la <color:dark_purple><bold>Tienda Oculta"><color:dark_purple><bold>Tienda Oculta<reset>'
+  - '<color:dark_aqua>● <click:change_page:4><hover:show_text:"<gray><underlined>Click<reset><gray> para ver información <br>sobre la <color:dark_aqua><bold>Tienda Nórdica"><color:dark_aqua><bold>Tienda Nórdica<reset>'
+  - '<color:dark_red>● <click:change_page:5><hover:show_text:"<gray><underlined>Click<reset><gray> para ver información <br>sobre la <color:dark_red><bold>Tienda Infernal"><color:dark_red><bold>Tienda Infernal<reset>'
+  - '<color:dark_blue>● <click:change_page:6><hover:show_text:"<gray><underlined>Click<reset><gray> para ver información <br>sobre el <color:dark_blue><bold>Portal al End"><color:dark_blue><bold>Portal al End<reset>'
+  - '<color:gold>● <click:change_page:7><hover:show_text:"<gray><underlined>Click<reset><gray> para ver información <br>sobre la <color:gold><bold>Tienda de Katanas"><color:gold><bold>Tienda Katanas<reset>'
+  - ''
+  - '<dark_gray>Puedes hacer click'
+  - '<dark_gray>en cualquiera de las'
+  - '<dark_gray>zonas para ver más'
+  - '<dark_gray>información de ellos.'
+  '2':
+  - ' <color:#FFFF00><bold>Zonas especiales<reset>'
+  - ''
+  - '<black>'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  'final':
+  - ' <color:#FFFF00><bold>Zonas especiales<reset>'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ' <click:run_command:/ib open help><hover:show_text:"<gray>Click para ir al inicio <br><gray>del libro de <green><underlined>ayuda"><dark_aqua><bold>><color:#00DC85><bold><underlined>Volver al índice<reset><dark_aqua><bold><<reset>'
+
+
+
+# For the placeholders to work correctly
+# you should download the Player and Vault
+# extensions for PlaceholderAPI:
+# /papi ecloud download Player
+# /papi ecloud download Vault
+# /papi reload

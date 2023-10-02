@@ -1,0 +1,19 @@
+playername: audrix
+lang: es_ES
+minerate-full-mined: 1686
+minerate:
+  diamond: 1
+  gold: 0
+  iron: 30
+  coal: 3
+  ancient debris: 0
+better-click: 13
+cheats:
+  speed: 3382
+  fastladder: 1
+  forcefield: 5
+  noslowdown: 2
+  nofall: 2
+  spider: 2
+  faststairs: 1
+creation-time: 1652636746104

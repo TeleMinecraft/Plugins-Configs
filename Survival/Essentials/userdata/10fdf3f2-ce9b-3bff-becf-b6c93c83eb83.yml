@@ -1,0 +1,71 @@
+timestamps:
+  login: 1635110694639
+  logout: 1635111576998
+  lastteleport: 1635111176582
+lastlocation:
+  world: world
+  x: 89848.84851719062
+  y: 94.0
+  z: 7167.249508963208
+  yaw: -24.750061
+  pitch: 4.650022
+homes:
+  construccion:
+    world: world
+    x: -3347.4140302197593
+    y: 67.0
+    z: 7876.551204906873
+    yaw: 117.93451
+    pitch: 47.999916
+  home:
+    world: world
+    x: 1208.6623989336895
+    y: 92.0
+    z: -676.5083732359968
+    yaw: -4.9486694
+    pitch: 28.499924
+  homi:
+    world: world
+    x: 89864.13003592627
+    y: 88.0
+    z: 7173.704198774928
+    yaw: -168.0668
+    pitch: 15.750024
+  nether:
+    world: world_nether
+    x: 10897.348458406736
+    y: 60.0
+    z: 650.3557003605165
+    yaw: -358.59705
+    pitch: 18.000013
+  poblado:
+    world: world
+    x: 89249.23271408177
+    y: 70.0
+    z: 8001.391410479683
+    yaw: 251.2648
+    pitch: 15.749916
+  puebloarena:
+    world: world
+    x: 87925.85731011238
+    y: 93.0
+    z: 7329.048684522411
+    yaw: 68.09546
+    pitch: 34.950176
+  pueblo:
+    world: world
+    x: 89619.75804783622
+    y: 75.0
+    z: 8967.237904105485
+    yaw: -172.51697
+    pitch: 10.799788
+money: '3067102.0'
+logoutlocation:
+  world: world
+  x: 1285.3780080607414
+  y: 63.0
+  z: -729.8390987041931
+  yaw: -266.55225
+  pitch: 34.950115
+ip-address: 186.105.79.224
+last-account-name: fernanda

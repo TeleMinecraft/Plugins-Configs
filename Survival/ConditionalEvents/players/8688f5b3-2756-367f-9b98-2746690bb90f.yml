@@ -1,0 +1,5 @@
+name: BigChain
+events:
+  resistencia_y_skin_al_entrar:
+    one_time: false
+    cooldown: 1680991892665

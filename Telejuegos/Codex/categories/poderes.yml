@@ -1,0 +1,184 @@
+name: "#FF8000&lPoderes"
+discover_title:
+  title: "&5Descubrimiento!"
+  subtitle: "&7Poderes: %name%"
+  fade_in: 20
+  stay: 60
+  fade_out: 20
+discover_message:
+- "&7Para ver tu nuevo logro usa &b/codex                          "
+discover_sound:
+  name: ENTITY_PLAYER_LEVELUP
+  volume: 10
+  pitch: 0.1
+discoveries:
+  1:
+    name: "&6Prueba de Poder"
+    lore:
+    - "&7Juega &nPoderes"
+    #commands:
+    #- "xp give %player% 1"
+    #discovered_on_region: test
+    #discovered_on_mob_kill:
+    #  type: ZOMBIE
+    #  name: "Test"
+  2:
+    name: "&6Demostración de Poder"
+    lore:
+    - "&7Gana una partida de &nPoderes"
+  3:
+    name: "&6Indagador/a de Poderes"
+    lore:
+    - "&7Prueba todas las clases de &nPoderes"
+  4:
+    name: "&6Lo intentaste..."
+    lore:
+    - "&7Pierde una partida de &nPoderes"
+    - "&7con cada una de las clases"
+  5:
+    name: "&6Todopoderos@"
+    lore:
+    - "&7Gana una partida de &nPoderes"
+    - "&7con cada una de las clases"
+  6:
+    name: "&6Inmortal"
+    lore:
+    - "&7Gana una partida de &nPoderes"
+    - "&7sin perder ninguna vida"
+  7:
+    name: "&6En la última vida"
+    lore:
+    - "&7Gana una partida de &nPoderes"
+    - "&7sin tener vidas extras"
+  8:
+    name: "&6Tryhard"
+    lore:
+    - "&7Gana una partida de &nPoderes"
+    - "&7sin usar ninguna habilidad"
+  9:
+    name: "&6Funa Inminente"
+    lore:
+    - "&7Compara los &nPoderes&7 con el Lol"
+  10:
+    name: "&6Disfunción Definitiva"
+    lore:
+    - "&7Gana una partida de &nPoderes"
+    - "&7sin utilizar tu &ndefinitiva"
+  11:
+    name: "&6Poder Definitivo!"
+    lore:
+    - "&7Gana una partida de &nPoderes"
+    - "&7usando solo tu &ndefinitiva"
+  12:
+    name: "&6Asesino Experto"
+    lore:
+    - "&7Mata a 10 o más jugadores"
+    - "&7en una partida de &nPoderes"
+  13:
+    name: "&6Analista de animaciones"
+    lore:
+    - "&7Mira las animaciones de"
+    - "&7todas las clases en el"
+    - "&7Lobby de los &nPoderes"
+  14:
+    name: "&6La sabiduría es Poder"
+    lore:
+    - "&7Lee las instrucciones"
+    - "&7de los &nPoderes"
+  15:
+    name: "&6Root Might"
+    lore:
+    - "&7Inmoviliza a 3 o más enemigos"
+    - "&7enemigos usando la habilidad"
+    - "&7&nRooting&7 del &nWild Druid"
+  16:
+    name: "&6The Worst Cure"
+    lore:
+    - "&7Utiliza &nHealing Wave&7 de"
+    - "&7la clase &nReaper of Life"
+    - "&7teniendo la vida completa"
+  17:
+    name: "&6Of his own medicine"
+    lore:
+    - "&7Mata a un jugador con la clase"
+    - "&7&nPyromaniac&7 devolviéndole"
+    - "&7su propio &nFire Orb"
+  18:
+    name: "&6Just in Time"
+    lore:
+    - "&7Jugando con &nPaladin of Light"
+    - "&7usa &nTimeless Lapse&7 teniendo"
+    - "&7menos de 3 corazones de vida"
+  19:
+    name: "&6Slimen't"
+    lore:
+    - "&7Juega una partida con la"
+    - "&7clase &nSticky Warrior"
+    - "&7sin usar tu &ndefinitiva"
+  20:
+    name: "&6In the Zone"
+    lore:
+    - "&7Usando &nChernobyl U-235&7"
+    - "&7mata a alguien dentro"
+    - "&7de la &nAtomic Zone"
+  21:
+    name: "&6Freezing Combo"
+    lore:
+    - "&7Usando la clase &nLich King"
+    - "&7golpea con tu definitiva"
+    - "&7a un jugador inmovilizado"
+    - "&7con tu habilidad &nIce Stun"
+  22:
+    name: "&6Waste of Warrior"
+    lore:
+    - "&7Utiliza la definitiva del"
+    - "&7&nAtlantis Protector&7 contra"
+    - "&7alguien con menos de 3 corazones"
+  23:
+    name: "&6Your only friend"
+    lore:
+    - "&7Usando &nChosen of Cthulhu&7 obten"
+    - "&73 veces seguidas al mismo aliado"
+    - "&7acuático desde &nMysterious Anemone"
+  24:
+    name: "&6Bruh..."
+    lore:
+    - "&7Muere por daño de caída"
+    - "&7usando la clase &nWind Master"
+  25:
+    name: "&6Where are you going?"
+    lore:
+    - "&7Usando la clase &nDragon Son"
+    - "&7usa la &nEnderpearl&7 para"
+    - "&7atraer a alguien y matarlo"
+    - "&7con la habilidad &nDragon Fury"
+  26:
+    name: "&6Ups"
+    lore:
+    - "&7Jugando con la clase &nAlbafica"
+    - "&7golpea a una de tus abejas"
+    - "&7generadas con &nBee Master"
+  27:
+    name: "&6It's not even my final form"
+    lore:
+    - "&7Usando la clase &nAncient Warrior"
+    - "&7mata a alguien durante la fase"
+    - "&7&nYing&7(carga) de tu &ndefinitiva"
+  28:
+    name: "&6Titanium Legion"
+    lore:
+    - "&7Ten 5 súbditos de titanio"
+    - "&7activos a la vez usando la"
+    - "&7clase &nTitanium Peony"
+  29:
+    name: "&6Allahu Akbar"
+    lore:
+    - "&7Muere por una de tus"
+    - "&7propias explosiones usando"
+    - "&7la clase &nMusul-man"
+  30:
+    name: "&6Insta Kill!"
+    lore:
+    - "&7Mata a alguien instantáneamente"
+    - "&7con la habilidad &nWither Overload"
+    - "&7de la clase &nVacuum Entity"

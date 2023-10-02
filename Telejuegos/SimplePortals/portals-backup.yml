@@ -1,0 +1,135 @@
+Lobby:
+  last-fill-material: AIR
+  portal-server: Lobby
+  point-1:
+    world: world
+    x: 10.0
+    y: 253.0
+    z: -10.0
+  point-2:
+    world: world
+    x: -10.0
+    y: 253.0
+    z: 10.0
+  teleport-location:
+    world: world
+    x: 10.0
+    y: 255.0
+    z: -10.0
+    yaw: 0.0
+    pitch: 0.0
+  commands-only: false
+  commands: []
+  disabled: false
+Spawn1:
+  last-fill-material: AIR
+  point-1:
+    world: world
+    x: -71.0
+    y: 30.0
+    z: 71.0
+  point-2:
+    world: world
+    x: -71.0
+    y: 30.0
+    z: 71.0
+  teleport-location:
+    world: world
+    x: -3.5
+    y: 31.5
+    z: 4.5
+    yaw: 45.0
+    pitch: 0.0
+  commands-only: false
+  commands:
+  - title {player} title {"text":"","color":"light_purple"}
+  - title {player} subtitle {"text":"Woosh!","color":"light_purple"}
+  disabled: false
+LobbySK:
+  last-fill-material: AIR
+  point-1:
+    world: world_skywars
+    x: 4.0
+    y: 29.0
+    z: -4.0
+  point-2:
+    world: world_skywars
+    x: -4.0
+    y: 29.0
+    z: 4.0
+  teleport-location:
+    world: world
+    x: 1.5
+    y: 31.5
+    z: 0.5
+    yaw: 0.0
+    pitch: 0.0
+  commands-only: false
+  commands: []
+  disabled: false
+LobbyTNT:
+  last-fill-material: AIR
+  point-1:
+    world: world_tnt
+    x: 0.0
+    y: 29.0
+    z: 7.0
+  point-2:
+    world: world_tnt
+    x: 0.0
+    y: 29.0
+    z: 7.0
+  teleport-location:
+    world: world
+    x: 1.5
+    y: 31.5
+    z: 0.5
+    yaw: 0.0
+    pitch: 0.0
+  commands-only: false
+  commands: []
+  disabled: false
+LobbySacrifice:
+  last-fill-material: AIR
+  point-1:
+    world: world_death
+    x: -3.0
+    y: 29.0
+    z: -68.0
+  point-2:
+    world: world_death
+    x: -3.0
+    y: 29.0
+    z: -68.0
+  teleport-location:
+    world: world
+    x: 1.5
+    y: 31.5
+    z: 0.5
+    yaw: 0.0
+    pitch: 0.0
+  commands-only: false
+  commands: []
+  disabled: false
+LobbyFrozen:
+  last-fill-material: AIR
+  point-1:
+    world: world_ice
+    x: 3.0
+    y: 156.0
+    z: -9.0
+  point-2:
+    world: world_ice
+    x: 3.0
+    y: 156.0
+    z: -9.0
+  teleport-location:
+    world: world
+    x: 1.5
+    y: 31.5
+    z: 0.5
+    yaw: 0.0
+    pitch: 0.0
+  commands-only: false
+  commands: []
+  disabled: false

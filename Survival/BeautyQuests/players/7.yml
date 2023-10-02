@@ -1,0 +1,57 @@
+identifier: 3239945b-3ec5-3a97-945f-9fbb2243b539
+quests:
+- questID: 19
+  currentStage: 0
+  datas:
+    stage0:
+      remaining:
+        00000000-0000-0000-0000-0000000009ae: 2
+  currentBranch: 0
+- questID: 4
+  currentStage: 0
+  datas:
+    stage0:
+      remaining:
+        00000000-0000-0001-0000-0000000009ae: 10
+        00000000-0000-0000-0000-0000000009ae: 10
+        00000000-0000-0005-0000-0000000009ae: 3
+        00000000-0000-0003-0000-0000000009ae: 5
+        00000000-0000-0004-0000-0000000009ae: 3
+        00000000-0000-0002-0000-0000000009ae: 5
+  currentBranch: 0
+- questID: 7
+  timer: 1629490048028
+  timesFinished: 1
+- questID: 8
+  currentStage: 0
+  datas:
+    stage0:
+      remaining:
+        00000000-0000-0001-0000-0000000009ae: 3
+        00000000-0000-0000-0000-0000000009ae: 3
+  currentBranch: 0
+- questID: 9
+  timer: 1664045622595
+  questFlow: 0:1;0:2
+  timesFinished: 1
+- questID: 11
+  currentStage: 0
+  datas:
+    stage0:
+      remaining:
+        00000000-0000-0001-0000-0000000009ae: 10
+        00000000-0000-0000-0000-0000000009ae: 10
+        00000000-0000-0003-0000-0000000009ae: 1
+        00000000-0000-0004-0000-0000000009ae: 1
+        00000000-0000-0002-0000-0000000009ae: 10
+  currentBranch: 0
+- questID: 13
+  currentStage: 0
+  datas:
+    stage0:
+      remaining:
+        00000000-0000-0000-0000-0000000009ae: 1
+  currentBranch: 0
+- questID: 14
+  timer: 1630008894671
+  timesFinished: 1

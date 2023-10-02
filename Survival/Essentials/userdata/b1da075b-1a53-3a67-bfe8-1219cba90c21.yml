@@ -1,0 +1,29 @@
+timestamps:
+  login: 1629239205061
+  logout: 1629241139779
+  lastteleport: 1629240909075
+lastlocation:
+  world: world
+  x: 1176.1479114429912
+  y: 72.0
+  z: -685.3772569773071
+  yaw: 270.9469
+  pitch: 6.149963
+money: '671147.2000000000000473'
+logoutlocation:
+  world: world
+  x: 1184.3253623388614
+  y: 63.0
+  z: -691.8789886638568
+  yaw: 205.84534
+  pitch: 38.549538
+homes:
+  home:
+    world: world
+    x: 1210.0655501935264
+    y: 92.0
+    z: -673.9228787976242
+    yaw: 173.29843
+    pitch: 23.849466
+ip-address: 181.43.116.194
+last-account-name: nxt4lia

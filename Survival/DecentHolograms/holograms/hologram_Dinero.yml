@@ -1,0 +1,24 @@
+location: world:450.500:80.500:496.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&a&lTop mayores'
+    height: 0.3
+  - content: '&a&lmillonarios'
+    height: 0.3
+  - content: '&a&lI. &2&l%ajlb_lb_vault_eco_balance_fixed_1_alltime_name% &a&l$%ajlb_lb_vault_eco_balance_fixed_1_alltime_value%'
+    height: 0.3
+  - content: '&a&lII. &2&l%ajlb_lb_vault_eco_balance_fixed_2_alltime_name% &a&l$%ajlb_lb_vault_eco_balance_fixed_2_alltime_value%'
+    height: 0.3
+  - content: '&a&lIII. &2&l%ajlb_lb_vault_eco_balance_fixed_3_alltime_name% &a&l$%ajlb_lb_vault_eco_balance_fixed_3_alltime_value%'
+    height: 0.3
+  - content: '&aIV. &2%ajlb_lb_vault_eco_balance_fixed_4_alltime_name% &a$%ajlb_lb_vault_eco_balance_fixed_4_alltime_value%'
+    height: 0.3
+  - content: '&aV. &2%ajlb_lb_vault_eco_balance_fixed_5_alltime_name% &a$%ajlb_lb_vault_eco_balance_fixed_5_alltime_value%'
+    height: 0.3
+  actions: {}

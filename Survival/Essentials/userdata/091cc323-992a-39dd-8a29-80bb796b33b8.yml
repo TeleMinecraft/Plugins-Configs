@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 191.113.139.246
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1681070399287
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1681070646332
+  login: 1681069023083
+money: '8008.875'
+last-account-name: Trilux
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 328.98146887160084
+  y: 58.0
+  z: -949.6767970424447
+  yaw: 176.1016082763672
+  pitch: 4.349876880645752
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 367.952606634213
+  y: 52.0
+  z: -985.1760905302838
+  yaw: 7.92138671875
+  pitch: 23.84954071044922
+homes:
+  home:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: 371.85448021942744
+    y: 50.0
+    z: -987.824071392639
+    yaw: -134.7314910888672
+    pitch: 18.59964942932129

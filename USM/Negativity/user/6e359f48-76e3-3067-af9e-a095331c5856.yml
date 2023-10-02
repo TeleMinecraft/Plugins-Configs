@@ -1,0 +1,19 @@
+playername: MotorBerzerk18
+lang: es_ES
+minerate-full-mined: 3914
+minerate:
+  diamond: 5
+  gold: 7
+  iron: 136
+  coal: 281
+  ancient debris: 0
+better-click: 14
+cheats:
+  timer: 1
+  antiknockback: 1
+  nuker: 3
+  airplace: 2
+  forcefield: 1
+  blink: 3
+  speed: 33
+creation-time: 1623724679032

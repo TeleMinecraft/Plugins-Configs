@@ -1,0 +1,44 @@
+timestamps:
+  login: 1620525980636
+  lastteleport: 1619914985034
+  logout: 1620526548310
+lastlocation:
+  world: world
+  x: 429.4006593400518
+  y: 77.0
+  z: -454.5641263460054
+  yaw: -258.3104
+  pitch: 34.050167
+logoutlocation:
+  world: world
+  x: -541313.0388862924
+  y: 63.0
+  z: -540415.810219912
+  yaw: 186.60185
+  pitch: 13.949935
+homes:
+  exp:
+    world: world
+    x: -4256.399267072043
+    y: 25.0
+    z: 3052.9138722198345
+    yaw: 269.0952
+    pitch: 27.899881
+  antiguo:
+    world: world
+    x: -4557.6107670888205
+    y: 63.0
+    z: 2881.498450425282
+    yaw: 177.59839
+    pitch: -1.6499866
+  hogar:
+    world: world
+    x: -541383.5660582846
+    y: 70.9375
+    z: -540482.8965360603
+    yaw: 80.72674
+    pitch: 36.150345
+money: '4075498.95699999999999006'
+nickname: §e§lGARA
+ip-address: 190.114.35.12
+last-account-name: charlyxdd

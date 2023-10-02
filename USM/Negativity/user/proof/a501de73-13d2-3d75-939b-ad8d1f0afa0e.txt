@@ -1,0 +1,6 @@
+2022-05-01 03:12:57.092: (228ms) 100% FORCEFIELD > Big distance with: chicken. Exact distance: 4.01335894232882, without thorns. Ping: 228. Player version: V1_18. TPS: [20.000000001541437, 20.000012252708675, 20.000219790440582]
+2022-05-01 03:15:13.139: (237ms) 100% FORCEFIELD > Big distance with: rabbit. Exact distance: 4.002627262183035, without thorns. Ping: 237. Player version: V1_18. TPS: [20.000000000162238, 20.000007818797073, 20.000189381721945]
+2022-05-01 03:15:26.507: (215ms) 100% FORCEFIELD > Big distance with: rabbit. Exact distance: 5.676488791492623, without thorns. Ping: 215. Player version: V1_18. TPS: [20.000000000137316, 20.000007562905434, 20.0001873042518]
+2022-05-01 03:16:11.582: (211ms) 100% FORCEFIELD > Big distance with: rabbit. Exact distance: 4.362158296069205, without thorns. Ping: 211. Player version: V1_18. TPS: [20.014680057533617, 20.003849782958113, 20.001494226375318]
+2022-05-01 03:16:14.798: (211ms) 100% FORCEFIELD > Big distance with: rabbit. Exact distance: 4.163075785998674, without thorns. Ping: 211. Player version: V1_18. TPS: [20.014680057533617, 20.003849782958113, 20.001494226375318]
+2022-05-01 03:26:18.07: (178ms) 100% FORCEFIELD > Big distance with: drowned. Exact distance: 4.156600173214712, without thorns. Ping: 178. Player version: V1_18. TPS: [19.847178612508245, 19.968994665758846, 19.99026013512311]

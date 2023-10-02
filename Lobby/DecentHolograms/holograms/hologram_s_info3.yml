@@ -1,0 +1,62 @@
+location: world:-8.500:32.500:-57.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: <#ffff00>&lNiveles de experiencia</#0DDE00>
+    height: 0.3
+  - content: '&fLos niveles de XP también'
+    height: 0.3
+  - content: '&fson usados como método de'
+    height: 0.3
+  - content: '&fpago en &aTiendas &fy además'
+    height: 0.3
+  - content: '&fpermiten desbloquear misiones.'
+    height: 0.3
+  - content: '&7● &7[{page}/{pages}]&a ●'
+    height: 0.3
+  actions:
+    RIGHT:
+    - NEXT_PAGE:s_info3
+    - SOUND:ITEM_BOOK_PAGE_TURN
+- lines:
+  - content: <#ffff00>&lNiveles de experiencia</#0DDE00>
+    height: 0.3
+  - content: '&fPara ganar &nmás&f experiencia'
+    height: 0.3
+  - content: '&fexisten &dMultiplicadores de XP&f,'
+    height: 0.3
+  - content: '&6encantamientos especiales &fy'
+    height: 0.3
+  - content: '&ceventos &fenfocados en la XP.'
+    height: 0.3
+  - content: '&a● &7[{page}/{pages}]&a ●'
+    height: 0.3
+  actions:
+    LEFT:
+    - PREV_PAGE:s_info3
+    - SOUND:ITEM_BOOK_PAGE_TURN
+    RIGHT:
+    - NEXT_PAGE:s_info3
+    - SOUND:ITEM_BOOK_PAGE_TURN
+- lines:
+  - content: <#ffff00>&lNiveles de experiencia</#0DDE00>
+    height: 0.3
+  - content: '&fCerca del &b&o/warp Poblado&f puedes'
+    height: 0.3
+  - content: '&fencontrar un &6Ranking &fde jugadores'
+    height: 0.3
+  - content: '&fcon más niveles de experiencia,'
+    height: 0.3
+  - content: '&fcrees poder entrar al &6&lTOP&f?'
+    height: 0.3
+  - content: '&a● &7[{page}/{pages}] &7●'
+    height: 0.3
+  actions:
+    LEFT:
+    - PREV_PAGE:s_info3
+    - SOUND:ITEM_BOOK_PAGE_TURN

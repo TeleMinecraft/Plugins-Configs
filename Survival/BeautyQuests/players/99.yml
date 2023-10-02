@@ -1,0 +1,9 @@
+identifier: ae088c6a-5208-3d0e-8538-ed86693c5ee8
+quests:
+- stage0datas:
+    remaining:
+      1: 5
+      2: 1
+  questID: 3
+  currentStage: 0
+  currentBranch: 0

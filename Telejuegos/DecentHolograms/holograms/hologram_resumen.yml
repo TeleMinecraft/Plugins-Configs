@@ -1,0 +1,20 @@
+location: world_anvil:163.500:48.000:-247.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&7&lInstrucciones &6&lAnvil &8&lStorm'
+    height: 0.3
+  - content: '&aEsquiva los yunques y'
+    height: 0.3
+  - content: '&ausalos para escalar hacia'
+    height: 0.3
+  - content: '&ala victoria.'
+    height: 0.3
+  - content: '#ICON: TOTEM_OF_UNDYING'
+    height: 0.6
+  actions: {}

@@ -1,0 +1,16 @@
+playername: Storbo22
+lang: es_ES
+minerate-full-mined: 2
+minerate:
+  diamond: 0
+  gold: 0
+  iron: 0
+  coal: 0
+  ancient debris: 0
+better-click: 8
+cheats:
+  fly: 5
+  airjump: 2
+  step: 17
+  faststairs: 1
+creation-time: 1615859153675

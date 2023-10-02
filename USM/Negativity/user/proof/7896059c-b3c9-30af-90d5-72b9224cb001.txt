@@ -1,0 +1,6 @@
+2021-04-16 00:49:28.93: (191ms) 97% FASTPLACE > Block placed too quickly. Last time: 68, Last with ping: 47. Ping: 191. Player version: V1_16. TPS: [20.000161646932018, 20.00008608831299, 20.000143579756514]
+2021-04-16 00:49:32.151: (191ms) 93% FASTPLACE > Block placed too quickly. Last time: 64, Last with ping: 43. Ping: 191. Player version: V1_16. TPS: [20.000161646932018, 20.00008608831299, 20.000143579756514]
+2021-04-16 00:49:40.748: (191ms) 91% FASTPLACE > Block placed too quickly. Last time: 62, Last with ping: 41. Ping: 191. Player version: V1_16. TPS: [20.00013681796326, 20.0000832708362, 20.00014200472248]
+2021-04-16 00:50:59.502: (173ms) 94% FASTPLACE > Block placed too quickly. Last time: 63, Last with ping: 44. Ping: 173. Player version: V1_16. TPS: [20.00075277401043, 20.000100283340167, 20.000135324619084]
+2021-04-16 00:51:53.266: (275ms) 94% FASTPLACE > Block placed too quickly. Last time: 74, Last with ping: 44. Ping: 275. Player version: V1_16. TPS: [20.00037494481134, 20.00005708348833, 20.00011421047206]
+2022-04-29 05:58:22.557: (150ms) 100% SPEED > On ground. WalkSpeed: 0.1599999964237213, Distance from/to: 1.366596034144283, walkTest: true, walkWithEss: true, y: 1.366596034144283, disDir: 1.5569193680785347, disDirY: 1.550772807839277. Player version: V1_18. TPS: [20.000021634933006, 20.010345136011804, 20.02593902714393]

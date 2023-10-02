@@ -1,0 +1,57 @@
+customItem:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: CAKE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    ItemFlags:
+    - HIDE_ATTRIBUTES
+name: §d§lPastelero §2[Gremio]
+description: §eCómo se craftea un pastel?
+repeatable: true
+endRewards:
+- id: commandReward
+  commands:
+  - console: true
+    label: scoreboard players add {PLAYER} Prestigio 3
+- id: itemReward
+  items:
+  - v: 2975
+    type: HONEY_BOTTLE
+    amount: 4
+  - v: 2975
+    type: COOKIE
+    amount: 16
+bypassLimit: true
+timer: 1440
+manager:
+  branches:
+    '0':
+      stages:
+        '0':
+          objects:
+            '0':
+              amount: 3
+              object: blockdata:minecraft:wheat[age=7]
+            '1':
+              amount: 2
+              object: SUGAR_CANE
+          stageType: MINE
+        '1':
+          bucket: MILK
+          amount: 3
+          stageType: BUCKET
+        '2':
+          result:
+            v: 2975
+            type: SUGAR
+            amount: 2
+          stageType: CRAFT
+        '3':
+          result:
+            v: 2975
+            type: CAKE
+          stageType: CRAFT
+      endingStages: {}
+id: 15

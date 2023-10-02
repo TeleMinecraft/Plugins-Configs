@@ -1,0 +1,29 @@
+timestamps:
+  login: 1632192884485
+  lastteleport: 1630471029721
+  logout: 1632192968608
+lastlocation:
+  world: world
+  x: 492.1057383365
+  y: 76.0
+  z: 531.6811710677497
+  yaw: 16.18164
+  pitch: 16.649996
+money: '14146651.95900000000336350'
+homes:
+  home:
+    world: world
+    x: 35014.03031251121
+    y: 61.0
+    z: -14219.582202577563
+    yaw: 93.89429
+    pitch: 78.262184
+logoutlocation:
+  world: world
+  x: 431.9128582110424
+  y: 68.49520087700593
+  z: -741.4438681840749
+  yaw: -223.38025
+  pitch: 18.876667
+ip-address: 190.100.228.167
+last-account-name: IDonGatol

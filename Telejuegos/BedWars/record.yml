@@ -1,0 +1,17 @@
+record:
+  weaV2:
+    time: 42
+    team: §cRojo
+    winners:
+    - Storbo
+  Taiga:
+    time: 42
+    team: §cRojo
+    winners:
+    - Storbo
+  Ice:
+    time: 567
+    team: §9Azul
+    winners:
+    - Storbo
+    - Richard363

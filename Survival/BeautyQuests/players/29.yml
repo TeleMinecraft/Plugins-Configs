@@ -1,0 +1,177 @@
+identifier: a585b405-7c96-3603-b8b2-a113493be741
+quests:
+- questID: 1
+  currentStage: 0
+  datas:
+    starting_time: 1691868683373
+    stage0:
+      remaining:
+        00000000-0000-0000-0000-0000000009ae: 1
+        00000000-0000-0001-0000-0000000009ae: 1
+        00000000-0000-0003-0000-0000000009ae: 1
+        00000000-0000-0002-0000-0000000009ae: 1
+  currentBranch: 0
+- questID: 2
+  currentStage: 0
+  datas:
+    starting_time: 1691868683749
+    stage0:
+      amount: 1
+  currentBranch: 0
+- questID: 3
+  currentStage: 0
+  datas:
+    starting_time: 1691868684201
+    stage0:
+      remaining:
+        00000000-0000-0000-0000-0000000009ae: 10
+        00000000-0000-0001-0000-0000000009ae: 5
+        00000000-0000-0002-0000-0000000009ae: 1
+  currentBranch: 0
+- questID: 4
+  currentStage: 0
+  datas:
+    starting_time: 1691868684656
+    stage0:
+      remaining:
+        00000000-0000-0000-0000-0000000009ae: 15
+        00000000-0000-0005-0000-0000000009ae: 3
+        00000000-0000-0004-0000-0000000009ae: 3
+        00000000-0000-0001-0000-0000000009ae: 10
+        00000000-0000-0003-0000-0000000009ae: 5
+        00000000-0000-0002-0000-0000000009ae: 5
+  currentBranch: 0
+- questID: 5
+  currentStage: 0
+  datas:
+    starting_time: 1691868669894
+    stage0:
+      remaining:
+        00000000-0000-0000-0000-0000000009ae: 64
+        00000000-0000-0007-0000-0000000009ae: 1
+        00000000-0000-0005-0000-0000000009ae: 15
+        00000000-0000-0004-0000-0000000009ae: 15
+        00000000-0000-0001-0000-0000000009ae: 32
+        00000000-0000-0006-0000-0000000009ae: 5
+        00000000-0000-0008-0000-0000000009ae: 3
+        00000000-0000-0003-0000-0000000009ae: 20
+        00000000-0000-0002-0000-0000000009ae: 25
+  currentBranch: 0
+- questID: 6
+  currentStage: 0
+  datas:
+    starting_time: 1691868687253
+    stage0:
+      remaining:
+        00000000-0000-0000-0000-0000000009ae: 3
+        00000000-0000-0001-0000-0000000009ae: 5
+  currentBranch: 0
+- questID: 7
+  currentStage: 0
+  datas:
+    starting_time: 1691868678815
+    stage0:
+      remaining:
+        00000000-0000-0000-0000-0000000009ae: 2
+        00000000-0000-0001-0000-0000000009ae: 2
+  currentBranch: 0
+- questID: 8
+  currentStage: 0
+  datas:
+    starting_time: 1691868679000
+    stage0:
+      remaining:
+        00000000-0000-0000-0000-0000000009ae: 3
+        00000000-0000-0001-0000-0000000009ae: 3
+  currentBranch: 0
+- questID: 9
+  currentStage: 0
+  datas:
+    starting_time: 1691868679464
+    stage0:
+      remaining:
+        00000000-0000-0000-0000-0000000009ae: 10
+  currentBranch: 0
+- questID: 10
+  currentStage: 0
+  datas:
+    starting_time: 1691868679851
+    stage0:
+      remaining:
+        00000000-0000-0000-0000-0000000009ae: 5
+        00000000-0000-0001-0000-0000000009ae: 5
+        00000000-0000-0002-0000-0000000009ae: 5
+  currentBranch: 0
+- questID: 11
+  currentStage: 0
+  datas:
+    starting_time: 1691868680381
+    stage0:
+      remaining:
+        00000000-0000-0000-0000-0000000009ae: 10
+        00000000-0000-0004-0000-0000000009ae: 1
+        00000000-0000-0001-0000-0000000009ae: 10
+        00000000-0000-0003-0000-0000000009ae: 1
+        00000000-0000-0002-0000-0000000009ae: 10
+  currentBranch: 0
+- questID: 12
+  currentStage: 0
+  datas:
+    starting_time: 1691868680609
+    stage0:
+      remaining:
+        00000000-0000-0000-0000-0000000009ae: 20
+        00000000-0000-0007-0000-0000000009ae: 5
+        00000000-0000-0005-0000-0000000009ae: 5
+        00000000-0000-0004-0000-0000000009ae: 5
+        00000000-0000-0001-0000-0000000009ae: 20
+        00000000-0000-0006-0000-0000000009ae: 5
+        00000000-0000-0003-0000-0000000009ae: 5
+        00000000-0000-0002-0000-0000000009ae: 20
+  currentBranch: 0
+- questID: 13
+  currentStage: 0
+  datas:
+    starting_time: 1691868648934
+    stage0:
+      remaining:
+        00000000-0000-0000-0000-0000000009ae: 1
+  currentBranch: 0
+- questID: 14
+  currentStage: 0
+  datas:
+    starting_time: 1691868675097
+    stage0:
+      remaining:
+        00000000-0000-0000-0000-0000000009ae: 1
+  currentBranch: 0
+- questID: 15
+  currentStage: 0
+  datas:
+    starting_time: 1691868675751
+    stage0:
+      remaining:
+        00000000-0000-0000-0000-0000000009ae: 3
+        00000000-0000-0001-0000-0000000009ae: 2
+  currentBranch: 0
+- questID: 16
+  currentStage: 0
+  datas:
+    starting_time: 1691868675903
+    stage0:
+      remaining:
+        00000000-0000-0000-0000-0000000009ae: 10
+  currentBranch: 0
+- questID: 17
+  currentStage: 0
+  datas:
+    starting_time: 1691868676163
+    stage0:
+      amount: 1
+  currentBranch: 0
+- questID: 18
+  currentStage: 0
+  datas:
+    starting_time: 1691868676497
+    stage0: {}
+  currentBranch: 0

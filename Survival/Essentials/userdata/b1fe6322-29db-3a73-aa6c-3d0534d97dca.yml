@@ -1,0 +1,29 @@
+timestamps:
+  login: 1625027213932
+  lastteleport: 1618974929875
+  logout: 1625028877010
+lastlocation:
+  world: world
+  x: 28337.920855493954
+  y: 66.0
+  z: -2152.7827610617696
+  yaw: -89.69754
+  pitch: 9.47854
+money: '1312302.0'
+logoutlocation:
+  world: world
+  x: 960.02501184322
+  y: 69.0
+  z: 5217.602989424214
+  yaw: 262.55908
+  pitch: -0.12128708
+homes:
+  home:
+    world: world
+    x: 19806.138405081707
+    y: 75.0
+    z: -391.19159629258627
+    yaw: -297.46747
+    pitch: 12.664358
+ip-address: 200.120.147.202
+last-account-name: cenitz

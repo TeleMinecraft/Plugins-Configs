@@ -1,0 +1,29 @@
+timestamps:
+  login: 1617593493326
+  lastteleport: 1617595655266
+  logout: 1617595662431
+lastlocation:
+  world: world
+  x: -4364.5
+  y: 76.5625
+  z: 2828.5
+  yaw: 0.0
+  pitch: 0.0
+money: '1102302'
+homes:
+  home:
+    world: world
+    x: -4250.14532619095
+    y: 68.0
+    z: 2613.465101400198
+    yaw: 86.90057
+    pitch: 38.283916
+logoutlocation:
+  world: world
+  x: -4244.665805103025
+  y: 69.875
+  z: 2612.2023562985833
+  yaw: 359.8626
+  pitch: 31.54915
+ip-address: 186.156.124.227
+last-account-name: Andres__Urt

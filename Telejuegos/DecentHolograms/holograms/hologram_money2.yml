@@ -1,0 +1,26 @@
+location: world_skywars:22.003:38.539:-28.534
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: Para saber tu &a&lnivel
+    height: 0.3
+  - content: basta con mirar tu
+    height: 0.3
+  - content: de experiencia&r.
+    height: 0.3
+  - content: Los &dcosméticos&r que
+    height: 0.3
+  - content: hayas desbloqueado, los
+    height: 0.3
+  - content: puedes ver abriendo las
+    height: 0.3
+  - content: '&6&lOpciones de SkyWars'
+    height: 0.3
+  - content: '#ICON: book'
+    height: 0.6
+  actions: {}

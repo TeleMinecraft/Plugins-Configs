@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 168.196.203.87
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1652921613049
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1652923097027
+  login: 1652920891578
+money: '0'
+last-account-name: JN3mesis
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 415.5483922625219
+  y: 63.5
+  z: -509.17376738376544
+  yaw: 0.44990837574005127
+  pitch: -1.800040364265442
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 3426.743657509985
+  y: 66.0
+  z: 3984.9886397648584
+  yaw: 163.9872589111328
+  pitch: 1.0499439239501953

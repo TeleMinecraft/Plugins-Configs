@@ -1,0 +1,64 @@
+timestamps:
+  login: 1663367711414
+  logout: 1663370043320
+  lastteleport: 1663370040250
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: 6318.686905687572
+  y: 95.0
+  z: -234.07572234979483
+  yaw: -134.9361572265625
+  pitch: 43.811031341552734
+  world-name: world
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: 11825.179614021637
+  y: 86.0
+  z: 15705.739847721767
+  yaw: 38.33588409423828
+  pitch: 23.100055694580078
+  world-name: world
+homes:
+  home:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: -4477.861028046548
+    y: 56.0625
+    z: 2784.136129633848
+    yaw: 160.3402099609375
+    pitch: 19.050580978393555
+    world-name: world
+  b:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: 11820.171353898624
+    y: 86.0
+    z: 15701.550705477532
+    yaw: -25.264404296875
+    pitch: 32.850040435791016
+    world-name: world
+  a:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: 6343.905260906899
+    y: 63.0
+    z: -165.31312394121818
+    yaw: -172.198486328125
+    pitch: 14.549905776977539
+    world-name: world
+money: '27862212.00500000001829658'
+nickname: §3§lNanadaime
+ip-address: 170.82.191.63
+last-account-name: Thefinalstexts
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false

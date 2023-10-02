@@ -1,0 +1,29 @@
+timestamps:
+  login: 1609476989699
+  lastteleport: 1609483010587
+  logout: 1609484175704
+lastlocation:
+  world: world
+  x: -541368.8303216228
+  y: 63.0
+  z: -540592.6809737913
+  yaw: 135.08179
+  pitch: 30.57484
+money: '1187202'
+homes:
+  home:
+    world: world
+    x: -541552.5400843831
+    y: 63.0
+    z: -540286.485037054
+    yaw: 95.14966
+    pitch: 18.056286
+logoutlocation:
+  world: world
+  x: -541558.7241832091
+  y: 63.0
+  z: -540289.0886778979
+  yaw: -60.16416
+  pitch: 7.9937572
+ip-address: 186.26.118.239
+last-account-name: MasterRin

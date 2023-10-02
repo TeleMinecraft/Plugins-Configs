@@ -1,0 +1,51 @@
+# Do not edit anything here! Everything should be modified in-game.
+
+data:
+- npc: 112
+  times: {}
+  players:
+    d37d161e-5ad0-3da8-ba32-2771b7bbc00c: 1
+    a750a078-e193-3028-9ffd-5224fa43daa7: 1
+    7aad55da-1fc3-3ebc-b708-e6a6a85687d2: 1
+    72cee411-ea9d-3047-a326-8be220cf6602: 2
+    b281e3da-304e-3087-8cd1-de79949706f9: 2
+    b165f33e-480b-358c-8e55-ae0745186ff2: 1
+    78f2a027-a472-3f5f-abbb-ec442b5ec5c7: 1
+    3239945b-3ec5-3a97-945f-9fbb2243b539: 6
+    5a2fd413-d555-3590-a985-6fcb45a6322f: 3
+    1b88b650-e45e-3d3b-ac1f-a57d62127e4d: 1
+    52f4fdf1-d7a0-34f8-9bc2-4218e125a5af: 1
+    535fb7b0-5919-359b-b9e3-9f7d66277535: 2
+    e005ee70-067c-3674-beff-84fa590eda1d: 1
+    7173c792-f1b5-3db1-abc4-179f950390fc: 1
+    00f20f4d-bbd0-3aff-8994-ca9f757f72ff: 1
+    7b2cd050-f4da-3051-942c-4ace93e83c1b: 1
+    9629b9a4-e732-376d-b7e7-032e3e1520a5: 1
+    59f356fb-67e4-33f7-b4e9-e23f9cc579a4: 1
+    b4ffe8fd-2b3c-3da5-b31b-34759639f298: 1
+    b42b8738-2ea3-3783-afe8-8d86f0e2e422: 1
+    9504288a-75c8-36d7-ac11-63749ab2c6df: 1
+  messages:
+    0: §bLo sé {PLAYER}, también quiero más eventos...
+    1: §bTe avisaré apenas tenga novedades!
+- npc: 171
+  messages:
+    0: §fPara generar la mezcla solicitada
+    1: §fBusca la §d§lMezcla §0§l§kmortal
+    2: §fEn el menú de /recipes
+  customName: §fDon Manolo
+- npc: 113
+  players:
+    b4ffe8fd-2b3c-3da5-b31b-34759639f298: 1
+  messages:
+    0: Hola
+    1:
+      text: §a>§fQuisiera saber más§a<
+      commands:
+      - auto: false
+        command: interactions start teleporter {PLAYER}
+      player: true
+- npc: 92
+  messages:
+    0: §fHoli
+lastVersion: '1.2'

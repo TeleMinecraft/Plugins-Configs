@@ -1,0 +1,74 @@
+name: Sth3fan0
+events:
+  resistencia_y_skin_al_entrar:
+    one_time: false
+    cooldown: 1684723170688
+  descripcion_mision14:
+    one_time: false
+    cooldown: 1678127743104
+  mision_14:
+    one_time: false
+    cooldown: 1678127263193
+  mision_15:
+    one_time: false
+    cooldown: 1678240690993
+  descripcion_mision15:
+    one_time: false
+    cooldown: 1678127655953
+  descripcion_mision17:
+    one_time: false
+    cooldown: 1678127709355
+  mision_17:
+    one_time: false
+    cooldown: 1678240692695
+  descripcion_mision18:
+    one_time: false
+    cooldown: 1678127745853
+  mision_18:
+    one_time: false
+    cooldown: 1678240693049
+  mision_12:
+    one_time: false
+    cooldown: 1678127748505
+  mision_11:
+    one_time: false
+    cooldown: 1678240693793
+  mision_10:
+    one_time: false
+    cooldown: 1678240694097
+  mision_9:
+    one_time: false
+    cooldown: 1678240694296
+  mision_8:
+    one_time: false
+    cooldown: 1678240694643
+  mision_7:
+    one_time: false
+    cooldown: 1678240694793
+  mision_13:
+    one_time: false
+    cooldown: 1678127750154
+  mision_3:
+    one_time: false
+    cooldown: 1678240695747
+  mision_4:
+    one_time: false
+    cooldown: 1678240696148
+  mision_5:
+    one_time: false
+    cooldown: 1678127751704
+  mision_6:
+    one_time: false
+    cooldown: 1678240696844
+  mision_1:
+    one_time: false
+    cooldown: 1678240695193
+  mision_16:
+    one_time: false
+    cooldown: 1678240692498
+  mision_2:
+    one_time: false
+    cooldown: 1678240695394
+  descripcion_mision13:
+    one_time: false
+    cooldown: 1678240688793

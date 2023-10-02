@@ -1,0 +1,57 @@
+endRewards:
+- id: itemReward
+  items:
+  - v: 2860
+    type: BONE_MEAL
+    amount: 32
+- id: commandReward
+  commands:
+  - console: true
+    delay: 0
+    label: scoreboard players add {PLAYER} Prestigio 2
+customItem:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2860
+  type: IRON_HOE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    ItemFlags:
+    - HIDE_ATTRIBUTES
+repeatable: true
+bypassLimit: true
+description: §eRecoge tus cultivos y vuelve a plantarlos
+timer: 1440
+name: §a§lGranjero Humilde §2[Gremio]
+id: 10
+manager:
+  branches:
+  - order: 0
+    stages:
+    - stageType: MINE
+      customText: null
+      objects:
+        0:
+          amount: 5
+          object: blockdata:minecraft:carrots[age=7]
+        1:
+          amount: 5
+          object: blockdata:minecraft:wheat[age=7]
+        2:
+          amount: 5
+          object: blockdata:minecraft:potatoes[age=7]
+      order: 0
+    - stageType: PLACE_BLOCKS
+      customText: null
+      objects:
+        0:
+          amount: 5
+          object: CARROTS
+        1:
+          amount: 5
+          object: WHEAT
+        2:
+          amount: 5
+          object: POTATOES
+      order: 1
+    endingStages: []

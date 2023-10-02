@@ -1,0 +1,1 @@
+2023-04-30 01:43:59.787: (142ms) 95% SPIDER > Nothing around him. To > From: 0.5954480115890561 isAris: false, has not stab slairs. Player version: V1_19. TPS: [20.001975995208568, 19.9999944570682, 20.000000570822237]

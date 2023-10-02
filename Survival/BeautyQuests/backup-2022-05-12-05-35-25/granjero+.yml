@@ -1,0 +1,87 @@
+endRewards:
+- id: itemReward
+  items:
+  - v: 2860
+    type: IRON_HOE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Harvest
+        III"}],"text":""}'
+      enchants:
+        DURABILITY: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+  - v: 2860
+    type: HAY_BLOCK
+    amount: 32
+- id: commandReward
+  commands:
+  - console: true
+    delay: 0
+    label: scoreboard players add {PLAYER} Prestigio 5
+customItem:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2860
+  type: DIAMOND_HOE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    ItemFlags:
+    - HIDE_ATTRIBUTES
+repeatable: true
+bypassLimit: true
+description: §eDemuestra tus habilidades de granjero
+timer: 1440
+name: §b§lGranjero Experimentado §2[Gremio]
+id: 11
+manager:
+  branches:
+  - order: 0
+    stages:
+    - stageType: MINE
+      customText: null
+      objects:
+        0:
+          amount: 10
+          object: blockdata:minecraft:carrots[age=7]
+        1:
+          amount: 10
+          object: blockdata:minecraft:wheat[age=7]
+        2:
+          amount: 10
+          object: blockdata:minecraft:potatoes[age=7]
+        3:
+          amount: 1
+          object: PUMPKIN
+        4:
+          amount: 1
+          object: MELON
+      order: 0
+    - stageType: PLACE_BLOCKS
+      customText: null
+      objects:
+        0:
+          amount: 10
+          object: CARROTS
+        1:
+          amount: 10
+          object: WHEAT
+        2:
+          amount: 10
+          object: POTATOES
+      order: 1
+    - result:
+        v: 2860
+        type: PUMPKIN_PIE
+      stageType: CRAFT
+      customText: null
+      order: 2
+    - result:
+        v: 2860
+        type: MELON
+      stageType: CRAFT
+      customText: null
+      order: 3
+    endingStages: []

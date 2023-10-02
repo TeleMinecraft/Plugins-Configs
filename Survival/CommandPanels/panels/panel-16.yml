@@ -1,0 +1,170 @@
+panels:
+  panel-16:
+    perm: default
+    panelType: default
+    rows: 5
+    title: '&4&lTienda de Cajas         &44/4'
+    command: panel-16
+    item:
+      '0':
+        material: RED_STAINED_GLASS_PANE
+        name: ''
+      '1':
+        material: RED_STAINED_GLASS_PANE
+        name: ''
+      '2':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '3':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '4':
+        material: BLACK_STAINED_GLASS_PANE
+        name: '§7%cp-player-displayname%'
+        enchanted: 'true'
+        lore:
+        - '&7Tienes: &a&o$&a&o%cp-player-balance%'
+      '5':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '6':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '7':
+        material: RED_STAINED_GLASS_PANE
+        name: ''
+      '8':
+        material: RED_STAINED_GLASS_PANE
+        name: ''
+      '9':
+        material: RED_STAINED_GLASS_PANE
+        name: ''
+      '17':
+        material: RED_STAINED_GLASS_PANE
+        name: ''
+      '18':
+        material: BLACK_STAINED_GLASS_PANE
+        name: '&a←'
+        enchanted: 'true'
+        commands:
+        - op= cp panel-15
+      '20':
+        material: CHEST
+        name: §a§lCaja de Encantamientos
+        lore:
+        - '&7Click izquierdo para comprar por &a$&a12000'
+        - '&7Click derecho para comprar por &b18Lvl de XP'
+        commands:
+        - left= paywall= 12000
+        - left= op= crate give %cp-player-name% encantamientos 1
+        - right= xp-paywall= 18
+        - right= op= crate give %cp-player-name% encantamientos 1
+        - op= cp panel-16
+        has0:
+          value0: '%cp-player-name% HASPERM'
+          compare0: essentials.tpa
+          material: CHEST
+          name: §a§lCaja de Encantamientos
+          lore:
+          - '&7Click izquierdo para comprar por &a$&a9600'
+          - '&7Click derecho para comprar por &b15Lvl de XP'
+          - '&d&l20% &b&lde descuento por ser &d&l&oVIP&b&l&o'
+          commands:
+          - left= paywall= 9600
+          - left= op= crate give %cp-player-name% encantamientos 1
+          - right= xp-paywall= 15
+          - right= op= crate give %cp-player-name% encantamientos 1
+          - op= cp panel-16
+      '22':
+        material: ENDER_CHEST
+        name: §b§l§nCaja de Encantamientos+
+        lore:
+        - '&7Click izquierdo para comprar por &a$&a75000'
+        - '&7Click derecho para comprar por &b60Lvl de XP'
+        commands:
+        - left= paywall= 75000
+        - left= op= crate give %cp-player-name% encantamientos_2 1
+        - right= xp-paywall= 60
+        - right= op= crate give %cp-player-name% encantamientos_2 1
+        - op= cp panel-16
+        has0:
+          value0: '%cp-player-name% HASPERM'
+          compare0: essentials.tpa
+          material: ENDER_CHEST
+          name: §b§l§nCaja de Encantamientos+
+          lore:
+          - '&7Click izquierdo para comprar por &a$&a60000'
+          - '&7Click derecho para comprar por &b48Lvl de XP'
+          - '&d&l20% &b&lde descuento por ser &d&l&oVIP&b&l&o'
+          commands:
+          - left= paywall= 60000
+          - left= op= crate give %cp-player-name% encantamientos_2 1
+          - right= xp-paywall= 48
+          - right= op= crate give %cp-player-name% encantamientos_2 1
+          - op= cp panel-16
+      '24':
+        material: ENDER_CHEST
+        name: §c§l§nCaja de Armamento Bélico
+        lore:
+        - '&7Click izquierdo para comprar por &a$&a1000000'
+        - '&7Click derecho para comprar por &b200Lvl de XP'
+        commands:
+        - left= paywall= 1000000
+        - left= op= crate give %cp-player-name% armas 1
+        - right= xp-paywall= 200
+        - right= op= crate give %cp-player-name% armas 1
+        - op= cp panel-16
+        has0:
+          value0: '%cp-player-name% HASPERM'
+          compare0: essentials.tpa
+          material: ENDER_CHEST
+          name: §c§l§nCaja de Armamento Bélico
+          lore:
+          - '&7Click izquierdo para comprar por &a$&a800000'
+          - '&7Click derecho para comprar por &b160Lvl de XP'
+          - '&d&l20% &b&lde descuento por ser &d&l&oVIP&b&l&o'
+          commands:
+          - left= paywall= 800000
+          - left= op= crate give %cp-player-name% armas 1
+          - right= xp-paywall= 160
+          - right= op= crate give %cp-player-name% armas 1
+          - op= cp panel-16
+      '26':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '27':
+        material: RED_STAINED_GLASS_PANE
+        name: ''
+      '35':
+        material: RED_STAINED_GLASS_PANE
+        name: ''
+      '36':
+        material: RED_STAINED_GLASS_PANE
+        name: ''
+      '37':
+        material: RED_STAINED_GLASS_PANE
+        name: ''
+      '38':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '39':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '40':
+        material: BLACK_STAINED_GLASS_PANE
+        name: '§7%cp-player-displayname% &7tienes:'
+        enchanted: 'true'
+        lore:
+        - §b§o%player_level% Niveles de Experiencia
+      '41':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '42':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '43':
+        material: RED_STAINED_GLASS_PANE
+        name: ''
+      '44':
+        material: RED_STAINED_GLASS_PANE
+        name: ''

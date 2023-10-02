@@ -1,0 +1,99 @@
+# Timed Rewards by ImABradley (Ibiza).
+#
+# /Contact
+# Spigot: https://www.spigotmc.org/members/292138/
+
+
+menu:
+  title: '&6&lLlaves'
+  size: 27
+  items:
+    # The reward key, must be unique.
+    reward1:
+      # Slot that the item will appear in the (/rewards) inventory.
+      # Note: slots start at 0
+      slot: 10
+      item:
+        # The amount of the item.
+        amount: 1
+        # The item type, materials can be found here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+        # Note: material types will vary depending on version.
+        material: IRON_NUGGET
+        # The amount of damage the item has, this is also used for certain items such as
+        # potions, stained glass, wool, etc. For example, use 'damage: 13' for red wool,
+        # and make sure the material (above) is wool.
+        damage: 0
+        # The display name of the item, uses & for colours.
+        name: '&e&lLlave Diaria'
+        # The lore of the item, can add as many lines as you want.
+        lore:
+        - '&7Llave disponible cada 24hrs'
+        - ''
+        - '&7Tiempo de espera: {cooldown_digital}'
+      # The cooldown, in seconds, until the reward can be claimed again.
+      cooldown: 86400
+      # The commands to be ran when the item is claimed. Put [PLAYER] before the
+      # command if you want the player to run the command.
+      commands:
+      - '[CONSOLE]crate key give {player} diaria 1'
+      - '[CONSOLE]timedrewards blankmsg {player} &7Has recibido: &e&lLlave Diaria &7x1'
+      # - '[CONSOLE]give {player} diamond 64'
+      # - '[PLAYER]spawn'
+      # The permission node required to claim the reward. Do not include
+      # this line if you don't want the reward to have a permission.
+      #permission: my.permission.node
+      # Optional message to send to players when they don't have permission
+      # for the reward. If this tag is not included and the reward requires
+      # a permission, 'reward-no-permission' in the locale will be used instead.
+      #permission-deny-msg: '&7You do not have permission for the &edaily &7reward!'
+    reward2:
+      slot: 12
+      item:
+        amount: 1
+        material: GOLD_NUGGET
+        damage: 0
+        name: '&5&lLlave Semanal'
+        lore:
+        - '&7Llave disponible cada 7 días'
+        - ''
+        - '&7Tiempo de espera: {cooldown_digital}'
+      commands:
+      - '[CONSOLE]crate key give {player} semanal 1'
+      - '[CONSOLE]timedrewards blankmsg {player} &7Has recibido: &5&lLlave Semanal &7x1'
+      cooldown: 604800
+    reward3:
+      slot: 14
+      item:
+        amount: 3
+        material: IRON_NUGGET
+        damage: 0
+        name: '&6&lLlaves Diarias x3'
+        lore:
+        - '&73 Llaves Diarias extra'
+        - '&7Disponible cada 5 días'
+        - '&7Solo para &d&oVIPS'
+        - ' '
+        - '&7Tiempo de espera: {cooldown_digital}'
+      commands:
+      - '[CONSOLE]crate key give {player} diaria 3'
+      - '[CONSOLE]timedrewards blankmsg {player} &7Has recibido: &e&lLlave Diaria &7x3'
+      cooldown: 432000
+      permission: timedrewards.vip
+    reward4:
+      slot: 16
+      item:
+        amount: 3
+        material: GOLD_NUGGET
+        damage: 0
+        name: '&d&lLlaves Semanales x3'
+        lore:
+        - '&73 Llaves Semanales extra'
+        - '&7Disponible cada 10 días'
+        - '&7Solo para &d&oVIPS'
+        - ' '
+        - '&7Tiempo de espera: {cooldown_digital}'
+      commands:
+      - '[CONSOLE]crate key give {player} semanal 3'
+      - '[CONSOLE]timedrewards blankmsg {player} &7Has recibido: &5&lLlave Semanal &7x3'
+      cooldown: 864000
+      permission: timedrewards.vip

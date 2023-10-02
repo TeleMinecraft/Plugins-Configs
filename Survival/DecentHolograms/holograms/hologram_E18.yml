@@ -1,0 +1,12 @@
+location: world:-1988.500:67.500:8299.000
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '#FF0000&lE#0000FF&lv&f&le#FF0000&ln#0000FF&lt&f&lo #FF0000&lD#0000FF&li&f&le#FF0000&lc#0000FF&li&f&lo#FF0000&lc#0000FF&lh&f&le#FF0000&lr#0000FF&lo'
+    height: 1.0
+  actions: {}

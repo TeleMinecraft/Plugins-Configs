@@ -1,0 +1,19 @@
+identifier: 99dee500-88b7-3c7b-b7e0-b20a26de0aee
+quests:
+- stage0datas:
+    remaining:
+      0: 15
+      1: 5
+      2: 5
+      3: 5
+      4: 3
+      5: 3
+  questID: 4
+  currentStage: 0
+  currentBranch: 0
+- stage0datas:
+    remaining:
+      0: 1
+  questID: 13
+  currentStage: 0
+  currentBranch: 0

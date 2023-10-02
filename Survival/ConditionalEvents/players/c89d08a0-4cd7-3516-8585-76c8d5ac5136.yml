@@ -1,0 +1,5 @@
+name: feirune
+events:
+  resistencia_y_skin_al_entrar:
+    one_time: false
+    cooldown: 1678648500800

@@ -1,0 +1,31 @@
+timestamps:
+  login: 1644948900775
+  lastteleport: 1644950909332
+  logout: 1644950911893
+lastlocation:
+  world: world
+  x: 327.46635393550304
+  y: 64.0
+  z: -503.24903193127477
+  yaw: 35.39997
+  pitch: 40.200073
+money: '1705057.0'
+homes:
+  home:
+    world: world
+    x: -504.93616342180485
+    y: 62.0
+    z: 2941.4405940119395
+    yaw: 92.54987
+    pitch: 26.25006
+logoutlocation:
+  world: world
+  x: -504.5
+  y: 62.0
+  z: 2941.5
+  yaw: 90.89987
+  pitch: 23.700066
+ip-address: 181.73.48.85
+last-account-name: killminekuro
+lastAccountName: killminekuro
+ipAddress: 181.73.48.85

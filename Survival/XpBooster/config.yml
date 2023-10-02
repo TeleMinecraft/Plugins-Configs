@@ -1,0 +1,53 @@
+prefix: '&a&lEXPERIENCE &8»'
+
+#Decimal values will be converted to integers
+xp:
+  booster-blocks: 1
+  booster-breed: 1
+  booster-cook: 1
+  booster-fish: 1
+  booster-mobs: 1
+  booster-throw: 1
+  
+blocks:
+  #You can remove a block if not exists in your version
+  to-boost:
+    - COAL_ORE
+    - DEEPSLATE_COAL_ORE
+    - DIAMOND_ORE
+    - DEEPSLATE_DIAMOND_ORE
+    - EMERALD_ORE
+    - DEEPSLATE_EMERALD_ORE
+    - LAPIS_ORE
+    - DEEPSLATE_LAPIS_ORE
+    - NETHER_GOLD_ORE
+    - NETHER_QUARTZ_ORE
+    - REDSTONE_ORE
+    - DEEPSLATE_REDSTONE_ORE
+    - SCULK
+    - SCULK_SENSOR
+    - SCULK_SHRIEKER
+    - SCULK_CATALYST
+    - SPAWNER
+  allowed-tools:
+    #If the material or tool isn't in this list blocks won't drop boosted xp
+    - DIAMOND_HOE
+    - DIAMOND_PICKAXE
+    - GOLDEN_HOE
+    - GOLDEN_PICKAXE
+    - IRON_HOE
+    - IRON_PICKAXE
+    - STONE_HOE
+    - STONE_PICKAXE
+    - NETHERITE_HOE
+    - NETHERITE_PICKAXE
+    - WOODEN_HOE
+    - WOODEN_PICKAXE
+
+#Can be used for checking booster values 
+send-message:
+  breeder: false
+  cook: false
+  fisher: false
+  killer: false
+  miner: false

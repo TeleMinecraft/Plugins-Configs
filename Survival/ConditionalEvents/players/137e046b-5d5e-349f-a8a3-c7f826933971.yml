@@ -1,0 +1,8 @@
+name: Froag
+events:
+  event57:
+    one_time: false
+    cooldown: 1666896504208
+  event90:
+    one_time: false
+    cooldown: 1666896659427

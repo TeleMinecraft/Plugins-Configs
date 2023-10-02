@@ -1,0 +1,28 @@
+location: world_skywars:8.500:39.000:-24.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&b&lExperiencia'
+    height: 0.3
+  - content: La experiencia es
+    height: 0.3
+  - content: un marcador que
+    height: 0.3
+  - content: irás acumulando a
+    height: 0.3
+  - content: medida que vayas jugando.
+    height: 0.3
+  - content: Con ello esbloquearás
+    height: 0.3
+  - content: contenido para poder
+    height: 0.3
+  - content: personalizar tu juego.
+    height: 0.3
+  - content: '#ICON: experience_bottle'
+    height: 0.6
+  actions: {}

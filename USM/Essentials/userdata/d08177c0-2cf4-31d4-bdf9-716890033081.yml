@@ -1,0 +1,38 @@
+timestamps:
+  login: 1689896176531
+  logout: 1689896719678
+  lastteleport: 1682989571379
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+lastlocation:
+  world: 2e1ce19e-1f4f-4123-8c05-bbc1db660846
+  x: -426.4491235111736
+  y: 26.0
+  z: 52.464144949020465
+  yaw: -9.191017150878906
+  pitch: 23.59354019165039
+  world-name: world
+logoutlocation:
+  world: 2e1ce19e-1f4f-4123-8c05-bbc1db660846
+  x: -10.118699749634288
+  y: 30.0
+  z: 19.407713100338864
+  yaw: 68.20925903320312
+  pitch: 16.393497467041016
+  world-name: world
+afk: false
+money: '74000.0'
+ip-address: 190.163.103.208
+last-account-name: Richard363
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false

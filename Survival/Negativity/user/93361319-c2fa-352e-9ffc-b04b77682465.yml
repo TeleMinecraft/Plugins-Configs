@@ -1,0 +1,20 @@
+playername: GravityCube
+lang: es_ES
+minerate-full-mined: 5543
+minerate:
+  diamond: 3
+  gold: 5
+  iron: 18
+  coal: 79
+  ancient debris: 0
+better-click: 16
+cheats:
+  timer: 25
+  antiknockback: 1
+  nuker: 1
+  forcefield: 1
+  step: 4
+  nofall: 1
+  spider: 1
+  speed: 1
+creation-time: 1618541437903

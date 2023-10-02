@@ -1,0 +1,2 @@
+2021-06-06 19:04:22.128: (109ms) 100% STEP > Warn for Step: 0. Move 5.0 blocks up. ping: 109. Player version: V1_16. TPS: [20.000000005838974, 20.00000044953529, 20.000000393204964]
+2021-06-06 19:04:22.13: (109ms) 100% STEP > Basic Y diff: 5.0, with boost: 5.0 (because of boost amplifier 0.0). Player version: V1_16. TPS: [20.000000005838974, 20.00000044953529, 20.000000393204964]

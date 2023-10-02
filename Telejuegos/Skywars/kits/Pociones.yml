@@ -1,0 +1,133 @@
+inventory:
+- ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: POTION
+  meta:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:invisibility
+- ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: POTION
+  meta:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:leaping
+- ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: POTION
+  meta:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:fire_resistance
+- ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: POTION
+  meta:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:swiftness
+- ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: POTION
+  meta:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:regeneration
+- ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: POTION
+  meta:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:strength
+- ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: SPLASH_POTION
+  meta:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:strong_healing
+- ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: SPLASH_POTION
+  meta:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:poison
+- ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: SPLASH_POTION
+  meta:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:strong_harming
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+armor:
+- null
+- null
+- null
+- null
+requirePermission: true
+icon:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: BREWING_STAND
+lockedIcon:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: BARRIER
+position: 3
+page: 1
+name: '&5&lPociones'
+enabled: true
+lores:
+  unlocked:
+  - '&aClick para seleccionar'
+  - '&7Poción de invisibilidad x1'
+  - '&7Poción de salto x1'
+  - '&7Poción ignífuga x1'
+  - '&7Poción de velocidad x1'
+  - '&7Poción de regeneración x1'
+  - '&7Poción de fuerza x1'
+  - '&7Poción de vida instantánea x1'
+  - '&7Poción de veneno x1'
+  - '&7Poción de daño instantáneo x1'
+  locked: '&cNo tienes acceso a este kit!'
+gameSettings:
+  noRegen: false
+  noPvp: false
+  soupPvp: false
+  noFallDamage: false
+filename: Pociones

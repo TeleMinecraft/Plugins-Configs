@@ -1,0 +1,36 @@
+timestamps:
+  login: 1629163434734
+  lastteleport: 1629175332792
+  logout: 1629175380009
+lastlocation:
+  world: world
+  x: 1530.7739377231535
+  y: 77.0
+  z: 1974.8351526216352
+  yaw: -94.0505
+  pitch: 26.399908
+money: '476246.4300000000000146'
+homes:
+  casa:
+    world: world
+    x: 1133.3007615231281
+    y: 134.0
+    z: 1268.3717384017023
+    yaw: -120.45053
+    pitch: 56.99981
+  alex:
+    world: world
+    x: 2584.5022746743357
+    y: 64.0
+    z: -326.33141697026235
+    yaw: -65.40381
+    pitch: 17.699955
+logoutlocation:
+  world: world
+  x: 1133.5
+  y: 134.0
+  z: 1269.5
+  yaw: -203.24998
+  pitch: 21.450005
+ip-address: 190.153.148.203
+last-account-name: YisusIsLife

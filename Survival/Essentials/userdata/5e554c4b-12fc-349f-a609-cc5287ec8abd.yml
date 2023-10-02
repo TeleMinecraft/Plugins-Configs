@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 186.11.60.132
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1666908418474
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1666908923236
+  login: 1666906005731
+money: '0'
+last-account-name: kutabare
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: -276.3924652594408
+  y: 65.0
+  z: -741.7342263385683
+  yaw: 77.69232177734375
+  pitch: 3.7740721702575684
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 420.1595857356477
+  y: 77.0
+  z: -461.20871817995084
+  yaw: -12.450286865234375
+  pitch: -6.150030136108398
+homes:
+  casa:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: -288.14620007575223
+    y: 65.0
+    z: -741.9933422854798
+    yaw: -172.0576171875
+    pitch: 12.474051475524902

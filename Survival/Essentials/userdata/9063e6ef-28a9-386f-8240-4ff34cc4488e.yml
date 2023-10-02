@@ -1,0 +1,30 @@
+timestamps:
+  login: 1620273458099
+  logout: 1620274796064
+  lastteleport: 1620274443650
+lastlocation:
+  world: world
+  x: -541170.3767766847
+  y: 26.0
+  z: -540461.5510888677
+  yaw: 2.39742
+  pitch: 14.250102
+logoutlocation:
+  world: world
+  x: -541173.0944773657
+  y: 71.0
+  z: -540314.2827295415
+  yaw: -83.54953
+  pitch: 46.200615
+homes:
+  home:
+    world: world
+    x: -541172.9430834085
+    y: 71.0
+    z: -540313.1691924224
+    yaw: -313.9485
+    pitch: 63.150166
+nickname: §e§lKai
+money: '1458129.35650000000143861'
+ip-address: 187.190.21.203
+last-account-name: Kaitanabe00

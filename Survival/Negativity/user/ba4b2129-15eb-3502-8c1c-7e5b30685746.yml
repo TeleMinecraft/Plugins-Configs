@@ -1,0 +1,14 @@
+playername: Alphanext
+lang: es_ES
+minerate-full-mined: 29
+minerate:
+  diamond: 0
+  gold: 0
+  iron: 0
+  coal: 0
+  ancient debris: 0
+better-click: 8
+cheats:
+  jesus: 1
+  forcefield: 1
+creation-time: 1614375152490

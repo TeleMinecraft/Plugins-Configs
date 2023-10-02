@@ -1,0 +1,29 @@
+timestamps:
+  login: 1625806539162
+  logout: 1625806557329
+  lastteleport: 1620003832498
+lastlocation:
+  world: world
+  x: -336.37635714102095
+  y: 10.0
+  z: -1195.609989529938
+  yaw: 91.91797
+  pitch: 18.439602
+logoutlocation:
+  world: world
+  x: -358.17746697156986
+  y: 60.0
+  z: -1226.69235385178
+  yaw: 193.14722
+  pitch: 21.622805
+money: '1512778.5564999999999942'
+homes:
+  home:
+    world: world
+    x: -356.65226961983797
+    y: 60.0
+    z: -1227.3106721616427
+    yaw: 180.33057
+    pitch: 12.009587
+ip-address: 181.43.145.158
+last-account-name: K3ZH_

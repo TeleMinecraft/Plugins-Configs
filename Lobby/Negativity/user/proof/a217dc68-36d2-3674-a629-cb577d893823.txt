@@ -1,0 +1,2 @@
+2021-06-12 01:27:16.841: (0ms) 100% BLINK > No packet. Last other than KeepAlive: PacketPlayInPositionLook there is: 3846ms . Ping: 0. Warn: 0. Player version: V1_16. TPS: [20.0265776866836, 20.006181667595893, 20.002467706844104]
+2021-06-12 01:27:20.837: (0ms) 100% BLINK > No packet. Last other than KeepAlive: PacketPlayInCustomPayload there is: 3851ms . Ping: 0. Warn: 1. Player version: V1_16. TPS: [20.02445147174891, 20.00607967008056, 20.002454134456464]

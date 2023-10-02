@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 181.42.20.167
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1676479538941
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1676480019538
+  login: 1676477934929
+money: '25800.0'
+last-account-name: zero_flux566
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 1115.744825250611
+  y: 61.0
+  z: 916.3813038030768
+  yaw: -75.8970947265625
+  pitch: 22.200197219848633
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: -196.69999998807907
+  y: 61.0
+  z: -664.154174837634
+  yaw: 109.79928588867188
+  pitch: 3.3002045154571533

@@ -1,0 +1,22 @@
+location: world_skywars:5.052:34.200:-27.950
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: En &bOpciones de SkyWars
+    height: 0.3
+  - content: puedes perzonalizar tu
+    height: 0.3
+  - content: '&3cristal, partículas, burlas y más.'
+    height: 0.3
+  - content: ¡Derrota a tus &coponentes
+    height: 0.3
+  - content: de una manera &5única &ry &eespecial&r!
+    height: 0.3
+  - content: '#ICON: book'
+    height: 0.6
+  actions: {}

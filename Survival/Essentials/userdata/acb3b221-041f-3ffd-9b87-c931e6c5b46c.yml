@@ -1,0 +1,47 @@
+timestamps:
+  login: 1678650381030
+  lastteleport: 1678650852603
+  logout: 1678651100995
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: -1254.7053412449122
+  y: 66.5
+  z: -1044.3017194154222
+  yaw: -147.8568115234375
+  pitch: 26.327661514282227
+  world-name: world
+money: '0.125'
+homes:
+  home:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: -514.7027093815636
+    y: 62.0
+    z: 2938.15159233253
+    yaw: -177.71420288085938
+    pitch: 43.47883987426758
+    world-name: world
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: -1017.3109634914183
+  y: 81.0
+  z: -880.1531598227031
+  yaw: 92.86009216308594
+  pitch: 27.528987884521484
+  world-name: world
+ip-address: 186.78.84.13
+last-account-name: PaNaCoTa2133
+accepting-pay: true
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+baltop-exempt: false

@@ -1,0 +1,187 @@
+panels:
+  panel-5:
+    perm: default
+    rows: 6
+    title: $FF00C5&lInformación variada
+    item:
+      '10':
+        material: cps= self
+        stack: 1
+        name: '&2&lTu nombre:'
+        lore:
+        - '&a%cp-player-displayname%'
+      '11':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWViZDg1YjdmOWU2MjIyYjM5NTQ1MWFkYjQ2Yjc2YTYyZjdlOTVkYTZmYmY3ZWZlNzE1Yzc4MzQ1NTE0MCJ9fX0=
+        stack: 1
+        name: '&3&lPrimer ingreso:'
+        lore:
+        - '&b%player_first_join_date%'
+      '13':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjcyYzA1ZGQ3NjI4OGY0MzI4YTI0MzkxYmY0NzI1ZmQyMjYwNTkyZGIzY2Y5YjJiYzIwMzJkZDA1OTZjZjQ0MCJ9fX0=
+        stack: 1
+        name: '$27FF00Perteneces a los grupos:'
+        lore:
+        - '&2%luckperms_groups%'
+      '12':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmZlOGNmZjc1ZjdkNDMzMjYwYWYxZWNiMmY3NzNiNGJjMzgxZDk1MWRlNGUyZWI2NjE0MjM3NzlhNTkwZTcyYiJ9fX0=
+        stack: 1
+        name: '$FF8000&lTiempo jugado:'
+        lore:
+        - $FFB600&o%statistic_time_played%
+      '14':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTM0YTU5MmE3OTM5N2E4ZGYzOTk3YzQzMDkxNjk0ZmMyZmI3NmM4ODNhNzZjY2U4OWYwMjI3ZTVjOWYxZGZlIn19fQ==
+        stack: 1
+        name: '$FFFF00&lTus records:'
+        lore:
+        - '&cRojo: &o%objective_score_rojo2%'
+        - '&9Azul: &o%objective_score_azul2%'
+        - '&eAmarillo: &o%objective_score_amarillo2%'
+        - '&aVerde: &o%objective_score_verde2%'
+      '15':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjQzNTQyNzU4NmQ5NDQ3Njk3NmYxYThhYTRjNmZmNWZlYWMwZGQ3MjQzYThmZDlkYjlkNTZhZWUxMjI1MjZmNCJ9fX0=
+        stack: 1
+        name: '$0087FF&lTu registro:'
+        lore:
+        - $52D0FF0 Advertencias
+        - $52D0FF0 Reportes
+        - $52D0FF0 Baneos temporales
+        - ''
+        - $1BFF00Eres un jugador ejemplar!
+      '1':
+        material: MAGENTA_STAINED_GLASS_PANE
+        stack: 1
+        name: §5Información personal
+      '2':
+        material: MAGENTA_STAINED_GLASS_PANE
+        stack: 1
+        name: §5Información personal
+      '3':
+        material: MAGENTA_STAINED_GLASS_PANE
+        stack: 1
+        name: §5Información personal
+      '4':
+        material: MAGENTA_STAINED_GLASS_PANE
+        stack: 1
+        name: §5Información personal
+      '5':
+        material: MAGENTA_STAINED_GLASS_PANE
+        stack: 1
+        name: §5Información personal
+      '6':
+        material: MAGENTA_STAINED_GLASS_PANE
+        stack: 1
+        name: §5Información personal
+      '7':
+        material: MAGENTA_STAINED_GLASS_PANE
+        stack: 1
+        name: §5Información personal
+      '8':
+        material: MAGENTA_STAINED_GLASS_PANE
+        stack: 1
+        name: §5Información personal
+      '9':
+        material: MAGENTA_STAINED_GLASS_PANE
+        stack: 1
+        name: §5Información personal
+      '18':
+        material: MAGENTA_STAINED_GLASS_PANE
+        stack: 1
+        name: §5Información personal
+      '17':
+        material: MAGENTA_STAINED_GLASS_PANE
+        stack: 1
+        name: §5Información personal
+      '26':
+        material: MAGENTA_STAINED_GLASS_PANE
+        stack: 1
+        name: §5Información personal
+      '27':
+        material: BLUE_STAINED_GLASS_PANE
+        stack: 1
+        name: §9Información del servidor
+      '35':
+        material: BLUE_STAINED_GLASS_PANE
+        stack: 1
+        name: §9Información del servidor
+      '36':
+        material: BLUE_STAINED_GLASS_PANE
+        stack: 1
+        name: §9Información del servidor
+      '44':
+        material: BLUE_STAINED_GLASS_PANE
+        stack: 1
+        name: §9Información del servidor
+      '45':
+        material: BLUE_STAINED_GLASS_PANE
+        stack: 1
+        name: §9Información del servidor
+      '46':
+        material: BLUE_STAINED_GLASS_PANE
+        stack: 1
+        name: §9Información del servidor
+      '47':
+        material: BLUE_STAINED_GLASS_PANE
+        stack: 1
+        name: §9Información del servidor
+      '48':
+        material: BLUE_STAINED_GLASS_PANE
+        stack: 1
+        name: §9Información del servidor
+      '49':
+        material: BLUE_STAINED_GLASS_PANE
+        stack: 1
+        name: §9Información del servidor
+      '50':
+        material: BLUE_STAINED_GLASS_PANE
+        stack: 1
+        name: §9Información del servidor
+      '51':
+        material: BLUE_STAINED_GLASS_PANE
+        stack: 1
+        name: §9Información del servidor
+      '52':
+        material: BLUE_STAINED_GLASS_PANE
+        stack: 1
+        name: §9Información del servidor
+      '53':
+        material: BLUE_STAINED_GLASS_PANE
+        stack: 1
+        name: §9Información del servidor
+      '41':
+        material: CLOCK
+        name: '&e&lFecha actual:'
+        lore:
+        - '&6%server_time_dd/MM/yyyy%'
+        stack: 1
+      '40':
+        material: WRITABLE_BOOK
+        name: '&3&lUSM'
+        lore:
+        - '&aDisponible'
+        - '&7Jugadores: %bungee_usm%/150'
+        stack: 1
+      '39':
+        material: FIREWORK_ROCKET
+        name: '&d&lTelejuegos'
+        lore:
+        - '&aDisponible'
+        - '&7Jugadores: %bungee_telejuegos%/100'
+        stack: 1
+      '38':
+        material: PODZOL
+        name: '&2&lSurvival'
+        stack: 1
+        lore:
+        - '&aDisponible'
+        - '&7Jugadores: %bungee_survival%/150'
+      '0':
+        material: MAGENTA_STAINED_GLASS_PANE
+        stack: 1
+        name: §5Información personal
+      '37':
+        material: GRASS_BLOCK
+        stack: 1
+        name: '&b&lLobby'
+        lore:
+        - '&aDisponible'
+        - '&7Jugadores: %bungee_lobby%/50'

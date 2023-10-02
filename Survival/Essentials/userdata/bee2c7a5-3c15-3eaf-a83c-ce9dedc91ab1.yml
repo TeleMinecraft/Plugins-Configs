@@ -1,0 +1,29 @@
+timestamps:
+  login: 1623803719476
+  logout: 1623808368984
+  lastteleport: 1623805588762
+lastlocation:
+  world: world
+  x: 480.9577855742151
+  y: 26.0
+  z: 543.4028021365415
+  yaw: -272.83435
+  pitch: 34.22422
+money: '1428119.90700000000005853'
+logoutlocation:
+  world: world
+  x: 3008.669314018062
+  y: 7.0
+  z: 857.053164447253
+  yaw: -221.45262
+  pitch: 4.5089893
+homes:
+  home:
+    world: world
+    x: 3069.9066172652283
+    y: 70.0
+    z: 892.9775222053175
+    yaw: 92.348206
+    pitch: 20.563658
+ip-address: 190.209.42.121
+last-account-name: Black_Cat_45

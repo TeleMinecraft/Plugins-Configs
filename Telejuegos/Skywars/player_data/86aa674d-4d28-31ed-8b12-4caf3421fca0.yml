@@ -1,0 +1,15 @@
+uuid: 86aa674d-4d28-31ed-8b12-4caf3421fca0
+wins: 1
+losses: 4
+kills: 1
+deaths: 4
+elo: -33
+xp: 8
+pareffect: none
+proeffect: none
+glasscolor: none
+killsound: none
+winsound: none
+taunt: izi
+permissions:
+- sw.taunt.izi

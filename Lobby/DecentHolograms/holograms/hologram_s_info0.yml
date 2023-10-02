@@ -1,0 +1,62 @@
+location: world:-3.500:32.500:-49.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: <#ffff00>&lUn Survival diferente</#0DDE00>
+    height: 0.3
+  - content: '&f"Survival" es el modo'
+    height: 0.3
+  - content: '&fclásico de Minecraft'
+    height: 0.3
+  - content: por excelencia, pero...
+    height: 0.3
+  - content: '&7● [{page}/{pages}] &a●'
+    height: 0.3
+  - content: '#ICON: GRASS_BLOCK'
+    height: 0.6
+  actions:
+    RIGHT:
+    - NEXT_PAGE:s_info0
+    - SOUND:ITEM_BOOK_PAGE_TURN
+- lines:
+  - content: <#ffff00>&lUn Survival diferente</#0DDE00>
+    height: 0.3
+  - content: '&fen este servidor, buscamos'
+    height: 0.3
+  - content: '&fexperiencias más desafíantes,'
+    height: 0.3
+  - content: '&fdinámicas y entretenidas...'
+    height: 0.3
+  - content: '&a● &7[{page}/{pages}]&a ●'
+    height: 0.3
+  - content: '#ICON: NETHERITE_SWORD !ENCHANTED'
+    height: 0.6
+  actions:
+    LEFT:
+    - PREV_PAGE:s_info0
+    - SOUND:ITEM_BOOK_PAGE_TURN
+    RIGHT:
+    - NEXT_PAGE:s_info0
+    - SOUND:ITEM_BOOK_PAGE_TURN
+- lines:
+  - content: <#ffff00>&lUn Survival diferente</#0DDE00>
+    height: 0.3
+  - content: '&fpor lo cual, éste Survival'
+    height: 0.3
+  - content: '&fcuenta con modificaciones,'
+    height: 0.3
+  - content: '&fagregados y muchísimo más!'
+    height: 0.3
+  - content: '&a● &7[{page}/{pages}] ●'
+    height: 0.3
+  - content: '#ICON: ENCHANTED_GOLDEN_APPLE'
+    height: 0.6
+  actions:
+    LEFT:
+    - PREV_PAGE:s_info0
+    - SOUND:ITEM_BOOK_PAGE_TURN

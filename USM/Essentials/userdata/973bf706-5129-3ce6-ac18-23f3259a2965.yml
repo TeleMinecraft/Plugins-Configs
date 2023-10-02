@@ -1,0 +1,21 @@
+timestamps:
+  login: 1631240543764
+  logout: 1631240571612
+  lastteleport: 1630300032939
+lastlocation:
+  world: world
+  x: 1.0245810637018944
+  y: 32.53584062504456
+  z: -2.451807801452615
+  yaw: 167.24957
+  pitch: 13.199993
+logoutlocation:
+  world: world
+  x: -0.7571320107510441
+  y: 33.0
+  z: 2.246297933377923
+  yaw: 220.0
+  pitch: -10.0
+afk: false
+ip-address: 45.178.132.44
+last-account-name: Bastiramelo

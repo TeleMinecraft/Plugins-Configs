@@ -1,0 +1,29 @@
+timestamps:
+  login: 1589501995386
+  logout: 1589502095473
+  lastteleport: 1589251329481
+lastlocation:
+  world: world
+  x: 487.58625162644364
+  y: 76.0
+  z: 528.808097470071
+  yaw: -86.57099
+  pitch: 7.3500867
+logoutlocation:
+  world: world
+  x: 781.9484642892065
+  y: 77.0
+  z: -346.7130509386899
+  yaw: -280.7458
+  pitch: 13.499605
+money: '1223163.46525000000005958'
+homes:
+  home:
+    world: world
+    x: 776.6325222996471
+    y: 72.0
+    z: -356.326296901948
+    yaw: -265.06985
+    pitch: 23.700172
+ip-address: 190.5.32.87
+last-account-name: Checho131

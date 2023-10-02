@@ -1,0 +1,131 @@
+Config:
+  update_notification: true
+  register_commands: []
+  data_save_time: 5
+  debug_actions: true
+Messages:
+  prefix: '&4[&bConditionalEvents&4] '
+  commandReload: '&aConfig Reloaded.'
+  commandNoPermissions: '&cNo tienes permisos para eso'
+  commandResetError: '&cUse &7/ce reset <player> <event>'
+  eventDoesNotExists: '&cThat event doesn''t exists on the config.'
+  cooldownReset: '&aCooldown was reset for player &e%player% &aon event &e%event%&a!'
+  eventEnableError: '&cUse &7/ce enable <event>'
+  eventDisableError: '&cUse &7/ce disable <event>'
+  eventEnabled: '&aEvent &7%event% &aenabled.'
+  eventDisabled: '&aEvent &7%event% &adisabled.'
+  seconds: s
+  minutes: m
+  hours: h
+  days: d
+  placeholderAPICooldownReady: Ready!
+  placeholderAPICooldownNameError: No event with that name!
+  eventDataResetAll: '&aAll data reset for player &e%player%&a!'
+  eventDataReset: '&aData reset for player &e%player% &aon event &e%event%&a!'
+  commandDebugError: '&cUse &7/ce debug <event>'
+  debugEnabled: '&aDebug now enabled for event &7%event%&a!'
+  debugDisabled: '&aDebug disabled for event &7%event%&a!'
+  onlyPlayerCommand: '&cThis command can be only used by a player.'
+  playerDoesNotExists: '&cThat player doesn''''t have any data.'
+  debugEnabledPlayer: '&aDebug now enabled for event &7%event% &aand player &7%player%&a!'
+  debugDisabledPlayer: '&aDebug disabled for event &7%event% &aand player &7%player%&a!'
+  eventDataResetForAllPlayers: '&aData reset for &eall players &aon event &e%event%&a!'
+  eventDataResetAllForAllPlayers: '&aAll player data reset.'
+  commandCallError: '&cUse &7/ce call <event> (optional)%variable1%=<value1>;%variableN%=<valueN>'
+  commandCallInvalidEvent: '&cYou can only execute a CALL event.'
+  commandCallCorrect: '&aEvent &7%event% &asuccessfully executed.'
+  commandCallFailed: '&cEvent &7%event% &ccould not be executed. Maybe a format error?'
+Events:
+  event1:
+    type: block_interact
+    conditions:
+    - '%block_x% == -61'
+    - '%block_y% == 33'
+    - '%block_z% == 67'
+    - '%block_world% equals world'
+    - '%block% equals BARRIER'
+    - '%action_type% equals RIGHT_CLICK'
+    - '%item_name% equals Tarjeta Cuenta RUT'
+    actions:
+      default:
+      - 'console_command: cp panel-2 %player%'
+  event2:
+    type: block_break
+    conditions:
+    - '%block% equals BARRIER'
+    actions:
+      default:
+      - 'player_command: execute positioned %block_x% %block_y% %block_z% run kill
+        @e[type=minecraft:armor_stand,distance=0..0.5,limit=1,sort=nearest]'
+  event3:
+    type: item_interact
+    conditions:
+    - '%item% equals DIAMOND'
+    - '%item_name% equals World-Swap'
+    - '%action_type% equals RIGHT_CLICK'
+    - '%player_world% equals world execute actions1'
+    - '%player_world% equals world_planos execute actions2'
+    actions:
+      actions1:
+      - 'console_command: mvtp %player% world_planos'
+      actions2:
+      - 'console_command: mvtp %player% world'
+  event4:
+    type: item_craft
+    conditions:
+    - '%item% equals GOLD_BLOCK'
+    actions:
+      default:
+      - 'cancel_event: true'
+  event5:
+    type: item_craft
+    conditions:
+    - '%item% equals GOLD_INGOT'
+    - '%item_name% !contains $'
+    actions:
+      default:
+      - 'cancel_event: true'
+  event7:
+    type: player_command
+    conditions:
+    - '%command% equals /travel'
+    - '%player_world% equals world execute actions1'
+    - '%player_world% equals world_planos execute actions2'
+    actions:
+      actions1:
+      - 'cancel_event: true'
+      - 'console_command: mvtp %player% world_planos'
+      actions2:
+      - 'cancel_event: true'
+      - 'console_command: mvtp %player% world'
+  vuelo:
+    type: item_interact
+    conditions:
+    - '%item% equals FEATHER'
+    - '%item_name% equals Vuelo'
+    - '%action_type% equals RIGHT_CLICK'
+    actions:
+      default:
+      - 'console_command: fly %player%'
+  porton:
+    type: custom
+    custom_event_data:
+      event: net.raidstone.wgevents.events.RegionEnteredEvent
+      variables_to_capture:
+      - '%region%;getRegionName()'
+      player_variable: getPlayer()
+    conditions:
+    - '%region% equals porton'
+    - '%checkitem_material:paper,inhand:main,namecontains:Credencial% equals no'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'message: &cPor favor muestra tu Credencial USM'
+  kit:
+    type: player_join
+    conditions:
+    - '%objective_score_kitinicio% != 1'
+    actions:
+      default:
+      - 'console_command: kit give Inicio %player%'
+      - 'console_command: scoreboard players set %player% kitinicio 1'

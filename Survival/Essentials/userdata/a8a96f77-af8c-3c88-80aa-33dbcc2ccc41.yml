@@ -1,0 +1,29 @@
+timestamps:
+  login: 1587874172716
+  logout: 1587875189588
+  lastteleport: 1587874917390
+lastlocation:
+  world: world
+  x: 503.1648011708471
+  y: 80.0
+  z: 532.1065389340931
+  yaw: -171.31891
+  pitch: 11.699995
+logoutlocation:
+  world: world
+  x: 498.3243371058149
+  y: 80.0
+  z: 529.5109262550441
+  yaw: 190.7815
+  pitch: 64.34991
+homes:
+  home:
+    world: world
+    x: 502.6327891385739
+    y: 80.0
+    z: 534.6108938429302
+    yaw: -125.41879
+    pitch: 22.799994
+money: '1213203'
+ip-address: 186.21.197.166
+last-account-name: Miloca8

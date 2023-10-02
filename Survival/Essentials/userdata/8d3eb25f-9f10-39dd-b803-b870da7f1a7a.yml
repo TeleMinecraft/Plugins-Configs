@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 181.93.25.146
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1670624819100
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1670625976822
+  login: 1670625445166
+money: '5050.0'
+last-account-name: Tiramisushi
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 652.9225281217429
+  y: 72.0
+  z: 345.3530100941106
+  yaw: -170.46435546875
+  pitch: 20.28840446472168
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 67.40441283943602
+  y: 24.0
+  z: 746.5463911644086
+  yaw: -113.19183349609375
+  pitch: 3.841578483581543

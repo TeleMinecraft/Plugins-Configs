@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 179.60.65.40
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1682622662955
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1684723170732
+  login: 1684723162523
+money: '0'
+last-account-name: Sth3fan0
+lastlocation:
+  world: 8039c8bf-b4ad-4692-9f73-205fa07ddece
+  world-name: world
+  x: 1.0948110869729293
+  y: 32.03584062504456
+  z: -6.9477648123521725
+  yaw: 171.7501983642578
+  pitch: 21.299999237060547
+logoutlocation:
+  world: 8039c8bf-b4ad-4692-9f73-205fa07ddece
+  world-name: world
+  x: -1.8358726947097501
+  y: 32.5
+  z: 1.076768343787166
+  yaw: -122.34999084472656
+  pitch: 15.299999237060547

@@ -1,0 +1,55 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 181.43.32.236
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1681082923068
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1681083062434
+  login: 1681083007026
+money: '16000'
+last-account-name: Dario99
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 809.5
+  y: 63.0
+  z: 649.5
+  yaw: 95.55026245117188
+  pitch: 40.199947357177734
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 808.3178969007542
+  y: 63.0
+  z: 649.0434805631377
+  yaw: -142.65008544921875
+  pitch: 22.650066375732422
+homes:
+  home:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: 860.3605369183629
+    y: 64.0
+    z: 655.4974070237367
+    yaw: 61.050148010253906
+    pitch: 26.399980545043945
+  portalnether:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: 809.8343085914233
+    y: 63.0
+    z: 649.0825114067137
+    yaw: 95.55026245117188
+    pitch: 40.199947357177734

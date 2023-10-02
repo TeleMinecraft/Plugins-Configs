@@ -1,0 +1,29 @@
+timestamps:
+  login: 1588029240501
+  logout: 1588032482025
+  lastteleport: 1588032456246
+lastlocation:
+  world: world_nether
+  x: 511.4410756459871
+  y: 53.0
+  z: -101.04427730348408
+  yaw: -273.70538
+  pitch: 9.152067
+logoutlocation:
+  world: world
+  x: 1180.9620899261943
+  y: 69.0
+  z: -496.34754528905376
+  yaw: -183.86412
+  pitch: 11.850159
+homes:
+  home:
+    world: world
+    x: 1169.4439006177167
+    y: 65.0
+    z: -499.5222455389809
+    yaw: 83.73468
+    pitch: 16.500084
+money: '1215472.94850000000004296'
+ip-address: 200.86.165.14
+last-account-name: Fatmagul

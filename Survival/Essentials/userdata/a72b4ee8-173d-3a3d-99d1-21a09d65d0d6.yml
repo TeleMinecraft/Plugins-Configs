@@ -1,0 +1,29 @@
+timestamps:
+  login: 1619794917514
+  lastteleport: 1619710226102
+  logout: 1619795529757
+lastlocation:
+  world: world
+  x: 491.6131504912886
+  y: 76.0
+  z: 543.4472897363308
+  yaw: -235.35405
+  pitch: 11.775901
+money: '1614030.7600000000000390'
+logoutlocation:
+  world: world
+  x: 593.9250000119209
+  y: 70.0
+  z: 1340.2908360205993
+  yaw: 157.32452
+  pitch: 20.083826
+homes:
+  home:
+    world: world
+    x: 575.8687081131131
+    y: 71.0
+    z: 1353.3427853851374
+    yaw: 11.606079
+    pitch: 48.512447
+ip-address: 181.203.55.220
+last-account-name: ReinosoBR

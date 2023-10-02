@@ -1,0 +1,29 @@
+timestamps:
+  login: 1600385412902
+  logout: 1600386433196
+  lastteleport: 1600386335491
+lastlocation:
+  world: world
+  x: 1625.5938957091257
+  y: 64.0
+  z: 219.7575086341549
+  yaw: -39.71238
+  pitch: 7.726885
+logoutlocation:
+  world: world
+  x: -2946.754268185735
+  y: 68.0
+  z: -4579.568146085855
+  yaw: -245.29391
+  pitch: 24.977509
+homes:
+  home:
+    world: world
+    x: -2956.6769898744556
+    y: 64.0
+    z: -4518.657810030426
+    yaw: -77.099655
+    pitch: 36.118587
+money: '1251809.29800000000054037'
+ip-address: 186.105.190.173
+last-account-name: Keillesvirus32

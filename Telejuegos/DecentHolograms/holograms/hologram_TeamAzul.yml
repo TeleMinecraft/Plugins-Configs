@@ -1,0 +1,12 @@
+location: world_arrows:41.500:48.500:-47.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&#0000FF&lEquipo Azul'
+    height: 0.3
+  actions: {}

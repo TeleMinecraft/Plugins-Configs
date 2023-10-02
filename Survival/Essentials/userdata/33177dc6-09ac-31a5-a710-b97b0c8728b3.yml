@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 73.2.55.248
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1674982864332
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1674983263723
+  login: 1674982787372
+money: '0'
+last-account-name: Timwilcox24
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 405.81271915245526
+  y: 101.0
+  z: -214.2267058344296
+  yaw: 103.94396209716797
+  pitch: 8.25013542175293
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 219.7625927866668
+  y: 69.0
+  z: -598.854956266309
+  yaw: 20.404457092285156
+  pitch: -0.7502579689025879

@@ -1,0 +1,20 @@
+playername: cacot
+lang: es_ES
+minerate-full-mined: 10934
+minerate:
+  diamond: 26
+  gold: 12
+  iron: 127
+  coal: 66
+  ancient debris: 0
+better-click: 12
+cheats:
+  timer: 16
+  inventorymove: 6
+  pingspoof: 5
+  nuker: 5
+  forcefield: 11
+  noslowdown: 2
+  spider: 1
+  speed: 24
+creation-time: 1618789732669

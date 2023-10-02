@@ -1,0 +1,11 @@
+name: sebywis
+events:
+  event57:
+    one_time: false
+    cooldown: 1669669981155
+  event90:
+    one_time: false
+    cooldown: 1667064540868
+  event62:
+    one_time: false
+    cooldown: 1666388282269

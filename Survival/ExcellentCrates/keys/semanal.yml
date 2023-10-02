@@ -1,0 +1,8 @@
+Name: §5§lLlave Semanal
+Virtual: true
+Item:
+  Material: GOLD_NUGGET
+  Amount: 1
+  Durability: 0
+  Item_Flags: []
+  Unbreakable: false

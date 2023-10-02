@@ -1,0 +1,25 @@
+playername: lukvvs
+lang: es_ES
+minerate-full-mined: 10548
+minerate:
+  diamond: 67
+  gold: 4
+  iron: 88
+  coal: 193
+  ancient debris: 0
+better-click: 36
+cheats:
+  autoclick: 5
+  regen: 72
+  forcefield: 2
+  blink: 2
+  speed: 1032
+  timer: 124
+  pingspoof: 3
+  antiknockback: 3
+  nuker: 2
+  antipotion: 35
+  fastplace: 1
+  nofall: 1
+  spider: 6
+creation-time: 1621064817992

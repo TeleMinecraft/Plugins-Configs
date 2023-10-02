@@ -1,0 +1,205 @@
+name: Don Isidro
+# - NPC with id 94
+block_movement: false
+slow_effect: false
+save_conversation_progress: false
+start_conversation_radius: 0
+end_conversation_radius: 5
+requires_permission: false
+cooldown: 0
+hologram_dialogues:
+  enabled: false
+  offset_y: 2.7
+  offset_horizontal: 0.0
+starts_with:
+- NPC with id -1
+conversation:
+  conversation1:
+    dialogue:
+      dialogue1:
+        text:
+        - §bHola, cómo estás?
+        time: 1
+        conditional_dialogue:
+          conditional_dialogue1:
+            requires:
+            - '%objective_score_fonda% != 1'
+            - '%objective_score_mision18% == -2'
+            start_conversation: conversation12
+          conditional_dialogue2:
+            requires:
+            - '%objective_score_fonda% != 1'
+            - '%objective_score_mision18% == 1'
+            start_conversation: conversation12
+          conditional_dialogue3:
+            requires:
+            - '%objective_score_fonda% == 1'
+            start_conversation: conversation11
+    options:
+      option1:
+        text: §7Bien, porque ya se viene el 18
+        start_conversation: conversation2
+      option2:
+        text: §7Más o menos, tengo sed, de esa peligrosa
+        start_conversation: conversation4
+      option3:
+        text: §7No muy bien, pero bueno, qué haces por aquí?
+        start_conversation: conversation5
+      option4:
+        text: §7Quién eres tú?
+        start_conversation: conversation3
+    random_dialogue: false
+    interrupt_actions: []
+  conversation2:
+    dialogue:
+      dialogue1:
+        text:
+        - §bUYUI!
+        - §bRespecto a eso, te tengo una noticia!
+        time: 2
+        show_name: false
+        start_conversation: conversation6
+    random_dialogue: false
+    interrupt_actions: []
+  conversation3:
+    dialogue:
+      dialogue1:
+        text:
+        - §bSoy §lDon Isidro§r,
+        - §bEl encargado de la §lTelefonda!
+        time: 2
+        show_name: false
+        start_conversation: conversation6
+    random_dialogue: false
+    interrupt_actions: []
+  conversation4:
+    dialogue:
+      dialogue1:
+        text:
+        - §bUh, me alegra no ser el único,
+        - §bTe tengo una excelente noticia!
+        time: 4
+        show_name: false
+        start_conversation: conversation6
+    random_dialogue: false
+    interrupt_actions: []
+  conversation5:
+    dialogue:
+      dialogue1:
+        text:
+        - §bOh, tal vez esta noticia te alegre un poco...
+        time: 4
+        show_name: false
+        start_conversation: conversation6
+    random_dialogue: false
+    interrupt_actions: []
+  conversation6:
+    dialogue:
+      dialogue1:
+        text:
+        - §bJunto al §6§lAdmin§r§b, estamos organizando
+        - §buna la §lTelefonda Clandestina!
+        - §bPara celebrar el 18 como corresponde
+        time: 4
+        show_name: false
+    options:
+      option1:
+        text: §7§lTelefonda? §7Cómo puedo entrar?
+        start_conversation: conversation8
+      option2:
+        text: §7No me gusta el 18, ni las fondas
+        start_conversation: conversation7
+    random_dialogue: false
+    interrupt_actions: []
+  conversation7:
+    dialogue:
+      dialogue1:
+        text:
+        - §bEn serio!? Bueno, tú te lo pierdes
+        - §bSi te arrepientes, aquí estaré
+        time: 4
+    random_dialogue: false
+    interrupt_actions: []
+  conversation8:
+    dialogue:
+      dialogue1:
+        text:
+        - §bPara entrar a la §lTelefonda
+        - §bdebes cumplir los siguientes requisitos
+        - §eRecorrer 18km a caballo
+        - §ey completar la misión §4§lFeliz §1§l18§f§l!
+        time: 5
+        actions:
+        - 'console_command: scoreboard players set %player% mision18 -2'
+        - 'console_command: quest start %player% 24'
+        show_name: false
+        start_conversation: conversation12
+    random_dialogue: false
+    interrupt_actions: []
+  conversation9:
+    dialogue:
+      dialogue1:
+        text:
+        - §bNo te preocupes, vuelve apenas
+        - §bestés list@ para celebrar el 18
+        time: 3
+        show_name: false
+    random_dialogue: false
+    interrupt_actions: []
+  conversation10:
+    dialogue:
+      dialogue1:
+        text:
+        - §b§lUYUI!§r§b Ve al Poblado, cerca del top
+        - §bde jugadores, verás una trampilla
+        - §bde hierro, la cual se abrirá ahora
+        - §bque completaste las misiones
+        time: 3
+        actions:
+        - 'console_command: scoreboard players set %player% fonda 1'
+        - 'console_command: scoreboard players reset %player% caballo'
+        show_name: false
+    random_dialogue: false
+    interrupt_actions: []
+  conversation11:
+    dialogue:
+      dialogue1:
+        text:
+        - §dCuidado con tomar demasiados §lTerremotos§e!
+        time: 1
+    random_dialogue: false
+    interrupt_actions: []
+  conversation12:
+    dialogue:
+      dialogue1:
+        text:
+        - §bYa tienes los requisitos?
+        time: 5
+        show_name: false
+    options:
+      option1:
+        text: §7Aún no hago lo necesario
+        start_conversation: conversation9
+        requires:
+        - '%objective_score_mision18% != 1'
+        - '%objective_score_caballo% == 1'
+      option2:
+        text: §7Aún no hago lo necesario
+        start_conversation: conversation9
+        requires:
+        - '%objective_score_mision18% == 1'
+        - '%objective_score_caballo% != 1'
+      option3:
+        text: §7Aún no hago lo necesario
+        start_conversation: conversation9
+        requires:
+        - '%objective_score_mision18% != 1'
+        - '%objective_score_caballo% != 1'
+      option4:
+        text: §7Estoy listo para celebrar el 18!
+        start_conversation: conversation10
+        requires:
+        - '%objective_score_mision18% == 1'
+        - '%objective_score_caballo% == 1'
+    random_dialogue: false
+    interrupt_actions: []

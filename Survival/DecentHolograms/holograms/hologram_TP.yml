@@ -1,0 +1,26 @@
+location: world:426.500:80.000:-509.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: Cuando te consideres listo
+    height: 0.3
+  - content: para iniciar tu aventura
+    height: 0.3
+  - content: '&2ármate de valor&f y cruza el portal'
+    height: 0.3
+  - content: '&a'
+    height: 0.3
+  - content: Serás enviado muy
+    height: 0.3
+  - content: lejos a un lugar seguro
+    height: 0.3
+  - content: y aleatorio, para comenzar
+    height: 0.3
+  - content: tu propia &2Aventura
+    height: 0.3
+  actions: {}

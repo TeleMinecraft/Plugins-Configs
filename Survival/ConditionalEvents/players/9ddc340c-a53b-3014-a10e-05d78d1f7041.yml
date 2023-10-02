@@ -1,0 +1,41 @@
+name: Shiro45
+events:
+  event57:
+    one_time: false
+    cooldown: 1675041078582
+  event39:
+    one_time: false
+    cooldown: 1675041976111
+  event37:
+    one_time: false
+    cooldown: 1675041983113
+  event35:
+    one_time: false
+    cooldown: 1675041985366
+  event45:
+    one_time: false
+    cooldown: 1675041998957
+  event46:
+    one_time: false
+    cooldown: 1675041995514
+  event49:
+    one_time: false
+    cooldown: 1675042009332
+  event51:
+    one_time: false
+    cooldown: 1675042011760
+  event43:
+    one_time: false
+    cooldown: 1675042015617
+  event44:
+    one_time: false
+    cooldown: 1675042018558
+  event22:
+    one_time: false
+    cooldown: 1675042054177
+  event21:
+    one_time: false
+    cooldown: 1675042055312
+  resistencia_y_skin_al_entrar:
+    one_time: false
+    cooldown: 1682986829575

@@ -1,0 +1,21 @@
+timestamps:
+  login: 1621309120818
+  lastteleport: 1621309343000
+  logout: 1621310154404
+lastlocation:
+  world: world
+  x: 280.6240559469316
+  y: 69.0
+  z: -562.6999999880791
+  yaw: 159.14392
+  pitch: -1.9502922
+logoutlocation:
+  world: world
+  x: 447.69999998807907
+  y: 90.0
+  z: -456.5116524691068
+  yaw: 275.1289
+  pitch: 28.04991
+money: '925001'
+ip-address: 190.21.192.142
+last-account-name: fito

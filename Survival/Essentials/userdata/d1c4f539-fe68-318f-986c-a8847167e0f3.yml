@@ -1,0 +1,56 @@
+timestamps:
+  login: 1684723170715
+  logout: 1684723263022
+  lastteleport: 1683143250029
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: 501.9158604348064
+  y: 80.0
+  z: 526.8358548140438
+  yaw: 156.13156127929688
+  pitch: 22.500019073486328
+  world-name: world
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: -541345.2306153289
+  y: 63.0
+  z: -540560.698039863
+  yaw: 32.399227142333984
+  pitch: 15.900053977966309
+  world-name: world
+money: '348334000.32899999998543381'
+homes:
+  whiter:
+    world: ddd15208-45ed-42b1-90a4-dbd0adfbea42
+    x: -68191.68743722691
+    y: 38.5
+    z: -68036.65597205525
+    yaw: 95.72795867919922
+    pitch: 27.45000457763672
+    world-name: world_nether
+  g:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: -6866.238656198474
+    y: 70.5625
+    z: -5694.275534135041
+    yaw: 275.4002685546875
+    pitch: 39.60002136230469
+    world-name: world
+nickname: §5§lThe_Bear
+ip-address: 179.60.65.40
+last-account-name: Sth3fan0
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false

@@ -1,0 +1,7 @@
+identifier: eea9cee3-8a11-3f46-bd46-fe2952bf4fbb
+quests:
+- stage0datas:
+    amount: 1
+  questID: 17
+  currentStage: 1
+  currentBranch: 0

@@ -1,0 +1,65 @@
+timestamps:
+  login: 1682909636335
+  logout: 1682909876503
+  lastteleport: 1682909843404
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: 3702.3663678371736
+  y: 64.0
+  z: -1518.9019930905886
+  yaw: -59.7030029296875
+  pitch: 15.899887084960938
+  world-name: world
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: 2577.721791791444
+  y: 80.0
+  z: -1606.3063582505522
+  yaw: 175.65794372558594
+  pitch: 14.24985408782959
+  world-name: world
+homes:
+  home:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: -44.92657477164258
+    y: 80.0
+    z: -532.4699051132852
+    yaw: 52.0467529296875
+    pitch: 17.25029754638672
+    world-name: world
+  panitas:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: 2573.912851355052
+    y: 77.0
+    z: -1584.2741417854693
+    yaw: -89.84226989746094
+    pitch: 19.649765014648438
+    world-name: world
+  akatsuki:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: 3686.5
+    y: 68.0
+    z: -1516.5
+    yaw: -126.001953125
+    pitch: 19.649919509887695
+    world-name: world
+money: '1276328.22799999999981312'
+confirm-pay: true
+afk: false
+nickname: taztico
+ip-address: 190.44.117.244
+last-account-name: taztico
+accepting-pay: true
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+baltop-exempt: false

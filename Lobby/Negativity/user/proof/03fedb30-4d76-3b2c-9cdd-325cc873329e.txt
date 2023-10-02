@@ -1,0 +1,7 @@
+2021-03-23 02:59:36.895: (139ms) 91% FLY > OmegaCraftFly - 3 > false : false. Player version: V1_16. TPS: [20.003110378884212, 20.000418180924104, 20.0001682654509]
+2021-03-23 02:59:37.008: (139ms) 92% FLY > OmegaCraftFly - 4 > false : false. Player version: V1_16. TPS: [20.003110378884212, 20.000418180924104, 20.0001682654509]
+2021-03-23 02:59:37.131: (139ms) 93% FLY > OmegaCraftFly - 5 > false : false. Player version: V1_16. TPS: [20.003110378884212, 20.000418180924104, 20.0001682654509]
+2021-03-23 02:59:37.188: (139ms) 94% FLY > OmegaCraftFly - 6 > false : false. Player version: V1_16. TPS: [20.003110378884212, 20.000418180924104, 20.0001682654509]
+2021-06-13 05:35:18.27: (0ms) 100% BLINK > No packet. Last other than KeepAlive: PacketPlayInCustomPayload there is: 3849ms . Ping: 0. Warn: 0. Player version: V1_16. TPS: [20.0024226669749, 20.00149052432792, 20.000586265331982]
+2021-06-14 18:18:03.421: (0ms) 100% BLINK > No packet. Last other than KeepAlive: PacketPlayInPositionLook there is: 3150ms . Ping: 0. Warn: 0. Player version: V1_16. TPS: [20.000000002113524, 20.000002430012373, 20.00004761293844]
+2021-08-08 05:27:03.133: (0ms) 100% BLINK > No packet. Last other than KeepAlive: PacketPlayInCustomPayload there is: 3850ms . Ping: 0. Warn: 0. Player version: V1_16. TPS: [20.00000223962883, 20.00000345594697, 20.000007785336887]

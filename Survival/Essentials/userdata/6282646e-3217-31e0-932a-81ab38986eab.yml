@@ -1,0 +1,22 @@
+timestamps:
+  login: 1594952824867
+  logout: 1594953714820
+  lastteleport: 1594952871342
+logoutlocation:
+  world: world
+  x: 774.9572245221647
+  y: 71.9375
+  z: -2991.7543976065595
+  yaw: 118.5019
+  pitch: -3.7498186
+lastlocation:
+  world: world
+  x: 426.94939593505643
+  y: 80.0
+  z: -380.33753969528027
+  yaw: 53.10034
+  pitch: 6.90007
+afk: false
+money: '1213203'
+ip-address: 201.239.114.82
+last-account-name: Nachico01

@@ -1,0 +1,5 @@
+name: XINOEKISDE
+events:
+  resistencia_y_skin_al_entrar:
+    one_time: false
+    cooldown: 1679437561903

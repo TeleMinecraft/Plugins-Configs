@@ -1,0 +1,71 @@
+timestamps:
+  login: 1685324492102
+  logout: 1685324962906
+  lastteleport: 1685324845155
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: 588.5
+  y: 64.0
+  z: -882.5
+  yaw: 164.69529724121094
+  pitch: -1.183856725692749
+  world-name: world
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: 2545.0621354006717
+  y: 63.0
+  z: -400.5395337959743
+  yaw: -13.258339881896973
+  pitch: -19.573200225830078
+  world-name: world
+money: '1137200.0'
+homes:
+  home:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: 2558.2253843651933
+    y: 64.0
+    z: -346.6376644551934
+    yaw: 168.0794677734375
+    pitch: 25.79996109008789
+    world-name: world
+  aldea:
+    world: world
+    x: 7254.467473688379
+    y: 89.0
+    z: 5960.0246278423965
+    yaw: 198.07733154296875
+    pitch: 36.299861907958984
+    world-name: ''
+  poblado2:
+    world: world
+    x: 8534.691959668418
+    y: 63.0
+    z: 7232.068450930697
+    yaw: 240.85400390625
+    pitch: 33.829620361328125
+    world-name: ''
+  portal:
+    world: world_nether
+    x: 1067.300000011921
+    y: 59.0
+    z: 897.5460578198661
+    yaw: -243.29933166503906
+    pitch: 17.249990463256836
+    world-name: ''
+ip-address: 181.43.37.82
+last-account-name: sander_xo
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false

@@ -1,0 +1,170 @@
+# This is an example book to show how to create one
+# Note: The placeholders in this book (like %player_name%) need PlaceholderAPI installed
+# with the proper expansion, see here for more informations: https://www.spigotmc.org/resources/placeholderapi.6245/
+
+# Item's name
+name: Lugares
+
+# Book's title
+title: Lugares
+
+# Book's author
+author: TeleServer
+
+# Book's generation
+# Valid values: ORIGINAL, COPY_OF_ORIGINAL, COPY_OF_COPY, TATTERED
+generation: ORIGINAL
+
+# Item's lore
+lore:
+- '<light_purple>Lugares'
+
+# Command to open this book
+# You can remove this by setting it to ''
+# Separate multiple commands with a space
+open_command: ''
+
+pages:
+  '1':
+  - '       <click:change_page:2><hover:show_text:"<gray><underlined>Click<reset><gray> para ver información <br>sobre los <color:#005DFF><bold>Lugares"><color:#005DFF><bold>Lugares<reset>'
+  - ''
+  - '<dark_gray><bold>> <reset><black>Lista de lugares:'
+  - '<color:#E75B00>● <click:change_page:3><hover:show_text:"<gray><underlined>Click<reset><gray> para ver información <br>sobre la <color:#E75B00><bold>Ciudad"><color:#E75B00><bold>Ciudad<reset>'
+  - '<color:#003689>● <click:change_page:4><hover:show_text:"<gray><underlined>Click<reset><gray> para ver información <br>sobre el <color:#003689><bold>Poblado"><color:#003689><bold>Poblado<reset>'
+  - '<color:#0DAB00>● <click:change_page:5><hover:show_text:"<gray><underlined>Click<reset><gray> para ver información <br>sobre el <color:#0DAB00><bold>TeleBazar"><color:#0DAB00><bold>TeleBazar<reset>'
+  - '<color:#00D8FF>● <click:change_page:6><hover:show_text:"<gray><underlined>Click<reset><gray> para ver información <br>sobre las <color:#00D8FF><bold>Recompensas"><color:#00D8FF><bold>Recompensas<reset>'
+  - '<color:#FFF700>● <click:change_page:7><hover:show_text:"<gray><underlined>Click<reset><gray> para ver información <br>sobre la <color:#FFF700><bold>Taberna"><color:#FFF700><bold>Taberna<reset>'
+  - '<color:#A300B9>● <click:change_page:8><hover:show_text:"<gray><underlined>Click<reset><gray> para ver información <br>sobre las <color:#A300B9><bold>Misiones"><color:#A300B9><bold>Misiones<reset>'
+  - ''
+  - '<dark_gray>Puedes hacer click'
+  - '<dark_gray>en cualquiera de los'
+  - '<dark_gray>lugares para ver más'
+  - '<dark_gray>información de ellos.'
+  '2':
+  - '       <color:#005DFF><bold>Lugares<reset>'
+  - ''
+  - '<black>A lo largo del mundo'
+  - '<black>podrás encontrar'
+  - '<black>lugares importantes'
+  - '<black>y muy útiles en los'
+  - '<black>cuales existen varias'
+  - '<black>tiendas, actividades'
+  - '<black>e informaciones.'
+  - ''
+  - '<black>Para saber más de'
+  - '<black>estos lugares y sus'
+  - '<black>características, ve a'
+  - '<black>la siguiente página.'
+  '3':
+  - '         <color:#E75B00><bold>Ciudad<reset>'
+  - ''
+  - '<black>Es el punto inicial del'
+  - '<dark_green><bold>Survival<reset><black>, aquí verás'
+  - '<black>información relevante,'
+  - '<black>consejos útiles y'
+  - '<black>tiendas especiales.'
+  - ''
+  - '<dark_gray><italic> Haz click en los NPC'
+  - '<dark_gray><italic>  y hablarán contigo.<reset>'
+  - ''
+  - '<black>Explora atentamente,'
+  - '<black>descubre secretos y'
+  - '<black>detalles escondidos.'
+  '4':
+  - '        <color:#003689><bold>Poblado<reset>'
+  - ''
+  - '<black>Este lugar es una'
+  - '<black>bella fortaleza, en la'
+  - '<black>que puedes encontrar'
+  - '<black>una gran cantidad de'
+  - '<dark_aqua>tiendas <black>con objetos'
+  - '<dark_green>únicos<black>, desde armas'
+  - '<black>y minerales, hasta'
+  - '<dark_blue>herramientas místicas<black>.'
+  - ''
+  - '<black>Según varios rumores,'
+  - '<black>en el Poblado existe'
+  - '<black>una <dark_purple>Tienda oculta <obfuscated>???<reset>'
+  '5':
+  - '      <color:#0DAB00><bold>TeleBazar<reset>'
+  - ''
+  - '<black>Tienda principal del'
+  - '<click:change_page:4><hover:show_text:"<gray><underlined>Click<reset><gray> para ver información <br>sobre el <color:#003689><bold>Poblado"><color:#003689><bold>Poblado<reset><black>, en donde'
+  - '<black>puedes comprar items'
+  - '<black>poco comunes por un'
+  - '<black>muy buen precio!'
+  - ''
+  - '<black>Solo debes hacer'
+  - '<black>click en los carteles,'
+  - '<black>el <hover:show_text:"<gray>Tienes: <green>$<italic>%vault_eco_balance_fixed%"><dark_green><bold>dinero<reset> <black>se tomará'
+  - '<black>automáticamente de'
+  - '<black>tu cuenta y los items'
+  - '<black>irán a tu inventario.'
+  '6':
+  - '    <color:#00D8FF><bold>Recompensas<reset>'
+  - ''
+  - '<black>Todos los días hay'
+  - '<black>una recompensa para'
+  - '<black>ti, utiliza <italic>/daily<reset> <black>y la'
+  - '<gold>Recompensa diaria'
+  - '<black>será toda tuya. <hover:show_text:"<gray>Click para ver Recompensas"><click:run_command:/daily><dark_green>[<green>Ver<dark_green>]<reset>'
+  - ''
+  - '<black>Cada 7 días, una'
+  - '<dark_purple>Recompensa Semanal'
+  - '<black>podrá ser tuya, tiene'
+  - '<black>excelentes premios!'
+  - '<black>Juega a diario para'
+  - '<black>obtener una de esas.'
+  '7':
+  - '       <color:#FFF700><bold>Taberna<reset>'
+  - '<black>'
+  - '<black>Es una enorme villa'
+  - '<black>comunitaria, llena de'
+  - '<black>bellas construcciones'
+  - '<black>y estructuras hechas'
+  - '<black>por varios jugadores.'
+  - '<black>'
+  - '<black>Regularmente, en ella'
+  - '<black>se realizan diversos'
+  - '<black>concursos temáticos,'
+  - '<black>desde <dark_blue>Desafíos de'
+  - '<dark_blue>construcción<black>, hasta'
+  - '<dark_purple>torneos de PixelArts<black>.'
+  '8':
+  - '        <color:#A300B9><bold>Misiones<reset>'
+  - '<black>'
+  - '<black>Cerca de la <click:change_page:7><hover:show_text:"<gray><underlined>Click<gray> para ver información <br>sobre la <color:#FFF700><bold>Taberna"><color:#FFF700><bold>Taberna<reset><black>,'
+  - '<black>al llegar al puerto,'
+  - '<black>existe una habitación'
+  - '<black>con un gran tablón de'
+  - '<dark_purple>Misiones del Gremio<black>.'
+  - '<black>'
+  - '<black>Estas se dividen en'
+  - '<black>Diarias y Semanales,'
+  - '<black>ganarás recompensas'
+  - '<black>variadas y niveles'
+  - '<black>de prestigio cuando'
+  - '<black>las logres completar.'
+  'final':
+  - '       <color:#005DFF><bold>Lugares<reset>'
+  - ''
+  - '<black>Para ir a cualquiera'
+  - '<black>de estos lugares, usa'
+  - '<color:#11BC00>/warp [nombre lugar]<reset>'
+  - '<black>o utiliza esta lista:'
+  - '<click:run_command:/warp Ciudad><hover:show_text:"<gray><underlined>Click<reset><gray> para ir a la <color:#E75B00><bold>Ciudad"><color:#E75B00>→ Ciudad<reset>'
+  - '<click:run_command:/warp Poblado><hover:show_text:"<gray><underlined>Click<reset><gray> para ir al <color:#003689><bold>Poblado"><color:#003689>→ Poblado<reset>'
+  - '<click:run_command:/warp TeleBazar><hover:show_text:"<gray><underlined>Click<reset><gray> para ir al <color:#0DAB00><bold>TeleBazar"><color:#0DAB00>→ TeleBazar<reset>'
+  - '<click:run_command:/warp Recompensas><hover:show_text:"<gray><underlined>Click<reset><gray> para ir a las <color:#00D8FF><bold>Recompensas"><color:#00D8FF>→ Recompensas<reset>'
+  - '<click:run_command:/warp Taberna><hover:show_text:"<gray><underlined>Click<reset><gray> para ir a la <color:#FFF700><bold>Taberna"><color:#FFF700>→ Taberna<reset>'
+  - '<click:run_command:/warp Misiones><hover:show_text:"<gray><underlined>Click<reset><gray> para ir a las <color:#A300B9><bold>Misiones"><color:#A300B9>→ Misiones<reset>'
+  - ''
+  - ' <click:run_command:/ib open help><hover:show_text:"<gray>Click para ir al inicio <br><gray>del libro de <green><underlined>ayuda"><dark_aqua><bold>><color:#00DC85><bold><underlined>Volver al índice<reset><dark_aqua><bold><<reset>'
+
+
+# For the placeholders to work correctly
+# you should download the Player and Vault
+# extensions for PlaceholderAPI:
+# /papi ecloud download Player
+# /papi ecloud download Vault
+# /papi reload

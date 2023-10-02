@@ -1,0 +1,28 @@
+timestamps:
+  login: 1624237426508
+  logout: 1624237979911
+lastlocation:
+  world: world
+  x: 371.94096560610694
+  y: 72.5
+  z: -442.2964200326093
+  yaw: -96.3009
+  pitch: -9.750247
+logoutlocation:
+  world: world
+  x: -1785.273262140983
+  y: 11.0
+  z: 698.4955618363052
+  yaw: -88.46895
+  pitch: 15.899744
+money: '800729.9699999999996767'
+homes:
+  home:
+    world: world
+    x: -1770.1442287478321
+    y: 11.0
+    z: 707.7200207261224
+    yaw: 80.73395
+    pitch: -7.9491568
+ip-address: 186.78.135.80
+last-account-name: DiegoKS

@@ -1,0 +1,5 @@
+name: raider612
+events:
+  resistencia_y_skin_al_entrar:
+    one_time: false
+    cooldown: 1676845190477

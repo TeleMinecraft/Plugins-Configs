@@ -1,0 +1,54 @@
+endRewards:
+- id: commandReward
+  commands:
+  - console: true
+    delay: 0
+    label: scoreboard players add {PLAYER} Prestigio 3
+- id: itemReward
+  items:
+  - v: 2860
+    type: NETHERITE_INGOT
+timer: 1440
+name: §7§lHerrero §2[Gremio]
+customItem:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2860
+  type: ANVIL
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    ItemFlags:
+    - HIDE_ATTRIBUTES
+repeatable: true
+description: §eForja herramientas con avidez
+bypassLimit: true
+id: 17
+manager:
+  branches:
+  - order: 0
+    stages:
+    - result:
+        v: 2860
+        type: IRON_PICKAXE
+      stageType: CRAFT
+      customText: null
+      order: 0
+    - result:
+        v: 2860
+        type: IRON_AXE
+      stageType: CRAFT
+      customText: null
+      order: 1
+    - result:
+        v: 2860
+        type: IRON_SHOVEL
+      stageType: CRAFT
+      customText: null
+      order: 2
+    - result:
+        v: 2860
+        type: IRON_HOE
+      stageType: CRAFT
+      customText: null
+      order: 3
+    endingStages: []

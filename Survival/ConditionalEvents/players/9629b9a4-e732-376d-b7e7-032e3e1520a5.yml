@@ -1,0 +1,8 @@
+name: xAtoh
+events:
+  resistencia_y_skin_al_entrar:
+    one_time: false
+    cooldown: 1686941190854
+  random_tp:
+    one_time: false
+    cooldown: 1686941461922

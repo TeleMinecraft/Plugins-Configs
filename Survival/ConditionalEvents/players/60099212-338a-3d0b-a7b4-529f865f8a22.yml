@@ -1,0 +1,8 @@
+name: Regiale0403
+events:
+  event57:
+    one_time: false
+    cooldown: 1673225457657
+  resistencia_y_skin_al_entrar:
+    one_time: false
+    cooldown: 1675350747824

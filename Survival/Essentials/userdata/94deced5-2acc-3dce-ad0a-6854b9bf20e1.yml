@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 170.82.189.32
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1661604837785
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1661605550421
+  login: 1661604641388
+money: '1'
+last-account-name: pelao
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 299.64408388286927
+  y: 69.0
+  z: -564.6374506593114
+  yaw: 168.1499786376953
+  pitch: 26.849958419799805
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 414.36720592135174
+  y: 77.0
+  z: -508.8515476750387
+  yaw: 19.49996566772461
+  pitch: 19.649991989135742

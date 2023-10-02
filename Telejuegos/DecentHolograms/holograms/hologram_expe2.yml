@@ -1,0 +1,24 @@
+location: world_skywars:16.500:38.500:-23.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: Obtienes experiencia
+    height: 0.3
+  - content: al &2ganar partidas y
+    height: 0.3
+  - content: realizando &6asesinatos&r.
+    height: 0.3
+  - content: Para comprar algunos
+    height: 0.3
+  - content: cosméticos, requieres
+    height: 0.3
+  - content: de &acierto nivel&r para
+    height: 0.3
+  - content: desbloquearlos.
+    height: 0.3
+  actions: {}

@@ -1,0 +1,1 @@
+2023-02-21 21:58:06.006: (301ms) 100% FORCEFIELD > Big distance with: pig. Exact distance: 3.964404116632336, without thorns. Ping: 301. Player version: V1_18. TPS: [20.000016916680977, 20.000105555357095, 19.999998745977855]

@@ -1,0 +1,42 @@
+endRewards:
+- id: commandReward
+  commands:
+  - console: true
+    label: scoreboard players set {PLAYER} TiendaK 1
+confirmMessage: §4Estás list@?
+requirements:
+- id: questRequired
+  questID: 13
+name: §6§lNuevos horizontes §9[NPC]
+starterNPC: 89
+description: §eDesbloquea la Tienda de Katanas, debes hablar con un gran viajero
+bypassLimit: true
+startDialog:
+  msgs:
+  - id: 0
+    message:
+      sender: NPC
+      text: Demuestrame que mereces el conocimiento
+customItem:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: NETHERITE_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    ItemFlags:
+    - HIDE_ATTRIBUTES
+manager:
+  branches:
+    '0':
+      stages:
+        '0':
+          objects:
+            '0':
+              amount: 1
+              object:
+                factoryName: mythicMobs
+                value: Oni_E
+          stageType: MOBS
+      endingStages: {}
+id: 19

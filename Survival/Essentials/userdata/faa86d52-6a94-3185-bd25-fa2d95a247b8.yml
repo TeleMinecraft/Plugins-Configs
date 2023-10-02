@@ -1,0 +1,29 @@
+timestamps:
+  login: 1632704164175
+  logout: 1632715347723
+  lastteleport: 1632714331374
+lastlocation:
+  world: world
+  x: -1280.3948740628307
+  y: 64.0
+  z: -1078.0146225909818
+  yaw: -38.998657
+  pitch: 14.500117
+logoutlocation:
+  world: world
+  x: 5250.058561175172
+  y: 108.0
+  z: 5538.878417022893
+  yaw: 341.2698
+  pitch: 12.900185
+money: '565000.0'
+homes:
+  home:
+    world: world
+    x: 5250.157052080113
+    y: 108.0
+    z: 5537.584340192928
+    yaw: -88.03281
+    pitch: 37.49988
+ip-address: 190.163.213.100
+last-account-name: bongus

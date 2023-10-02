@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 45.232.34.216
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1650496150234
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1650496327459
+  login: 1650496136593
+money: '347690.00700000000001101'
+last-account-name: KaisoS
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 415.5
+  y: 64.0
+  z: -514.5
+  yaw: 2.249908447265625
+  pitch: 0.44995978474617004
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: -12579.376581517057
+  y: 139.0
+  z: 10982.807439806566
+  yaw: 33.5474853515625
+  pitch: 24.994064331054688
+homes:
+  home:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: -12579.76786272364
+    y: 140.0
+    z: 10984.60088247393
+    yaw: 20.35302734375
+    pitch: 36.544132232666016

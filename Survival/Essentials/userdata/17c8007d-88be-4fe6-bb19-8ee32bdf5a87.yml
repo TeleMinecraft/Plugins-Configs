@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 201.241.56.246
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1661915473533
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1661920693245
+  login: 1661915426752
+money: '0'
+last-account-name: Storbo
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 414.5582580176379
+  y: 63.0
+  z: -510.68311951907907
+  yaw: -49.7523078918457
+  pitch: 17.182098388671875
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 402.9534771694636
+  y: 88.5
+  z: -468.2265265801888
+  yaw: -118.05010986328125
+  pitch: -0.6000080108642578

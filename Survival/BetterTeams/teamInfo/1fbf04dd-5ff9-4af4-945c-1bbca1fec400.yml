@@ -1,0 +1,21 @@
+name: ChimpyArmy
+description: ''
+open: false
+pvp: true
+home: world:-19303.016415391456:93.0:-450.83577362870085:118.18594:26.24996
+color: b
+chests: []
+players:
+- 6f9d90c4-13ad-3af9-af35-da4c24fd824c,OWNER
+- 27e37b97-56e8-3803-a36b-c2e5b6717239,ADMIN
+level: 2
+tag: ''
+echest:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: ROTTEN_FLESH
+money: 0.0
+warps:
+- Z3RV3R0;world:-19398.572473104206:63.0:-537.0064137437662:92.49148:15.7498665
+- crix;world:-19404.783892587908:46.0:-447.62224707353994:89.78592:31.949818

@@ -1,0 +1,15 @@
+playername: Alt2
+lang: es_ES
+minerate-full-mined: 0
+minerate:
+  diamond: 0
+  gold: 0
+  iron: 0
+  coal: 0
+  ancient debris: 0
+better-click: 13
+cheats:
+  speed: 7
+  airjump: 6
+  forcefield: 2
+creation-time: 1683272352322

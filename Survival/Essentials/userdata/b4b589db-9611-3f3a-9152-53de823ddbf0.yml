@@ -1,0 +1,38 @@
+timestamps:
+  login: 1650942166053
+  logout: 1650944265249
+  lastteleport: 1650944164182
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: -1194.037933665444
+  y: 69.0
+  z: -1038.1610688887422
+  yaw: -160.64739990234375
+  pitch: -20.849933624267578
+  world-name: world
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: 418.0551047982652
+  y: 64.0
+  z: -514.3926928785353
+  yaw: -93.59878540039062
+  pitch: 9.149953842163086
+  world-name: world
+money: '1213203'
+ip-address: 201.189.237.85
+last-account-name: SonicBlack
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false

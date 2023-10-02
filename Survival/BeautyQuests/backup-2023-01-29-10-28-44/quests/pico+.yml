@@ -1,0 +1,105 @@
+bypassLimit: true
+customItem:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2860
+  type: DIAMOND_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    ItemFlags:
+    - HIDE_ATTRIBUTES
+repeatable: true
+description: §eDemuestra tu dominio de la minería
+timer: 1440
+name: §b§lMinero Experimentado §2[Gremio]
+endRewards:
+- id: commandReward
+  commands:
+  - console: true
+    label: scoreboard players add {PLAYER} Prestigio 5
+- id: itemReward
+  items:
+  - v: 2860
+    type: GOLDEN_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Light
+        Speed Pickaxe"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Extraction
+        III"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Haste
+        IV"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Fire
+        "}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Unrepairable
+        "}],"text":""}'
+      enchants:
+        DURABILITY: 3
+        DIG_SPEED: 7
+  - v: 2860
+    type: GOLDEN_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Light
+        Speed Pickaxe"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Extraction
+        III"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Haste
+        IV"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Fire
+        "}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Unrepairable
+        "}],"text":""}'
+      enchants:
+        DURABILITY: 3
+        DIG_SPEED: 7
+  - v: 2860
+    type: GOLDEN_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Light
+        Speed Pickaxe"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Extraction
+        III"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Haste
+        IV"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Fire
+        "}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Unrepairable
+        "}],"text":""}'
+      enchants:
+        DURABILITY: 3
+        DIG_SPEED: 7
+manager:
+  branches:
+    '0':
+      stages:
+        '0':
+          objects:
+            '0':
+              amount: 15
+              object: COAL_ORE
+            '1':
+              amount: 10
+              object: IRON_ORE
+            '2':
+              amount: 5
+              object: GOLD_ORE
+            '3':
+              amount: 5
+              object: NETHER_GOLD_ORE
+            '4':
+              amount: 3
+              object: REDSTONE_ORE
+            '5':
+              amount: 3
+              object: LAPIS_ORE
+          stageType: MINE
+      endingStages: {}
+id: 4

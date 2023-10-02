@@ -1,0 +1,71 @@
+# For more information, check out the plugin manual or join us on Discord:
+# http://www.mythicmobs.net
+#  
+
+SkeletonKingDrops:
+  Drops:
+  - SkeletonKingItemDrops 1
+  - cmd{c="xp give <trigger.name> 15l"}
+SkeletonKingItemDrops:
+  Drops:
+  - KingsCrown 1 1
+  - NETHERITE_INGOT 1-3 1
+AngrySludgeItemDrops:
+  Drops:
+  - UltraStickyMatter 1 1
+  - SLIME_BLOCK 1-5 1
+MoneyRabbitItemDrops:
+  Drops:
+  - cmd{c="eco give <trigger.name> 50000"}
+  - EMERALD 1-5 1
+  - DIAMOND 1-5 1
+AncestralGolemItemDrops:
+  Drops:
+  - Iridium 1 1
+  - Flower 1 0.25
+SkeletalKnightItemDrops:
+  Drops:
+  - WITHER_SKELETON_SKULL 1 1
+GuardianHItemDrops:
+  Drops:
+  - Sea 1 0.4
+  - Iron_n 1 0.2
+  - TRIDENT 1 0.1
+GuardianSItemDrops:
+  Drops:
+  - Shell 1 0.4
+  - Iron_n 1 0.2
+  - TRIDENT 1 0.1
+SuperCreeperItemDrops:
+  Drops:
+  - Overload 1-3 0.9
+BlazeKingItemDrops:
+  Drops:
+  - Rod 1 1
+  - Blaze 1 1
+  - Infernal 1 0.1
+SquidCItemDrops:
+  Drops:
+  - Ink 1 1
+ZombieFlaiteItemDrops:
+  Drops:
+  - Navaja 1 1
+  - Moneda 1-30 1
+PillagerPlusItemDrops:
+  Drops:
+  - Ballesta 1 1
+  - EMERALD 1-3 1
+SucioKripyItemDrops:
+  Drops:
+  - Kripy 1-3 1
+EndermanRItemDrops:
+  Drops:
+  - Eye 1 0.20
+  - ENDER_PEARL 1-2 0.5
+AncientPhantomItemDrops:
+  Drops:
+  - PHANTOM_MEMBRANE 1-2 0.5
+  - cmd{c="si give ancient_membrane 1 <trigger.name> true"}
+Oni_EItemDrops:
+  Drops:
+  - cmd{c="si give oni_essence 1 <trigger.name> true"} 1 0.2

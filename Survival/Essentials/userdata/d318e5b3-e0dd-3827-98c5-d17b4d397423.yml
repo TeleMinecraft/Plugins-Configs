@@ -1,0 +1,55 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 181.43.210.69
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1691706678245
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1691707554021
+  login: 1691707524429
+money: '11697135.96349999999925667'
+last-account-name: lorenzouz
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: -1296.731045871735
+  y: 63.0
+  z: -1116.3994002088268
+  yaw: 164.997802734375
+  pitch: -5.099936008453369
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 70166.59338734516
+  y: 63.0
+  z: 2505.2559378262044
+  yaw: -26.400081634521484
+  pitch: 26.550024032592773
+homes:
+  uno:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: -359.9632581592787
+    y: 67.0
+    z: 2924.5685794291867
+    yaw: 44.982765197753906
+    pitch: 30.60000991821289
+  dos:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: 70148.09816762357
+    y: 63.0
+    z: 2508.6913560059807
+    yaw: -95.11480712890625
+    pitch: 36.74999237060547

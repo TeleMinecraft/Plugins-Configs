@@ -1,0 +1,3 @@
+2021-05-29 06:32:50.262: (185ms) 100% BLINK > PositionLook packet: 19 Position Packet: 61 (=80) Ping: 185 Warn for Timer: 0. Player version: V1_16. TPS: [20.179672393513055, 20.13889415428697, 20.08874073647867]
+2021-05-29 06:48:57.177: (255ms) 94% BLINK > PositionLook packet: 48 Position Packet: 26 (=74) Ping: 255 Warn for Timer: 1. Player version: V1_16. TPS: [20.500284181621282, 20.403587010103816, 20.25153489897021]
+2021-06-08 20:50:23.837: (120ms) 100% TIMER > Flying: 0, position: 11, look: 0, positionLook: 44, sum: 35.0, median: 41. Player version: V1_16. TPS: [20.31334588561644, 20.08518888376955, 20.029959829219315]

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 190.47.233.201
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1685763708964
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1685763760703
+  login: 1685763658663
+money: '0'
+last-account-name: Leyrrah
+lastlocation:
+  world: 8039c8bf-b4ad-4692-9f73-205fa07ddece
+  world-name: world
+  x: -6.6269530914145385
+  y: 32.111135989440925
+  z: 0.42034799045649135
+  yaw: 83.25863647460938
+  pitch: 11.6000394821167
+logoutlocation:
+  world: 8039c8bf-b4ad-4692-9f73-205fa07ddece
+  world-name: world
+  x: -71.04846122110379
+  y: 30.0
+  z: -23.12891228688113
+  yaw: 90.0
+  pitch: 39.91343307495117

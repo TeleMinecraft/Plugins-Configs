@@ -1,0 +1,111 @@
+# This is an example book to show how to create one
+# Note: The placeholders in this book (like %player_name%) need PlaceholderAPI installed
+# with the proper expansion, see here for more informations: https://www.spigotmc.org/resources/placeholderapi.6245/
+
+# Item's name
+name: VIP
+
+# Book's title
+title: VIP
+
+# Book's author
+author: TeleServer
+
+# Book's generation
+# Valid values: ORIGINAL, COPY_OF_ORIGINAL, COPY_OF_COPY, TATTERED
+generation: ORIGINAL
+
+# Item's lore
+lore:
+- §dTodo sobre el §oVIP
+
+# Command to open this book
+# You can remove this by setting it to ''
+# Separate multiple commands with a space
+open_command: ''
+
+pages:
+  '1':
+  - '      <#FF00FF>§lRango §oVIP<reset>'
+  - ''
+  - '§8Este rango se obtiene'
+  - '§8haciendo una donación'
+  - '§8de 1000 pesos o más,'
+  - '§8este dinero se utiliza'
+  - '§8en su mantención y'
+  - '§8futuras mejoras.'
+  - ''
+  - '§8Si decides obtenerlo,'
+  - '§8tendrás este rango'
+  - '§8durante 30 días'
+  - '§8exactos desde el día'
+  - '§8que hagas el aporte.'
+  '2':
+  - ' <#FF00FF>§lBeneficios del §oVIP<reset>'
+  - ''
+  - '<#FF00FF>●<reset><tooltip:§aPodrás usar el comando §6§o/tpa§a en cualquier momento>§0Acceso a §1§l/tpa<reset>'
+  - '<#FF00FF>●<reset><tooltip:§aAcceso a §67§a homes diferentes en el §2Survival>§0Hasta §l7 §0homes<reset>'
+  - '<#FF00FF>●<reset><tooltip:§aRol en el §9Discord§a del TeleServer>§0Rol exclusivo en<reset> <link:http://dc.teleserver.network/><tooltip:§9Discord Oficial>§9§lDC<reset>'
+  - '<#FF00FF>●<reset><tooltip:§aAcceso a poder reclamar §6mayor §acantidad de terrenos en el §2Survival§a con los §2Bloques de Protección>§0Mayores terrenos<reset>'
+  - '<#FF00FF>●<reset><tooltip:§aLos cosméticos de §b§lSky§3§lWars§a serán totalmente gratuitos para tí>§0Cosméticos gratis<reset>'
+  - '<#FF00FF>●<reset><tooltip:§aTendrás acceso a las novedades del servidor §2§nantes que todos los demás>§0Acceso anticipado<reset>'
+  - '<#FF00FF>●<reset><tooltip:§aA través del comando §6§o/nick [apodo] §apodrás establecer tu apodo personalizado que verán todos los demás cuando hables en el chat>§0Apodo personalizado<reset>'
+  - '<#FF00FF>●<reset><tooltip:§aEn el mundo de §2Tiendas de jugadores§a, tendrás acceso a §62 parcelas §apara construir tu §2Tienda>§0Tiendas más grandes<reset>'
+  - '<#FF00FF>●<reset><tooltip:§aEn el mundo de §2Tiendas de jugadores§a, tendrás acceso a mayor variedad de §6mobs §apara vender items en tu §2Tienda>§0Mejores Tiendas<reset>'
+  - '<#FF00FF>●<reset><tooltip:§aRecibe 3 §eLlaves Diarias §aextra cada 5 días>§0Más Llaves Diarias<reset>'
+  - '<#FF00FF>●<reset><tooltip:§aRecibe 3 §5Llaves Semanales §aextra cada 10 días>§0Más Llaves Semanal<reset>'
+  - '<#FF00FF>●<reset><tooltip:§aAl escribir en el chat se verá de un §6color distintivo>§0Color especial<reset>'
+  '3':
+  - ' §d§lBeneficios del §oVIP'
+  - ''
+  - '<#FF00FF>●<reset><tooltip:§aTendrás acceso a escribir en el chat con distintos §6colores §ay §6formatos>§0Chat mejorado<reset>'
+  - '<#FF00FF>●<reset><tooltip:§aAl morir en el §2Survival §atus tumbas durarán el §63hrs §a(el triple de lo normal)>§0Tumbas duraderas<reset>'
+  - '<#FF00FF>●<reset><tooltip:§aCada mes en el §dInstagram§a oficial del servidor verás una pequeña mención y agradecimiento por tu aporte §d❤>§0Mención especial §4❤<reset>'
+  - ''
+  - '<#FF00FF>●<reset><tooltip:§aRebajas en Tiendas del §2Survival>§0§lDescuentos:<reset>'
+  - '<tooltip:§aPaga un §610%§a menos en tus compras en la principal Tienda de jugadores>§210% §0TeleBazar<reset>'
+  - '<tooltip:§aPaga un §620%§a menos al comprar Cajas de Recompensas>§220% §0Tienda de Cajas<reset>'
+  - '<tooltip:§aPaga un §630%§a menos al comprar minerales>§230% §0Tienda Minerales<reset>'
+  - '<tooltip:§aPaga un §620%§a menos en multiplicadores de experiencia>§220% §0Multiplicadores XP<reset>'
+  '4':
+  - '  <#FF00FF>§lQuiero tener §oVIP<reset>'
+  - ''
+  - '§0§lCómo lo obtengo?'
+  - '§8Háblanos en <tooltip:§b@teleminecraft.s><link:http://in.teleserver.network/>§1instagram<reset>'
+  - '§8o por <tooltip:§9Discord Oficial><link:http://dc.teleserver.network/>§9discord<reset> §8en el'
+  - '§8canal §o#donaciones-vip'
+  - '§8y luego realiza la'
+  - '§8transferencia, éstas'
+  - '§8son nuetras opciones:'
+  - ''
+  - '<tooltip:§eHaz click aquí para ver los datos de la cuenta a la que debes transferir><link:https://drive.google.com/file/d/1u-_AOO3a3gNzPu0Xzrw51eQG9q8xSKS8/view?usp=sharing>§6Transferencia normal<reset>'
+  - '<tooltip:§dHaz click aquí para ir al link de cobro de MACH><link:https://bajamach.com/YSaL5B1xS8>§5Pago por §lMACH<reset>'
+  - ''
+  
+# For the placeholders to work correctly
+# you should download the Player and Vault
+# extensions for PlaceholderAPI:
+# /papi ecloud download Player
+# /papi ecloud download Vault
+# /papi reload
+
+#________________________________________________
+#-Acceso a /tpa
+#-Hasta 7 homes en Survival
+#-10% de descuento en el TeleBazar
+#-30% de descuento en la Tienda de Minerales
+#-20% de descuento en la Tienda de Cajas
+#-20% de descuento en Multiplicadores de XP
+#-Rol en el Discord del Server
+#-Acceso a poder reclamar mayor cantidad de terrenos con los Bloques de Protección
+#-Cosméticos gratuitos en SkyWars
+#-Acceso anticipado a novedades
+#-Apodos personalizados con /nick [apodo]
+#-Mención mensual especial en nuestro Instagram
+#-En el mundo de Tiendas de jugadores, tienes acceso a 2 parcelas para crear tu Tienda
+#-Mayor variedad de mobs para vender items en tu Tienda
+#-3 llaves diarias extra cada 5 días
+#-3 llaves semanales extra cada 10 días
+#-Color especial en el chat por defecto
+#-Acceso a escribir con colores y formatos en el chat
+#-Las tumbas con tus items al morir en el Survival duran 3hrs

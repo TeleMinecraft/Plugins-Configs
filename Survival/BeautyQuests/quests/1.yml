@@ -1,0 +1,65 @@
+bypassLimit: true
+customItem:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: COOKED_CHICKEN
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    ItemFlags:
+    - HIDE_ATTRIBUTES
+repeatable: true
+description: §eUna buena comida es indispensable!
+timer: 1440
+name: §6§lMenú Diario §2[Gremio]
+endRewards:
+- id: itemReward
+  items:
+  - v: 3337
+    type: CHEST
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Caja
+        de Comida"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Click
+        izquierdo para ver los premios"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Click
+        derecho para abrir!"}],"text":""}'
+      PublicBukkitValues:
+        goldencrates:gcrates_crate: comida
+      blockMaterial: CHEST
+- id: commandReward
+  commands:
+  - console: true
+    label: scoreboard players add {PLAYER} Prestigio 1
+manager:
+  branches:
+    '0':
+      stages:
+        '0':
+          objects:
+            00000000-0000-0000-0000-0000000009ae:
+              amount: 1
+              object:
+                factoryName: bukkitEntity
+                value: PIG
+            00000000-0000-0001-0000-0000000009ae:
+              amount: 1
+              object:
+                factoryName: bukkitEntity
+                value: CHICKEN
+            00000000-0000-0002-0000-0000000009ae:
+              amount: 1
+              object:
+                factoryName: bukkitEntity
+                value: SHEEP
+            00000000-0000-0003-0000-0000000009ae:
+              amount: 1
+              object:
+                factoryName: bukkitEntity
+                value: COW
+          stageType: MOBS
+      endingStages: {}
+id: 1

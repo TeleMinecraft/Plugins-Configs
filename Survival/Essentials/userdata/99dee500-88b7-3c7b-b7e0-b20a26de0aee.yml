@@ -1,0 +1,29 @@
+timestamps:
+  login: 1624214348955
+  lastteleport: 1624214561223
+  logout: 1624214594006
+lastlocation:
+  world: world
+  x: -1068.937630643485
+  y: 66.59244597100242
+  z: -1648.2136733199827
+  yaw: -206.20883
+  pitch: 20.343119
+logoutlocation:
+  world: world
+  x: -1198.9431413326026
+  y: 67.0
+  z: -1041.6080198880832
+  yaw: 218.50598
+  pitch: 30.558804
+money: '929140.98100000000003153'
+homes:
+  home:
+    world: world
+    x: -1130.7530273384234
+    y: 55.0
+    z: -1519.641497634506
+    yaw: 280.1151
+    pitch: 11.7405615
+ip-address: 190.124.153.156
+last-account-name: SrTabo

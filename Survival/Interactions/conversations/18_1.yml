@@ -1,0 +1,64 @@
+name: '&fDon Manolo'
+starts_with:
+- NPC with id 163
+block_movement: false
+slow_effect: false
+save_conversation_progress: false
+start_conversation_radius: 0
+end_conversation_radius: 5
+requires_permission: false
+cooldown: 0
+hologram_dialogues:
+  enabled: false
+  offset_y: 0.0
+  offset_horizontal: 0.0
+conversation:
+  conversation1:
+    dialogue:
+      dialogue1:
+        text:
+        - '&bIba a regalarle una garrafa de Pipeño'
+        - '&ba la primera persona que pasara por aquí,'
+        - '&bpero tu espíritu dieciochero es casi nulo!'
+        time: 4
+        start_conversation: conversation2
+        conditional_dialogue:
+          conditional_dialogue1:
+            requires:
+            - '%objective_score_huasismo% >= 60'
+            start_conversation: conversation4
+    random_dialogue: false
+    interrupt_actions: []
+  conversation2:
+    dialogue:
+      dialogue1:
+        text:
+        - '&bSi te lo quieres ganar, demuéstralo...'
+        time: 2
+        show_name: false
+        start_conversation: conversation3
+    random_dialogue: false
+    interrupt_actions: []
+  conversation3:
+    dialogue:
+      dialogue1:
+        text:
+        - '&bRevisa el menu de crafteos con /recipes'
+        - '&bfabrica y ponte una chupalla, luego súbete'
+        - '&ba un caballo por al menos 1 minuto y podré'
+        - '&bconsiderarte como alguien dign@ del premio.'
+        time: 6
+        show_name: false
+    random_dialogue: false
+    interrupt_actions: []
+  conversation4:
+    dialogue:
+      dialogue1:
+        text:
+        - '&bAhora sí se nota tu espíritu dieciochero!'
+        time: 2
+        last_actions:
+        - 'player_command: warp Mision18'
+        show_name: false
+    random_dialogue: false
+    interrupt_actions: []

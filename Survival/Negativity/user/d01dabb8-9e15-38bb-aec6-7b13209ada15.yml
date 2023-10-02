@@ -1,0 +1,12 @@
+playername: Kaidrake
+lang: es_ES
+minerate-full-mined: 80
+minerate:
+  diamond: 0
+  gold: 0
+  iron: 0
+  coal: 3
+  ancient debris: 0
+better-click: 6
+cheats: {}
+creation-time: 1667925056944

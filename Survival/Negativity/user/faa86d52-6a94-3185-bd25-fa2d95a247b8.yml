@@ -1,0 +1,13 @@
+playername: bongus
+lang: es_ES
+minerate-full-mined: 757
+minerate:
+  diamond: 2
+  gold: 0
+  iron: 26
+  coal: 35
+  ancient debris: 0
+better-click: 6
+cheats:
+  forcefield: 1
+creation-time: 1632703490788

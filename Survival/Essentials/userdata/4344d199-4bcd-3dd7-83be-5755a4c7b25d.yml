@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 200.124.62.130
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1673110855250
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1673110902450
+  login: 1673110318153
+money: '6000'
+last-account-name: ShisposBuddy123
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: -1287.776134807371
+  y: 66.0
+  z: -1116.4892164822622
+  yaw: 21.753875732421875
+  pitch: 17.34994888305664
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: -1299.1265332856833
+  y: 87.0
+  z: 435.6086081361716
+  yaw: 39.9022216796875
+  pitch: 22.04996109008789

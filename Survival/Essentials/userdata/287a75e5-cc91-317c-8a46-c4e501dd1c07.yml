@@ -1,0 +1,29 @@
+timestamps:
+  login: 1589248850988
+  lastteleport: 1589251550476
+  logout: 1589253797575
+lastlocation:
+  world: world
+  x: 786.7674061113302
+  y: 40.0
+  z: -285.26122298923946
+  yaw: 82.49979
+  pitch: 4.4999404
+homes:
+  home:
+    world: world
+    x: 787.2974116549101
+    y: 67.0
+    z: -284.71118074793276
+    yaw: -124.49858
+    pitch: 17.550016
+money: '1213731.6545000000000095'
+logoutlocation:
+  world: world
+  x: 780.3000000119209
+  y: 67.0
+  z: -284.30000001192093
+  yaw: -197.41693
+  pitch: 10.199962
+ip-address: 190.5.32.84
+last-account-name: Ramyeonyon

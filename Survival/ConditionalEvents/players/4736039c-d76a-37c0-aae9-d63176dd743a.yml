@@ -1,0 +1,221 @@
+name: Atlas_zero_566
+events:
+  event57:
+    one_time: false
+    cooldown: 1674765858789
+  event45:
+    one_time: false
+    cooldown: 1669669391778
+  event46:
+    one_time: false
+    cooldown: 1669596979299
+  event33:
+    one_time: false
+    cooldown: 1669669443722
+  event21:
+    one_time: false
+    cooldown: 1669669444721
+  event53:
+    one_time: false
+    cooldown: 1669669407692
+  event54:
+    one_time: false
+    cooldown: 1669597005063
+  event62:
+    one_time: false
+    cooldown: 1669859222497
+  event35:
+    one_time: false
+    cooldown: 1669669382477
+  event47:
+    one_time: false
+    cooldown: 1669669399073
+  event49:
+    one_time: false
+    cooldown: 1669669400865
+  event51:
+    one_time: false
+    cooldown: 1669669405577
+  event55:
+    one_time: false
+    cooldown: 1669669409672
+  event43:
+    one_time: false
+    cooldown: 1669669412523
+  event39:
+    one_time: false
+    cooldown: 1669669421822
+  event37:
+    one_time: false
+    cooldown: 1669669422821
+  event25:
+    one_time: false
+    cooldown: 1669669464777
+  event27:
+    one_time: false
+    cooldown: 1669669430823
+  event23:
+    one_time: false
+    cooldown: 1669669449373
+  event26:
+    one_time: false
+    cooldown: 1669669466921
+  event24:
+    one_time: false
+    cooldown: 1669669468471
+  event22:
+    one_time: false
+    cooldown: 1669669468828
+  event34:
+    one_time: false
+    cooldown: 1669669469328
+  event36:
+    one_time: false
+    cooldown: 1669669469465
+  event38:
+    one_time: false
+    cooldown: 1669669469928
+  event40:
+    one_time: false
+    cooldown: 1669669470172
+  event42:
+    one_time: false
+    cooldown: 1669669470479
+  event44:
+    one_time: false
+    cooldown: 1669669470719
+  event32:
+    one_time: false
+    cooldown: 1669669471167
+  event30:
+    one_time: false
+    cooldown: 1669669471572
+  event28:
+    one_time: false
+    cooldown: 1669669471723
+  event48:
+    one_time: false
+    cooldown: 1669669473072
+  event50:
+    one_time: false
+    cooldown: 1669669473273
+  event52:
+    one_time: false
+    cooldown: 1669669473472
+  event56:
+    one_time: false
+    cooldown: 1669669474423
+  resistencia_y_skin_al_entrar:
+    one_time: false
+    cooldown: 1691779968757
+  random_tp:
+    one_time: false
+    cooldown: 1684791655066
+  descripcion_mision15:
+    one_time: false
+    cooldown: 1684892874302
+  descripcion_mision16:
+    one_time: false
+    cooldown: 1684892873070
+  descripcion_mision17:
+    one_time: false
+    cooldown: 1684892870271
+  descripcion_mision18:
+    one_time: false
+    cooldown: 1684691025151
+  descripcion_mision14:
+    one_time: false
+    cooldown: 1691704323585
+  descripcion_mision13:
+    one_time: false
+    cooldown: 1684892897506
+  descripcion_mision7:
+    one_time: false
+    cooldown: 1684892825471
+  descripcion_mision8:
+    one_time: false
+    cooldown: 1684892885123
+  descripcion_mision9:
+    one_time: false
+    cooldown: 1684691034620
+  descripcion_mision10:
+    one_time: false
+    cooldown: 1684892889330
+  descripcion_mision11:
+    one_time: false
+    cooldown: 1684892891301
+  descripcion_mision12:
+    one_time: false
+    cooldown: 1684892892678
+  descripcion_mision6:
+    one_time: false
+    cooldown: 1684691016779
+  descripcion_mision5:
+    one_time: false
+    cooldown: 1684892894521
+  descripcion_mision4:
+    one_time: false
+    cooldown: 1684892895375
+  descripcion_mision3:
+    one_time: false
+    cooldown: 1684892895844
+  descripcion_mision2:
+    one_time: false
+    cooldown: 1684892896420
+  descripcion_mision1:
+    one_time: false
+    cooldown: 1684892896884
+  mision_14:
+    one_time: false
+    cooldown: 1691704329362
+  mision_13:
+    one_time: false
+    cooldown: 1684691041962
+  mision_15:
+    one_time: false
+    cooldown: 1684892828900
+  mision_16:
+    one_time: false
+    cooldown: 1684892829320
+  mision_17:
+    one_time: false
+    cooldown: 1684892829838
+  mision_18:
+    one_time: false
+    cooldown: 1684892830401
+  mision_12:
+    one_time: false
+    cooldown: 1684691044328
+  mision_11:
+    one_time: false
+    cooldown: 1684892832789
+  mision_10:
+    one_time: false
+    cooldown: 1684892821077
+  mision_9:
+    one_time: false
+    cooldown: 1684892833533
+  mision_8:
+    one_time: false
+    cooldown: 1684892826673
+  mision_7:
+    one_time: false
+    cooldown: 1684892826975
+  mision_1:
+    one_time: false
+    cooldown: 1684892834930
+  mision_2:
+    one_time: false
+    cooldown: 1684892835333
+  mision_3:
+    one_time: false
+    cooldown: 1684892836034
+  mision_4:
+    one_time: false
+    cooldown: 1684892836720
+  mision_5:
+    one_time: false
+    cooldown: 1684691048958
+  mision_6:
+    one_time: false
+    cooldown: 1684892837782

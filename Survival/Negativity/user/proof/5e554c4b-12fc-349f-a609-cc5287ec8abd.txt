@@ -1,0 +1,1 @@
+2022-10-27 21:35:44.295: (230ms) 100% FORCEFIELD > Big distance with: player. Exact distance: 4.0251335381538, without thorns. Ping: 230. Player version: V1_18. TPS: [20.000144975717557, 20.000003369267233, 20.00000246357808]

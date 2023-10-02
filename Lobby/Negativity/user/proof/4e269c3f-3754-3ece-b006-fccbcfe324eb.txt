@@ -1,0 +1,2 @@
+2021-08-22 23:06:32.622: (0ms) 100% BLINK > No packet. Last other than KeepAlive: PacketPlayInCustomPayload there is: 3850ms . Ping: 0. Warn: 0. Player version: V1_16. TPS: [20.000003907210832, 20.00000209239275, 20.000000851762653]
+2023-05-29 01:41:24.605: (159ms) 96% SPEED > On ground. WalkSpeed: 0.1599999964237213, Distance from/to: 1.3266608448647224, walkTest: true, walkWithEss: true, y: 1.3266608448647224, disDir: 1.8524932103825495, disDirY: 1.7600289972971792. Player version: V1_19. TPS: [20.000350632813728, 19.999991814870018, 19.999997392355894]

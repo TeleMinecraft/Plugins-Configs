@@ -1,0 +1,14 @@
+location: world_arrows:-6.326:55.200:2.742
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&4&lPasa por el pilar'
+    height: 0.3
+  - content: '&4&lpara deseleccionar tu clase.'
+    height: 0.3
+  actions: {}

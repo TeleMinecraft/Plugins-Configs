@@ -1,0 +1,19 @@
+playername: 01Trick
+lang: es_ES
+minerate-full-mined: 4511
+minerate:
+  diamond: 14
+  gold: 4
+  iron: 33
+  coal: 95
+  ancient debris: 0
+better-click: 15
+cheats:
+  timer: 69
+  inventorymove: 25
+  forcefield: 1
+  fastplace: 1
+  blink: 1
+  nofall: 1
+  speed: 1
+creation-time: 1621968995561

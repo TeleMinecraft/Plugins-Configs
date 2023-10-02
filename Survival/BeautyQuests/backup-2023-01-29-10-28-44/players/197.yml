@@ -1,0 +1,23 @@
+identifier: d318e5b3-e0dd-3827-98c5-d17b4d397423
+quests:
+- questID: 16
+  questFlow: 0:0
+  timesFinished: 1
+- questID: 1
+  questFlow: 0:0
+  timesFinished: 1
+- stage0datas:
+    amount: 1
+  questID: 17
+  currentStage: 0
+  currentBranch: 0
+- stage0datas:
+    amount: 1
+  questID: 18
+  currentStage: 1
+  questFlow: 0:0
+  currentBranch: 0
+- questID: 7
+  timer: 1669846295470
+  questFlow: 0:0
+  timesFinished: 1

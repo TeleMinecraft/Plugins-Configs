@@ -1,0 +1,71 @@
+timestamps:
+  login: 1663205443138
+  lastteleport: 1663208093320
+  logout: 1663208375220
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: 6426.495452006299
+  y: 82.0
+  z: -19.30000001192093
+  yaw: 114.4949951171875
+  pitch: 27.74951934814453
+  world-name: world
+money: '21647328.240000000000060'
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: 6342.620404044307
+  y: 62.9375
+  z: -166.17988760265652
+  yaw: -2.25311279296875
+  pitch: 0.44945329427719116
+  world-name: world
+ip-address: 186.78.19.89
+last-account-name: RuXurs
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+homes:
+  base:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: 6334.489328450941
+    y: 63.0
+    z: -172.91108119409722
+    yaw: 168.15716552734375
+    pitch: 0.5995240211486816
+  end:
+    world: fa785cc7-e99d-4b98-8fc2-7ac257e3984e
+    world-name: world_the_end
+    x: 15.756544904326546
+    y: 57.0
+    z: 4874.689368849627
+    yaw: 105.92440032958984
+    pitch: 22.049367904663086
+  cofres:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: 6321.015717556672
+    y: 63.0
+    z: -238.2423324268632
+    yaw: -26.390369415283203
+    pitch: 22.050260543823242
+  vilaler:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: -517.3801396133445
+    y: 43.0
+    z: 1026.0528946880477
+    yaw: -20.386749267578125
+    pitch: 14.049836158752441

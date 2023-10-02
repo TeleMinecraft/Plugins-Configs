@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 143.255.106.123
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1657934069592
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1657936098980
+  login: 1657935004228
+money: '1000'
+last-account-name: CrissFLl
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 1796.516740728131
+  y: 63.0
+  z: 1034.8106996237093
+  yaw: 117.93711853027344
+  pitch: 11.045103073120117
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 695.365853591722
+  y: 77.0
+  z: 43.48294300937058
+  yaw: -58.46014404296875
+  pitch: 14.108353614807129

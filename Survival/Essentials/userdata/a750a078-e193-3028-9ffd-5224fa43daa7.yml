@@ -1,0 +1,65 @@
+lastAccountName: Nagaido
+timestamps:
+  login: 1675651118524
+  lastteleport: 1659823566730
+  logout: 1675651452921
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+ipAddress: 45.232.34.117
+lastlocation:
+  world: ddd15208-45ed-42b1-90a4-dbd0adfbea42
+  x: 9.560250635596251
+  y: 82.0
+  z: 5.606559523538543
+  yaw: -65.25093078613281
+  pitch: 14.549516677856445
+  world-name: world_nether
+money: '1263426.83950000000032435'
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: 198.28612311419633
+  y: 67.0
+  z: -504.58423727971797
+  yaw: 39.1483154296875
+  pitch: 16.650110244750977
+  world-name: world
+homes:
+  home:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: -2697.0214496886642
+    y: 63.0
+    z: -2934.302859975816
+    yaw: 106.06127166748047
+    pitch: 11.549522399902344
+    world-name: world
+  playa:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: -2697.5
+    y: 63.0
+    z: -2934.5
+    yaw: 91.36112976074219
+    pitch: 13.799516677856445
+  a:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: 269.3715258590203
+    y: 60.0
+    z: -394.4421348253083
+    yaw: 68.40042114257812
+    pitch: 10.200047492980957
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 190.20.102.155
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+last-account-name: Nagaido

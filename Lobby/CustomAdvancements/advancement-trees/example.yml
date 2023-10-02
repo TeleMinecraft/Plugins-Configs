@@ -1,0 +1,336 @@
+options:
+  auto_active: true
+  rewards: {}
+  display_name: '&b&lLobby!'
+  description: '&fIngresa por primera vez'
+  item: GRASS_BLOCK
+  gui_location: auto
+  minecraft-gui-display: true
+  minecraft-gui-background: textures/block/sand.png
+advancements:
+  seccion-info:
+    type: impossible
+    value: ignored
+    amount: 1
+    rewards:
+      message:
+        type: consolecommand
+        value: 'tellraw %player% ["","Has completado el logro: ",{"text":"[Info]","color":"gold","hoverEvent":{"action":"show_text","contents":[{"text":"Mira
+          tus logros para más información","italic":true,"color":"green"}]}}]'
+    display:
+      name: §6§lInfo
+      item: BOOK
+      description: '&fExplora la sección &6Info'
+      gui_location: auto
+      unit: none
+      minecraft-gui-frame: TASK
+      minecraft-toast: true
+      minecraft-chat-announce: false
+      minecraft-progress-type: AUTO
+  seccion-usm:
+    type: impossible
+    value: ignored
+    amount: 1
+    rewards: []
+    display:
+      name: §3§lUSM
+      item: WRITABLE_BOOK
+      description: "&fExplora la \nsección &3USM"
+      gui_location: auto
+      unit: none
+      minecraft-gui-frame: TASK
+      minecraft-toast: true
+      minecraft-chat-announce: false
+      minecraft-progress-type: AUTO
+  seccion-telejuegos:
+    type: impossible
+    value: ignored
+    amount: 1
+    rewards: []
+    display:
+      name: §d§lTelejuegos
+      item: FIREWORK_ROCKET
+      description: '&fExplora la sección &dTelejuegos'
+      gui_location: auto
+      unit: none
+      minecraft-gui-frame: TASK
+      minecraft-toast: true
+      minecraft-chat-announce: false
+      minecraft-progress-type: AUTO
+  inicio:
+    type: impossible
+    value: ignored
+    amount: 1
+    rewards: []
+    display:
+      name: §a§lIniciando
+      item: NETHER_STAR
+      description: '&fAbre el &bSelector de Servidores'
+      gui_location: auto
+      unit: none
+      minecraft-gui-frame: TASK
+      minecraft-toast: true
+      minecraft-chat-announce: false
+      minecraft-progress-type: AUTO
+  juego-verde:
+    type: impossible
+    value: ignored
+    amount: 1
+    requirements:
+      advancement:
+        type: advancement
+        value: example.seccion-telejuegos
+    rewards: []
+    display:
+      name: §a§lGreen Game
+      item: LIME_CONCRETE
+      description: "&fPrueba el \n&aJuego Verde"
+      gui_location: auto
+      unit: none
+      minecraft-gui-frame: TASK
+      minecraft-toast: true
+      minecraft-chat-announce: false
+      minecraft-progress-type: AUTO
+  juego-rojo:
+    type: impossible
+    value: ignored
+    amount: 1
+    requirements:
+      advancement:
+        type: advancement
+        value: example.seccion-telejuegos
+    rewards: []
+    display:
+      name: §c§lRed Game
+      item: RED_CONCRETE
+      description: "&fPrueba el \n&cJuego Rojo"
+      gui_location: auto
+      unit: none
+      minecraft-gui-frame: TASK
+      minecraft-toast: true
+      minecraft-chat-announce: false
+      minecraft-progress-type: AUTO
+  juego-amarillo:
+    type: impossible
+    value: ignored
+    amount: 1
+    requirements:
+      advancement:
+        type: advancement
+        value: example.seccion-telejuegos
+    rewards: []
+    display:
+      name: §e§lYellow Game
+      item: YELLOW_CONCRETE
+      description: "&fPrueba el \n&eJuego Amarillo"
+      gui_location: auto
+      unit: none
+      minecraft-gui-frame: TASK
+      minecraft-toast: true
+      minecraft-chat-announce: false
+      minecraft-progress-type: AUTO
+  juego-azul:
+    type: impossible
+    value: ignored
+    amount: 1
+    requirements:
+      advancement:
+        type: advancement
+        value: example.seccion-telejuegos
+    rewards: []
+    display:
+      name: §9§lBlue Game
+      item: BLUE_CONCRETE
+      description: "&fPrueba el \n&9Juego Azul"
+      gui_location: auto
+      unit: none
+      minecraft-gui-frame: TASK
+      minecraft-toast: true
+      minecraft-chat-announce: false
+      minecraft-progress-type: AUTO
+  seccion-survival:
+    type: impossible
+    value: ignored
+    amount: 1
+    rewards: []
+    display:
+      name: §2§lSurvival
+      item: PODZOL
+      description: "&fExplora la \nsección &2Survival"
+      gui_location: auto
+      unit: none
+      minecraft-gui-frame: TASK
+      minecraft-toast: true
+      minecraft-chat-announce: false
+      minecraft-progress-type: AUTO
+  zona-oculta:
+    type: impossible
+    value: ignored
+    amount: 1
+    requirements:
+      advancement:
+        type: advancement
+        value: example.seccion-survival
+    rewards: []
+    display:
+      name: §5§lZona oculta
+      item: DEEPSLATE_BRICKS
+      description: "&fDescubre una \n&5zona oculta &fen \nla sección &2Survival"
+      gui_location: auto
+      unit: none
+      minecraft-gui-frame: GOAL
+      minecraft-toast: true
+      minecraft-chat-announce: false
+      minecraft-progress-type: AUTO
+  servidores:
+    type: impossible
+    value: ignored
+    amount: 1
+    requirements:
+      advancement:
+        type: advancement
+        value: example.inicio
+    rewards: []
+    display:
+      name: §b§lExplorador
+      item: BEACON
+      description: '&fIngresa a todos los &bservidores'
+      gui_location: auto
+      unit: none
+      minecraft-gui-frame: GOAL
+      minecraft-toast: true
+      minecraft-chat-announce: false
+      minecraft-progress-type: AUTO
+  vip:
+    type: impossible
+    value: ignored
+    amount: 1
+    requirements:
+      advancement:
+        type: advancement
+        value: example.inicio
+    rewards: []
+    display:
+      name: §d§lBeneficios?
+      item: DIAMOND
+      description: '&fRevisa los beneficios del &dVIP'
+      gui_location: auto
+      unit: none
+      minecraft-gui-frame: TASK
+      minecraft-toast: true
+      minecraft-chat-announce: false
+      minecraft-progress-type: AUTO
+  npc:
+    type: impossible
+    value: ignored
+    amount: 1
+    requirements:
+      advancement:
+        type: advancement
+        value: example.seccion-info
+    rewards: []
+    display:
+      name: §e§lCharlando
+      item: PLAYER_HEAD
+      description: "&fHabla con los \n&6NPC &fde la \nsección &6Info"
+      gui_location: auto
+      unit: none
+      minecraft-gui-frame: TASK
+      minecraft-toast: true
+      minecraft-chat-announce: false
+      minecraft-progress-type: AUTO
+  puerta-secreta:
+    type: impossible
+    value: ignored
+    amount: 1
+    requirements:
+      advancement:
+        type: advancement
+        value: example.seccion-usm
+    rewards: []
+    display:
+      name: §6§lPuerta secreta?
+      item: ENDER_EYE
+      description: '&fIntenta entrar por la puerta trasera'
+      gui_location: auto
+      unit: none
+      minecraft-gui-frame: GOAL
+      minecraft-toast: true
+      minecraft-chat-announce: false
+      minecraft-progress-type: AUTO
+  top-rojo:
+    type: impossible
+    value: ignored
+    amount: 1
+    requirements:
+      advancement1:
+        type: advancement
+        value: example.juego-rojo
+    rewards: []
+    display:
+      name: §4§lRed TOP
+      item: REDSTONE_BLOCK
+      description: '&fAlcanza el &4TOP 3 &fde mejores puntajes'
+      gui_location: auto
+      unit: none
+      minecraft-gui-frame: CHALLENGE
+      minecraft-toast: true
+      minecraft-chat-announce: false
+      minecraft-progress-type: AUTO
+  top-amarillo:
+    type: impossible
+    value: ignored
+    amount: 1
+    requirements:
+      advancement1:
+        type: advancement
+        value: example.juego-amarillo
+    rewards: []
+    display:
+      name: §e§lYellow TOP
+      item: GOLD_BLOCK
+      description: "&fAlcanza el &6TOP 3\n&fde mejores puntajes"
+      gui_location: auto
+      unit: none
+      minecraft-gui-frame: CHALLENGE
+      minecraft-toast: true
+      minecraft-chat-announce: false
+      minecraft-progress-type: AUTO
+  top-azul:
+    type: impossible
+    value: ignored
+    amount: 1
+    requirements:
+      advancement1:
+        type: advancement
+        value: example.juego-azul
+    rewards: []
+    display:
+      name: §1§lBlue TOP
+      item: LAPIS_BLOCK
+      description: "&fAlcanza el &1TOP 3 &fde mejores puntajes"
+      gui_location: auto
+      unit: none
+      minecraft-gui-frame: CHALLENGE
+      minecraft-toast: true
+      minecraft-chat-announce: false
+      minecraft-progress-type: AUTO
+  top-verde:
+    type: impossible
+    value: ignored
+    amount: 1
+    requirements:
+      advancement1:
+        type: advancement
+        value: example.juego-verde
+    rewards: []
+    display:
+      name: §2§lGreen TOP
+      item: EMERALD_BLOCK
+      description: "&fAlcanza el &2TOP 3\n&fde mejores puntajes"
+      gui_location: auto
+      unit: none
+      minecraft-gui-frame: CHALLENGE
+      minecraft-toast: true
+      minecraft-chat-announce: false
+      minecraft-progress-type: AUTO

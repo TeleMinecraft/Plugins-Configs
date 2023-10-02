@@ -1,0 +1,22 @@
+playername: ReinosoBR
+lang: es_ES
+minerate-full-mined: 8482
+minerate:
+  diamond: 0
+  gold: 70
+  iron: 151
+  coal: 245
+  ancient debris: 0
+better-click: 24
+cheats:
+  timer: 3
+  antiknockback: 1
+  inventorymove: 1
+  pingspoof: 5
+  nuker: 2
+  forcefield: 18
+  fastplace: 1
+  nofall: 1
+  spider: 1
+  speed: 7
+creation-time: 1618838108141

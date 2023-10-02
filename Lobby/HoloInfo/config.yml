@@ -1,0 +1,44 @@
+Config:
+  distance_vector: 2.5
+  show_hologram_when_flying: false
+  enabled_worlds:
+  - world
+  worldguard_regions:
+    enabled: false
+    enabled_regions:
+    - wea
+    - lobby
+  hologram_info:
+  - ''
+  - '&b<<====== &d❤ &b======>>'
+  - 'Hola %rgb_gradient_#8300FF:#FB00FF_%player%%&f!'
+  - 'Te encuentras en el &a&lLobby'
+  - 'Jugadores conectados:'
+  - '&a&lLobby: %bungee_lobby%'
+  - '&e&lSurvival: %bungee_survival%'
+  - '&d&lTelejuegos: %bungee_telejuegos%'
+  - '&3&lUSM: %bungee_usm%'
+  - '&lDiviértete en el &b&lTele&3&lServer'
+  - ''
+  - '&b<<====== &d❤ &b======>>'
+Messages:
+  prefix: '&5[&dHoloInfo&5]'
+  noPermissions: '&cYou don''t have permissions to use that command.'
+  reloadCommand: '&aConfig Reloaded.'
+  commandDoesNotExists: '&cThat command doesn''t exists.'
+  hologramAlreadyDisabled: '&cYour information hologram is already disabled.'
+  hologramDisabled: '&aYour information hologram is now disabled.'
+  hologramAlreadyEnabled: '&cYour information hologram is already enabled.'
+  hologramEnabled: '&aYour information hologram is now enabled.'
+  helpCommandAdmin:
+  - '&5[&dHoloInfo&5]'
+  - '&c/hi help &7Shows this message.'
+  - '&c/hi reload &7Reloads the Config.'
+  - '&c/hi enable &7Enables the Hologram when sneaking.'
+  - '&c/hi disable &7Disables the Hologram when sneaking.'
+  - '&5[&dHoloInfo&5]'
+  helpCommandUser:
+  - '&5[&dHoloInfo&5]'
+  - '&c/hi enable &7Enables the Hologram when sneaking.'
+  - '&c/hi disable &7Disables the Hologram when sneaking.'
+  - '&5[&dHoloInfo&5]'

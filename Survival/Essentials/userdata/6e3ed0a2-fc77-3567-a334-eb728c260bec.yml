@@ -1,0 +1,28 @@
+timestamps:
+  login: 1589250593111
+  logout: 1589253622589
+lastlocation:
+  world: world
+  x: 415.58634376613696
+  y: 64.0
+  z: -514.2977530767774
+  yaw: 2.2499084
+  pitch: 0.44995978
+logoutlocation:
+  world: world
+  x: 639.2367359478063
+  y: 65.0
+  z: -288.0543036483397
+  yaw: -265.276
+  pitch: 31.064285
+money: '1214513.1099999999999821'
+homes:
+  home:
+    world: world
+    x: 764.3953508173588
+    y: 75.0
+    z: -356.47068878548527
+    yaw: -354.0664
+    pitch: 16.271069
+ip-address: 190.5.32.90
+last-account-name: Inti_sunny

@@ -1,0 +1,12 @@
+playername: Austrel
+lang: es_ES
+minerate-full-mined: 211
+minerate:
+  diamond: 0
+  gold: 0
+  iron: 6
+  coal: 5
+  ancient debris: 0
+better-click: 6
+cheats: {}
+creation-time: 1663955692283

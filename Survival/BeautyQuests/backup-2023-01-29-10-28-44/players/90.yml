@@ -1,0 +1,25 @@
+identifier: 4e269c3f-3754-3ece-b006-fccbcfe324eb
+quests:
+- questID: 1
+  timer: 1629256083524
+  finished: true
+- questID: 2
+  timer: 1628912222452
+  finished: true
+- questID: 7
+  timer: 1629764036210
+  finished: true
+- stage0datas:
+    remaining:
+      1: 2
+  questID: 8
+  currentStage: 0
+  currentBranch: 0
+- stage0datas:
+    amount: 1
+  questID: 9
+  currentStage: 1
+  currentBranch: 0
+- questID: 10
+  timer: 1629268222690
+  finished: true

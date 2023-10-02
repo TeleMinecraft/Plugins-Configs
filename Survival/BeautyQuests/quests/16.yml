@@ -1,0 +1,36 @@
+customItem:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: WOODEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    ItemFlags:
+    - HIDE_ATTRIBUTES
+name: §5§lRuptura de Pico §2[Gremio]
+description: §ePica obsidiana
+repeatable: true
+endRewards:
+- id: commandReward
+  commands:
+  - console: true
+    label: scoreboard players add {PLAYER} Prestigio 2
+- id: itemReward
+  items:
+  - v: 3337
+    type: CRYING_OBSIDIAN
+    amount: 3
+bypassLimit: true
+timer: 1440
+manager:
+  branches:
+    '0':
+      stages:
+        '0':
+          objects:
+            00000000-0000-0000-0000-0000000009ae:
+              amount: 10
+              object: OBSIDIAN
+          stageType: MINE
+      endingStages: {}
+id: 16

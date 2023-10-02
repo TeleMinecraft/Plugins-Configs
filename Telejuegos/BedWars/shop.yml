@@ -1,0 +1,324 @@
+data:
+#-   stack:
+#      type: GOLDEN_APPLE
+#      amount: 1
+#      meta:
+#        ==: ItemMeta
+#        meta-type: UNSPECIFIC
+#        display-name: "Example category"
+#        lore:
+#        - "This is my category!"
+#        - "Please buy things inside!"
+#    items:
+#    - price: 50
+#      price-type: "hierro"
+#      stack:
+#        type: DIAMOND_SWORD
+#        amount: 1
+#        meta:
+#          ==: ItemMeta
+#          meta-type: UNSPECIFIC
+#          enchants:
+#            DAMAGE_ALL: 2
+#          repair-cost: 1
+#          Damage: 99
+# Value 'applycolorbyteam' is used for automatic-coloring-in-shop.
+# See WarpPowder for more info.
+
+- stack: "DIAMOND_CHESTPLATE;1;\u00A79\u00A7lArmadura;\u00A77Protección indispensable"
+  items:
+   - price: 2 of hierro
+     properties: "applycolorbyteam"
+     stack:
+      type: LEATHER_HELMET
+   - price: 3 of hierro
+     properties: "applycolorbyteam"
+     stack:
+      type: LEATHER_CHESTPLATE
+   - price: 2 of hierro
+     properties: "applycolorbyteam"
+     stack:
+      type: LEATHER_LEGGINGS
+   - price: 2 of hierro
+     properties: "applycolorbyteam"
+     stack:
+      type: LEATHER_BOOTS
+   - price: 24 of hierro
+     stack:
+      type: CHAINMAIL_LEGGINGS
+   - price: 20 of hierro
+     stack:
+      type: CHAINMAIL_BOOTS
+   - price: 8 of oro
+     stack:
+      type: IRON_LEGGINGS
+   - price: 6 of oro
+     stack:
+      type: IRON_BOOTS
+   - price: 10 of esmeralda
+     stack:
+      type: DIAMOND_LEGGINGS
+   - price: 8 of esmeralda
+     stack:
+      type: DIAMOND_BOOTS
+       
+- stack: "DIAMOND_SWORD;1;\u00A74\u00A7lEspadas y más;\u00A77Armas cuerpo a cuerpo"
+  column: center
+  items:
+   - price: 1 of hierro
+     stack:
+      type: WOODEN_SWORD
+   - price: 32 of hierro
+     stack:
+      type: STICK
+      display-name: "\u00A7e\u00A7lMighty Stick"
+      enchants:
+       KNOCKBACK: 2
+   - price: 20 of hierro
+     stack:
+      type: STONE_SWORD
+   - price: 5 of oro
+     stack:
+      type: IRON_SWORD
+   - price: 7 of esmeralda
+     stack:
+      type: DIAMOND_SWORD
+   - price: 15 of esmeralda
+     stack:
+      type: DIAMOND_SWORD
+      display-name: "\u00A76\u00A7lLucifer Sword"
+      enchants:
+       FIRE_ASPECT: 1
+       
+- stack: "BOW;1;\u00A7e\u00A7lArcos;\u00A77Armas a distancia"
+  column: right
+  items:
+   - price: 20 of oro
+     stack:
+      type: BOW
+   - price: 60 of oro
+     stack:
+      type: BOW
+      display-name: "\u00A7e\u00A7lLegolas Bow"
+      enchants:
+       ARROW_KNOCKBACK: 2
+   - price: 30 of esmeralda
+     stack:
+      type: BOW
+      display-name: "\u00A76\u00A7lUltimate Bow"
+      enchants:
+       ARROW_KNOCKBACK: 2
+       ARROW_DAMAGE: 3
+   - ARROW;32 for 5 of oro
+
+- stack: "COOKED_PORKCHOP;1;\u00A7c\u00A7lComida;\u00A77Alimentos variados"
+  row: 3
+  column: 2
+  items:
+   - BREAD;3 for 10 of hierro
+   - COOKED_PORKCHOP;5 for 20 of hierro
+   - GOLDEN_APPLE for 32 of oro
+   - ENCHANTED_GOLDEN_APPLE for 32 of esmeralda
+
+- stack:
+   type: POTION
+   meta:
+    ==: ItemMeta
+    meta-type: POTION
+    display-name: "\u00A75\u00A7lPociones"
+    lore:
+     - "\u00A77Efectos varios"
+    potion-type: strength
+  row: 3
+  column: 6
+  items:
+   - stack:
+      type: POTION
+      meta:
+       ==: ItemMeta
+       meta-type: POTION
+       potion-type: strong_healing
+     price: 10 of oro
+   - stack:
+      type: POTION
+      meta:
+       ==: ItemMeta
+       meta-type: POTION
+       potion-type: swiftness
+     price: 7 of oro
+   - stack:
+      type: POTION
+      meta:
+       ==: ItemMeta
+       meta-type: POTION
+       potion-type: strength
+     price: 3 of esmeralda
+   - stack:
+      type: POTION
+      meta:
+       ==: ItemMeta
+       meta-type: POTION
+       potion-type: strong_regeneration
+     price: 5 of esmeralda
+
+- stack: "SANDSTONE;1;\u00A7a\u00A7lBloques;\u00A77Protección y movilidad"
+  linebreak: before
+  items:
+   - WHITE_WOOL;4 for 1 of hierro
+   - OAK_PLANKS;2 for 1 of oro
+   - STONE;3 for 10 of hierro
+   - OBSIDIAN;2 for 7 of esmeralda
+
+- stack: "TNT;1;\u00A76\u00A7lArtilugios;\u00A77Objetos especiales!"
+  column: center
+  items:
+   - ENDER_CHEST for 1 of esmeralda
+   - ENDER_PEARL;2 for 3 of esmeralda
+   - WATER_BUCKET for 1 of esmeralda
+   - price: 3 of oro
+     stack: "TNT;1;\u00A7c\u00A7lTNT automática"
+     properties:
+      - name: "AutoIgniteableTnt"
+        explosion-time: 5
+        damage-placer: false
+   - price: 5 of esmeralda
+     properties:
+      - name: "WarpPowder"
+        delay: 3
+     stack:
+      type: ENDER_EYE
+      display-name: "\u00A75\u00A7lRetirada"
+      lore:
+       - "\u00A77Teletransporte a tu"
+       - "\u00A77base luego de 3seg."
+       - "\u00A77(Moverte lo cancela!)"
+   - price: 5 of oro
+     properties:
+      - name: "Trap"
+        data:
+         - sound: ENTITY_SHEEP_AMBIENT
+         - effect:
+            ==: org.bukkit.potion.PotionEffect
+            effect: 15
+            amplifier: 2
+            duration: 100
+            ambient: true
+            has-particles: true
+            has-icon: true
+         - effect:
+            ==: org.bukkit.potion.PotionEffect
+            effect: 18
+            amplifier: 2
+            duration: 100
+            ambient: true
+            has-particles: true
+            has-icon: true
+         - effect:
+            ==: org.bukkit.potion.PotionEffect
+            effect: 2
+            amplifier: 2
+            duration: 100
+            ambient: true
+            has-particles: true
+            has-icon: true
+     stack:
+      type: STRING
+      display-name: "\u00A73\u00A7lTrampa"
+      lore:
+       - "\u00A77Da ceguera y lentitud a quien"
+       - "\u00A77lo pise, además te informará"
+       - "\u00A77cuando alguien la active."
+   - price: 5 of esmeralda
+     properties:
+      - name: "MagnetShoes"
+        probability: 50
+     stack:
+      type: IRON_BOOTS
+      display-name: "\u00A79\u00A7lZapatos magnéticos"
+      lore:
+       - "\u00A77Tiene un 50% de"
+       - "\u00A77probabilidad de"
+       - "\u00A77bloquear el empuje"
+   - price: 5 of esmeralda
+     properties:
+      - name: "rescueplatform"
+        delay: 25
+     stack:
+      type: TOTEM_OF_UNDYING
+      display-name: "\u00A76\u00A7lPlataforma de rescate"
+      lore:
+       - "\u00A77\u00A7lTe salva de una caída."
+   - price: 1 of esmeralda
+     properties:
+      - name: "arrowblocker"
+        delay: 15
+     stack:
+      type: NETHERITE_INGOT
+      display-name: "\u00A72\u00A7lBloqueo de flechas"
+      lore:
+       - "\u00A77Bloquea las flechas que te lancen."
+   - price: 64 of hierro
+     properties:
+      - name: "protectionwall"
+     stack:
+      type: BRICKS
+      display-name: "\u00A71\u00A7lMuro de Trump"
+      lore:
+       - "\u00A77Crea un muro instantáneo"
+   - price: 25 of oro
+     properties:
+      - name: "Golem"
+        speed: 0.25
+        follow: 16.0
+     stack:
+      type: GHAST_SPAWN_EGG
+      display-name: "\u00A78\u00A7lGolem"
+      lore:
+       - "\u00A77Genera un Iron Golem aliado."
+   - price: 1 of esmeralda
+     properties: "TNTSheep"
+     stack:
+      type: SHEEP_SPAWN_EGG
+      display-name: "\u00A74\u00A7lKamikaze Sheep"
+      lore:
+       - "\u00A77Genera una oveja explosiva"
+       - "\u00A77que seguirá a tus enemigos."
+   - price: 64 of hierro
+     properties: "ThrowableFireball"
+     stack:
+       type: FIRE_CHARGE
+       display-name: "\u00A76\u00A7lFireball"
+       lore:
+         - "\u00A77Lanza una bola de fuego"
+         - "\u00A77en la dirección donde mires."
+
+- stack: "DIAMOND_PICKAXE;1;\u00A73\u00A7lPicos y otros;\u00A77Destruye la protección de los demás"
+  column: right
+  items:
+   - price: 20 of hierro
+     stack:
+      type: SHEARS
+   - price: 5 of oro
+     stack:
+      type: STONE_AXE
+   - price: 30 of hierro
+     stack:
+      type: STONE_PICKAXE
+   - price: 40 of hierro
+     stack:
+      type: IRON_PICKAXE
+   - price: 40 of hierro
+     stack:
+      type: IRON_PICKAXE
+      display-name: "\u00A7e\u00A7lMole Pickaxe"
+      enchants:
+       DIG_SPEED: 2
+   - price: 25 of oro
+     stack:
+      type: DIAMOND_PICKAXE
+   - price: 25 of oro
+     stack:
+      type: DIAMOND_PICKAXE
+      display-name: "\u00A76\u00A7lUltimate Pickaxe"
+      enchants:
+       DIG_SPEED: 3

@@ -1,0 +1,16 @@
+uuid: 80fd98b8-7249-3778-b8dc-7af1d8ae5a8c
+wins: 2
+losses: 0
+kills: 5
+deaths: 0
+elo: 29
+xp: 25
+pareffect: none
+proeffect: none
+glasscolor: none
+killsound: none
+winsound: none
+taunt: none
+permissions:
+- sw.taunt.hace
+player_name: D1L4N1X

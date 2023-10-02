@@ -1,0 +1,20 @@
+uuid: ae857be2-dee8-3ab1-aaff-857a308445d0
+wins: 5
+losses: 8
+kills: 11
+deaths: 9
+elo: 0
+xp: 58
+pareffect: none
+proeffect: none
+glasscolor: blue
+killsound: none
+winsound: none
+taunt: bots
+permissions:
+- sw.taunt.izi
+- sw.glasscolor.purple
+- sw.glasscolor.blue
+- sw.taunt.hace
+- sw.taunt.bots
+player_name: Ruxur_jfc

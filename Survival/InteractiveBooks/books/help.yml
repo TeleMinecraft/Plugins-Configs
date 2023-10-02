@@ -1,0 +1,66 @@
+# This is an example book to show how to create one
+# Note: The placeholders in this book (like %player_name%) need PlaceholderAPI installed
+# with the proper expansion, see here for more informations: https://www.spigotmc.org/resources/placeholderapi.6245/
+
+# Item's name
+name: Ayuda
+
+# Book's title
+title: Libro de Ayuda
+
+# Book's author
+author: TeleServer
+
+# Book's generation
+# Valid values: ORIGINAL, COPY_OF_ORIGINAL, COPY_OF_COPY, TATTERED
+generation: ORIGINAL
+
+# Item's lore
+lore:
+- <dark_green>Todo sobre el <green>Survival
+
+# Command to open this book
+# You can remove this by setting it to ''
+# Separate multiple commands with a space
+open_command: ''
+
+pages:
+  '1':
+  - '      <dark_gray><bold><underlined>Tele<black><bold><underlined>Server<reset>'
+  - ''
+  - '    <color:#11BC00><bold>⛏<reset> <click:change_page:2><hover:show_text:"<gray><underlined>Click<reset><gray> para ver información <br>sobre el <color:#17FF00><bold>Survival"><color:#17FF00><bold><underlined>Survival<reset><color:#11BC00><bold> ⛏<reset>'
+  - ''
+  - '<gray>-------<dark_gray>Índice<gray>-------'
+  - '<dark_gray><bold>><reset> <hover:show_text:"<gray><underlined>Click<reset><gray> para ver la sección <color:#005DFF><bold>Lugares"><click:run_command:/ib open lugares><color:#005DFF><bold>Lugares<reset>'
+  - '<dark_gray><bold>><reset> <hover:show_text:"<gray><underlined>Click<reset><gray> para ver la sección <br><color:#FFFF00><bold>Zonas especiales"><click:run_command:/ib open zonas><color:#FFFF00><bold>Zonas especiales<reset>'
+  - '<dark_gray><bold>><reset> <hover:show_text:"<gray><underlined>Click<reset><gray> para ver la sección <color:#11BC00><bold>Comandos"><click:run_command:/ib open comandos><color:#11BC00><bold>Comandos<reset>'
+  - '<dark_gray><bold>><reset> <hover:show_text:"<gray><underlined>Click<reset><gray> para ver la sección <color:#FF00D8><bold>Agregados"><click:run_command:/ib open agregados><color:#FF00D8><bold>Agregados<reset>'
+  - '<dark_gray><bold>><reset> <hover:show_text:"<gray><underlined>Click<reset><gray> para ver la sección <color:#000990><bold>Teams"><click:run_command:/ib open teams><color:#000990><bold>Teams<reset>'
+  - '<dark_gray><bold>><reset> <hover:show_text:"<gray><underlined>Click<reset><gray> para ver la sección <br><color:#B200D9><bold>Players Shops"><click:run_command:/ib open tiendas><color:#B200D9><bold>Players Shops<reset>'
+  - '<dark_gray><bold>><reset> <hover:show_text:"<gray><underlined>Click<reset><gray> para ver la sección <color:#FF8000><bold>Eventos"><click:run_command:/ib open events><color:#FF8000><bold>Eventos<reset>'
+  - '<dark_gray><bold>><reset> <hover:show_text:"<gray><underlined>Click<reset><gray> para ver la sección <br><color:#00C4CD><bold>Tablist y Rangos"><click:run_command:/ib open tablist><color:#00C4CD><bold>Tablist y Rangos<reset>'
+  - '<dark_gray><bold>><reset> <hover:show_text:"<gray><underlined>Click<reset><gray> para ver la sección <color:#D30000><bold>Importante"><click:run_command:/ib open importante><color:#D30000><bold>Importante<reset>'
+  '2':
+  - '    <color:#11BC00><bold>⛏<reset> <color:#17FF00><bold><underlined>Survival<reset><color:#11BC00><bold> ⛏<reset>'
+  - ''
+  - '<black>El modo Supervivencia'
+  - '<black>clásico con un montón'
+  - '<black>de agregados para'
+  - '<black>una experiencia <underlined>única<reset><black>.'
+  - ''
+  - '<black>Juega con tus amig@s,'
+  - '<black>construye tu hogar,'
+  - '<black>derrota enemigos y ve'
+  - '<black>a explorar el mundo.'
+  - ''
+  - '<color:#00C4CD><bold>Lo más importante,<reset>'
+  - '<color:#00C4CD><bold>pásalo muy bien! <reset><color:#FF00D8>❤' 
+  '3':
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '   <black><bold>Muchas gracias<reset>'
+  - '    <black><bold>por visitar el<reset>'
+  - '    <aqua><bold>Tele<dark_aqua><bold>Server<reset> <light_purple>❤'

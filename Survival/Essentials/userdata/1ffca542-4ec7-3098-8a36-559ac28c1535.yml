@@ -1,0 +1,29 @@
+timestamps:
+  login: 1609480124291
+  lastteleport: 1609483512636
+  logout: 1609484164892
+lastlocation:
+  world: world
+  x: 417.7378523492039
+  y: 64.0
+  z: -514.1348745568581
+  yaw: 253.216
+  pitch: 13.700096
+money: '1188049.2944999999999790'
+homes:
+  home:
+    world: world
+    x: -541561.8583926103
+    y: 63.0
+    z: -540290.1391223874
+    yaw: 261.59894
+    pitch: 10.92759
+logoutlocation:
+  world: world
+  x: -541550.2965597023
+  y: 63.0
+  z: -540293.1753294287
+  yaw: -40.536743
+  pitch: 26.01537
+ip-address: 181.51.34.37
+last-account-name: Erulus

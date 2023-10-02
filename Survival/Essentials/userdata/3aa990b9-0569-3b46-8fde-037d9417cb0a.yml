@@ -1,0 +1,29 @@
+timestamps:
+  login: 1622157562540
+  logout: 1622158664391
+  lastteleport: 1622158125206
+lastlocation:
+  world: world
+  x: -313.11831705666515
+  y: 62.0
+  z: 533.3032423709202
+  yaw: -41.321793
+  pitch: -3.2318149
+logoutlocation:
+  world: world_nether
+  x: -142.87090554398603
+  y: 128.0
+  z: -122.66597234082094
+  yaw: -23.246826
+  pitch: 25.462708
+homes:
+  home:
+    world: world
+    x: -1170.7807028162943
+    y: 77.0
+    z: -1024.644226959353
+    yaw: 257.908
+    pitch: 27.905632
+money: '825000'
+ip-address: 186.156.108.173
+last-account-name: juako_tortuga_XD

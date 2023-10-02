@@ -1,0 +1,87 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 201.188.149.184
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1659544837713
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1659963725009
+  login: 1659963465356
+money: '1793043.3185000000000206'
+last-account-name: Potato
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: -674.335527732285
+  y: 68.0
+  z: -2237.989329304332
+  yaw: -100.47012329101562
+  pitch: 43.65045928955078
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: -257.93817334241106
+  y: 64.0
+  z: 537.877199325693
+  yaw: -110.40402221679688
+  pitch: 42.29997253417969
+homes:
+  home:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: -106.67800152455985
+    y: 72.0
+    z: -1902.9207129174135
+    yaw: 131.79901123046875
+    pitch: 21.57233428955078
+  lejos:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: 1927.4479462704533
+    y: 93.0
+    z: 1333.9884592364695
+    yaw: 176.98837280273438
+    pitch: 41.8499870300293
+  spawn:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: -750.3000000119209
+    y: -40.0
+    z: -2163.9068033600092
+    yaw: 157.15277099609375
+    pitch: 29.250022888183594
+  lejos2:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: -251.69999998807907
+    y: 60.0
+    z: 533.3000000119209
+    yaw: -126.2994384765625
+    pitch: 66.89990997314453
+  mina:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: 534.9442432391413
+    y: -17.0
+    z: -386.30000001192093
+    yaw: -88.80421447753906
+    pitch: 25.499927520751953
+  casa2:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: -672.5128470882977
+    y: 66.0
+    z: -2229.3009986445504
+    yaw: 133.679931640625
+    pitch: 25.9504451751709

@@ -1,0 +1,22 @@
+location: world_ice:-2.489:159.200:-8.503
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&e&lInstrucciones:'
+    height: 0.3
+  - content: Esto es simple, &6golpea
+    height: 0.3
+  - content: a tus oponentes!
+    height: 0.3
+  - content: No dejes que te
+    height: 0.3
+  - content: saquen de la &6pista&r!
+    height: 0.3
+  - content: Ve a por los &u&lbonus&r!
+    height: 0.3
+  actions: {}

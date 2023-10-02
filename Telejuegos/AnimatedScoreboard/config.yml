@@ -1,0 +1,60 @@
+#Here you can set per world scoreboards <worldname>:<filename>
+#If you don't add a world here in will not have a scoreboard in that world!
+#World has 2 scoreboards, it will activate them based on how the are
+#listed, in this example it will first look if players can have adminboard and if
+#not switch to defaultscoreboard
+worlds:
+  #The global scoreboard is not required and can be removed without causing any issues. The plugin will just hide the scoreboard in that case.
+  world_poderes: poderesscoreboard2
+  world_poderes: poderesscoreboard3
+  world_poderes: poderesscoreboard4
+  world_poderes: poderesscoreboard5
+  world_poderes: poderesscoreboard6
+  world_poderes: poderesscoreboard7
+  world_poderes: poderesscoreboard8
+  world_poderes: poderesscoreboard9
+  world_poderes: poderesscoreboard10
+  world_poderes: poderesscoreboard11
+  world_poderes: poderesscoreboard12
+  world_poderes: poderesscoreboard13
+  world_poderes: poderesscoreboard14
+  world_poderes: poderesscoreboard15
+  world_poderes: poderesscoreboard16
+#Now only players with the permission animatedscoreboard.test will get the scoreboard
+permissions:
+  poderesscoreboard2: poderes.jugadores2
+  poderesscoreboard3: poderes.jugadores3
+  poderesscoreboard4: poderes.jugadores4
+  poderesscoreboard5: poderes.jugadores5
+  poderesscoreboard6: poderes.jugadores6
+  poderesscoreboard7: poderes.jugadores7
+  poderesscoreboard8: poderes.jugadores8
+  poderesscoreboard9: poderes.jugadores9
+  poderesscoreboard10: poderes.jugadores10
+  poderesscoreboard11: poderes.jugadores11
+  poderesscoreboard12: poderes.jugadores12
+  poderesscoreboard13: poderes.jugadores13
+  poderesscoreboard14: poderes.jugadores14
+  poderesscoreboard15: poderes.jugadores15
+  poderesscoreboard16: poderes.jugadores16
+
+
+#If this is set to true it will try to use PlaceholderAPI placeholders
+placeholderapi: true
+#If this is set to true it will check on SpigotMC if there is a new version available for the plugin and notify you!
+check_updates: true
+#When this is true it will send info messages to the console, this is more usefull if something is going wrong
+debug_mode: false
+#This will enable the event triggers, if this is set to false the event triggers won't work
+enable-triggers: false
+
+# What data storage should we use:
+# - YAML 	: stores the player data in human readable form in playerdata.yml
+# - SQLITE	: stores the player data in a local SQLite database called playerdata-sqlite.db
+player-storage: SQLITE
+
+# Only enable this if you're running a 1.13+ server.jar but still accept clients below 1.13
+force-legacy: false
+
+# Attempt to parse hex colors inside of placeholders.
+hex-in-placeholders: true

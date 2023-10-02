@@ -1,0 +1,21 @@
+timestamps:
+  login: 1634513377318
+  logout: 1634514429772
+  lastteleport: 1634513489890
+lastlocation:
+  world: world
+  x: 499.3291893755708
+  y: 65.0
+  z: -561.9922708415507
+  yaw: -110.850494
+  pitch: 12.749918
+logoutlocation:
+  world: world
+  x: 572.0838925338762
+  y: 67.0
+  z: 2133.1789805740445
+  yaw: -126.33706
+  pitch: 43.402958
+money: '25000'
+ip-address: 190.101.109.204
+last-account-name: notmrzp

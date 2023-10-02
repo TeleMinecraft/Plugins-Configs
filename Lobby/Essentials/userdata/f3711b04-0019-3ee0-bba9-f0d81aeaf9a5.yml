@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 181.43.218.222
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1685073000020
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1685073974765
+  login: 1685073914472
+money: '0'
+last-account-name: Gamba1511
+lastlocation:
+  world: 8039c8bf-b4ad-4692-9f73-205fa07ddece
+  world-name: world
+  x: -7.016535717287344
+  y: 32.03584062504456
+  z: 0.3600875569895705
+  yaw: 86.54888916015625
+  pitch: 17.55000114440918
+logoutlocation:
+  world: 8039c8bf-b4ad-4692-9f73-205fa07ddece
+  world-name: world
+  x: 0.9357186567424334
+  y: 33.0
+  z: 0.7540308796570978
+  yaw: -80.85008239746094
+  pitch: 14.550007820129395

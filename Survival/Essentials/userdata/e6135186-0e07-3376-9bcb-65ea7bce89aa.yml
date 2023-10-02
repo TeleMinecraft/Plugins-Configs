@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 181.42.20.226
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1649982367336
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1649984876193
+  login: 1649982668986
+money: '0.0'
+last-account-name: Nobaittap
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 417.7812154087127
+  y: 64.0
+  z: -514.0162253936139
+  yaw: -109.9503402709961
+  pitch: 9.599959373474121
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 315.69999998807907
+  y: 67.0
+  z: -976.9250767836619
+  yaw: -130.94509887695312
+  pitch: 13.049882888793945

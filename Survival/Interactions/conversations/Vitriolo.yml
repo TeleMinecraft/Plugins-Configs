@@ -1,0 +1,104 @@
+name: '&a&lAlquimista'
+starts_with:
+- NPC with id 116
+block_movement: true
+slow_effect: false
+save_conversation_progress: false
+start_conversation_radius: 0
+end_conversation_radius: 5
+requires_permission: false
+cooldown: 0
+hologram_dialogues:
+  enabled: false
+  offset_y: 0.0
+  offset_horizontal: 0.0
+conversation:
+  conversation1:
+    dialogue:
+      dialogue1:
+        text:
+        - '#A5FFFCHola viajero, supongo viste mi anuncio.'
+        time: 1
+    options:
+      option1:
+        text: §fSolo pasaba a saludar.
+        start_conversation: conversation2
+      option2:
+        text: §fAsies, dime de que se trata.
+        start_conversation: conversation3
+      option3:
+        text: §f¿Anuncio? No vi ningun anuncio.
+        start_conversation: conversation4
+      option4:
+        text: §fNo me interesa
+        start_conversation: conversationFIN
+    random_dialogue: false
+    interrupt_actions: []
+  conversation2:
+    dialogue:
+      dialogue1:
+        text:
+        - '#A5FFFCMe alegro de conocerle.'
+        - '#A5FFFCMi nombre es §4Vitriolo #A5FFFC, alquimista'
+        time: 1
+    options:
+      option1:
+        text: §f¿Que hace un alquimista aqui?
+        start_conversation: conversationFIN
+      option2:
+        text: §fEncantad@ Vitriolo, dime cual es tu encargo.
+        start_conversation: conversationFIN
+      option3:
+        text: §fCurioso nombre .
+        start_conversation: conversationFIN
+      option4:
+        text: §fNo me interesa
+        start_conversation: conversationFIN
+    random_dialogue: false
+    interrupt_actions: []
+  conversation4:
+    dialogue:
+      dialogue1:
+        text:
+        - '#A5FFFCVaya... Y eso que me asegure de que se publicara correctamente.
+          Bueno, te tengo un encargo. ¿Podras ayudarme?'
+        time: 2
+    options:
+      option1:
+        text: §fVeamos, dime de que se trata.
+        start_conversation: conversationFIN
+      option4:
+        text: §fNo estoy de humor, adios.
+        start_conversation: conversationFIN
+    random_dialogue: false
+    interrupt_actions: []
+  conversation3:
+    dialogue:
+      dialogue1:
+        text:
+        - '#A5FFFCBien, se trata de que cierto suceso acaba de ocurrir y necesito
+          de tu ayuda.'
+        time: 2
+    options:
+      option1:
+        text: §fVeamos, dime de que se trata.
+        start_conversation: conversationFIN
+      option2:
+        text: §f¿Que tengo que hacer?
+        start_conversation: conversationFIN
+      option3:
+        text: §fSabes que no hago cosas gratis, ¿eh?
+        start_conversation: conversationFIN
+      option4:
+        text: §fNo me interesa
+        start_conversation: conversationFIN
+    random_dialogue: false
+    interrupt_actions: []
+  conversationFIN:
+    dialogue:
+      dialogue1:
+        text:
+        - '#A5FFFCVale, ten un buen dia.'
+        time: 1
+    random_dialogue: false
+    interrupt_actions: []

@@ -1,0 +1,30 @@
+name: Richard363
+starts_with:
+- NPC with id 173
+block_movement: false
+slow_effect: false
+save_conversation_progress: false
+start_conversation_radius: 0
+end_conversation_radius: 5
+requires_permission: false
+cooldown: 0
+hologram_dialogues:
+  enabled: false
+  offset_y: 0.0
+  offset_horizontal: 0.0
+conversation:
+  conversation1:
+    dialogue:
+      dialogue1:
+        text:
+        - '[&9ADMIN&7-&4&lR&c&li&6&lc&e&lh&a&la&b&lr&9&ld&f] Tas bn.'
+        time: 2
+        show_name: false
+      dialogue2:
+        text:
+        - '[#FFB200✦#FFB200&lGOD#FFB200✦&7-#FFB200Storbo#ffffff] No.'
+        time: 1
+        show_name: false
+    random_dialogue: false
+    interrupt_actions: []
+

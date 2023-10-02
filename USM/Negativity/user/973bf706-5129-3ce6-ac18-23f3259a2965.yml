@@ -1,0 +1,23 @@
+playername: Bastiramelo
+lang: es_ES
+minerate-full-mined: 14825
+minerate:
+  diamond: 68
+  gold: 58
+  iron: 712
+  coal: 447
+  ancient debris: 0
+better-click: 26
+cheats:
+  timer: 40
+  antiknockback: 5
+  inventorymove: 1
+  autoclick: 5
+  nuker: 1
+  forcefield: 2
+  fastplace: 1
+  blink: 3
+  nofall: 13
+  spider: 1
+  speed: 252
+creation-time: 1621232189085

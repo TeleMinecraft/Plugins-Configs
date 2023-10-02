@@ -1,0 +1,40 @@
+# This is an example book to show how to create one
+# Note: The placeholders in this book (like %player_name%) need PlaceholderAPI installed
+# with the proper expansion, see here for more informations: https://www.spigotmc.org/resources/placeholderapi.6245/
+
+# Item's name
+name: Ergon
+# Book's title
+title: Ergon
+
+# Book's author
+author: '§3Tele§bServer'
+
+# Book's generation
+# Valid values: ORIGINAL, COPY_OF_ORIGINAL, COPY_OF_COPY, TATTERED
+generation: ORIGINAL
+
+# Item's lore
+lore:
+- '§7§oErgon'
+
+# Command to open this book
+# You can remove this by setting it to ''
+# Separate multiple commands with a space
+open_command: ''
+
+pages:
+  '1':
+  - '§0   Proyecto: §lERG§6§lO§0§lN'
+  - ''
+  - '§8§l❱ <link:http://www.ergon.cl/index.html#Historia><tooltip:§aClick para saber más>§8§lHistoria<reset>'
+  - ''
+  - '§8§l❱ <link:https://www.flickr.com/photos/165430065@N03/albums><tooltip:§aClick para ver fotos y videos del proyecto>§8§lGalería<reset>'
+  - ''
+  - '§8§l❱ <link:http://www.ergon.cl/index.html#Nosotros><tooltip:§aClick para saber más sobre nosotros>§8§lQuiénes somos?<reset>'
+  - ''
+  - '§8§l❱ <link:https://www.instagram.com/ergon_usm/><tooltip:§a@ergon_usm>§8§lInstagram oficial<reset>'
+  - ''
+  - '§8§l❱ <link:http://www.ergon.cl/index.html#Patrocinio><tooltip:§aClick para ver los patrocinadores>§8§lAuspicios<reset>'
+  - ''
+  - '§8§l❱ <tooltip:§aClick para ver los métodos de contacto>§8§lContáctanos<reset>'

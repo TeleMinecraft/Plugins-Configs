@@ -1,0 +1,55 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 186.106.228.21
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1669489929284
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1669490076696
+  login: 1669488984093
+money: '99173669.875'
+last-account-name: paltuki
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 404.1062276008937
+  y: 104.09393312296386
+  z: -380.14197680213726
+  yaw: 171.40325927734375
+  pitch: -16.800251007080078
+homes:
+  home:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: 373.9237319674963
+    y: 99.0
+    z: -243.44729988273474
+    yaw: -101.13427734375
+    pitch: 24.559114456176758
+  nether:
+    world: ddd15208-45ed-42b1-90a4-dbd0adfbea42
+    world-name: world_nether
+    x: -4339.980570357716
+    y: 66.0
+    z: -136.66692565316944
+    yaw: -91.02642822265625
+    pitch: 7.950253009796143
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 470.78475680284845
+  y: 77.0
+  z: 528.6914168574275
+  yaw: -36.173248291015625
+  pitch: 2.9998693466186523

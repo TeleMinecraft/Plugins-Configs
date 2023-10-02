@@ -1,0 +1,33 @@
+name: "&3&lSky&b&lWars"
+discover_title:
+  title: "&5Descubrimiento!"
+  subtitle: "&7SkyWars: %name%"
+  fade_in: 20
+  stay: 60
+  fade_out: 20
+discover_message:
+- "&7Para ver tu nuevo logro usa &b/codex                          "
+discover_sound:
+  name: ENTITY_PLAYER_LEVELUP
+  volume: 10
+  pitch: 0.1
+discoveries:
+  1:
+    name: "&3Lucha en las alturas"
+    lore:
+    - "&7Juega &nSkywars"
+    #commands:
+    #- "xp give %player% 1"
+    #discovered_on_region: test
+    #discovered_on_mob_kill:
+    #  type: ZOMBIE
+    #  name: "Test"
+  2:
+    name: "&3Dominador/a de los cielos"
+    lore:
+    - "&7Gana una partida de &nSkyWars"
+  3:
+    name: "&3Parkour Máster"
+    lore:
+    - "&7Completa el &nParkour"
+    - "&7del lobby de &nSkyWars"

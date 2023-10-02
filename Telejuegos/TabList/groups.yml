@@ -1,0 +1,7 @@
+# DO NOT CHANGE THIS!
+# This global group will be applied to all players
+globalGroup:
+  prefix: '%vault_prefix%'
+  tabname: ''
+  suffix: ''
+groups: []

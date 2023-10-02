@@ -1,0 +1,36 @@
+timestamps:
+  login: 1628636461043
+  logout: 1628638136679
+  lastteleport: 1628637760658
+lastlocation:
+  world: world
+  x: 1235.5324121571982
+  y: 19.0
+  z: -588.3000000119209
+  yaw: 120.56803
+  pitch: 18.847609
+logoutlocation:
+  world: world
+  x: 1208.9487009810478
+  y: 21.0
+  z: -565.4127530678219
+  yaw: 74.244446
+  pitch: 27.644663
+money: '306090.8620000000000001'
+homes:
+  casa:
+    world: world
+    x: 1206.9215848988727
+    y: 92.0
+    z: -671.5805408723321
+    yaw: 8.503662
+    pitch: 4.909065
+  home2:
+    world: world_the_end
+    x: 2963.630026195536
+    y: 58.0
+    z: -284.07229099042894
+    yaw: 2.824463
+    pitch: 17.47946
+ip-address: 45.232.95.173
+last-account-name: DezoWTF

@@ -1,0 +1,29 @@
+timestamps:
+  login: 1624300386458
+  logout: 1624301417225
+  lastteleport: 1624153019635
+lastlocation:
+  world: world
+  x: -1273.1150726948065
+  y: 72.5
+  z: -1131.4887525115896
+  yaw: -276.53458
+  pitch: -1.6333836
+logoutlocation:
+  world: world
+  x: -1859.6600699301111
+  y: 65.0
+  z: 421.27998314420637
+  yaw: -176.7716
+  pitch: 8.036046
+money: '430164.32000000000008513'
+homes:
+  home:
+    world: world
+    x: -1836.1089181811374
+    y: 63.0
+    z: 423.8823281518118
+    yaw: 83.91758
+    pitch: 12.576705
+ip-address: 152.173.34.36
+last-account-name: MangoPlayer459

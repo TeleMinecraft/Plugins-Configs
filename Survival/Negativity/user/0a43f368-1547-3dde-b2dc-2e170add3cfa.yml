@@ -1,0 +1,17 @@
+playername: Xx_Elucidator_xX
+lang: es_ES
+minerate-full-mined: 5100
+minerate:
+  diamond: 1
+  gold: 0
+  iron: 19
+  coal: 31
+  ancient debris: 0
+better-click: 9
+cheats:
+  timer: 112
+  pingspoof: 15
+  nuker: 5
+  forcefield: 3
+  speed: 45
+creation-time: 1628376175430

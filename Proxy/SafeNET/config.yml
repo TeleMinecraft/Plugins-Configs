@@ -1,0 +1,56 @@
+#
+# ███████╗ █████╗ ███████╗███████╗███╗   ██╗███████╗████████╗
+# ██╔════╝██╔══██╗██╔════╝██╔════╝████╗  ██║██╔════╝╚══██╔══╝
+# ███████╗███████║█████╗  █████╗  ██╔██╗ ██║█████╗     ██║
+# ╚════██║██╔══██║██╔══╝  ██╔══╝  ██║╚██╗██║██╔══╝     ██║
+# ███████║██║  ██║██║     ███████╗██║ ╚████║███████╗   ██║
+# ╚══════╝╚═╝  ╚═╝╚═╝     ╚══════╝╚═╝  ╚═══╝╚══════╝   ╚═╝
+#
+# Plugin made by dejvokep (https://dejvokep.dev/).
+#
+# ► Need any help?
+# Join the Discord server (https://discord.com/invite/BbhADEy) and we will more than happily help you :) (nonstop 24/7 bot support)
+#
+# Config version:
+# - IMPORTANT >> Do NOT change unless you know what you are doing. Changing this might break the plugin.
+config-version: 2
+# Passphrase:
+# - It is recommended to change this once in a while. Generate a new one using "/sn generate".
+passphrase: ~GTnm4lred{(~(I2_F4T(MV7uO$F[(qd@Pn;v(ntKGt*V~zO[.0#gy4evOL}^/Jr?Qt):+gu8zzR*+F_$*dbC#szw2M4CYt,rD?Shf}0l=uvPq{#<C$?Llo}Fr(oFsCK.Sj{az.vRPGH&I+e39jKZU0|*&9y(t]T9nrc2Xa@Ok_0<;lF);y6~7%0uJK#*FcjX7g?n(sqp4s.q&-@kis-]Sb}cn-naJ0+5+twE^qb72S2Yp>DMHt$<T#lWV/5Y6>&D$U=#xKZ8:{6S4!q?vB$i6XtjkK%&s=X6:hZ/t0bv7:,C1XuNy&|~u|Boe&/rJ#>h#X9Vo.#AbX52$zEk|<%Bl5;bc$N+ixNR%G-f6EH(r~h^r0wP*Sxnpv6^Gzjt[dWT2Aq&}@cd),HFH6@@#IR3dMra|z}3b3&Tpd4>jsQsgBrmGv<-?S}@JVGNf>nttVG?o!YYD{-;,e<_Jl9;)T|!3or/d<lIB<@XtYR)f[!kysWpDbDxu/oS%^qIE?4{&%l|iHD7p8H$ZyblSaRlEODG%%d5NoCZ|Ih3~dW-zIH(8]b+182hRuQFb%rco&/NvlA==;!/8e(nx_gE<.OE@<Uj@0NQ4K$c.Fwo_5veyWu9rPC#q&z&GtM_?KeEj*GDG2G[uh*5AKs)5/=#a]L@OqlGlO=o/5373dSz%][$qO.yP&pL^NnuZE@:GJl2w&a&*=[&3pBf7g2Rd8GvET/)$wnmBNUpd)8%Qg-$;]<}luNvHbL4[jp+n)OV,fBM<&B?hg[$CB?S[WL8D!a+fL22t,*4vyaZW4p!A2S:vi#BV:ctwmm@ii_5>iC~jsA2hktRv$Z#DuN*cXFR3JzFRrFZyjVz}f&&Q$)Brh-E+5G@{kd}z@1HWLjzM7a8nP=rdRB>OZo%Q-84E[anI1X~$C}dcC2ar>cwM/}>df)M^Y^lUP*!~VeWGaG(UEMcj^T<.l|<BVPS:7M]nDF!M*[,:^,wjQRzD_,G$o!0(VlO3u!RUEB
+# Disconnect message sent to the player if their connection is unauthorized:
+# - "\n" can be used for a new line.
+disconnect-message: |-
+  &cPor favor conéctate con la IP: &emc.teleserver.network&c!
+# Enable metrics:
+# - Anonymous data sending including but not limited to country in which is the server hosted, number of cores, amount
+#   of players online. These statistics are used to determine the usage of the plugin and are freely viewable online.
+# - When changed, to take effect server restart is needed.
+metrics: true
+# Address whitelisting:
+# - IMPORTANT >> This is NOT any kind of security feature, just a "decoration".
+# - Allows whitelisting of addresses which players used to connect with.
+address-whitelist:
+  # Enabled:
+  enabled: false
+  # Whitelisted addresses - these should be the proxy IPs / DNS names you want players to connect with:
+  # - Each entry in the list should either be IP (IPv4) or DNS name you want players to connect with to the proxy server.
+  # - Port must be specified after each entry separated by colon (IP/DNS name:port).
+  # - If your server has dynamic IP, use the "{ip}" placeholder as the server's IP. Please configure the ip-website
+  #   field, too.
+  # - DNS servers do not recognize the case-sensitivity, so does not the plugin. If you would like to disable this for a
+  #   certain address (to be compared case-sensitively), put an exclamation mark before it, like !test.yourserver.com.
+  addresses: []
+  # Website used to obtain the value of the "{ip}" placeholder (the public IP of your server):
+  # - This should be a website that returns only your IP on the HTTP GET request (if you open it in your browser).
+  # - IMPORTANT >> Pick a server carefully to avoid data and privacy information leaks.
+  ip-website: ''
+# Command messages:
+command:
+  # If a player runs the command:
+  console-only: '&7[&6SafeNET&7] Command is available only in the console.'
+  # If sender uses an invalid format of a command:
+  invalid-format: '&7[&6SafeNET&7] Invalid format! Please use &6/sn generate [length, greater than 0] &7to generate a new passphrase of the specified length, or &6/sn reload &7to reload the plugin.'
+  # If a new passphrase is being generated (/sn generate <length>):
+  generate: '&7[&6SafeNET&7] New passphrase has been generated and set into the configuration file. Please, use &6/sn reload &7to apply the new passphrase now.'
+  # If plugin configuration is being reloaded (/sn reload):
+  reload: '&7[&6SafeNET&7] The plugin has been reloaded!'

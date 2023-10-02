@@ -1,0 +1,29 @@
+timestamps:
+  login: 1609824533868
+  logout: 1609824656037
+  lastteleport: 1597882572326
+lastlocation:
+  world: world
+  x: 400.8155478962458
+  y: 86.0
+  z: -407.1245980463999
+  yaw: 228.59998
+  pitch: 24.750025
+logoutlocation:
+  world: world
+  x: -1141.300000011921
+  y: 72.0
+  z: -890.86942483947
+  yaw: 10.134493
+  pitch: 16.650085
+money: '1213468.50150000000005955'
+homes:
+  home:
+    world: world
+    x: -1195.414410434058
+    y: 68.0
+    z: -871.4100662724979
+    yaw: 284.18365
+    pitch: 25.949854
+ip-address: 186.156.219.58
+last-account-name: CheduGamer

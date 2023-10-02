@@ -1,0 +1,54 @@
+location: world_arrows:-12.431:54.000:8.453
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&lInstrucciones:'
+    height: 0.3
+  - content: Para escoger tu &4&lclase
+    height: 0.3
+  - content: párate sobre la lámpara en frente
+    height: 0.3
+  - content: de los cartéles, si ya está encendida
+    height: 0.3
+  - content: es porque alguien &4ya la escogió!
+    height: 0.3
+  - content: Si no sabes cuál elegir, al comenzar
+    height: 0.3
+  - content: se te asignará una &aautomáticamente&r.
+    height: 0.3
+  - content: Corre a elegir una!
+    height: 0.3
+  - content: '&7● [{page}/{pages}] &a●'
+    height: 0.3
+  actions:
+    RIGHT:
+    - NEXT_PAGE:F_in
+    - SOUND:ITEM_BOOK_PAGE_TURN
+- lines:
+  - content: '&lInstrucciones:'
+    height: 0.3
+  - content: '&fExisten 10 &4&lclases &rque'
+    height: 0.3
+  - content: '&fpuedes elegir en &e&lArrow-Wars'
+    height: 0.3
+  - content: '&fcada una cuenta con una'
+    height: 0.3
+  - content: '&d&lhabilidad &ry &d&lequipamiento'
+    height: 0.3
+  - content: '&fpropia, para cargar tu habilidad'
+    height: 0.3
+  - content: '&fapresiona &lshift&r. Qué esperas?'
+    height: 0.3
+  - content: '&fapunta y &ldispara!'
+    height: 0.3
+  - content: '&a● &7[{page}/{pages}] ●'
+    height: 0.3
+  actions:
+    LEFT:
+    - PREV_PAGE:F_in
+    - SOUND:ITEM_BOOK_PAGE_TURN

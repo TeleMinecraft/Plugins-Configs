@@ -1,0 +1,36 @@
+timestamps:
+  login: 1632877645405
+  logout: 1632884007493
+  lastteleport: 1632880650737
+lastlocation:
+  world: world
+  x: 5225.5
+  y: 116.0
+  z: 5541.5
+  yaw: 105.79785
+  pitch: 33.91174
+logoutlocation:
+  world: world
+  x: 5228.369411810646
+  y: 116.5
+  z: 5538.96792789731
+  yaw: 83.13145
+  pitch: 23.559473
+money: '276107.875'
+homes:
+  a:
+    world: world
+    x: 5225.468107342856
+    y: 117.0
+    z: 5541.964192068033
+    yaw: 105.79785
+    pitch: 33.91174
+  abajo:
+    world: world
+    x: 5189.300000011921
+    y: 69.0
+    z: 5503.4404155541415
+    yaw: 107.03772
+    pitch: 14.8189745
+ip-address: 190.114.54.10
+last-account-name: dtk

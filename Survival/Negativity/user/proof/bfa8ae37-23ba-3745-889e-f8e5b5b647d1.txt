@@ -1,0 +1,5 @@
+2021-06-06 03:06:42.801: (162ms) 100% TIMER > Flying: 0, position: 16, look: 0, positionLook: 16, sum: 29.0, median: 27. Player version: V1_16. TPS: [20.064702349327607, 19.90310059719081, 19.490999735239853]
+2021-06-06 03:06:44.078: (162ms) 100% TIMER > Flying: 0, position: 8, look: 0, positionLook: 18, sum: 31.0, median: 27. Player version: V1_16. TPS: [20.064702349327607, 19.90310059719081, 19.490999735239853]
+2021-06-06 03:06:45.623: (162ms) 100% TIMER > Flying: 0, position: 10, look: 0, positionLook: 21, sum: 32.0, median: 31. Player version: V1_16. TPS: [19.491384796748356, 19.787520280881598, 19.454739517877513]
+2021-06-06 03:06:47.045: (162ms) 100% TIMER > Flying: 0, position: 7, look: 0, positionLook: 21, sum: 28.0, median: 28. Player version: V1_16. TPS: [19.491384796748356, 19.787520280881598, 19.454739517877513]
+2021-06-06 03:06:48.037: (162ms) 100% TIMER > Flying: 0, position: 3, look: 0, positionLook: 17, sum: 27.0, median: 28. Player version: V1_16. TPS: [19.491384796748356, 19.787520280881598, 19.454739517877513]

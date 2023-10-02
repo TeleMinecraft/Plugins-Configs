@@ -1,0 +1,677 @@
+Players:
+  b319b04c-ede3-36b1-ac74-131f573b07a9:
+    name: Storbo
+  a4137e08-1f56-323a-80ac-9d03a1b83512:
+    name: Efmerxksks
+  0ee6d7be-b50b-3a94-9efc-723a65d3efa8:
+    name: katumath
+  d37d161e-5ad0-3da8-ba32-2771b7bbc00c:
+    name: _Kitaru_
+  93361319-c2fa-352e-9ffc-b04b77682465:
+    name: GravityCube
+  00f20f4d-bbd0-3aff-8994-ca9f757f72ff:
+    name: orozc048
+  c433316c-6e2b-3b6f-9415-9e6ff80d7d7d:
+    name: Creptor4
+  80fd98b8-7249-3778-b8dc-7af1d8ae5a8c:
+    name: D1L4N1X
+  27e37b97-56e8-3803-a36b-c2e5b6717239:
+    name: crix
+  6f9d90c4-13ad-3af9-af35-da4c24fd824c:
+    name: Z3RV3R0
+  c6f76f57-b093-3311-a63f-800d7078c88d:
+    name: Natcram
+  01b53b15-69df-3e5f-b32f-5b6f00f8cc84:
+    name: THE_SUPER_EIGHT
+  17dee2a5-1b26-3fa5-ae7b-d9b98df585af:
+    name: cerezo1
+  432ddb65-49d0-34f1-9c8a-096dbbbb8f8d:
+    name: Turbostallin
+  efa26f22-acc2-3c08-a341-5ed689587ac6:
+    name: masaki23
+  2dfcfb8e-8525-3537-890b-cc74e0ce7502:
+    name: Finn__VR
+  42b2ea35-1c2d-3153-acb7-bd984f61ba74:
+    name: MaNqUiTo055
+  c379f3ec-6d08-3299-8cc7-8205fc0640c1:
+    name: zpeedyy
+  a750a078-e193-3028-9ffd-5224fa43daa7:
+    name: Nagaido
+  d08177c0-2cf4-31d4-bdf9-716890033081:
+    name: Richard363
+  7aad55da-1fc3-3ebc-b708-e6a6a85687d2:
+    name: yngpipessjj
+  72cee411-ea9d-3047-a326-8be220cf6602:
+    name: CrissFLl
+  b281e3da-304e-3087-8cd1-de79949706f9:
+    name: GranSaiyaman
+  dd652d09-c77e-3313-9ff9-e0a821c358c4:
+    name: moxwel
+    iron:
+      cooldown: 1657935107072
+      buyed: false
+      one_time: false
+  41ac1388-2b07-3668-b2e1-ed7c46015353:
+    name: Reveluv12
+  29bf211a-76f4-3f62-b862-89eea6ad06bc:
+    name: Ruzky
+  015a666c-ea3d-3161-8828-02fc5e37eab9:
+    name: Potato
+  9276c905-091f-3422-a32a-2a064f14759e:
+    name: DDKaiso
+  038a7e51-7631-38ad-97c3-6e954eadb3cd:
+    name: uwu
+  5a9eddf5-d6a9-37bf-8083-3efb0e1714b0:
+    name: Ichi6o05
+  faf98af7-2117-3575-a918-3c3aa9623a6c:
+    name: DarkCharlie33
+  72843dc6-fa82-3690-9e71-c8d2a9dd2220:
+    name: CrgioMoreno
+  cef02b91-9014-3953-bd57-e298a434dcb9:
+    name: Panaino001
+  25a6e036-1424-3aad-8eb7-dac5960d29b6:
+    name: Dani
+  b165f33e-480b-358c-8e55-ae0745186ff2:
+    name: ARroRroZChaufan
+  54f64ca9-74ff-37f6-9c8d-28a799691d0e:
+    name: nita_00
+  a5ca9778-3634-3232-a161-f588988fad2c:
+    name: Choclotodojunto
+  386de523-e971-3ef2-a261-efcae197ceaa:
+    name: joaquin
+  77005b11-38d0-3ed8-bd10-2a417bdcaa33:
+    name: KokelDuro
+  ba8a8619-70da-3faf-b820-bf9bcc00771f:
+    name: javuwu98
+  c06bd1f2-7432-32ac-9d65-5b28f12be105:
+    name: Drigo
+  b4ffe8fd-2b3c-3da5-b31b-34759639f298:
+    name: Brunalga
+    iron:
+      cooldown: 1660092867713
+      buyed: false
+      one_time: false
+  b5f45183-3d69-35f1-b0cd-241302c70b8e:
+    name: MonkNo
+  a585b405-7c96-3603-b8b2-a113493be741:
+    name: chipydayy
+  d1c4f539-fe68-318f-986c-a8847167e0f3:
+    name: Sth3fan0
+  ae857be2-dee8-3ab1-aaff-857a308445d0:
+    name: Ruxur_jfc
+  94deced5-2acc-3dce-ad0a-6854b9bf20e1:
+    name: pelao
+  ccb70823-fb50-3cfc-b78b-13197eb4b551:
+    name: frenton_
+  da590cb9-36ba-32c5-aeb4-023fd62058fb:
+    name: Doruzx
+  9a211114-a451-3588-8b7d-4313cfe57681:
+    name: thiago208456
+  17c8007d-88be-4fe6-bb19-8ee32bdf5a87:
+    name: Storbo
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  76e9f02b-cadb-3656-a5a2-03deb3d3a126:
+    name: RuXurs
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  a794d159-dd61-39bb-b89e-dad81f79f9a8:
+    name: hecoxes
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  66e9fae5-15f4-3f59-8f9a-2dadde980af1:
+    name: Thefinalstexts
+  53d8101c-8805-3d59-a7a5-30f207f7b1e4:
+    name: MrJet_
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  33177dc6-09ac-31a5-a710-b97b0c8728b3:
+    name: Timwilcox24
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  4fdc8aae-39a0-38d0-be14-c033c5d0fd69:
+    name: Lyewor_
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  c27405ca-0196-304a-b951-84d52bd1d959:
+    name: Jokers
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  27ee2673-67c5-36ca-9f47-bfc9ca239591:
+    name: paltuki
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  39ed0c3e-35ad-311d-aaa0-ab9bea4b1ba6:
+    name: audrix
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  5fd23102-19b3-3e2c-a94a-43f7d1e6371f:
+    name: Axel_27
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  619b8704-1356-3aa2-8df6-17420fd2d434:
+    name: Cebrp
+  d318e5b3-e0dd-3827-98c5-d17b4d397423:
+    name: lorenzouz
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  012a1ca8-c8d3-3c79-952c-f1b23cef6f95:
+    name: Renatoh
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  9ddc340c-a53b-3014-a10e-05d78d1f7041:
+    name: Shiro45
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  0b0927a2-e792-3d73-8c34-294cbd8c4ad5:
+    name: MonoMaczi
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  672d2ee2-e1df-3dd9-9670-064c35866e6f:
+    name: CoRonOboROS
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  acb3b221-041f-3ffd-9b87-c931e6c5b46c:
+    name: PaNaCoTa2133
+  ef2343c4-b00e-3f43-83c2-b32affd84d94:
+    name: Mabroso
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  3239945b-3ec5-3a97-945f-9fbb2243b539:
+    name: M3MEI
+  78f2a027-a472-3f5f-abbb-ec442b5ec5c7:
+    name: Austrel
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  850b99df-456b-3ab2-a9fe-d73d6d7717fa:
+    name: JoakoBellako
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  773cf953-ba3c-3a5e-94fb-159215e6bc6a:
+    name: RedLolingamer
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  c2d3d340-f056-3dd6-9636-e2893c5aa074:
+    name: sebywis
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  5a2fd413-d555-3590-a985-6fcb45a6322f:
+    name: yambo
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  c8b42219-7090-376b-91fa-b8e4c2f1bf52:
+    name: Walls34
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  1b88b650-e45e-3d3b-ac1f-a57d62127e4d:
+    name: guishelmo
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  e0cd1113-c65b-3376-a348-d401408bdcfd:
+    name: NoSoyZcuaro
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+    hierro:
+      cooldown: 1664467876653
+      buyed: false
+      one_time: false
+  52f4fdf1-d7a0-34f8-9bc2-4218e125a5af:
+    name: Nico_0213
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  66adebc9-2ba2-3cf6-95e8-2dc9067ba221:
+    name: Rorro3814
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  535fb7b0-5919-359b-b9e3-9f7d66277535:
+    name: Raiden383
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  9559dee2-6634-37ea-9f44-c07f6da4d9c0:
+    name: Guarip
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  757c1c8c-2b33-3262-a218-531c9f030f5f:
+    name: SombraA1231B
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  6c28e48d-b42e-3bb8-a17c-972aa5a82d05:
+    name: Lordpalomauwu
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  137e046b-5d5e-349f-a8a3-c7f826933971:
+    name: Froag
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  02240c94-c47f-3092-bd64-3fd02df93c27:
+    name: CristoPsx
+  5e554c4b-12fc-349f-a609-cc5287ec8abd:
+    name: kutabare
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  973bf706-5129-3ce6-ac18-23f3259a2965:
+    name: Bastiramelo
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  57a3dbbc-e7aa-3f5a-9f29-6070fe4b1b11:
+    name: mtl88
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  00b240e8-6491-3b70-8940-f2de226c60c5:
+    name: Torre_linkox
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  9fb9c206-a7b0-3a46-af30-beed8d65eeb0:
+    name: nizarpik
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  d01dabb8-9e15-38bb-aec6-7b13209ada15:
+    name: Kaidrake
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  ba74b938-f431-3728-8db3-cd91d2be4c38:
+    name: zero_flux566
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  4736039c-d76a-37c0-aae9-d63176dd743a:
+    name: Atlas_zero_566
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  8d3eb25f-9f10-39dd-b803-b870da7f1a7a:
+    name: Tiramisushi
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  b1ed978e-25cd-3749-9ca8-e416401e8994:
+    name: ThorLegend108
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  4344d199-4bcd-3dd7-83be-5755a4c7b25d:
+    name: ShisposBuddy123
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  5c2984f1-1ee4-308d-b4c4-3b912510c3b7:
+    name: WizLeOoO
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  e005ee70-067c-3674-beff-84fa590eda1d:
+    name: NazarenoAnd
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  60099212-338a-3d0b-a7b4-529f865f8a22:
+    name: Regiale0403
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  cb72b24c-f2fa-3721-b01e-081632a36081:
+    name: N3sTry
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  5eb84654-271c-3740-b260-d916982056ad:
+    name: lia5696A
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  13b964a7-6ca4-3ece-a028-3f2c2d327b28:
+    name: bruninsqui
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  d95d14b0-e321-3c1b-bbdd-b7b42f91a2b1:
+    name: bruninsquis
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  7437c1e1-8b5e-3793-9f8b-7be74e921e6a:
+    name: MoonTurtle_
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  4140198c-e6f1-37fe-b205-46f09a6eca6c:
+    name: Vking545
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  15cca2c5-e083-3f14-aab1-4a8686c2464e:
+    name: Brunthz
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  0a91eb94-997c-3f28-893d-506dae501a4b:
+    name: XxElOscuroxX
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  fa81266b-dcd9-37fa-80f2-f0b511c4d200:
+    name: IgnaFigurita
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  a91df703-b885-368b-8868-0ce3e85a3995:
+    name: elbeca
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  9504288a-75c8-36d7-ac11-63749ab2c6df:
+    name: Daniiiii6
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  02ea5f9b-de4d-35c8-857e-b24bb7a31bc2:
+    name: TheBasnex
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  bc1019fe-38a4-378c-b6b4-1cd860d0222c:
+    name: DLT_DARKGOD
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  1185235d-0b6d-3eab-bf83-ff3cdedac2e6:
+    name: DD_Kaiso
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  bcb2aed9-5ce4-3753-81d7-2aee43a25773:
+    name: atsel_
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  ec8ded22-6127-309f-8789-c67f9c681aa5:
+    name: ThyfTN
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  93677bf4-eead-3b9a-af62-4489a6384fed:
+    name: MATY
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  e2eea729-6589-3e1e-9ad9-5005e60e2ebf:
+    name: zaidcot
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  cb59309e-312b-3782-9219-6586201d151f:
+    name: raider612
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  e8ef8bfa-192d-3def-a256-6e7095742d84:
+    name: zaku
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  7173c792-f1b5-3db1-abc4-179f950390fc:
+    name: DesiList753
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  b09c7767-649a-312d-96d3-dc0b80706c4a:
+    name: enano_cello
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  df7ac309-71aa-3939-aeb5-0583f12f81c8:
+    name: SaaFigue2726
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  c89d08a0-4cd7-3516-8585-76c8d5ac5136:
+    name: feirune
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  33d4a383-89fb-37db-869c-6e37df8b1021:
+    name: Belepapa
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  374a7501-830d-340e-87c0-b38f3a309881:
+    name: XINOEKISDE
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  091cc323-992a-39dd-8a29-80bb796b33b8:
+    name: Trilux
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  afed51d2-5def-3b01-9216-3b49a9bf8160:
+    name: Issa
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  96d6726e-2f2c-389d-83d3-1ff2f997e8f4:
+    name: gloomy39
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  a6a3f04f-6cb4-317f-b279-081f51d771db:
+    name: manwitooo
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  7505a77c-705e-3d9f-92bc-fbfb329c679e:
+    name: Dario99
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  3764ff9f-7253-3e10-96c9-90c29a59228b:
+    name: wea
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  8688f5b3-2756-367f-9b98-2746690bb90f:
+    name: BigChain
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  7b2cd050-f4da-3051-942c-4ace93e83c1b:
+    name: Maldito_Baka
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  eba705f0-932f-30af-ae42-6a21b9587e33:
+    name: taztico
+  21ef206a-f666-3d7f-8a7b-c47543a10961:
+    name: MrRed404OWO
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  c6b68785-9c29-3634-9525-1fb7aaeee97d:
+    name: zZking_
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  3f71aa4a-5dcd-3bd2-b9d1-94b0c8c97137:
+    name: salotron
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  889a0047-cf0d-3891-849d-68d5b622516c:
+    name: wuatonaql
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  3e454aa4-d2ca-3ea5-8fd9-ac5c57042c4c:
+    name: _Yuuichi_
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  31626709-aef5-3455-b5cd-b45476c601e7:
+    name: LEJUDIO
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  4e269c3f-3754-3ece-b006-fccbcfe324eb:
+    name: sander_xo
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  9629b9a4-e732-376d-b7e7-032e3e1520a5:
+    name: xAtoh
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  59f356fb-67e4-33f7-b4e9-e23f9cc579a4:
+    name: Megaplayer64
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  b42b8738-2ea3-3783-afe8-8d86f0e2e422:
+    name: RobertxDess
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  9a1ecee3-e693-3b45-9cb8-e7f3569e3590:
+    name: Rockbaider
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  87573003-6061-39b3-8acc-25c9a82dc232:
+    name: alelau5
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true
+  fcfe407a-62c9-39ad-88f0-7a7be21bca3b:
+    name: Qaxecs
+    inicio:
+      cooldown: 0
+      buyed: false
+      one_time: true

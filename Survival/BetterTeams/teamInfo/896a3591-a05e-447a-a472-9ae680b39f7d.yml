@@ -1,0 +1,17 @@
+name: LosPanquesito
+description: ''
+open: false
+pvp: false
+home: world:6132.936714280794:69.0:9622.88281911296:95.24216:5.700082
+color: b
+chests: []
+players:
+- b165f33e-480b-358c-8e55-ae0745186ff2,OWNER
+- 54f64ca9-74ff-37f6-9c8d-28a799691d0e,ADMIN
+level: 2
+tag: ''
+score: 0
+warps:
+- end;world_the_end:6.723573801369273:64.0:0.6927906173387549:108.14624:1.199971
+- arena;world:5408.935416201663:66.0:23082.483037832513:168.24072:-15.450268
+money: 200000.0

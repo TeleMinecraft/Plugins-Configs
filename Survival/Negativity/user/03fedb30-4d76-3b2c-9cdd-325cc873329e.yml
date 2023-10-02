@@ -1,0 +1,25 @@
+playername: michinoyaa
+lang: es_ES
+minerate-full-mined: 204244
+minerate:
+  diamond: 472
+  gold: 972
+  iron: 3869
+  coal: 11786
+  ancient debris: 0
+better-click: 66
+cheats:
+  fastladder: 1
+  autoclick: 5
+  forcefield: 2
+  blink: 1
+  noslowdown: 1
+  speed: 3
+  timer: 1
+  antiknockback: 7
+  nuker: 1
+  airplace: 2
+  fastplace: 2
+  spider: 1
+  nofall: 1
+creation-time: 1616460548228

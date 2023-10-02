@@ -1,0 +1,1 @@
+2021-08-21 07:02:11.945: (192ms) 100% FORCEFIELD > Big distance with: creeper. Exact distance: 4.03699145403732, without thorns. Ping: 192. Player version: V1_16. TPS: [20.000151981172543, 20.00023972897182, 20.00043653937407]

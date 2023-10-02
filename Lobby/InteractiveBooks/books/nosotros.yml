@@ -1,0 +1,52 @@
+# This is an example book to show how to create one
+# Note: The placeholders in this book (like %player_name%) need PlaceholderAPI installed
+# with the proper expansion, see here for more informations: https://www.spigotmc.org/resources/placeholderapi.6245/
+
+# Item's name
+name: Nosotros
+
+# Book's title
+title: Nosotros
+
+# Book's author
+author: TeleServer
+
+# Book's generation
+# Valid values: ORIGINAL, COPY_OF_ORIGINAL, COPY_OF_COPY, TATTERED
+generation: ORIGINAL
+
+# Item's lore
+lore:
+- '<gray>Quiénes somos?'
+
+# Command to open this book
+# You can remove this by setting it to ''
+# Separate multiple commands with a space
+open_command: ''
+
+pages:
+  '1':
+  - ' <blue><bold>¿Quiénes somos?<reset>'
+  - ''
+  - '<black>Un pequeño grupo de'
+  - '<black>estudiantes, la gran'
+  - '<black>mayoría telemáticos,'
+  - '<black>sin embargo, con el'
+  - '<black>tiempo se han sumado'
+  - '<black>una mayor variedad'
+  - '<black>de integrantes, todos'
+  - '<black>con un mismo objetivo:'
+  - '<dark_blue><italic>Brindar un lugar para'
+  - '<dark_blue><italic>que los estudiantes'
+  - '<dark_blue><italic>se puedan <underlined>divertir<dark_blue> y'
+  - '<dark_blue><italic>crear una <underlined>comunidad<dark_blue><italic>.<reset>'
+  '2':
+  - ' <blue><bold>¿Quiénes somos?<reset>'
+  - ''
+  - '<black>Nuestro equipo'
+  - '<black>siempre necesita más'
+  - '<black>ayuda e integrantes,'
+  - '<black>si te interesa formar'
+  - '<black>parte de este gran'
+  - '<black>proyecto, no dudes en'
+  - '<black>escribirnos al <click:open_url:"http://dc.teleserver.network/"><hover:show_text:"<blue>Discord del servidor"><blue><bold>DC<reset><black>!'

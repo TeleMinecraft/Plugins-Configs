@@ -1,0 +1,24 @@
+playername: Tomas2220
+lang: es_ES
+minerate-full-mined: 93936
+minerate:
+  diamond: 43
+  gold: 54
+  iron: 206
+  coal: 591
+  ancient debris: 0
+better-click: 43
+cheats:
+  timer: 1
+  antiknockback: 1
+  inventorymove: 2
+  nuker: 5
+  airplace: 2
+  forcefield: 2
+  fastplace: 3
+  blink: 1
+  noslowdown: 1
+  nofall: 1
+  spider: 1
+  speed: 10
+creation-time: 1620255996864

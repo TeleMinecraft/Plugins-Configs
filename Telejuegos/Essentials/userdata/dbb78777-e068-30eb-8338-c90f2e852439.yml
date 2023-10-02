@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 190.82.219.13
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1678038616406
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1678038644250
+  login: 1678038510687
+money: '0'
+last-account-name: just_DeS
+lastlocation:
+  world: 4424436b-bada-445c-9811-49ef72123aa0
+  world-name: world_death
+  x: -48.73826468638179
+  y: 30.0
+  z: 18.124716174815628
+  yaw: 176.6995849609375
+  pitch: 13.099994659423828
+logoutlocation:
+  world: e79d3dd0-8b8a-4103-bae2-25428e23a084
+  world-name: world
+  x: -0.699999988079071
+  y: 31.0
+  z: -26.09224242694748
+  yaw: 17.09899139404297
+  pitch: 27.14995765686035

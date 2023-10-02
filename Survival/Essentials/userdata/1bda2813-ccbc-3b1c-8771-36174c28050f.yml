@@ -1,0 +1,31 @@
+timestamps:
+  login: 1646168974174
+  logout: 1646173051820
+  lastteleport: 1640146898632
+lastlocation:
+  world: world
+  x: 383.95524178627136
+  y: 14.0
+  z: -1336.963683635087
+  yaw: -155.2254
+  pitch: 4.200125
+money: '2036758.62949999999959910'
+logoutlocation:
+  world: world
+  x: 29.834968710912097
+  y: 63.0
+  z: -1575.6061080113186
+  yaw: 62.409912
+  pitch: 13.949731
+homes:
+  home:
+    world: world
+    x: 380.5
+    y: 18.6875
+    z: -1373.5
+    yaw: -339.7308
+    pitch: 0.0
+ip-address: 191.112.92.219
+last-account-name: zappash1
+lastAccountName: zappash1
+ipAddress: 191.112.77.132

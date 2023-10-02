@@ -1,0 +1,16 @@
+playername: Ramsama1
+lang: es_ES
+minerate-full-mined: 0
+minerate:
+  diamond: 0
+  gold: 0
+  iron: 0
+  coal: 0
+  ancient debris: 0
+better-click: 4
+cheats:
+  fly: 1
+  airjump: 1
+  blink: 1
+  speed: 2
+creation-time: 1617806256733

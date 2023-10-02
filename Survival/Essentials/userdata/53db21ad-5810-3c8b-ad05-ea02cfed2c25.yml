@@ -1,0 +1,29 @@
+timestamps:
+  login: 1617981927230
+  lastteleport: 1617981245651
+  logout: 1617981960570
+lastlocation:
+  world: world
+  x: -4422.5464070614225
+  y: 78.0
+  z: 2866.1678457856733
+  yaw: 342.2877
+  pitch: 15.300475
+money: '1104118.2975000000000672'
+homes:
+  home:
+    world: world
+    x: -4422.893011787458
+    y: 78.0
+    z: 2864.45038055351
+    yaw: 94.18756
+    pitch: 16.800499
+logoutlocation:
+  world: world
+  x: -88.57855972828028
+  y: 69.0
+  z: 357.1748951045338
+  yaw: -263.65833
+  pitch: 11.699968
+ip-address: 190.101.141.244
+last-account-name: J4CK

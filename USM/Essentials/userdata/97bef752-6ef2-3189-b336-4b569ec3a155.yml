@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 190.114.39.95
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1682986317983
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1682986826816
+  login: 1682986262610
+money: '0'
+last-account-name: MataViejas12
+logoutlocation:
+  world: 2e1ce19e-1f4f-4123-8c05-bbc1db660846
+  world-name: world
+  x: -391.94129700023564
+  y: 29.0
+  z: 92.48239457278174
+  yaw: -107.25050354003906
+  pitch: 5.399975776672363
+lastlocation:
+  world: 2e1ce19e-1f4f-4123-8c05-bbc1db660846
+  world-name: world
+  x: -430.79513799912803
+  y: -64.36102092050336
+  z: 26.191845439705865
+  yaw: 29.399147033691406
+  pitch: 11.39970588684082

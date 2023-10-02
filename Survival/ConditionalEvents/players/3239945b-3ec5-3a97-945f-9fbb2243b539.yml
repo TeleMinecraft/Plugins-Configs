@@ -1,0 +1,8 @@
+name: M3MEI
+events:
+  resistencia_y_skin_al_entrar:
+    one_time: false
+    cooldown: 1690148335056
+  random_tp:
+    one_time: false
+    cooldown: 1690080189998

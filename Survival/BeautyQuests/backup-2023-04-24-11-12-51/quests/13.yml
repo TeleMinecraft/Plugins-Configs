@@ -1,0 +1,40 @@
+endRewards:
+- id: commandReward
+  commands:
+  - console: true
+    label: scoreboard players add {PLAYER} Prestigio 7
+- id: itemReward
+  items:
+  - v: 2975
+    type: EMERALD_BLOCK
+    amount: 10
+  - v: 2975
+    type: CROSSBOW
+timer: 10080
+name: §c§lDefensor de Aldeas §2[Gremio]
+customItem:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: EMERALD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    ItemFlags:
+    - HIDE_ATTRIBUTES
+repeatable: true
+description: §eComienza una Raid en un poblado y derrota a un devastador
+bypassLimit: true
+manager:
+  branches:
+    '0':
+      stages:
+        '0':
+          objects:
+            '0':
+              amount: 1
+              object:
+                factoryName: bukkitEntity
+                value: RAVAGER
+          stageType: MOBS
+      endingStages: {}
+id: 13

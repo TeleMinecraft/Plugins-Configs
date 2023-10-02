@@ -1,0 +1,2 @@
+2021-08-02 21:34:47.62: (158ms) 100% FORCEFIELD > Big distance with: slime. Exact distance: 4.807587752704986, without thorns. Ping: 158. Player version: V1_16. TPS: [20.0229252709475, 20.051142516319665, 20.048740637342213]
+2021-08-02 21:36:55.039: (156ms) 100% TIMER > Flying: 0, position: 10, look: 1, positionLook: 26, sum: 30.0, median: 34. Player version: V1_16. TPS: [19.70516465996018, 19.97213013620822, 20.02187754803281]

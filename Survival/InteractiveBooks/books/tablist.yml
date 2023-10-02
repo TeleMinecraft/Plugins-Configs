@@ -1,0 +1,140 @@
+# This is an example book to show how to create one
+# Note: The placeholders in this book (like %player_name%) need PlaceholderAPI installed
+# with the proper expansion, see here for more informations: https://www.spigotmc.org/resources/placeholderapi.6245/
+
+# Item's name
+name: Tablist
+# Book's title
+title: Tablist
+
+# Book's author
+author: TeleServer
+
+# Book's generation
+# Valid values: ORIGINAL, COPY_OF_ORIGINAL, COPY_OF_COPY, TATTERED
+generation: ORIGINAL
+
+# Item's lore
+lore:
+- '<light_purple>Tablist'
+
+# Command to open this book
+# You can remove this by setting it to ''
+# Separate multiple commands with a space
+open_command: ''
+
+pages:
+  '1':
+  - '     <color:#00C4CD><bold>→ <color:#00C4CD><bold><underlined>Tablist<reset><color:#00C4CD><bold> ←<reset>'
+  - ''
+  - '<black>Si presionas la tecla'
+  - '<gray><bold><italic>Tab<reset> <black>podrás observar'
+  - '<black>información importante'
+  - '<black>como tu ping, la IP del'
+  - '<black>servidor y todas las'
+  - '<black>personas conectadas,'
+  - '<black>junto con su nivel de'
+  - '<black>vida en ese momento.'
+  - ''
+  - '<black>Además, podrás ver'
+  - '<black>cuantos jugadores'
+  - '<black>hay en cada mundo.'
+  '2':
+  - '        <color:#00C4CD><bold>Rangos<reset>'
+  - ''
+  - '<black>Los rangos son una'
+  - '<black>clase o categoría que'
+  - '<black>tienen todos los'
+  - '<black>jugadores, puedes'
+  - '<black>ver el tuyo y el de'
+  - '<black>los demás tanto en el'
+  - '<black>chat como en la tablist'
+  - ''
+  - '<black>Existen 2 tipos de'
+  - '<black>rangos, para miembros'
+  - '<black>del servidor y para'
+  - '<black>jugadores comunes.'
+  '3':
+  - '        <color:#00C4CD><bold>Rangos<reset>'
+  - ''
+  - '<black>Rangos del staff:'
+  - '<hover:show_text:"<white>Miembros quienes diseñan y construyen las estructuras del servidor. <gray>(<dark_purple><bold>Cstr<reset><gray>)"><dark_purple><bold>Constructor/a<reset>'
+  - '<hover:show_text:"<white>Miembros quienes velan por el correcto funcionamiento del servidor y por la seguridad de los usuarios. <gray>(<blue><bold>ADMIN<reset><gray>)"><blue><bold>Administradores<reset>'
+  - '<hover:show_text:"<white>Dueño de la network y principal programador del servidor. <gray>(<gold><bold>✦GOD✦<reset><gray>)"><gold><bold>GOD<reset>'
+  - ''
+  - '<black>Rangos comunes:'
+  - '<hover:show_text:"<white>Rango para cualquier persona externa a la <dark_aqua>USM<white>, no tiene mayores beneficios <gray>(<white>Inv<reset><gray>)"><yellow><bold>Por defecto<reset>'
+  - '<click:change_page:4><hover:show_text:"<white>Rango perteneciente a cada carrera. <green><italic>   Haz click para ver la lista"><dark_blue><bold>Por Carrera<reset>'
+  - '<click:change_page:6><hover:show_text:"<white>Rango al que <dark_red><bold>nunca<reset><white> deberías pertenecer, lo obtendrás a la fuerza en caso de hacer trampa o romper alguna regla. <gray>(<dark_red><bold>F<reset><gray>) <br><red><italic>Haz click para saber más"><dark_red><bold>Funado/a<reset>'
+  - ''
+  - '<black>Rangos Especiales:'
+  - '<click:run_command:/ib open vip><hover:show_text:"<white>Único rango que tiene un costo para ser obtenido y que tiene bonificaciones. <gray>(<light_purple><italic>VIP<reset><gray>) <green><italic>Haz click para ver más información"><light_purple><bold><italic>VIP<reset>'
+  '4':
+  - '        <color:#00C4CD><bold>Rangos<reset>'
+  - '<black>     Por carrera'
+  - ''
+  - '<#B200A4>Arquitectura<reset>'
+  - '<#1B8ACE>Lic. en Astrofísica<reset>'
+  - '<#091FB9>Ing Civil<reset>'
+  - '<#DC3A3A>Ing Civil Comercial<reset>'
+  - '<#DF5DFF>Ing Diseño Productos<reset>'
+  - '<#FFFF00>Ing Civil Eléctrica<reset>'
+  - '<#48E12F>Lic en Física<reset>'
+  - '<#0BA5A1>Ing Civil Industrial<reset>'
+  - '<#9C0053>Ing Civil Informática<reset>'
+  - '<#2A287B>Ing Civil Matemática<reset>'
+  - '<black>                       1/2'
+  '5':
+  - '        <color:#00C4CD><bold>Rangos<reset>'
+  - '<black>     Por carrera'
+  - ''
+  - '<#47B43A>Ing Civil Mecánica<reset>'
+  - '<#F26E00>Ing Civil de Minas<reset>'
+  - '<#767676>Plan Común<reset>'
+  - '<#1E9600>Ing Civil Química<reset>'
+  - '<#00D6E7>Ing Civil Telemática<reset>'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '<black>                       2/2'
+  
+  '6':
+  - '        <color:#00C4CD><bold>Rangos<reset>'
+  - ''
+  - '      <dark_red><bold>FUNADO/A<reset>'
+  - '<black>Esperamos que nunca'
+  - '<black>obtengas este rango,'
+  - '<black>te verás seriamente'
+  - '<black>restringido, es el'
+  - '<black>paso previo a ser'
+  - '<black>totalmente baneado.'
+  - ''
+  - '<black>Para ver una lista'
+  - '<black>completa de reglas'
+  - '<black>y mods permitidos'
+  - '<black>haz click <green><bold>><click:run_command:/rules><hover:show_text:"<white>Ver las <gold><bold>Reglas"><dark_green><bold>Aquí<reset><green><bold><'
+  '7':
+  - '  <color:#00C4CD><bold>Tablist y Rangos<reset>'
+  - ''
+  - '<black>En caso de que tu'
+  - '<color:#00C4CD><bold>Tablist<black><reset> <black>no se esté'
+  - '<black>actualizando, avisa a'
+  - '<black>algún Administrador.'
+  - ''
+  - '<black>Si tu carrera no'
+  - '<black>está en la lista de'
+  - '<color:#00C4CD><bold>Rangos<reset><black>, avísanos'
+  - '<black>por <click:open_url:"http://dc.teleserver.network/"><hover:show_text:"<blue>Discord Oficial"><blue>Discord<reset> <black>para que'
+  - '<black>podamos agregarla.'
+  - ''
+  - ' <click:run_command:/ib open help><hover:show_text:"<gray>Click para ir al inicio <br><gray>del libro de <green><underlined>ayuda<reset>"><dark_aqua><bold>><color:#00DC85><bold><underlined>Volver al índice<reset><dark_aqua><bold><<reset>'
+
+
+# For the placeholders to work correctly
+# you should download the Player and Vault
+# extensions for PlaceholderAPI:
+# /papi ecloud download Player
+# /papi ecloud download Vault
+# /papi reload

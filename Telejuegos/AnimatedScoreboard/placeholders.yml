@@ -1,0 +1,13 @@
+scoreboard:
+  names:
+    adminboard: adminboard
+    endscoreboard: endscoreboard
+    globalscoreboard: globalscoreboard
+    netherscoreboard: netherscoreboard
+    defaultscoreboard: defaultscoreboard
+    poderesscoreboard: poderesscoreboard
+    poderesscoreboard2: poderesscoreboard2
+    poderesscoreboard16: poderesscoreboard16
+  disabled: '&cDisabled'
+  enabled: '&aEnabled'
+  none-active: '&7None'

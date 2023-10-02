@@ -1,0 +1,1007 @@
+panels:
+  panel-21:
+    perm: default
+    panelType: default
+    rows: 5
+    title: '&0&l&ka &6&lVista Compra Cambiante &0&l&ka'
+    sound-on-open: BLOCK_NOTE_BLOCK_CHIME
+    command: panel-21
+    animatevalue: 1
+    item:
+      '2':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '3':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '4':
+        material: BLACK_STAINED_GLASS_PANE
+        enchanted: 'true'
+        name: '&6&lTiempo restante: &o%objective_score_Tienda_Thr%Hr %objective_score_Tienda_Tmin%Min %objective_score_Tienda_Tseg%Seg'
+        animate0:
+          material: BLACK_STAINED_GLASS_PANE
+          enchanted: 'true'
+          name: '&6&lTiempo restante: &o%objective_score_Tienda_Thr%Hr %objective_score_Tienda_Tmin%Min %objective_score_Tienda_Tseg%Seg'
+        
+      '5':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '6':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '18':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '26':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '38':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '39':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '40':
+        material: BLACK_STAINED_GLASS_PANE
+        enchanted: 'true'
+        name: §6§lNuevas ofertas cada 3 horas!
+      '41':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '42':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '0':
+        material: ORANGE_STAINED_GLASS_PANE
+        name: ''
+      '1':
+        material: ORANGE_STAINED_GLASS_PANE
+        name: ''
+      '7':
+        material: ORANGE_STAINED_GLASS_PANE
+        name: ''
+      '8':
+        material: ORANGE_STAINED_GLASS_PANE
+        name: ''
+      '9':
+        material: ORANGE_STAINED_GLASS_PANE
+        name: ''
+      '17':
+        material: ORANGE_STAINED_GLASS_PANE
+        name: ''
+      '27':
+        material: ORANGE_STAINED_GLASS_PANE
+        name: ''
+      '35':
+        material: ORANGE_STAINED_GLASS_PANE
+        name: ''
+      '36':
+        material: ORANGE_STAINED_GLASS_PANE
+        name: ''
+      '37':
+        material: ORANGE_STAINED_GLASS_PANE
+        name: ''
+      '43':
+        material: ORANGE_STAINED_GLASS_PANE
+        name: ''
+      '44':
+        material: ORANGE_STAINED_GLASS_PANE
+        name: ''
+      '20':
+        material: HONEYCOMB
+        has0:
+          value0: 1
+          compare0: '%objective_score_Tienda_Item1%'
+          material: CLAY_BALL
+        has1:
+          value0: 2
+          compare0: '%objective_score_Tienda_Item1%'
+          material: IRON_BARS
+        has2:
+          value0: 3
+          compare0: '%objective_score_Tienda_Item1%'
+          material: SALMON_BUCKET
+        has3:
+          value0: 4
+          compare0: '%objective_score_Tienda_Item1%'
+          material: DIAMOND_SHOVEL
+        has4:
+          value0: 5
+          compare0: '%objective_score_Tienda_Item1%'
+          material: SHIELD
+        has5:
+          value0: 6
+          compare0: '%objective_score_Tienda_Item1%'
+          material: SPECTRAL_ARROW
+        has6:
+          value0: 7
+          compare0: '%objective_score_Tienda_Item1%'
+          material: CARROT_ON_A_STICK
+        has7:
+          value0: 8
+          compare0: '%objective_score_Tienda_Item1%'
+          material: CHIPPED_ANVIL
+        has8:
+          value0: 9
+          compare0: '%objective_score_Tienda_Item1%'
+          material: LECTERN
+        has9:
+          value0: 10
+          compare0: '%objective_score_Tienda_Item1%'
+          material: NOTE_BLOCK
+        has10:
+          value0: 11
+          compare0: '%objective_score_Tienda_Item1%'
+          material: OBSERVER
+        has11:
+          value0: 12
+          compare0: '%objective_score_Tienda_Item1%'
+          material: TNT_MINECART
+        has12:
+          value0: 13          
+          compare0: '%objective_score_Tienda_Item1%'
+          material: DETECTOR_RAIL
+        has13:
+          value0: 14          
+          compare0: '%objective_score_Tienda_Item1%'
+          material: PHANTOM_MEMBRANE
+        has14:
+          value0: 15          
+          compare0: '%objective_score_Tienda_Item1%'
+          material: LEAD
+        has15:
+          value0: 16          
+          compare0: '%objective_score_Tienda_Item1%'
+          material: SNOWBALL
+        has16:
+          value0: 17          
+          compare0: '%objective_score_Tienda_Item1%'
+          material: JACK_O_LANTERN
+        has17:
+          value0: 18          
+          compare0: '%objective_score_Tienda_Item1%'
+          material: CAKE
+        has18:
+          value0: 19
+          compare0: '%objective_score_Tienda_Item1%'
+          material: GLISTERING_MELON_SLICE
+        has19:
+          value0: 20
+          compare0: '%objective_score_Tienda_Item1%'
+          material: BLUE_DYE
+        has20:
+          value0: 21
+          compare0: '%objective_score_Tienda_Item1%'
+          material: FIRE_CHARGE
+        has21:
+          value0: 22
+          compare0: '%objective_score_Tienda_Item1%'
+          material: WRITABLE_BOOK
+        has22:
+          value0: 23
+          compare0: '%objective_score_Tienda_Item1%'
+          material: HOPPER_MINECART
+        has23:
+          value0: 24
+          compare0: '%objective_score_Tienda_Item1%'
+          material: RABBIT_STEW
+        has24:
+          value0: 25
+          compare0: '%objective_score_Tienda_Item1%'
+          material: COMPASS
+        has25:
+          value0: 26
+          compare0: '%objective_score_Tienda_Item1%'
+          material: BEETROOT_SOUP
+        has26:
+          value0: 27
+          compare0: '%objective_score_Tienda_Item1%'
+          material: CHAINMAIL_CHESTPLATE
+        has27:
+          value0: 28
+          compare0: '%objective_score_Tienda_Item1%'
+          material: TROPICAL_FISH
+        has28:
+          value0: 29
+          compare0: '%objective_score_Tienda_Item1%'
+          material: BOOKSHELF
+        has29:
+          value0: 30
+          compare0: '%objective_score_Tienda_Item1%'
+          material: MAGMA_BLOCK
+        has30:
+          value0: 31
+          compare0: '%objective_score_Tienda_Item1%'
+          material: PURPUR_PILLAR
+        has31:
+          value0: 32
+          compare0: '%objective_score_Tienda_Item1%'
+          material: WARPED_TRAPDOOR
+        has32:
+          value0: 33
+          compare0: '%objective_score_Tienda_Item1%'
+          material: TUBE_CORAL_BLOCK
+        has33:
+          value0: 34
+          compare0: '%objective_score_Tienda_Item1%'
+          material: HAY_BLOCK
+        has34:
+          value0: 35
+          compare0: '%objective_score_Tienda_Item1%'
+          material: EMERALD_ORE
+        has35:
+          value0: 36
+          compare0: '%objective_score_Tienda_Item1%'
+          material: DIAMOND_HORSE_ARMOR
+        has36:
+          value0: 37
+          compare0: '%objective_score_Tienda_Item1%'
+          material: CRACKED_POLISHED_BLACKSTONE_BRICKS
+        has37:
+          value0: 38
+          compare0: '%objective_score_Tienda_Item1%'
+          material: MUSIC_DISC_11
+        has38:
+          value0: 39
+          compare0: '%objective_score_Tienda_Item1%'
+          material: MAGENTA_CARPET
+        has39:
+          value0: 40
+          compare0: '%objective_score_Tienda_Item1%'
+          material: FLOWER_BANNER_PATTERN
+        has40:
+          value0: 41
+          compare0: '%objective_score_Tienda_Item1%'
+          material: MUSIC_DISC_STRAD
+        has41:
+          value0: 42
+          compare0: '%objective_score_Tienda_Item1%'
+          material: PUMPKIN_PIE
+        has42:
+          value0: 43
+          compare0: '%objective_score_Tienda_Item1%'
+          material: PAINTING
+        has43:
+          value0: 44
+          compare0: '%objective_score_Tienda_Item1%'
+          material: INK_SAC
+        has44:
+          value0: 45
+          compare0: '%objective_score_Tienda_Item1%'
+          material: MUSIC_DISC_CHIRP
+        has45:
+          value0: 46
+          compare0: '%objective_score_Tienda_Item1%'
+          material: STRIPPED_WARPED_HYPHAE
+        has46:
+          value0: 47
+          compare0: '%objective_score_Tienda_Item1%'
+          material: BEEHIVE
+        has47:
+          value0: 48
+          compare0: '%objective_score_Tienda_Item1%'
+          material: LILY_PAD
+        has48:
+          value0: 49
+          compare0: '%objective_score_Tienda_Item1%'
+          material: NETHER_GOLD_ORE
+        has49:
+          value0: 50
+          compare0: '%objective_score_Tienda_Item1%'
+          material: CREEPER_BANNER_PATTERN
+        has50:
+          value0: 51
+          compare0: '%objective_score_Tienda_Item1%'
+          material: MUSIC_DISC_FAR
+        has51:
+          value0: 52
+          compare0: '%objective_score_Tienda_Item1%'
+          material: TRIPWIRE_HOOK
+        has52:
+          value0: 53
+          compare0: '%objective_score_Tienda_Item1%'
+          material: MELON_SEEDS
+        has53:
+          value0: 54
+          compare0: '%objective_score_Tienda_Item1%'
+          material: CALCITE
+        has54:
+          value0: 55
+          compare0: '%objective_score_Tienda_Item1%'
+          material: DEEPSLATE_LAPIS_ORE
+        has55:
+          value0: 56
+          compare0: '%objective_score_Tienda_Item1%'
+          material: DEEPSLATE_DIAMOND_ORE
+        has56:
+          value0: 57
+          compare0: '%objective_score_Tienda_Item1%'
+          material: RAW_IRON_BLOCK
+        has57:
+          value0: 58
+          compare0: '%objective_score_Tienda_Item1%'
+          material: MOSS_BLOCK
+        has58:
+          value0: 59
+          compare0: '%objective_score_Tienda_Item1%'
+          material: AMETHYST_BLOCK
+        has59:
+          value0: 60
+          compare0: '%objective_score_Tienda_Item1%'
+          material: OXIDIZED_COPPER
+        has60:
+          value0: 61
+          compare0: '%objective_score_Tienda_Item1%'
+          material: DEEPSLATE_IRON_ORE
+        has61:
+          value0: 62
+          compare0: '%objective_score_Tienda_Item1%'
+          material: FLOWERING_AZALEA
+        has62:
+          value0: 63
+          compare0: '%objective_score_Tienda_Item1%'
+          material: POINTED_DRIPSTONE
+        has63:
+          value0: 64
+          compare0: '%objective_score_Tienda_Item1%'
+          material: SOUL_CAMPFIRE
+        has64:
+          value0: 65
+          compare0: '%objective_score_Tienda_Item1%'
+          material: LIGHTNING_ROD
+        has65:
+          value0: 66
+          compare0: '%objective_score_Tienda_Item1%'
+          material: LEVER
+        has66:
+          value0: 67
+          compare0: '%objective_score_Tienda_Item1%'
+          material: GLOW_BERRIES
+        has67:
+          value0: 68
+          compare0: '%objective_score_Tienda_Item1%'
+          material: POWDER_SNOW_BUCKET
+        has68:
+          value0: 69
+          compare0: '%objective_score_Tienda_Item1%'
+          material: COCOA_BEANS
+        has69:
+          value0: 70
+          compare0: '%objective_score_Tienda_Item1%'
+          material: MUSIC_DISC_OTHERSIDE
+        has70:
+          value0: 71
+          compare0: '%objective_score_Tienda_Item1%'
+          material: FEATHER
+        has71:
+          value0: 72
+          compare0: '%objective_score_Tienda_Item1%'
+          material: NETHERITE_AXE
+        has72:
+          value0: 73
+          compare0: '%objective_score_Tienda_Item1%'
+          material: DAMAGED_ANVIL
+        has73:
+          value0: 74
+          compare0: '%objective_score_Tienda_Item1%'
+          material: COOKED_COD
+        has74:
+          value0: 75
+          compare0: '%objective_score_Tienda_Item1%'
+          material: CHARCOAL
+        has75:
+          value0: 76
+          compare0: '%objective_score_Tienda_Item1%'
+          material: AMETHYST_CLUSTER
+      '22':
+        material: PURPLE_GLAZED_TERRACOTTA
+        has0:
+          value0: 1
+          compare0: '%objective_score_Tienda_Item2%'
+          material: POLISHED_GRANITE_STAIRS
+        has1:
+          value0: 2
+          compare0: '%objective_score_Tienda_Item2%'
+          material: ACACIA_BOAT
+        has2:
+          value0: 3
+          compare0: '%objective_score_Tienda_Item2%'
+          material: BLACK_BED
+        has3:
+          value0: 4
+          compare0: '%objective_score_Tienda_Item2%'
+          material: SHROOMLIGHT
+        has4:
+          value0: 5
+          compare0: '%objective_score_Tienda_Item2%'
+          material: WEEPING_VINES
+        has5:
+          value0: 6
+          compare0: '%objective_score_Tienda_Item2%'
+          material: POISONOUS_POTATO
+        has6:
+          value0: 7
+          compare0: '%objective_score_Tienda_Item2%'
+          material: PUFFERFISH
+        has7:
+          value0: 8
+          compare0: '%objective_score_Tienda_Item2%'
+          material: COOKIE
+        has8:
+          value0: 9
+          compare0: '%objective_score_Tienda_Item2%'
+          material: GLASS_BOTTLE
+        has9:
+          value0: 10
+          compare0: '%objective_score_Tienda_Item2%'
+          material: SADDLE
+        has10:
+          value0: 11
+          compare0: '%objective_score_Tienda_Item2%'
+          material: HEART_OF_THE_SEA
+        has11:
+          value0: 12
+          compare0: '%objective_score_Tienda_Item2%'
+          material: SCAFFOLDING
+        has12:
+          value0: 13          
+          compare0: '%objective_score_Tienda_Item2%'
+          material: CLOCK
+        has13:
+          value0: 14
+          compare0: '%objective_score_Tienda_Item2%'
+          material: PRISMARINE_WALL
+        has14:
+          value0: 15          
+          compare0: '%objective_score_Tienda_Item2%'
+          material: HONEY_BOTTLE
+        has15:
+          value0: 16          
+          compare0: '%objective_score_Tienda_Item2%'
+          material: DISPENSER
+        has16:
+          value0: 17          
+          compare0: '%objective_score_Tienda_Item2%'
+          material: GOLDEN_HORSE_ARMOR
+        has17:
+          value0: 18          
+          compare0: '%objective_score_Tienda_Item2%'
+          material: END_ROD
+        has18:
+          value0: 19
+          compare0: '%objective_score_Tienda_Item2%'
+          material: TARGET
+        has19:
+          value0: 20
+          compare0: '%objective_score_Tienda_Item2%'
+          material: BRICK
+        has20:
+          value0: 21
+          compare0: '%objective_score_Tienda_Item2%'
+          material: POLISHED_ANDESITE_SLAB
+        has21:
+          value0: 22
+          compare0: '%objective_score_Tienda_Item2%'
+          material: RED_BANNER
+        has22:
+          value0: 23
+          compare0: '%objective_score_Tienda_Item2%'
+          material: GHAST_TEAR
+        has23:
+          value0: 24
+          compare0: '%objective_score_Tienda_Item2%'
+          material: GOLDEN_SWORD
+        has24:
+          value0: 25
+          compare0: '%objective_score_Tienda_Item2%'
+          material: JUNGLE_FENCE_GATE
+        has25:
+          value0: 26
+          compare0: '%objective_score_Tienda_Item2%'
+          material: DEAD_BUSH
+        has26:
+          value0: 27
+          compare0: '%objective_score_Tienda_Item2%'
+          material: PURPLE_WOOL
+        has27:
+          value0: 28
+          compare0: '%objective_score_Tienda_Item2%'
+          material: RABBIT_HIDE
+        has28:
+          value0: 29
+          compare0: '%objective_score_Tienda_Item2%'
+          material: FERMENTED_SPIDER_EYE
+        has29:
+          value0: 30
+          compare0: '%objective_score_Tienda_Item2%'
+          material: BLUE_ICE
+        has30:
+          value0: 31
+          compare0: '%objective_score_Tienda_Item2%'
+          material: MILK_BUCKET
+        has31:
+          value0: 32
+          compare0: '%objective_score_Tienda_Item2%'
+          material: MAP
+        has32:
+          value0: 33
+          compare0: '%objective_score_Tienda_Item2%'
+          material: FLINT_AND_STEEL
+        has33:
+          value0: 34
+          compare0: '%objective_score_Tienda_Item2%'
+          material: LIME_CONCRETE_POWDER
+        has34:
+          value0: 35
+          compare0: '%objective_score_Tienda_Item2%'
+          material: POLISHED_BLACKSTONE_BUTTON
+        has35:
+          value0: 36
+          compare0: '%objective_score_Tienda_Item2%'
+          material: GILDED_BLACKSTONE
+        has36:
+          value0: 37
+          compare0: '%objective_score_Tienda_Item2%'
+          material: PIGLIN_BANNER_PATTERN
+        has37:
+          value0: 38
+          compare0: '%objective_score_Tienda_Item2%'
+          material: CREEPER_HEAD
+        has38:
+          value0: 39
+          compare0: '%objective_score_Tienda_Item2%'
+          material: MUSIC_DISC_CAT
+        has39:
+          value0: 40
+          compare0: '%objective_score_Tienda_Item2%'
+          material: MUSIC_DISC_WAIT
+        has40:
+          value0: 41
+          compare0: '%objective_score_Tienda_Item2%'
+          material: CHAINMAIL_BOOTS
+        has41:
+          value0: 42
+          compare0: '%objective_score_Tienda_Item2%'
+          material: STRIPPED_CRIMSON_HYPHAE
+        has42:
+          value0: 43
+          compare0: '%objective_score_Tienda_Item2%'
+          material: CONDUIT
+        has43:
+          value0: 44
+          compare0: '%objective_score_Tienda_Item2%'
+          material: ENDER_PEARL
+        has44:
+          value0: 45
+          compare0: '%objective_score_Tienda_Item2%'
+          material: NETHER_QUARTZ_ORE
+        has45:
+          value0: 46
+          compare0: '%objective_score_Tienda_Item2%'
+          material: SOUL_LANTERN
+        has46:
+          value0: 47
+          compare0: '%objective_score_Tienda_Item2%'
+          material: ITEM_FRAME
+        has47:
+          value0: 48
+          compare0: '%objective_score_Tienda_Item2%'
+          material: MUSIC_DISC_MELLOHI
+        has48:
+          value0: 49
+          compare0: '%objective_score_Tienda_Item2%'
+          material: SKULL_BANNER_PATTERN
+        has49:
+          value0: 50
+          compare0: '%objective_score_Tienda_Item2%'
+          material: MUSIC_DISC_STAL
+        has50:
+          value0: 51
+          compare0: '%objective_score_Tienda_Item2%'
+          material: WARPED_FUNGUS_ON_A_STICK
+        has51:
+          value0: 52
+          compare0: '%objective_score_Tienda_Item2%'
+          material: LODESTONE
+        has52:
+          value0: 53
+          compare0: '%objective_score_Tienda_Item2%'
+          material: VINE
+        has53:
+          value0: 54
+          compare0: '%objective_score_Tienda_Item2%'
+          material: TUFF
+        has54:
+          value0: 55
+          compare0: '%objective_score_Tienda_Item2%'
+          material: WET_SPONGE
+        has55:
+          value0: 56
+          compare0: '%objective_score_Tienda_Item2%'
+          material: CHISELED_DEEPSLATE
+        has56:
+          value0: 57
+          compare0: '%objective_score_Tienda_Item2%'
+          material: SMOOTH_BASALT
+        has57:
+          value0: 58
+          compare0: '%objective_score_Tienda_Item2%'
+          material: DRIED_KELP_BLOCK
+        has58:
+          value0: 59
+          compare0: '%objective_score_Tienda_Item2%'
+          material: DEEPSLATE_REDSTONE_ORE
+        has59:
+          value0: 60
+          compare0: '%objective_score_Tienda_Item2%'
+          material: WEATHERED_CUT_COPPER
+        has60:
+          value0: 61
+          compare0: '%objective_score_Tienda_Item2%'
+          material: CHORUS_FLOWER
+        has61:
+          value0: 62
+          compare0: '%objective_score_Tienda_Item2%'
+          material: RAW_GOLD_BLOCK
+        has62:
+          value0: 63
+          compare0: '%objective_score_Tienda_Item2%'
+          material: SMALL_DRIPLEAF
+        has63:
+          value0: 64
+          compare0: '%objective_score_Tienda_Item2%'
+          material: RED_SANDSTONE_WALL
+        has64:
+          value0: 65
+          compare0: '%objective_score_Tienda_Item2%'
+          material: SUNFLOWER
+        has65:
+          value0: 66
+          compare0: '%objective_score_Tienda_Item2%'
+          material: PRISMARINE_SHARD
+        has66:
+          value0: 67
+          compare0: '%objective_score_Tienda_Item2%'
+          material: SPYGLASS
+        has67:
+          value0: 68
+          compare0: '%objective_score_Tienda_Item2%'
+          material: FLOWER_POT
+        has68:
+          value0: 69
+          compare0: '%objective_score_Tienda_Item2%'
+          material: GLOW_ITEM_FRAME
+        has69:
+          value0: 70
+          compare0: '%objective_score_Tienda_Item2%'
+          material: CANDLE
+        has70:
+          value0: 71
+          compare0: '%objective_score_Tienda_Item2%'
+          material: OXEYE_DAISY
+        has71:
+          value0: 72
+          compare0: '%objective_score_Tienda_Item2%'
+          material: LEATHER_HORSE_ARMOR
+        has72:
+          value0: 73
+          compare0: '%objective_score_Tienda_Item2%'
+          material: CRIMSON_DOOR
+        has73:
+          value0: 74
+          compare0: '%objective_score_Tienda_Item2%'
+          material: RABBIT
+        has74:
+          value0: 75
+          compare0: '%objective_score_Tienda_Item2%'
+          material: WOODEN_PICKAXE
+        has75:
+          value0: 76
+          compare0: '%objective_score_Tienda_Item2%'
+          material: DEAD_BRAIN_CORAL_BLOCK
+      '24':
+        material: DAYLIGHT_DETECTOR
+        has0:
+          value0: 1
+          compare0: '%objective_score_Tienda_Item3%'
+          material: TNT
+        has1:
+          value0: 2
+          compare0: '%objective_score_Tienda_Item3%'
+          material: POLISHED_BLACKSTONE_SLAB
+        has2:
+          value0: 3
+          compare0: '%objective_score_Tienda_Item3%'
+          material: IRON_HOE
+        has3:
+          value0: 4
+          compare0: '%objective_score_Tienda_Item3%'
+          material: CROSSBOW
+        has4:
+          value0: 5
+          compare0: '%objective_score_Tienda_Item3%'
+          material: CYAN_SHULKER_BOX
+        has5:
+          value0: 6
+          compare0: '%objective_score_Tienda_Item3%'
+          material: BONE
+        has6:
+          value0: 7
+          compare0: '%objective_score_Tienda_Item3%'
+          material: SLIME_BALL
+        has7:
+          value0: 8
+          compare0: '%objective_score_Tienda_Item3%'
+          material: IRON_NUGGET
+        has8:
+          value0: 9
+          compare0: '%objective_score_Tienda_Item3%'
+          material: TURTLE_HELMET
+        has9:
+          value0: 10
+          compare0: '%objective_score_Tienda_Item3%'
+          material: ENCHANTED_GOLDEN_APPLE
+        has10:
+          value0: 11
+          compare0: '%objective_score_Tienda_Item3%'
+          material: RABBIT_FOOT
+        has11:
+          value0: 12
+          compare0: '%objective_score_Tienda_Item3%'
+          material: TRAPPED_CHEST
+        has12:
+          value0: 13          
+          compare0: '%objective_score_Tienda_Item3%'
+          material: ACTIVATOR_RAIL
+        has13:
+          value0: 14          
+          compare0: '%objective_score_Tienda_Item3%'
+          material: ENCHANTING_TABLE
+        has14:
+          value0: 15          
+          compare0: '%objective_score_Tienda_Item3%'
+          material: MUSIC_DISC_PIGSTEP
+        has15:
+          value0: 16          
+          compare0: '%objective_score_Tienda_Item3%'
+          material: STONE_AXE
+        has16:
+          value0: 17          
+          compare0: '%objective_score_Tienda_Item3%'
+          material: NAME_TAG
+        has17:
+          value0: 18          
+          compare0: '%objective_score_Tienda_Item3%'
+          material: BROWN_STAINED_GLASS_PANE
+        has18:
+          value0: 19
+          compare0: '%objective_score_Tienda_Item3%'
+          material: CHISELED_RED_SANDSTONE
+        has19:
+          value0: 20
+          compare0: '%objective_score_Tienda_Item3%'
+          material: POPPED_CHORUS_FRUIT
+        has20:
+          value0: 21
+          compare0: '%objective_score_Tienda_Item3%'
+          material: SOUL_SOIL
+        has21:
+          value0: 22
+          compare0: '%objective_score_Tienda_Item3%'
+          material: END_STONE_BRICKS
+        has22:
+          value0: 23
+          compare0: '%objective_score_Tienda_Item3%'
+          material: JUKEBOX
+        has23:
+          value0: 24
+          compare0: '%objective_score_Tienda_Item3%'
+          material: COBWEB
+        has24:
+          value0: 25
+          compare0: '%objective_score_Tienda_Item3%'
+          material: BEETROOT
+        has25:
+          value0: 26
+          compare0: '%objective_score_Tienda_Item3%'
+          material: SMOOTH_STONE
+        has26:
+          value0: 27
+          compare0: '%objective_score_Tienda_Item3%'
+          material: LIGHT_BLUE_TERRACOTTA
+        has27:
+          value0: 28
+          compare0: '%objective_score_Tienda_Item3%'
+          material: BELL
+        has28:
+          value0: 29
+          compare0: '%objective_score_Tienda_Item3%'
+          material: IRON_TRAPDOOR
+        has29:
+          value0: 30
+          compare0: '%objective_score_Tienda_Item3%'
+          material: DARK_OAK_LEAVES
+        has30:
+          value0: 31
+          compare0: '%objective_score_Tienda_Item3%'
+          material: BREWING_STAND
+        has31:
+          value0: 32
+          compare0: '%objective_score_Tienda_Item3%'
+          material: NETHER_SPROUTS
+        has32:
+          value0: 33
+          compare0: '%objective_score_Tienda_Item3%'
+          material: END_CRYSTAL
+        has33:
+          value0: 34
+          compare0: '%objective_score_Tienda_Item3%'
+          material: SEA_PICKLE
+        has34:
+          value0: 35
+          compare0: '%objective_score_Tienda_Item3%'
+          material: NETHER_BRICK_FENCE
+        has35:
+          value0: 36
+          compare0: '%objective_score_Tienda_Item3%'
+          material: EGG
+        has36:
+          value0: 37
+          compare0: '%objective_score_Tienda_Item3%'
+          material: MUSIC_DISC_BLOCKS
+        has37:
+          value0: 38
+          compare0: '%objective_score_Tienda_Item3%'
+          material: BLAZE_POWDER
+        has38:
+          value0: 39
+          compare0: '%objective_score_Tienda_Item3%'
+          material: NAUTILUS_SHELL
+        has39:
+          value0: 40
+          compare0: '%objective_score_Tienda_Item3%'
+          material: CHAINMAIL_HELMET
+        has40:
+          value0: 41
+          compare0: '%objective_score_Tienda_Item3%'
+          material: RED_NETHER_BRICK_WALL
+        has41:
+          value0: 42
+          compare0: '%objective_score_Tienda_Item3%'
+          material: MOJANG_BANNER_PATTERN
+        has42:
+          value0: 43
+          compare0: '%objective_score_Tienda_Item3%'
+          material: MUSIC_DISC_WARD
+        has43:
+          value0: 44
+          compare0: '%objective_score_Tienda_Item3%'
+          material: ZOMBIE_HEAD
+        has44:
+          value0: 45
+          compare0: '%objective_score_Tienda_Item3%'
+          material: CHAINMAIL_LEGGINGS
+        has45:
+          value0: 46
+          compare0: '%objective_score_Tienda_Item3%'
+          material: TURTLE_EGG
+        has46:
+          value0: 47
+          compare0: '%objective_score_Tienda_Item3%'
+          material: MUSIC_DISC_MALL
+        has47:
+          value0: 48
+          compare0: '%objective_score_Tienda_Item3%'
+          material: SKELETON_SKULL
+        has48:
+          value0: 49
+          compare0: '%objective_score_Tienda_Item3%'
+          material: RESPAWN_ANCHOR
+        has49:
+          value0: 50
+          compare0: '%objective_score_Tienda_Item3%'
+          material: GLOBE_BANNER_PATTERN
+        has50:
+          value0: 51
+          compare0: '%objective_score_Tienda_Item3%'
+          material: WITHER_ROSE
+        has51:
+          value0: 52
+          compare0: '%objective_score_Tienda_Item3%'
+          material: FIRE_CORAL
+        has52:
+          value0: 53
+          compare0: '%objective_score_Tienda_Item3%'
+          material: MUSIC_DISC_13
+        has53:
+          value0: 54
+          compare0: '%objective_score_Tienda_Item3%'
+          material: DRIPSTONE_BLOCK
+        has54:
+          value0: 55
+          compare0: '%objective_score_Tienda_Item3%'
+          material: TINTED_GLASS
+        has55:
+          value0: 56
+          compare0: '%objective_score_Tienda_Item3%'
+          material: ROOTED_DIRT
+        has56:
+          value0: 57
+          compare0: '%objective_score_Tienda_Item3%'
+          material: DEEPSLATE_COAL_ORE
+        has57:
+          value0: 58
+          compare0: '%objective_score_Tienda_Item3%'
+          material: DEEPSLATE_GOLD_ORE
+        has58:
+          value0: 59
+          compare0: '%objective_score_Tienda_Item3%'
+          material: DEEPSLATE_COPPER_ORE
+        has59:
+          value0: 60
+          compare0: '%objective_score_Tienda_Item3%'
+          material: RAW_COPPER_BLOCK
+        has60:
+          value0: 61
+          compare0: '%objective_score_Tienda_Item3%'
+          material: HOPPER
+        has61:
+          value0: 62
+          compare0: '%objective_score_Tienda_Item3%'
+          material: WAXED_EXPOSED_COPPER
+        has62:
+          value0: 63
+          compare0: '%objective_score_Tienda_Item3%'
+          material: BOWL
+        has63:
+          value0: 64
+          compare0: '%objective_score_Tienda_Item3%'
+          material: SPIDER_EYE
+        has64:
+          value0: 65
+          compare0: '%objective_score_Tienda_Item3%'
+          material: PRISMARINE_CRYSTALS
+        has65:
+          value0: 66
+          compare0: '%objective_score_Tienda_Item3%'
+          material: CORNFLOWER
+        has66:
+          value0: 67
+          compare0: '%objective_score_Tienda_Item3%'
+          material: MAGMA_CREAM
+        has67:
+          value0: 68
+          compare0: '%objective_score_Tienda_Item3%'
+          material: SHULKER_SHELL
+        has68:
+          value0: 69
+          compare0: '%objective_score_Tienda_Item3%'
+          material: SMALL_AMETHYST_BUD
+        has69:
+          value0: 70
+          compare0: '%objective_score_Tienda_Item3%'
+          material: GLOW_LICHEN
+        has70:
+          value0: 71
+          compare0: '%objective_score_Tienda_Item3%'
+          material: AZURE_BLUET
+        has71:
+          value0: 72
+          compare0: '%objective_score_Tienda_Item3%'
+          material: BIRCH_PRESSURE_PLATE
+        has72:
+          value0: 73
+          compare0: '%objective_score_Tienda_Item3%'
+          material: CHAIN
+        has73:
+          value0: 74
+          compare0: '%objective_score_Tienda_Item3%'
+          material: RED_MUSHROOM_BLOCK
+        has74:
+          value0: 75
+          compare0: '%objective_score_Tienda_Item3%'
+          material: MUSHROOM_STEW
+        has75:
+          value0: 76
+          compare0: '%objective_score_Tienda_Item3%'
+          material: LEATHER_BOOTS

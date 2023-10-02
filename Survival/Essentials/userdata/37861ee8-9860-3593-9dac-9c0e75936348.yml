@@ -1,0 +1,29 @@
+timestamps:
+  login: 1622331182671
+  lastteleport: 1619388595528
+  logout: 1622331615864
+lastlocation:
+  world: world
+  x: -1193.300000011921
+  y: 61.0
+  z: -841.6999999880791
+  yaw: -192.17345
+  pitch: 2.1000042
+money: '1367202.0'
+homes:
+  home:
+    world: world
+    x: -1160.9230317801134
+    y: 80.0
+    z: -1033.0288962893392
+    yaw: -93.923706
+    pitch: 38.09975
+logoutlocation:
+  world: world
+  x: -1161.2334580708323
+  y: 76.0
+  z: -1035.0642353856067
+  yaw: -345.46326
+  pitch: 24.599855
+ip-address: 190.114.35.133
+last-account-name: Kath070

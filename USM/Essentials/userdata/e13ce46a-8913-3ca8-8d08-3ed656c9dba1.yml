@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 186.106.197.71
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1682986945214
+  login: 1682979359512
+money: '10000.0'
+last-account-name: Milaansk_
+lastlocation:
+  world: 2e1ce19e-1f4f-4123-8c05-bbc1db660846
+  world-name: world
+  x: -380.69999998807907
+  y: 29.200000047683716
+  z: 42.30000001192093
+  yaw: -157.82611083984375
+  pitch: -9.299989700317383
+logoutlocation:
+  world: 2e1ce19e-1f4f-4123-8c05-bbc1db660846
+  world-name: world
+  x: -401.8125212462833
+  y: 30.1875
+  z: 50.91677231668294
+  yaw: -169.14697265625
+  pitch: 22.499740600585938

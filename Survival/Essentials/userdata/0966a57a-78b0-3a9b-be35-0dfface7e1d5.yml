@@ -1,0 +1,29 @@
+timestamps:
+  login: 1626827370195
+  lastteleport: 1624133147160
+  logout: 1626827576560
+lastlocation:
+  world: world
+  x: 311.3826313372494
+  y: 123.1717575937269
+  z: 5225.167044660375
+  yaw: -22.107403
+  pitch: -25.393314
+money: '1086998.67800000000005819'
+homes:
+  home:
+    world: world
+    x: 312.30000001192093
+    y: 66.0
+    z: 5190.531576502382
+    yaw: -346.20358
+    pitch: 16.918127
+logoutlocation:
+  world: world
+  x: 446.0865001522333
+  y: 79.0
+  z: -468.6876457660982
+  yaw: 254.81429
+  pitch: 0.78013515
+ip-address: 190.163.218.67
+last-account-name: 01Trick

@@ -1,0 +1,20 @@
+name: orozc048
+events:
+  event57:
+    one_time: false
+    cooldown: 1674764869508
+  event90:
+    one_time: false
+    cooldown: 1667189571206
+  event49:
+    one_time: false
+    cooldown: 1667146921577
+  event51:
+    one_time: false
+    cooldown: 1667146930284
+  event61:
+    one_time: false
+    cooldown: 1668198999664
+  resistencia_y_skin_al_entrar:
+    one_time: false
+    cooldown: 1686351409334

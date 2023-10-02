@@ -1,0 +1,73 @@
+name: '&fCarnicero'
+# - NPC with id 177
+block_movement: false
+slow_effect: false
+save_conversation_progress: false
+start_conversation_radius: 0
+end_conversation_radius: 5
+requires_permission: false
+cooldown: 0
+hologram_dialogues:
+  enabled: false
+  offset_y: 0.0
+  offset_horizontal: 0.0
+starts_with: []
+conversation:
+  conversation1:
+    dialogue:
+      dialogue1:
+        text:
+        - '&bOye, acércate, no puedo hablar muy fuerte...'
+        time: 4
+        start_conversation: conversation2
+        conditional_dialogue:
+          conditional_dialogue1:
+            requires:
+            - '%checkitem_namecontains:Asado% == yes'
+            start_conversation: conversation4
+    random_dialogue: false
+    interrupt_actions: []
+  conversation2:
+    dialogue:
+      dialogue1:
+        text:
+        - '&bNecesito que me hagas un favor, es'
+        - '&bmuy simple pero estoy bajo vigilancia'
+        - '&bconstante, te puedo ofrecer un buen pago'
+        time: 4
+        show_name: false
+    options:
+      option1:
+        text: §7Tienes granadina?
+        start_conversation: conversation3
+    random_dialogue: false
+    interrupt_actions: []
+  conversation3:
+    dialogue:
+      dialogue1:
+        text:
+        - '&bSí, una botella sin abrir, trato!'
+        - '&bAhora, toma esto, cocínalo y lo más'
+        - '&bimportante, no dejes que te lo quiten.'
+        time: 4
+        last_actions:
+        - 'console_command: si give costillar_c 1 %player% true'
+        - 'console_command: give %player% coal 1'
+        - 'playsound: MUSIC_DISC_MELLOHI;10;1'
+        show_name: false
+    random_dialogue: false
+    interrupt_actions: []
+  conversation4:
+    dialogue:
+      dialogue1:
+        text:
+        - '&bQue rápido! Wow, toma, te la ganaste'
+        time: 4
+        last_actions:
+        - 'console_command: si take costillar_a 1 %player% true'
+        - 'console_command: si give requisito3 1 %player% true'
+        - 'wait: 100'
+        - 'player_command: warp Mision18'
+        show_name: false
+    random_dialogue: false
+    interrupt_actions: []

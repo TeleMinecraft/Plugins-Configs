@@ -1,0 +1,8 @@
+name: Issa
+events:
+  resistencia_y_skin_al_entrar:
+    one_time: false
+    cooldown: 1680919776066
+  random_tp:
+    one_time: false
+    cooldown: 1679791978636

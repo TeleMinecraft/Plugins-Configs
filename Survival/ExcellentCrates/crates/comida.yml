@@ -1,0 +1,144 @@
+Name: '&6&lCaja de Comida'
+Animation_Config: csgo_auto
+Preview_Config: default
+Permission_Required: false
+Attached_Citizens: ''
+Opening:
+  Cooldown: 1
+  Cost:
+    MONEY: 0.0
+    EXP: 0.0
+Key:
+  Ids: []
+Block:
+  Locations: []
+  Pushback:
+    Enabled: false
+  Hologram:
+    Enabled: false
+    Offset:
+      Y: 1.5
+    Text:
+    - '&c&lMYSTERY CRATE'
+    - '&7Buy a key at &cwww.myserver.com&c'
+  Effect:
+    Model: SIMPLE
+    Particle:
+      Name: FLAME
+      Data: ''
+Rewards:
+  List:
+    '1':
+      Name: '&7&lPatata asada'
+      Chance: 15.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01crb9dpim6sj1cpq3koj1ddim8nrgdtq62t3f0400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01crb9dpim6sj1cpq3koj1ddim8nrgdtq62t3f0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '2':
+      Name: '&7&lSalmón cocinado'
+      Chance: 15.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400bmqqbeclhn4ob6egt66rrfddim8nrjc5m6qrre0400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400bmqqbeclhn4ob6egt66rrfddim8nrjc5m6qrre0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '3':
+      Name: '&7&lBacalao cocinado'
+      Chance: 15.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800kdlkmspb3e9gmct1qcdnmuqr5chfm6rr40400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800kdlkmspb3e9gmct1qcdnmuqr5chfm6rr40400agrfeln78g00
+      Ignored_For_Permissions: []
+    '4':
+      Name: '&7&lConejo cocinado'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400bmqqbeclhn4ob6egt66rrfddim8nric5h64qbk0400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400bmqqbeclhn4ob6egt66rrfddim8nric5h64qbk0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '5':
+      Name: '&7&lPollo cocinado'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip0031mmirj5cdp62pjk79hmurrbcli5uor8d5hmmpbe0400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip0031mmirj5cdp62pjk79hmurrbcli5uor8d5hmmpbe0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '6':
+      Name: '&7&lCordero cocinado'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400bmqqbeclhn4ob6egt66rrfddim8nrdelq78rre0400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400bmqqbeclhn4ob6egt66rrfddim8nrdelq78rre0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '7':
+      Name: '&7&lVacuno cocinado'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i005bdd5n6aoric5j78ej3dtnmmpb4bth6apb60400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i005bdd5n6aoric5j78ej3dtnmmpb4bth6apb60400agrfeln78g00
+      Ignored_For_Permissions: []
+    '8':
+      Name: '&7&lChuleta cocinada'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800pdlkmspb3e9gmct1qcdnmuqr5chfn0rriddhmgrrg0400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800pdlkmspb3e9gmct1qcdnmuqr5chfn0rriddhmgrrg0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '9':
+      Name: '&e&lZanahoria Dorada'
+      Chance: 5.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400bmqqbeclhn4ob6egt6errcchimsnr3c5p74rrk0400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400bmqqbeclhn4ob6egt6errcchimsnr3c5p74rrk0400agrfeln78g00
+      Ignored_For_Permissions: []
+Item:
+  Material: CHEST
+  Name: '&6&lCaja de Comida'
+  Lore:
+  - '&7Click izquierdo para ver los premios'
+  - '&aClick derecho para abrir!'

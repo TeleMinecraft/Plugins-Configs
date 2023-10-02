@@ -1,0 +1,16 @@
+uuid: acb3b221-041f-3ffd-9b87-c931e6c5b46c
+wins: 3
+losses: 10
+kills: 5
+deaths: 10
+elo: -31
+xp: 30
+pareffect: none
+proeffect: none
+glasscolor: none
+killsound: none
+winsound: none
+taunt: izi
+permissions:
+- sw.taunt.izi
+- sw.killsound.none

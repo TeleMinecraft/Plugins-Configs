@@ -1,0 +1,2 @@
+2021-04-20 23:42:16.418: (0ms) 100% BLINK > No packet. Last other than KeepAlive: PacketPlayInHeldItemSlot there is: 3501ms . Ping: 0. Warn: 0. Player version: V1_16. TPS: [20.000000000947512, 20.000000424215983, 20.000006202784864]
+2021-04-20 23:42:22.417: (0ms) 100% BLINK > No packet. Last other than KeepAlive: PacketPlayInFlying there is: 3950ms . Ping: 0. Warn: 1. Player version: V1_16. TPS: [20.00000000087171, 20.00000041721642, 20.000006168669547]

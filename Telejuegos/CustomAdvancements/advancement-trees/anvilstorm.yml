@@ -1,0 +1,59 @@
+options:
+  auto_active: true
+  rewards: {}
+  display_name: '&7&lAnvil&6&lStorm'
+  description: '&fTus logros en el minijuego'
+  item: ANVIL
+  gui_location: auto
+  minecraft-gui-display: true
+  minecraft-gui-background: textures/block/smooth_basalt.png
+advancements:
+  ganar:
+    type: impossible
+    value: ignored
+    amount: 1
+    rewards: []
+    display:
+      name: §a§lSuperar la tormenta!
+      item: EMERALD
+      description: '&fGana tu primera partida'
+      gui_location: auto
+      unit: none
+      minecraft-gui-frame: TASK
+      minecraft-toast: true
+      minecraft-chat-announce: false
+      minecraft-progress-type: AUTO
+  rapido:
+    type: impossible
+    value: ignored
+    amount: 1
+    rewards: []
+    display:
+      name: §e§lQué pasó??
+      item: CLOCK
+      description: '&fMuere en los primeros 10s de juego'
+      gui_location: auto
+      unit: none
+      minecraft-gui-frame: TASK
+      minecraft-toast: true
+      minecraft-chat-announce: false
+      minecraft-progress-type: AUTO
+  solo:
+    type: impossible
+    value: ignored
+    amount: 1
+    rewards: []
+    requirements:
+      advancement:
+        type: advancement
+        value: anvilstorm.ganar
+    display:
+      name: §6§lSuperviviente extremo
+      item: TOTEM_OF_UNDYING
+      description: '&fGana una partida sin usar &nningún&f tótem de la inmortalidad'
+      gui_location: auto
+      unit: none
+      minecraft-gui-frame: CHALLENGE
+      minecraft-toast: true
+      minecraft-chat-announce: false
+      minecraft-progress-type: AUTO

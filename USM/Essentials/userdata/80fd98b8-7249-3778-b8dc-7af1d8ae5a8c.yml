@@ -1,0 +1,21 @@
+lastlocation:
+  world: world
+  x: 0.5
+  y: 33.0
+  z: 0.5
+  yaw: 272.14795
+  pitch: -7.3159785
+timestamps:
+  login: 1633838841704
+  logout: 1633838866276
+  lastteleport: 1625007503865
+logoutlocation:
+  world: world
+  x: 1.107658147221625
+  y: 33.0
+  z: -1.1171502779633897
+  yaw: 78.66101
+  pitch: 13.206783
+afk: false
+ip-address: 186.105.120.75
+last-account-name: D1L4N1X

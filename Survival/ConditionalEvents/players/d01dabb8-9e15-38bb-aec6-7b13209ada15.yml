@@ -1,0 +1,8 @@
+name: Kaidrake
+events:
+  event57:
+    one_time: false
+    cooldown: 1667925056968
+  event62:
+    one_time: false
+    cooldown: 1667927742513

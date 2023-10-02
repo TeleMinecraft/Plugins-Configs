@@ -1,0 +1,11 @@
+identifier: 7505a77c-705e-3d9f-92bc-fbfb329c679e
+quests:
+- questID: 1
+  currentStage: 0
+  datas:
+    starting_time: 1680726474154
+    stage0:
+      remaining:
+        0: 1
+        2: 1
+  currentBranch: 0

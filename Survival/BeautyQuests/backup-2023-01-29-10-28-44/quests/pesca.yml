@@ -1,0 +1,49 @@
+customItem:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2860
+  type: FISHING_ROD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    ItemFlags:
+    - HIDE_ATTRIBUTES
+name: §9§lPesca del día §2[Gremio]
+endRewards:
+- id: commandReward
+  commands:
+  - console: true
+    label: scoreboard players add {PLAYER} Prestigio 3
+- id: itemReward
+  items:
+  - v: 2860
+    type: TURTLE_EGG
+  - v: 2860
+    type: SCUTE
+    amount: 3
+bypassLimit: true
+repeatable: true
+description: §eConsigue peces con tu caña
+manager:
+  branches:
+    '0':
+      stages:
+        '0':
+          result:
+            v: 2860
+            type: FISHING_ROD
+          stageType: CRAFT
+        '1':
+          objects:
+            '0':
+              amount: 5
+              object:
+                v: 2860
+                type: SALMON
+            '1':
+              amount: 5
+              object:
+                v: 2860
+                type: COD
+          stageType: FISH
+      endingStages: {}
+id: 2

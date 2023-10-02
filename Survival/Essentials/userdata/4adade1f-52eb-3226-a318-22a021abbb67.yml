@@ -1,0 +1,29 @@
+timestamps:
+  login: 1617985805643
+  lastteleport: 1617986508484
+  logout: 1617986514971
+lastlocation:
+  world: world
+  x: -4565.641559871984
+  y: 64.0
+  z: 2199.926110522834
+  yaw: 284.67682
+  pitch: 20.063158
+money: '1118102'
+logoutlocation:
+  world: world
+  x: -4271.887323560713
+  y: 63.0
+  z: 2479.20442337358
+  yaw: 37.98642
+  pitch: 31.587109
+homes:
+  home:
+    world: world
+    x: -4272.239588764192
+    y: 63.5
+    z: 2475.591244679086
+    yaw: 236.7392
+    pitch: 23.257553
+ip-address: 168.196.201.128
+last-account-name: Ghost_Legends_3

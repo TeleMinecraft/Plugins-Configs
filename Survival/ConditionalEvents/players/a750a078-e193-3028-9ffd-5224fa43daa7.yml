@@ -1,0 +1,5 @@
+name: Nagaido
+events:
+  resistencia_y_skin_al_entrar:
+    one_time: false
+    cooldown: 1675651118473

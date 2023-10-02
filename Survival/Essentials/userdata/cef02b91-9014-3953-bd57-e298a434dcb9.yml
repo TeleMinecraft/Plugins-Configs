@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 186.107.125.21
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1659474304714
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1659475346594
+  login: 1659474105139
+money: '304007.875'
+last-account-name: Panaino001
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 374.3065619335548
+  y: 75.0
+  z: -442.5397144275001
+  yaw: -86.24859619140625
+  pitch: -12.900028228759766
+homes:
+  home:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: -237.41511123816426
+    y: 67.0
+    z: 590.0626660770687
+    yaw: -162.76751708984375
+    pitch: 8.550040245056152
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: -257.69999998807907
+  y: 49.875
+  z: 536.8256588540471
+  yaw: 70.26513671875
+  pitch: 78.75006866455078

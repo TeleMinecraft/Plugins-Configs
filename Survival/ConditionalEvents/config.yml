@@ -1,0 +1,1960 @@
+Messages:
+  prefix: '&4[&bConditionalEvents&4] '
+  commandReload: '&aConfig Reloaded.'
+  commandNoPermissions: '&cNo tienes permisos'
+  commandResetError: '&cUse &7/ce reset <player> <event>'
+  eventDoesNotExists: '&cThat event doesn''t exists on the config.'
+  cooldownReset: '&aCooldown was reset for player &e%player% &aon event &e%event%&a!'
+  seconds: s
+  minutes: m
+  hours: h
+  days: d
+  eventEnableError: '&cUse &7/ce enable <event>'
+  eventDisableError: '&cUse &7/ce disable <event>'
+  eventEnabled: '&aEvent &7%event% &aenabled.'
+  eventDisabled: '&aEvent &7%event% &adisabled.'
+  placeholderAPICooldownReady: Ready!
+  placeholderAPICooldownNameError: No event with that name!
+  eventDataResetAll: '&aAll data reset for player &e%player%&a!'
+  eventDataReset: '&aData reset for player &e%player% &aon event &e%event%&a!'
+  commandDebugError: '&cUse &7/ce debug <event>'
+  debugEnabled: '&aDebug now enabled for event &7%event%&a!'
+  debugDisabled: '&aDebug disabled for event &7%event%&a!'
+  onlyPlayerCommand: '&cThis command can be only used by a player.'
+  playerDoesNotExists: '&cThat player doesn''''t have any data.'
+  debugEnabledPlayer: '&aDebug now enabled for event &7%event% &aand player &7%player%&a!'
+  debugDisabledPlayer: '&aDebug disabled for event &7%event% &aand player &7%player%&a!'
+  eventDataResetForAllPlayers: '&aData reset for &eall players &aon event &e%event%&a!'
+  eventDataResetAllForAllPlayers: '&aAll player data reset.'
+  commandCallError: '&cUse &7/ce call <event> (optional)%variable1%=<value1>;%variableN%=<valueN>'
+  commandCallInvalidEvent: '&cYou can only execute a CALL event.'
+  commandCallCorrect: '&aEvent &7%event% &asuccessfully executed.'
+  commandCallFailed: '&cEvent &7%event% &ccould not be executed. Maybe a format error?'
+Events:
+  tienda_minerales:
+    type: block_interact
+    conditions:
+    - '%luckperms_primary_group_name% !equals owner'
+    - '%luckperms_primary_group_name% !equals admin'
+    - '%luckperms_primary_group_name% !equals constructor'
+    - '%luckperms_primary_group_name% !equals vip'
+    - '%block_x% == 502'
+    - '%block_y% == 76'
+    - '%block_z% == 545'
+    - '%block_world% equals world'
+    - '%block% equals CHEST'
+    - '%action_type% equals RIGHT_CLICK or %action_type% equals LEFT_CLICK'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'console_command: cp panel-5 %player%'
+  compra_cambiante:
+    type: block_interact
+    conditions:
+    - '%block_x% == 502'
+    - '%block_y% == 76'
+    - '%block_z% == 547'
+    - '%block_world% equals world'
+    - '%block% equals ENDER_CHEST'
+    - '%action_type% equals RIGHT_CLICK or %action_type% equals LEFT_CLICK'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'console_command: cp panel-6 %player%'
+  tienda_minerales_vip:
+    type: block_interact
+    conditions:
+    - '%luckperms_primary_group_name% equals owner or %luckperms_primary_group_name%
+      equals admin or %luckperms_primary_group_name% equals constructor or %luckperms_primary_group_name%
+      equals vip'
+    - '%block_x% == 502'
+    - '%block_y% == 76'
+    - '%block_z% == 545'
+    - '%block_world% equals world'
+    - '%block% equals CHEST'
+    - '%action_type% equals RIGHT_CLICK or %action_type% equals LEFT_CLICK'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'console_command: cp panel-9 %player%'
+  random_item1:
+    type: repetitive_server
+    repetitive_time: 108000
+    enabled: true
+    conditions:
+    - '%random_2_5% > 1'
+    actions:
+      default:
+      - 'console_command: scoreboard players set Item1 Tienda %random_0_76%'
+  random_item2:
+    type: repetitive_server
+    repetitive_time: 108000
+    enabled: true
+    conditions:
+    - '%random_2_5% > 1'
+    actions:
+      default:
+      - 'console_command: scoreboard players set Item2 Tienda %random_0_76%'
+  random_item3:
+    type: repetitive_server
+    repetitive_time: 108000
+    enabled: true
+    conditions:
+    - '%random_2_5% > 1'
+    actions:
+      default:
+      - 'console_command: scoreboard players set Item3 Tienda %random_0_76%'
+  anuncio_cc:
+    type: repetitive_server
+    repetitive_time: 108000
+    enabled: true
+    conditions:
+    - '%random_2_5% > 1'
+    actions:
+      default:
+      - 'console_command: title @a title ["",{"text":"La ","color":"aqua"},{"text":"Compra
+        Cambiante","color":"gold"}]'
+      - 'console_command: title @a subtitle {"text":"se ha actualizado!","color":"aqua"}'
+      - 'console_command: title @a actionbar ["",{"text":"Ve al Poblado para ver las
+        ","bold":true,"color":"aqua"},{"text":"Ofertas!","bold":true,"color":"gold"}]'
+      - 'console_command: scoreboard players set Thr Tienda 2'
+      - 'console_command: scoreboard players set Tmin Tienda 59'
+      - 'console_command: scoreboard players set Tseg Tienda 59'
+      - 'console_command: scoreboard players set Ttick Tienda 20'
+  server_join:
+    type: player_join
+    conditions:
+    - '%player% equals Storbo execute actions1'
+    - '%player% !equals Storbo execute actions2'
+    actions:
+      actions1:
+      - 'console_command: execute at Storbo run summon minecraft:lightning_bolt'
+      - 'console_command: title %player% title {"text":"Bienvenid@ %player%","color":"green"}'
+      - 'console_command: title %player% subtitle ["",{"text":"Disfruta del Survival!
+        ","color":"gray"},{"text":"❤","color":"light_purple"}]'
+      actions2:
+      - 'console_command: title %player% title {"text":"Bienvenid@ %player%","color":"green"}'
+      - 'console_command: title %player% subtitle ["",{"text":"Disfruta del Survival!
+        ","color":"gray"},{"text":"❤","color":"light_purple"}]'
+  rayo_god:
+    type: player_leave
+    conditions:
+    - '%player% equals Storbo execute actions1'
+    actions:
+      actions1:
+      - 'console_command: execute at Storbo run summon minecraft:lightning_bolt'
+  random_eventos:
+    type: repetitive_server
+    repetitive_time: 72000
+    conditions:
+    - '%server_online% >= 1'
+    actions:
+      default:
+      - 'console_command: scoreboard players set Lugar Eventos %random_1_20%'
+  eventos_globales:
+    type: repetitive_server
+    repetitive_time: 72000
+    conditions:
+    - '%random_1_3% == 1'
+    - '%objective_score_Eventos_Lugar% == 1 execute actions1'
+    - '%objective_score_Eventos_Lugar% == 2 execute actions2'
+    - '%objective_score_Eventos_Lugar% == 3 execute actions3'
+    - '%objective_score_Eventos_Lugar% == 4 execute actions4'
+    - '%objective_score_Eventos_Lugar% == 5 execute actions5'
+    - '%objective_score_Eventos_Lugar% == 6 execute actions6'
+    - '%objective_score_Eventos_Lugar% == 7 execute actions7'
+    - '%objective_score_Eventos_Lugar% == 8 execute actions8'
+    - '%objective_score_Eventos_Lugar% == 9 execute actions9'
+    - '%objective_score_Eventos_Lugar% == 10 execute actions10'
+    - '%objective_score_Eventos_Lugar% == 11 execute actions11'
+    - '%objective_score_Eventos_Lugar% == 12 execute actions12'
+    - '%objective_score_Eventos_Lugar% == 13 execute actions13'
+    - '%objective_score_Eventos_Lugar% == 14 execute actions14'
+    - '%objective_score_Eventos_Lugar% == 15 execute actions15'
+    - '%objective_score_Eventos_Lugar% == 16 execute actions16'
+    - '%objective_score_Eventos_Lugar% == 17 execute actions17'
+    - '%objective_score_Eventos_Lugar% == 18 execute actions18'
+    - '%objective_score_Eventos_Lugar% == 19 execute actions19'
+    - '%objective_score_Eventos_Lugar% == 20 execute actions20'
+    actions:
+      actions1:
+      - 'console_command: broadcast &bSe aproxima un evento en &d&l580 90 525 &bdentro
+        de &d&l5 minutos&b, cerca del Poblado!'
+      - 'console_command: scoreboard players reset Lugar Eventos'
+      - 'wait: 300'
+      - 'console_command: events start MoneyBomb world 580 90 525'
+      - 'console_command: broadcast &aEl evento &6&lMoney Bomb &aha comenzado en 580 90 525, cerca del Poblado!'
+      - 'wait: 600'
+      - 'console_command: execute positioned 580 90 525 run kill @e[type=item,distance=0..50]'
+      actions2:
+      - 'console_command: broadcast &bSe aproxima un evento en &d&l580 90 525 &bdentro
+        de &d&l5 minutos&b, cerca del Poblado!'
+      - 'console_command: scoreboard players reset Lugar Eventos'
+      - 'wait: 300'
+      - 'console_command: events start RedRain world 580 75 525'
+      - 'console_command: broadcast &aEl evento &4&lRed Rain &aha comenzado en 580 75 525, cerca del Poblado!'
+      - 'wait: 600'
+      - 'console_command: execute positioned 580 90 525 run kill @e[type=item,distance=0..50]'
+      actions3:
+      - 'console_command: broadcast &bSe aproxima un evento en &d&l580 90 525 &bdentro
+        de &d&l5 minutos&b, cerca del Poblado!'
+      - 'console_command: scoreboard players reset Lugar Eventos'
+      - 'wait: 300'
+      - 'console_command: events start DJEvent world 580 80 525'
+      - 'console_command: broadcast &aEl evento &9&lAdmin Party &aha comenzado en 580 80 525, cerca del Poblado!'
+      - 'wait: 600'
+      - 'console_command: execute positioned 580 90 525 run kill @e[type=item,distance=0..50]'
+      actions4:
+      - 'console_command: broadcast &bSe aproxima un evento en &d&l530 80 -431 &bdentro
+        de &d&l5 minutos&b, cerca de la Ciudad!'
+      - 'console_command: scoreboard players reset Lugar Eventos'
+      - 'wait: 300'
+      - 'console_command: events start MoneyBomb world 530 94 -431'
+      - 'console_command: broadcast &aEl evento &6&lMoney Bomb &aha comenzado en 530 94 -431, cerca de la Ciudad!'
+      - 'wait: 600'
+      - 'console_command: execute positioned 530 94 -431 run kill @e[type=item,distance=0..50]'
+      actions5:
+      - 'console_command: broadcast &bSe aproxima un evento en &d&l530 80 -431 &bdentro
+        de &d&l5 minutos&b, cerca de la Ciudad!'
+      - 'console_command: scoreboard players reset Lugar Eventos'
+      - 'wait: 300'
+      - 'console_command: events start RedRain world 530 79 -431'
+      - 'console_command: broadcast &aEl evento &4&lRed Rain &aha comenzado en 530 79 -431, cerca de la Ciudad!'
+      - 'wait: 600'
+      - 'console_command: execute positioned 530 94 -431 run kill @e[type=item,distance=0..50]'
+      actions6:
+      - 'console_command: broadcast &bSe aproxima un evento en &d&l530 80 -431 &bdentro
+        de &d&l5 minutos&b, cerca de la Ciudad!'
+      - 'console_command: scoreboard players reset Lugar Eventos'
+      - 'wait: 300'
+      - 'console_command: events start DJEvent world 530 84 -431'
+      - 'console_command: broadcast &aEl evento &d&lAdmin Party &aha comenzado en 530 84 -431, cerca de la Ciudad!'
+      - 'wait: 600'
+      - 'console_command: execute positioned 530 94 -431 run kill @e[type=item,distance=0..50]'
+      actions7:
+      - 'console_command: broadcast &bSe aproxima un evento en &d&l300 80 -501 &bdentro
+        de &d&l5 minutos&b, cerca de la Ciudad!'
+      - 'console_command: scoreboard players reset Lugar Eventos'
+      - 'wait: 300'
+      - 'console_command: events start MoneyBomb world 300 79 -501'
+      - 'console_command: broadcast &aEl evento &6&lMoney Bomb &aha comenzado en 300 79 -501, cerca de la Ciudad!'
+      - 'wait: 600'
+      - 'console_command: execute positioned 300 79 -501 run kill @e[type=item,distance=0..50]'
+      actions8:
+      - 'console_command: broadcast &bSe aproxima un evento en &d&l300 80 -501 &bdentro
+        de &d&l5 minutos&b, cerca de la Ciudad!'
+      - 'console_command: scoreboard players reset Lugar Eventos'
+      - 'wait: 300'
+      - 'console_command: events start RedRain world 300 64 -501'
+      - 'console_command: broadcast &aEl evento &4&lRed Rain &aha comenzado en 300 79 -501, cerca de la Ciudad!'
+      - 'wait: 600'
+      - 'console_command: execute positioned 300 79 -501 run kill @e[type=item,distance=0..50]'
+      actions9:
+      - 'console_command: broadcast &bSe aproxima un evento en &d&l300 80 -501 &bdentro
+        de &d&l5 minutos&b, cerca de la Ciudad!'
+      - 'console_command: scoreboard players reset Lugar Eventos'
+      - 'wait: 300'
+      - 'console_command: events start DJEvent world 300 69 -501'
+      - 'console_command: broadcast &aEl evento &d&lAdmin Party &aha comenzado en 300 79 -501, cerca de la Ciudad!'
+      - 'wait: 600'
+      - 'console_command: execute positioned 300 79 -501 run kill @e[type=item,distance=0..50]'
+      actions10:
+      - 'console_command: broadcast &bSe aproxima un evento en &d&l370 90 518 &bdentro
+        de &d&l5 minutos&b, cerca de la Poblado!'
+      - 'console_command: scoreboard players reset Lugar Eventos'
+      - 'wait: 300'
+      - 'console_command: events start MoneyBomb world 370 103 518'
+      - 'console_command: broadcast &aEl evento &6&lMoney Bomb &aha comenzado en 370 103 518, cerca del Poblado!'
+      - 'wait: 600'
+      - 'console_command: execute positioned 370 103 518 run kill @e[type=item,distance=0..50]'
+      actions11:
+      - 'console_command: broadcast &bSe aproxima un evento en &d&l370 90 518 &bdentro
+        de &d&l5 minutos&b, cerca de la Poblado!'
+      - 'console_command: scoreboard players reset Lugar Eventos'
+      - 'wait: 300'
+      - 'console_command: events start RedRain world 370 88 518'
+      - 'console_command: broadcast &aEl evento &4&lRed Rain &aha comenzado en 370 88 518, cerca del Poblado!'
+      - 'wait: 600'
+      - 'console_command: execute positioned 370 88 518 run kill @e[type=item,distance=0..50]'
+      actions12:
+      - 'console_command: broadcast &bSe aproxima un evento en &d&l370 90 518 &bdentro
+        de &d&l5 minutos&b, cerca de la Poblado!'
+      - 'console_command: scoreboard players reset Lugar Eventos'
+      - 'wait: 300'
+      - 'console_command: events start DJEvent world 370 93 518'
+      - 'console_command: broadcast &aEl evento &d&lAdmin Party &aha comenzado en 370 93 518, cerca del Poblado!'
+      - 'wait: 600'
+      - 'console_command: execute positioned 370 93 518 run kill @e[type=item,distance=0..50]'
+  random_dinero:
+    type: repetitive_server
+    repetitive_time: 18000
+    conditions:
+    - '%random_1_10% == 1'
+    actions:
+      default:
+      - 'console_command: scoreboard players set Money Dinero %random_1_22%'
+  eventos_dinero:
+    type: repetitive_server
+    repetitive_time: 18000
+    conditions:
+    - '%server_online% >= 1'
+    - '%objective_score_Dinero_Money% == 1 execute actions1'
+    - '%objective_score_Dinero_Money% == 2 execute actions2'
+    - '%objective_score_Dinero_Money% == 3 execute actions3'
+    - '%objective_score_Dinero_Money% == 4 execute actions4'
+    - '%objective_score_Dinero_Money% == 5 execute actions5'
+    - '%objective_score_Dinero_Money% == 6 execute actions6'
+    - '%objective_score_Dinero_Money% == 7 execute actions7'
+    - '%objective_score_Dinero_Money% == 8 execute actions8'
+    - '%objective_score_Dinero_Money% == 9 execute actions9'
+    - '%objective_score_Dinero_Money% == 10 execute actions10'
+    - '%objective_score_Dinero_Money% == 11 execute actions11'
+    - '%objective_score_Dinero_Money% == 12 execute actions12'
+    - '%objective_score_Dinero_Money% == 13 execute actions13'
+    - '%objective_score_Dinero_Money% == 14 execute actions14'
+    - '%objective_score_Dinero_Money% == 15 execute actions15'
+    - '%objective_score_Dinero_Money% == 16 execute actions16'
+    - '%objective_score_Dinero_Money% == 17 execute actions17'
+    - '%objective_score_Dinero_Money% == 18 execute actions18'
+    - '%objective_score_Dinero_Money% == 19 execute actions19'
+    - '%objective_score_Dinero_Money% == 20 execute actions20'
+    - '%objective_score_Dinero_Money% == 21 execute actions21'
+    - '%objective_score_Dinero_Money% == 22 execute actions22'
+    actions:
+      actions1:
+      - 'console_command: broadcast &cCobro por Isapre'
+      - 'console_command: eco take * 5000'
+      - 'console_command: scoreboard players reset Money Dinero'
+      actions2:
+      - 'console_command: broadcast &aHas recibido tu retiro del 10%'
+      - 'console_command: eco give * 100000'
+      - 'console_command: scoreboard players reset Money Dinero'
+      actions3:
+      - 'console_command: broadcast &aHas recibido tus 7 lucas del Confort'
+      - 'console_command: eco give * 7000'
+      - 'console_command: scoreboard players reset Money Dinero'
+      actions4:
+      - 'console_command: broadcast &aAlguien se ha suscrito a tu OnlyFans!'
+      - 'console_command: eco give * 5000'
+      - 'console_command: scoreboard players reset Money Dinero'
+      actions5:
+      - 'console_command: broadcast &cSe ha cobrado tu diezmo mensual, que dios te
+        bendiga'
+      - 'console_command: eco take * 5000'
+      - 'console_command: scoreboard players reset Money Dinero'
+      actions6:
+      - 'console_command: broadcast &cSe ha descontado la pensión alimenticia que
+        debes!'
+      - 'console_command: eco take * 10000'
+      - 'console_command: scoreboard players reset Money Dinero'
+      actions7:
+      - 'console_command: broadcast &aHas recibido tu segundo retiro del 10%'
+      - 'console_command: eco give * 100000'
+      - 'console_command: scoreboard players reset Money Dinero'
+      - 'wait: 15'
+      - 'console_command: broadcast &cPiñera ha rechazado el segundo retiro del 10%'
+      - 'console_command: eco take * 100000'
+      - 'console_command: scoreboard players reset Money Dinero'
+      actions8:
+      - 'console_command: broadcast &cHas caído en una Estafa piramidal!'
+      - 'console_command: eco take * 10000'
+      - 'console_command: scoreboard players reset Money Dinero'
+      actions9:
+      - 'console_command: broadcast &aIndemnización por caída del servidor'
+      - 'console_command: eco give * 100'
+      - 'console_command: scoreboard players reset Money Dinero'
+      actions10:
+      - 'console_command: broadcast &2An&kon&2im&ko&2us te ha transfe&krido &2$250&k00'
+      - 'console_command: broadcast &2Este será nuestro secreto'
+      - 'console_command: eco give * 25000'
+      - 'console_command: scoreboard players reset Money Dinero'
+      actions11:
+      - 'console_command: broadcast &aHas recibido tu bono de ayuda a clase media'
+      - 'console_command: eco give * 300000'
+      - 'console_command: scoreboard players reset Money Dinero'
+      actions12:
+      - 'console_command: broadcast &cSe te cayó una moneda!'
+      - 'console_command: eco take * 100'
+      - 'console_command: scoreboard players reset Money Dinero'
+      actions13:
+      - 'console_command: broadcast &cFraude al fisco, descubrieron tu evasión de
+        impuestos'
+      - 'console_command: broadcast &cMulta de 2UTM'
+      - 'console_command: eco take * 60000'
+      - 'console_command: scoreboard players reset Money Dinero'
+      actions14:
+      - 'console_command: broadcast &aHas logrado evadir impuestos de manera efectiva!'
+      - 'console_command: eco give * 50000'
+      - 'console_command: scoreboard players reset Money Dinero'
+      actions15:
+      - 'console_command: broadcast &aTu inversión en trading, contra todo pronóstico,
+        resultó exitosa!'
+      - 'console_command: eco give * 75000'
+      - 'console_command: scoreboard players reset Money Dinero'
+      actions16:
+      - 'console_command: broadcast &cTus acciones cayeron!'
+      - 'console_command: eco take * 50000'
+      - 'console_command: scoreboard players reset Money Dinero'
+      actions17:
+      - 'console_command: broadcast &cTe fuiste a comisión académica!'
+      - 'console_command: eco take * 15000'
+      - 'console_command: scoreboard players reset Money Dinero'
+      actions18:
+      - 'console_command: broadcast &aHas encontrado una moneda descontinuada de 1
+        peso!'
+      - 'console_command: eco give * 1'
+      - 'console_command: scoreboard players reset Money Dinero'
+      actions19:
+      - 'console_command: broadcast &aEl retiro número &kXD&a de las AFP finalmente
+        fue aprobado'
+      - 'console_command: eco give * 100000'
+      - 'console_command: scoreboard players reset Money Dinero'
+      actions20:
+      - 'console_command: broadcast &aLe sacaste un pantallazo a un NFT y lo vendiste
+        como si fuera el auténtico!'
+      - 'console_command: eco give * 250000'
+      - 'console_command: scoreboard players reset Money Dinero'
+      actions21:
+      - 'console_command: broadcast &cDebes compensar el millonario fraude de la familia
+        Edwars a la USM'
+      - 'console_command: eco take * 100000'
+      - 'console_command: scoreboard players reset Money Dinero'
+      actions22:
+      - 'console_command: broadcast &cEn serio le compraste una skin a una supuesta
+        mina solo porque te dijo uwu!?'
+      - 'console_command: eco take * 15000'
+      - 'console_command: scoreboard players reset Money Dinero'
+  libro_encantamientos:
+    type: block_interact
+    conditions:
+    - '%block_x% == 448'
+    - '%block_y% == 83'
+    - '%block_z% == -456'
+    - '%block_world% equals world'
+    - '%block% equals ENCHANTING_TABLE'
+    - '%action_type% equals RIGHT_CLICK or %action_type% equals LEFT_CLICK'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'console_command: ib open encantamientos %player%'
+      - 'wait: 25'
+      - 'console_command: codex unlock %player% history 4'
+  bloquear_comando_plugins:
+    type: player_command
+    conditions:
+    - '%command% contains // or %command% contains /plugins or %command% equals /pl'
+    - '%player_is_op% equals no'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'message: &cNo puedes usar ese comando!'
+  solo_por_consola:
+    type: player_command
+    conditions:
+    - '%command% equals /stop or %command% equals /restart'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'message: &4Solo puedes hacer eso desde la consola!'
+  rango_funa:
+    type: player_chat
+    conditions:
+    - '%luckperms_primary_group_name% equals funa'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'message: &7[&c&lFUNAD@&7-&c&l%player%&7] &k%message%'
+  spawner_extractor:
+    type: block_break
+    conditions:
+    - '%block% equals SPAWNER'
+    - '%item_name% equals Spawner Extractor'
+    - '%item_lore% equals Item de 1 solo uso!'
+    - '%item% equals PRISMARINE_SHARD'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'console_command: minecraft:give %player% spawner 1'
+      - 'console_command: minecraft:clear %player% minecraft:prismarine_shard{HideFlags:1,Enchantments:[{id:"minecraft:unbreaking",lvl:1s}]}
+        1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:creeper"}}]}
+        run give %player% creeper_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:zombie"}}]}
+        run give %player% zombie_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:wither_skeleton"}}]}
+        run give %player% wither_skeleton_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:skeleton"}}]}
+        run give %player% skeleton_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:villager"}}]}
+        run give %player% villager_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:bee"}}]}
+        run give %player% bee_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:spider"}}]}
+        run give %player% spider_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:enderman"}}]}
+        run give %player% enderman_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:bat"}}]}
+        run give %player% bat_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:blaze"}}]}
+        run give %player% blaze_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:cat"}}]}
+        run give %player% cat_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:cave_spider"}}]}
+        run give %player% cave_spider_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:chicken"}}]}
+        run give %player% chicken_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:pig"}}]}
+        run give %player% pig_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:cow"}}]}
+        run give %player% cow_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:cod"}}]}
+        run give %player% cod_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:dolphin"}}]}
+        run give %player% dolphin_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:donkey"}}]}
+        run give %player% donkey_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:drowned"}}]}
+        run give %player% drowned_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:elder_guardian"}}]}
+        run give %player% elder_guardian_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:endermite"}}]}
+        run give %player% endermite_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:evoker"}}]}
+        run give %player% evoker_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:fox"}}]}
+        run give %player% fox_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:ghast"}}]}
+        run give %player% ghast_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:guardian"}}]}
+        run give %player% guardian_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:hoglin"}}]}
+        run give %player% hoglin_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:horse"}}]}
+        run give %player% horse_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:husk"}}]}
+        run give %player% husk_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:llama"}}]}
+        run give %player% llama_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:magma_cube"}}]}
+        run give %player% magma_cube_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:mooshroom"}}]}
+        run give %player% mooshroom_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:mule"}}]}
+        run give %player% mule_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:ocelot"}}]}
+        run give %player% ocelot_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:panda"}}]}
+        run give %player% panda_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:parrot"}}]}
+        run give %player% parrot_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:phantom"}}]}
+        run give %player% phantom_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:piglin"}}]}
+        run give %player% piglin_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:piglin_brute"}}]}
+        run give %player% piglin_brute_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:pillager"}}]}
+        run give %player% pillager_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:polar_bear"}}]}
+        run give %player% polar_bear_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:pufferfish"}}]}
+        run give %player% pufferfish_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:rabbit"}}]}
+        run give %player% rabbit_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:ravager"}}]}
+        run give %player% ravager_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:salmon"}}]}
+        run give %player% salmon_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:sheep"}}]}
+        run give %player% sheep_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:shulker"}}]}
+        run give %player% shulker_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:silverfish"}}]}
+        run give %player% silverfish_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:skeleton_horse"}}]}
+        run give %player% skeleton_horse_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:slime"}}]}
+        run give %player% slime_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:squid"}}]}
+        run give %player% squid_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:stray"}}]}
+        run give %player% stray_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:strider"}}]}
+        run give %player% strider_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:trader_llama"}}]}
+        run give %player% trader_llama_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:tropical_fish"}}]}
+        run give %player% tropical_fish_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:turtle"}}]}
+        run give %player% turtle_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:vex"}}]}
+        run give %player% vex_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:vindicator"}}]}
+        run give %player% vindicator_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:witch"}}]}
+        run give %player% witch_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:wandering_trader"}}]}
+        run give %player% wandering_trader_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:wolf"}}]}
+        run give %player% wolf_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:zoglin"}}]}
+        run give %player% zoglin_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:zombie_horse"}}]}
+        run give %player% zombie_horse_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:zombie_villager"}}]}
+        run give %player% zombie_villager_spawn_egg 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:spawner{SpawnPotentials:[{Entity:{id:"minecraft:zombified_piglin"}}]}
+        run give %player% zombified_piglin_spawn_egg 1'
+      - 'console_command: setblock %block_x% %block_y% %block_z% minecraft:air'
+  logro_tienda_infernal:
+    type: player_join
+    conditions:
+    - '%objective_score_TiendaI% != 1'
+    actions:
+      default:
+      - 'wait: 3'
+      - 'console_command: codex reset %player% regions 4'
+  logro_tienda_oculta:
+    type: player_join
+    conditions:
+    - '%objective_score_TiendaO% != 1'
+    actions:
+      default:
+      - 'wait: 3'
+      - 'console_command: codex reset %player% regions 5'
+  descripcion_mision1:
+    type: block_interact
+    conditions:
+    - '%block_x% == -1270'
+    - '%block_y% == 69'
+    - '%block_z% == -1126'
+    - '%block_world% equals world'
+    - '%block% equals DARK_OAK_WALL_SIGN'
+    - '%action_type% equals RIGHT_CLICK'
+    cooldown: 10
+    actions:
+      default:
+      - 'message: &e-----------&2&lMisión del Gremio&e-----------'
+      - 'message: &e'
+      - 'message: &2Misión: &6&lMenú Diario &2Tipo: &e&oDiaria'
+      - 'message: &aRecompensas:'
+      - 'message: &6&oCaja de Comida x1'
+      - 'message: &5&oPrestigio: &o+1'
+      - 'message: &e'
+      - 'message: &a&oUsa click izquierdo para iniciar la misión'
+      - 'message: &e------------------[&2■&e]------------------'
+  mision_1:
+    type: block_interact
+    conditions:
+    - '%block_x% == -1270'
+    - '%block_y% == 69'
+    - '%block_z% == -1126'
+    - '%block_world% equals world'
+    - '%block% equals DARK_OAK_WALL_SIGN'
+    - '%action_type% equals LEFT_CLICK'
+    cooldown: 86400
+    cooldown_error_message: '&cEspera %time% para volver a iniciar esta misión'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'console_command: quest start %player% 1 -overrideRequirements'
+  descripcion_mision2:
+    type: block_interact
+    conditions:
+    - '%block_x% == -1270'
+    - '%block_y% == 69'
+    - '%block_z% == -1125'
+    - '%block_world% equals world'
+    - '%block% equals DARK_OAK_WALL_SIGN'
+    - '%action_type% equals RIGHT_CLICK'
+    cooldown: 10
+    actions:
+      default:
+      - 'message: &e-----------&2&lMisión del Gremio&e-----------'
+      - 'message: &e'
+      - 'message: &2Misión: &9&lPesca del día &2Tipo: &e&oDiaria'
+      - 'message: &aRecompensas:'
+      - 'message: &9&oHuevo de Tortuga x1'
+      - 'message: &a&oEscama de Tortuga x3'
+      - 'message: &5&oPrestigio: &o+3'
+      - 'message: &e'
+      - 'message: &a&oUsa click izquierdo para iniciar la misión'
+      - 'message: &e------------------[&2■&e]------------------'
+  mision_2:
+    type: block_interact
+    conditions:
+    - '%block_x% == -1270'
+    - '%block_y% == 69'
+    - '%block_z% == -1125'
+    - '%block_world% equals world'
+    - '%block% equals DARK_OAK_WALL_SIGN'
+    - '%action_type% equals LEFT_CLICK'
+    cooldown: 86400
+    cooldown_error_message: '&cEspera %time% para volver a iniciar esta misión'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'console_command: quest start %player% 2 -overrideRequirements'
+  descripcion_mision3:
+    type: block_interact
+    conditions:
+    - '%block_x% == -1270'
+    - '%block_y% == 69'
+    - '%block_z% == -1124'
+    - '%block_world% equals world'
+    - '%block% equals DARK_OAK_WALL_SIGN'
+    - '%action_type% equals RIGHT_CLICK'
+    cooldown: 10
+    actions:
+      default:
+      - 'message: &e-----------&2&lMisión del Gremio&e-----------'
+      - 'message: &e'
+      - 'message: &2Misión: &a&lMinero Humilde &2Tipo: &e&oDiaria'
+      - 'message: &aRecompensas:'
+      - 'message: &b&oPico de Diamante x1'
+      - 'message: &5&oPrestigio: &o+3'
+      - 'message: &e'
+      - 'message: &a&oUsa click izquierdo para iniciar la misión'
+      - 'message: &e------------------[&2■&e]------------------'
+  mision_3:
+    type: block_interact
+    conditions:
+    - '%block_x% == -1270'
+    - '%block_y% == 69'
+    - '%block_z% == -1124'
+    - '%block_world% equals world'
+    - '%block% equals DARK_OAK_WALL_SIGN'
+    - '%action_type% equals LEFT_CLICK'
+    cooldown: 86400
+    cooldown_error_message: '&cEspera %time% para volver a iniciar esta misión'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'console_command: quest start %player% 3 -overrideRequirements'
+  descripcion_mision4:
+    type: block_interact
+    conditions:
+    - '%block_x% == -1270'
+    - '%block_y% == 69'
+    - '%block_z% == -1123'
+    - '%block_world% equals world'
+    - '%block% equals DARK_OAK_WALL_SIGN'
+    - '%action_type% equals RIGHT_CLICK'
+    cooldown: 10
+    actions:
+      default:
+      - 'message: &e-----------&2&lMisión del Gremio&e-----------'
+      - 'message: &e'
+      - 'message: &2Misión: &b&lMinero Experimentado &2Tipo: &e&oDiaria'
+      - 'message: &aRecompensas:'
+      - 'message: &e&oLight Speed Pickaxe x1'
+      - 'message: &5&oPrestigio: &o+5'
+      - 'message: &e'
+      - 'message: &a&oUsa click izquierdo para iniciar la misión'
+      - 'message: &e------------------[&2■&e]------------------'
+  mision_4:
+    type: block_interact
+    conditions:
+    - '%block_x% == -1270'
+    - '%block_y% == 69'
+    - '%block_z% == -1123'
+    - '%block_world% equals world'
+    - '%block% equals DARK_OAK_WALL_SIGN'
+    - '%action_type% equals LEFT_CLICK'
+    cooldown: 86400
+    cooldown_error_message: '&cEspera %time% para volver a iniciar esta misión'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'console_command: quest start %player% 4 -overrideRequirements'
+  descripcion_mision5:
+    type: block_interact
+    conditions:
+    - '%block_x% == -1270'
+    - '%block_y% == 69'
+    - '%block_z% == -1122'
+    - '%block_world% equals world'
+    - '%block% equals DARK_OAK_WALL_SIGN'
+    - '%action_type% equals RIGHT_CLICK'
+    cooldown: 10
+    actions:
+      default:
+      - 'message: &e-----------&2&lMisión del Gremio&e-----------'
+      - 'message: &e'
+      - 'message: &2Misión: &d&lMinero Definitvo &2Tipo: &5&oSemanal'
+      - 'message: &aRecompensas:'
+      - 'message: &d&oUltimate Pickaxe x1'
+      - 'message: &5&oPrestigio: &o+10'
+      - 'message: &e'
+      - 'message: &a&oUsa click izquierdo para iniciar la misión'
+      - 'message: &e------------------[&2■&e]------------------'
+  mision_5:
+    type: block_interact
+    conditions:
+    - '%block_x% == -1270'
+    - '%block_y% == 69'
+    - '%block_z% == -1122'
+    - '%block_world% equals world'
+    - '%block% equals DARK_OAK_WALL_SIGN'
+    - '%action_type% equals LEFT_CLICK'
+    cooldown: 604800
+    cooldown_error_message: '&cEspera %time% para volver a iniciar esta misión'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'console_command: quest start %player% 5 -overrideRequirements'
+  descripcion_mision6:
+    type: block_interact
+    conditions:
+    - '%block_x% == -1270'
+    - '%block_y% == 69'
+    - '%block_z% == -1121'
+    - '%block_world% equals world'
+    - '%block% equals DARK_OAK_WALL_SIGN'
+    - '%action_type% equals RIGHT_CLICK'
+    cooldown: 10
+    actions:
+      default:
+      - 'message: &e-----------&2&lMisión del Gremio&e-----------'
+      - 'message: &e'
+      - 'message: &2Misión: &3&lCacería Acuática &2Tipo: &e&oDiaria'
+      - 'message: &aRecompensas:'
+      - 'message: &b&oLámpara Marina x3'
+      - 'message: &e&oEsponja x1'
+      - 'message: &5&oPrestigio: &o+3'
+      - 'message: &e'
+      - 'message: &a&oUsa click izquierdo para iniciar la misión'
+      - 'message: &e------------------[&2■&e]------------------'
+  mision_6:
+    type: block_interact
+    conditions:
+    - '%block_x% == -1270'
+    - '%block_y% == 69'
+    - '%block_z% == -1121'
+    - '%block_world% equals world'
+    - '%block% equals DARK_OAK_WALL_SIGN'
+    - '%action_type% equals LEFT_CLICK'
+    cooldown: 86400
+    cooldown_error_message: '&cEspera %time% para volver a iniciar esta misión'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'console_command: quest start %player% 6 -overrideRequirements'
+  descripcion_mision7:
+    type: block_interact
+    conditions:
+    - '%block_x% == -1270'
+    - '%block_y% == 68'
+    - '%block_z% == -1126'
+    - '%block_world% equals world'
+    - '%block% equals DARK_OAK_WALL_SIGN'
+    - '%action_type% equals RIGHT_CLICK'
+    cooldown: 10
+    actions:
+      default:
+      - 'message: &e-----------&2&lMisión del Gremio&e-----------'
+      - 'message: &e'
+      - 'message: &2Misión: &9&lJörmundgander Hunter &2Tipo: &e&oDiaria'
+      - 'message: &aRecompensas:'
+      - 'message: &b&oCorazón del mar x1'
+      - 'message: &6&oConcha de Nautilio x1'
+      - 'message: &5&oPrestigio: &o+5'
+      - 'message: &e'
+      - 'message: &a&oUsa click izquierdo para iniciar la misión'
+      - 'message: &e------------------[&2■&e]------------------'
+  mision_7:
+    type: block_interact
+    conditions:
+    - '%block_x% == -1270'
+    - '%block_y% == 68'
+    - '%block_z% == -1126'
+    - '%block_world% equals world'
+    - '%block% equals DARK_OAK_WALL_SIGN'
+    - '%action_type% equals LEFT_CLICK'
+    cooldown: 86400
+    cooldown_error_message: '&cEspera %time% para volver a iniciar esta misión'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'console_command: quest start %player% 7 -overrideRequirements'
+  descripcion_mision8:
+    type: block_interact
+    conditions:
+    - '%block_x% == -1270'
+    - '%block_y% == 68'
+    - '%block_z% == -1125'
+    - '%block_world% equals world'
+    - '%block% equals DARK_OAK_WALL_SIGN'
+    - '%action_type% equals RIGHT_CLICK'
+    cooldown: 10
+    actions:
+      default:
+      - 'message: &e-----------&2&lMisión del Gremio&e-----------'
+      - 'message: &e'
+      - 'message: &2Misión: &c&lBuen@ para la Callampa &2Tipo: &e&oDiaria'
+      - 'message: &aRecompensas:'
+      - 'message: &7&oMicelio x1'
+      - 'message: &5&oPrestigio: &o+2'
+      - 'message: &e'
+      - 'message: &a&oUsa click izquierdo para iniciar la misión'
+      - 'message: &e------------------[&2■&e]------------------'
+  mision_8:
+    type: block_interact
+    conditions:
+    - '%block_x% == -1270'
+    - '%block_y% == 68'
+    - '%block_z% == -1125'
+    - '%block_world% equals world'
+    - '%block% equals DARK_OAK_WALL_SIGN'
+    - '%action_type% equals LEFT_CLICK'
+    cooldown: 86400
+    cooldown_error_message: '&cEspera %time% para volver a iniciar esta misión'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'console_command: quest start %player% 8 -overrideRequirements'
+  descripcion_mision9:
+    type: block_interact
+    conditions:
+    - '%block_x% == -1270'
+    - '%block_y% == 68'
+    - '%block_z% == -1124'
+    - '%block_world% equals world'
+    - '%block% equals DARK_OAK_WALL_SIGN'
+    - '%action_type% equals RIGHT_CLICK'
+    cooldown: 10
+    actions:
+      default:
+      - 'message: &e-----------&2&lMisión del Gremio&e-----------'
+      - 'message: &e'
+      - 'message: &2Misión: &8&lBlackstone Lover &2Tipo: &e&oDiaria'
+      - 'message: &aRecompensas:'
+      - 'message: &6&oGilded Blackstone x3'
+      - 'message: &5&oPrestigio: &o+3'
+      - 'message: &e'
+      - 'message: &a&oUsa click izquierdo para iniciar la misión'
+      - 'message: &e------------------[&2■&e]------------------'
+  mision_9:
+    type: block_interact
+    conditions:
+    - '%block_x% == -1270'
+    - '%block_y% == 68'
+    - '%block_z% == -1124'
+    - '%block_world% equals world'
+    - '%block% equals DARK_OAK_WALL_SIGN'
+    - '%action_type% equals LEFT_CLICK'
+    cooldown: 86400
+    cooldown_error_message: '&cEspera %time% para volver a iniciar esta misión'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'console_command: quest start %player% 9 -overrideRequirements'
+  descripcion_mision10:
+    type: block_interact
+    conditions:
+    - '%block_x% == -1270'
+    - '%block_y% == 68'
+    - '%block_z% == -1123'
+    - '%block_world% equals world'
+    - '%block% equals DARK_OAK_WALL_SIGN'
+    - '%action_type% equals RIGHT_CLICK'
+    cooldown: 10
+    actions:
+      default:
+      - 'message: &e-----------&2&lMisión del Gremio&e-----------'
+      - 'message: &e'
+      - 'message: &2Misión: &a&lGranjero Humilde &2Tipo: &e&oDiaria'
+      - 'message: &aRecompensas:'
+      - 'message: &f&oPolvo de Hueso x32'
+      - 'message: &5&oPrestigio: &o+2'
+      - 'message: &e'
+      - 'message: &a&oUsa click izquierdo para iniciar la misión'
+      - 'message: &e------------------[&2■&e]------------------'
+  mision_10:
+    type: block_interact
+    conditions:
+    - '%block_x% == -1270'
+    - '%block_y% == 68'
+    - '%block_z% == -1123'
+    - '%block_world% equals world'
+    - '%block% equals DARK_OAK_WALL_SIGN'
+    - '%action_type% equals LEFT_CLICK'
+    cooldown: 86400
+    cooldown_error_message: '&cEspera %time% para volver a iniciar esta misión'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'console_command: quest start %player% 10 -overrideRequirements'
+  descripcion_mision11:
+    type: block_interact
+    conditions:
+    - '%block_x% == -1270'
+    - '%block_y% == 68'
+    - '%block_z% == -1122'
+    - '%block_world% equals world'
+    - '%block% equals DARK_OAK_WALL_SIGN'
+    - '%action_type% equals RIGHT_CLICK'
+    cooldown: 10
+    actions:
+      default:
+      - 'message: &e-----------&2&lMisión del Gremio&e-----------'
+      - 'message: &e'
+      - 'message: &2Misión: &b&lGranjero Experimentado &2Tipo: &e&oDiaria'
+      - 'message: &aRecompensas:'
+      - 'message: &6Bloque de Heno x32'
+      - 'message: &e&oHazada de Hierro (Encantada con Harvest III) x1'
+      - 'message: &5&oPrestigio: &o+5'
+      - 'message: &e'
+      - 'message: &a&oUsa click izquierdo para iniciar la misión'
+      - 'message: &e------------------[&2■&e]------------------'
+  mision_11:
+    type: block_interact
+    conditions:
+    - '%block_x% == -1270'
+    - '%block_y% == 68'
+    - '%block_z% == -1122'
+    - '%block_world% equals world'
+    - '%block% equals DARK_OAK_WALL_SIGN'
+    - '%action_type% equals LEFT_CLICK'
+    cooldown: 86400
+    cooldown_error_message: '&cEspera %time% para volver a iniciar esta misión'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'console_command: quest start %player% 11 -overrideRequirements'
+  descripcion_mision12:
+    type: block_interact
+    conditions:
+    - '%block_x% == -1270'
+    - '%block_y% == 68'
+    - '%block_z% == -1121'
+    - '%block_world% equals world'
+    - '%block% equals DARK_OAK_WALL_SIGN'
+    - '%action_type% equals RIGHT_CLICK'
+    cooldown: 10
+    actions:
+      default:
+      - 'message: &e-----------&2&lMisión del Gremio&e-----------'
+      - 'message: &e'
+      - 'message: &2Misión: &d&lGranjero Definitvo &2Tipo: &5&oSemanal'
+      - 'message: &aRecompensas:'
+      - 'message: &b&oHazada de Diamante (Con encantamientos+) x4'
+      - 'message: &d&oLibro Encantado (Reparación)'
+      - 'message: &5&oPrestigio: &o+10'
+      - 'message: &e'
+      - 'message: &a&oUsa click izquierdo para iniciar la misión'
+      - 'message: &e------------------[&2■&e]------------------'
+  mision_12:
+    type: block_interact
+    conditions:
+    - '%block_x% == -1270'
+    - '%block_y% == 68'
+    - '%block_z% == -1121'
+    - '%block_world% equals world'
+    - '%block% equals DARK_OAK_WALL_SIGN'
+    - '%action_type% equals LEFT_CLICK'
+    cooldown: 604800
+    cooldown_error_message: '&cEspera %time% para volver a iniciar esta misión'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'console_command: quest start %player% 12 -overrideRequirements'
+  descripcion_mision13:
+    type: block_interact
+    conditions:
+    - '%block_x% == -1270'
+    - '%block_y% == 67'
+    - '%block_z% == -1126'
+    - '%block_world% equals world'
+    - '%block% equals DARK_OAK_WALL_SIGN'
+    - '%action_type% equals RIGHT_CLICK'
+    cooldown: 10
+    actions:
+      default:
+      - 'message: &e-----------&2&lMisión del Gremio&e-----------'
+      - 'message: &e'
+      - 'message: &2Misión: &c&lDefensor de Aldeas &2Tipo: &5&oSemanal'
+      - 'message: &aRecompensas:'
+      - 'message: &6&oBallesta x1'
+      - 'message: &a&oBloque de Esmeralda x5'
+      - 'message: &5&oPrestigio: &o+7'
+      - 'message: &e'
+      - 'message: &a&oUsa click izquierdo para iniciar la misión'
+      - 'message: &e------------------[&2■&e]------------------'
+  mision_13:
+    type: block_interact
+    conditions:
+    - '%block_x% == -1270'
+    - '%block_y% == 67'
+    - '%block_z% == -1126'
+    - '%block_world% equals world'
+    - '%block% equals DARK_OAK_WALL_SIGN'
+    - '%action_type% equals LEFT_CLICK'
+    cooldown: 604800
+    cooldown_error_message: '&cEspera %time% para volver a iniciar esta misión'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'console_command: quest start %player% 13 -overrideRequirements'
+  descripcion_mision14:
+    type: block_interact
+    conditions:
+    - '%block_x% == -1270'
+    - '%block_y% == 67'
+    - '%block_z% == -1125'
+    - '%block_world% equals world'
+    - '%block% equals DARK_OAK_WALL_SIGN'
+    - '%action_type% equals RIGHT_CLICK'
+    cooldown: 10
+    actions:
+      default:
+      - 'message: &e-----------&2&lMisión del Gremio&e-----------'
+      - 'message: &e'
+      - 'message: &2Misión: &8&lWither Slayer &2Tipo: &5&oSemanal'
+      - 'message: &aRecompensas:'
+      - 'message: &b&oBeacon x1'
+      - 'message: &a&o30 niveles de XP'
+      - 'message: &5&oPrestigio: &o+7'
+      - 'message: &e'
+      - 'message: &a&oUsa click izquierdo para iniciar la misión'
+      - 'message: &e------------------[&2■&e]------------------'
+  mision_14:
+    type: block_interact
+    conditions:
+    - '%block_x% == -1270'
+    - '%block_y% == 67'
+    - '%block_z% == -1125'
+    - '%block_world% equals world'
+    - '%block% equals DARK_OAK_WALL_SIGN'
+    - '%action_type% equals LEFT_CLICK'
+    cooldown: 604800
+    cooldown_error_message: '&cEspera %time% para volver a iniciar esta misión'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'console_command: quest start %player% 14 -overrideRequirements'
+  descripcion_mision15:
+    type: block_interact
+    conditions:
+    - '%block_x% == -1270'
+    - '%block_y% == 67'
+    - '%block_z% == -1124'
+    - '%block_world% equals world'
+    - '%block% equals DARK_OAK_WALL_SIGN'
+    - '%action_type% equals RIGHT_CLICK'
+    cooldown: 10
+    actions:
+      default:
+      - 'message: &e-----------&2&lMisión del Gremio&e-----------'
+      - 'message: &e'
+      - 'message: &2Misión: &d&lPastelero &2Tipo: &e&oDiaria'
+      - 'message: &aRecompensas:'
+      - 'message: &6&oBotella de Miel x4'
+      - 'message: &d&oGalleta x16'
+      - 'message: &5&oPrestigio: &o+3'
+      - 'message: &e'
+      - 'message: &a&oUsa click izquierdo para iniciar la misión'
+      - 'message: &e------------------[&2■&e]------------------'
+  mision_15:
+    type: block_interact
+    conditions:
+    - '%block_x% == -1270'
+    - '%block_y% == 67'
+    - '%block_z% == -1124'
+    - '%block_world% equals world'
+    - '%block% equals DARK_OAK_WALL_SIGN'
+    - '%action_type% equals LEFT_CLICK'
+    cooldown: 86400
+    cooldown_error_message: '&cEspera %time% para volver a iniciar esta misión'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'console_command: quest start %player% 15 -overrideRequirements'
+  descripcion_mision16:
+    type: block_interact
+    conditions:
+    - '%block_x% == -1270'
+    - '%block_y% == 67'
+    - '%block_z% == -1123'
+    - '%block_world% equals world'
+    - '%block% equals DARK_OAK_WALL_SIGN'
+    - '%action_type% equals RIGHT_CLICK'
+    cooldown: 10
+    actions:
+      default:
+      - 'message: &e-----------&2&lMisión del Gremio&e-----------'
+      - 'message: &e'
+      - 'message: &2Misión: &5&lRuptura de Pico &2Tipo: &e&oDiaria'
+      - 'message: &aRecompensas:'
+      - 'message: &d&oObsidiana llorosa x3'
+      - 'message: &5&oPrestigio: &o+2'
+      - 'message: &e'
+      - 'message: &a&oUsa click izquierdo para iniciar la misión'
+      - 'message: &e------------------[&2■&e]------------------'
+  mision_16:
+    type: block_interact
+    conditions:
+    - '%block_x% == -1270'
+    - '%block_y% == 67'
+    - '%block_z% == -1123'
+    - '%block_world% equals world'
+    - '%block% equals DARK_OAK_WALL_SIGN'
+    - '%action_type% equals LEFT_CLICK'
+    cooldown: 86400
+    cooldown_error_message: '&cEspera %time% para volver a iniciar esta misión'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'console_command: quest start %player% 16 -overrideRequirements'
+  descripcion_mision17:
+    type: block_interact
+    conditions:
+    - '%block_x% == -1270'
+    - '%block_y% == 67'
+    - '%block_z% == -1122'
+    - '%block_world% equals world'
+    - '%block% equals DARK_OAK_WALL_SIGN'
+    - '%action_type% equals RIGHT_CLICK'
+    cooldown: 10
+    actions:
+      default:
+      - 'message: &e-----------&2&lMisión del Gremio&e-----------'
+      - 'message: &e'
+      - 'message: &2Misión: &7&lHerrero &2Tipo: &e&oDiaria'
+      - 'message: &aRecompensas:'
+      - 'message: &4&oLingote de Netherite x1'
+      - 'message: &5&oPrestigio: &o+3'
+      - 'message: &e'
+      - 'message: &a&oUsa click izquierdo para iniciar la misión'
+      - 'message: &e------------------[&2■&e]------------------'
+  mision_17:
+    type: block_interact
+    conditions:
+    - '%block_x% == -1270'
+    - '%block_y% == 67'
+    - '%block_z% == -1122'
+    - '%block_world% equals world'
+    - '%block% equals DARK_OAK_WALL_SIGN'
+    - '%action_type% equals LEFT_CLICK'
+    cooldown: 86400
+    cooldown_error_message: '&cEspera %time% para volver a iniciar esta misión'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'console_command: quest start %player% 17 -overrideRequirements'
+  descripcion_mision18:
+    type: block_interact
+    conditions:
+    - '%block_x% == -1270'
+    - '%block_y% == 67'
+    - '%block_z% == -1121'
+    - '%block_world% equals world'
+    - '%block% equals DARK_OAK_WALL_SIGN'
+    - '%action_type% equals RIGHT_CLICK'
+    cooldown: 10
+    actions:
+      default:
+      - 'message: &e-----------&2&lMisión del Gremio&e-----------'
+      - 'message: &e'
+      - 'message: &2Misión: &5&lRuptura de Pico &2Tipo: &e&oDiaria'
+      - 'message: &aRecompensas:'
+      - 'message: &6&oCampana x1'
+      - 'message: &5&oPrestigio: &o+4'
+      - 'message: &e'
+      - 'message: &a&oUsa click izquierdo para iniciar la misión'
+      - 'message: &e------------------[&2■&e]------------------'
+  mision_18:
+    type: block_interact
+    conditions:
+    - '%block_x% == -1270'
+    - '%block_y% == 67'
+    - '%block_z% == -1121'
+    - '%block_world% equals world'
+    - '%block% equals DARK_OAK_WALL_SIGN'
+    - '%action_type% equals LEFT_CLICK'
+    cooldown: 86400
+    cooldown_error_message: '&cEspera %time% para volver a iniciar esta misión'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'console_command: quest start %player% 18 -overrideRequirements'
+  resistencia_y_skin_al_entrar:
+    type: player_join
+    conditions:
+    - '%objective_score_Eventos_Lugar% >= 0 execute actions1'
+    cooldown: 300
+    actions:
+      actions1:
+      - 'console_command: effect give %player% minecraft:resistance 15 100 true'
+      - 'wait: 5'
+      - 'console_command: skin set %player% %player%'
+  piston_normal_a_pegajoso:
+    type: block_interact
+    conditions:
+    - '%block% equals PISTON'
+    - '%action_type% equals RIGHT_CLICK'
+    - '%item% equals SLIME_BALL'
+    actions:
+      default:
+      - 'console_command: minecraft:clear %player% minecraft:slime_ball 1'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:piston[extended=false,facing=up]
+        run setblock %block_x% %block_y% %block_z% minecraft:sticky_piston[facing=up]'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:piston[extended=false,facing=down]
+        run setblock %block_x% %block_y% %block_z% minecraft:sticky_piston[facing=down]'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:piston[extended=false,facing=east]
+        run setblock %block_x% %block_y% %block_z% minecraft:sticky_piston[facing=east]'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:piston[extended=false,facing=west]
+        run setblock %block_x% %block_y% %block_z% minecraft:sticky_piston[facing=west]'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:piston[extended=false,facing=north]
+        run setblock %block_x% %block_y% %block_z% minecraft:sticky_piston[facing=north]'
+      - 'console_command: execute if block %block_x% %block_y% %block_z% minecraft:piston[extended=false,facing=south]
+        run setblock %block_x% %block_y% %block_z% minecraft:sticky_piston[facing=south]'
+  desbloqueo_warp_end:
+    type: player_world_change
+    conditions:
+    - '%statistic_kill_entity:ENDER_DRAGON% >= 1'
+    - '%objective_score_killdragon% != 1'
+    actions:
+      default:
+      - 'wait: 1'
+      - 'console_command: scoreboard players set %player% killdragon 1'
+      - 'message: &6Nuevo warp desbloquado!'
+      - 'message: &7Usa &o/warps &7para verlo'
+  tienda_boost_xp:
+    type: block_interact
+    conditions:
+    - '%block_x% == 408'
+    - '%block_y% == 78'
+    - '%block_z% == -444'
+    - '%block_world% equals world'
+    - '%block% equals LIGHT_WEIGHTED_PRESSURE_PLATE'
+    - '%action_type% equals PHYSICAL'
+    actions:
+      default:
+      - 'player_command_as_op: xpboost gui'
+      - 'console_command: playsound minecraft:entity.player.levelup ambient %player%
+        ~ ~ ~ 1 1 1'
+      - 'console_command: minecraft:tp %player% 408.5 78 -445.5 0 15'
+  random_tp:
+    type: block_interact
+    conditions:
+    - '%block_x% == 426'
+    - '%block_y% == 75'
+    - '%block_z% == -510'
+    - '%block_world% equals world'
+    - '%block% equals LIGHT_WEIGHTED_PRESSURE_PLATE'
+    - '%action_type% equals PHYSICAL'
+    cooldown: 300
+    actions:
+      default:
+      - 'player_command_as_op: wild'
+      - 'console_command: playsound minecraft:entity.enderman.teleport ambient %player%
+        ~ ~ ~ 1 1 1'
+      cooldown:
+      - 'player_command: spawn'
+  bloqueo_colocar_pastel_especial:
+    type: block_place
+    conditions:
+    - '%block% equals CAKE'
+    - '%item_lore% contains Item exclusivo'
+    actions:
+      default:
+      - 'cancel_event: true'
+  evento_pascua2022:
+    type: block_interact
+    conditions:
+    - '%block_world% equals world'
+    - '%block% equals STRUCTURE_VOID'
+    - '%action_type% equals RIGHT_CLICK'
+    - '%thesearch_total_found_objects_pascua% < 70'
+    cooldown: 3
+    actions:
+      default:
+      - 'console_command: lp user %player% parent removetemp vip'
+      - 'console_command: lp user %player% parent addtemp vip %thesearch_total_found_objects_pascua%d'
+  bloqueo_colocar_bloques_especiales:
+    type: block_place
+    conditions:
+    - '%player_item_in_hand_level_DURABILITY% >= 1 or %player_item_in_hand_level_VANISHING_CURSE%
+      >= 1'
+    - '%block% !equals FARMLAND'
+    actions:
+      default:
+      - 'cancel_event: true'
+  bloqueo_colocar_items_especiales:
+    type: block_place
+    conditions:
+    - '%block_world% equals world'
+    - '%block% equals PLAYER_HEAD or %block% equals PLAYER_WALL_HEAD or %block% equals
+      POPPY'
+    - '%item_name% contains Oni or %item_name% contains Ancestral'
+    actions:
+      default:
+      - 'cancel_event: true'
+  bloqueo_lanzar_botellas_xp_especiales:
+    type: item_interact
+    conditions:
+    - '%item% equals EXPERIENCE_BOTTLE'
+    - '%item_name% contains Bottled'
+    actions:
+      default:
+      - 'cancel_event: true'
+  abrir_libro_eventos:
+    type: player_join
+    enabled: false
+    actions:
+      default:
+      - 'wait: 1'
+      - 'console_command: ib open events %player%'
+  comando_lobby:
+    type: player_command
+    conditions:
+    - '%command% equals /lobby'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'send_to_server: lobby'
+  zona_consejera:
+    type: custom
+    custom_event_data:
+      event: net.raidstone.wgevents.events.RegionEnteredEvent
+      variables_to_capture:
+      - '%region%;getRegionName()'
+      player_variable: getPlayer()
+    conditions:
+    - '%region% equals consejera'
+    - '%player% !equals Consejera'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'message: &7[&3&lConsejera&7] &cNo entres en mi zona!'
+  spawn_copper_golem:
+    type: block_interact
+    conditions:
+    - '%block% equals COPPER_BLOCK'
+    - '%action_type% equals RIGHT_CLICK'
+    - '%item% equals LIGHTNING_ROD'
+    - '%player% equals Storbo'
+    actions:
+      default:
+      - 'console_command: minecraft:clear %player% minecraft:lightning_rod 1'
+      - 'console_command: setblock %block_x% %block_y% %block_z% minecraft:air'
+      - 'console_command: particle minecraft:block copper_block %block_x% %block_y%
+        %block_z% 0 0 0 1 20 force'
+      - 'console_command: mm mobs spawn Copper_golem:1 1 world,%block_x%,%block_y%,%block_z%'
+  ingreso_a_fonda:
+    type: custom
+    custom_event_data:
+      event: net.raidstone.wgevents.events.RegionEnteredEvent
+      variables_to_capture:
+      - '%region%;getRegionName()'
+      player_variable: getPlayer()
+    conditions:
+    - '%region% equals evento_18_2022'
+    - '%objective_score_evento18% <= 4 execute actions1'
+    - '%objective_score_evento18% >= 5 execute actions2'
+    actions:
+      actions1:
+      - 'cancel_event: true'
+      - 'message: &cNo tienes permitido el ingreso a la fonda!'
+      - 'message: &6Debes completar la: &oMisión Dieciochera'
+      actions2:
+      - 'console_command: stopsound %player%'
+      - 'title: 20;40;20;#EB2727Bien#2739EBven&fid@;&fa la #EB2727&lTele#2739EB&lfonda
+        &f&l2022'
+      - 'console_command: playsound minecraft:entity.illusioner.death ambient %player%
+        ~ ~ ~ 0.1 1 1'
+  colocar_chupalla:
+    type: item_interact
+    conditions:
+    - '%checkitem_custommodeldata:2,material:wheat,inhand:main,namecontains:Chupalla%
+      equals yes or %checkitem_custommodeldata:1,material:wheat,inhand:main,namecontains:Huaso%
+      equals yes'
+    actions:
+      default:
+      - 'player_command_as_op: hat'
+  entrar_juego_fonda1:
+    type: custom
+    custom_event_data:
+      event: net.raidstone.wgevents.events.RegionEnteredEvent
+      variables_to_capture:
+      - '%region%;getRegionName()'
+      player_variable: getPlayer()
+    conditions:
+    - '%region% equals juego18_flechas'
+    actions:
+      default:
+      - 'console_command: si give arco_practica 1 %player% true'
+      - 'console_command: minecraft:give %player% minecraft:arrow 1'
+  salir_juego_fonda1:
+    type: custom
+    custom_event_data:
+      event: net.raidstone.wgevents.events.RegionLeftEvent
+      variables_to_capture:
+      - '%region%;getRegionName()'
+      player_variable: getPlayer()
+    conditions:
+    - '%region% equals juego18_flechas'
+    actions:
+      default:
+      - 'console_command: si take arco_practica 1 %player% true'
+      - 'console_command: minecraft:clear %player% minecraft:arrow 1'
+  efectos_copete18:
+    type: item_consume
+    conditions:
+    - '%checkitem_lorecontains:experimentos% equals yes or %checkitem_namecontains:&k%
+      equals yes execute actions_experimento'
+    - '%checkitem_custommodeldata:1,material:potion,inhand,namecontains:Báltica% equals
+      yes execute actions_baltica'
+    - '%checkitem_custommodeldata:2,material:potion,inhand,namecontains:Helena% equals
+      yes execute actions_vino_blanco'
+    - '%checkitem_custommodeldata:3,material:potion,inhand,lorecontains:Borrachera%
+      equals yes execute actions_terremoto'
+    - '%checkitem_custommodeldata:4,material:potion,inhand,namecontains:gante% equals
+      yes execute actions_terremoto_gigante'
+    - '%checkitem_custommodeldata:5,material:potion,inhand,namecontains:con Vino%
+      equals yes execute actions_melon_vino'
+    - '%checkitem_custommodeldata:6,material:potion,inhand,namecontains:Pipeño% equals
+      yes execute actions_pipeno'
+    - '%checkitem_custommodeldata:7,material:potion,inhand,namecontains:Vino Tinto%
+      equals yes execute actions_garrafa'
+    - '%checkitem_custommodeldata:8,material:potion,inhand,namecontains:con Huesillo%
+      equals yes execute actions_mote_huesillo'
+    - '%checkitem_custommodeldata:9,material:potion,inhand,namecontains:Granadina%
+      equals yes execute actions_granadina'
+    - '%checkitem_custommodeldata:10,material:potion,inhand,namecontains:Mezcla% equals
+      yes execute actions_mezcla_mortal'
+    actions:
+      actions_baltica:
+      - 'give_potion_effect: POISON;200;1;true'
+      - 'give_potion_effect: LUCK;1200;3;true'
+      - 'give_potion_effect: CONFUSION;400;2;true'
+      - 'wait: 1'
+      - 'console_command: minecraft:clear %player% minecraft:glass_bottle 1'
+      actions_vino_blanco:
+      - 'give_potion_effect: CONFUSION;3600;4;true'
+      - 'give_potion_effect: INCREASE_DAMAGE;3600;2;true'
+      - 'give_potion_effect: SLOW_DIGGING;2400;1;true'
+      - 'give_potion_effect: UNLUCK;3600;2;true'
+      - 'wait: 1'
+      - 'console_command: minecraft:clear %player% minecraft:glass_bottle 1'
+      actions_terremoto:
+      - 'give_potion_effect: LUCK;1800;3;true'
+      - 'give_potion_effect: CONFUSION;1200;2;true'
+      - 'give_potion_effect: SPEED;1200;1;true'
+      - 'give_potion_effect: HUNGER;2400;3;true'
+      - 'give_potion_effect: FAST_DIGGING;12000;8;true'
+      - 'wait: 1'
+      - 'console_command: minecraft:clear %player% minecraft:glass_bottle 1'
+      actions_terremoto_gigante:
+      - 'give_potion_effect: CONFUSION;400;1;false'
+      - 'wait: 1'
+      - 'console_command: minecraft:clear %player% minecraft:glass_bottle 1'
+      - 'wait: 4'
+      - 'message: &7[&fDon Isidro&7] &b%player%?'
+      - 'wait: 2'
+      - 'give_potion_effect: BLINDNESS;250;1;false'
+      - 'wait: 2'
+      - 'message: &7[&fDon Isidro&7] &b%player%!'
+      - 'console_command: scoreboard players set %player% evento18 5'
+      - 'console_command: scoreboard players set %player% chat18 6'
+      - 'wait: 5'
+      - 'console_command: lp user %player% permission set cmd.mision18 true'
+      - 'console_command: minecraft:tp %player% -1734.5 72 2561.99 90 -15'
+      - 'wait: 5'
+      - 'console_command: effect clear %player%'
+      - 'console_command: broadcast &b%player% descubrió la #FF0000&lTele#2739EB&lfonda
+        &f&l2022'
+      - 'console_command: si give la_consentida 1 %player% true'
+      - 'console_command: si give guaton_loyola_chestplate* 1 %player% true'
+      - 'console_command: si give remolino%random_1_3% 1 %player% true'
+      actions_melon_vino:
+      - 'give_potion_effect: LUCK;4800;5;true'
+      - 'give_potion_effect: CONFUSION;1200;3;true'
+      - 'give_potion_effect: SPEED;2400;3;true'
+      - 'give_potion_effect: HUNGER;2400;2;true'
+      - 'give_potion_effect: INCREASE_DAMAGE;2400;1;true'
+      - 'wait: 1'
+      - 'console_command: minecraft:clear %player% minecraft:glass_bottle 1'
+      actions_pipeno:
+      - 'give_potion_effect: CONFUSION;1200;5;true'
+      - 'give_potion_effect: SPEED;600;2;true'
+      - 'give_potion_effect: SLOW_DIGGING;2400;2;true'
+      - 'wait: 1'
+      - 'console_command: minecraft:clear %player% minecraft:glass_bottle 1'
+      actions_garrafa:
+      - 'give_potion_effect: UNLUCK;1200;1;true'
+      - 'give_potion_effect: CONFUSION;3600;10;true'
+      - 'give_potion_effect: SLOW;400;2;true'
+      - 'give_potion_effect: HUNGER;1200;2;true'
+      - 'give_potion_effect: INCREASE_DAMAGE;3600;3;true'
+      - 'wait: 1'
+      - 'console_command: minecraft:clear %player% minecraft:glass_bottle 1'
+      actions_mote_huesillo:
+      - 'give_potion_effect: LUCK;12000;10;true'
+      - 'give_potion_effect: SATURATION;100;3;true'
+      - 'wait: 1'
+      - 'console_command: minecraft:clear %player% minecraft:glass_bottle 1'
+      actions_granadina:
+      - 'give_potion_effect: WEAKNESS;600;1;true'
+      - 'give_potion_effect: JUMP;600;2;true'
+      - 'give_potion_effect: SPEED;600;5;true'
+      - 'give_potion_effect: HUNGER;600;4;true'
+      - 'wait: 1'
+      - 'console_command: minecraft:clear %player% minecraft:glass_bottle 1'
+      actions_experimento:
+      - 'cancel_event: true'
+      - 'message: &cEsto no es bebestible!'
+  conseguir_vaso_gigante:
+    type: block_interact
+    conditions:
+    - '%block_world% equals world'
+    - '%block% equals CHEST'
+    - '%block_x% == -1989'
+    - '%block_y% == 64'
+    - '%block_z% == 8299'
+    - '%checkitem_custommodeldata:1,material:glass_bottle,inhand% equals yes'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'console_command: si take requisito1 10 %player% true'
+      - 'console_command: scoreboard players set %player% evento18 1'
+      - 'message: &b&oVaso Gigante &a✔'
+      - 'console_command: playsound minecraft:entity.player.levelup ambient %player%
+        ~ ~ ~ 1 1 1'
+  eres_digno18:
+    type: repetitive
+    repetitive_time: 20
+    conditions:
+    - '%player_is_inside_vehicle% equals yes'
+    - '%checkitem_custommodeldata:2,material:wheat,inslot:39% equals yes'
+    - '%objective_score_huasismo% < 60 execute actions1'
+    - '%objective_score_huasismo% == 60 execute actions2'
+    actions:
+      actions1:
+      - 'console_command: scoreboard players add %player% huasismo 1'
+      actions2:
+      - 'console_command: scoreboard players add %player% huasismo 1'
+      - 'message: &7[&fDon Manolo&7] &bHas demostrado ser digno...'
+      - 'wait: 3'
+      - 'console_command: si give requisito2 1 %player% true'
+      - 'wait: 5'
+      - 'player_command: warp Mision18'
+  conseguir_pipeno:
+    type: block_interact
+    conditions:
+    - '%block_world% equals world'
+    - '%block% equals CHEST'
+    - '%block_x% == -1989'
+    - '%block_y% == 64'
+    - '%block_z% == 8299'
+    - '%checkitem_custommodeldata:6,material:potion,inhand% equals yes'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'console_command: si take requisito2 10 %player% true'
+      - 'console_command: scoreboard players set %player% evento18 2'
+      - 'message: #FFFF00&oPipeño &a✔'
+      - 'console_command: playsound minecraft:entity.player.levelup ambient %player%
+        ~ ~ ~ 1 1 1'
+  entregar_al_carnicero:
+    type: item_consume
+    conditions:
+    - '%checkitem_custommodeldata:5,material:bread,namecontains:Costillar% equals
+      yes'
+    - '%objective_score_evento18% == 2'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'message: &cDebes entregar esto al carnicero!'
+  conseguir_granadina:
+    type: block_interact
+    conditions:
+    - '%block_world% equals world'
+    - '%block% equals CHEST'
+    - '%block_x% == -1989'
+    - '%block_y% == 64'
+    - '%block_z% == 8299'
+    - '%checkitem_custommodeldata:9,material:potion,inhand% equals yes'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'console_command: si take requisito3 10 %player% true'
+      - 'console_command: scoreboard players set %player% evento18 3'
+      - 'message: #FF0000&oGranadina &a✔'
+      - 'console_command: playsound minecraft:entity.player.levelup ambient %player%
+        ~ ~ ~ 1 1 1'
+  comer_costillar:
+    type: item_consume
+    conditions:
+    - '%checkitem_custommodeldata:3,material:cooked_porkchop,namecontains:Pebre% equals
+      yes'
+    - '%objective_score_evento18% == 3'
+    actions:
+      default:
+      - 'console_command: scoreboard players add %player% choripan 1'
+  conseguir_helado_pina:
+    type: block_interact
+    conditions:
+    - '%block_world% equals world'
+    - '%block% equals CHEST'
+    - '%block_x% == -1989'
+    - '%block_y% == 64'
+    - '%block_z% == 8299'
+    - '%checkitem_custommodeldata:3,material:sweet_berries,inhand% equals yes'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'console_command: si take requisito4 10 %player% true'
+      - 'console_command: scoreboard players set %player% evento18 4'
+      - 'message: #FDFF61&oHelado de Piña &a✔'
+      - 'console_command: playsound minecraft:entity.player.levelup ambient %player%
+        ~ ~ ~ 1 1 1'
+  sonido_aullido: # Halloween
+    type: player_join
+    enabled: false
+    conditions:
+    - '%objective_score_Eventos_Lugar% >= 0 execute actions1'
+    actions:
+      actions1:
+      - 'wait: 20'
+      - 'console_command: playsound minecraft:custom.aullido ambient %player% ~ ~
+        ~ 1 1 1'
+  sonido_latidos: # Halloween
+    type: repetitive
+    repetitive_time: 60
+    enabled: false
+    conditions:
+    - '%player_light_level% <= 4'
+    actions:
+      default:
+      - 'give_potion_effect: BLINDNESS;120;1;false'
+      - 'console_command: playsound minecraft:block.conduit.ambient ambient %player%
+        ~ ~ ~ 1 0.3 1'
+  sonido_mounstros: # Halloween
+    type: player_world_change
+    enabled: false
+    conditions:
+    - '%world_to% equals world_nether'
+    actions:
+      default:
+      - 'wait: 20'
+      - 'console_command: playsound minecraft:custom.mounstros ambient %player% ~
+        ~ ~ 0.1 1'
+  sonido_alerta: # Halloween
+    type: player_world_change
+    enabled: false
+    conditions:
+    - '%world_to% equals world'
+    actions:
+      default:
+      - 'wait: 20'
+      - 'console_command: playsound minecraft:custom.alerta ambient %player% ~ ~ ~
+        0.1 1 1'
+  calabaza_en_la_cabeza: # Halloween
+    type: entity_spawn
+    enabled: false
+    conditions:
+    - '%entity% equals ZOMBIE or %entity% equals SKELETON'
+    actions:
+      default:
+      - 'console_command: minecraft:item replace entity @e[type=minecraft:zombie]
+        armor.head with minecraft:carved_pumpkin'
+      - 'console_command: minecraft:item replace entity @e[type=minecraft:skeleton]
+        armor.head with minecraft:carved_pumpkin'
+  sonido_voces: # Halloween
+    type: repetitive
+    repetitive_time: 100
+    enabled: false
+    conditions:
+    - '%fearfeeling_fear% >= 50 execute actions1'
+    - '%fearfeeling_fear% < 50 execute actions2'
+    actions:
+      actions1:
+      - 'console_command: playsound minecraft:custom.voces ambient %player% ~ ~ ~
+        0.5 1 1'
+      actions2:
+      - 'console_command: stopsound %player% ambient minecraft:custom.voces'
+  sonido_tension: # Halloween
+    type: repetitive
+    repetitive_time: 150
+    cooldown: 10
+    enabled: false
+    conditions:
+    - '%fearfeeling_fear% >= 80 execute actions1'
+    - '%fearfeeling_fear% < 80 execute actions2'
+    actions:
+      actions1:
+      - 'console_command: playsound minecraft:custom.tension ambient %player% ~ ~
+        ~ 1 0.5 1'
+      actions2:
+      - 'console_command: stopsound %player% ambient minecraft:custom.tension'
+  no_puedes_dormir: # Halloween
+    type: player_bed_enter
+    enabled: false
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'actionbar: &cNo puedes dormir! Hay una &4&lpresencia&c a tus espaldas;100'
+  ver_la_presencia: # Halloween
+    type: repetitive
+    repetitive_time: 20
+    enabled: false
+    conditions:
+    - '%is_nearby_461_77_-439_world_0.7% equals true execute actions1'
+    - '%is_nearby_461_77_-439_world_8% equals true execute actions2'
+    actions:
+      actions1:
+      - 'console_command: fear set 90 %player%'
+      - 'console_command: playsound minecraft:custom.violin ambient %player% ~ ~ ~
+        0.1 1 0.1'
+      actions2:
+      - 'console_command: fear change 5 %player%'
+  cabeza_calabaza: # Premio Halloween
+    type: repetitive
+    repetitive_time: 2400
+    enabled: false
+    conditions:
+    - '%checkitem_material:player_head,lorecontains:Saturaci,inslot:39% equals yes'
+    actions:
+      default:
+      - 'message: &a+Saturación'
+      - 'give_potion_effect: SATURATION;20;10;false'
+      - 'console_command: playsound minecraft:entity.generic.eat ambient %player%
+        ~ ~ ~ 1 1 1'
+  musica_dia_halloween: # Halloween
+    type: repetitive
+    repetitive_time: 6000
+    enabled: false
+    conditions:
+    - '%world_time_world% > 0'
+    - '%world_time_world% < 11999'
+    - '%player_world% equals world'
+    - '%objective_score_Halloween_MusicaD% == 1 execute actions1'
+    - '%objective_score_Halloween_MusicaD% == 2 execute actions2'
+    - '%objective_score_Halloween_MusicaD% == 3 execute actions3'
+    actions:
+      actions1:
+      - 'console_command: playsound minecraft:custom.random ambient %player% ~ ~ ~
+        0.1 1 0.1'
+      actions2:
+      - 'console_command: playsound minecraft:custom.mundo1 ambient %player% ~ ~ ~
+        0.1 1 0.1'
+      actions3:
+      - 'console_command: playsound minecraft:custom.mundo2 ambient %player% ~ ~ ~
+        0.1 1 0.1'
+  random_musica_halloween: # Halloween
+    type: repetitive_server
+    repetitive_time: 6000
+    enabled: false
+    conditions:
+    - '%server_online% >= 1'
+    actions:
+      default:
+      - 'console_command: scoreboard players set MusicaD Halloween %random_1_3%'
+      - 'console_command: scoreboard players set MusicaN Halloween %random_1_4%'
+  musica_noche_halloween: # Halloween
+    type: repetitive
+    repetitive_time: 6000
+    enabled: false
+    conditions:
+    - '%world_time_world% > 12000'
+    - '%player_world% equals world'
+    - '%objective_score_Halloween_MusicaN% == 1 execute actions1'
+    - '%objective_score_Halloween_MusicaN% == 2 execute actions2'
+    - '%objective_score_Halloween_MusicaN% == 3 execute actions3'
+    - '%objective_score_Halloween_MusicaN% == 4 execute actions4'
+    actions:
+      actions1:
+      - 'console_command: playsound minecraft:custom.decadencia ambient %player% ~
+        ~ ~ 0.1 1 0.1'
+      actions2:
+      - 'console_command: playsound minecraft:custom.llantos ambient %player% ~ ~
+        ~ 0.1 1 0.1'
+      actions3:
+      - 'console_command: playsound minecraft:custom.noche1 ambient %player% ~ ~ ~
+        0.1 1 0.1'
+      actions4:
+      - 'console_command: playsound minecraft:custom.noche2 ambient %player% ~ ~ ~
+        0.1 1 0.1'
+  musica_nether_halloween: # Halloween
+    type: repetitive
+    repetitive_time: 6000
+    enabled: false
+    conditions:
+    - '%player_world% equals world_nether'
+    - '%objective_score_Halloween_MusicaN% == 1 execute actions1'
+    - '%objective_score_Halloween_MusicaN% == 2 execute actions2'
+    - '%objective_score_Halloween_MusicaN% == 3 execute actions3'
+    - '%objective_score_Halloween_MusicaN% == 4 execute actions4'
+    actions:
+      actions1:
+      - 'console_command: playsound minecraft:custom.llantos ambient %player% ~ ~
+        ~ 0.1 1 0.1'
+      actions2:
+      - 'console_command: playsound minecraft:custom.nether1 ambient %player% ~ ~
+        ~ 0.1 1 0.1'
+      actions3:
+      - 'console_command: playsound minecraft:custom.nether2 ambient %player% ~ ~
+        ~ 0.1 1 0.1'
+      actions4:
+      - 'console_command: playsound minecraft:custom.nether3 ambient %player% ~ ~
+        ~ 0.1 1 0.1'
+  musica_end_halloween: # Halloween
+    type: repetitive
+    repetitive_time: 6000
+    enabled: false
+    conditions:
+    - '%player_world% equals world_the_end'
+    actions:
+      default:
+      - 'console_command: playsound minecraft:custom.end ambient %player% ~ ~ ~ 0.1
+        1 0.1'
+  premios_halloween: # Halloween
+    type: repetitive
+    repetitive_time: 20
+    conditions:
+    - '%checkitem_material:player_head,lorecontains:Regen,inslot:39% equals yes execute
+      actions1'
+    - '%checkitem_material:player_head,lorecontains:Resist,inslot:39% equals yes execute
+      actions2'
+    - '%checkitem_material:player_head,lorecontains:Nocturna,inslot:39% equals yes
+      execute actions3'
+    - '%checkitem_material:player_head,lorecontains:Fuerza,inslot:39% equals yes execute
+      actions4'
+    - '%checkitem_material:player_head,lorecontains:Velocidad,inslot:39% equals yes
+      execute actions5'
+    - '%checkitem_material:player_head,lorecontains:fuego,inslot:39% equals yes execute
+      actions6'
+    - '%checkitem_material:player_head,lorecontains:Veneno y Wither,inslot:39% equals
+      yes execute actions7'
+    actions:
+      actions1:
+      - 'give_potion_effect: REGENERATION;120;1;false'
+      actions2:
+      - 'give_potion_effect: DAMAGE_RESISTANCE;120;1;false'
+      actions3:
+      - 'give_potion_effect: NIGHT_VISION;240;1;false'
+      actions4:
+      - 'give_potion_effect: INCREASE_DAMAGE;120;1;false'
+      actions5:
+      - 'give_potion_effect: SPEED;120;1;false'
+      actions6:
+      - 'give_potion_effect: FIRE_RESISTANCE;120;1;false'
+      actions7:
+      - 'console_command: effect clear %player% minecraft:poison'
+      - 'console_command: effect clear %player% minecraft:wither'
+  interactive_books_reload_and_open:
+    type: item_interact
+    conditions:
+    - '%item% equals BOOK'
+    - '%item_lore%% contains Admin'
+    actions:
+      default:
+      - 'console_command: ib reload'
+      - 'console_command: ib open help %player%'
+Config:
+  update_notification: true
+  data_save_time: 5
+  register_commands: []
+  debug_actions: true

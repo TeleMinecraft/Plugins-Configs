@@ -1,0 +1,36 @@
+timestamps:
+  login: 1632972207260
+  lastteleport: 1632884640971
+  logout: 1632972219194
+lastlocation:
+  world: world
+  x: 3659.773114486301
+  y: 77.0
+  z: 4139.133580645419
+  yaw: 81.73486
+  pitch: 9.260186
+money: '370894.40750000000000115'
+logoutlocation:
+  world: world
+  x: 4270.213010271714
+  y: 69.0
+  z: 6214.037481186528
+  yaw: 217.47705
+  pitch: -1.2854885
+homes:
+  casa1:
+    world: world
+    x: 4273.104676175392
+    y: 69.0
+    z: 6214.370019902764
+    yaw: 119.0708
+    pitch: 17.498854
+  casa2:
+    world: world
+    x: 4394.774939039855
+    y: 11.0
+    z: 5907.024219856797
+    yaw: 112.94901
+    pitch: 8.930792
+ip-address: 207.248.201.75
+last-account-name: dilan01

@@ -1,0 +1,29 @@
+timestamps:
+  login: 1613433770042
+  lastteleport: 1612833701765
+  logout: 1613435214286
+lastlocation:
+  world: world
+  x: 1222.2380579365104
+  y: 64.0
+  z: 1825.9526377969696
+  yaw: -97.62552
+  pitch: -28.536146
+money: '1195202'
+logoutlocation:
+  world: world
+  x: 1287.300000011921
+  y: 69.0
+  z: 1921.3138404768351
+  yaw: 96.60144
+  pitch: 47.55
+homes:
+  home:
+    world: world
+    x: 1274.5878751814932
+    y: 64.0
+    z: 1916.6149225114161
+    yaw: 272.77136
+    pitch: -57.29999
+ip-address: 179.61.98.102
+last-account-name: antolueno

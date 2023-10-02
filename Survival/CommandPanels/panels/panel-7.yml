@@ -1,0 +1,138 @@
+panels:
+  panel-7:
+    perm: default
+    panelType: default
+    rows: 5
+    title: '&2&lTienda de Minerales     &22/3'
+    sound-on-open: BLOCK_NOTE_BLOCK_CHIME
+    command: panel-7
+    item:
+      '0':
+        material: LIME_STAINED_GLASS_PANE
+        name: ''
+      '1':
+        material: LIME_STAINED_GLASS_PANE
+        name: ''
+      '2':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '3':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '4':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '5':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '6':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '7':
+        material: LIME_STAINED_GLASS_PANE
+        name: ''
+      '8':
+        material: LIME_STAINED_GLASS_PANE
+        name: ''
+      '9':
+        material: LIME_STAINED_GLASS_PANE
+        name: ''
+      '17':
+        material: LIME_STAINED_GLASS_PANE
+        name: ''
+      '18':
+        material: BLACK_STAINED_GLASS_PANE
+        name: '&a←'
+        enchanted: 'true'
+        commands:
+        - op= cp panel-5
+      '20':
+        material: REDSTONE
+        name: '&c&lRedstone'
+        lore:
+        - '&7Click derecho para vender por &a$&a15'
+        - '&7Click izquierdo para comprar por &a$&a75'
+        - '&7Manten Shift para comprar o vender &ex64'
+        - '&7%cp-player-name% tienes: &a&o$&a&o%cp-player-balance%'
+        commands:
+        - left= buy= 75 redstone 1
+        - left= op= cp panel-7
+        - right= sell= 15 redstone 1
+        - right= op= cp panel-7
+        - leftshift= buy= 4800 redstone 64
+        - leftshift= op= cp panel-7
+        - rightshift= sell= 960 redstone 64
+        - rightshift= op= cp panel-7
+      '22':
+        material: LAPIS_LAZULI
+        name: '&9&lLapis Lazuli'
+        lore:
+        - '&7Click derecho para vender por &a$&a10'
+        - '&7Click izquierdo para comprar por &a$&a50'
+        - '&7Manten Shift para comprar o vender &ex64'
+        - '&7%cp-player-name% tienes: &a&o$&a&o%cp-player-balance%'
+        commands:
+        - left= buy= 50 lapis_lazuli 1
+        - left= op= cp panel-7
+        - right= sell= 10 lapis_lazuli 1
+        - right= op= cp panel-7
+        - leftshift= buy= 3200 lapis_lazuli 64
+        - leftshift= op= cp panel-7
+        - rightshift= sell= 640 lapis_lazuli 64
+        - rightshift= op= cp panel-7
+      '24':
+        material: QUARTZ
+        name: '&f&lCuarzo'
+        lore:
+        - '&7Click derecho para vender por &a$&a5'
+        - '&7Click izquierdo para comprar por &a$&a25'
+        - '&7Manten Shift para comprar o vender &ex64'
+        - '&7%cp-player-name% tienes: &a&o$&a&o%cp-player-balance%'
+        commands:
+        - left= buy= 25 quartz 1
+        - left= op= cp panel-7
+        - right= sell= 5 quartz 1
+        - right= op= cp panel-7
+        - leftshift= buy= 1600 quartz 64
+        - leftshift= op= cp panel-7
+        - rightshift= sell= 320 quartz 64
+        - rightshift= op= cp panel-7
+      '26':
+        material: BLACK_STAINED_GLASS_PANE
+        name: '&a→'
+        enchanted: 'true'
+        commands:
+        - op= cp panel-8
+      '27':
+        material: LIME_STAINED_GLASS_PANE
+        name: ''
+      '35':
+        material: LIME_STAINED_GLASS_PANE
+        name: ''
+      '36':
+        material: LIME_STAINED_GLASS_PANE
+        name: ''
+      '37':
+        material: LIME_STAINED_GLASS_PANE
+        name: ''
+      '38':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '39':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '40':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '41':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '42':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '43':
+        material: LIME_STAINED_GLASS_PANE
+        name: ''
+      '44':
+        material: LIME_STAINED_GLASS_PANE
+        name: ''

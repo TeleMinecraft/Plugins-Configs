@@ -1,0 +1,29 @@
+timestamps:
+  login: 1623373255364
+  logout: 1623376843445
+  lastteleport: 1623374670396
+lastlocation:
+  world: world
+  x: -2206.4266595329746
+  y: 65.0
+  z: 3172.3076318973967
+  yaw: -285.4511
+  pitch: 8.821274
+logoutlocation:
+  world: world
+  x: -2229.6494333198734
+  y: 75.0
+  z: 3143.699999988079
+  yaw: -82.23982
+  pitch: 22.649998
+money: '807440.18700000000002923'
+homes:
+  home:
+    world: world
+    x: -2234.300000011921
+    y: 72.0
+    z: 3140.5246446713672
+    yaw: -89.88982
+    pitch: 75.60001
+ip-address: 191.100.92.151
+last-account-name: joelopomelo

@@ -1,0 +1,29 @@
+timestamps:
+  login: 1627938473714
+  lastteleport: 1627941278432
+  logout: 1627941747431
+lastlocation:
+  world: world
+  x: 985.3863297377756
+  y: 77.0
+  z: -370.26282787963817
+  yaw: 220.24976
+  pitch: 13.65526
+homes:
+  home:
+    world: world
+    x: 329.34053830606985
+    y: 90.0
+    z: 517.8912226260989
+    yaw: -162.23293
+    pitch: 32.949966
+money: '175940.0'
+logoutlocation:
+  world: world
+  x: 340.43996598899054
+  y: 88.1212968405392
+  z: 507.6557279005688
+  yaw: -56.16372
+  pitch: 14.906764
+ip-address: 190.46.185.95
+last-account-name: EDUX3R

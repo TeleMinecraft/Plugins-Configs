@@ -1,0 +1,29 @@
+timestamps:
+  login: 1629260331200
+  lastteleport: 1629268229078
+  logout: 1629268244114
+lastlocation:
+  world: world
+  x: 4348.3125
+  y: 62.0
+  z: -3466.3125
+  yaw: -151.20651
+  pitch: 87.449974
+money: '1077601.0'
+homes:
+  home:
+    world: world
+    x: 3350.5
+    y: 64.0
+    z: -954.5
+    yaw: 1.3500001
+    pitch: -0.90000015
+logoutlocation:
+  world: world
+  x: 3348.2644135166215
+  y: 64.0625
+  z: -952.9200268113497
+  yaw: -126.14465
+  pitch: 45.00013
+ip-address: 181.73.149.211
+last-account-name: JDMA2000

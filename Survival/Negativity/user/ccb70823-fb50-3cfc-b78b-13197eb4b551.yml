@@ -1,0 +1,23 @@
+playername: frenton_
+lang: es_ES
+minerate-full-mined: 39718
+minerate:
+  diamond: 842
+  gold: 66
+  iron: 467
+  coal: 711
+  ancient debris: 0
+better-click: 36
+cheats:
+  timer: 38
+  pingspoof: 2
+  antiknockback: 1
+  autoclick: 5
+  nuker: 2
+  airplace: 2
+  forcefield: 2
+  fastplace: 1
+  blink: 1
+  nofall: 3
+  speed: 92
+creation-time: 1622959563619

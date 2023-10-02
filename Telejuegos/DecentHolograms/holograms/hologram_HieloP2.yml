@@ -1,0 +1,18 @@
+location: world_ice:-8.550:159.200:3.501
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '#ICON: diamond_shovel'
+    height: 0.6
+  - content: '&d&lONE PUNCH!'
+    height: 0.3
+  - content: Empuje nivel &a5
+    height: 0.3
+  - content: '&e1 &rsolo uso'
+    height: 0.3
+  actions: {}

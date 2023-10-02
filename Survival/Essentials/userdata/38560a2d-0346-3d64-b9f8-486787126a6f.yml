@@ -1,0 +1,29 @@
+timestamps:
+  login: 1612821133928
+  logout: 1612821177756
+  lastteleport: 1612560358972
+lastlocation:
+  world: world
+  x: 301.8981875699096
+  y: 65.0
+  z: -498.08863210231186
+  yaw: -226.06746
+  pitch: -5.2502794
+money: '1214202'
+logoutlocation:
+  world: world
+  x: 1269.6971965974576
+  y: 69.5625
+  z: 1859.1381548458298
+  yaw: -196.9513
+  pitch: 15.000074
+homes:
+  home:
+    world: world
+    x: 1235.014962881691
+    y: 63.0
+    z: 1863.7935548343244
+    yaw: 172.18063
+    pitch: 12.899993
+ip-address: 152.173.74.191
+last-account-name: danidurazno

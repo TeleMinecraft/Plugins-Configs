@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 190.161.68.45
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1687128246421
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1687128969120
+  login: 1687128919594
+money: '0'
+last-account-name: Megaplayer64
+lastlocation:
+  world: 8039c8bf-b4ad-4692-9f73-205fa07ddece
+  world-name: world
+  x: 0.2914877376011107
+  y: 32.03584062504456
+  z: -6.955024904454589
+  yaw: -177.15057373046875
+  pitch: 19.950029373168945
+logoutlocation:
+  world: 8039c8bf-b4ad-4692-9f73-205fa07ddece
+  world-name: world
+  x: 0.0
+  y: 31.2
+  z: -94.5
+  yaw: 0.0
+  pitch: 0.0

@@ -1,0 +1,19 @@
+uuid: 5a9eddf5-d6a9-37bf-8083-3efb0e1714b0
+player_name: Ichi6o05
+wins: 6
+losses: 18
+kills: 8
+deaths: 18
+xp: 54
+pareffect: none
+proeffect: none
+glasscolor: blue
+killsound: none
+winsound: none
+taunt: facilito
+elo: -109
+permissions:
+- sw.taunt.izi
+- sw.taunt.facilito
+- sw.killsound.none
+- sw.glasscolor.blue

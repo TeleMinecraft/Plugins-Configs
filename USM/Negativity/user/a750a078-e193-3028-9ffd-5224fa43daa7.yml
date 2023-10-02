@@ -1,0 +1,16 @@
+playername: Nagaido
+lang: es_ES
+minerate-full-mined: 13718
+minerate:
+  diamond: 12
+  gold: 8
+  iron: 324
+  coal: 699
+  ancient debris: 0
+better-click: 10
+cheats:
+  speed: 1
+  fastladder: 1
+  nuker: 1
+  forcefield: 1
+creation-time: 1644610199860

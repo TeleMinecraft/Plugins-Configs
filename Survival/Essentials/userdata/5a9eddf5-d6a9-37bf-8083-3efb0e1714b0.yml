@@ -1,0 +1,75 @@
+timestamps:
+  login: 1667262228314
+  logout: 1667263713659
+  lastteleport: 1667262804312
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: 11837.946699456445
+  y: 65.0
+  z: 15690.327988117966
+  yaw: -153.31927490234375
+  pitch: 45.00007629394531
+  world-name: world
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: -4371.567312790895
+  y: 64.5625
+  z: 2647.454711647857
+  yaw: -176.56591796875
+  pitch: 36.89997863769531
+  world-name: world
+money: '80859126.53899999999586154'
+homes:
+  diego:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: -4371.472638088417
+    y: 64.0
+    z: 2648.3934181779946
+    yaw: 4.382323741912842
+    pitch: 22.874845504760742
+    world-name: world
+  dani:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: 4898.753986786221
+    y: 101.0
+    z: 1806.145142057685
+    yaw: -83.85098266601562
+    pitch: 55.9500732421875
+    world-name: world
+  comida:
+    world: ddd15208-45ed-42b1-90a4-dbd0adfbea42
+    world-name: world_nether
+    x: 75.6408259060619
+    y: 221.0
+    z: -1464.5367253947081
+    yaw: -91.65026092529297
+    pitch: 86.09996032714844
+  pillagers:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: -3429.235504373833
+    y: 156.0
+    z: 2853.656977245231
+    yaw: -96.30120849609375
+    pitch: 40.649845123291016
+nickname: §4§lIchi6o05
+confirm-pay: false
+ip-address: 45.232.34.177
+last-account-name: Ichi6o05
+lastAccountName: Ichi6o05
+ipAddress: 45.232.34.167
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false

@@ -1,0 +1,45 @@
+bypassLimit: true
+customItem:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2860
+  type: PRISMARINE_SHARD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    ItemFlags:
+    - HIDE_ATTRIBUTES
+repeatable: true
+description: §eDerrota enemigos marinos para obtener una recompensa absorbente
+timer: 3600
+name: §3§lCacería Acuática §2[Gremio]
+endRewards:
+- id: itemReward
+  items:
+  - v: 2860
+    type: SEA_LANTERN
+    amount: 3
+  - v: 2860
+    type: SPONGE
+- id: commandReward
+  commands:
+  - console: true
+    label: scoreboard players add {PLAYER} Prestigio 3
+manager:
+  branches:
+    '0':
+      stages:
+        '0':
+          objects:
+            '0':
+              amount: 3
+              object:
+                factoryName: bukkitEntity
+                value: DROWNED
+            '1':
+              amount: 5
+              object:
+                factoryName: bukkitEntity
+                value: GUARDIAN
+          stageType: MOBS
+      endingStages: {}
+id: 6

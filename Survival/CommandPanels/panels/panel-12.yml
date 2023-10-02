@@ -1,0 +1,580 @@
+panels:
+  panel-12:
+    perm: default
+    rows: 6
+    title: '&6&lSelector de Rangos'
+    item:
+      '0':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: '&f'
+      '1':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: '&f'
+      '3':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&f'
+      '4':
+        material: WHITE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&f'
+      '5':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&f'
+      '6':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&f'
+      '7':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: '&f'
+      '8':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: '&f'
+      '17':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: '&f'
+      '26':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&f'
+      '27':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&f'
+      '35':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&f'
+      '36':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: '&f'
+      '44':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: '&f'
+      '45':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: '&f'
+      '46':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: '&f'
+      '47':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&f'
+      '48':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&f'
+      '49':
+        material: WHITE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&f'
+      '50':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&f'
+      '51':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&f'
+      '52':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: '&f'
+      '53':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: '&f'
+      '10':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTEwZTkyZTAyNThkNzBlYzEzMmI2OTY2NGY1ZjdmMjkyYmZlYzdlMGY3Mjc2ODVhMWQ3OTcwZDEyMjQ5In19fQ==
+        stack: 1
+        name: '$B200A4&lArquitectura'
+        lore:
+        - '&aClick para seleccionar'
+        - ''
+        - '&7Así te verán los otros'
+        - '&7jugadores en el chat:'
+        - '$B200A4Arq&7-$B200A4%cp-player-name%'
+        commands:
+        - console= lp user %cp-player-name% parent add arquitectura
+        - console= lp user %cp-player-name% parent remove astrofisica
+        - console= lp user %cp-player-name% parent remove civil
+        - console= lp user %cp-player-name% parent remove comercial
+        - console= lp user %cp-player-name% parent remove disenoyproductos
+        - console= lp user %cp-player-name% parent remove electrica
+        - console= lp user %cp-player-name% parent remove fisica
+        - console= lp user %cp-player-name% parent remove industrial
+        - console= lp user %cp-player-name% parent remove informatica
+        - console= lp user %cp-player-name% parent remove matematica
+        - console= lp user %cp-player-name% parent remove mecanica
+        - console= lp user %cp-player-name% parent remove minas
+        - console= lp user %cp-player-name% parent remove plancomun
+        - console= lp user %cp-player-name% parent remove quimica
+        - console= lp user %cp-player-name% parent remove telematica
+        - msg= $6BFF6BAhora perteneces al rango $B200A4&lArquitectura
+        - sound= ENTITY_PLAYER_LEVELUP 1 1
+        - cpc
+      '9':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: '&f'
+      '11':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTEwZTkyZTAyNThkNzBlYzEzMmI2OTY2NGY1ZjdmMjkyYmZlYzdlMGY3Mjc2ODVhMWQ3OTcwZDEyMjQ5In19fQ==
+        stack: 1
+        name: '$1B8ACE&lLicenciatura en Astrofísica'
+        lore:
+        - '&aClick para seleccionar'
+        - ''
+        - '&7Así te verán los otros'
+        - '&7jugadores en el chat:'
+        - '$1B8ACEAstro&7-$1B8ACE%cp-player-name%'
+        commands:
+        - console= lp user %cp-player-name% parent remove arquitectura
+        - console= lp user %cp-player-name% parent add astrofisica
+        - console= lp user %cp-player-name% parent remove civil
+        - console= lp user %cp-player-name% parent remove comercial
+        - console= lp user %cp-player-name% parent remove disenoyproductos
+        - console= lp user %cp-player-name% parent remove electrica
+        - console= lp user %cp-player-name% parent remove fisica
+        - console= lp user %cp-player-name% parent remove industrial
+        - console= lp user %cp-player-name% parent remove informatica
+        - console= lp user %cp-player-name% parent remove matematica
+        - console= lp user %cp-player-name% parent remove mecanica
+        - console= lp user %cp-player-name% parent remove minas
+        - console= lp user %cp-player-name% parent remove plancomun
+        - console= lp user %cp-player-name% parent remove quimica
+        - console= lp user %cp-player-name% parent remove telematica
+        - msg= $6BFF6BAhora perteneces al rango $1B8ACE&lLicenciatura en Astrofísica
+        - sound= ENTITY_PLAYER_LEVELUP 1 1
+        - cpc
+      '12':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTI2ZmIxNjlkM2Q3Yjg0OWYwYmI5YTcwZWI3YjQ4MWQ2ZjcxZTk3YzhlY2IxMzU0NmVjOTcyMzgxNDkxNyJ9fX0=
+        stack: 1
+        name: '$091FB9&lIngeniería Civil'
+        lore:
+        - '&aClick para seleccionar'
+        - ''
+        - '&7Así te verán los otros'
+        - '&7jugadores en el chat:'
+        - '$091FB9Civil&7-$091FB9%cp-player-name%'
+        commands:
+        - console= lp user %cp-player-name% parent remove arquitectura
+        - console= lp user %cp-player-name% parent remove astrofisica
+        - console= lp user %cp-player-name% parent add civil
+        - console= lp user %cp-player-name% parent remove comercial
+        - console= lp user %cp-player-name% parent remove disenoyproductos
+        - console= lp user %cp-player-name% parent remove electrica
+        - console= lp user %cp-player-name% parent remove fisica
+        - console= lp user %cp-player-name% parent remove industrial
+        - console= lp user %cp-player-name% parent remove informatica
+        - console= lp user %cp-player-name% parent remove matematica
+        - console= lp user %cp-player-name% parent remove mecanica
+        - console= lp user %cp-player-name% parent remove minas
+        - console= lp user %cp-player-name% parent remove plancomun
+        - console= lp user %cp-player-name% parent remove quimica
+        - console= lp user %cp-player-name% parent remove telematica
+        - msg= $6BFF6BAhora perteneces al rango $091FB9&lIngeniería Civil
+        - sound= ENTITY_PLAYER_LEVELUP 1 1
+        - cpc
+      '13':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTI2ZmIxNjlkM2Q3Yjg0OWYwYmI5YTcwZWI3YjQ4MWQ2ZjcxZTk3YzhlY2IxMzU0NmVjOTcyMzgxNDkxNyJ9fX0=
+        stack: 1
+        name: '$DC3A3A&lIngeniería Comercial'
+        lore:
+        - '&aClick para seleccionar'
+        - ''
+        - '&7Así te verán los otros'
+        - '&7jugadores en el chat:'
+        - '$DC3A3ACom&7-$DC3A3A%cp-player-name%'
+        commands:
+        - console= lp user %cp-player-name% parent remove arquitectura
+        - console= lp user %cp-player-name% parent remove astrofisica
+        - console= lp user %cp-player-name% parent remove civil
+        - console= lp user %cp-player-name% parent add comercial
+        - console= lp user %cp-player-name% parent remove disenoyproductos
+        - console= lp user %cp-player-name% parent remove electrica
+        - console= lp user %cp-player-name% parent remove fisica
+        - console= lp user %cp-player-name% parent remove industrial
+        - console= lp user %cp-player-name% parent remove informatica
+        - console= lp user %cp-player-name% parent remove matematica
+        - console= lp user %cp-player-name% parent remove mecanica
+        - console= lp user %cp-player-name% parent remove minas
+        - console= lp user %cp-player-name% parent remove plancomun
+        - console= lp user %cp-player-name% parent remove quimica
+        - console= lp user %cp-player-name% parent remove telematica
+        - msg= $6BFF6BAhora perteneces al rango $DC3A3A&lIngeniería Comercial
+        - sound= ENTITY_PLAYER_LEVELUP 1 1
+        - cpc
+      '14':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGY5MTU3OWFmY2IzNjViNzZmMjNjNDI3YTU2NDFhNjk3ZTk1NmNjZmRjZTI1YmUxYzYyYzdjNGVmNTU2ZDEifX19
+        stack: 1
+        name: '$DF5DFF&lIngeniería en Diseño y Productos'
+        lore:
+        - '&aClick para seleccionar'
+        - ''
+        - '&7Así te verán los otros'
+        - '&7jugadores en el chat:'
+        - '$DF5DFFIDP&7-$DF5DFF%cp-player-name%'
+        commands:
+        - console= lp user %cp-player-name% parent remove arquitectura
+        - console= lp user %cp-player-name% parent remove astrofisica
+        - console= lp user %cp-player-name% parent remove civil
+        - console= lp user %cp-player-name% parent remove comercial
+        - console= lp user %cp-player-name% parent add disenoyproductos
+        - console= lp user %cp-player-name% parent remove electrica
+        - console= lp user %cp-player-name% parent remove fisica
+        - console= lp user %cp-player-name% parent remove industrial
+        - console= lp user %cp-player-name% parent remove informatica
+        - console= lp user %cp-player-name% parent remove matematica
+        - console= lp user %cp-player-name% parent remove mecanica
+        - console= lp user %cp-player-name% parent remove minas
+        - console= lp user %cp-player-name% parent remove plancomun
+        - console= lp user %cp-player-name% parent remove quimica
+        - console= lp user %cp-player-name% parent remove telematica
+        - msg= $6BFF6BAhora perteneces al rango $DF5DFF&lIngeniería en Diseño y Productos
+        - sound= ENTITY_PLAYER_LEVELUP 1 1
+        - cpc
+      '15':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzFhOGI4NDNkODhkNjM5YTYyYmIzMGE3N2RmMzRmODE5YjQyMzQ3ZTFkNmZlNTM3MmVkY2JlYWU1M2ZhNGE4In19fQ==
+        stack: 1
+        name: '$FFFF00&lIngeniería Civil Eléctrica'
+        lore:
+        - '&aClick para seleccionar'
+        - ''
+        - '&7Así te verán los otros'
+        - '&7jugadores en el chat:'
+        - '$FFFF00Eli&7-$FFFF00%cp-player-name%'
+        commands:
+        - console= lp user %cp-player-name% parent remove arquitectura
+        - console= lp user %cp-player-name% parent remove astrofisica
+        - console= lp user %cp-player-name% parent remove civil
+        - console= lp user %cp-player-name% parent remove comercial
+        - console= lp user %cp-player-name% parent remove disenoyproductos
+        - console= lp user %cp-player-name% parent add electrica
+        - console= lp user %cp-player-name% parent remove fisica
+        - console= lp user %cp-player-name% parent remove industrial
+        - console= lp user %cp-player-name% parent remove informatica
+        - console= lp user %cp-player-name% parent remove matematica
+        - console= lp user %cp-player-name% parent remove mecanica
+        - console= lp user %cp-player-name% parent remove minas
+        - console= lp user %cp-player-name% parent remove plancomun
+        - console= lp user %cp-player-name% parent remove quimica
+        - console= lp user %cp-player-name% parent remove telematica
+        - msg= $6BFF6BAhora perteneces al rango $FFFF00&lIngeniería Civil Eléctrica
+        - sound= ENTITY_PLAYER_LEVELUP 1 1
+        - cpc
+      '16':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTQ0MTNiZGIyYTdlYTI3Y2YzMDNkNzk5ZGRjNjI3ZDZmZWVkNzFiMDE4NzZiOWIxYjBlMDEzYThlMWM2MjQifX19
+        stack: 1
+        name: '$48E12F&lLicenciatura en ciencias Mención Física'
+        lore:
+        - '&aClick para seleccionar'
+        - ''
+        - '&7Así te verán los otros'
+        - '&7jugadores en el chat:'
+        - '$48E12FFis&7-$48E12F%cp-player-name%'
+        commands:
+        - console= lp user %cp-player-name% parent remove arquitectura
+        - console= lp user %cp-player-name% parent remove astrofisica
+        - console= lp user %cp-player-name% parent remove civil
+        - console= lp user %cp-player-name% parent remove comercial
+        - console= lp user %cp-player-name% parent remove disenoyproductos
+        - console= lp user %cp-player-name% parent remove electrica
+        - console= lp user %cp-player-name% parent add fisica
+        - console= lp user %cp-player-name% parent remove industrial
+        - console= lp user %cp-player-name% parent remove informatica
+        - console= lp user %cp-player-name% parent remove matematica
+        - console= lp user %cp-player-name% parent remove mecanica
+        - console= lp user %cp-player-name% parent remove minas
+        - console= lp user %cp-player-name% parent remove plancomun
+        - console= lp user %cp-player-name% parent remove quimica
+        - console= lp user %cp-player-name% parent remove telematica
+        - msg= $6BFF6BAhora perteneces al rango $48E12F&lLicenciatura en ciencias Mención Física
+        - sound= ENTITY_PLAYER_LEVELUP 1 1
+        - cpc
+      '18':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&f'
+      '19':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmU1ZGMzZDY3ZDdjYzQ3ZWU5NWMyMGM0MjAyZWNkOTFkOTFkYzYzNjYwZDgxNDRmODE2Mjg4ODFkN2ZkZTIifX19
+        stack: 1
+        name: '$0BA5A1&lIngeniería Civil Industrial'
+        lore:
+        - '&aClick para seleccionar'
+        - ''
+        - '&7Así te verán los otros'
+        - '&7jugadores en el chat:'
+        - '$0BA5A1Ind&7-$0BA5A1%cp-player-name%'
+        commands:
+        - console= lp user %cp-player-name% parent remove arquitectura
+        - console= lp user %cp-player-name% parent remove astrofisica
+        - console= lp user %cp-player-name% parent remove civil
+        - console= lp user %cp-player-name% parent remove comercial
+        - console= lp user %cp-player-name% parent remove disenoyproductos
+        - console= lp user %cp-player-name% parent remove electrica
+        - console= lp user %cp-player-name% parent remove fisica
+        - console= lp user %cp-player-name% parent add industrial
+        - console= lp user %cp-player-name% parent remove informatica
+        - console= lp user %cp-player-name% parent remove matematica
+        - console= lp user %cp-player-name% parent remove mecanica
+        - console= lp user %cp-player-name% parent remove minas
+        - console= lp user %cp-player-name% parent remove plancomun
+        - console= lp user %cp-player-name% parent remove quimica
+        - console= lp user %cp-player-name% parent remove telematica
+        - msg= $6BFF6BAhora perteneces al rango $0BA5A1&lIngeniería Civil Industrial
+        - sound= ENTITY_PLAYER_LEVELUP 1 1
+        - cpc
+      '20':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmU1ZGMzZDY3ZDdjYzQ3ZWU5NWMyMGM0MjAyZWNkOTFkOTFkYzYzNjYwZDgxNDRmODE2Mjg4ODFkN2ZkZTIifX19
+        stack: 1
+        name: '$9C0053&lIngeniería Civil Informática'
+        lore:
+        - '&aClick para seleccionar'
+        - ''
+        - '&7Así te verán los otros'
+        - '&7jugadores en el chat:'
+        - '$9C0053Info&7-$9C0053%cp-player-name%'
+        commands:
+        - console= lp user %cp-player-name% parent remove arquitectura
+        - console= lp user %cp-player-name% parent remove astrofisica
+        - console= lp user %cp-player-name% parent remove civil
+        - console= lp user %cp-player-name% parent remove comercial
+        - console= lp user %cp-player-name% parent remove disenoyproductos
+        - console= lp user %cp-player-name% parent remove electrica
+        - console= lp user %cp-player-name% parent remove fisica
+        - console= lp user %cp-player-name% parent remove industrial
+        - console= lp user %cp-player-name% parent add informatica
+        - console= lp user %cp-player-name% parent remove matematica
+        - console= lp user %cp-player-name% parent remove mecanica
+        - console= lp user %cp-player-name% parent remove minas
+        - console= lp user %cp-player-name% parent remove plancomun
+        - console= lp user %cp-player-name% parent remove quimica
+        - console= lp user %cp-player-name% parent remove telematica
+        - msg= $6BFF6BAhora perteneces al rango $9C0053&lIngeniería Civil Informática
+        - sound= ENTITY_PLAYER_LEVELUP 1 1
+        - cpc
+      '21':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTE2YWZiMzg1NzI0NzgzOTQ3YTYwNTJjYTI3NThmOWM5MzdjYjgxMzBjMGVhYzFhM2YwNjhkYzU1NDk1MzkzIn19fQ==
+        stack: 1
+        name: '$2A287B&lIngeniería Civil Matemáticas'
+        lore:
+        - '&aClick para seleccionar'
+        - ''
+        - '&7Así te verán los otros'
+        - '&7jugadores en el chat:'
+        - '$2A287BMat&7-$2A287B%cp-player-name%'
+        commands:
+        - console= lp user %cp-player-name% parent remove arquitectura
+        - console= lp user %cp-player-name% parent remove astrofisica
+        - console= lp user %cp-player-name% parent remove civil
+        - console= lp user %cp-player-name% parent remove comercial
+        - console= lp user %cp-player-name% parent remove disenoyproductos
+        - console= lp user %cp-player-name% parent remove electrica
+        - console= lp user %cp-player-name% parent remove fisica
+        - console= lp user %cp-player-name% parent remove industrial
+        - console= lp user %cp-player-name% parent remove informatica
+        - console= lp user %cp-player-name% parent add matematica
+        - console= lp user %cp-player-name% parent remove mecanica
+        - console= lp user %cp-player-name% parent remove minas
+        - console= lp user %cp-player-name% parent remove plancomun
+        - console= lp user %cp-player-name% parent remove quimica
+        - console= lp user %cp-player-name% parent remove telematica
+        - msg= $6BFF6BAhora perteneces al rango $2A287B&lIngeniería Civil Matemáticas
+        - sound= ENTITY_PLAYER_LEVELUP 1 1
+        - cpc
+      '22':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTE2YWZiMzg1NzI0NzgzOTQ3YTYwNTJjYTI3NThmOWM5MzdjYjgxMzBjMGVhYzFhM2YwNjhkYzU1NDk1MzkzIn19fQ==
+        stack: 1
+        name: '$47B43A&lIngeniería Civil Mecánica'
+        lore:
+        - '&aClick para seleccionar'
+        - ''
+        - '&7Así te verán los otros'
+        - '&7jugadores en el chat:'
+        - '$47B43AMec&7-$47B43A%cp-player-name%'
+        commands:
+        - console= lp user %cp-player-name% parent remove arquitectura
+        - console= lp user %cp-player-name% parent remove astrofisica
+        - console= lp user %cp-player-name% parent remove civil
+        - console= lp user %cp-player-name% parent remove comercial
+        - console= lp user %cp-player-name% parent remove disenoyproductos
+        - console= lp user %cp-player-name% parent remove electrica
+        - console= lp user %cp-player-name% parent remove fisica
+        - console= lp user %cp-player-name% parent remove industrial
+        - console= lp user %cp-player-name% parent remove informatica
+        - console= lp user %cp-player-name% parent remove matematica
+        - console= lp user %cp-player-name% parent add mecanica
+        - console= lp user %cp-player-name% parent remove minas
+        - console= lp user %cp-player-name% parent remove plancomun
+        - console= lp user %cp-player-name% parent remove quimica
+        - console= lp user %cp-player-name% parent remove telematica
+        - msg= $6BFF6BAhora perteneces al rango $47B43A&lIngeniería Civil Mecánica
+        - sound= ENTITY_PLAYER_LEVELUP 1 1
+        - cpc
+      '23':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTE2YWZiMzg1NzI0NzgzOTQ3YTYwNTJjYTI3NThmOWM5MzdjYjgxMzBjMGVhYzFhM2YwNjhkYzU1NDk1MzkzIn19fQ==
+        stack: 1
+        name: '$F26E00&lIngeniería Civil de Minas'
+        lore:
+        - '&aClick para seleccionar'
+        - ''
+        - '&7Así te verán los otros'
+        - '&7jugadores en el chat:'
+        - '$F26E00Min&7-$F26E00%cp-player-name%'
+        commands:
+        - console= lp user %cp-player-name% parent remove arquitectura
+        - console= lp user %cp-player-name% parent remove astrofisica
+        - console= lp user %cp-player-name% parent remove civil
+        - console= lp user %cp-player-name% parent remove comercial
+        - console= lp user %cp-player-name% parent remove disenoyproductos
+        - console= lp user %cp-player-name% parent remove electrica
+        - console= lp user %cp-player-name% parent remove fisica
+        - console= lp user %cp-player-name% parent remove industrial
+        - console= lp user %cp-player-name% parent remove informatica
+        - console= lp user %cp-player-name% parent remove matematica
+        - console= lp user %cp-player-name% parent remove mecanica
+        - console= lp user %cp-player-name% parent add minas
+        - console= lp user %cp-player-name% parent remove plancomun
+        - console= lp user %cp-player-name% parent remove quimica
+        - console= lp user %cp-player-name% parent remove telematica
+        - msg= $6BFF6BAhora perteneces al rango $F26E00&lIngeniería Civil de Minas
+        - sound= ENTITY_PLAYER_LEVELUP 1 1
+        - cpc
+      '24':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzI3NDcxMzlmMzM4YTQ2YTQ1OTAzYjc2MzNmMjcwNTAyZDY0ZjA2NjUxNWY0ZDJmOWRlZjgwY2ZmOTExNTBmZiJ9fX0=
+        stack: 1
+        name: '$767676&lPlan Común de Ingeniería'
+        lore:
+        - '&aClick para seleccionar'
+        - ''
+        - '&7Así te verán los otros'
+        - '&7jugadores en el chat:'
+        - '$767676PlanCo&7-$767676%cp-player-name%'
+        commands:
+        - console= lp user %cp-player-name% parent remove arquitectura
+        - console= lp user %cp-player-name% parent remove astrofisica
+        - console= lp user %cp-player-name% parent remove civil
+        - console= lp user %cp-player-name% parent remove comercial
+        - console= lp user %cp-player-name% parent remove disenoyproductos
+        - console= lp user %cp-player-name% parent remove electrica
+        - console= lp user %cp-player-name% parent remove fisica
+        - console= lp user %cp-player-name% parent remove industrial
+        - console= lp user %cp-player-name% parent remove informatica
+        - console= lp user %cp-player-name% parent remove matematica
+        - console= lp user %cp-player-name% parent remove mecanica
+        - console= lp user %cp-player-name% parent remove minas
+        - console= lp user %cp-player-name% parent add plancomun
+        - console= lp user %cp-player-name% parent remove quimica
+        - console= lp user %cp-player-name% parent remove telematica
+        - msg= $6BFF6BAhora perteneces al rango $767676&lPlan Común de Ingeniería
+        - sound= ENTITY_PLAYER_LEVELUP 1 1
+        - cpc
+      '25':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTA4MGE5MjEyMjNkNDVmMmI5ZmJjZDIzNDk5M2Q1M2U3MzQ2NjlmN2Q2N2UyOGI3MzExOWViNzcyNTMyNmEifX19
+        stack: 1
+        name: '$1E9600&lIngeniería Civil Química'
+        lore:
+        - '&aClick para seleccionar'
+        - ''
+        - '&7Así te verán los otros'
+        - '&7jugadores en el chat:'
+        - '$1E9600Qui&7-$1E9600%cp-player-name%'
+        commands:
+        - console= lp user %cp-player-name% parent remove arquitectura
+        - console= lp user %cp-player-name% parent remove astrofisica
+        - console= lp user %cp-player-name% parent remove civil
+        - console= lp user %cp-player-name% parent remove comercial
+        - console= lp user %cp-player-name% parent remove disenoyproductos
+        - console= lp user %cp-player-name% parent remove electrica
+        - console= lp user %cp-player-name% parent remove fisica
+        - console= lp user %cp-player-name% parent remove industrial
+        - console= lp user %cp-player-name% parent remove informatica
+        - console= lp user %cp-player-name% parent remove matematica
+        - console= lp user %cp-player-name% parent remove mecanica
+        - console= lp user %cp-player-name% parent remove minas
+        - console= lp user %cp-player-name% parent remove plancomun
+        - console= lp user %cp-player-name% parent add quimica
+        - console= lp user %cp-player-name% parent remove telematica
+        - msg= $6BFF6BAhora perteneces al rango $1E9600&lIngeniería Civil Química
+        - sound= ENTITY_PLAYER_LEVELUP 1 1
+        - cpc
+      '28':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDQ2ODgxNDFlYzc4ZGVkN2JhZWU1ZmZjOTczOTAyMjRhZTllMjMyNzg1MTRkYmYyODQ1OGJmZWE2MiJ9fX0=
+        stack: 1
+        name: '$00D6E7&lIngeniería Civil Telemática'
+        lore:
+        - '&aClick para seleccionar'
+        - ''
+        - '&7Así te verán los otros'
+        - '&7jugadores en el chat:'
+        - '$00D6E7Tel&7-$00D6E7%cp-player-name%'
+        commands:
+        - console= lp user %cp-player-name% parent remove arquitectura
+        - console= lp user %cp-player-name% parent remove astrofisica
+        - console= lp user %cp-player-name% parent remove civil
+        - console= lp user %cp-player-name% parent remove comercial
+        - console= lp user %cp-player-name% parent remove disenoyproductos
+        - console= lp user %cp-player-name% parent remove electrica
+        - console= lp user %cp-player-name% parent remove fisica
+        - console= lp user %cp-player-name% parent remove industrial
+        - console= lp user %cp-player-name% parent remove informatica
+        - console= lp user %cp-player-name% parent remove matematica
+        - console= lp user %cp-player-name% parent remove mecanica
+        - console= lp user %cp-player-name% parent remove minas
+        - console= lp user %cp-player-name% parent remove plancomun
+        - console= lp user %cp-player-name% parent remove quimica
+        - console= lp user %cp-player-name% parent add telematica
+        - msg= $6BFF6BAhora perteneces al rango $00D6E7&lIngeniería Civil Telemática
+        - sound= ENTITY_PLAYER_LEVELUP 1 1
+        - cpc
+      '43':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWM5OWRmYjI3MDRlMWJkNmU3ZmFjZmI0M2IzZTZmYmFiYWYxNmViYzdlMWZhYjA3NDE3YTZjNDY0ZTFkIn19fQ==
+        stack: 1
+        name: '&f&lInvitado'
+        lore:
+        - '&aClick para seleccionar'
+        - ''
+        - '&7Si eres una persona'
+        - '&7externa a la USM o no'
+        - '&7eres un estudiante,'
+        - '&7selecciona este rango.'
+        - ''
+        - '&7&oSi tu carrera no está'
+        - '&7&oen la lista, avisa a'
+        - '&7&olos &9&oAdministradores'
+        - '&7&oa través del Discord.'
+        commands:
+        - console= lp user %cp-player-name% parent remove arquitectura
+        - console= lp user %cp-player-name% parent remove astrofisica
+        - console= lp user %cp-player-name% parent remove civil
+        - console= lp user %cp-player-name% parent remove comercial
+        - console= lp user %cp-player-name% parent remove disenoyproductos
+        - console= lp user %cp-player-name% parent remove electrica
+        - console= lp user %cp-player-name% parent remove fisica
+        - console= lp user %cp-player-name% parent remove industrial
+        - console= lp user %cp-player-name% parent remove informatica
+        - console= lp user %cp-player-name% parent remove matematica
+        - console= lp user %cp-player-name% parent remove mecanica
+        - console= lp user %cp-player-name% parent remove minas
+        - console= lp user %cp-player-name% parent remove plancomun
+        - console= lp user %cp-player-name% parent remove quimica
+        - console= lp user %cp-player-name% parent remove telematica
+        - msg= $6BFF6BAhora no perteneces a ningún rango de carrera. 
+        - sound= ENTITY_PLAYER_LEVELUP 1 1
+        - cpc
+      '2':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: '&f'

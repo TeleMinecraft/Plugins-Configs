@@ -1,0 +1,24 @@
+location: world:12.500:33.000:-54.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: <#ffff00>&lLugares Especiales</#0DDE00>
+    height: 0.3
+  - content: '&fEn estos lugares podrás'
+    height: 0.3
+  - content: '&fencontrar &6Informaciones&f, &aTiendas&f,'
+    height: 0.3
+  - content: '&9Consejos&f, &dVendedores &fy más!'
+    height: 0.3
+  - content: '&fUsa &b&o/warps &fpara ver todas'
+    height: 0.3
+  - content: '&festas &nzonas especiales&f y'
+    height: 0.3
+  - content: '&fteletransportarte a ellas.'
+    height: 0.3
+  actions: {}

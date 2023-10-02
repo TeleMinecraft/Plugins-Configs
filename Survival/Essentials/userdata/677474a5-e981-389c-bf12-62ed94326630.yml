@@ -1,0 +1,29 @@
+timestamps:
+  login: 1597551568631
+  lastteleport: 1597551164604
+  logout: 1597552674459
+lastlocation:
+  world: world
+  x: 402.5071118898006
+  y: 84.49520087700593
+  z: 515.8279588380985
+  yaw: 171.64552
+  pitch: 14.250073
+logoutlocation:
+  world: world
+  x: 3689.0358211002895
+  y: 64.0
+  z: -1523.873594332892
+  yaw: 123.44818
+  pitch: 17.999968
+money: '1213102.0'
+homes:
+  home:
+    world: world
+    x: 3689.093088098518
+    y: 68.0
+    z: -1520.0496544658283
+    yaw: -135.75194
+    pitch: 11.099915
+ip-address: 190.163.211.190
+last-account-name: One_Maverick

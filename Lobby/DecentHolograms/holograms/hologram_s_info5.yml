@@ -1,0 +1,24 @@
+location: world:-15.500:33.000:-54.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '#ENTITY: AXOLOTL'
+    height: 0.5699999868869782
+  - content: <#ffff00>&lMobs Especiales</#0DDE00>
+    height: 0.3
+  - content: '&fA lo largo del mundo,'
+    height: 0.3
+  - content: '&fte encontrarás con muchos'
+    height: 0.3
+  - content: '&6&lMobs Especiales&f, éstos'
+    height: 0.3
+  - content: '&ftienen características &núnicas&f y'
+    height: 0.3
+  - content: '&falgunos incluso, tienen &5&lPoderes&f!'
+    height: 0.3
+  actions: {}

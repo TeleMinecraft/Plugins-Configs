@@ -1,0 +1,24 @@
+location: world:454.500:80.500:504.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&4&lTop cantidad'
+    height: 0.3
+  - content: '&4&lde Muertes'
+    height: 0.3
+  - content: '&4&lI. &c&l%ajlb_lb_statistic_deaths_1_alltime_name% &4&l%ajlb_lb_statistic_deaths_1_alltime_value%'
+    height: 0.3
+  - content: '&4&lII. &c&l%ajlb_lb_statistic_deaths_2_alltime_name% &4&l%ajlb_lb_statistic_deaths_2_alltime_value%'
+    height: 0.3
+  - content: '&4&lIII. &c&l%ajlb_lb_statistic_deaths_3_alltime_name% &4&l%ajlb_lb_statistic_deaths_3_alltime_value%'
+    height: 0.3
+  - content: '&4IV. &c%ajlb_lb_statistic_deaths_4_alltime_name% &4%ajlb_lb_statistic_deaths_4_alltime_value%'
+    height: 0.3
+  - content: '&4V. &c%ajlb_lb_statistic_deaths_5_alltime_name% &4%ajlb_lb_statistic_deaths_5_alltime_value%'
+    height: 0.3
+  actions: {}

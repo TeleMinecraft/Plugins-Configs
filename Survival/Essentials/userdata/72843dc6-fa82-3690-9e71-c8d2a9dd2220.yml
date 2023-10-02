@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 186.20.7.224
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1659326254355
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1659327486722
+  login: 1659327441762
+money: '1000'
+last-account-name: CrgioMoreno
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: -250.75228836139897
+  y: 79.0
+  z: 531.5365768284901
+  yaw: -36.150390625
+  pitch: 50.700130462646484
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: -253.2513120804798
+  y: 63.0
+  z: 533.3206652577848
+  yaw: 83.741455078125
+  pitch: 8.849987983703613
+homes:
+  home:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: -215.1972930183814
+    y: 63.0
+    z: 524.742817413467
+    yaw: -5.3572998046875
+    pitch: 22.94995880126953

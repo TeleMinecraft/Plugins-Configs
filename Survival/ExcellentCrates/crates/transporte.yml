@@ -1,0 +1,228 @@
+Name: '&7&lCaja de Transportes'
+Animation_Config: csgo_auto
+Preview_Config: default
+Permission_Required: false
+Attached_Citizens: ''
+Opening:
+  Cooldown: 1
+  Cost:
+    MONEY: 0.0
+    EXP: 0.0
+Key:
+  Ids: []
+Block:
+  Locations: []
+  Pushback:
+    Enabled: false
+  Hologram:
+    Enabled: false
+    Offset:
+      Y: 1.5
+    Text:
+    - '&c&lMYSTERY CRATE'
+    - '&7Buy a key at &cwww.myserver.com&c'
+  Effect:
+    Model: SIMPLE
+    Particle:
+      Name: FLAME
+      Data: ''
+Rewards:
+  List:
+    '1':
+      Name: '&7&lRiel'
+      Chance: 20.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip001pmmirj5cdp62pjk79p62qbc0400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip001pmmirj5cdp62pjk79p62qbc0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '2':
+      Name: '&7&lRiel Activador'
+      Chance: 20.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip0031mmirj5cdp62pjk79gm6t39epgn8rribtp62qbc0400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip0031mmirj5cdp62pjk79gm6t39epgn8rribtp62qbc0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '3':
+      Name: '&7&lRiel Detector'
+      Chance: 20.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400bmqqbeclhn4ob6egt68pbkclhn8rribtp62qbc0400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400bmqqbeclhn4ob6egt68pbkclhn8rribtp62qbc0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '10':
+      Name: '&7&lPoción de Velocidad'
+      Chance: 20.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800gdlkmspb3e9gmct1qe1nn8qbfdo5000rkc5jgg006a1nn8qbfdo01krb9dpim6sj1cpq3ksrke9nmspqvedrmipjkdpin6so00400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800gdlkmspb3e9gmct1qe1nn8qbfdo5000rkc5jgg006a1nn8qbfdo01krb9dpim6sj1cpq3ksrke9nmspqvedrmipjkdpin6so00400agrfeln78080
+      Ignored_For_Permissions: []
+    '4':
+      Name: '&7&lRiel Propulsor'
+      Chance: 15.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01crb9dpim6sj1cpq3ks3fetin4pb4btp62qbc0400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01crb9dpim6sj1cpq3ks3fetin4pb4btp62qbc0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '5':
+      Name: '&7&lEnderpearl'
+      Chance: 15.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i005bdd5n6aoric5j78ej5dpi6asive1im2sjc0400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i005bdd5n6aoric5j78ej5dpi6asive1im2sjc0400agrfeln78180
+      Ignored_For_Permissions: []
+    '6':
+      Name: '&7&lMontura'
+      Chance: 15.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i0043dd5n6aoric5j78ejjc5i68r350400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i0043dd5n6aoric5j78ejjc5i68r350400agrfeln78080
+      Ignored_For_Permissions: []
+    '7':
+      Name: '&7&lArmadura de Hierro para Caballo'
+      Chance: 15.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i006jdd5n6aoric5j78ej9e9nmsnr8dtp76pavc5p6qrri0400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i006jdd5n6aoric5j78ej9e9nmsnr8dtp76pavc5p6qrri0400agrfeln78080
+      Ignored_For_Permissions: []
+    '8':
+      Name: '&7&lArmadura de Oro para Caballo'
+      Chance: 15.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400e6qqbeclhn4ob6egt6errcchimsnr8dtp76pavc5p6qrri0400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400e6qqbeclhn4ob6egt6errcchimsnr8dtp76pavc5p6qrri0400agrfeln78080
+      Ignored_For_Permissions: []
+    '9':
+      Name: '&7&lArmadura de Diamante para Caballo'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip003lmmirj5cdp62pjk79i6iobddtn68nr8dtp76pavc5p6qrri0400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip003lmmirj5cdp62pjk79i6iobddtn68nr8dtp76pavc5p6qrri0400agrfeln78080
+      Ignored_For_Permissions: []
+    '11':
+      Name: '&7&lAfinidad Acuática'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i0063dd5n6aoric5j78ej5dphmgobeehim8nr2dtnmm2g00dq62po900956t3fe9im8hbecdk62rjkdlimst3j1800000110004qb400bmqqbeclhn4ob6egt62sblc5fm2pj6d5n6it3p08006r3mdg0020000400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i0063dd5n6aoric5j78ej5dphmgobeehim8nr2dtnmm2g00dq62po900956t3fe9im8hbecdk62rjkdlimst3j1800000110004qb400bmqqbeclhn4ob6egt62sblc5fm2pj6d5n6it3p08006r3mdg0020000400agrfeln78080
+      Ignored_For_Permissions: []
+    '12':
+      Name: '&7&lVelocidad de Almas III'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400c6qqbeclhn4ob6egt6arj3d1gmst35chfm4rrfdc5000rkc5jgi00iadq6usj5ch2msor8c5n78rb5dpq762g00000220009km800kdlkmspb3e9gmct1qednnar2vedo6apb408006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400c6qqbeclhn4ob6egt6arj3d1gmst35chfm4rrfdc5000rkc5jgi00iadq6usj5ch2msor8c5n78rb5dpq762g00000220009km800kdlkmspb3e9gmct1qednnar2vedo6apb408006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+    '13':
+      Name: '&b&lSuggar Rush'
+      Chance: 5.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb40086qqbeclhn4ob6egt70rrkd5nms2g00dq62po9009k6tbjehnmqk3fehkmuri5cpj6aorkec500000040g03ajd1nnek31e9q6iorcclpg2080094m808300448tbic5q6irre0000p00100456q3fet4m6rre040g02a1dlo6oqb6d5in40o1003k2rb2d5imst00005001r4d5pn0r31f440012ec5mma01bfch6au3ke9gi4eirfch78pboegh3k8ijeljm2sh0a9qn6q12fleio8jkcls788hq48h7q003008k6tbjehnmqk3fehkmuri3dtm6usg0vjaac2000p86ut39dtn003rdd5n6aoric5j78ej5dlo78u800400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb40086qqbeclhn4ob6egt70rrkd5nms2g00dq62po9009k6tbjehnmqk3fehkmuri5cpj6aorkec500000040g03ajd1nnek31e9q6iorcclpg2080094m808300448tbic5q6irre0000p00100456q3fet4m6rre040g02a1dlo6oqb6d5in40o1003k2rb2d5imst00005001r4d5pn0r31f440012ec5mma01bfch6au3ke9gi4eirfch78pboegh3k8ijeljm2sh0a9qn6q12fleio8jkcls788hq48h7q003008k6tbjehnmqk3fehkmuri3dtm6usg0vjaac2000p86ut39dtn003rdd5n6aoric5j78ej5dlo78u800400agrfeln78080
+      Ignored_For_Permissions: []
+    '16':
+      Name: '&b&lTraveler Trident'
+      Chance: 5.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip0025mmirj5cdp62pjk79q74qb4cln782g00dq62po300348obdc5jma0000000i00c8ln66q31dpq6qpbeehpgk000001gg002d5i004bdd5n6aoric5j78ejdcln68qbecs1000rcepm0008010004qb4008mqqbeclhn4ob6egt74qbgehkm8p82001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip0025mmirj5cdp62pjk79q74qb4cln782g00dq62po300348obdc5jma0000000i00c8ln66q31dpq6qpbeehpgk000001gg002d5i004bdd5n6aoric5j78ejdcln68qbecs1000rcepm0008010004qb4008mqqbeclhn4ob6egt74qbgehkm8p82001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+    '14':
+      Name: '&b&lElytra'
+      Chance: 3.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i0043dd5n6aoric5j78ej5dhsn8sj118006t31cs1g01i4c5mm2pr5000000000400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i0043dd5n6aoric5j78ej5dhsn8sj118006t31cs1g01i4c5mm2pr5000000000400agrfeln78080
+      Ignored_For_Permissions: []
+    '15':
+      Name: '&b&lSonic Boots'
+      Chance: 1.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip002tmmirj5cdp62pjk79i6iobddtn68nr2dtnn8soa001n8ob71400ohbecdk62rjkdlimst3j1800000110004qb400a6qqbeclhn4ob6egt7arj2e9im2qr9dpjg4003dhr6o000005001r4d5pn0r31f44g012cdtp6a2000000204gfch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24pric5si4b12ehingt1278h56s35cli20iam49ulqb12ehingt1278h24v800c00ch31dlgmep80000000o01546ip358pm62prj000000800400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip002tmmirj5cdp62pjk79i6iobddtn68nr2dtnn8soa001n8ob71400ohbecdk62rjkdlimst3j1800000110004qb400a6qqbeclhn4ob6egt7arj2e9im2qr9dpjg4003dhr6o000005001r4d5pn0r31f44g012cdtp6a2000000204gfch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24pric5si4b12ehingt1278h56s35cli20iam49ulqb12ehingt1278h24v800c00ch31dlgmep80000000o01546ip358pm62prj000000800400agrfeln78080
+      Ignored_For_Permissions: []
+Item:
+  Material: CHEST
+  Name: '&7&lCaja de Transportes'
+  Lore:
+  - '&7Click izquierdo para ver los premios'
+  - '&aClick derecho para abrir!'

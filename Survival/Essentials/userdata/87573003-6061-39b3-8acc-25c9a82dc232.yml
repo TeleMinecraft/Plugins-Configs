@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 181.42.21.135
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1693290513999
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1693342026043
+  login: 1693340440705
+money: '90489.0'
+last-account-name: alelau5
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 441.85023627048133
+  y: 76.0
+  z: 524.5834512187282
+  yaw: 149.0819854736328
+  pitch: 16.800004959106445
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: -312.6089135834764
+  y: 89.0
+  z: -46.966397659512914
+  yaw: 57.00177001953125
+  pitch: 7.350299835205078

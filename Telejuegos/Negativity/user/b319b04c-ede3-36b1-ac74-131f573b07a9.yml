@@ -1,0 +1,29 @@
+playername: Storbo
+lang: es_ES
+minerate-full-mined: 35071
+minerate:
+  diamond: 24
+  gold: 2
+  iron: 47
+  coal: 12
+  ancient debris: 0
+better-click: 22
+cheats:
+  fastladder: 1
+  forcefield: 3
+  blink: 2
+  noslowdown: 1
+  speed: 1
+  timer: 13
+  noweb: 2
+  antiknockback: 2
+  inventorymove: 2
+  fly: 5
+  chat: 2
+  airplace: 4
+  airjump: 3
+  step: 1
+  nofall: 5
+  spider: 2
+  faststairs: 1
+creation-time: 1614464721143

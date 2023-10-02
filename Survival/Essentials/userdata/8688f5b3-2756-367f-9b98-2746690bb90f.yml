@@ -1,0 +1,55 @@
+timestamps:
+  login: 1680991892702
+  lastteleport: 1621231150448
+  logout: 1680992059664
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+lastlocation:
+  world: world
+  x: 3460.699999988079
+  y: 21.0
+  z: 4453.300000011921
+  yaw: 6.812319278717041
+  pitch: -8.719866752624512
+  world-name: ''
+money: '983002'
+homes:
+  home:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: 3431.699999988079
+    y: 38.0
+    z: 4498.502638202101
+    yaw: -268.5244140625
+    pitch: 13.94997501373291
+    world-name: world
+  discs:
+    world: world
+    x: 3459.5457749158695
+    y: 22.875
+    z: 4478.541453464869
+    yaw: -166.13768005371094
+    pitch: 5.980134963989258
+    world-name: ''
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: 3430.300000011921
+  y: 38.0
+  z: 4498.508801636293
+  yaw: 84.51204681396484
+  pitch: 20.171875
+  world-name: world
+ip-address: 201.223.222.49
+last-account-name: BigChain
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false

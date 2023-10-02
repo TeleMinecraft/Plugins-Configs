@@ -1,0 +1,5 @@
+2022-08-09 00:04:09.323: (0ms) 92% AUTOCLICK > Clicks in one second: 37; Last second: 0; Better click in one second: 1 Ping: 0. Player version: V1_18. TPS: [20.000032859720655, 20.0000050984013, 20.000002972911552]
+2022-08-09 00:04:09.323: (0ms) 95% AUTOCLICK > Clicks in one second: 38; Last second: 0; Better click in one second: 1 Ping: 0. Player version: V1_18. TPS: [20.000032859720655, 20.0000050984013, 20.000002972911552]
+2022-08-09 00:04:09.323: (0ms) 97% AUTOCLICK > Clicks in one second: 39; Last second: 0; Better click in one second: 1 Ping: 0. Player version: V1_18. TPS: [20.000032859720655, 20.0000050984013, 20.000002972911552]
+2022-08-09 00:04:09.323: (0ms) 100% AUTOCLICK > Clicks in one second: 40; Last second: 0; Better click in one second: 1 Ping: 0. Player version: V1_18. TPS: [20.000032859720655, 20.0000050984013, 20.000002972911552]
+2022-08-09 00:04:09.324: (0ms) 100% AUTOCLICK > Clicks in one second: 41; Last second: 0; Better click in one second: 1 Ping: 0. Player version: V1_18. TPS: [20.000032859720655, 20.0000050984013, 20.000002972911552]

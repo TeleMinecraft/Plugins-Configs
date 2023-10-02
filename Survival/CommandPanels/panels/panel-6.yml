@@ -1,0 +1,3970 @@
+panels:
+  panel-6:
+    perm: default
+    panelType: default
+    rows: 5
+    title: '&0&l&k aaa &6&lCompra Cambiante&0&l&k aaa'
+    sound-on-open: BLOCK_NOTE_BLOCK_CHIME
+    command: panel-6
+    item:
+      '2':
+        material: BLACK_STAINED_GLASS_PANE
+        name: '&0'
+      '3':
+        material: BLACK_STAINED_GLASS_PANE
+        name: '&0'
+      '4':
+        material: BLACK_STAINED_GLASS_PANE
+        name: §6§lNuevas ofertas cada 3 horas!
+        enchanted: 'true'
+      '5':
+        material: BLACK_STAINED_GLASS_PANE
+        name: '&0'
+      '6':
+        material: BLACK_STAINED_GLASS_PANE
+        name: '&0'
+      '18':
+        material: BLACK_STAINED_GLASS_PANE
+        name: '&0'
+      '26':
+        material: BLACK_STAINED_GLASS_PANE
+        name: '&0'
+      '38':
+        material: BLACK_STAINED_GLASS_PANE
+        name: '&0'
+      '39':
+        material: BLACK_STAINED_GLASS_PANE
+        name: '&0'
+      '40':
+        material: BLACK_STAINED_GLASS_PANE
+        name: '§7%cp-player-displayname%'
+        enchanted: 'true'
+        lore:
+        - '&7Tienes: &a&o$&a&o%cp-player-balance%'
+      '41':
+        material: BLACK_STAINED_GLASS_PANE
+        name: '&0'
+      '42':
+        material: BLACK_STAINED_GLASS_PANE
+        name: '&0'
+      '0':
+        material: ORANGE_STAINED_GLASS_PANE
+        name: '&0'
+      '1':
+        material: ORANGE_STAINED_GLASS_PANE
+        name: '&0'
+      '7':
+        material: ORANGE_STAINED_GLASS_PANE
+        name: '&0'
+      '8':
+        material: ORANGE_STAINED_GLASS_PANE
+        name: '&0'
+      '9':
+        material: ORANGE_STAINED_GLASS_PANE
+        name: '&0'
+      '17':
+        material: ORANGE_STAINED_GLASS_PANE
+        name: '&0'
+      '27':
+        material: ORANGE_STAINED_GLASS_PANE
+        name: '&0'
+      '35':
+        material: ORANGE_STAINED_GLASS_PANE
+        name: '&0'
+      '36':
+        material: ORANGE_STAINED_GLASS_PANE
+        name: '&0'
+      '37':
+        material: ORANGE_STAINED_GLASS_PANE
+        name: '&0'
+      '43':
+        material: ORANGE_STAINED_GLASS_PANE
+        name: '&0'
+      '44':
+        material: ORANGE_STAINED_GLASS_PANE
+        name: '&0'
+      '20':
+        material: HONEYCOMB
+        name: ''
+        lore:
+        - '&dClick para vender por &b$10000'
+        - '&7Shift+click para vender x64'
+        commands:
+        - op= codex unlock %cp-player-name% history 3
+        - left= sell= 10000 HONEYCOMB 1
+        - left= op= cp panel-6
+        - right= sell= 10000 HONEYCOMB 1
+        - right= op= cp panel-6
+        - leftshift= sell= 640000 HONEYCOMB 64
+        - leftshift= op= cp panel-6
+        - rightshift= sell= 640000 HONEYCOMB 64
+        - rightshift= op= cp panel-6
+        has0:
+          value0: 1
+          compare0: '%objective_score_Tienda_Item1%'
+          material: CLAY_BALL
+          name: ''
+          lore:
+          - '&dClick para vender por &b$500'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 500 CLAY_BALL 1
+          - left= op= cp panel-6
+          - right= sell= 500 CLAY_BALL 1
+          - right= op= cp panel-6
+          - leftshift= sell= 32000 CLAY_BALL 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 32000 CLAY_BALL 64
+          - rightshift= op= cp panel-6
+        has1:
+          value0: 2
+          compare0: '%objective_score_Tienda_Item1%'
+          material: IRON_BARS
+          name: ''
+          lore:
+          - '&dClick para vender por &b$20000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 20000 IRON_BARS 1
+          - left= op= cp panel-6
+          - right= sell= 20000 IRON_BARS 1
+          - right= op= cp panel-6
+          - leftshift= sell= 128000 IRON_BARS 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 128000 IRON_BARS 64
+          - rightshift= op= cp panel-6
+        has2:
+          value0: 3
+          compare0: '%objective_score_Tienda_Item1%'
+          material: SALMON_BUCKET
+          name: ''
+          lore:
+          - '&dClick para vender por &b$50000'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 50000 SALMON_BUCKET 1
+          - left= op= cp panel-6
+          - right= sell= 50000 SALMON_BUCKET 1
+          - right= op= cp panel-6
+        has3:
+          value0: 4
+          compare0: '%objective_score_Tienda_Item1%'
+          material: DIAMOND_SHOVEL
+          name: ''
+          lore:
+          - '&dClick para vender por &b$30000'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 30000 DIAMOND_SHOVEL 1
+          - left= op= cp panel-6
+          - right= sell= 30000 DIAMOND_SHOVEL 1
+          - right= op= cp panel-6
+        has4:
+          value0: 5
+          compare0: '%objective_score_Tienda_Item1%'
+          material: SHIELD
+          name: ''
+          lore:
+          - '&dClick para vender por &b$10000'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 10000 SHIELD 1
+          - left= op= cp panel-6
+          - right= sell= 10000 SHIELD 1
+          - right= op= cp panel-6
+        has5:
+          value0: '%objective_score_Tienda_Item1%'
+          compare0: 6
+          material: SPECTRAL_ARROW
+          name: ''
+          lore:
+          - '&dClick para vender por &b$3000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 3000 SPECTRAL_ARROW 1
+          - left= op= cp panel-6
+          - right= sell= 3000 SPECTRAL_ARROW 1
+          - right= op= cp panel-6
+          - leftshift= sell= 192000 SPECTRAL_ARROW 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 192000 SPECTRAL_ARROW 64
+          - rightshift= op= cp panel-6
+        has6:
+          value0: '%objective_score_Tienda_Item1%'
+          compare0: 7
+          material: CARROT_ON_A_STICK
+          name: ''
+          lore:
+          - '&dClick para vender por &b$5000'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 5000 CARROT_ON_A_STICK 1
+          - left= op= cp panel-6
+          - right= sell= 5000 CARROT_ON_A_STICK 1
+          - right= op= cp panel-6
+        has7:
+          value0: 8
+          compare0: '%objective_score_Tienda_Item1%'
+          material: CHIPPED_ANVIL
+          name: ''
+          lore:
+          - '&dClick para vender por &b$500000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 500000 CHIPPED_ANVIL 1
+          - left= op= cp panel-6
+          - right= sell= 500000 CHIPPED_ANVIL 1
+          - right= op= cp panel-6
+          - leftshift= sell= 32000000 CHIPPED_ANVIL 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 32000000 CHIPPED_ANVIL 64
+          - rightshift= op= cp panel-6
+        has8:
+          value0: 9
+          compare0: '%objective_score_Tienda_Item1%'
+          material: LECTERN
+          name: ''
+          lore:
+          - '&dClick para vender por &b$3500'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 3500 LECTERN 1
+          - left= op= cp panel-6
+          - right= sell= 3500 LECTERN 1
+          - right= op= cp panel-6
+          - leftshift= sell= 224000 LECTERN 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 224000 LECTERN 64
+          - rightshift= op= cp panel-6
+        has9:
+          value0: 10
+          compare0: '%objective_score_Tienda_Item1%'
+          material: NOTE_BLOCK
+          name: ''
+          lore:
+          - '&dClick para vender por &b$1000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 1000 NOTE_BLOCK 1
+          - left= op= cp panel-6
+          - right= sell= 1000 NOTE_BLOCK 1
+          - right= op= cp panel-6
+          - leftshift= sell= 64000 NOTE_BLOCK 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 64000 NOTE_BLOCK 64
+          - rightshift= op= cp panel-6
+        has10:
+          value0: 11
+          compare0: '%objective_score_Tienda_Item1%'
+          material: OBSERVER
+          name: ''
+          lore:
+          - '&dClick para vender por &b$7500'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 7500 OBSERVER 1
+          - left= op= cp panel-6
+          - right= sell= 7500 OBSERVER 1
+          - right= op= cp panel-6
+          - leftshift= sell= 480000 OBSERVER 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 480000 OBSERVER 64
+          - rightshift= op= cp panel-6
+        has11:
+          value0: 12
+          compare0: '%objective_score_Tienda_Item1%'
+          material: TNT_MINECART
+          name: ''
+          lore:
+          - '&dClick para vender por &b$60000'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 60000 TNT_MINECART 1
+          - left= op= cp panel-6
+          - right= sell= 60000 TNT_MINECART 1
+          - right= op= cp panel-6
+        has12:
+          value0: 13
+          compare0: '%objective_score_Tienda_Item1%'
+          material: DETECTOR_RAIL
+          name: ''
+          lore:
+          - '&dClick para vender por &b$750'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 750 DETECTOR_RAIL 1
+          - left= op= cp panel-6
+          - right= sell= 750 DETECTOR_RAIL 1
+          - right= op= cp panel-6
+          - leftshift= sell= 48000 DETECTOR_RAIL 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 48000 DETECTOR_RAIL 64
+          - rightshift= op= cp panel-6
+        has13:
+          value0: 14
+          compare0: '%objective_score_Tienda_Item1%'
+          material: PHANTOM_MEMBRANE
+          name: ''
+          lore:
+          - '&dClick para vender por &b$750'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 750 PHANTOM_MEMBRANE 1
+          - left= op= cp panel-6
+          - right= sell= 750 PHANTOM_MEMBRANE 1
+          - right= op= cp panel-6
+          - leftshift= sell= 48000 PHANTOM_MEMBRANE 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 48000 PHANTOM_MEMBRANE 64
+          - rightshift= op= cp panel-6
+        has14:
+          value0: 15
+          compare0: '%objective_score_Tienda_Item1%'
+          material: LEAD
+          name: ''
+          lore:
+          - '&dClick para vender por &b$100'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 100 LEAD 1
+          - left= op= cp panel-6
+          - right= sell= 100 LEAD 1
+          - right= op= cp panel-6
+          - leftshift= sell= 6400 LEAD 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 6400 LEAD 64
+          - rightshift= op= cp panel-6
+        has15:
+          value0: 16
+          compare0: '%objective_score_Tienda_Item1%'
+          material: SNOWBALL
+          name: ''
+          lore:
+          - '&dClick para vender por &b$1500'
+          - '&7Shift+click para vender x16'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 1500 SNOWBALL 1
+          - left= op= cp panel-6
+          - right= sell= 1500 SNOWBALL 1
+          - right= op= cp panel-6
+          - leftshift= sell= 96000 SNOWBALL 16
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 96000 SNOWBALL 16
+          - rightshift= op= cp panel-6
+        has16:
+          value0: 17
+          compare0: '%objective_score_Tienda_Item1%'
+          material: JACK_O_LANTERN
+          name: ''
+          lore:
+          - '&dClick para vender por &b$30000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 30000 JACK_O_LANTERN 1
+          - left= op= cp panel-6
+          - right= sell= 30000 JACK_O_LANTERN 1
+          - right= op= cp panel-6
+          - leftshift= sell= 19200000 JACK_O_LANTERN 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 19200000 JACK_O_LANTERN 64
+          - rightshift= op= cp panel-6
+        has17:
+          value0: 18
+          compare0: '%objective_score_Tienda_Item1%'
+          material: CAKE
+          name: ''
+          lore:
+          - '&dClick para vender por &b$250000'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 250000 CAKE 1
+          - left= op= cp panel-6
+          - right= sell= 250000 CAKE 1
+          - right= op= cp panel-6
+        has18:
+          value0: 19
+          compare0: '%objective_score_Tienda_Item1%'
+          material: GLISTERING_MELON_SLICE
+          name: ''
+          lore:
+          - '&dClick para vender por &b$10000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 10000 GLISTERING_MELON_SLICE 1
+          - left= op= cp panel-6
+          - right= sell= 10000 GLISTERING_MELON_SLICE 1
+          - right= op= cp panel-6
+          - leftshift= sell= 640000 GLISTERING_MELON_SLICE 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 640000 GLISTERING_MELON_SLICE 64
+          - rightshift= op= cp panel-6
+        has19:
+          value0: 20
+          compare0: '%objective_score_Tienda_Item1%'
+          material: BLUE_DYE
+          name: ''
+          lore:
+          - '&dClick para vender por &b$150'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 150 BLUE_DYE 1
+          - left= op= cp panel-6
+          - right= sell= 150 BLUE_DYE 1
+          - right= op= cp panel-6
+          - leftshift= sell= 9600 BLUE_DYE 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 9600 BLUE_DYE 64
+          - rightshift= op= cp panel-6
+        has20:
+          value0: 21
+          compare0: '%objective_score_Tienda_Item1%'
+          material: FIRE_CHARGE
+          name: ''
+          lore:
+          - '&dClick para vender por &b$65000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 65000 FIRE_CHARGE 1
+          - left= op= cp panel-6
+          - right= sell= 65000 FIRE_CHARGE 1
+          - right= op= cp panel-6
+          - leftshift= sell= 4160000 FIRE_CHARGE 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 4160000 FIRE_CHARGE 64
+          - rightshift= op= cp panel-6
+        has21:
+          value0: 22
+          compare0: '%objective_score_Tienda_Item1%'
+          material: WRITABLE_BOOK
+          name: ''
+          lore:
+          - '&dClick para vender por &b$75000'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 75000 WRITABLE_BOOK 1
+          - left= op= cp panel-6
+          - right= sell= 75000 WRITABLE_BOOK 1
+          - right= op= cp panel-6
+        has22:
+          value0: 23
+          compare0: '%objective_score_Tienda_Item1%'
+          material: HOPPER_MINECART
+          name: ''
+          lore:
+          - '&dClick para vender por &b$25000'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 25000 HOPPER_MINECART 1
+          - left= op= cp panel-6
+          - right= sell= 25000 HOPPER_MINECART 1
+          - right= op= cp panel-6
+        has23:
+          value0: 24
+          compare0: '%objective_score_Tienda_Item1%'
+          material: RABBIT_STEW
+          name: ''
+          lore:
+          - '&dClick para vender por &b$250000'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 250000 RABBIT_STEW 1
+          - left= op= cp panel-6
+          - right= sell= 250000 RABBIT_STEW 1
+          - right= op= cp panel-6
+        has24:
+          value0: 25
+          compare0: '%objective_score_Tienda_Item1%'
+          material: COMPASS
+          name: ''
+          lore:
+          - '&dClick para vender por &b$6500'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 6500 COMPASS 1
+          - left= op= cp panel-6
+          - right= sell= 6500 COMPASS 1
+          - right= op= cp panel-6
+          - leftshift= sell= 416000 COMPASS 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 416000 COMPASS 64
+          - rightshift= op= cp panel-6
+        has25:
+          value0: 26
+          compare0: '%objective_score_Tienda_Item1%'
+          material: BEETROOT_SOUP
+          name: ''
+          lore:
+          - '&dClick para vender por &b$45000'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 45000 BEETROOT_SOUP 1
+          - left= op= cp panel-6
+          - right= sell= 45000 BEETROOT_SOUP 1
+          - right= op= cp panel-6
+        has26:
+          value0: 27
+          compare0: '%objective_score_Tienda_Item1%'
+          material: CHAINMAIL_CHESTPLATE
+          name: ''
+          lore:
+          - '&dClick para vender por &b$150000'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 150000 CHAINMAIL_CHESTPLATE 1
+          - left= op= cp panel-6
+          - right= sell= 150000 CHAINMAIL_CHESTPLATE 1
+          - right= op= cp panel-6
+        has27:
+          value0: 28
+          compare0: '%objective_score_Tienda_Item1%'
+          material: TROPICAL_FISH
+          name: ''
+          lore:
+          - '&dClick para vender por &b$200000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 200000 TROPICAL_FISH 1
+          - left= op= cp panel-6
+          - right= sell= 200000 TROPICAL_FISH 1
+          - right= op= cp panel-6
+          - leftshift= sell= 12800000 TROPICAL_FISH 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 12800000 TROPICAL_FISH 64
+          - rightshift= op= cp panel-6
+        has28:
+          value0: 29
+          compare0: '%objective_score_Tienda_Item1%'
+          material: BOOKSHELF
+          name: ''
+          lore:
+          - '&dClick para vender por &b$1500'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 1500 BOOKSHELF 1
+          - left= op= cp panel-6
+          - right= sell= 1500 BOOKSHELF 1
+          - right= op= cp panel-6
+          - leftshift= sell= 96000 BOOKSHELF 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 96000 BOOKSHELF 64
+          - rightshift= op= cp panel-6
+        has29:
+          value0: 30
+          compare0: '%objective_score_Tienda_Item1%'
+          material: MAGMA_BLOCK
+          name: ''
+          lore:
+          - '&dClick para vender por &b$2500'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 2500 MAGMA_BLOCK 1
+          - left= op= cp panel-6
+          - right= sell= 2500 MAGMA_BLOCK 1
+          - right= op= cp panel-6
+          - leftshift= sell= 160000 MAGMA_BLOCK 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 160000 MAGMA_BLOCK 64
+          - rightshift= op= cp panel-6
+        has30:
+          value0: 31
+          compare0: '%objective_score_Tienda_Item1%'
+          material: PURPUR_PILLAR
+          name: ''
+          lore:
+          - '&dClick para vender por &b$10000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 10000 PURPUR_PILLAR 1
+          - left= op= cp panel-6
+          - right= sell= 10000 PURPUR_PILLAR 1
+          - right= op= cp panel-6
+          - leftshift= sell= 640000 PURPUR_PILLAR 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 640000 PURPUR_PILLAR 64
+          - rightshift= op= cp panel-6
+        has31:
+          value0: 32
+          compare0: '%objective_score_Tienda_Item1%'
+          material: WARPED_TRAPDOOR
+          name: ''
+          lore:
+          - '&dClick para vender por &b$3000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 3000 WARPED_TRAPDOOR 1
+          - left= op= cp panel-6
+          - right= sell= 3000 WARPED_TRAPDOOR 1
+          - right= op= cp panel-6
+          - leftshift= sell= 192000 WARPED_TRAPDOOR 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 192000 WARPED_TRAPDOOR 64
+          - rightshift= op= cp panel-6
+        has32:
+          value0: 33
+          compare0: '%objective_score_Tienda_Item1%'
+          material: TUBE_CORAL_BLOCK
+          name: ''
+          lore:
+          - '&dClick para vender por &b$75000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 75000 TUBE_CORAL_BLOCK 1
+          - left= op= cp panel-6
+          - right= sell= 75000 TUBE_CORAL_BLOCK 1
+          - right= op= cp panel-6
+          - leftshift= sell= 4800000 TUBE_CORAL_BLOCK 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 4800000 TUBE_CORAL_BLOCK 64
+          - rightshift= op= cp panel-6
+        has33:
+          value0: 34
+          compare0: '%objective_score_Tienda_Item1%'
+          material: HAY_BLOCK
+          name: ''
+          lore:
+          - '&dClick para vender por &b$1500'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 1500 HAY_BLOCK 1
+          - left= op= cp panel-6
+          - right= sell= 1500 HAY_BLOCK 1
+          - right= op= cp panel-6
+          - leftshift= sell= 96000 HAY_BLOCK 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 96000 HAY_BLOCK 64
+          - rightshift= op= cp panel-6
+        has34:
+          value0: 35
+          compare0: '%objective_score_Tienda_Item1%'
+          material: EMERALD_ORE
+          name: ''
+          lore:
+          - '&dClick para vender por &b$50000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 50000 EMERALD_ORE 1
+          - left= op= cp panel-6
+          - right= sell= 50000 EMERALD_ORE 1
+          - right= op= cp panel-6
+          - leftshift= sell= 3200000 EMERALD_ORE 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 3200000 EMERALD_ORE 64
+          - rightshift= op= cp panel-6
+        has35:
+          value0: 36
+          compare0: '%objective_score_Tienda_Item1%'
+          material: DIAMOND_HORSE_ARMOR
+          name: ''
+          lore:
+          - '&dClick para vender por &b$1000000'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 1000000 DIAMOND_HORSE_ARMOR 1
+          - left= op= cp panel-6
+          - right= sell= 1000000 DIAMOND_HORSE_ARMOR 1
+          - right= op= cp panel-6
+        has36:
+          value0: 37
+          compare0: '%objective_score_Tienda_Item1%'
+          material: CRACKED_POLISHED_BLACKSTONE_BRICKS
+          name: ''
+          lore:
+          - '&dClick para vender por &b$10000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 10000 CRACKED_POLISHED_BLACKSTONE_BRICKS 1
+          - left= op= cp panel-6
+          - right= sell= 10000 CRACKED_POLISHED_BLACKSTONE_BRICKS 1
+          - right= op= cp panel-6
+          - leftshift= sell= 640000 CRACKED_POLISHED_BLACKSTONE_BRICKS 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 640000 CRACKED_POLISHED_BLACKSTONE_BRICKS 64
+          - rightshift= op= cp panel-6
+        has37:
+          value0: 38
+          compare0: '%objective_score_Tienda_Item1%'
+          material: MUSIC_DISC_11
+          name: ''
+          lore:
+          - '&dClick para vender por &b$50000'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 50000  MUSIC_DISC_11 1
+          - left= op= cp panel-6
+          - right= sell= 50000  MUSIC_DISC_11 1
+          - right= op= cp panel-6
+        has38:
+          value0: 39
+          compare0: '%objective_score_Tienda_Item1%'
+          material: MAGENTA_CARPET
+          name: ''
+          lore:
+          - '&dClick para vender por &b$3500'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 3500  MAGENTA_CARPET 1
+          - left= op= cp panel-6
+          - right= sell= 3500  MAGENTA_CARPET 1
+          - right= op= cp panel-6
+          - leftshift= sell= 224000  MAGENTA_CARPET 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 224000  MAGENTA_CARPET 64
+          - rightshift= op= cp panel-6
+        has39:
+          value0: 40
+          compare0: '%objective_score_Tienda_Item1%'
+          material: FLOWER_BANNER_PATTERN
+          name: ''
+          lore:
+          - '&dClick para vender por &b$3000'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 3000 FLOWER_BANNER_PATTERN 1
+          - left= op= cp panel-6
+          - right= sell= 3000 FLOWER_BANNER_PATTERN 1
+          - right= op= cp panel-6
+        has40:
+          value0: 41
+          compare0: '%objective_score_Tienda_Item1%'
+          material: MUSIC_DISC_STRAD
+          name: ''
+          lore:
+          - '&dClick para vender por &b$50000'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 50000 MUSIC_DISC_STRAD 1
+          - left= op= cp panel-6
+          - right= sell= 50000 MUSIC_DISC_STRAD 1
+          - right= op= cp panel-6
+        has41:
+          value0: 42
+          compare0: '%objective_score_Tienda_Item1%'
+          material: PUMPKIN_PIE
+          name: ''
+          lore:
+          - '&dClick para vender por &b$20000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 20000 PUMPKIN_PIE 1
+          - left= op= cp panel-6
+          - right= sell= 20000 PUMPKIN_PIE 1
+          - right= op= cp panel-6
+          - leftshift= sell= 1280000 PUMPKIN_PIE 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 1280000 PUMPKIN_PIE 64
+          - rightshift= op= cp panel-6
+        has42:
+          value0: 43
+          compare0: '%objective_score_Tienda_Item1%'
+          material: PAINTING
+          name: ''
+          lore:
+          - '&dClick para vender por &b$10000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 10000 PAINTING 1
+          - left= op= cp panel-6
+          - right= sell= 10000 PAINTING 1
+          - right= op= cp panel-6
+          - leftshift= sell= 640000 PAINTING 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 640000 PAINTING 64
+          - rightshift= op= cp panel-6
+        has43:
+          value0: 44
+          compare0: '%objective_score_Tienda_Item1%'
+          material: INK_SAC
+          name: ''
+          lore:
+          - '&dClick para vender por &b$2500'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 2500 INK_SAC 1
+          - left= op= cp panel-6
+          - right= sell= 2500 INK_SAC 1
+          - right= op= cp panel-6
+          - leftshift= sell= 160000 INK_SAC 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 160000 INK_SAC 64
+          - rightshift= op= cp panel-6
+        has44:
+          value0: 45
+          compare0: '%objective_score_Tienda_Item1%'
+          material: MUSIC_DISC_CHIRP
+          name: ''
+          lore:
+          - '&dClick para vender por &b$50000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 50000 MUSIC_DISC_CHIRP 1
+          - left= op= cp panel-6
+          - right= sell= 50000 MUSIC_DISC_CHIRP 1
+          - right= op= cp panel-6
+          - leftshift= sell= 250000 MUSIC_DISC_CHIRP 5
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 250000 MUSIC_DISC_CHIRP 5
+          - rightshift= op= cp panel-6
+        has45:
+          value0: 46
+          compare0: '%objective_score_Tienda_Item1%'
+          material: STRIPPED_WARPED_HYPHAE
+          name: ''
+          lore:
+          - '&dClick para vender por &b$15000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 15000 STRIPPED_WARPED_HYPHAE 1
+          - left= op= cp panel-6
+          - right= sell= 15000 STRIPPED_WARPED_HYPHAE 1
+          - right= op= cp panel-6
+          - leftshift= sell= 960000 STRIPPED_WARPED_HYPHAE 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 960000 STRIPPED_WARPED_HYPHAE 64
+          - rightshift= op= cp panel-6
+        has46:
+          value0: 47
+          compare0: '%objective_score_Tienda_Item1%'
+          material: BEEHIVE
+          name: ''
+          lore:
+          - '&dClick para vender por &b$45000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 45000 BEEHIVE 1
+          - left= op= cp panel-6
+          - right= sell= 45000 BEEHIVE 1
+          - right= op= cp panel-6
+          - leftshift= sell= 2880000 BEEHIVE 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 2880000 BEEHIVE 64
+          - rightshift= op= cp panel-6
+        has47:
+          value0: 48
+          compare0: '%objective_score_Tienda_Item1%'
+          material: LILY_PAD
+          name: ''
+          lore:
+          - '&dClick para vender por &b$300000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 300000 LILY_PAD 1
+          - left= op= cp panel-6
+          - right= sell= 300000 LILY_PAD 1
+          - right= op= cp panel-6
+          - leftshift= sell= 19200000 LILY_PAD 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 19200000 LILY_PAD 64
+          - rightshift= op= cp panel-6
+        has48:
+          value0: 49
+          compare0: '%objective_score_Tienda_Item1%'
+          material: NETHER_GOLD_ORE
+          name: ''
+          lore:
+          - '&dClick para vender por &b$75000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 75000 NETHER_GOLD_ORE 1
+          - left= op= cp panel-6
+          - right= sell= 75000 NETHER_GOLD_ORE 1
+          - right= op= cp panel-6
+          - leftshift= sell= 4800000 NETHER_GOLD_ORE 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 4800000 NETHER_GOLD_ORE 64
+          - rightshift= op= cp panel-6
+        has49:
+          value0: 50
+          compare0: '%objective_score_Tienda_Item1%'
+          material: CREEPER_BANNER_PATTERN
+          name: ''
+          lore:
+          - '&dClick para vender por &b$180000'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 180000 CREEPER_BANNER_PATTERN 1
+          - left= op= cp panel-6
+          - right= sell= 180000 CREEPER_BANNER_PATTERN 1
+          - right= op= cp panel-6
+        has50:
+          value0: 51
+          compare0: '%objective_score_Tienda_Item1%'
+          material: MUSIC_DISC_FAR
+          name: ''
+          lore:
+          - '&dClick para vender por &b$50000'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 50000 MUSIC_DISC_FAR 1
+          - left= op= cp panel-6
+          - right= sell= 50000 MUSIC_DISC_FAR 1
+          - right= op= cp panel-6
+        has51:
+          value0: 52
+          compare0: '%objective_score_Tienda_Item1%'
+          material: TRIPWIRE_HOOK
+          name: ''
+          lore:
+          - '&dClick para vender por &b$27000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 27000 TRIPWIRE_HOOK 1
+          - left= op= cp panel-6
+          - right= sell= 27000 TRIPWIRE_HOOK 1
+          - right= op= cp panel-6
+          - leftshift= sell= 1728000 TRIPWIRE_HOOK 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 1728000 TRIPWIRE_HOOK 64
+          - rightshift= op= cp panel-6
+        has52:
+          value0: 53
+          compare0: '%objective_score_Tienda_Item1%'
+          material: MELON_SEEDS
+          name: ''
+          lore:
+          - '&dClick para vender por &b$5500'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 5500 MELON_SEEDS 1
+          - left= op= cp panel-6
+          - right= sell= 5500 MELON_SEEDS 1
+          - right= op= cp panel-6
+          - leftshift= sell= 352000 MELON_SEEDS 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 352000 MELON_SEEDS 64
+          - rightshift= op= cp panel-6
+        has53:
+          value0: 54
+          compare0: '%objective_score_Tienda_Item1%'
+          material: CALCITE
+          name: ''
+          lore:
+          - '&dClick para vender por &b$2500'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 2500 CALCITE 1
+          - left= op= cp panel-6
+          - right= sell= 2500 CALCITE 1
+          - right= op= cp panel-6
+          - leftshift= sell= 160000 CALCITE 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 160000 CALCITE 64
+          - rightshift= op= cp panel-6
+        has54:
+          value0: 55
+          compare0: '%objective_score_Tienda_Item1%'
+          material: DEEPSLATE_LAPIS_ORE
+          name: ''
+          lore:
+          - '&dClick para vender por &b$5000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 5000 DEEPSLATE_LAPIS_ORE 1
+          - left= op= cp panel-6
+          - right= sell= 5000 DEEPSLATE_LAPIS_ORE 1
+          - right= op= cp panel-6
+          - leftshift= sell= 320000 DEEPSLATE_LAPIS_ORE 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 320000 DEEPSLATE_LAPIS_ORE 64
+          - rightshift= op= cp panel-6
+        has55:
+          value0: 56
+          compare0: '%objective_score_Tienda_Item1%'
+          material: DEEPSLATE_DIAMOND_ORE
+          name: ''
+          lore:
+          - '&dClick para vender por &b$10000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 10000 DEEPSLATE_DIAMOND_ORE 1
+          - left= op= cp panel-6
+          - right= sell= 10000 DEEPSLATE_DIAMOND_ORE 1
+          - right= op= cp panel-6
+          - leftshift= sell= 640000 DEEPSLATE_DIAMOND_ORE 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 640000 DEEPSLATE_DIAMOND_ORE 64
+          - rightshift= op= cp panel-6
+        has56:
+          value0: 57
+          compare0: '%objective_score_Tienda_Item1%'
+          material: RAW_IRON_BLOCK
+          name: ''
+          lore:
+          - '&dClick para vender por &b$10000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 10000 RAW_IRON_BLOCK 1
+          - left= op= cp panel-6
+          - right= sell= 10000 RAW_IRON_BLOCK 1
+          - right= op= cp panel-6
+          - leftshift= sell= 640000 RAW_IRON_BLOCK 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 640000 RAW_IRON_BLOCK 64
+          - rightshift= op= cp panel-6
+        has57:
+          value0: 58
+          compare0: '%objective_score_Tienda_Item1%'
+          material: MOSS_BLOCK
+          name: ''
+          lore:
+          - '&dClick para vender por &b$3000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 3000 MOSS_BLOCK 1
+          - left= op= cp panel-6
+          - right= sell= 3000 MOSS_BLOCK 1
+          - right= op= cp panel-6
+          - leftshift= sell= 192000 MOSS_BLOCK 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 192000 MOSS_BLOCK 64
+          - rightshift= op= cp panel-6
+        has58:
+          value0: 59
+          compare0: '%objective_score_Tienda_Item1%'
+          material: AMETHYST_BLOCK
+          name: ''
+          lore:
+          - '&dClick para vender por &b$25000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 25000 AMETHYST_BLOCK 1
+          - left= op= cp panel-6
+          - right= sell= 25000 AMETHYST_BLOCK 1
+          - right= op= cp panel-6
+          - leftshift= sell= 1600000 AMETHYST_BLOCK 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 1600000 AMETHYST_BLOCK 64
+          - rightshift= op= cp panel-6
+        has59:
+          value0: 60
+          compare0: '%objective_score_Tienda_Item1%'
+          material: OXIDIZED_COPPER
+          name: ''
+          lore:
+          - '&dClick para vender por &b$60000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 60000 OXIDIZED_COPPER 1
+          - left= op= cp panel-6
+          - right= sell= 60000 OXIDIZED_COPPER 1
+          - right= op= cp panel-6
+          - leftshift= sell= 3840000 OXIDIZED_COPPER 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 3840000 OXIDIZED_COPPER 64
+          - rightshift= op= cp panel-6
+        has60:
+          value0: 61
+          compare0: '%objective_score_Tienda_Item1%'
+          material: DEEPSLATE_IRON_ORE
+          name: ''
+          lore:
+          - '&dClick para vender por &b$5000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 5000 DEEPSLATE_IRON_ORE 1
+          - left= op= cp panel-6
+          - right= sell= 5000 DEEPSLATE_IRON_ORE 1
+          - right= op= cp panel-6
+          - leftshift= sell= 320000 DEEPSLATE_IRON_ORE 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 320000 DEEPSLATE_IRON_ORE 64
+          - rightshift= op= cp panel-6
+        has61:
+          value0: 62
+          compare0: '%objective_score_Tienda_Item1%'
+          material: FLOWERING_AZALEA
+          name: ''
+          lore:
+          - '&dClick para vender por &b$7500'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 7500 FLOWERING_AZALEA 1
+          - left= op= cp panel-6
+          - right= sell= 7500 FLOWERING_AZALEA 1
+          - right= op= cp panel-6
+          - leftshift= sell= 480000 FLOWERING_AZALEA 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 480000 FLOWERING_AZALEA 64
+          - rightshift= op= cp panel-6
+        has62:
+          value0: 63
+          compare0: '%objective_score_Tienda_Item1%'
+          material: POINTED_DRIPSTONE
+          name: ''
+          lore:
+          - '&dClick para vender por &b$1000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 1000 POINTED_DRIPSTONE 1
+          - left= op= cp panel-6
+          - right= sell= 1000 POINTED_DRIPSTONE 1
+          - right= op= cp panel-6
+          - leftshift= sell= 64000 POINTED_DRIPSTONE 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 64000 POINTED_DRIPSTONE 64
+          - rightshift= op= cp panel-6
+        has63:
+          value0: 64
+          compare0: '%objective_score_Tienda_Item1%'
+          material: SOUL_CAMPFIRE
+          name: ''
+          lore:
+          - '&dClick para vender por &b$3500'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 3500 SOUL_CAMPFIRE 1
+          - left= op= cp panel-6
+          - right= sell= 3500 SOUL_CAMPFIRE 1
+          - right= op= cp panel-6
+          - leftshift= sell= 224000 SOUL_CAMPFIRE 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 224000 SOUL_CAMPFIRE 64
+          - rightshift= op= cp panel-6
+        has64:
+          value0: 65
+          compare0: '%objective_score_Tienda_Item1%'
+          material: LIGHTNING_ROD
+          name: ''
+          lore:
+          - '&dClick para vender por &b$3000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 3000 LIGHTNING_ROD 1
+          - left= op= cp panel-6
+          - right= sell= 3000 LIGHTNING_ROD 1
+          - right= op= cp panel-6
+          - leftshift= sell= 192000 LIGHTNING_ROD 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 192000 LIGHTNING_ROD 64
+          - rightshift= op= cp panel-6
+        has65:
+          value0: 66
+          compare0: '%objective_score_Tienda_Item1%'
+          material: LEVER
+          name: ''
+          lore:
+          - '&dClick para vender por &b$500'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 500 LEVER 1
+          - left= op= cp panel-6
+          - right= sell= 500 LEVER 1
+          - right= op= cp panel-6
+          - leftshift= sell= 32000 LEVER 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 32000 LEVER 64
+          - rightshift= op= cp panel-6
+        has66:
+          value0: 67
+          compare0: '%objective_score_Tienda_Item1%'
+          material: GLOW_BERRIES
+          name: ''
+          lore:
+          - '&dClick para vender por &b$3000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 3000 GLOW_BERRIES 1
+          - left= op= cp panel-6
+          - right= sell= 3000 GLOW_BERRIES 1
+          - right= op= cp panel-6
+          - leftshift= sell= 192000 GLOW_BERRIES 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 192000 GLOW_BERRIES 64
+          - rightshift= op= cp panel-6
+        has67:
+          value0: 68
+          compare0: '%objective_score_Tienda_Item1%'
+          material: POWDER_SNOW_BUCKET
+          name: ''
+          lore:
+          - '&dClick para vender por &b$75000'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 75000 POWDER_SNOW_BUCKET 1
+          - left= op= cp panel-6
+          - right= sell= 75000 POWDER_SNOW_BUCKET 1
+          - right= op= cp panel-6
+        has68:
+          value0: 69
+          compare0: '%objective_score_Tienda_Item1%'
+          material: COCOA_BEANS
+          name: ''
+          lore:
+          - '&dClick para vender por &b$25000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 2500 COCOA_BEANS 1
+          - left= op= cp panel-6
+          - right= sell= 2500 COCOA_BEANS 1
+          - right= op= cp panel-6
+          - leftshift= sell= 160000 COCOA_BEANS 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 160000 COCOA_BEANS 64
+          - rightshift= op= cp panel-6
+        has69:
+          value0: 70
+          compare0: '%objective_score_Tienda_Item1%'
+          material: MUSIC_DISC_OTHERSIDE
+          name: ''
+          lore:
+          - '&dClick para vender por &b$50000'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 50000 MUSIC_DISC_OTHERSIDE 1
+          - left= op= cp panel-6
+          - right= sell= 50000 MUSIC_DISC_OTHERSIDE 1
+          - right= op= cp panel-6
+        has70:
+          value0: 71
+          compare0: '%objective_score_Tienda_Item1%'
+          material: FEATHER
+          name: ''
+          lore:
+          - '&dClick para vender por &b$5000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 5000 FEATHER 1
+          - left= op= cp panel-6
+          - right= sell= 5000 FEATHER 1
+          - right= op= cp panel-6
+          - leftshift= sell= 320000 FEATHER 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 320000 FEATHER 64
+          - rightshift= op= cp panel-6
+        has71:
+          value0: 72
+          compare0: '%objective_score_Tienda_Item1%'
+          material: NETHERITE_AXE
+          name: ''
+          lore:
+          - '&dClick para vender por &b$35000'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 35000 NETHERITE_AXE 1
+          - left= op= cp panel-6
+          - right= sell= 35000 NETHERITE_AXE 1
+          - right= op= cp panel-6
+        has72:
+          value0: 73
+          compare0: '%objective_score_Tienda_Item1%'
+          material: DAMAGED_ANVIL
+          name: ''
+          lore:
+          - '&dClick para vender por &b$50000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 50000 DAMAGED_ANVIL 1
+          - left= op= cp panel-6
+          - right= sell= 50000 DAMAGED_ANVIL 1
+          - right= op= cp panel-6
+          - leftshift= sell= 3200000 DAMAGED_ANVIL 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 3200000 DAMAGED_ANVIL 64
+          - rightshift= op= cp panel-6
+        has73:
+          value0: 74
+          compare0: '%objective_score_Tienda_Item1%'
+          material: COOKED_COD
+          name: ''
+          lore:
+          - '&dClick para vender por &b$15000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 15000 COOKED_COD 1
+          - left= op= cp panel-6
+          - right= sell= 15000 COOKED_COD 1
+          - right= op= cp panel-6
+          - leftshift= sell= 960000 COOKED_COD 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 960000 COOKED_COD 64
+          - rightshift= op= cp panel-6
+        has74:
+          value0: 75
+          compare0: '%objective_score_Tienda_Item1%'
+          material: CHARCOAL
+          name: ''
+          lore:
+          - '&dClick para vender por &b$1500'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 1500 CHARCOAL 1
+          - left= op= cp panel-6
+          - right= sell= 1500 CHARCOAL 1
+          - right= op= cp panel-6
+          - leftshift= sell= 96000 CHARCOAL 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 96000 CHARCOAL 64
+          - rightshift= op= cp panel-6
+        has75:
+          value0: 76
+          compare0: '%objective_score_Tienda_Item1%'
+          material: AMETHYST_CLUSTER
+          name: ''
+          lore:
+          - '&dClick para vender por &b$100000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 100000 AMETHYST_CLUSTER 1
+          - left= op= cp panel-6
+          - right= sell= 100000 AMETHYST_CLUSTER 1
+          - right= op= cp panel-6
+          - leftshift= sell= 6400000 AMETHYST_CLUSTER 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 6400000 AMETHYST_CLUSTER 64
+          - rightshift= op= cp panel-6
+      '22':
+        material: PURPLE_GLAZED_TERRACOTTA
+        name: ''
+        lore:
+        - '&dClick para vender por &b$30000'
+        - '&7Shift+click para vender x64'
+        commands:
+        - op= codex unlock %cp-player-name% history 3
+        - left= sell= 30000 PURPLE_GLAZED_TERRACOTTA 1
+        - left= op= cp panel-6
+        - right= sell= 30000 PURPLE_GLAZED_TERRACOTTA 1
+        - right= op= cp panel-6
+        - leftshift= sell= 1920000 PURPLE_GLAZED_TERRACOTTA 64
+        - leftshift= op= cp panel-6
+        - rightshift= sell= 1920000 PURPLE_GLAZED_TERRACOTTA 64
+        - rightshift= op= cp panel-6
+        has0:
+          value0: 1
+          compare0: '%objective_score_Tienda_Item2%'
+          material: POLISHED_GRANITE_STAIRS
+          name: ''
+          lore:
+          - '&dClick para vender por &b$5000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 5000 POLISHED_GRANITE_STAIRS 1
+          - left= op= cp panel-6
+          - right= sell= 5000 POLISHED_GRANITE_STAIRS 1
+          - right= op= cp panel-6
+          - leftshift= sell= 320000 POLISHED_GRANITE_STAIRS 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 320000 POLISHED_GRANITE_STAIRS 64
+          - rightshift= op= cp panel-6
+        has1:
+          value0: 2
+          compare0: '%objective_score_Tienda_Item2%'
+          material: ACACIA_BOAT
+          name: ''
+          lore:
+          - '&dClick para vender por &b$12000'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 12000 ACACIA_BOAT 1
+          - left= op= cp panel-6
+          - right= sell= 12000 ACACIA_BOAT 1
+          - right= op= cp panel-6
+        has2:
+          value0: 3
+          compare0: '%objective_score_Tienda_Item2%'
+          material: BLACK_BED
+          name: ''
+          lore:
+          - '&dClick para vender por &b$7000'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 7000 BLACK_BED 1
+          - left= op= cp panel-6
+          - right= sell= 7000 BLACK_BED 1
+          - right= op= cp panel-6
+        has3:
+          value0: 4
+          compare0: '%objective_score_Tienda_Item2%'
+          material: SHROOMLIGHT
+          name: ''
+          lore:
+          - '&dClick para vender por &b$7000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 7000 SHROOMLIGHT 1
+          - left= op= cp panel-6
+          - right= sell= 7000 SHROOMLIGHT 1
+          - right= op= cp panel-6
+          - leftshift= sell= 448000 SHROOMLIGHT 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 448000 SHROOMLIGHT 64
+          - rightshift= op= cp panel-6
+        has4:
+          value0: 5
+          compare0: '%objective_score_Tienda_Item2%'
+          material: WEEPING_VINES
+          name: ''
+          lore:
+          - '&dClick para vender por &b$2500'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 2500 WEEPING_VINES 1
+          - left= op= cp panel-6
+          - right= sell= 2500 WEEPING_VINES 1
+          - right= op= cp panel-6
+          - leftshift= sell= 160000 WEEPING_VINES 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 160000 WEEPING_VINES 64
+          - rightshift= op= cp panel-6
+        has5:
+          value0: 5
+          compare0: '%objective_score_Tienda_Item2%'
+          material: POISONOUS_POTATO
+          name: ''
+          lore:
+          - '&dClick para vender por &b$85000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 85000 POISONOUS_POTATO 1
+          - left= op= cp panel-6
+          - right= sell= 85000 POISONOUS_POTATO 1
+          - right= op= cp panel-6
+          - leftshift= sell= 5440000 POISONOUS_POTATO 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 5440000 POISONOUS_POTATO 64
+          - rightshift= op= cp panel-6
+        has6:
+          value0: 7
+          compare0: '%objective_score_Tienda_Item2%'
+          material: PUFFERFISH
+          name: ''
+          lore:
+          - '&dClick para vender por &b$50000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 50000 PUFFERFISH 1
+          - left= op= cp panel-6
+          - right= sell= 50000 PUFFERFISH 1
+          - right= op= cp panel-6
+          - leftshift= sell= 3200000 PUFFERFISH 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 3200000 PUFFERFISH 64
+          - rightshift= op= cp panel-6
+        has7:
+          value0: 8
+          compare0: '%objective_score_Tienda_Item2%'
+          material: COOKIE
+          name: ''
+          lore:
+          - '&dClick para vender por &b$3000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 3000 COOKIE 1
+          - left= op= cp panel-6
+          - right= sell= 3000 COOKIE 1
+          - right= op= cp panel-6
+          - leftshift= sell= 192000 COOKIE 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 192000 COOKIE 64
+          - rightshift= op= cp panel-6
+        has8:
+          value0: 9
+          compare0: '%objective_score_Tienda_Item2%'
+          material: GLASS_BOTTLE
+          name: ''
+          lore:
+          - '&dClick para vender por &b$15000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 15000 GLASS_BOTTLE 1
+          - left= op= cp panel-6
+          - right= sell= 15000 GLASS_BOTTLE 1
+          - right= op= cp panel-6
+          - leftshift= sell= 960000 GLASS_BOTTLE 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 960000 GLASS_BOTTLE 64
+          - rightshift= op= cp panel-6
+        has9:
+          value0: 10
+          compare0: '%objective_score_Tienda_Item2%'
+          material: SADDLE
+          name: ''
+          lore:
+          - '&dClick para vender por &b$3000'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 3000 SADDLE 1
+          - left= op= cp panel-6
+          - right= sell= 3000 SADDLE 1
+          - right= op= cp panel-6
+        has10:
+          value0: 11
+          compare0: '%objective_score_Tienda_Item2%'
+          material: HEART_OF_THE_SEA
+          name: ''
+          lore:
+          - '&dClick para vender por &b$350000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 350000 HEART_OF_THE_SEA 1
+          - left= op= cp panel-6
+          - right= sell= 350000 HEART_OF_THE_SEA 1
+          - right= op= cp panel-6
+          - leftshift= sell= 22400000 HEART_OF_THE_SEA 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 22400000 HEART_OF_THE_SEA 64
+          - rightshift= op= cp panel-6
+        has11:
+          value0: 12
+          compare0: '%objective_score_Tienda_Item2%'
+          material: SCAFFOLDING
+          name: ''
+          lore:
+          - '&dClick para vender por &b$15000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 15000 SCAFFOLDING 1
+          - left= op= cp panel-6
+          - right= sell= 15000 SCAFFOLDING 1
+          - right= op= cp panel-6
+          - leftshift= sell= 960000 SCAFFOLDING 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 960000 SCAFFOLDING 64
+          - rightshift= op= cp panel-6
+        has12:
+          value0: 13
+          compare0: '%objective_score_Tienda_Item2%'
+          material: CLOCK
+          name: ''
+          lore:
+          - '&dClick para vender por &b$5000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 5000 CLOCK 1
+          - left= op= cp panel-6
+          - right= sell= 5000 CLOCK 1
+          - right= op= cp panel-6
+          - leftshift= sell= 320000 CLOCK 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 320000 CLOCK 64
+          - rightshift= op= cp panel-6
+        has13:
+          value0: 14
+          compare0: '%objective_score_Tienda_Item2%'
+          material: PRISMARINE_WALL
+          name: ''
+          lore:
+          - '&dClick para vender por &b$135000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 135000 PRISMARINE_WALL 1
+          - left= op= cp panel-6
+          - right= sell= 135000 PRISMARINE_WALL 1
+          - right= op= cp panel-6
+          - leftshift= sell= 8640000 PRISMARINE_WALL 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 8640000 PRISMARINE_WALL 64
+          - rightshift= op= cp panel-6
+        has14:
+          value0: 15
+          compare0: '%objective_score_Tienda_Item2%'
+          material: HONEY_BOTTLE
+          name: ''
+          lore:
+          - '&dClick para vender por &b$57000'
+          - '&7Shift+click para vender x16'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 57000 HONEY_BOTTLE 1
+          - left= op= cp panel-6
+          - right= sell= 57000 HONEY_BOTTLE 1
+          - right= op= cp panel-6
+          - leftshift= sell= 912000 HONEY_BOTTLE 16
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 912000 HONEY_BOTTLE 16
+          - rightshift= op= cp panel-6
+        has15:
+          value0: 16
+          compare0: '%objective_score_Tienda_Item2%'
+          material: DISPENSER
+          name: ''
+          lore:
+          - '&dClick para vender por &b$5500'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 5500 DISPENSER 1
+          - left= op= cp panel-6
+          - right= sell= 5500 DISPENSER 1
+          - right= op= cp panel-6
+          - leftshift= sell= 352000 DISPENSER 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 352000 DISPENSER 64
+          - rightshift= op= cp panel-6
+        has16:
+          value0: 17
+          compare0: '%objective_score_Tienda_Item2%'
+          material: GOLDEN_HORSE_ARMOR
+          name: ''
+          lore:
+          - '&dClick para vender por &b$75000'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 75000 GOLDEN_HORSE_ARMOR 1
+          - left= op= cp panel-6
+          - right= sell= 75000 GOLDEN_HORSE_ARMOR 1
+          - right= op= cp panel-6
+        has17:
+          value0: 18
+          compare0: '%objective_score_Tienda_Item2%'
+          material: END_ROD
+          name: ''
+          lore:
+          - '&dClick para vender por &b$25000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 25000 END_ROD 1
+          - left= op= cp panel-6
+          - right= sell= 25000 END_ROD 1
+          - right= op= cp panel-6
+          - leftshift= sell= 1600000 END_ROD 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 1600000 END_ROD 64
+          - rightshift= op= cp panel-6
+        has18:
+          value0: 19
+          compare0: '%objective_score_Tienda_Item2%'
+          material: TARGET
+          name: ''
+          lore:
+          - '&dClick para vender por &b$17500'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 17500 TARGET 1
+          - left= op= cp panel-6
+          - right= sell= 17500 TARGET 1
+          - right= op= cp panel-6
+          - leftshift= sell= 1120000 TARGET 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 1120000 TARGET 64
+          - rightshift= op= cp panel-6
+        has19:
+          value0: 20
+          compare0: '%objective_score_Tienda_Item2%'
+          material: BRICK
+          name: ''
+          lore:
+          - '&dClick para vender por &b$1500'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 1500 BRICK 1
+          - left= op= cp panel-6
+          - right= sell= 1500 BRICK 1
+          - right= op= cp panel-6
+          - leftshift= sell= 96000 BRICK 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 96000 BRICK 64
+          - rightshift= op= cp panel-6
+        has20:
+          value0: 21
+          compare0: '%objective_score_Tienda_Item2%'
+          material: POLISHED_ANDESITE_SLAB
+          name: ''
+          lore:
+          - '&dClick para vender por &b$1500'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 1500 POLISHED_ANDESITE_SLAB 1
+          - left= op= cp panel-6
+          - right= sell= 1500 POLISHED_ANDESITE_SLAB 1
+          - right= op= cp panel-6
+          - leftshift= sell= 96000 POLISHED_ANDESITE_SLAB 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 96000 POLISHED_ANDESITE_SLAB 64
+          - rightshift= op= cp panel-6
+        has21:
+          value0: 22
+          compare0: '%objective_score_Tienda_Item2%'
+          material: RED_BANNER
+          name: ''
+          lore:
+          - '&dClick para vender por &b$2500'
+          - '&7Shift+click para vender x16'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 2500 RED_BANNER 1
+          - left= op= cp panel-6
+          - right= sell= 2500 RED_BANNER 1
+          - right= op= cp panel-6
+          - leftshift= sell= 40000 RED_BANNER 16
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 40000 RED_BANNER 16
+          - rightshift= op= cp panel-6
+        has22:
+          value0: 23
+          compare0: '%objective_score_Tienda_Item2%'
+          material: GHAST_TEAR
+          name: ''
+          lore:
+          - '&dClick para vender por &b$5000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 5000 GHAST_TEAR 1
+          - left= op= cp panel-6
+          - right= sell= 5000 GHAST_TEAR 1
+          - right= op= cp panel-6
+          - leftshift= sell= 320000 GHAST_TEAR 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 320000 GHAST_TEAR 64
+          - rightshift= op= cp panel-6
+        has23:
+          value0: 24
+          compare0: '%objective_score_Tienda_Item2%'
+          material: GOLDEN_SWORD
+          name: ''
+          lore:
+          - '&dClick para vender por &b$16000'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 16000 GOLDEN_SWORD 1
+          - left= op= cp panel-6
+          - right= sell= 16000 GOLDEN_SWORD 1
+          - right= op= cp panel-6
+        has24:
+          value0: 25
+          compare0: '%objective_score_Tienda_Item2%'
+          material: JUNGLE_FENCE_GATE
+          name: ''
+          lore:
+          - '&dClick para vender por &b$1500'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 1500 JUNGLE_FENCE_GATE 1
+          - left= op= cp panel-6
+          - right= sell= 1500 JUNGLE_FENCE_GATE 1
+          - right= op= cp panel-6
+          - leftshift= sell= 96000 JUNGLE_FENCE_GATE 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 96000 JUNGLE_FENCE_GATE 64
+          - rightshift= op= cp panel-6
+        has25:
+          value0: 26
+          compare0: '%objective_score_Tienda_Item2%'
+          material: DEAD_BUSH
+          name: ''
+          lore:
+          - '&dClick para vender por &b$47500'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 47500 DEAD_BUSH 1
+          - left= op= cp panel-6
+          - right= sell= 47500 DEAD_BUSH 1
+          - right= op= cp panel-6
+          - leftshift= sell= 3040000 DEAD_BUSH 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 3040000 DEAD_BUSH 64
+          - rightshift= op= cp panel-6
+        has26:
+          value0: 27
+          compare0: '%objective_score_Tienda_Item2%'
+          material: PURPLE_WOOL
+          name: ''
+          lore:
+          - '&dClick para vender por &b$3500'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 3500 PURPLE_WOOL 1
+          - left= op= cp panel-6
+          - right= sell= 3500 PURPLE_WOOL 1
+          - right= op= cp panel-6
+          - leftshift= sell= 224000 PURPLE_WOOL 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 224000 PURPLE_WOOL 64
+          - rightshift= op= cp panel-6
+        has27:
+          value0: 28
+          compare0: '%objective_score_Tienda_Item2%'
+          material: RABBIT_HIDE
+          name: ''
+          lore:
+          - '&dClick para vender por &b$65000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 65000 RABBIT_HIDE 1
+          - left= op= cp panel-6
+          - right= sell= 65000 RABBIT_HIDE 1
+          - right= op= cp panel-6
+          - leftshift= sell= 4160000 RABBIT_HIDE 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 4160000 RABBIT_HIDE 64
+          - rightshift= op= cp panel-6
+        has28:
+          value0: 29
+          compare0: '%objective_score_Tienda_Item2%'
+          material: FERMENTED_SPIDER_EYE
+          name: ''
+          lore:
+          - '&dClick para vender por &b$12500'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 12500 FERMENTED_SPIDER_EYE 1
+          - left= op= cp panel-6
+          - right= sell= 12500 FERMENTED_SPIDER_EYE 1
+          - right= op= cp panel-6
+          - leftshift= sell= 800000 FERMENTED_SPIDER_EYE 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 800000 FERMENTED_SPIDER_EYE 64
+          - rightshift= op= cp panel-6
+        has29:
+          value0: 30
+          compare0: '%objective_score_Tienda_Item2%'
+          material: BLUE_ICE
+          name: ''
+          lore:
+          - '&dClick para vender por &b$250000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 250000 BLUE_ICE 1
+          - left= op= cp panel-6
+          - right= sell= 250000 BLUE_ICE 1
+          - right= op= cp panel-6
+          - leftshift= sell= 16000000 BLUE_ICE 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 16000000 BLUE_ICE 64
+          - rightshift= op= cp panel-6
+        has30:
+          value0: 31
+          compare0: '%objective_score_Tienda_Item2%'
+          material: MILK_BUCKET
+          name: ''
+          lore:
+          - '&dClick para vender por &b$35000'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 35000 MILK_BUCKET 1
+          - left= op= cp panel-6
+          - right= sell= 35000 MILK_BUCKET 1
+          - right= op= cp panel-6
+        has31:
+          value0: 32
+          compare0: '%objective_score_Tienda_Item2%'
+          material: MAP
+          name: ''
+          lore:
+          - '&dClick para vender por &b$4000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 4000 MAP 1
+          - left= op= cp panel-6
+          - right= sell= 4000 MAP 1
+          - right= op= cp panel-6
+          - leftshift= sell= 256000 MAP 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 256000 MAP 64
+          - rightshift= op= cp panel-6
+        has32:
+          value0: 33
+          compare0: '%objective_score_Tienda_Item2%'
+          material: FLINT_AND_STEEL
+          name: ''
+          lore:
+          - '&dClick para vender por &b$27500'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 27500 FLINT_AND_STEEL 1
+          - left= op= cp panel-6
+          - right= sell= 27500 FLINT_AND_STEEL 1
+          - right= op= cp panel-6
+        has33:
+          value0: 34
+          compare0: '%objective_score_Tienda_Item2%'
+          material: LIME_CONCRETE_POWDER
+          name: ''
+          lore:
+          - '&dClick para vender por &b$3200'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 3200 LIME_CONCRETE_POWDER 1
+          - left= op= cp panel-6
+          - right= sell= 3200 LIME_CONCRETE_POWDER 1
+          - right= op= cp panel-6
+          - leftshift= sell= 204800 LIME_CONCRETE_POWDER 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 204800 LIME_CONCRETE_POWDER 64
+          - rightshift= op= cp panel-6
+        has34:
+          value0: 35
+          compare0: '%objective_score_Tienda_Item2%'
+          material: POLISHED_BLACKSTONE_BUTTON
+          name: ''
+          lore:
+          - '&dClick para vender por &b$2500'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 2500 POLISHED_BLACKSTONE_BUTTON 1
+          - left= op= cp panel-6
+          - right= sell= 2500 POLISHED_BLACKSTONE_BUTTON 1
+          - right= op= cp panel-6
+          - leftshift= sell= 160000 POLISHED_BLACKSTONE_BUTTON 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 160000 POLISHED_BLACKSTONE_BUTTON 64
+          - rightshift= op= cp panel-6
+        has35:
+          value0: 36
+          compare0: '%objective_score_Tienda_Item2%'
+          material: GILDED_BLACKSTONE
+          name: ''
+          lore:
+          - '&dClick para vender por &b$7500'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 7500 GILDED_BLACKSTONE 1
+          - left= op= cp panel-6
+          - right= sell= 7500 GILDED_BLACKSTONE 1
+          - right= op= cp panel-6
+          - leftshift= sell= 480000 GILDED_BLACKSTONE 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 480000 GILDED_BLACKSTONE 64
+          - rightshift= op= cp panel-6
+        has36:
+          value0: 37
+          compare0: '%objective_score_Tienda_Item2%'
+          material: PIGLIN_BANNER_PATTERN
+          name: ''
+          lore:
+          - '&dClick para vender por &b$127500'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 127500 PIGLIN_BANNER_PATTERN 1
+          - left= op= cp panel-6
+          - right= sell= 127500 PIGLIN_BANNER_PATTERN 1
+          - right= op= cp panel-6
+        has37:
+          value0: 38
+          compare0: '%objective_score_Tienda_Item2%'
+          material: CREEPER_HEAD
+          name: ''
+          lore:
+          - '&dClick para vender por &b$250000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 250000 CREEPER_HEAD 1
+          - left= op= cp panel-6
+          - right= sell= 250000 CREEPER_HEAD 1
+          - right= op= cp panel-6
+          - leftshift= sell= 16000000 CREEPER_HEAD 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 16000000 CREEPER_HEAD 64
+          - rightshift= op= cp panel-6
+        has38:
+          value0: 39
+          compare0: '%objective_score_Tienda_Item2%'
+          material: MUSIC_DISC_CAT
+          name: ''
+          lore:
+          - '&dClick para vender por &b$50000'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 50000 MUSIC_DISC_CAT 1
+          - left= op= cp panel-6
+          - right= sell= 50000 MUSIC_DISC_CAT 1
+          - right= op= cp panel-6
+        has39:
+          value0: 40
+          compare0: '%objective_score_Tienda_Item2%'
+          material: MUSIC_DISC_WAIT
+          name: ''
+          lore:
+          - '&dClick para vender por &b$50000'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 50000 MUSIC_DISC_WAIT 1
+          - left= op= cp panel-6
+          - right= sell= 50000 MUSIC_DISC_WAIT 1
+          - right= op= cp panel-6
+        has40:
+          value0: 41
+          compare0: '%objective_score_Tienda_Item2%'
+          material: CHAINMAIL_BOOTS
+          name: ''
+          lore:
+          - '&dClick para vender por &b$150000'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 150000 CHAINMAIL_BOOTS 1
+          - left= op= cp panel-6
+          - right= sell= 150000 CHAINMAIL_BOOTS 1
+          - right= op= cp panel-6
+        has41:
+          value0: 42
+          compare0: '%objective_score_Tienda_Item2%'
+          material: STRIPPED_CRIMSON_HYPHAE
+          name: ''
+          lore:
+          - '&dClick para vender por &b$15000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 15000 STRIPPED_CRIMSON_HYPHAE 1
+          - left= op= cp panel-6
+          - right= sell= 15000 STRIPPED_CRIMSON_HYPHAE 1
+          - right= op= cp panel-6
+          - leftshift= sell= 960000 STRIPPED_CRIMSON_HYPHAE 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 960000 STRIPPED_CRIMSON_HYPHAE 64
+          - rightshift= op= cp panel-6
+        has42:
+          value0: 43
+          compare0: '%objective_score_Tienda_Item2%'
+          material: CONDUIT
+          name: ''
+          lore:
+          - '&dClick para vender por &b$1000000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 1000000 CONDUIT 1
+          - left= op= cp panel-6
+          - right= sell= 1000000 CONDUIT 1
+          - right= op= cp panel-6
+          - leftshift= sell= 64000000 CONDUIT 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 64000000 CONDUIT 64
+          - rightshift= op= cp panel-6
+        has43:
+          value0: 44
+          compare0: '%objective_score_Tienda_Item2%'
+          material: ENDER_PEARL
+          name: ''
+          lore:
+          - '&dClick para vender por &b$27500'
+          - '&7Shift+click para vender x16'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 27500 ENDER_PEARL 1
+          - left= op= cp panel-6
+          - right= sell= 27500 ENDER_PEARL 1
+          - right= op= cp panel-6
+          - leftshift= sell= 440000 ENDER_PEARL 16
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 440000 ENDER_PEARL 16
+          - rightshift= op= cp panel-6
+        has44:
+          value0: 45
+          compare0: '%objective_score_Tienda_Item2%'
+          material: NETHER_QUARTZ_ORE
+          name: ''
+          lore:
+          - '&dClick para vender por &b$65000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 65000 NETHER_QUARTZ_ORE 1
+          - left= op= cp panel-6
+          - right= sell= 65000 NETHER_QUARTZ_ORE 1
+          - right= op= cp panel-6
+          - leftshift= sell= 4160000 NETHER_QUARTZ_ORE 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 4160000 NETHER_QUARTZ_ORE 64
+          - rightshift= op= cp panel-6
+        has45:
+          value0: 46
+          compare0: '%objective_score_Tienda_Item2%'
+          material: SOUL_LANTERN
+          name: ''
+          lore:
+          - '&dClick para vender por &b$8000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 8000 SOUL_LANTERN 1
+          - left= op= cp panel-6
+          - right= sell= 8000 SOUL_LANTERN 1
+          - right= op= cp panel-6
+          - leftshift= sell= 512000 SOUL_LANTERN 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 512000 SOUL_LANTERN 64
+          - rightshift= op= cp panel-6
+        has46:
+          value0: 47
+          compare0: '%objective_score_Tienda_Item2%'
+          material: ITEM_FRAME
+          name: ''
+          lore:
+          - '&dClick para vender por &b$1500'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 1500 ITEM_FRAME 1
+          - left= op= cp panel-6
+          - right= sell= 1500 ITEM_FRAME 1
+          - right= op= cp panel-6
+          - leftshift= sell= 96000 ITEM_FRAME 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 96000 ITEM_FRAME 64
+          - rightshift= op= cp panel-6
+        has47:
+          value0: 48
+          compare0: '%objective_score_Tienda_Item2%'
+          material: MUSIC_DISC_MELLOHI
+          name: ''
+          lore:
+          - '&dClick para vender por &b$50000'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 50000 MUSIC_DISC_MELLOHI 1
+          - left= op= cp panel-6
+          - right= sell= 50000 MUSIC_DISC_MELLOHI 1
+          - right= op= cp panel-6
+        has48:
+          value0: 49
+          compare0: '%objective_score_Tienda_Item2%'
+          material: SKULL_BANNER_PATTERN
+          name: ''
+          lore:
+          - '&dClick para vender por &b$100000'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 100000 SKULL_BANNER_PATTERN 1
+          - left= op= cp panel-6
+          - right= sell= 100000 SKULL_BANNER_PATTERN 1
+          - right= op= cp panel-6
+        has49:
+          value0: 50
+          compare0: '%objective_score_Tienda_Item2%'
+          material: MUSIC_DISC_STAL
+          name: ''
+          lore:
+          - '&dClick para vender por &b$50000'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 50000 MUSIC_DISC_STAL 1
+          - left= op= cp panel-6
+          - right= sell= 50000 MUSIC_DISC_STAL 1
+          - right= op= cp panel-6
+        has50:
+          value0: 51
+          compare0: '%objective_score_Tienda_Item2%'
+          material: WARPED_FUNGUS_ON_A_STICK
+          name: ''
+          lore:
+          - '&dClick para vender por &b$25000'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 25000 WARPED_FUNGUS_ON_A_STICK 1
+          - left= op= cp panel-6
+          - right= sell= 25000 WARPED_FUNGUS_ON_A_STICK 1
+          - right= op= cp panel-6
+        has51:
+          value0: 52
+          compare0: '%objective_score_Tienda_Item2%'
+          material: LODESTONE
+          name: ''
+          lore:
+          - '&dClick para vender por &b$150000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 150000 LODESTONE 1
+          - left= op= cp panel-6
+          - right= sell= 150000 LODESTONE 1
+          - right= op= cp panel-6
+          - leftshift= sell= 9600000 LODESTONE 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 9600000 LODESTONE 64
+          - rightshift= op= cp panel-6
+        has52:
+          value0: 53
+          compare0: '%objective_score_Tienda_Item2%'
+          material: VINE
+          name: ''
+          lore:
+          - '&dClick para vender por &b$7000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 7000 VINE 1
+          - left= op= cp panel-6
+          - right= sell= 7000 VINE 1
+          - right= op= cp panel-6
+          - leftshift= sell= 448000 VINE 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 448000 VINE 64
+          - rightshift= op= cp panel-6
+        has53:
+          value0: 54
+          compare0: '%objective_score_Tienda_Item2%'
+          material: TUFF
+          name: ''
+          lore:
+          - '&dClick para vender por &b$5000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 5000 TUFF 1
+          - left= op= cp panel-6
+          - right= sell= 5000 TUFF 1
+          - right= op= cp panel-6
+          - leftshift= sell= 320000 TUFF 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 320000 TUFF 64
+          - rightshift= op= cp panel-6
+        has54:
+          value0: 55
+          compare0: '%objective_score_Tienda_Item2%'
+          material: WET_SPONGE
+          name: ''
+          lore:
+          - '&dClick para vender por &b$100000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 100000 WET_SPONGE 1
+          - left= op= cp panel-6
+          - right= sell= 100000 WET_SPONGE 1
+          - right= op= cp panel-6
+          - leftshift= sell= 6400000 WET_SPONGE 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 6400000 WET_SPONGE 64
+          - rightshift= op= cp panel-6
+        has55:
+          value0: 56
+          compare0: '%objective_score_Tienda_Item2%'
+          material: CHISELED_DEEPSLATE
+          name: ''
+          lore:
+          - '&dClick para vender por &b$2500'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 2500 CHISELED_DEEPSLATE 1
+          - left= op= cp panel-6
+          - right= sell= 2500 CHISELED_DEEPSLATE 1
+          - right= op= cp panel-6
+          - leftshift= sell= 160000 CHISELED_DEEPSLATE 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 160000 CHISELED_DEEPSLATE 64
+          - rightshift= op= cp panel-6
+        has56:
+          value0: 57
+          compare0: '%objective_score_Tienda_Item2%'
+          material: SMOOTH_BASALT
+          name: ''
+          lore:
+          - '&dClick para vender por &b$5000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 5000 SMOOTH_BASALT 1
+          - left= op= cp panel-6
+          - right= sell= 5000 SMOOTH_BASALT 1
+          - right= op= cp panel-6
+          - leftshift= sell= 320000 SMOOTH_BASALT 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 320000 SMOOTH_BASALT 64
+          - rightshift= op= cp panel-6
+        has57:
+          value0: 58
+          compare0: '%objective_score_Tienda_Item2%'
+          material: DRIED_KELP_BLOCK
+          name: ''
+          lore:
+          - '&dClick para vender por &b$1000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 1000 DRIED_KELP_BLOCK 1
+          - left= op= cp panel-6
+          - right= sell= 1000 DRIED_KELP_BLOCK 1
+          - right= op= cp panel-6
+          - leftshift= sell= 64000 DRIED_KELP_BLOCK 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 64000 DRIED_KELP_BLOCK 64
+          - rightshift= op= cp panel-6
+        has58:
+          value0: 59
+          compare0: '%objective_score_Tienda_Item2%'
+          material: DEEPSLATE_REDSTONE_ORE
+          name: ''
+          lore:
+          - '&dClick para vender por &b$10000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 10000 DEEPSLATE_REDSTONE_ORE 1
+          - left= op= cp panel-6
+          - right= sell= 10000 DEEPSLATE_REDSTONE_ORE 1
+          - right= op= cp panel-6
+          - leftshift= sell= 640000 DEEPSLATE_REDSTONE_ORE 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 640000 DEEPSLATE_REDSTONE_ORE 64
+          - rightshift= op= cp panel-6
+        has59:
+          value0: 60
+          compare0: '%objective_score_Tienda_Item2%'
+          material: WEATHERED_CUT_COPPER
+          name: ''
+          lore:
+          - '&dClick para vender por &b$70000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 70000 WEATHERED_CUT_COPPER 1
+          - left= op= cp panel-6
+          - right= sell= 70000 WEATHERED_CUT_COPPER 1
+          - right= op= cp panel-6
+          - leftshift= sell= 4480000 WEATHERED_CUT_COPPER 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 4480000 WEATHERED_CUT_COPPER 64
+          - rightshift= op= cp panel-6
+        has60:
+          value0: 61
+          compare0: '%objective_score_Tienda_Item2%'
+          material: CHORUS_FLOWER
+          name: ''
+          lore:
+          - '&dClick para vender por &b$10000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 10000 CHORUS_FLOWER 1
+          - left= op= cp panel-6
+          - right= sell= 10000 CHORUS_FLOWER 1
+          - right= op= cp panel-6
+          - leftshift= sell= 640000 CHORUS_FLOWER 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 640000 CHORUS_FLOWER 64
+          - rightshift= op= cp panel-6
+        has61:
+          value0: 62
+          compare0: '%objective_score_Tienda_Item2%'
+          material: RAW_GOLD_BLOCK
+          name: ''
+          lore:
+          - '&dClick para vender por &b$20000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 20000 RAW_GOLD_BLOCK 1
+          - left= op= cp panel-6
+          - right= sell= 20000 RAW_GOLD_BLOCK 1
+          - right= op= cp panel-6
+          - leftshift= sell= 1280000 RAW_GOLD_BLOCK 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 1280000 RAW_GOLD_BLOCK 64
+          - rightshift= op= cp panel-6
+        has62:
+          value0: 63
+          compare0: '%objective_score_Tienda_Item2%'
+          material: SMALL_DRIPLEAF
+          name: ''
+          lore:
+          - '&dClick para vender por &b$250000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 250000 SMALL_DRIPLEAF 1
+          - left= op= cp panel-6
+          - right= sell= 250000 SMALL_DRIPLEAF 1
+          - right= op= cp panel-6
+          - leftshift= sell= 16000000 SMALL_DRIPLEAF 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 16000000 SMALL_DRIPLEAF 64
+          - rightshift= op= cp panel-6
+        has63:
+          value0: 64
+          compare0: '%objective_score_Tienda_Item2%'
+          material: RED_SANDSTONE_WALL
+          name: ''
+          lore:
+          - '&dClick para vender por &b$20000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 20000 RED_SANDSTONE_WALL 1
+          - left= op= cp panel-6
+          - right= sell= 20000 RED_SANDSTONE_WALL 1
+          - right= op= cp panel-6
+          - leftshift= sell= 1280000 RED_SANDSTONE_WALL 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 1280000 RED_SANDSTONE_WALL 64
+          - rightshift= op= cp panel-6
+        has64:
+          value0: 65
+          compare0: '%objective_score_Tienda_Item2%'
+          material: SUNFLOWER
+          name: ''
+          lore:
+          - '&dClick para vender por &b$5000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 5000 SUNFLOWER 1
+          - left= op= cp panel-6
+          - right= sell= 5000 SUNFLOWER 1
+          - right= op= cp panel-6
+          - leftshift= sell= 320000 SUNFLOWER 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 320000 SUNFLOWER 64
+          - rightshift= op= cp panel-6
+        has65:
+          value0: 66
+          compare0: '%objective_score_Tienda_Item2%'
+          material: PRISMARINE_SHARD
+          name: ''
+          lore:
+          - '&dClick para vender por &b$5000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 5000 PRISMARINE_SHARD 1
+          - left= op= cp panel-6
+          - right= sell= 5000 PRISMARINE_SHARD 1
+          - right= op= cp panel-6
+          - leftshift= sell= 320000 PRISMARINE_SHARD 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 320000 PRISMARINE_SHARD 64
+          - rightshift= op= cp panel-6
+        has66:
+          value0: 67
+          compare0: '%objective_score_Tienda_Item2%'
+          material: SPYGLASS
+          name: ''
+          lore:
+          - '&dClick para vender por &b$10000'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 10000 SPYGLASS 1
+          - left= op= cp panel-6
+          - right= sell= 10000 SPYGLASS 1
+          - right= op= cp panel-6
+        has67:
+          value0: 68
+          compare0: '%objective_score_Tienda_Item2%'
+          material: FLOWER_POT
+          name: ''
+          lore:
+          - '&dClick para vender por &b$3000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 3000 FLOWER_POT 1
+          - left= op= cp panel-6
+          - right= sell= 3000 FLOWER_POT 1
+          - right= op= cp panel-6
+          - leftshift= sell= 192000 FLOWER_POT 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 192000 FLOWER_POT 64
+          - rightshift= op= cp panel-6
+        has68:
+          value0: 69
+          compare0: '%objective_score_Tienda_Item2%'
+          material: GLOW_ITEM_FRAME
+          name: ''
+          lore:
+          - '&dClick para vender por &b$7500'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 7500 GLOW_ITEM_FRAME 1
+          - left= op= cp panel-6
+          - right= sell= 7500 GLOW_ITEM_FRAME 1
+          - right= op= cp panel-6
+          - leftshift= sell= 480000 GLOW_ITEM_FRAME 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 480000 GLOW_ITEM_FRAME 64
+          - rightshift= op= cp panel-6
+        has69:
+          value0: 70
+          compare0: '%objective_score_Tienda_Item2%'
+          material: CANDLE
+          name: ''
+          lore:
+          - '&dClick para vender por &b$12000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 12000 CANDLE 1
+          - left= op= cp panel-6
+          - right= sell= 12000 CANDLE 1
+          - right= op= cp panel-6
+          - leftshift= sell= 768000 CANDLE 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 768000 CANDLE 64
+          - rightshift= op= cp panel-6
+        has70:
+          value0: 71
+          compare0: '%objective_score_Tienda_Item2%'
+          material: OXEYE_DAISY
+          name: ''
+          lore:
+          - '&dClick para vender por &b$500'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 500 OXEYE_DAISY 1
+          - left= op= cp panel-6
+          - right= sell= 500 OXEYE_DAISY 1
+          - right= op= cp panel-6
+          - leftshift= sell= 32000 OXEYE_DAISY 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 32000 OXEYE_DAISY 64
+          - rightshift= op= cp panel-6
+        has71:
+          value0: 72
+          compare0: '%objective_score_Tienda_Item2%'
+          material: LEATHER_HORSE_ARMOR
+          name: ''
+          lore:
+          - '&dClick para vender por &b$2000'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 2000 LEATHER_HORSE_ARMOR 1
+          - left= op= cp panel-6
+          - right= sell= 2000 LEATHER_HORSE_ARMOR 1
+          - right= op= cp panel-6
+        has72:
+          value0: 73
+          compare0: '%objective_score_Tienda_Item2%'
+          material: CRIMSON_DOOR
+          name: ''
+          lore:
+          - '&dClick para vender por &b$12000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 12000 CRIMSON_DOOR 1
+          - left= op= cp panel-6
+          - right= sell= 12000 CRIMSON_DOOR 1
+          - right= op= cp panel-6
+          - leftshift= sell= 768000 CRIMSON_DOOR 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 768000 CRIMSON_DOOR 64
+          - rightshift= op= cp panel-6
+        has73:
+          value0: 74
+          compare0: '%objective_score_Tienda_Item2%'
+          material: RABBIT
+          name: ''
+          lore:
+          - '&dClick para vender por &b$16000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 16000 RABBIT 1
+          - left= op= cp panel-6
+          - right= sell= 16000 RABBIT 1
+          - right= op= cp panel-6
+          - leftshift= sell= 1024000 RABBIT 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 1024000 RABBIT 64
+          - rightshift= op= cp panel-6
+        has74:
+          value0: 75
+          compare0: '%objective_score_Tienda_Item2%'
+          material: WOODEN_PICKAXE
+          name: ''
+          lore:
+          - '&dClick para vender por &b$12000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 12000 WOODEN_PICKAXE 1
+          - left= op= cp panel-6
+          - right= sell= 12000 WOODEN_PICKAXE 1
+          - right= op= cp panel-6
+        has75:
+          value0: 76
+          compare0: '%objective_score_Tienda_Item2%'
+          material: DEAD_BRAIN_CORAL_BLOCK
+          name: ''
+          lore:
+          - '&dClick para vender por &b$1000000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 1000000 DEAD_BRAIN_CORAL_BLOCK 1
+          - left= op= cp panel-6
+          - right= sell= 1000000 DEAD_BRAIN_CORAL_BLOCK 1
+          - right= op= cp panel-6
+          - leftshift= sell= 64000000 DEAD_BRAIN_CORAL_BLOCK 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 64000000 DEAD_BRAIN_CORAL_BLOCK 64
+          - rightshift= op= cp panel-6
+      '24':
+        material: DAYLIGHT_DETECTOR
+        name: ''
+        lore:
+        - '&dClick para vender por &b$25000'
+        - '&7Shift+click para vender x64'
+        commands:
+        - op= codex unlock %cp-player-name% history 3
+        - left= sell= 25000 DAYLIGHT_DETECTOR 1
+        - left= op= cp panel-6
+        - right= sell= 25000 DAYLIGHT_DETECTOR 1
+        - right= op= cp panel-6
+        - leftshift= sell= 1600000 DAYLIGHT_DETECTOR 64
+        - leftshift= op= cp panel-6
+        - rightshift= sell= 1600000 DAYLIGHT_DETECTOR 64
+        - rightshift= op= cp panel-6
+        has0:
+          value0: 1
+          compare0: '%objective_score_Tienda_Item3%'
+          material: TNT
+          name: ''
+          lore:
+          - '&dClick para vender por &b$1500'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 1500 TNT 1
+          - left= op= cp panel-6
+          - right= sell= 1500 TNT 1
+          - right= op= cp panel-6
+          - leftshift= sell= 96000 TNT 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 96000 TNT 64
+          - rightshift= op= cp panel-6
+        has1:
+          value0: 2
+          compare0: '%objective_score_Tienda_Item3%'
+          material: POLISHED_BLACKSTONE_SLAB
+          name: ''
+          lore:
+          - '&dClick para vender por &b$5000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 5000 POLISHED_BLACKSTONE_SLAB 1
+          - left= op= cp panel-6
+          - right= sell= 5000 POLISHED_BLACKSTONE_SLAB 1
+          - right= op= cp panel-6
+          - leftshift= sell= 320000 POLISHED_BLACKSTONE_SLAB 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 320000 POLISHED_BLACKSTONE_SLAB 64
+          - rightshift= op= cp panel-6
+        has2:
+          value0: 3
+          compare0: '%objective_score_Tienda_Item3%'
+          material: IRON_HOE
+          name: ''
+          lore:
+          - '&dClick para vender por &b$7000'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 7000 IRON_HOE 1
+          - left= op= cp panel-6
+          - right= sell= 7000 IRON_HOE 1
+          - right= op= cp panel-6
+        has3:
+          value0: 4
+          compare0: '%objective_score_Tienda_Item3%'
+          material: CROSSBOW
+          name: ''
+          lore:
+          - '&dClick para vender por &b$6500'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 6500 CROSSBOW 1
+          - left= op= cp panel-6
+          - right= sell= 6500 CROSSBOW 1
+          - right= op= cp panel-6
+        has4:
+          value0: 5
+          compare0: '%objective_score_Tienda_Item3%'
+          material: CYAN_SHULKER_BOX
+          name: ''
+          lore:
+          - '&dClick para vender por &b$400000'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 400000 CYAN_SHULKER_BOX 1
+          - left= op= cp panel-6
+          - right= sell= 400000 CYAN_SHULKER_BOX 1
+          - right= op= cp panel-6
+        has5:
+          value0: 5
+          compare0: '%objective_score_Tienda_Item3%'
+          material: BONE
+          name: ''
+          lore:
+          - '&dClick para vender por &b$1500'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 1500 BONE 1
+          - left= op= cp panel-6
+          - right= sell= 1500 BONE 1
+          - right= op= cp panel-6
+          - leftshift= sell= 96000 BONE 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 96000 BONE 64
+          - rightshift= op= cp panel-6
+        has6:
+          value0: 7
+          compare0: '%objective_score_Tienda_Item3%'
+          material: SLIME_BALL
+          name: ''
+          lore:
+          - '&dClick para vender por &b$7500'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 7500 BONE 1
+          - left= op= cp panel-6
+          - right= sell= 7500 BONE 1
+          - right= op= cp panel-6
+          - leftshift= sell= 480000 BONE 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 480000 BONE 64
+          - rightshift= op= cp panel-6
+        has7:
+          value0: 8
+          compare0: '%objective_score_Tienda_Item3%'
+          material: IRON_NUGGET
+          name: ''
+          lore:
+          - '&dClick para vender por &b$500'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 500 IRON_NUGGET 1
+          - left= op= cp panel-6
+          - right= sell= 500 IRON_NUGGET 1
+          - right= op= cp panel-6
+          - leftshift= sell= 32000 IRON_NUGGET 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 32000 IRON_NUGGET 64
+          - rightshift= op= cp panel-6
+        has8:
+          value0: 9
+          compare0: '%objective_score_Tienda_Item3%'
+          material: TURTLE_HELMET
+          name: ''
+          lore:
+          - '&dClick para vender por &b$120000'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 120000 TURTLE_HELMET 1
+          - left= op= cp panel-6
+          - right= sell= 120000 TURTLE_HELMET 1
+          - right= op= cp panel-6
+        has9:
+          value0: 10
+          compare0: '%objective_score_Tienda_Item3%'
+          material: ENCHANTED_GOLDEN_APPLE
+          name: ''
+          lore:
+          - '&dClick para vender por &b$1700000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 1700000 ENCHANTED_GOLDEN_APPLE 1
+          - left= op= cp panel-6
+          - right= sell= 1700000 ENCHANTED_GOLDEN_APPLE 1
+          - right= op= cp panel-6
+          - leftshift= sell= 108800000 ENCHANTED_GOLDEN_APPLE 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 108800000 ENCHANTED_GOLDEN_APPLE 64
+          - rightshift= op= cp panel-6
+        has10:
+          value0: 11
+          compare0: '%objective_score_Tienda_Item3%'
+          material: RABBIT_FOOT
+          name: ''
+          lore:
+          - '&dClick para vender por &b$400'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 400 RABBIT_FOOT 1
+          - left= op= cp panel-6
+          - right= sell= 400 RABBIT_FOOT 1
+          - right= op= cp panel-6
+          - leftshift= sell= 25600 RABBIT_FOOT 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 25600 RABBIT_FOOT 64
+          - rightshift= op= cp panel-6
+        has11:
+          value0: 12
+          compare0: '%objective_score_Tienda_Item3%'
+          material: TRAPPED_CHEST
+          name: ''
+          lore:
+          - '&dClick para vender por &b$6000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 6000 TRAPPED_CHEST 1
+          - left= op= cp panel-6
+          - right= sell= 6000 TRAPPED_CHEST 1
+          - right= op= cp panel-6
+          - leftshift= sell= 384000 TRAPPED_CHEST 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 384000 TRAPPED_CHEST 64
+          - rightshift= op= cp panel-6
+        has12:
+          value0: 13
+          compare0: '%objective_score_Tienda_Item3%'
+          material: ACTIVATOR_RAIL
+          name: ''
+          lore:
+          - '&dClick para vender por &b$2250'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 2000 ACTIVATOR_RAIL 1
+          - left= op= cp panel-6
+          - right= sell= 2000 ACTIVATOR_RAIL 1
+          - right= op= cp panel-6
+          - leftshift= sell= 128000 ACTIVATOR_RAIL 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 128000 ACTIVATOR_RAIL 64
+          - rightshift= op= cp panel-6
+        has13:
+          value0: 14
+          compare0: '%objective_score_Tienda_Item3%'
+          material: ENCHANTING_TABLE
+          name: ''
+          lore:
+          - '&dClick para vender por &b$17500'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 17500 ENCHANTING_TABLE 1
+          - left= op= cp panel-6
+          - right= sell= 17500 ENCHANTING_TABLE 1
+          - right= op= cp panel-6
+          - leftshift= sell= 1120000 ENCHANTING_TABLE 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 1120000 ENCHANTING_TABLE 64
+          - rightshift= op= cp panel-6
+        has14:
+          value0: 15
+          compare0: '%objective_score_Tienda_Item3%'
+          material: MUSIC_DISC_PIGSTEP
+          name: ''
+          lore:
+          - '&dClick para vender por &b$50000'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 50000 MUSIC_DISC_PIGSTEP 1
+          - left= op= cp panel-6
+          - right= sell= 50000 MUSIC_DISC_PIGSTEP 1
+          - right= op= cp panel-6
+        has15:
+          value0: 16
+          compare0: '%objective_score_Tienda_Item3%'
+          material: STONE_AXE
+          name: ''
+          lore:
+          - '&dClick para vender por &b$2000'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 2000 STONE_AXE 1
+          - left= op= cp panel-6
+          - right= sell= 2000 STONE_AXE 1
+          - right= op= cp panel-6
+        has16:
+          value0: 17
+          compare0: '%objective_score_Tienda_Item3%'
+          material: NAME_TAG
+          name: ''
+          lore:
+          - '&dClick para vender por &b$2500'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 2500 NAME_TAG 1
+          - left= op= cp panel-6
+          - right= sell= 2500 NAME_TAG 1
+          - right= op= cp panel-6
+          - leftshift= sell= 160000 NAME_TAG 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 160000 NAME_TAG 64
+          - rightshift= op= cp panel-6
+        has17:
+          value0: 18
+          compare0: '%objective_score_Tienda_Item3%'
+          material: BROWN_STAINED_GLASS_PANE
+          name: ''
+          lore:
+          - '&dClick para vender por &b$3500'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 3500 BROWN_STAINED_GLASS_PANE 1
+          - left= op= cp panel-6
+          - right= sell= 3500 BROWN_STAINED_GLASS_PANE 1
+          - right= op= cp panel-6
+          - leftshift= sell= 224000 BROWN_STAINED_GLASS_PANE 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 224000 BROWN_STAINED_GLASS_PANE 64
+          - rightshift= op= cp panel-6
+        has18:
+          value0: 19
+          compare0: '%objective_score_Tienda_Item3%'
+          material: CHISELED_RED_SANDSTONE
+          name: ''
+          lore:
+          - '&dClick para vender por &b$45000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 45000 CHISELED_RED_SANDSTONE 1
+          - left= op= cp panel-6
+          - right= sell= 45000 CHISELED_RED_SANDSTONE 1
+          - right= op= cp panel-6
+          - leftshift= sell= 2880000 CHISELED_RED_SANDSTONE 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 2880000 CHISELED_RED_SANDSTONE 64
+          - rightshift= op= cp panel-6
+        has19:
+          value0: 20
+          compare0: '%objective_score_Tienda_Item3%'
+          material: POPPED_CHORUS_FRUIT
+          name: ''
+          lore:
+          - '&dClick para vender por &b$12000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 12000 POPPED_CHORUS_FRUIT 1
+          - left= op= cp panel-6
+          - right= sell= 12000 POPPED_CHORUS_FRUIT 1
+          - right= op= cp panel-6
+          - leftshift= sell= 768000 POPPED_CHORUS_FRUIT 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 768000 POPPED_CHORUS_FRUIT 64
+          - rightshift= op= cp panel-6
+        has20:
+          value0: 21
+          compare0: '%objective_score_Tienda_Item3%'
+          material: SOUL_SOIL
+          name: ''
+          lore:
+          - '&dClick para vender por &b$26500'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 26500 SOUL_SOIL 1
+          - left= op= cp panel-6
+          - right= sell= 26500 SOUL_SOIL 1
+          - right= op= cp panel-6
+          - leftshift= sell= 1696000 SOUL_SOIL 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 1696000 SOUL_SOIL 64
+          - rightshift= op= cp panel-6
+        has21:
+          value0: 22
+          compare0: '%objective_score_Tienda_Item3%'
+          material: END_STONE_BRICKS
+          name: ''
+          lore:
+          - '&dClick para vender por &b$5000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 5000 END_STONE_BRICKS 1
+          - left= op= cp panel-6
+          - right= sell= 5000 END_STONE_BRICKS 1
+          - right= op= cp panel-6
+          - leftshift= sell= 320000 END_STONE_BRICKS 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 320000 END_STONE_BRICKS 64
+          - rightshift= op= cp panel-6
+        has22:
+          value0: 23
+          compare0: '%objective_score_Tienda_Item3%'
+          material: JUKEBOX
+          name: ''
+          lore:
+          - '&dClick para vender por &b$25000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 25000 JUKEBOX 1
+          - left= op= cp panel-6
+          - right= sell= 25000 JUKEBOX 1
+          - right= op= cp panel-6
+          - leftshift= sell= 1600000 JUKEBOX 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 1600000 JUKEBOX 64
+          - rightshift= op= cp panel-6
+        has23:
+          value0: 24
+          compare0: '%objective_score_Tienda_Item3%'
+          material: COBWEB
+          name: ''
+          lore:
+          - '&dClick para vender por &b$17500'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 17500 COBWEB 1
+          - left= op= cp panel-6
+          - right= sell= 17500 COBWEB 1
+          - right= op= cp panel-6
+          - leftshift= sell= 1120000 COBWEB 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 1120000 COBWEB 64
+          - rightshift= op= cp panel-6
+        has24:
+          value0: 25
+          compare0: '%objective_score_Tienda_Item3%'
+          material: BEETROOT
+          name: ''
+          lore:
+          - '&dClick para vender por &b$1500'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 1500 BEETROOT 1
+          - left= op= cp panel-6
+          - right= sell= 1500 BEETROOT 1
+          - right= op= cp panel-6
+          - leftshift= sell= 96000 BEETROOT 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 96000 BEETROOT 64
+          - rightshift= op= cp panel-6
+        has25:
+          value0: 26
+          compare0: '%objective_score_Tienda_Item3%'
+          material: SMOOTH_STONE
+          name: ''
+          lore:
+          - '&dClick para vender por &b$3500'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 3500 SMOOTH_STONE 1
+          - left= op= cp panel-6
+          - right= sell= 3500 SMOOTH_STONE 1
+          - right= op= cp panel-6
+          - leftshift= sell= 224000 SMOOTH_STONE 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 224000 SMOOTH_STONE 64
+          - rightshift= op= cp panel-6
+        has26:
+          value0: 27
+          compare0: '%objective_score_Tienda_Item3%'
+          material: LIGHT_BLUE_TERRACOTTA
+          name: ''
+          lore:
+          - '&dClick para vender por &b$3500'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 3500 LIGHT_BLUE_TERRACOTTA 1
+          - left= op= cp panel-6
+          - right= sell= 3500 LIGHT_BLUE_TERRACOTTA 1
+          - right= op= cp panel-6
+          - leftshift= sell= 224000 LIGHT_BLUE_TERRACOTTA 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 224000 LIGHT_BLUE_TERRACOTTA 64
+          - rightshift= op= cp panel-6
+        has27:
+          value0: 28
+          compare0: '%objective_score_Tienda_Item3%'
+          material: BELL
+          name: ''
+          lore:
+          - '&dClick para vender por &b$1500000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 1500000 BELL 1
+          - left= op= cp panel-6
+          - right= sell= 1500000 BELL 1
+          - right= op= cp panel-6
+          - leftshift= sell= 96000000 BELL 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 96000000 BELL 64
+          - rightshift= op= cp panel-6
+        has28:
+          value0: 29
+          compare0: '%objective_score_Tienda_Item3%'
+          material: IRON_TRAPDOOR
+          name: ''
+          lore:
+          - '&dClick para vender por &b$2000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 2000 IRON_TRAPDOOR 1
+          - left= op= cp panel-6
+          - right= sell= 2000 IRON_TRAPDOOR 1
+          - right= op= cp panel-6
+          - leftshift= sell= 128000 IRON_TRAPDOOR 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 128000 IRON_TRAPDOOR 64
+          - rightshift= op= cp panel-6
+        has29:
+          value0: 30
+          compare0: '%objective_score_Tienda_Item3%'
+          material: DARK_OAK_LEAVES
+          name: ''
+          lore:
+          - '&dClick para vender por &b$1500'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 1500 DARK_OAK_LEAVES 1
+          - left= op= cp panel-6
+          - right= sell= 1500 DARK_OAK_LEAVES 1
+          - right= op= cp panel-6
+          - leftshift= sell= 96000 DARK_OAK_LEAVES 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 96000 DARK_OAK_LEAVES 64
+          - rightshift= op= cp panel-6
+        has30:
+          value0: 31
+          compare0: '%objective_score_Tienda_Item3%'
+          material: BREWING_STAND
+          name: ''
+          lore:
+          - '&dClick para vender por &b$27500'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 27500 BREWING_STAND 1
+          - left= op= cp panel-6
+          - right= sell= 27500 BREWING_STAND 1
+          - right= op= cp panel-6
+          - leftshift= sell= 1760000 BREWING_STAND 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 1760000 BREWING_STAND 64
+          - rightshift= op= cp panel-6
+        has31:
+          value0: 32
+          compare0: '%objective_score_Tienda_Item3%'
+          material: NETHER_SPROUTS
+          name: ''
+          lore:
+          - '&dClick para vender por &b$14000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 14000 NETHER_SPROUTS 1
+          - left= op= cp panel-6
+          - right= sell= 14000 NETHER_SPROUTS 1
+          - right= op= cp panel-6
+          - leftshift= sell= 896000 NETHER_SPROUTS 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 896000 NETHER_SPROUTS 64
+          - rightshift= op= cp panel-6
+        has32:
+          value0: 33
+          compare0: '%objective_score_Tienda_Item3%'
+          material: END_CRYSTAL
+          name: ''
+          lore:
+          - '&dClick para vender por &b$16500'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 16500 END_CRYSTAL 1
+          - left= op= cp panel-6
+          - right= sell= 16500 END_CRYSTAL 1
+          - right= op= cp panel-6
+          - leftshift= sell= 1056000 END_CRYSTAL 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 1056000 END_CRYSTAL 64
+          - rightshift= op= cp panel-6
+        has33:
+          value0: 34
+          compare0: '%objective_score_Tienda_Item3%'
+          material: SEA_PICKLE
+          name: ''
+          lore:
+          - '&dClick para vender por &b$7000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 7000 SEA_PICKLE 1
+          - left= op= cp panel-6
+          - right= sell= 7000 SEA_PICKLE 1
+          - right= op= cp panel-6
+          - leftshift= sell= 448000 SEA_PICKLE 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 448000 SEA_PICKLE 64
+          - rightshift= op= cp panel-6
+        has34:
+          value0: 35
+          compare0: '%objective_score_Tienda_Item3%'
+          material: NETHER_BRICK_FENCE
+          name: ''
+          lore:
+          - '&dClick para vender por &b$12500'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 12500 NETHER_BRICK_FENCE 1
+          - left= op= cp panel-6
+          - right= sell= 12500 NETHER_BRICK_FENCE 1
+          - right= op= cp panel-6
+          - leftshift= sell= 800000 NETHER_BRICK_FENCE 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 800000 NETHER_BRICK_FENCE 64
+          - rightshift= op= cp panel-6
+        has35:
+          value0: 36
+          compare0: '%objective_score_Tienda_Item3%'
+          material: EGG
+          name: ''
+          lore:
+          - '&dClick para vender por &b$2500'
+          - '&7Shift+click para vender x16'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 2500 EGG 1
+          - left= op= cp panel-6
+          - right= sell= 2500 EGG 1
+          - right= op= cp panel-6
+          - leftshift= sell= 40000 EGG 16
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 40000 EGG 16
+          - rightshift= op= cp panel-6
+        has36:
+          value0: 37
+          compare0: '%objective_score_Tienda_Item3%'
+          material: MUSIC_DISC_BLOCKS
+          name: ''
+          lore:
+          - '&dClick para vender por &b$50000'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 50000 MUSIC_DISC_BLOCKS 1
+          - left= op= cp panel-6
+          - right= sell= 50000 MUSIC_DISC_BLOCKS 1
+          - right= op= cp panel-6
+        has37:
+          value0: 38
+          compare0: '%objective_score_Tienda_Item3%'
+          material: BLAZE_POWDER
+          name: ''
+          lore:
+          - '&dClick para vender por &b$1000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 1000 BLAZE_POWDER 1
+          - left= op= cp panel-6
+          - right= sell= 1000 BLAZE_POWDER 1
+          - right= op= cp panel-6
+          - leftshift= sell= 64000 BLAZE_POWDER 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 64000 BLAZE_POWDER 64
+          - rightshift= op= cp panel-6
+        has38:
+          value0: 39
+          compare0: '%objective_score_Tienda_Item3%'
+          material: NAUTILUS_SHELL
+          name: ''
+          lore:
+          - '&dClick para vender por &b$100000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 100000 NAUTILUS_SHELL 1
+          - left= op= cp panel-6
+          - right= sell= 100000 NAUTILUS_SHELL 1
+          - right= op= cp panel-6
+          - leftshift= sell= 6400000 NAUTILUS_SHELL 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 6400000 NAUTILUS_SHELL 64
+          - rightshift= op= cp panel-6
+        has39:
+          value0: 40
+          compare0: '%objective_score_Tienda_Item3%'
+          material: CHAINMAIL_HELMET
+          name: ''
+          lore:
+          - '&dClick para vender por &b$150000'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 150000 CHAINMAIL_HELMET 1
+          - left= op= cp panel-6
+          - right= sell= 150000 CHAINMAIL_HELMET 1
+          - right= op= cp panel-6
+        has40:
+          value0: 41
+          compare0: '%objective_score_Tienda_Item3%'
+          material: RED_NETHER_BRICK_WALL
+          name: ''
+          lore:
+          - '&dClick para vender por &b$3000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 3000 RED_NETHER_BRICK_WALL 1
+          - left= op= cp panel-6
+          - right= sell= 3000 RED_NETHER_BRICK_WALL 1
+          - right= op= cp panel-6
+          - leftshift= sell= 192000 RED_NETHER_BRICK_WALL 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 192000 RED_NETHER_BRICK_WALL 64
+          - rightshift= op= cp panel-6
+        has41:
+          value0: 42
+          compare0: '%objective_score_Tienda_Item3%'
+          material: MOJANG_BANNER_PATTERN
+          name: ''
+          lore:
+          - '&dClick para vender por &b$300000'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 300000 MOJANG_BANNER_PATTERN 1
+          - left= op= cp panel-6
+          - right= sell= 300000 MOJANG_BANNER_PATTERN 1
+          - right= op= cp panel-6
+        has42:
+          value0: 43
+          compare0: '%objective_score_Tienda_Item3%'
+          material: MUSIC_DISC_WARD
+          name: ''
+          lore:
+          - '&dClick para vender por &b$50000'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 50000 MUSIC_DISC_WARD 1
+          - left= op= cp panel-6
+          - right= sell= 50000 MUSIC_DISC_WARD 1
+          - right= op= cp panel-6
+        has43:
+          value0: 44
+          compare0: '%objective_score_Tienda_Item3%'
+          material: ZOMBIE_HEAD
+          name: ''
+          lore:
+          - '&dClick para vender por &b$250000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 250000 ZOMBIE_HEAD 1
+          - left= op= cp panel-6
+          - right= sell= 250000 ZOMBIE_HEAD 1
+          - right= op= cp panel-6
+          - leftshift= sell= 16000000 ZOMBIE_HEAD 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 16000000 ZOMBIE_HEAD 64
+          - rightshift= op= cp panel-6
+        has44:
+          value0: 45
+          compare0: '%objective_score_Tienda_Item3%'
+          material: CHAINMAIL_LEGGINGS
+          name: ''
+          lore:
+          - '&dClick para vender por &b$150000'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 150000 CHAINMAIL_LEGGINGS 1
+          - left= op= cp panel-6
+          - right= sell= 150000 CHAINMAIL_LEGGINGS 1
+          - right= op= cp panel-6
+        has45:
+          value0: 46
+          compare0: '%objective_score_Tienda_Item3%'
+          material: TURTLE_EGG
+          name: ''
+          lore:
+          - '&dClick para vender por &b$250000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 250000 TURTLE_EGG 1
+          - left= op= cp panel-6
+          - right= sell= 250000 TURTLE_EGG 1
+          - right= op= cp panel-6
+          - leftshift= sell= 16000000 TURTLE_EGG 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 16000000 TURTLE_EGG 64
+          - rightshift= op= cp panel-6
+        has46:
+          value0: 47
+          compare0: '%objective_score_Tienda_Item3%'
+          material: MUSIC_DISC_MALL
+          name: ''
+          lore:
+          - '&dClick para vender por &b$50000'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 50000 MUSIC_DISC_MALL 1
+          - left= op= cp panel-6
+          - right= sell= 50000 MUSIC_DISC_MALL 1
+          - right= op= cp panel-6
+        has47:
+          value0: 48
+          compare0: '%objective_score_Tienda_Item3%'
+          material: SKELETON_SKULL
+          name: ''
+          lore:
+          - '&dClick para vender por &b$250000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 250000 SKELETON_SKULL 1
+          - left= op= cp panel-6
+          - right= sell= 250000 SKELETON_SKULL 1
+          - right= op= cp panel-6
+          - leftshift= sell= 16000000 SKELETON_SKULL 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 16000000 SKELETON_SKULL 64
+          - rightshift= op= cp panel-6
+        has48:
+          value0: 49
+          compare0: '%objective_score_Tienda_Item3%'
+          material: RESPAWN_ANCHOR
+          name: ''
+          lore:
+          - '&dClick para vender por &b$12500'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 12500 RESPAWN_ANCHOR 1
+          - left= op= cp panel-6
+          - right= sell= 12500 RESPAWN_ANCHOR 1
+          - right= op= cp panel-6
+          - leftshift= sell= 800000 RESPAWN_ANCHOR 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 800000 RESPAWN_ANCHOR 64
+          - rightshift= op= cp panel-6
+        has49:
+          value0: 50
+          compare0: '%objective_score_Tienda_Item3%'
+          material: GLOBE_BANNER_PATTERN
+          name: ''
+          lore:
+          - '&dClick para vender por &b$350000'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 350000 GLOBE_BANNER_PATTERN 1
+          - left= op= cp panel-6
+          - right= sell= 350000 GLOBE_BANNER_PATTERN 1
+          - right= op= cp panel-6
+        has50:
+          value0: 51
+          compare0: '%objective_score_Tienda_Item3%'
+          material: WITHER_ROSE
+          name: ''
+          lore:
+          - '&dClick para vender por &b$5000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 5000 WITHER_ROSE 1
+          - left= op= cp panel-6
+          - right= sell= 5000 WITHER_ROSE 1
+          - right= op= cp panel-6
+          - leftshift= sell= 320000 WITHER_ROSE 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 320000 WITHER_ROSE 64
+          - rightshift= op= cp panel-6
+        has51:
+          value0: 52
+          compare0: '%objective_score_Tienda_Item3%'
+          material: FIRE_CORAL
+          name: ''
+          lore:
+          - '&dClick para vender por &b$50000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 50000 FIRE_CORAL 1
+          - left= op= cp panel-6
+          - right= sell= 50000 FIRE_CORAL 1
+          - right= op= cp panel-6
+          - leftshift= sell= 3200000 FIRE_CORAL 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 3200000 FIRE_CORAL 64
+          - rightshift= op= cp panel-6
+        has52:
+          value0: 53
+          compare0: '%objective_score_Tienda_Item3%'
+          material: MUSIC_DISC_13
+          name: ''
+          lore:
+          - '&dClick para vender por &b$50000'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 50000 MUSIC_DISC_13 1
+          - left= op= cp panel-6
+          - right= sell= 50000 MUSIC_DISC_13 1
+          - right= op= cp panel-6
+        has53:
+          value0: 54
+          compare0: '%objective_score_Tienda_Item3%'
+          material: DRIPSTONE_BLOCK
+          name: ''
+          lore:
+          - '&dClick para vender por &b$3500'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 3500 DRIPSTONE_BLOCK 1
+          - left= op= cp panel-6
+          - right= sell= 3500 DRIPSTONE_BLOCK 1
+          - right= op= cp panel-6
+          - leftshift= sell= 224000 DRIPSTONE_BLOCK 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 224000 DRIPSTONE_BLOCK 64
+          - rightshift= op= cp panel-6
+        has54:
+          value0: 55
+          compare0: '%objective_score_Tienda_Item3%'
+          material: TINTED_GLASS
+          name: ''
+          lore:
+          - '&dClick para vender por &b$30000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 30000 TINTED_GLASS 1
+          - left= op= cp panel-6
+          - right= sell= 30000 TINTED_GLASS 1
+          - right= op= cp panel-6
+          - leftshift= sell= 1920000 TINTED_GLASS 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 1920000 TINTED_GLASS 64
+          - rightshift= op= cp panel-6
+        has55:
+          value0: 56
+          compare0: '%objective_score_Tienda_Item3%'
+          material: ROOTED_DIRT
+          name: ''
+          lore:
+          - '&dClick para vender por &b$45000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 45000 ROOTED_DIRT 1
+          - left= op= cp panel-6
+          - right= sell= 45000 ROOTED_DIRT 1
+          - right= op= cp panel-6
+          - leftshift= sell= 2880000 ROOTED_DIRT 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 2880000 ROOTED_DIRT 64
+          - rightshift= op= cp panel-6
+        has56:
+          value0: 57
+          compare0: '%objective_score_Tienda_Item3%'
+          material: DEEPSLATE_COAL_ORE
+          name: ''
+          lore:
+          - '&dClick para vender por &b$75000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 75000 DEEPSLATE_COAL_ORE 1
+          - left= op= cp panel-6
+          - right= sell= 75000 DEEPSLATE_COAL_ORE 1
+          - right= op= cp panel-6
+          - leftshift= sell= 4800000 DEEPSLATE_COAL_ORE 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 4800000 DEEPSLATE_COAL_ORE 64
+          - rightshift= op= cp panel-6
+        has57:
+          value0: 58
+          compare0: '%objective_score_Tienda_Item3%'
+          material: DEEPSLATE_GOLD_ORE
+          name: ''
+          lore:
+          - '&dClick para vender por &b$25000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 25000 DEEPSLATE_GOLD_ORE 1
+          - left= op= cp panel-6
+          - right= sell= 25000 DEEPSLATE_GOLD_ORE 1
+          - right= op= cp panel-6
+          - leftshift= sell= 1600000 DEEPSLATE_GOLD_ORE 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 1600000 DEEPSLATE_GOLD_ORE 64
+          - rightshift= op= cp panel-6
+        has58:
+          value0: 59
+          compare0: '%objective_score_Tienda_Item3%'
+          material: DEEPSLATE_COPPER_ORE
+          name: ''
+          lore:
+          - '&dClick para vender por &b$75000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 75000 DEEPSLATE_COPPER_ORE 1
+          - left= op= cp panel-6
+          - right= sell= 75000 DEEPSLATE_COPPER_ORE 1
+          - right= op= cp panel-6
+          - leftshift= sell= 4800000 DEEPSLATE_COPPER_ORE 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 4800000 DEEPSLATE_COPPER_ORE 64
+          - rightshift= op= cp panel-6
+        has59:
+          value0: 60
+          compare0: '%objective_score_Tienda_Item3%'
+          material: RAW_COPPER_BLOCK
+          name: ''
+          lore:
+          - '&dClick para vender por &b$7500'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 7500 RAW_COPPER_BLOCK 1
+          - left= op= cp panel-6
+          - right= sell= 7500 RAW_COPPER_BLOCK 1
+          - right= op= cp panel-6
+          - leftshift= sell= 480000 RAW_COPPER_BLOCK 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 480000 RAW_COPPER_BLOCK 64
+          - rightshift= op= cp panel-6
+        has60:
+          value0: 61
+          compare0: '%objective_score_Tienda_Item3%'
+          material: HOPPER
+          name: ''
+          lore:
+          - '&dClick para vender por &b$3500'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 3500 HOPPER 1
+          - left= op= cp panel-6
+          - right= sell= 3500 HOPPER 1
+          - right= op= cp panel-6
+          - leftshift= sell= 224000 HOPPER 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 224000 HOPPER 64
+          - rightshift= op= cp panel-6
+        has61:
+          value0: 62
+          compare0: '%objective_score_Tienda_Item3%'
+          material: WAXED_EXPOSED_COPPER
+          name: ''
+          lore:
+          - '&dClick para vender por &b$10500'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 10500 WAXED_EXPOSED_COPPER 1
+          - left= op= cp panel-6
+          - right= sell= 10500 WAXED_EXPOSED_COPPER 1
+          - right= op= cp panel-6
+          - leftshift= sell= 672000 WAXED_EXPOSED_COPPER 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 672000 WAXED_EXPOSED_COPPER 64
+          - rightshift= op= cp panel-6
+        has62:
+          value0: 63
+          compare0: '%objective_score_Tienda_Item3%'
+          material: BOWL
+          name: ''
+          lore:
+          - '&dClick para vender por &b$1000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 1000 BOWL 1
+          - left= op= cp panel-6
+          - right= sell= 1000 BOWL 1
+          - right= op= cp panel-6
+          - leftshift= sell= 64000 BOWL 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 64000 BOWL 64
+          - rightshift= op= cp panel-6
+        has63:
+          value0: 64
+          compare0: '%objective_score_Tienda_Item3%'
+          material: SPIDER_EYE
+          name: ''
+          lore:
+          - '&dClick para vender por &b$2000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 2000 SPIDER_EYE 1
+          - left= op= cp panel-6
+          - right= sell= 2000 SPIDER_EYE 1
+          - right= op= cp panel-6
+          - leftshift= sell= 128000 SPIDER_EYE 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 128000 SPIDER_EYE 64
+          - rightshift= op= cp panel-6
+        has64:
+          value0: 65
+          compare0: '%objective_score_Tienda_Item3%'
+          material: PRISMARINE_CRYSTALS
+          name: ''
+          lore:
+          - '&dClick para vender por &b$2000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 2000 PRISMARINE_CRYSTALS 1
+          - left= op= cp panel-6
+          - right= sell= 2000 PRISMARINE_CRYSTALS 1
+          - right= op= cp panel-6
+          - leftshift= sell= 128000 PRISMARINE_CRYSTALS 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 128000 PRISMARINE_CRYSTALS 64
+          - rightshift= op= cp panel-6
+        has65:
+          value0: 66
+          compare0: '%objective_score_Tienda_Item3%'
+          material: CORNFLOWER
+          name: ''
+          lore:
+          - '&dClick para vender por &b$3000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 3000 CORNFLOWER 1
+          - left= op= cp panel-6
+          - right= sell= 3000 CORNFLOWER 1
+          - right= op= cp panel-6
+          - leftshift= sell= 192000 CORNFLOWER 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 192000 CORNFLOWER 64
+          - rightshift= op= cp panel-6
+        has66:
+          value0: 67
+          compare0: '%objective_score_Tienda_Item3%'
+          material: MAGMA_CREAM
+          name: ''
+          lore:
+          - '&dClick para vender por &b$2500'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 2500 MAGMA_CREAM 1
+          - left= op= cp panel-6
+          - right= sell= 2500 MAGMA_CREAM 1
+          - right= op= cp panel-6
+          - leftshift= sell= 160000 MAGMA_CREAM 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 160000 MAGMA_CREAM 64
+          - rightshift= op= cp panel-6
+        has67:
+          value0: 68
+          compare0: '%objective_score_Tienda_Item3%'
+          material: SHULKER_SHELL
+          name: ''
+          lore:
+          - '&dClick para vender por &b$25000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 25000 SHULKER_SHELL 1
+          - left= op= cp panel-6
+          - right= sell= 25000 SHULKER_SHELL 1
+          - right= op= cp panel-6
+          - leftshift= sell= 1600000 SHULKER_SHELL 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 1600000 SHULKER_SHELL 64
+          - rightshift= op= cp panel-6
+        has68:
+          value0: 69
+          compare0: '%objective_score_Tienda_Item3%'
+          material: SMALL_AMETHYST_BUD
+          name: ''
+          lore:
+          - '&dClick para vender por &b$10000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 10000 SMALL_AMETHYST_BUD 1
+          - left= op= cp panel-6
+          - right= sell= 10000 SMALL_AMETHYST_BUD 1
+          - right= op= cp panel-6
+          - leftshift= sell= 640000 SMALL_AMETHYST_BUD 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 640000 SMALL_AMETHYST_BUD 64
+          - rightshift= op= cp panel-6
+        has69:
+          value0: 70
+          compare0: '%objective_score_Tienda_Item3%'
+          material: GLOW_LICHEN
+          name: ''
+          lore:
+          - '&dClick para vender por &b$4000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 4000 GLOW_LICHEN 1
+          - left= op= cp panel-6
+          - right= sell= 4000 GLOW_LICHEN 1
+          - right= op= cp panel-6
+          - leftshift= sell= 256000 GLOW_LICHEN 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 256000 GLOW_LICHEN 64
+          - rightshift= op= cp panel-6
+        has70:
+          value0: 71
+          compare0: '%objective_score_Tienda_Item3%'
+          material: AZURE_BLUET
+          name: ''
+          lore:
+          - '&dClick para vender por &b$3000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 3000 AZURE_BLUET 1
+          - left= op= cp panel-6
+          - right= sell= 3000 AZURE_BLUET 1
+          - right= op= cp panel-6
+          - leftshift= sell= 192000 AZURE_BLUET 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 192000 AZURE_BLUET 64
+          - rightshift= op= cp panel-6
+        has71:
+          value0: 72
+          compare0: '%objective_score_Tienda_Item3%'
+          material: BIRCH_PRESSURE_PLATE
+          name: ''
+          lore:
+          - '&dClick para vender por &b$2000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 2000 BIRCH_PRESSURE_PLATE 1
+          - left= op= cp panel-6
+          - right= sell= 2000 BIRCH_PRESSURE_PLATE 1
+          - right= op= cp panel-6
+          - leftshift= sell= 128000 BIRCH_PRESSURE_PLATE 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 128000 BIRCH_PRESSURE_PLATE 64
+          - rightshift= op= cp panel-6
+        has72:
+          value0: 73
+          compare0: '%objective_score_Tienda_Item3%'
+          material: CHAIN
+          name: ''
+          lore:
+          - '&dClick para vender por &b$3000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 3000 CHAIN 1
+          - left= op= cp panel-6
+          - right= sell= 3000 CHAIN 1
+          - right= op= cp panel-6
+          - leftshift= sell= 192000 CHAIN 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 192000 CHAIN 64
+          - rightshift= op= cp panel-6
+        has73:
+          value0: 74
+          compare0: '%objective_score_Tienda_Item3%'
+          material: RED_MUSHROOM_BLOCK
+          name: ''
+          lore:
+          - '&dClick para vender por &b$3000'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 3000 RED_MUSHROOM_BLOCK 1
+          - left= op= cp panel-6
+          - right= sell= 3000 RED_MUSHROOM_BLOCK 1
+          - right= op= cp panel-6
+          - leftshift= sell= 192000 RED_MUSHROOM_BLOCK 64
+          - leftshift= op= cp panel-6
+          - rightshift= sell= 192000 RED_MUSHROOM_BLOCK 64
+          - rightshift= op= cp panel-6
+        has74:
+          value0: 75
+          compare0: '%objective_score_Tienda_Item3%'
+          material: MUSHROOM_STEW
+          name: ''
+          lore:
+          - '&dClick para vender por &b$7500'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 7500 MUSHROOM_STEW 1
+          - left= op= cp panel-6
+          - right= sell= 7500 MUSHROOM_STEW 1
+          - right= op= cp panel-6
+        has75:
+          value0: 76
+          compare0: '%objective_score_Tienda_Item3%'
+          material: LEATHER_BOOTS
+          name: ''
+          lore:
+          - '&dClick para vender por &b$1500'
+          - '&7Shift+click para vender x64'
+          commands:
+          - op= codex unlock %cp-player-name% history 3
+          - left= sell= 1500 LEATHER_BOOTS 1
+          - left= op= cp panel-6
+          - right= sell= 1500 LEATHER_BOOTS 1
+          - right= op= cp panel-6

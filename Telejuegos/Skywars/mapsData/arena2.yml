@@ -1,0 +1,269 @@
+minplayers: 2
+creator: GCNT
+enableCustomJoinMenuItem: true
+customJoinMenuItem: SLIME_BALL
+cage: standard
+teamSize: 1
+allowFriendlyFire: false
+environment: NORMAL
+defaultChestType: CHESTNORMAL
+defaultHealth: HEALTHTEN
+defaultTime: TIMENOON
+defaultWeather: WEATHERSUN
+defaultModifier: MODIFIERNONE
+events:
+  DisableRegenEvent:
+    enabled: false
+    minStart: 300
+    maxStart: 600
+    length: -1
+    chance: 100
+    title: '&cNo More Hearts'
+    subtitle: '&1Health Regeneration Disabled'
+    startMessage: '&cNo More Hearts &bevent has begun!'
+    endMessage: '&cNo More Hearts &bevent has ended!'
+    announceTimer: false
+    repeatable: false
+  HealthDecayEvent:
+    enabled: false
+    minStart: 300
+    maxStart: 600
+    length: -1
+    chance: 100
+    title: '&cHealth Decay'
+    subtitle: '&1Players lose half a heart per second'
+    startMessage: '&cHealth Decay &bevent has begun!'
+    endMessage: '&cHealth Decay &bevent has ended!'
+    announceTimer: false
+    repeatable: false
+  EnderDragonEvent:
+    enabled: false
+    minStart: 300
+    maxStart: 600
+    length: -1
+    chance: 100
+    makeDragonInvulnerable: true
+    title: '&cEnderDragon'
+    subtitle: '&1An EnderDragon has Spawned'
+    startMessage: '&cEnderDragon &bevent has begun!'
+    endMessage: '&cEnderDragon &bevent has ended!'
+    announceTimer: false
+    repeatable: false
+  WitherEvent:
+    enabled: false
+    minStart: 300
+    maxStart: 600
+    length: -1
+    chance: 100
+    title: '&cWither'
+    subtitle: '&1A Wither has Spawned'
+    startMessage: '&cWither &bevent has begun!'
+    endMessage: '&cWither &bevent has ended!'
+    announceTimer: false
+    repeatable: false
+  MobSpawnEvent:
+    enabled: false
+    minStart: 300
+    maxStart: 600
+    length: -1
+    chance: 100
+    title: '&cMob Rush'
+    subtitle: '&1They''re Coming for You'
+    startMessage: '&cMob Rush &bevent has begun!'
+    endMessage: '&cMob Rush &bevent has ended!'
+    announceTimer: false
+    repeatable: false
+    minMobsPerPlayer: 5
+    maxMobsPerPlayer: 5
+    mobs:
+    - CREEPER
+    - ZOMBIE
+    - SPIDER
+    - SKELETON
+  CrateDropEvent:
+    enabled: false
+    minStart: 300
+    maxStart: 600
+    length: -1
+    chance: 100
+    title: '&cCrate Drop'
+    subtitle: '&1Is it a bird?'
+    startMessage: '&cCrate Drop &bevent has begun!'
+    endMessage: '&cCrate drop &bevent has ended!'
+    announceTimer: false
+    repeatable: false
+    maxItemsPerCrate: 5
+    maxNumOfCrates: 3
+  ChestRefillEvent:
+    enabled: false
+    minStart: 300
+    maxStart: 600
+    length: -1
+    chance: 100
+    title: '&cChest Refill'
+    subtitle: '&1Chests have been refilled'
+    startMessage: '&cChest refill &bevent has begun!'
+    endMessage: '&cChest refill &bevent has ended!'
+    announceTimer: false
+    repeatable: false
+  DeathMatchEvent:
+    enabled: false
+    minStart: 900
+    maxStart: 900
+    length: -1
+    chance: 100
+    title: '&cDeathMatch'
+    subtitle: '&1Time to End This'
+    startMessage: '&cDeathMatch &bevent has begun!'
+    endMessage: '&cFIGHT'
+    announceTimer: false
+    repeatable: false
+  ArrowRainEvent:
+    enabled: false
+    minStart: 300
+    maxStart: 600
+    length: 15
+    chance: 100
+    title: '&cArrow Rain'
+    subtitle: '&1Make it Rain'
+    startMessage: '&cArrow Rain &bevent has begun!'
+    endMessage: '&cArrow Rain &bevent has ended!'
+    announceTimer: false
+    repeatable: true
+    spawnPer2Tick: 1
+  AnvilRainEvent:
+    enabled: false
+    minStart: 300
+    maxStart: 600
+    length: 15
+    chance: 100
+    title: '&cAnvil Rain'
+    subtitle: '&1Watch your head'
+    startMessage: '&cAnvil Rain &bevent has begun!'
+    endMessage: '&cAnvil Rain &bevent has ended!'
+    announceTimer: false
+    repeatable: true
+    spawnPer5Tick: 2
+  ShrinkingBorderEvent:
+    enabled: false
+    minStart: 300
+    maxStart: 600
+    length: -1
+    chance: 100
+    title: '&cShrinking Border'
+    subtitle: '&1The walls are closing around you!'
+    startMessage: '&cShrinking Border &bevent has begun!'
+    endMessage: '&cShrinking Border &bevent has ended!'
+    announceTimer: false
+    repeatable: false
+    startingBorderSize: 300
+    shrinkRepeatDelay: 1
+  ProjectilesOnlyEvent:
+    enabled: false
+    minStart: 300
+    maxStart: 600
+    length: -1
+    chance: 100
+    title: '&cProjectiles Only'
+    subtitle: '&1No PVP - Projectiles Only!'
+    startMessage: '&cProjectiles Only &bevent has begun!'
+    endMessage: '&cProjectiles Only &bevent has ended!'
+    announceTimer: false
+    repeatable: false
+  ProjectileSpleefEvent:
+    enabled: false
+    minStart: 300
+    maxStart: 600
+    length: -1
+    chance: 100
+    title: '&cProjectile Spleef'
+    subtitle: '&1Projectiles Instantly Break Blocks!'
+    startMessage: '&cProjectile Spleef &bevent has begun!'
+    endMessage: '&cProjectile Spleef &bevent has ended!'
+    announceTimer: false
+    repeatable: false
+    eggsAddedToInventory: 64
+  DoubleDamageEvent:
+    enabled: false
+    minStart: 300
+    maxStart: 600
+    length: -1
+    chance: 100
+    title: '&cDouble Damage'
+    subtitle: '&1All attacks do Double Damage'
+    startMessage: '&cDouble Damage &bevent has begun!'
+    endMessage: '&cDouble Damage &bevent has ended!'
+    announceTimer: false
+    repeatable: false
+  GhastEvent:
+    enabled: false
+    minStart: 300
+    maxStart: 600
+    length: -1
+    chance: 100
+    title: '&cGhasts Everywhere'
+    subtitle: '&1A Ghasts have Spawned'
+    startMessage: '&cGhasts Everywhere &bevent has begun!'
+    endMessage: '&cGhasts Everywhere &bevent has ended!'
+    announceTimer: false
+    repeatable: false
+displayname: '&2&lBitter Swamp'
+registered: true
+spectateSpawn: 0:111:0
+allowScavenger: true
+spawns:
+- -50:101:-1
+- -40:101:-31
+- 1:101:-50
+- 34:101:-28
+- 50:101:1
+- 32:101:33
+- -2:101:50
+- -38:101:39
+deathMatchSpawns: []
+signs:
+- world_skywars:-20.0:32.0:-12.0:0.0:0.0
+chests:
+- -45:89:0
+- -50:97:-1
+- -39:89:-36
+- -40:97:-31
+- 0:89:-45
+- 1:97:-50
+- 35:89:-33
+- 34:97:-28
+- 45:89:0
+- 50:97:1
+- 33:89:28
+- 32:97:33
+- -1:89:45
+- -2:97:50
+- -38:97:39
+- -37:89:34
+centerChests:
+- -2:94:1
+- 0:93:3
+- 2:94:1
+- 1:95:2
+- 3:93:0
+- 2:92:-1
+- 0:92:-3
+- -1:93:-2
+- -2:96:-1
+- -3:94:0
+- -1:97:2
+- -1:100:2
+- 4:102:3
+- 0:104:7
+- -3:107:2
+- 0:107:3
+- -3:108:-1
+- 0:109:-1
+- -3:104:-4
+- -5:104:-1
+- 0:105:-7
+- 4:104:0
+- 3:104:-2
+- 3:107:2
+- 9:90:9
+- 3:90:-11

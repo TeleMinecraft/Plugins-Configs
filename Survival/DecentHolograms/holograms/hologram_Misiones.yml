@@ -1,0 +1,14 @@
+location: world:-1269.515:70.500:-1123.013
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&#00FF04&lTablón de Misiones del Gremio'
+    height: 0.3
+  - content: '&b&oUsa /quest para ver tus progresos'
+    height: 0.3
+  actions: {}

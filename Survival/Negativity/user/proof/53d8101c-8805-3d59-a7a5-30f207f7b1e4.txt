@@ -1,0 +1,5 @@
+2022-09-07 16:26:29.132: (139ms) 100% FORCEFIELD > Big distance with: slime. Exact distance: 4.966376948249471, without thorns. Ping: 139. Player version: V1_18. TPS: [19.999967273053553, 19.99999363786869, 19.999998985444496]
+2022-09-07 16:26:30.425: (139ms) 100% FORCEFIELD > Big distance with: slime. Exact distance: 4.109041858462219, without thorns. Ping: 139. Player version: V1_18. TPS: [19.77134270220127, 19.953843282665336, 19.984589323848137]
+2022-09-07 16:26:32.168: (139ms) 100% FORCEFIELD > Big distance with: slime. Exact distance: 3.906353797995614, without thorns. Ping: 139. Player version: V1_18. TPS: [19.992417826890936, 19.998492675609903, 19.9994942277906]
+2022-09-07 16:26:33.414: (139ms) 100% FORCEFIELD > Big distance with: slime. Exact distance: 4.326803091660926, without thorns. Ping: 139. Player version: V1_18. TPS: [19.76796163549398, 19.953164582393644, 19.984363857079575]
+2022-09-07 16:26:35.068: (139ms) 100% FORCEFIELD > Big distance with: slime. Exact distance: 3.95576793998212, without thorns. Ping: 139. Player version: V1_18. TPS: [20.00002139268955, 20.00000510946797, 19.99999995531111]

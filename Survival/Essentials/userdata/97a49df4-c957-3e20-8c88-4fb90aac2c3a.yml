@@ -1,0 +1,36 @@
+timestamps:
+  login: 1622507193078
+  lastteleport: 1622515224201
+  logout: 1622517289348
+lastlocation:
+  world: world
+  x: -2193.407497696554
+  y: 73.0
+  z: -1567.142775599994
+  yaw: 240.30591
+  pitch: 11.550255
+homes:
+  home:
+    world: world
+    x: 953.5694536093984
+    y: 69.0
+    z: 957.2762300789412
+    yaw: 97.04651
+    pitch: 26.250072
+  uwu:
+    world: world
+    x: -2126.2679098337826
+    y: 64.0
+    z: -1498.6479468817408
+    yaw: 187.5003
+    pitch: 3.8998098
+money: '820243.839999999999999'
+logoutlocation:
+  world: world
+  x: -2127.3579103993475
+  y: 67.0
+  z: -1534.5205946682559
+  yaw: 25.7995
+  pitch: -12.000269
+ip-address: 190.160.43.58
+last-account-name: EsteNOesStorbo

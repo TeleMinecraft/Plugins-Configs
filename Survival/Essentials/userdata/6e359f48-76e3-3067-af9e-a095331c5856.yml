@@ -1,0 +1,36 @@
+timestamps:
+  login: 1627424471762
+  lastteleport: 1627425364065
+  logout: 1627428051921
+lastlocation:
+  world: world
+  x: -1830.51585758931
+  y: 71.0
+  z: 302.5618234508896
+  yaw: 126.89148
+  pitch: 10.799593
+money: '202268.95'
+homes:
+  home:
+    world: world
+    x: -1928.9836788051166
+    y: 63.0
+    z: 423.3967840394524
+    yaw: -130.04477
+    pitch: 19.349598
+  playa:
+    world: world
+    x: -1863.0693405479128
+    y: 64.0
+    z: -3081.0217407850305
+    yaw: 325.8764
+    pitch: 55.356873
+logoutlocation:
+  world: world_the_end
+  x: 11.228423588447772
+  y: 66.1312500178814
+  z: -6.614034012475213
+  yaw: -195.005
+  pitch: 8.549208
+ip-address: 186.67.240.199
+last-account-name: MotorBerzerk18

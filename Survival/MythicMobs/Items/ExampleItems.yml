@@ -1,0 +1,204 @@
+# For more information, check out the plugin manual or join us on Discord:
+# http://www.mythicmobs.net
+#  
+
+SkeletonKingSword:
+  Id: DIAMOND_SWORD
+  Data: 0
+  Display: '&e&lMortal Decapitator'
+  Lore:
+  - '&f&oUna espada forjada por'
+  - '&f&olos dioses para ayudar'
+  - '&f&oa diezmar a los impuros'
+  Enchantments:
+  - DAMAGE_ALL:5
+  - KNOCKBACK:2
+  - FIRE_ASPECT:2
+  Attributes:
+    MainHand:
+      Health: 10
+      MovementSpeed: 0.1
+KingsCrown:
+  Id: GOLDEN_HELMET
+  Data: 0
+  Amount: 1
+  Display: '&6&lCrown of the King'
+  Lore:
+  - '&7El mayor símbolo de poder'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:2
+  - PROTECTION_PROJECTILE:2
+  - PROTECTION_FIRE:2
+  - PROTECTION_EXPLOSIONS:2
+  Hide:
+  - ATTRIBUTES
+  - ENCHANTS
+  Attributes:
+    Head:
+      Health: 10
+      KnockbackResistance: 10
+UltraStickyMatter:
+  Id: SLIME_BALL
+  Amount: 1
+  Display: '&a&lUltra Sticky Matter'
+  Lore:
+  - '&7La sustancia más viscosa descubierta,'
+  - '&7según muchos se trata de una leyenda'
+Iridium:
+  Id: IRON_INGOT
+  Amount: 1
+  Display: '&1&lAncestral Iridium'
+  Lore:
+  - '&7El material más resistente jamás'
+  - '&7encontrado, sus origenes se'
+  - '&7asocian a divinidades absolutas'
+Flower:
+  Id: POPPY
+  Amount: 1
+  Display: '&c&lAncestral Flower'
+  Lore:
+  - '&7Uno de los primeros seres orgánicos'
+  - '&7que existieron, su belleza'
+  - '&7única perdura hasta nuestros días'
+Sea:
+  Id: HEART_OF_THE_SEA
+  Amount: 1
+  Display: '&3&lJörmundgander Essence'
+  Enchantments:
+  - DURABILITY:1
+  Hide:
+  - ENCHANTS
+Shell:
+  Id: NAUTILUS_SHELL
+  Amount: 1
+  Display: '&3&lCthulhu Shell Fragment'
+  Enchantments:
+  - DURABILITY:1
+  Hide:
+  - ENCHANTS
+Iron_n:
+  Id: IRON_INGOT
+  Amount: 1
+  Display: '&1&lNordic Iron'
+  Enchantments:
+  - BINDING_CURSE:1
+  Hide:
+  - ENCHANTS
+Stick_y:
+  Id: STICK
+  Amount: 1
+  Display: '&1&lYggdrasil Stick'
+  Enchantments:
+  - BINDING_CURSE:1
+  Hide:
+  - ENCHANTS
+Overload:
+  Id: GUNPOWDER
+  Amount: 1
+  Display: '&b&lOverloaded Gunpowder'
+  Enchantments:
+  - KNOCKBACK:3
+  Hide:
+  - ENCHANTS
+Rod:
+  Id: BLAZE_ROD
+  Amount: 1
+  Display: '&e&lBlaze King Rod'
+  Enchantments:
+  - FIRE_ASPECT:3
+  Hide:
+  - ENCHANTS
+Infernal:
+  Id: BLAZE_POWDER
+  Amount: 1
+  Display: '&6&lInfernal Essence'
+  Enchantments:
+  - FIRE_ASPECT:3
+  - KNOCKBACK:3
+  Hide:
+  - ENCHANTS
+Blaze:
+  Id: PLAYER_HEAD
+  Amount: 1
+  Display: '&6&lBlaze King Head'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjc4ZWYyZTRjZjJjNDFhMmQxNGJmZGU5Y2FmZjEwMjE5ZjViMWJmNWIzNWE0OWViNTFjNjQ2Nzg4MmNiNWYwIn19fQ==
+Ink:
+  Id: INK_SAC
+  Amount: 1
+  Display: '&3Thick Ink'
+  Enchantments:
+  - DURABILITY:1
+  Hide:
+  - ENCHANTS
+Navaja:
+  Id: STONE_SWORD
+  Amount: 1
+  Display: '&e&lNavaja'
+  Model: 1000006
+  Repairable: false
+  Attributes:
+    MainHand:
+      Damage: 1
+      AttackSpeed: 1
+  Enchantments:
+  - LOOT_BONUS_MOBS:5
+  Hide:
+  - ATTRIBUTES
+Moneda:
+  Id: GOLD_NUGGET
+  Amount: 1
+  Display: '&eMoneda'
+  Enchantments:
+  - DURABILITY:1
+  Hide:
+  - ENCHANTS
+Ballesta:
+  Id: CROSSBOW
+  Amount: 1
+  Display: '&4&lSkull Cracker'
+  Model: 5552001
+  Repairable: false
+  Enchantments:
+  - PIERCING:5
+  - QUICK_CHARGE:5
+Casquito:
+  Id: TURTLE_HELMET
+  Amount: 1
+  Unbreakable: true
+Kripy:
+  Id: GREEN_DYE
+  Amount: 1
+  Display: '&2&lKriponcio'
+  Enchantments:
+  - DURABILITY:1
+  Hide:
+  - ENCHANTS
+Eye:
+  Id: ENDER_EYE
+  Amount: 1
+  Display: '&5&lModified Ender Eye'
+  Enchantments:
+  - DURABILITY:1
+  Hide:
+  - ENCHANTS
+Mini_Oni:
+  Id: PLAYER_HEAD
+  Amount: 1
+  Display: '&6&lOni Essence'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDk2YmM4ZWJkNGUxM2Y0OTZkOGQ3NGM1NjVkZDU2ZTk5YTRhZjJlMmVhN2EyN2E5NmMxYWJkMjg0MTg0YiJ9fX0=
+KatanaOni:
+  Id: STONE_SWORD
+  Amount: 1
+  Display: '&4&lDark Edge'
+  Model: 1000002
+  Repairable: false
+  Attributes:
+    MainHand:
+      AttackSpeed: 1
+  Enchantments:
+  - DURABILITY:1
+  Hide:
+  - ENCHANTS
+  - ATTRIBUTES

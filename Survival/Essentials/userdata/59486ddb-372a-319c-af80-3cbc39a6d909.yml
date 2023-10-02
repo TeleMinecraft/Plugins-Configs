@@ -1,0 +1,29 @@
+timestamps:
+  login: 1624538071539
+  lastteleport: 1624538340433
+  logout: 1624540598950
+lastlocation:
+  world: world
+  x: 546.6999999880791
+  y: 68.0
+  z: 505.9929221477546
+  yaw: -119.64288
+  pitch: 7.8281302
+logoutlocation:
+  world: world
+  x: 684.1207837370633
+  y: 72.0
+  z: 1815.523224321162
+  yaw: -16.231903
+  pitch: 9.809885
+money: '175120.2014999999999969'
+homes:
+  home:
+    world: world
+    x: 694.3000000119209
+    y: 71.0
+    z: 1758.699999988079
+    yaw: 183.25357
+    pitch: 29.550028
+ip-address: 200.0.210.227
+last-account-name: alejogamer700

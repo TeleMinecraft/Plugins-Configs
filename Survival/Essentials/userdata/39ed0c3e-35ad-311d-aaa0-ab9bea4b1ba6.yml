@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 186.106.234.8
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1663543994291
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1663544693286
+  login: 1663541169714
+money: '893011.740000000000004'
+last-account-name: audrix
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 411.5697319329137
+  y: 78.0
+  z: -312.3666911382549
+  yaw: 12.24652099609375
+  pitch: 15.899478912353516
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 394.4891081380971
+  y: 77.0
+  z: -318.94818463528185
+  yaw: -136.529052734375
+  pitch: 5.850134372711182
+homes:
+  home:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: 375.3452762205441
+    y: 99.0
+    z: -244.80291130200123
+    yaw: 73.276611328125
+    pitch: 15.15003776550293

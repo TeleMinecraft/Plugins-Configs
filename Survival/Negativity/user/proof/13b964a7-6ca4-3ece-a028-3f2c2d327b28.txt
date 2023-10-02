@@ -1,0 +1,3 @@
+2023-01-26 20:31:34.905: (234ms) 100% FORCEFIELD > Big distance with: player. Exact distance: 4.224624243641975, without thorns. Ping: 234. Player version: V1_18. TPS: [19.999978981355422, 20.00000086533337, 20.00000004211111]
+2023-01-26 20:31:46.699: (221ms) 100% FORCEFIELD > Big distance with: player. Exact distance: 4.833003724388955, without thorns. Ping: 221. Player version: V1_18. TPS: [20.00003455472637, 20.000006846802343, 20.00000015697778]
+2023-01-26 20:31:50.752: (221ms) 100% FORCEFIELD > Big distance with: player. Exact distance: 4.984425744251268, without thorns. Ping: 221. Player version: V1_18. TPS: [20.000031832717333, 19.999999703133337, 19.999999921733334]

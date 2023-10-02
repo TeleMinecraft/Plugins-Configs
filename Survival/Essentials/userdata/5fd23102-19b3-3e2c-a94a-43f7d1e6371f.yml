@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 186.106.228.21
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1663554001557
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1669490082244
+  login: 1669489008478
+money: '5100722.0'
+last-account-name: Axel_27
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 406.60389771343324
+  y: 100.0
+  z: -264.0737515306673
+  yaw: 1.026976466178894
+  pitch: 0.8996641039848328
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 408.65289033362507
+  y: 101.875
+  z: -218.10778201378346
+  yaw: -179.12548828125
+  pitch: 9.69731330871582

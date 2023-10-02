@@ -1,0 +1,9 @@
+lobby:
+  world: world_tnt
+  vector:
+    ==: Vector
+    x: 0.5
+    y: 30.0
+    z: 0.5
+  yaw: 0.0
+  pitch: 0.0

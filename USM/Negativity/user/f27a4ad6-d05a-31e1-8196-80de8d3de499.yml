@@ -1,0 +1,17 @@
+playername: andrewYTelpro
+lang: es_ES
+minerate-full-mined: 560
+minerate:
+  diamond: 0
+  gold: 0
+  iron: 0
+  coal: 0
+  ancient debris: 0
+better-click: 57
+cheats:
+  timer: 1
+  forcefield: 1
+  blink: 1
+  nofall: 2
+  speed: 228
+creation-time: 1623262896528

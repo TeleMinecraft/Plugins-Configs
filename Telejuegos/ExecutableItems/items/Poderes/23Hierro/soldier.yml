@@ -1,0 +1,95 @@
+name: '&7&lTitanium Army'
+lore:
+- '#B5FFFDGenera un soldado'
+- '#B5FFFDde titanio pequeño'
+- '#B5FFFDpero muy poderoso'
+- '#B5FFFD(Máximo 5 a la vez)'
+- ''
+- '#CCCCCC&oCooldown: 25s'
+material: IRON_BLOCK
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+storeItemInfo: false
+unbreakable: false
+usage: -1
+usageLimit: -1
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: false
+  hidePotionEffects: false
+  hideUsage: false
+  hideDye: false
+enchantments: {}
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-consumption: true
+  cancel-item-place: true
+  cancel-item-drop: true
+  cancel-item-craft-no-custom: true
+cancelEventIfNoPerm: false
+cancelEventIfNotOwner: false
+disabledWorlds: []
+variables: {}
+activators:
+  activator1:
+    name: '&eactivator1'
+    option: PLAYER_RIGHT_CLICK
+    typeTarget: NO_TYPE_TARGET
+    usageModification: -1
+    cancelEvent: false
+    noActivatorRunIfTheEventIsCancelled: false
+    silenceOutput: false
+    autoUpdateItem: false
+    updateName: true
+    updateLore: true
+    updateDurability: false
+    updateAttributes: false
+    updateEnchants: false
+    updateCustomModelData: false
+    cooldownOptions:
+      cooldown: 25
+      isCooldownInTicks: false
+      cooldownMsg: '&cNo puedes utilizarlo aún!'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+    globalCooldownOptions:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+    otherEICooldowns: {}
+    requiredItems:
+      errorMessage: ''
+    requiredExecutableItems:
+      errorMessage: ''
+    detailedSlots:
+    - -1
+    commands:
+    - /execute store result score Lobos Phierro if entity @e[tag=LegionL]
+    - /execute in minecraft:world_poderes run setblock -40 30 -19 minecraft:redstone_block
+    - DELAY 1
+    - /execute at @a[scores={Phierro=1}] if score Lobos Phierro matches ..4 run summon
+      wolf ~ ~ ~ {CustomNameVisible:1b,CustomName:'{"text":"Titanium Peony","color":"gray","bold":true}',Silent:1b,PersistenceRequired:1b,CollarColor:7b,Tags:["LegionL"],Passengers:[{id:"minecraft:armor_stand",ShowArms:1b,Small:1b,NoBasePlate:1b,Marker:1b,Tags:["LegionA"],Pose:{LeftArm:[266f,0f,0f],RightArm:[270f,0f,0f],LeftLeg:[300f,342f,0f],RightLeg:[304f,20f,0f],Head:[8f,0f,0f]},HandItems:[{id:"minecraft:iron_sword",Count:1b,tag:{Enchantments:[{id:"minecraft:sharpness",lvl:1s}]}},{id:"minecraft:iron_sword",Count:1b,tag:{Enchantments:[{id:"minecraft:sharpness",lvl:1s}]}}],ArmorItems:[{id:"minecraft:iron_boots",Count:1b,tag:{Enchantments:[{id:"minecraft:protection",lvl:1s}]}},{id:"minecraft:iron_leggings",Count:1b,tag:{Enchantments:[{id:"minecraft:protection",lvl:1s}]}},{id:"minecraft:iron_chestplate",Count:1b,tag:{Enchantments:[{id:"minecraft:protection",lvl:1s}]}},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:[I;2131640915,935151241,-1739970502,-31939220],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjBhMzQ0NTVhNzBhNWI2NTBjYjczOWRiYzcwNjM1M2M5NDQ5Y2JhNzdkN2ZmYjU4Y2RkMGYxNzFlZTAxYTE3MCJ9fX0="}]}}}}]}],Owner:"%player%",Attributes:[{Name:generic.movement_speed,Base:0.4},{Name:generic.attack_damage,Base:6}]}
+    - /execute at @a[scores={Phierro=1}] if score Lobos Phierro matches 5.. run effect
+      give @e[tag=LegionL] minecraft:instant_health 1 100 true
+    playerConditions: {}
+    worldConditions: {}
+    itemConditions: {}
+    customConditions: {}
+    placeholdersConditions: {}
+    variablesModification: {}
+recognitions: []
+attributes: {}
+config_5: true
+config_update: true

@@ -1,0 +1,23 @@
+playername: Danny332
+lang: es_ES
+minerate-full-mined: 120743
+minerate:
+  diamond: 247
+  gold: 241
+  iron: 757
+  coal: 1962
+  ancient debris: 0
+better-click: 41
+cheats:
+  timer: 52
+  fastladder: 1
+  antiknockback: 3
+  autoclick: 5
+  nuker: 2
+  forcefield: 1
+  fastplace: 1
+  blink: 1
+  nofall: 1
+  spider: 1
+  speed: 4
+creation-time: 1622670176956

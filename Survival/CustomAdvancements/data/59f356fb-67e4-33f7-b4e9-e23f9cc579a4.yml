@@ -1,0 +1,7 @@
+example:
+  seccion_info:
+    progress: 0
+    active: false
+    completed: false
+    unlocked: false
+    announced: false

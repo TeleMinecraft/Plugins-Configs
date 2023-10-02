@@ -1,0 +1,264 @@
+Name: '&b&l&nCaja de Pociones'
+Animation_Config: csgo_auto
+Preview_Config: default
+Permission_Required: false
+Attached_Citizens: ''
+Opening:
+  Cooldown: 1
+  Cost:
+    MONEY: 0.0
+    EXP: 0.0
+Key:
+  Ids: []
+Block:
+  Locations: []
+  Pushback:
+    Enabled: false
+  Hologram:
+    Enabled: false
+    Offset:
+      Y: 1.5
+    Text:
+    - '&c&lMYSTERY CRATE'
+    - '&7Buy a key at &cwww.myserver.com&c'
+  Effect:
+    Model: SIMPLE
+    Particle:
+      Name: FLAME
+      Data: ''
+Rewards:
+  List:
+    '18':
+      Name: '&c&lBravery Potion'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg010rb9dpim6sj1cpq3ks3fehkmurga001n8ob714016grledq6uragdtq6irre8lj6cpb3ehpgk0000020200dadk6utqgc5p78qb3dhin60810014ip020c00gh3le9gn8qbfdo0000io0400gkr8dtrkiorfdo0g200985mn0r39cpkmasg00400egbdc9kmarjk0000200dadk6utqgc5p78qb3dhin60810014ip050c00gh3le9gn8qbfdo00086g0400gkr8dtrkiorfdo0g200985mn0r39cpkmasg20400egbdc9kmarjk0000200dadk6utqgc5p78qb3dhin60810014ip0b0c00gh3le9gn8qbfdo0000v80400gkr8dtrkiorfdo0g200985mn0r39cpkmasg00400egbdc9kmarjk0000200dadk6utqgc5p78qb3dhin60810014ip0h0c00gh3le9gn8qbfdo00015g0400gkr8dtrkiorfdo0g200985mn0r39cpkmasg10400egbdc9kmarjk0000k007chkn6s3cc5sgg0049pgmqp805tti4pboehp628hqbdti4t35f1q24eh289p62tj5e9si0k3fehkmurh2fleio8jkcls788hq48h7q003008k6tbjehnmqk3fehkmuri3dtm6usg0vskji2000p86ut39dtn003rdd5n6aoric5j78ej5dlo78u800400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg010rb9dpim6sj1cpq3ks3fehkmurga001n8ob714016grledq6uragdtq6irre8lj6cpb3ehpgk0000020200dadk6utqgc5p78qb3dhin60810014ip020c00gh3le9gn8qbfdo0000io0400gkr8dtrkiorfdo0g200985mn0r39cpkmasg00400egbdc9kmarjk0000200dadk6utqgc5p78qb3dhin60810014ip050c00gh3le9gn8qbfdo00086g0400gkr8dtrkiorfdo0g200985mn0r39cpkmasg20400egbdc9kmarjk0000200dadk6utqgc5p78qb3dhin60810014ip0b0c00gh3le9gn8qbfdo0000v80400gkr8dtrkiorfdo0g200985mn0r39cpkmasg00400egbdc9kmarjk0000200dadk6utqgc5p78qb3dhin60810014ip0h0c00gh3le9gn8qbfdo00015g0400gkr8dtrkiorfdo0g200985mn0r39cpkmasg10400egbdc9kmarjk0000k007chkn6s3cc5sgg0049pgmqp805tti4pboehp628hqbdti4t35f1q24eh289p62tj5e9si0k3fehkmurh2fleio8jkcls788hq48h7q003008k6tbjehnmqk3fehkmuri3dtm6usg0vskji2000p86ut39dtn003rdd5n6aoric5j78ej5dlo78u800400agrfeln78080
+      Ignored_For_Permissions: []
+    '1':
+      Name: '&d&lPoción de Regeneración'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i0043dd5n6aoric5j78ejgdtq6irre18006t31cs4001igdtq6irre00dmqqbeclhn4ob6egt6orrectfn4pb7cln6asj1ehkmurg00400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i0043dd5n6aoric5j78ejgdtq6irre18006t31cs4001igdtq6irre00dmqqbeclhn4ob6egt6orrectfn4pb7cln6asj1ehkmurg00400agrfeln78080
+      Ignored_For_Permissions: []
+    '2':
+      Name: '&9&lPoción de Respiración Acuática'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip0021mmirj5cdp62pjk79o6ut39dtn0k003ehgme2000p86ut39dtn007jdd5n6aoric5j78ejcdtn6enrnc5q6asivc9p6aobkd1kmspo00400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip0021mmirj5cdp62pjk79o6ut39dtn0k003ehgme2000p86ut39dtn007jdd5n6aoric5j78ejcdtn6enrnc5q6asivc9p6aobkd1kmspo00400agrfeln78080
+      Ignored_For_Permissions: []
+    '3':
+      Name: '&b&lPoción de Velocidad'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb40086qqbeclhn4ob6egt70rrkd5nms2g00dq62po800350rrkd5nms00odlkmspb3e9gmct1qdhnmspqvedrmipjkdpin6so00400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb40086qqbeclhn4ob6egt70rrkd5nms2g00dq62po800350rrkd5nms00odlkmspb3e9gmct1qdhnmspqvedrmipjkdpin6so00400agrfeln78080
+      Ignored_For_Permissions: []
+    '4':
+      Name: '&7&lPoción de Invisibilidad'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i0043dd5n6aoric5j78ejgdtq6irre18006t31cs4001igdtq6irre00dmqqbeclhn4ob6egt6orrectfmirjmd5pmioj9dhkn8u800400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i0043dd5n6aoric5j78ejgdtq6irre18006t31cs4001igdtq6irre00dmqqbeclhn4ob6egt6orrectfmirjmd5pmioj9dhkn8u800400agrfeln78080
+      Ignored_For_Permissions: []
+    '5':
+      Name: '&2&lPoción de Salto'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i0043dd5n6aoric5j78ejgdtq6irre18006t31cs4001igdtq6irre00b6qqbeclhn4ob6egt6orrectfmopb1e1kmspo00400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i0043dd5n6aoric5j78ejgdtq6irre18006t31cs4001igdtq6irre00b6qqbeclhn4ob6egt6orrectfmopb1e1kmspo00400agrfeln78080
+      Ignored_For_Permissions: []
+    '6':
+      Name: '&8&lPoción de Debilidad'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg010rb9dpim6sj1cpq3ks3fehkmurga001n8ob71000ck3fehkmurg02tmmirj5cdp62pjk79m6urj7btrmaobbdpin6so00400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg010rb9dpim6sj1cpq3ks3fehkmurga001n8ob71000ck3fehkmurg02tmmirj5cdp62pjk79m6urj7btrmaobbdpin6so00400agrfeln78080
+      Ignored_For_Permissions: []
+    '7':
+      Name: '&d&lPoción de Salud Instantánea'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb40086qqbeclhn4ob6egt70rrkd5nms2g00dq62po800350rrkd5nms00odlkmspb3e9gmct1qedq74rrectfmgpb1dhkmspo00400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb40086qqbeclhn4ob6egt70rrkd5nms2g00dq62po800350rrkd5nms00odlkmspb3e9gmct1qedq74rrectfmgpb1dhkmspo00400agrfeln78080
+      Ignored_For_Permissions: []
+    '8':
+      Name: '&2&lPoción de Suerte'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb40086qqbeclhn4ob6egt70rrkd5nms2g00dq62po800350rrkd5nms00edlkmspb3e9gmct1qdhqm6qo00400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb40086qqbeclhn4ob6egt70rrkd5nms2g00dq62po800350rrkd5nms00edlkmspb3e9gmct1qdhqm6qo00400agrfeln78080
+      Ignored_For_Permissions: []
+    '9':
+      Name: '&4&lPoción de Fuerza'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg010rb9dpim6sj1cpq3ks3fehkmurga001n8ob71000ck3fehkmurg02tmmirj5cdp62pjk79m6urj7btpn8sj5dpjn8q000400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg010rb9dpim6sj1cpq3ks3fehkmurga001n8ob71000ck3fehkmurg02tmmirj5cdp62pjk79m6urj7btpn8sj5dpjn8q000400agrfeln78080
+      Ignored_For_Permissions: []
+    '10':
+      Name: '&7&lPoción de Lentitud'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg010rb9dpim6sj1cpq3ks3fehkmurga001n8ob71000ck3fehkmurg02tmmirj5cdp62pjk79m6urj7btpmorrndpin6so00400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg010rb9dpim6sj1cpq3ks3fehkmurga001n8ob71000ck3fehkmurg02tmmirj5cdp62pjk79m6urj7btpmorrndpin6so00400agrfeln78080
+      Ignored_For_Permissions: []
+    '11':
+      Name: '&2&lPoción de Veneno'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800gdlkmspb3e9gmct1qe1nn8qbfdo5000rkc5jgg006a1nn8qbfdo01arb9dpim6sj1cpq3kr3fdpjlus3fd5pmurg00400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800gdlkmspb3e9gmct1qe1nn8qbfdo5000rkc5jgg006a1nn8qbfdo01arb9dpim6sj1cpq3kr3fdpjlus3fd5pmurg00400agrfeln78080
+      Ignored_For_Permissions: []
+    '12':
+      Name: '&f&lPoción de Caida Lenta'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i0043dd5n6aoric5j78ejgdtq6irre18006t31cs4001igdtq6irre00dmqqbeclhn4ob6egt6orrectfn6r3fetfmcobcdhkmspo00400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i0043dd5n6aoric5j78ejgdtq6irre18006t31cs4001igdtq6irre00dmqqbeclhn4ob6egt6orrectfn6r3fetfmcobcdhkmspo00400agrfeln78080
+      Ignored_For_Permissions: []
+    '13':
+      Name: '&1&lPoción de Visión Nocturna'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i0043dd5n6aoric5j78ejgdtq6irre18006t31cs4001igdtq6irre00dmqqbeclhn4ob6egt6orrectfmsqb7d1q5utj9edkmurg00400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i0043dd5n6aoric5j78ejgdtq6irre18006t31cs4001igdtq6irre00dmqqbeclhn4ob6egt6orrectfmsqb7d1q5utj9edkmurg00400agrfeln78080
+      Ignored_For_Permissions: []
+    '14':
+      Name: '&4&lPoción de Daño Instantáneo'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb40086qqbeclhn4ob6egt70rrkd5nms2g00dq62po800350rrkd5nms00odlkmspb3e9gmct1qedq74rrectfmgobidlkmspo00400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb40086qqbeclhn4ob6egt70rrkd5nms2g00dq62po800350rrkd5nms00odlkmspb3e9gmct1qedq74rrectfmgobidlkmspo00400agrfeln78080
+      Ignored_For_Permissions: []
+    '15':
+      Name: '&6&lPoción de Resistencia al Fuego'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip0021mmirj5cdp62pjk79o6ut39dtn0k003ehgme2000p86ut39dtn007jdd5n6aoric5j78ejcdtn6enr6d5p6anriclpmisrkc5n66p800400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip0021mmirj5cdp62pjk79o6ut39dtn0k003ehgme2000p86ut39dtn007jdd5n6aoric5j78ejcdtn6enr6d5p6anriclpmisrkc5n66p800400agrfeln78080
+      Ignored_For_Permissions: []
+    '16':
+      Name: '&2&lPoción del Maestro Tortuga'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip0021mmirj5cdp62pjk79o6ut39dtn0k003ehgme2000p86ut39dtn007jdd5n6aoric5j78ejjehp6urj7btq7asjkdhilurb1edq6asg00400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip0021mmirj5cdp62pjk79o6ut39dtn0k003ehgme2000p86ut39dtn007jdd5n6aoric5j78ejjehp6urj7btq7asjkdhilurb1edq6asg00400agrfeln78080
+      Ignored_For_Permissions: []
+    '19':
+      Name: '&a&lRabbit Jump'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip0021mmirj5cdp62pjk79o6ut39dtn0k003ehgme2802d1nasrkdtml0rrkd5nmshb6cpim6t3j180000040400qkr8dtrl0obiehkm6r35ec0g200295i0c0o01127asj1ehkmurg000000080119mgrrn95hmurg10400igbde1m6ipj9clp020800t0mqoj9cln780000400qkr8dtrl0obiehkm6r35ec0g200295i0g0o01127asj1ehkmurg0004m0080119mgrrn95hmurg10400igbde1m6ipj9clp040800t0mqoj9cln780000400qkr8dtrl0obiehkm6r35ec0g200295i160o01127asj1ehkmurg00007g080119mgrrn95hmurg10400igbde1m6ipj9clp080800t0mqoj9cln780000400qkr8dtrl0obiehkm6r35ec0g200295i1e0o01127asj1ehkmurg000000080119mgrrn95hmurg10400igbde1m6ipj9clp020800t0mqoj9cln780001800ep39edo6oobp10008jj1dlig0b3r49ingt3ic4h3kmrr49q6au3k48t24kj1c9h6it1099qmqs12fleio8jkcls788hq48h7q003008k6tbjehnmqk3fehkmuri3dtm6usg02ra3g2000p86ut39dtn003rdd5n6aoric5j78ej5dlo78u800400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip0021mmirj5cdp62pjk79o6ut39dtn0k003ehgme2802d1nasrkdtml0rrkd5nmshb6cpim6t3j180000040400qkr8dtrl0obiehkm6r35ec0g200295i0c0o01127asj1ehkmurg000000080119mgrrn95hmurg10400igbde1m6ipj9clp020800t0mqoj9cln780000400qkr8dtrl0obiehkm6r35ec0g200295i0g0o01127asj1ehkmurg0004m0080119mgrrn95hmurg10400igbde1m6ipj9clp040800t0mqoj9cln780000400qkr8dtrl0obiehkm6r35ec0g200295i160o01127asj1ehkmurg00007g080119mgrrn95hmurg10400igbde1m6ipj9clp080800t0mqoj9cln780000400qkr8dtrl0obiehkm6r35ec0g200295i1e0o01127asj1ehkmurg000000080119mgrrn95hmurg10400igbde1m6ipj9clp020800t0mqoj9cln780001800ep39edo6oobp10008jj1dlig0b3r49ingt3ic4h3kmrr49q6au3k48t24kj1c9h6it1099qmqs12fleio8jkcls788hq48h7q003008k6tbjehnmqk3fehkmuri3dtm6usg02ra3g2000p86ut39dtn003rdd5n6aoric5j78ej5dlo78u800400agrfeln78080
+      Ignored_For_Permissions: []
+    '17':
+      Name: '&e&lSugar Rush'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb40086qqbeclhn4ob6egt70rrkd5nms2g00dq62po9009k6tbjehnmqk3fehkmuri5cpj6aorkec500000040g03ajd1nnek31e9q6iorcclpg2080094m808300448tbic5q6irre0000p00100456q3fet4m6rre040g02a1dlo6oqb6d5in40o1003k2rb2d5imst00005001r4d5pn0r31f440012ec5mma01bfch6au3ke9gi4eirfch78pboegh3k8ijeljm2sh0a9qn6q12fleio8jkcls788hq48h7q003008k6tbjehnmqk3fehkmuri3dtm6usg0vjaac2000p86ut39dtn003rdd5n6aoric5j78ej5dlo78u800400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb40086qqbeclhn4ob6egt70rrkd5nms2g00dq62po9009k6tbjehnmqk3fehkmuri5cpj6aorkec500000040g03ajd1nnek31e9q6iorcclpg2080094m808300448tbic5q6irre0000p00100456q3fet4m6rre040g02a1dlo6oqb6d5in40o1003k2rb2d5imst00005001r4d5pn0r31f440012ec5mma01bfch6au3ke9gi4eirfch78pboegh3k8ijeljm2sh0a9qn6q12fleio8jkcls788hq48h7q003008k6tbjehnmqk3fehkmuri3dtm6usg0vjaac2000p86ut39dtn003rdd5n6aoric5j78ej5dlo78u800400agrfeln78080
+      Ignored_For_Permissions: []
+Item:
+  Material: ENDER_CHEST
+  Name: '&b&l&nCaja de Pociones'
+  Lore:
+  - '&7Click izquierdo para ver los premios'
+  - '&aClick derecho para abrir!'

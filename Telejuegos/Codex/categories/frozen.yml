@@ -1,0 +1,54 @@
+name: "#0070FF&lFrozen#00FFFF&lWipeout"
+discover_title:
+  title: "&5Descubrimiento!"
+  subtitle: "&7FrozenWipeout: %name%"
+  fade_in: 20
+  stay: 60
+  fade_out: 20
+discover_message:
+- "&7Para ver tu nuevo logro usa &b/codex                          "
+discover_sound:
+  name: ENTITY_PLAYER_LEVELUP
+  volume: 10
+  pitch: 0.1
+discoveries:
+  1:
+    name: "&bLucha congelada"
+    lore:
+    - "&7Juega &nFrozenWipeout"
+    #commands:
+    #- "xp give %player% 1"
+    #discovered_on_region: test
+    #discovered_on_mob_kill:
+    #  type: ZOMBIE
+    #  name: "Test"
+  2:
+    name: "&bVictoria helada"
+    lore:
+    - "&7Gana una partida de &nFrozenWipeout"
+  3:
+    name: "&bQuién necesita Bonus!?"
+    lore:
+    - "&7Gana una partida de &nFrozenWipeout"
+    - "&7sin utilizar ningún &nBonus"
+  4:
+    name: "&bAdicción a los Bonus"
+    lore:
+    - "&7Juega una partida de &nFrozenWipeout"
+    - "&7en la que obtengas todos los &nBonus"
+  5:
+    name: "&bTodos para mí!"
+    lore:
+    - "&7Juega una partida de"
+    - "&7&nFrozenWipeout&7 en la todos"
+    - "&7los &nBonus&7 fueron para tí"
+  6:
+    name: "&b¿Buena suerte?"
+    lore:
+    - "&7Pierde una partida de &nFrozenWipeout"
+    - "&7en la que solo obtuviste &nBonus positivos"
+  7:
+    name: "&b¿Mala suerte?"
+    lore:
+    - "&7Gana una partida de &nFrozenWipeout"
+    - "&7en la que solo obtuviste &nBonus negativos"

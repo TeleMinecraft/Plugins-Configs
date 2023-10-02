@@ -1,0 +1,29 @@
+timestamps:
+  login: 1619297850907
+  logout: 1619298355842
+  lastteleport: 1617830106595
+lastlocation:
+  world: world
+  x: -4196.149064940606
+  y: 67.0
+  z: 2723.1616648706295
+  yaw: 243.8208
+  pitch: 24.201498
+logoutlocation:
+  world: world
+  x: -4229.320804322999
+  y: 9.0
+  z: 2525.99677838909
+  yaw: -178.0082
+  pitch: 12.439414
+money: '1106185.4115000000000063'
+homes:
+  home:
+    world: world
+    x: -4260.810751237972
+    y: 64.0
+    z: 2447.198800878052
+    yaw: 239.09802
+    pitch: 19.677357
+ip-address: 207.248.198.76
+last-account-name: youngvack

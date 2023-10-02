@@ -1,0 +1,16 @@
+uuid: e1913816-cf86-3b03-a8e9-bcc22a9f79aa
+wins: 0
+losses: 3
+kills: 0
+deaths: 3
+elo: -17
+xp: 0
+pareffect: none
+proeffect: none
+glasscolor: none
+killsound: none
+winsound: none
+taunt: izi
+permissions:
+- sw.glasscolor.none
+- sw.taunt.izi

@@ -1,0 +1,29 @@
+playername: CristoPsx
+lang: es_ES
+minerate-full-mined: 61901
+minerate:
+  diamond: 97
+  gold: 75
+  iron: 246
+  coal: 339
+  ancient debris: 0
+better-click: 60
+cheats:
+  fastladder: 2
+  autoclick: 4
+  forcefield: 4
+  blink: 1
+  noslowdown: 1
+  speed: 4
+  timer: 146
+  antiknockback: 4
+  inventorymove: 2
+  fly: 1
+  jesus: 1
+  nuker: 1
+  airplace: 2
+  fastplace: 1
+  step: 4
+  nofall: 1
+  spider: 1
+creation-time: 1614282428593

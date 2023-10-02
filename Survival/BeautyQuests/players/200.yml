@@ -1,0 +1,24 @@
+identifier: 0b0927a2-e792-3d73-8c34-294cbd8c4ad5
+quests:
+- questID: 8
+  currentStage: 0
+  datas:
+    starting_time: 1679362680355
+    stage0:
+      remaining:
+        00000000-0000-0001-0000-0000000009ae: 3
+        00000000-0000-0000-0000-0000000009ae: 2
+  currentBranch: 0
+- questID: 14
+  timer: 1679956140153
+  questFlow: 0:0
+  timesFinished: 1
+- questID: 15
+  currentStage: 0
+  datas:
+    starting_time: 1679362677614
+    stage0:
+      remaining:
+        00000000-0000-0001-0000-0000000009ae: 2
+        00000000-0000-0000-0000-0000000009ae: 3
+  currentBranch: 0

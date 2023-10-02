@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 190.163.179.44
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1682988451042
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1682988598504
+  login: 1682986829602
+money: '114901'
+last-account-name: Shiro45
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 371.69999998807907
+  y: 63.0
+  z: -449.4154317774095
+  yaw: -103.97265625
+  pitch: 16.9502010345459
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 391.71665687756524
+  y: 73.0
+  z: -569.935647849585
+  yaw: -43.17901611328125
+  pitch: 16.049779891967773
+homes:
+  home:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: 282.2355047513952
+    y: 69.0
+    z: -548.5122336725756
+    yaw: 177.0050048828125
+    pitch: 22.49989128112793

@@ -1,0 +1,29 @@
+timestamps:
+  login: 1625176378637
+  logout: 1625180562874
+  lastteleport: 1625179069482
+lastlocation:
+  world: world
+  x: 252.2616306520364
+  y: 17.0
+  z: -257.5772212779963
+  yaw: 194.18335
+  pitch: 22.987507
+money: '838149.0239999999999977'
+logoutlocation:
+  world: world
+  x: 245.10841269865432
+  y: 65.0
+  z: -161.43274000406035
+  yaw: 237.7409
+  pitch: 9.824303
+homes:
+  home:
+    world: world
+    x: 245.29553440927958
+    y: 65.0
+    z: -161.7357802651953
+    yaw: 184.98846
+    pitch: 52.800026
+ip-address: 190.161.200.152
+last-account-name: ManuManitoo

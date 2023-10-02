@@ -1,0 +1,111 @@
+name: '&9&lKraken Manifestation'
+lore:
+- '#B5FFFDInvoca un mounstro milenario que'
+- '#B5FFFDatraerá a todo enemigo en un radio'
+- '#B5FFFDradio de 7 bloques a tu al rededor'
+- '#B5FFFDy los devorará sin piedad alguna'
+- ''
+- '#CCCCCC&oCooldown: 50s'
+material: TUBE_CORAL_BLOCK
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+storeItemInfo: false
+unbreakable: false
+usage: -1
+usageLimit: -1
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: false
+  hidePotionEffects: false
+  hideUsage: false
+  hideDye: false
+enchantments: {}
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-consumption: true
+  cancel-item-place: true
+  cancel-item-drop: true
+  cancel-item-craft-no-custom: true
+cancelEventIfNoPerm: false
+cancelEventIfNotOwner: false
+disabledWorlds: []
+variables: {}
+activators:
+  activator1:
+    name: '&eactivator1'
+    option: PLAYER_RIGHT_CLICK
+    typeTarget: NO_TYPE_TARGET
+    usageModification: -1
+    cancelEvent: false
+    noActivatorRunIfTheEventIsCancelled: false
+    silenceOutput: false
+    autoUpdateItem: false
+    updateName: true
+    updateLore: true
+    updateDurability: false
+    updateAttributes: false
+    updateEnchants: false
+    updateCustomModelData: false
+    cooldownOptions:
+      cooldown: 50
+      isCooldownInTicks: false
+      cooldownMsg: '&cNo puedes utilizarlo aún!'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+    globalCooldownOptions:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+    otherEICooldowns: {}
+    requiredItems:
+      errorMessage: ''
+    requiredExecutableItems:
+      errorMessage: ''
+    detailedSlots:
+    - -1
+    commands:
+    - /execute at @a[scores={Pmar=1}] run scoreboard players set @a[distance=1..7]
+      Pmar 3
+    - /execute in minecraft:world_poderes run setblock -34 30 -3 minecraft:redstone_block
+    - DELAYTICK 10
+    - AROUND 7 false JUMP 1
+    - DELAYTICK 8
+    - AROUND 8 false CUSTOMDASH1 %player_x% %player_y%-2 %player_z% true
+    - DELAYTICK 5
+    - /effect give @a[scores={Pmar=1}] minecraft:resistance 2 100 true
+    - /execute at %player% run summon minecraft:evoker_fangs ~ ~ ~
+    - /execute at %player% run summon minecraft:evoker_fangs ~1 ~ ~
+    - /execute at %player% run summon minecraft:evoker_fangs ~ ~ ~1
+    - /execute at %player% run summon minecraft:evoker_fangs ~-1 ~ ~
+    - /execute at %player% run summon minecraft:evoker_fangs ~ ~ ~-1
+    - /execute at %player% run summon minecraft:evoker_fangs ~1 ~ ~-1
+    - /execute at %player% run summon minecraft:evoker_fangs ~1 ~ ~1
+    - /execute at %player% run summon minecraft:evoker_fangs ~-1 ~ ~-1
+    - /execute at %player% run summon minecraft:evoker_fangs ~-1 ~ ~1
+    - AROUND 6 false DAMAGE 15 true true
+    - DELAY 5
+    - /scoreboard players reset @a[scores={Pmar=3}] Pmar
+    playerConditions: {}
+    worldConditions: {}
+    itemConditions: {}
+    customConditions: {}
+    placeholdersConditions: {}
+    targetCommands: []
+    targetConditions: {}
+    variablesModification: {}
+recognitions: []
+attributes: {}
+config_5: true
+config_update: true

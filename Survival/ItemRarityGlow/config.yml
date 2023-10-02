@@ -1,0 +1,32 @@
+Enabled: true # Enable/Disable the itemglow.
+Items:
+  example-item2: # This would make that any DRAGON EGG item will glow DARK PURPLE
+    item-material: DRAGON_HEAD
+    item-name: any
+    glow-color: DARK_PURPLE
+  exp1:
+    item-material: EXPERIENCE_BOTTLE
+    item-name: '&2&lBottled Knowledge'
+    item-lore: '&f&lCOMMON'
+    glow-color: GREEN
+  exp2:
+    item-material: EXPERIENCE_BOTTLE
+    item-name: §1§lGreat Bottled Knowledge
+    item-lore: §lEPIC
+    glow-color: DARK_PURPLE
+  evento_fragmentos:
+    item-material: GOLD_NUGGET
+    item-name: '&4Fragmento misterioso'
+    glow-color: DARK_RED
+  manzanaencantada:
+    item-material: ENCHANTED_GOLDEN_APPLE
+    item-name: any
+    glow-color: YELLOW
+  oni:
+    item-material: PLAYER_HEAD
+    item-name: '&#C73F00&lOni Essence'
+    glow-color: YELLOW
+  iridium:
+    item-material: IRON_INGOT
+    item-name: §1§lAncestral Iridium
+    glow-color: DARK_BLUE

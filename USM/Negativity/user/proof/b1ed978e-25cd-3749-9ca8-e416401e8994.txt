@@ -1,0 +1,1 @@
+2022-02-12 00:34:37.848: (166ms) 100% SPEED > Player in ground. WalkSpeed: 0.1599999964237213, Distance between from/to location: 1.2460397327633495, walkTest: true, walkWithEssentialsTest: true. Player version: V1_16. TPS: [20.000028126151285, 20.000014837802087, 20.000051699549413]

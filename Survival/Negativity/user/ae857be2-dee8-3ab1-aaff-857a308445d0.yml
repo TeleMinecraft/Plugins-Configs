@@ -1,0 +1,26 @@
+playername: Ruxur_jfc
+lang: es_ES
+minerate-full-mined: 278017
+minerate:
+  diamond: 250
+  gold: 131
+  iron: 616
+  coal: 891
+  ancient debris: 0
+better-click: 75
+cheats:
+  autoclick: 2
+  forcefield: 6
+  blink: 1
+  speed: 1
+  timer: 73
+  antiknockback: 1
+  inventorymove: 21
+  fly: 37
+  nuker: 1
+  airplace: 6
+  airjump: 1
+  fastplace: 1
+  nofall: 1
+  spider: 1
+creation-time: 1618100609418

@@ -1,0 +1,2 @@
+2021-11-06 05:56:16.346: (219ms) 100% TIMER > Flying: 0, position: 0, look: 36, positionLook: 2, sum: 28.0, median: 29. Player version: V1_16. TPS: [20.003189670567416, 20.020532601597026, 20.01462205937507]
+2021-11-06 05:56:17.685: (219ms) 100% TIMER > Flying: 0, position: 0, look: 15, positionLook: 2, sum: 27.0, median: 29. Player version: V1_16. TPS: [19.374397763467254, 19.890558112395627, 19.971329737623496]

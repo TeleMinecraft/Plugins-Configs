@@ -1,0 +1,21 @@
+playername: Kath070
+lang: es_ES
+minerate-full-mined: 2189
+minerate:
+  diamond: 8
+  gold: 0
+  iron: 47
+  coal: 39
+  ancient debris: 0
+better-click: 36
+cheats:
+  timer: 1
+  inventorymove: 1
+  antiknockback: 2
+  nuker: 2
+  forcefield: 1
+  fastplace: 4
+  nofall: 2
+  speed: 4
+  faststairs: 1
+creation-time: 1618088756274

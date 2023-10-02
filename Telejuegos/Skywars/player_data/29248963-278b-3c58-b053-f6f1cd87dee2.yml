@@ -1,0 +1,13 @@
+wins: 0
+losses: 0
+kills: 0
+deaths: 0
+pareffect: none
+proeffect: none
+glasscolor: none
+winsound: none
+killsound: none
+taunt: none
+uuid: 29248963-278b-3c58-b053-f6f1cd87dee2
+player_name: PlayerTest
+xp: 0

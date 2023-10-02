@@ -1,0 +1,5 @@
+name: Richard363
+events:
+  random_tp:
+    one_time: false
+    cooldown: 1689897188298

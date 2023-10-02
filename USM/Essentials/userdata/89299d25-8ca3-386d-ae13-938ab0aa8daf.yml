@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 200.111.224.185
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1674952586442
+  login: 1674952532534
+money: '0'
+last-account-name: WildChart073070
+logoutlocation:
+  world: 2e1ce19e-1f4f-4123-8c05-bbc1db660846
+  world-name: world
+  x: -7.392823566708567
+  y: -4707.700891069424
+  z: -117.63421542128548
+  yaw: -11.040313720703125
+  pitch: -5.100643157958984

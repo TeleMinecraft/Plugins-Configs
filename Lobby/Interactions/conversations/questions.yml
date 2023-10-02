@@ -1,0 +1,161 @@
+starts_with:
+- NPC named PF
+- NPC with id 22
+name: '&b&lPreguntas frecuentes'
+start_conversation_radius: 0
+end_conversation_radius: 3
+block_movement: false
+slow_effect: false
+save_conversation_progress: false
+requires_permission: false
+cooldown: 0
+hologram_dialogues:
+  enabled: false
+  offset_y: 2.7
+  offset_horizontal: 0.0
+conversation:
+  conversation1:
+    dialogue:
+      dialogue1:
+        text:
+        - '&7(Escoge una opción)'
+        time: 1
+    options:
+      option1:
+        text: '&3Con qué versión puedo entrar al servidor?'
+        start_conversation: conversation2
+      option2:
+        text: '&3Cuáles son las reglas del servidor?'
+        start_conversation: conversation3
+      option3:
+        text: '&3Qué mods están prohibidos?'
+        start_conversation: conversation4
+      option4:
+        text: '&3Qué mods puedo utilizar?'
+        start_conversation: conversation5
+      option5:
+        text: '&3Puedo invitar amigos al servidor?'
+        start_conversation: conversation6
+      option6:
+        text: '&3Cuáles son las redes sociales oficiales?'
+        start_conversation: conversation9
+    random_dialogue: false
+    interrupt_actions: []
+  conversation2:
+    dialogue:
+      dialogue1:
+        text:
+        - '&b&lR: &7Cualquier versión entre la &l1.18 &7y &l1.18.2'
+        time: 3
+        show_name: false
+        start_conversation: conversation7
+    random_dialogue: false
+    interrupt_actions: []
+  conversation3:
+    dialogue:
+      dialogue1:
+        text:
+        - '&b&lR: &7Estas son las reglas del &3Tele&bServer&7:'
+        - '&f'
+        - '#FFEC00●&7 Tener un mínimo de respeto con los demás'
+        - '#FFEC00●&7 No usar hacks ni clientes modificados'
+        - '#FFEC00●&7 No abusar de bugs u otras mecánicas'
+        - '#FFEC00●&7 No hacer spam en el chat o en el discord'
+        - '#FFEC00●&7 No promocionar otros servidores'
+        - '#FFEC00●&7 No intentes dañar o bloquear el spawn'
+        - '#FFEC00●&7 No duplicar items, bloques ni TNT'
+        - '#FFEC00●&7 No usar mods prohibidos'
+        time: 5
+        show_name: false
+        start_conversation: conversation7
+    random_dialogue: false
+    interrupt_actions: []
+  conversation4:
+    dialogue:
+      dialogue1:
+        text:
+        - '&b&lR: &7Estos son los mods &lprohibidos &7en el &3Tele&bServer&7:'
+        - '&f'
+        - '#FF0000● &7Mods que te den ventajas sobre los demás'
+        - '#FF0000● &7Cualquier tipo de Auto-Clicker'
+        - '#FF0000● &7Cualquier tipo de CheatEngine'
+        - '#FF0000● &7X-ray o variaciones'
+        - '#FF0000● &7ReplayMod'
+        - '#FF0000● &7Damage Indicator'
+        - '#FF0000● &7Schematica Mod'
+        time: 5
+        show_name: false
+        start_conversation: conversation7
+    random_dialogue: false
+    interrupt_actions: []
+  conversation5:
+    dialogue:
+      dialogue1:
+        text:
+        - '&b&lR: &7Estos son los mods &lpermitidos &7en el &3Tele&bServer&7:'
+        - '&f'
+        - '#0FCA00● &7Optifine y Shaders'
+        - '#0FCA00● &7Mods que ayuden al rendimiento de tu PC'
+        - '#0FCA00● &7Mods de minimapas'
+        - '#0FCA00● &7Mods para crear atajos en el teclado'
+        - '#0FCA00● &7Mods que solo afecten la estética'
+        - '#0FCA00● &7MineCapes Mod'
+        - '#0FCA00● &7NotEnoughItems (NEI)'
+        time: 5
+        show_name: false
+        start_conversation: conversation7
+    random_dialogue: false
+    interrupt_actions: []
+  conversation6:
+    dialogue:
+      dialogue1:
+        text:
+        - '&b&lR: &7Por supuesto! Invita a todas las personas que gustes'
+        time: 3
+        show_name: false
+        start_conversation: conversation7
+    random_dialogue: false
+    interrupt_actions: []
+  conversation7:
+    dialogue:
+      dialogue1:
+        text:
+        - '&b&lVolver a las preguntas frecuentes?'
+        time: 1
+        show_name: false
+    options:
+      option1:
+        text: '&3Sí'
+        start_conversation: conversation1
+      option2:
+        text: '&3No, aclaré mis dudas'
+        start_conversation: conversation8
+    random_dialogue: false
+    interrupt_actions: []
+  conversation8:
+    dialogue:
+      dialogue1:
+        text:
+        - '&bPuedes volver a ver las preguntas siempre que lo necesites'
+        time: 3
+        show_name: false
+    random_dialogue: false
+    interrupt_actions: []
+  conversation9:
+    dialogue:
+      dialogue1:
+        text:
+        - '&b&lR: &7Redes sociales oficiales:'
+        time: 3
+        actions:
+        - 'console_command: tellraw %player% ["",{"text":">> ","bold":true,"color":"gold"},{"text":"Instagram
+          TeleServer","bold":true,"color":"light_purple","clickEvent":{"action":"open_url","value":"https://www.instagram.com/teleminecraft.s/"},"hoverEvent":{"action":"show_text","contents":[{"text":"Click
+          para ir","italic":true,"color":"green"}]}},"\n",{"text":">> ","bold":true,"color":"gold"},{"text":"Discord
+          TeleServer","bold":true,"color":"blue","clickEvent":{"action":"open_url","value":"https://discord.gg/GmV9mntzYq"},"hoverEvent":{"action":"show_text","contents":[{"text":"Click
+          para ir","italic":true,"color":"green"}]}},"\n",{"text":">> ","bold":true,"color":"gold"},{"text":"Comunidad
+          Minecraft USM","bold":true,"color":"#AE00FF","clickEvent":{"action":"open_url","value":"https://www.instagram.com/comunidad.minecraft.usm/"},"hoverEvent":{"action":"show_text","contents":[{"text":"Click
+          para ir","italic":true,"color":"green"}]}}]'
+        show_name: false
+        start_conversation: conversation7
+    random_dialogue: false
+    interrupt_actions: []

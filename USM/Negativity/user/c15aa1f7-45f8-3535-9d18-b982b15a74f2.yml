@@ -1,0 +1,21 @@
+playername: itsPalomino
+lang: es_ES
+minerate-full-mined: 12331
+minerate:
+  diamond: 155
+  gold: 17
+  iron: 96
+  coal: 102
+  ancient debris: 0
+better-click: 17
+cheats:
+  speed: 47
+  timer: 19
+  inventorymove: 1
+  antiknockback: 1
+  nuker: 1
+  forcefield: 9
+  fastplace: 1
+  blink: 2
+  nofall: 1
+creation-time: 1622058861148

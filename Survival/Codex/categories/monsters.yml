@@ -1,0 +1,126 @@
+name: "&4&lMobs"
+discover_title:
+  title: "&5Descubrimiento!"
+  subtitle: "&4Mobs: %name%"
+  fade_in: 20
+  stay: 60
+  fade_out: 20
+discover_message:
+- "&7Para ver tu nuevo logro usa &b/codex                          "
+discover_sound:
+  name: ENTITY_PLAYER_LEVELUP
+  volume: 10
+  pitch: 0.1
+discoveries:
+  1:
+    name: "&8Enfrentar al Coloso"
+    lore:
+    - "&7Derrota un &o&nSkeletal Knight"
+    discovered_on_mob_kill:
+      type: WITHER_SKELETON
+      name: "Skeletal Knight"
+  2:
+    name: "&6Tomar la corona"
+    lore:
+    - "&7Derrota un &o&nSkeleton King"
+    discovered_on_mob_kill:
+      type: WITHER_SKELETON
+      name: "Skeleton King"
+  3:
+    name: "&aSituasión pegajosa"
+    lore:
+    - "&7Derrota un &o&nAngry Sludge"
+    discovered_on_mob_kill:
+      type: SLIME
+      name: "Angry Sludge"
+  4:
+    name: "&eStonks"
+    lore:
+    - "&7Caza un &o&nMoney Rabbit"
+    discovered_on_mob_kill:
+      type: RABBIT
+      name: "Money Rabbit"
+  5:
+    name: "&1Recuerdos remotos"
+    lore:
+    - "&7Derrota un &o&nAncestral Golem"
+    discovered_on_mob_kill:
+      type: IRON_GOLEM
+      name: "Ancestral Golem"
+  6:
+    name: "&3Peligro en lo Profundo"
+    lore:
+    - "&7Derrota un &o&nJörmundgander Henchman"
+    discovered_on_mob_kill:
+      type: DROWNED
+      name: "Jörmundgander Henchman"
+  7:
+    name: "&bEvitar la sobrecarga"
+    lore:
+    - "&7Derrota un &o&nOverloaded Creeper"
+    discovered_on_mob_kill:
+      type: CREEPER
+      name: "Overloaded Creeper"
+  8:
+    name: "&6La Derroca Infernal"
+    lore:
+    - "&7Derrota un &o&nBlaze King"
+    discovered_on_mob_kill:
+      type: BLAZE
+      name: "Blaze King"
+  9:
+    name: "&8Ceguera Intensa"
+    lore:
+    - "&7Caza un &o&nElusive Squid"
+    discovered_on_mob_kill:
+      type: SQUID
+      name: "Elusive Squid"
+  10:
+    name: "&2Pasa las moneas!"
+    lore:
+    - "&7Mata un &o&nZombie Flaite"
+    discovered_on_mob_kill:
+      type: ZOMBIE
+      name: "Zombie Flaite"
+  11:
+    name: "&4Tiro al blanco"
+    lore:
+    - "&7Derrota un &o&nPillager Shooter"
+    discovered_on_mob_kill:
+      type: PILLAGER
+      name: "Pillager Shooter"
+  12:
+    name: "&eObjetivo múltiple"
+    lore:
+    - "&7Mata un &o&nMultiple Skeleton"
+    discovered_on_mob_kill:
+      type: SKELETON
+      name: "Multiple Skeleton"
+  13:
+    name: "&5Tp errante"
+    lore:
+    - "&7Mata un &o&nModified Enderman"
+    discovered_on_mob_kill:
+      type: ENDERMAN
+      name: "Modified Enderman"
+  14:
+    name: "&2Dónde dejaste el Kripy?"
+    lore:
+    - "&7Mata un &o&nSucio Kripy"
+    discovered_on_mob_kill:
+      type: CREEPER
+      name: "Sucio Kripy"
+  15:
+    name: "&3Cazafantasmas"
+    lore:
+    - "&7Mata un &o&nAncient Phantom"
+    discovered_on_mob_kill:
+      type: PHANTOM
+      name: "Ancient Phantom"
+  16:
+    name: "&4Almas en pena"
+    lore:
+    - "&7Mata un &o&nOni"
+    discovered_on_mob_kill:
+      type: WITHER_SKELETON
+      name: "Oni"

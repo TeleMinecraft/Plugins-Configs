@@ -1,0 +1,32 @@
+identifier: 1bda2813-ccbc-3b1c-8771-36174c28050f
+quests:
+- questID: 1
+  timer: 1629618838994
+  finished: true
+- stage0datas:
+    amount: 1
+  questID: 2
+  currentStage: 0
+  currentBranch: 0
+- questID: 3
+  timer: 1630094279697
+  finished: true
+- stage0datas:
+    remaining:
+      3: 2
+      8: 3
+  questID: 5
+  currentStage: 0
+  currentBranch: 0
+- stage0datas:
+    remaining:
+      1: 5
+  questID: 6
+  currentStage: 0
+  currentBranch: 0
+- stage0datas:
+    remaining:
+      0: 9
+  questID: 24
+  currentStage: 0
+  currentBranch: 0

@@ -1,0 +1,55 @@
+timestamps:
+  login: 1653428232012
+  lastteleport: 1653428280464
+  logout: 1653428503860
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: -2872.300000011921
+  y: 66.0
+  z: -967.4548451624019
+  yaw: -104.91558837890625
+  pitch: 44.8504753112793
+  world-name: world
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: -2153.4252381178603
+  y: 70.0625
+  z: -1543.423932397736
+  yaw: -29.54833984375
+  pitch: 48.450294494628906
+  world-name: world
+homes:
+  home:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: 947.8863769675719
+    y: 70.0
+    z: 958.2691051724388
+    yaw: 66.29556274414062
+    pitch: 18.90020179748535
+    world-name: world
+  uwu:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: -2156.0333210707586
+    y: 81.0625
+    z: -1543.9285652596543
+    yaw: -24.45146369934082
+    pitch: 12.450241088867188
+    world-name: world
+money: '2536734.37049999999995994'
+ip-address: 181.43.216.113
+last-account-name: Zhulu
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false

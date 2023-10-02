@@ -1,0 +1,39 @@
+settings:
+  view-distance: 30
+  view-permission: rh.head
+  location: world(-4.5,32.0,5.5)
+  type: STAND
+  animations:
+    rotate:
+      type: Rotate
+      direction: RIGHT
+      speed: 1.5
+    updown:
+      type: UpDown
+      jump: 0.05
+      jumps: 30
+      cooldown: 10
+      smooth: true
+
+equipment:
+  HEAD:
+    material: PLAYER_HEAD
+    player: '%player%'
+
+hologram:
+  offset:
+    x: 0.0
+    y: 1.25
+    z: 0.0
+  space: 0.25
+  attach-bottom: true
+  update-location: true
+  lines:
+  - '&d&lSobre tí e'
+  - '&d&linformación'
+  - '&d&lgeneral' 
+
+actions:
+  ALL:
+    type: console-cmd
+    value: 'cp panel-5 %player%'

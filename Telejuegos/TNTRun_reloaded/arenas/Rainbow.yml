@@ -1,0 +1,73 @@
+world: world_tnt
+p1:
+  ==: Vector
+  x: 82.0
+  y: 3.0
+  z: 51.0
+p2:
+  ==: Vector
+  x: 114.0
+  y: 50.0
+  z: 83.0
+gameleveldestroydelay: 8
+loselevel:
+  p1:
+    ==: Vector
+    x: 98.30605949806967
+    y: 8.724477420976791
+    z: 66.9621673068662
+spawnpoint:
+  ==: Vector
+  x: 98.49398096257035
+  y: 43.0
+  z: 67.57711722954974
+spectatorspawn:
+  p1:
+    ==: Vector
+    x: 98.49398096257035
+    y: 46.200000047683716
+    z: 67.57711722954974
+  yaw: 0.0
+  pitch: 0.0
+maxPlayers: 15
+minPlayers: 4
+votePercent: 0.75
+timelimit: 300
+countdown: 10
+startVisibleCountdown: 10
+teleportto: PREVIOUS
+damageenabled: 'NO'
+kits:
+  enabled: false
+  linked: []
+  randomLinkedKit: true
+punchDamage: true
+testmode: false
+stats:
+  enabled: true
+  minPlayers: 0
+allowDoublejumps: true
+regenerationdelay: 60
+joinfee: 0.0
+finished: true
+spawnpoints: []
+commandOnStart: ''
+commandOnStop: ''
+shop:
+  enabled: true
+reward:
+  minPlayers: 0
+  money: 0
+  xp: 0
+  command: []
+places:
+  second:
+    minPlayers: 0
+    money: 0
+    xp: 0
+    command: []
+  third:
+    minPlayers: 0
+    money: 0
+    xp: 0
+    command: []

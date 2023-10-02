@@ -1,0 +1,43 @@
+timestamps:
+  login: 1614739583310
+  lastteleport: 1614740122574
+  logout: 1614740144514
+lastlocation:
+  world: world
+  x: 1690.0927277968733
+  y: 80.0
+  z: 2042.27834208352
+  yaw: -129.23212
+  pitch: -20.85032
+money: '1169629.0300000000000861'
+logoutlocation:
+  world: world
+  x: 1215.5
+  y: 64.0
+  z: 1805.5
+  yaw: 18.899986
+  pitch: -15.300003
+homes:
+  home:
+    world: world
+    x: 1208.8084473776187
+    y: 78.0
+    z: 1937.1159379348596
+    yaw: -21.530712
+    pitch: 24.150002
+  pankocasa:
+    world: world
+    x: 1219.522502923488
+    y: 64.0
+    z: 1808.50454156381
+    yaw: -180.44983
+    pitch: 3.75001
+  plataforma:
+    world: world
+    x: 1199.8100000715256
+    y: 84.0
+    z: 1925.7499482224732
+    yaw: -280.13147
+    pitch: 32.10005
+ip-address: 186.34.43.20
+last-account-name: pankowsito

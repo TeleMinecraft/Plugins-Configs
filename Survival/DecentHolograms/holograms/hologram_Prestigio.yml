@@ -1,0 +1,24 @@
+location: world:446.500:80.500:504.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&#AE00FF&lTop alumnos con'
+    height: 0.3
+  - content: '&#AE00FF&lmayor Prestigio'
+    height: 0.3
+  - content: '&#AE00FF&lI. &5&l%ajlb_lb_objective_score_prestigio_1_alltime_name% &#AE00FF&l%ajlb_lb_objective_score_prestigio_1_alltime_value%'
+    height: 0.3
+  - content: '&#AE00FF&lII. &5&l%ajlb_lb_objective_score_prestigio_2_alltime_name% &#AE00FF&l%ajlb_lb_objective_score_prestigio_2_alltime_value%'
+    height: 0.3
+  - content: '&#AE00FF&lIII. &5&l%ajlb_lb_objective_score_prestigio_3_alltime_name% &#AE00FF&l%ajlb_lb_objective_score_prestigio_3_alltime_value%'
+    height: 0.3
+  - content: '&#AE00FF&lIV. &5&l%ajlb_lb_objective_score_prestigio_4_alltime_name% &#AE00FF&l%ajlb_lb_objective_score_prestigio_4_alltime_value%'
+    height: 0.3
+  - content: '&#AE00FF&lV. &5&l%ajlb_lb_objective_score_prestigio_5_alltime_name% &#AE00FF&l%ajlb_lb_objective_score_prestigio_5_alltime_value%'
+    height: 0.3
+  actions: {}

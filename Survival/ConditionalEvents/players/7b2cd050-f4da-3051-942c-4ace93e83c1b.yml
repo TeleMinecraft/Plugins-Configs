@@ -1,0 +1,5 @@
+name: Maldito_Baka
+events:
+  resistencia_y_skin_al_entrar:
+    one_time: false
+    cooldown: 1682819244914

@@ -1,0 +1,103 @@
+startDialog:
+  msgs: []
+bypassLimit: true
+starterNPC: 52
+customItem:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2860
+  type: IRON_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    ItemFlags:
+    - HIDE_ATTRIBUTES
+repeatable: true
+description: §eBusca y asesina mobs específicos, un cazador experto te dará más detalles
+timer: 10080
+name: §4§lPrueba de cacería §9[NPC]
+confirmMessage: §eTe sientes preparado para una cacería?
+endRewards:
+- id: itemReward
+  items:
+  - v: 2860
+    type: BOW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Sword
+        Bow"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Arco
+        versátil, utilizado solo"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"por
+        cazadores experimentados."}],"text":""}'
+      custom-model-data: 1000001
+      enchants:
+        DAMAGE_UNDEAD: 5
+        KNOCKBACK: 2
+        DURABILITY: 3
+        MENDING: 1
+      attribute-modifiers:
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -0.3
+          name: generic.movement_speed
+          slot: HAND
+          uuid: 1d7b39b2-ca19-4625-a3f3-92dee97e4c16
+          operation: 1
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.8
+          name: generic.attack_damage
+          slot: HAND
+          uuid: 9aa8de7a-da57-44ec-9edf-ee4b93188487
+          operation: 1
+- id: commandReward
+  commands:
+  - console: true
+    label: scoreboard players add {PLAYER} Prestigio 10
+  - console: true
+    label: scoreboard players add {PLAYER} Prestigio 20
+manager:
+  branches:
+    '0':
+      stages:
+        '0':
+          objects:
+            '0':
+              amount: 5
+              object:
+                factoryName: bukkitEntity
+                value: HUSK
+          stageType: MOBS
+          text: §ePruébame que sabes usar armas.
+        '1':
+          npcID: 52
+          stageType: NPC
+        '2':
+          objects:
+            '0':
+              amount: 7
+              object:
+                factoryName: bukkitEntity
+                value: STRAY
+          stageType: MOBS
+          text: §4§lVeteran Hunter §eSabes usar armas, pero sabes rastrear?
+        '3':
+          npcID: 52
+          stageType: NPC
+        '4':
+          objects:
+            '0':
+              amount: 1
+              object:
+                factoryName: bukkitEntity
+                value: WANDERING_TRADER
+          stageType: MOBS
+          text: §4§lVeteran Hunter §eVeo que estás preparado, si me haces un último
+            favor te daré un §6arma especial§e.
+        '5':
+          npcID: 52
+          stageType: NPC
+      endingStages: {}
+id: 19

@@ -1,0 +1,29 @@
+timestamps:
+  login: 1604880186017
+  logout: 1604880211545
+  lastteleport: 1604460891553
+lastlocation:
+  world: world
+  x: 2143.002403010496
+  y: 68.9375
+  z: -712.8250968975697
+  yaw: -203.54822
+  pitch: 36.000042
+logoutlocation:
+  world: world
+  x: 2142.5687678664235
+  y: 69.0
+  z: -720.6999999880791
+  yaw: -71.118416
+  pitch: 24.599743
+homes:
+  home:
+    world: world
+    x: 2190.652263296092
+    y: 40.0
+    z: -712.9686492657464
+    yaw: 271.18158
+    pitch: 11.700053
+money: '1226570.15749999999993598'
+ip-address: 190.161.145.205
+last-account-name: ElekisDee

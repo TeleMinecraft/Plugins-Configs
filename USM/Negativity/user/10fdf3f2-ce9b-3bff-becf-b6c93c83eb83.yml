@@ -1,0 +1,24 @@
+playername: fernanda
+lang: es_ES
+minerate-full-mined: 40988
+minerate:
+  diamond: 46
+  gold: 62
+  iron: 807
+  coal: 1552
+  ancient debris: 0
+better-click: 16
+cheats:
+  timer: 7
+  fastladder: 1
+  antiknockback: 1
+  nuker: 4
+  airplace: 2
+  forcefield: 1
+  fastplace: 1
+  blink: 1
+  noslowdown: 1
+  nofall: 2
+  spider: 1
+  speed: 20
+creation-time: 1619738844764

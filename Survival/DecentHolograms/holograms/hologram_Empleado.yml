@@ -1,0 +1,16 @@
+location: world:446.500:80.500:496.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&5&lEmpleado'
+    height: 0.3
+  - content: '&5&ldel mes:'
+    height: 0.3
+  - content: '&6&l⭐GOD⭐&7-&6&lStorbo'
+    height: 0.3
+  actions: {}

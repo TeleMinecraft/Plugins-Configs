@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 181.75.189.90
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1683409179165
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1683412338181
+  login: 1683412334295
+money: '0'
+last-account-name: _Yuuichi_
+lastlocation:
+  world: 8039c8bf-b4ad-4692-9f73-205fa07ddece
+  world-name: world
+  x: 7.860929334820274
+  y: 32.03584062504456
+  z: 0.2816262412174238
+  yaw: -76.34973907470703
+  pitch: 14.10000228881836
+logoutlocation:
+  world: 8039c8bf-b4ad-4692-9f73-205fa07ddece
+  world-name: world
+  x: 1.5726066794243747
+  y: 33.0
+  z: 0.5071120886769346
+  yaw: -88.88897705078125
+  pitch: 0.2777566909790039

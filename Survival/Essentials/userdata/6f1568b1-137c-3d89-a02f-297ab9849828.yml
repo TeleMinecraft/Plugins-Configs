@@ -1,0 +1,29 @@
+timestamps:
+  login: 1613958143212
+  logout: 1613966206101
+  lastteleport: 1613964815525
+lastlocation:
+  world: world
+  x: 290.9278397881335
+  y: 66.0
+  z: -515.3860631547263
+  yaw: 209.37708
+  pitch: 19.799955
+money: '1289244.3400000000000169'
+logoutlocation:
+  world: world
+  x: 1873.4880044312497
+  y: 64.875
+  z: 1995.2583396463474
+  yaw: 358.94147
+  pitch: 65.24966
+homes:
+  home:
+    world: world
+    x: 1876.5628741861372
+    y: 66.0
+    z: 2009.4440724957612
+    yaw: -328.81116
+    pitch: 15.749935
+ip-address: 186.79.246.228
+last-account-name: AikoSuzuki

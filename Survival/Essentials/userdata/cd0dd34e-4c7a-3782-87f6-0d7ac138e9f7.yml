@@ -1,0 +1,29 @@
+timestamps:
+  login: 1626827341484
+  logout: 1626827367575
+  lastteleport: 1623642378532
+lastlocation:
+  world: world
+  x: 415.48079085459125
+  y: 64.0
+  z: -513.4280735688822
+  yaw: 2.2499084
+  pitch: 0.44995978
+money: '1595564.000'
+logoutlocation:
+  world: world
+  x: 845.5817340254011
+  y: 123.11231311297014
+  z: -214.42837347894007
+  yaw: 135.77191
+  pitch: 24.989769
+homes:
+  home:
+    world: world
+    x: 328.52491802022615
+    y: 63.0
+    z: 5185.487182159174
+    yaw: 260.7829
+    pitch: 26.143265
+ip-address: 190.100.66.130
+last-account-name: panchulo08

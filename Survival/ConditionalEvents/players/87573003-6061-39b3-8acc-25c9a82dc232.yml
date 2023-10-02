@@ -1,0 +1,116 @@
+name: alelau5
+events:
+  resistencia_y_skin_al_entrar:
+    one_time: false
+    cooldown: 1693340440674
+  random_tp:
+    one_time: false
+    cooldown: 1693280342184
+  descripcion_mision1:
+    one_time: false
+    cooldown: 1693286670199
+  descripcion_mision2:
+    one_time: false
+    cooldown: 1693286671049
+  descripcion_mision3:
+    one_time: false
+    cooldown: 1693286672403
+  descripcion_mision4:
+    one_time: false
+    cooldown: 1693286673049
+  descripcion_mision5:
+    one_time: false
+    cooldown: 1693286673999
+  descripcion_mision6:
+    one_time: false
+    cooldown: 1693286674801
+  descripcion_mision7:
+    one_time: false
+    cooldown: 1693286680848
+  descripcion_mision8:
+    one_time: false
+    cooldown: 1693286682550
+  descripcion_mision9:
+    one_time: false
+    cooldown: 1693286683350
+  descripcion_mision10:
+    one_time: false
+    cooldown: 1693286684600
+  descripcion_mision11:
+    one_time: false
+    cooldown: 1693286685349
+  descripcion_mision12:
+    one_time: false
+    cooldown: 1693286685899
+  descripcion_mision18:
+    one_time: false
+    cooldown: 1693286686648
+  descripcion_mision17:
+    one_time: false
+    cooldown: 1693286687099
+  descripcion_mision16:
+    one_time: false
+    cooldown: 1693286687599
+  descripcion_mision15:
+    one_time: false
+    cooldown: 1693286688198
+  descripcion_mision14:
+    one_time: false
+    cooldown: 1693286688698
+  descripcion_mision13:
+    one_time: false
+    cooldown: 1693286689152
+  mision_1:
+    one_time: false
+    cooldown: 1693286697786
+  mision_2:
+    one_time: false
+    cooldown: 1693286704340
+  mision_3:
+    one_time: false
+    cooldown: 1693286706243
+  mision_4:
+    one_time: false
+    cooldown: 1693286706939
+  mision_5:
+    one_time: false
+    cooldown: 1693286708690
+  mision_6:
+    one_time: false
+    cooldown: 1693286709537
+  mision_12:
+    one_time: false
+    cooldown: 1693286710842
+  mision_11:
+    one_time: false
+    cooldown: 1693286711237
+  mision_10:
+    one_time: false
+    cooldown: 1693286711388
+  mision_9:
+    one_time: false
+    cooldown: 1693286711710
+  mision_7:
+    one_time: false
+    cooldown: 1693286712038
+  mision_13:
+    one_time: false
+    cooldown: 1693286714390
+  mision_14:
+    one_time: false
+    cooldown: 1693286715740
+  mision_15:
+    one_time: false
+    cooldown: 1693286716088
+  mision_16:
+    one_time: false
+    cooldown: 1693286716389
+  mision_17:
+    one_time: false
+    cooldown: 1693286716588
+  mision_18:
+    one_time: false
+    cooldown: 1693286716795
+  mision_8:
+    one_time: false
+    cooldown: 1693286720744

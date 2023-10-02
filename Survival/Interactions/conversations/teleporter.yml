@@ -1,0 +1,174 @@
+name: §5Teleporter
+# - NPC with id 92
+block_movement: false
+slow_effect: true
+save_conversation_progress: false
+start_conversation_radius: 1
+end_conversation_radius: 3
+requires_permission: false
+cooldown: 0
+hologram_dialogues:
+  enabled: false
+  offset_y: 2.7
+  offset_horizontal: 0.0
+starts_with:
+- NPC named Telepporter
+conversation:
+  conversation1:
+    dialogue:
+      dialogue1:
+        text:
+        - §bHola %player%, puedo ayudarte en algo?
+        time: 1
+    options:
+      option1:
+        text: §7Podrías llevarme al §9Poblado§7?
+        start_conversation: conversation2
+        actions:
+        - 'console_command: warp Poblado %player%'
+      option2:
+        text: §7Podrías llevarme a las §9Recompensas§7?
+        start_conversation: conversation3
+        actions:
+        - 'console_command: warp Recompensas %player%'
+      option3:
+        text: §7Podrías llevarme a las §9Misiones§7?
+        start_conversation: conversation4
+        actions:
+        - 'console_command: warp Misiones %player%'
+      option4:
+        text: §7Podrías llevarme a la §9Taberna§7?
+        start_conversation: conversation5
+        actions:
+        - 'console_command: warp Taberna %player%'
+      option5:
+        text: §7Podrías llevarmes al §9TeleBazar§7?
+        start_conversation: conversation6
+        actions:
+        - 'console_command: warp TeleBazar %player%'
+      option6:
+        text: §7Estoy bien aquí, gracias
+        start_conversation: conversation7
+      option7:
+        text: §7Me puedes llevar a una §dTienda Especial§7?
+        start_conversation: conversation8
+    random_dialogue: false
+    interrupt_actions: []
+  conversation2:
+    dialogue:
+      dialogue1:
+        text:
+        - §bQue te vaya bien!
+        time: 1
+    random_dialogue: false
+    interrupt_actions: []
+  conversation3:
+    dialogue:
+      dialogue1:
+        text:
+        - §bTe deseo mucha suerte!
+        time: 1
+    random_dialogue: false
+    interrupt_actions: []
+  conversation4:
+    dialogue:
+      dialogue1:
+        text:
+        - §bCuídate!
+        time: 1
+    random_dialogue: false
+    interrupt_actions: []
+  conversation5:
+    dialogue:
+      dialogue1:
+        text:
+        - §bPásala bien!
+        time: 1
+    random_dialogue: false
+    interrupt_actions: []
+  conversation6:
+    dialogue:
+      dialogue1:
+        text:
+        - §bEspero hayan descuentos!
+        time: 1
+    random_dialogue: false
+    interrupt_actions: []
+  conversation7:
+    dialogue:
+      dialogue1:
+        text:
+        - §bOk, me avisas si necesitas algo
+        time: 1
+    random_dialogue: false
+    interrupt_actions: []
+  conversation8:
+    dialogue:
+      dialogue1:
+        text:
+        - '§bEstas son las §dTiendas Especiales §bdisponibles:'
+        time: 1
+    options:
+      option1:
+        text: §3Tienda Nórdica
+        start_conversation: conversation9
+        actions:
+        - 'console_command: minecraft:tp %player% 4458 67 7375 90 0'
+      option2:
+        text: §5Tienda Oculta
+        start_conversation: conversation10
+        requires:
+        - '%objective_score_TiendaO% == 1'
+        actions:
+        - 'console_command: minecraft:tp %player% 479 23 541 0 0'
+      option3:
+        text: §4Tienda Infernal
+        start_conversation: conversation12
+        requires:
+        - '%objective_score_TiendaI% == 1'
+        actions:
+        - 'console_command: minecraft:tp %player% 427 54 -475 270 0'
+      option4:
+        text: §6Tienda de Katanas
+        start_conversation: conversation11
+        requires:
+        - '%objective_score_TiendaK% == 1'
+        actions:
+        - 'console_command: minecraft:tp %player% -3349 64 7866 0 -15'
+      option5:
+        text: §7Gracias, pero por ahora me quedaré aquí
+        start_conversation: conversation7
+    random_dialogue: false
+    interrupt_actions: []
+  conversation9:
+    dialogue:
+      dialogue1:
+        text:
+        - §bMándale mis saludos a Rigvius!
+        time: 1
+    random_dialogue: false
+    interrupt_actions: []
+  conversation10:
+    dialogue:
+      dialogue1:
+        text:
+        - §bMándale mis saludos a Black Smith!
+        time: 1
+    random_dialogue: false
+    interrupt_actions: []
+  conversation11:
+    dialogue:
+      dialogue1:
+        text:
+        - §bMándale saludos a Sasaki Kojiro!
+        time: 1
+    random_dialogue: false
+    interrupt_actions: []
+  conversation12:
+    dialogue:
+      dialogue1:
+        text:
+        - §bMándale mis saludos a Escanillator!
+        time: 1
+    random_dialogue: false
+    interrupt_actions: []

@@ -1,0 +1,29 @@
+timestamps:
+  login: 1628637838725
+  logout: 1628638167771
+  lastteleport: 1628638159862
+lastlocation:
+  world: world
+  x: 1135.3941726359374
+  y: 70.0
+  z: -499.20729516665864
+  yaw: 92.54877
+  pitch: 28.650179
+homes:
+  home:
+    world: world
+    x: 1207.627190105675
+    y: 92.0
+    z: -674.946119463135
+    yaw: 344.99872
+    pitch: 18.750208
+money: '164600.0'
+logoutlocation:
+  world: world
+  x: 1207.5
+  y: 92.0
+  z: -674.5
+  yaw: 312.59866
+  pitch: 21.450201
+ip-address: 190.20.188.39
+last-account-name: Antonio20056

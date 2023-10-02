@@ -1,0 +1,21 @@
+timestamps:
+  login: 1587872286386
+  logout: 1587875684613
+  lastteleport: 1587873370035
+lastlocation:
+  world: world
+  x: 423.92139006799124
+  y: 70.0
+  z: -493.6954263217831
+  yaw: -71.40178
+  pitch: 12.749967
+logoutlocation:
+  world: world
+  x: 3154.540539277519
+  y: 66.0
+  z: 3317.105070851893
+  yaw: -295.74484
+  pitch: 36.299217
+money: '1213415.9500000000000006'
+ip-address: 200.86.227.178
+last-account-name: chiappeql

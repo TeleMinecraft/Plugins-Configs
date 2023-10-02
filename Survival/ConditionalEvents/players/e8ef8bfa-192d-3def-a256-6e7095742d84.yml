@@ -1,0 +1,8 @@
+name: zaku
+events:
+  resistencia_y_skin_al_entrar:
+    one_time: false
+    cooldown: 1677015099215
+  random_tp:
+    one_time: false
+    cooldown: 1677015315357

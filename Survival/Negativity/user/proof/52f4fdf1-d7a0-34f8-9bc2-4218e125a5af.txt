@@ -1,0 +1,3 @@
+2022-10-06 03:13:23.162: (168ms) 100% FORCEFIELD > Big distance with: player. Exact distance: 4.360103209783619, without thorns. Ping: 168. Player version: V1_18. TPS: [19.999979889020224, 19.99999134807041, 19.999999127666705]
+2022-10-08 19:28:11.916: (170ms) 100% FORCEFIELD > Big distance with: cow. Exact distance: 3.9499999999964075, without thorns. Ping: 170. Player version: V1_18. TPS: [20.000001360666758, 20.000007649936258, 20.000000042444444]
+2022-10-09 02:10:54.639: (166ms) 100% FORCEFIELD > Big distance with: zombie. Exact distance: 4.632202499914743, without thorns. Ping: 166. Player version: V1_18. TPS: [19.999979175355016, 20.000001362933425, 19.99999863386676]

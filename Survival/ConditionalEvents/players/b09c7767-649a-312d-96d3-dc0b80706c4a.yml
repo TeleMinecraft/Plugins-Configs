@@ -1,0 +1,8 @@
+name: enano_cello
+events:
+  resistencia_y_skin_al_entrar:
+    one_time: false
+    cooldown: 1678829317219
+  random_tp:
+    one_time: false
+    cooldown: 1678668000597

@@ -1,0 +1,21 @@
+no-permission: '%prefix% &cYou cant''t execute this command.'
+bxp-usage: '%prefix% &eUsage: /bxp <(boost_option)/reload> <amount>'
+set-args: '%prefix% &cArgs expected <booster-blocks/breed/cook/fish/mobs/throw> <value>'
+block:
+  xp-obtained: '%prefix% &aYou received &b%xp% &aof experience for mining a block.'
+breed:
+  xp-obtained: '%prefix% &aYou received &b%xp% &aof experience for breeding a mob.'
+cook:
+  xp-obtained: '%prefix% &aYou received &b%xp% &aof experience for cooking a item.'
+fish:
+  xp-obtained: '%prefix% &aYou received &b%xp% &aof experience for fishing.'
+mob:
+  xp-obtained: '%prefix% &aYou received &b%xp% &aof experience for killing a mob.'
+value-change:
+  blocks: '%prefix% &aBooster for mining blocks has been updated to %value%.'
+  breed: '%prefix% &aBooster for breeding mobs has been updated to %value%.'
+  cook: '%prefix% &aBooster for cooking items has been updated to %value%.'
+  fish: '%prefix% &aBooster for fishing has been updated to %value%.'
+  mobs: '%prefix% &aBooster for killing mobs has been updated to %value%.'
+  throw: '%prefix% &aBooster for throwing experience bottles has been updated to %value%.'
+reload: '%prefix% &aPlugin reloaded successufully.'

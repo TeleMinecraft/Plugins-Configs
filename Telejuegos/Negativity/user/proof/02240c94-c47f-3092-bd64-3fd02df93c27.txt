@@ -1,0 +1,8 @@
+2021-06-29 19:35:59.639: (170ms) 97% AUTOCLICK > Clicks in one second: 39; Last second: 9; Better click in one second: 31 Ping: 170. Player version: V1_16. TPS: [20.00306997630811, 20.02832024583812, 20.04361309749299]
+2021-06-29 19:35:59.641: (170ms) 100% AUTOCLICK > Clicks in one second: 40; Last second: 9; Better click in one second: 31 Ping: 170. Player version: V1_16. TPS: [20.00306997630811, 20.02832024583812, 20.04361309749299]
+2021-06-29 19:35:59.641: (170ms) 100% AUTOCLICK > Clicks in one second: 41; Last second: 9; Better click in one second: 31 Ping: 170. Player version: V1_16. TPS: [20.00306997630811, 20.02832024583812, 20.04361309749299]
+2021-06-29 19:35:59.687: (170ms) 100% AUTOCLICK > Clicks in one second: 42; Last second: 9; Better click in one second: 31 Ping: 170. Player version: V1_16. TPS: [20.00306997630811, 20.02832024583812, 20.04361309749299]
+2021-06-29 19:35:59.687: (170ms) 100% AUTOCLICK > Clicks in one second: 43; Last second: 9; Better click in one second: 31 Ping: 170. Player version: V1_16. TPS: [20.00306997630811, 20.02832024583812, 20.04361309749299]
+2021-06-29 20:15:16.464: (176ms) 93% FASTPLACE > Block placed too quickly. Last time: 62, Last with ping: 43. Ping: 176. Player version: V1_16. TPS: [20.001248295972424, 20.019541185146792, 20.036670023157438]
+2021-07-22 01:15:35.563: (292ms) 99% BLINK > PositionLook packet: 51 Position Packet: 28 (=79) Ping: 292 Warn for Timer: 0. Player version: V1_16. TPS: [18.89290410446098, 19.85615683817152, 19.955484379307563]
+2021-07-22 01:18:33.839: (178ms) 100% BLINK > PositionLook packet: 57 Position Packet: 48 (=105) Ping: 178 Warn for Timer: 1. Player version: V1_16. TPS: [19.36181095331917, 19.98386136203132, 20.01151480265768]

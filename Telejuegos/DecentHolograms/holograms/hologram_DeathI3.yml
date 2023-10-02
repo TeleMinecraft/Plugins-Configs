@@ -1,0 +1,18 @@
+location: world_death:2.473:34.200:-52.560
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&ePara cumplir tu objetivo'
+    height: 0.3
+  - content: '&edebes superar a la competencia'
+    height: 0.3
+  - content: '&elanza pociones de vida o regeneración'
+    height: 0.3
+  - content: '&ea tus &4&loponentes!'
+    height: 0.3
+  actions: {}

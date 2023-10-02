@@ -1,0 +1,29 @@
+timestamps:
+  login: 1625177367987
+  logout: 1625179933926
+  lastteleport: 1625179918819
+lastlocation:
+  world: world
+  x: 231.30000001192093
+  y: 11.0
+  z: -215.48044410318732
+  yaw: 357.69824
+  pitch: 1.0499014
+money: '765860.64'
+logoutlocation:
+  world: world
+  x: 245.2195861994959
+  y: 65.0
+  z: -158.9332416604406
+  yaw: 171.25684
+  pitch: -0.72340554
+homes:
+  home:
+    world: world
+    x: 244.07618940861815
+    y: 65.0
+    z: -159.5808178348041
+    yaw: 260.65613
+    pitch: 46.2266
+ip-address: 190.161.200.152
+last-account-name: FloFloo

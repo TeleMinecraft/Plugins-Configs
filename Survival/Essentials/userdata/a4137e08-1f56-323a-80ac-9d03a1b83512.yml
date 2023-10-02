@@ -1,0 +1,63 @@
+timestamps:
+  login: 1667232677942
+  lastteleport: 1667232885315
+  logout: 1667233283168
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: -46.440481945963775
+  y: 64.0
+  z: -258.915234007949
+  yaw: -151.38999938964844
+  pitch: -11.09992504119873
+  world-name: world
+money: '3302204.862500000017203265'
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: -1089.699999988079
+  y: 71.0
+  z: -1493.938711185795
+  yaw: 97.76063537597656
+  pitch: 38.104469299316406
+  world-name: world
+homes:
+  home:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: -1129.7730863121776
+    y: 56.0
+    z: -1515.3531421414339
+    yaw: -347.85546875
+    pitch: 23.249765396118164
+    world-name: world
+  wihter:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: -1818.2717006511161
+    y: 13.0
+    z: 566.307477527137
+    yaw: -315.7222900390625
+    pitch: 36.14989471435547
+    world-name: world
+  hell:
+    world: ddd15208-45ed-42b1-90a4-dbd0adfbea42
+    x: -190.69999998807907
+    y: 90.0
+    z: -217.30000001192093
+    yaw: 66.89553833007812
+    pitch: 31.199878692626953
+    world-name: world_nether
+afk: false
+ip-address: 45.232.95.89
+last-account-name: Efmerxksks
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false

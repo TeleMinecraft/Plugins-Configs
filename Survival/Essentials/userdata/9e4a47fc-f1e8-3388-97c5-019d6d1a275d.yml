@@ -1,0 +1,30 @@
+timestamps:
+  login: 1618971421788
+  logout: 1618978611751
+  lastteleport: 1618976953079
+lastlocation:
+  world: world
+  x: 477.6878835783271
+  y: 70.0
+  z: 1223.7653885402656
+  yaw: -59.840775
+  pitch: 7.9503226
+logoutlocation:
+  world: world
+  x: 63.999168151651425
+  y: 85.0
+  z: 886.3637016352113
+  yaw: -221.9993
+  pitch: 14.249989
+nickname: Chamullo
+homes:
+  home:
+    world: world
+    x: 62.886599843333244
+    y: 80.0
+    z: 886.0563533030038
+    yaw: -249.21954
+    pitch: 20.849108
+money: '1315606.4100000000000752'
+ip-address: 186.106.225.48
+last-account-name: Chamullo

@@ -1,0 +1,29 @@
+timestamps:
+  login: 1625110118899
+  lastteleport: 1625113951867
+  logout: 1625114397911
+lastlocation:
+  world: world
+  x: 582.4384994336334
+  y: 62.0
+  z: -349.60720849481487
+  yaw: -175.9118
+  pitch: 26.280315
+money: '12156749.86000000000000004'
+logoutlocation:
+  world: world
+  x: -4006.256313060261
+  y: 71.0
+  z: 1005.6693222902134
+  yaw: -149.92159
+  pitch: -8.873012
+homes:
+  home:
+    world: world
+    x: -3705.963610732817
+    y: 63.0
+    z: 1283.737704125106
+    yaw: -31.435905
+    pitch: 46.88357
+ip-address: 190.20.17.207
+last-account-name: HNA999

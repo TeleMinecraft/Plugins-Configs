@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 179.56.111.170
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1682999889008
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1689959263482
+  login: 1689959248020
+money: '0'
+last-account-name: GravityCube
+lastlocation:
+  world: 8039c8bf-b4ad-4692-9f73-205fa07ddece
+  world-name: world
+  x: 0.5
+  y: 32.03584062504456
+  z: 8.095724038949658
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 8039c8bf-b4ad-4692-9f73-205fa07ddece
+  world-name: world
+  x: -6.164743608099782
+  y: 30.0
+  z: 55.155136908949686
+  yaw: 30.299989700317383
+  pitch: -5.249999046325684

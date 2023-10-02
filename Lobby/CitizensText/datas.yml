@@ -1,0 +1,13 @@
+# Do not edit anything here! Everything should be modified in-game.
+
+data:
+- npc: 21
+  messages:
+    0: Estimad@ {PLAYER}, un gusto saludarte
+    1: §fSi necesitas ayuda con tu §6Rango USM
+    2:
+      text: §fHaz click en este mensaje
+      commands:
+      - auto: false
+        command: cp panel-4 {PLAYER}
+lastVersion: '1.2'

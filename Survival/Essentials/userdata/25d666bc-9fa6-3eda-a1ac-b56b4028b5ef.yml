@@ -1,0 +1,44 @@
+timestamps:
+  login: 1613357144476
+  lastteleport: 1613357803533
+  logout: 1613358366623
+lastlocation:
+  world: world
+  x: 1210.2941750987015
+  y: 64.0
+  z: 1808.30706316141
+  yaw: -82.58191
+  pitch: 14.501108
+money: '1186233.500'
+homes:
+  home:
+    world: world
+    x: 536.1559867749836
+    y: 70.0
+    z: -553.2845102317158
+    yaw: 273.01562
+    pitch: 32.549217
+  casa2:
+    world: world
+    x: 1264.532954719277
+    y: 62.0
+    z: 1873.178528107634
+    yaw: 358.15573
+    pitch: 56.984116
+  casapanko:
+    world: world
+    x: 1210.2941750987015
+    y: 64.0
+    z: 1808.30706316141
+    yaw: -82.58191
+    pitch: 14.501108
+logoutlocation:
+  world: world
+  x: 536.0301149487246
+  y: 70.5625
+  z: -553.1361327938187
+  yaw: 275.55328
+  pitch: 39.749954
+nickname: §4BNJ4
+ip-address: 186.156.21.60
+last-account-name: Im_Bnj4

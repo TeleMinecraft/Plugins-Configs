@@ -1,0 +1,4 @@
+2021-04-24 04:05:21.658: (160ms) 97% BLINK > PositionLook packet: 49 Position Packet: 28 (=77) Ping: 160 Warn for Timer: 0. Player version: V1_16. TPS: [19.758697910506317, 19.80281625661493, 19.92461570526177]
+2021-04-24 04:13:42.584: (160ms) 100% BLINK > PositionLook packet: 218 Position Packet: 69 (=287) Ping: 160 Warn for Timer: 1. Player version: V1_16. TPS: [20.26654601641332, 20.074962969843455, 19.998313222067665]
+2021-04-24 04:19:09.49: (198ms) 100% BLINK > PositionLook packet: 63 Position Packet: 48 (=111) Ping: 198 Warn for Timer: 2. Player version: V1_16. TPS: [20.153972529635993, 21.551554549070264, 20.974582813959206]
+2021-04-24 04:24:02.107: (150ms) 100% BLINK > PositionLook packet: 37 Position Packet: 47 (=84) Ping: 150 Warn for Timer: 3. Player version: V1_16. TPS: [20.62890057368133, 20.75482219197968, 20.754315010571293]

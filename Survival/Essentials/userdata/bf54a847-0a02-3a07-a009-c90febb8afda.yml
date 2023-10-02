@@ -1,0 +1,71 @@
+timestamps:
+  login: 1637383635477
+  lastteleport: 1637385771482
+  logout: 1637386420869
+lastlocation:
+  world: world
+  x: 501.01672941948215
+  y: 76.0
+  z: 546.8915362851469
+  yaw: -253.21822
+  pitch: 12.899975
+money: '24004973.58900000000044718'
+homes:
+  base:
+    world: world
+    x: 6329.058899923806
+    y: 63.0
+    z: -196.56512769950632
+    yaw: -97.19821
+    pitch: 18.750072
+  x:
+    world: world
+    x: 5968.254319143396
+    y: 80.0
+    z: 15.055135998627506
+    yaw: -160.51352
+    pitch: 44.700123
+  casita:
+    world: world
+    x: 8416.580024581286
+    y: 70.0
+    z: -242.18054644087113
+    yaw: 177.29993
+    pitch: 39.14995
+  castillo:
+    world: world
+    x: -1737.199430475786
+    y: 77.0
+    z: -1088.9604389261012
+    yaw: -86.24914
+    pitch: 24.450054
+  trade:
+    world: world
+    x: -520.6161651380628
+    y: 43.0
+    z: 1019.5725760785624
+    yaw: 184.93369
+    pitch: 52.649704
+  aldeanos:
+    world: world
+    x: 3994.0390174641325
+    y: 6.0
+    z: 85.56210123834272
+    yaw: -14.341755
+    pitch: 26.099558
+  evento:
+    world: world
+    x: 300.5074324178926
+    y: 65.0
+    z: -500.47599114998104
+    yaw: -351.7837
+    pitch: 26.710539
+logoutlocation:
+  world: world
+  x: -1740.1357811716398
+  y: 77.0
+  z: -1082.1519475554635
+  yaw: 313.05115
+  pitch: 32.55013
+ip-address: 186.11.114.124
+last-account-name: SraGalletitaC1O

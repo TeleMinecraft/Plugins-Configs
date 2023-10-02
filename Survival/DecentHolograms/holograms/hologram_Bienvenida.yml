@@ -1,0 +1,20 @@
+location: world:411.570:80.500:-514.459
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&2&nAventurer@&r este servidor cuenta con'
+    height: 0.3
+  - content: multiples mejoras como nuevos
+    height: 0.3
+  - content: encantamientos, crafteos, vendedores
+    height: 0.3
+  - content: y mucho mas, antes de lanzarte a
+    height: 0.3
+  - content: la aventura, &a&lexplora la ciudad
+    height: 0.3
+  actions: {}

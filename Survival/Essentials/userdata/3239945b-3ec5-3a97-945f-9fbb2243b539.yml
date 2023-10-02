@@ -1,0 +1,56 @@
+timestamps:
+  login: 1690148335105
+  logout: 1690148640427
+  lastteleport: 1690148528925
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: 846.7012519742465
+  y: 11.0
+  z: -465.73504576742675
+  yaw: 55.57090759277344
+  pitch: 14.204899787902832
+  world-name: world
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: -103.71755778327785
+  y: 16.5
+  z: -2241.644970781357
+  yaw: 85.6319580078125
+  pitch: 11.943913459777832
+  world-name: world
+money: '1181681.09849999999934952'
+homes:
+  home:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: -2383.635589503812
+    y: 52.0
+    z: -3791.413921211167
+    yaw: 308.99212646484375
+    pitch: 37.451690673828125
+    world-name: world
+  cas:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: -107.53983229482074
+    y: 20.0
+    z: -2253.7157377886006
+    yaw: 230.96070861816406
+    pitch: 15.449867248535156
+    world-name: world
+confirm-pay: true
+ip-address: 186.11.13.103
+last-account-name: M3MEI
+accepting-pay: false
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+baltop-exempt: false

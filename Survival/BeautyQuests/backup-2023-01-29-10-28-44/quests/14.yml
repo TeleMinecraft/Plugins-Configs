@@ -1,0 +1,48 @@
+customItem:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2860
+  type: WITHER_SKELETON_SKULL
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    ItemFlags:
+    - HIDE_ATTRIBUTES
+name: §8§lWither Slayer §2[Gremio]
+description: §eDerrota a un Wither
+repeatable: true
+endRewards:
+- id: commandReward
+  commands:
+  - console: true
+    label: scoreboard players add {PLAYER} Prestigio 7
+- id: itemReward
+  items:
+  - v: 2860
+    type: GLASS
+    amount: 5
+  - v: 2860
+    type: OBSIDIAN
+    amount: 3
+  - v: 2860
+    type: IRON_BLOCK
+    amount: 9
+- id: commandReward
+  commands:
+  - console: true
+    label: xp give {PLAYER} 30l
+bypassLimit: true
+timer: 10080
+manager:
+  branches:
+    '0':
+      stages:
+        '0':
+          objects:
+            '0':
+              amount: 1
+              object:
+                factoryName: bukkitEntity
+                value: WITHER
+          stageType: MOBS
+      endingStages: {}
+id: 14

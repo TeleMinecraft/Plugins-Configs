@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 190.47.224.33
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1667539092931
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1667539132724
+  login: 1667538415412
+money: '6000'
+last-account-name: nizarpik
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 323.67339836268883
+  y: 91.0
+  z: 520.2987845323703
+  yaw: -40.81785583496094
+  pitch: 18.150007247924805
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: -1225.5936206404142
+  y: 72.0625
+  z: -1046.114505043577
+  yaw: -143.84939575195312
+  pitch: 18.150043487548828

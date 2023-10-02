@@ -1,0 +1,41 @@
+endRewards:
+- id: commandReward
+  commands:
+  - console: true
+    label: scoreboard players set {PLAYER} mision18 1
+name: §4§lFeliz §1§l18§f§l!
+description: §7Desbloquea la Telefonda!
+customItem:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: BREAD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    ItemFlags:
+    - HIDE_ATTRIBUTES
+bypassLimit: true
+manager:
+  branches:
+    '0':
+      stages:
+        '0':
+          objects:
+            00000000-0000-0000-0000-0000000009ae:
+              amount: 18
+              object:
+                factoryName: bukkitEntity
+                value: SHEEP
+          stageType: MOBS
+        '1':
+          result:
+            v: 3337
+            type: HAY_BLOCK
+            amount: 18
+          stageType: CRAFT
+        '2':
+          writeText: UYUI!
+          placeholders: false
+          stageType: CHAT
+      endingStages: {}
+id: 20

@@ -1,0 +1,12 @@
+last-fill-material: AIR
+point-one: world,448.0,51.0,-500.0,0.0,0.0
+point-two: world,450.0,53.0,-500.0,0.0,0.0
+teleport-location: world,415.5,78.0,-514.5,0.0,0.0
+commands-only: false
+commands: []
+disabled: false
+message: ''
+title: ''
+sub-title: ''
+bar-message: ''
+cooldown: 0

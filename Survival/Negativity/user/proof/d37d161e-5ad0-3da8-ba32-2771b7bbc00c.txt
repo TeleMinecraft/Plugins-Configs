@@ -1,0 +1,1 @@
+2022-06-06 20:18:27.351: (147ms) 100% FORCEFIELD > Big distance with: cow. Exact distance: 4.217253253003387, without thorns. Ping: 147. Player version: V1_18. TPS: [20.000082464340018, 20.000000162800003, 20.00000172920015]

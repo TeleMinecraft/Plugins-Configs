@@ -1,0 +1,84 @@
+name: '&fCalificador'
+# - NPC with id 178
+block_movement: false
+slow_effect: false
+save_conversation_progress: false
+start_conversation_radius: 0
+end_conversation_radius: 5
+requires_permission: false
+cooldown: 0
+hologram_dialogues:
+  enabled: false
+  offset_y: 0.0
+  offset_horizontal: 0.0
+starts_with: []
+conversation:
+  conversation1:
+    dialogue:
+      dialogue1:
+        text:
+        - '&bHola %player%!'
+        - '&bEstamos regalando helado a quienes hagan'
+        - '&buna degustación de los alimentos que'
+        - '&bvendemos y luego dejen una calificación.'
+        time: 5
+        start_conversation: conversation2
+        conditional_dialogue:
+          conditional_dialogue1:
+            requires:
+            - '%objective_score_choripan% >= 1'
+            start_conversation: conversation3
+    random_dialogue: false
+    interrupt_actions: []
+  conversation2:
+    dialogue:
+      dialogue1:
+        text:
+        - '&bLa manera perfecta de hacer la degustación'
+        - '&bes crafteando un Choripan con Pebre, con el'
+        - '&bcomando /recipes puedes ver todos los pasos'
+        - '&bnecesarios para crearlo, cuando esté listo'
+        - '&by lo hayas comido, vuelve a dejar tu opinión.'
+        time: 7
+        show_name: false
+    random_dialogue: false
+    interrupt_actions: []
+  conversation3:
+    dialogue:
+      dialogue1:
+        text:
+        - '&bQué calificación le darías al sabor del choripan?'
+        - '&7[Es completamente anónima]'
+        time: 4
+        show_name: false
+    options:
+      option1:
+        text: '#FFFF00✰✰✰✰✰'
+        start_conversation: conversation4
+      option2:
+        text: '#FFFF00✰✰✰✰'
+        start_conversation: conversation4
+      option3:
+        text: '#FFFF00✰✰✰'
+        start_conversation: conversation4
+      option4:
+        text: '#FFFF00✰✰'
+        start_conversation: conversation4
+      option5:
+        text: '#FFFF00✰'
+        start_conversation: conversation4
+    random_dialogue: false
+    interrupt_actions: []
+  conversation4:
+    dialogue:
+      dialogue1:
+        text:
+        - '&bMuchas gracias por tu opinión, toma tu recompensa'
+        time: 7
+        last_actions:
+        - 'console_command: si give requisito4 1 %player% true'
+        - 'wait: 100'
+        - 'player_command: warp Mision18'
+        show_name: false
+    random_dialogue: false
+    interrupt_actions: []

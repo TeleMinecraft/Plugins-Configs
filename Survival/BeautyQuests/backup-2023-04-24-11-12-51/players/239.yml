@@ -1,0 +1,181 @@
+identifier: a91df703-b885-368b-8868-0ce3e85a3995
+quests:
+- questID: 1
+  currentStage: 0
+  datas:
+    starting_time: 1679879774954
+    stage0:
+      remaining:
+        0: 1
+        1: 1
+        2: 1
+  currentBranch: 0
+  timesFinished: 2
+- questID: 2
+  currentStage: 0
+  datas:
+    starting_time: 1679879776173
+    stage0:
+      amount: 1
+  currentBranch: 0
+  timesFinished: 1
+- questID: 3
+  currentStage: 0
+  datas:
+    starting_time: 1679879776726
+    stage0:
+      remaining:
+        2: 1
+  currentBranch: 0
+  timesFinished: 2
+- questID: 4
+  currentStage: 0
+  datas:
+    starting_time: 1679879777259
+    stage0:
+      remaining:
+        2: 5
+        3: 5
+        4: 3
+        5: 3
+  currentBranch: 0
+  timesFinished: 2
+- questID: 5
+  currentStage: 0
+  datas:
+    starting_time: 1677199357771
+    stage0:
+      remaining:
+        5: 14
+  currentBranch: 0
+  timesFinished: 1
+- questID: 6
+  currentStage: 0
+  datas:
+    stage0:
+      remaining:
+        1: 5
+  currentBranch: 0
+- questID: 7
+  currentStage: 0
+  datas:
+    starting_time: 1679879773924
+    stage0:
+      remaining:
+        0: 1
+        1: 2
+  currentBranch: 0
+  timesFinished: 2
+- questID: 8
+  currentStage: 0
+  datas:
+    stage0:
+      remaining:
+        0: 3
+        1: 3
+  currentBranch: 0
+- questID: 9
+  currentStage: 0
+  datas:
+    starting_time: 1679879771401
+    stage0:
+      remaining:
+        0: 10
+  currentBranch: 0
+  timesFinished: 1
+- questID: 10
+  currentStage: 0
+  datas:
+    starting_time: 1679879561826
+    stage0:
+      remaining:
+        0: 5
+        1: 5
+        2: 5
+  currentBranch: 0
+  timesFinished: 2
+- questID: 11
+  currentStage: 0
+  datas:
+    starting_time: 1679879770467
+    stage0:
+      remaining:
+        0: 10
+        1: 10
+        2: 10
+        3: 1
+        4: 1
+  currentBranch: 0
+  timesFinished: 2
+- questID: 12
+  currentStage: 0
+  datas:
+    starting_time: 1679879770073
+    stage0:
+      remaining:
+        0: 20
+        1: 20
+        2: 20
+        3: 5
+        4: 5
+        5: 5
+        6: 5
+        7: 5
+  currentBranch: 0
+  timesFinished: 1
+- questID: 13
+  currentStage: 0
+  datas:
+    starting_time: 1679879773400
+    stage0:
+      remaining:
+        0: 1
+  currentBranch: 0
+  timesFinished: 2
+- questID: 14
+  currentStage: 0
+  datas:
+    starting_time: 1679879772970
+    stage0:
+      remaining:
+        0: 1
+  currentBranch: 0
+  timesFinished: 1
+- questID: 15
+  currentStage: 0
+  datas:
+    starting_time: 1679879772468
+    stage0:
+      remaining:
+        0: 3
+        1: 2
+  currentBranch: 0
+  timesFinished: 1
+- questID: 16
+  currentStage: 0
+  datas:
+    starting_time: 1679879769067
+    stage0:
+      remaining:
+        0: 10
+  currentBranch: 0
+  timesFinished: 2
+- questID: 17
+  currentStage: 3
+  questFlow: 0:0;0:1;0:2
+  datas:
+    starting_time: 1675115599092
+    stage0:
+      amount: 1
+  currentBranch: 0
+  timesFinished: 1
+- questID: 18
+  currentStage: 0
+  datas:
+    starting_time: 1679879779634
+    stage0: {}
+  currentBranch: 0
+  timesFinished: 1
+- questID: 19
+  questFlow: 0:0
+  timesFinished: 1

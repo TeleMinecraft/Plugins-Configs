@@ -1,0 +1,13 @@
+last-fill-material: AIR
+point-one: world,-24.0,34.0,71.0,0.0,0.0
+point-two: world,-9.0,33.0,71.0,0.0,0.0
+teleport-location: world,-10.145643092233884,32.0,68.27671267314687,-12.5922985,20.632086
+commands-only: false
+commands:
+- svar set server_usm 1 {player}
+disabled: false
+message: ''
+title: ''
+sub-title: ''
+bar-message: ''
+portal-server: usm

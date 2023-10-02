@@ -1,0 +1,115 @@
+identifier: b165f33e-480b-358c-8e55-ae0745186ff2
+quests:
+- questID: 1
+  questFlow: 0:0
+  timesFinished: 3
+- stage0datas:
+    amount: 1
+  questID: 2
+  currentStage: 0
+  currentBranch: 0
+  timesFinished: 1
+- stage0datas:
+    remaining:
+      1: 5
+      2: 1
+  questID: 3
+  currentStage: 0
+  currentBranch: 0
+  timesFinished: 2
+- stage0datas:
+    remaining:
+      2: 1
+      3: 5
+  questID: 4
+  currentStage: 0
+  currentBranch: 0
+  timesFinished: 1
+- stage0datas:
+    remaining:
+      7: 1
+  questID: 5
+  currentStage: 0
+  currentBranch: 0
+- stage0datas:
+    remaining:
+      1: 5
+  questID: 6
+  currentStage: 0
+  currentBranch: 0
+- stage0datas:
+    remaining:
+      1: 2
+  questID: 7
+  currentStage: 0
+  currentBranch: 0
+  timesFinished: 1
+- stage0datas:
+    remaining:
+      0: 3
+      1: 3
+  questID: 8
+  currentStage: 0
+  currentBranch: 0
+  timesFinished: 1
+- stage0datas:
+    remaining:
+      0: 10
+  questID: 9
+  currentStage: 0
+  currentBranch: 0
+  timesFinished: 1
+- stage0datas:
+    remaining:
+      0: 5
+      2: 5
+  questID: 10
+  currentStage: 0
+  currentBranch: 0
+  timesFinished: 1
+- stage0datas:
+    remaining:
+      0: 10
+      2: 10
+      3: 1
+      4: 1
+  questID: 11
+  currentStage: 0
+  currentBranch: 0
+  timesFinished: 1
+- questID: 12
+  questFlow: 0:0;0:1;0:2;0:3
+  timesFinished: 1
+- questID: 13
+  questFlow: 0:0
+  timesFinished: 1
+- questID: 14
+  timer: 1661113029733
+  questFlow: 0:0
+  timesFinished: 1
+- stage0datas:
+    amount: 1
+  questID: 15
+  currentStage: 3
+  questFlow: 0:0;0:1;0:2
+  currentBranch: 0
+- stage0datas:
+    remaining:
+      0: 10
+  questID: 16
+  currentStage: 0
+  currentBranch: 0
+  timesFinished: 1
+- stage0datas:
+    amount: 1
+  questID: 17
+  currentStage: 0
+  currentBranch: 0
+  timesFinished: 1
+- stage0datas:
+    amount: 1
+  questID: 18
+  currentStage: 1
+  questFlow: 0:0
+  currentBranch: 0
+  timesFinished: 1

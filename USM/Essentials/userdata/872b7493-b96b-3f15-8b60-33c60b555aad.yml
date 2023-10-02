@@ -1,0 +1,19 @@
+lastlocation:
+  world: world
+  x: 0.5
+  y: 33.0
+  z: 0.5
+  yaw: 270.0
+  pitch: 0.0
+timestamps:
+  login: 1588548343341
+  logout: 1588548348787
+logoutlocation:
+  world: world
+  x: 0.5
+  y: 33.0
+  z: 0.5
+  yaw: 44.849823
+  pitch: 17.850006
+ip-address: 190.163.65.209
+last-account-name: BocchiComunista

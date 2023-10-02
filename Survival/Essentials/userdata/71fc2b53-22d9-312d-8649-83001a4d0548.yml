@@ -1,0 +1,29 @@
+timestamps:
+  login: 1624906539915
+  logout: 1624906877274
+  lastteleport: 1624906801453
+lastlocation:
+  world: world
+  x: 480.30000001192093
+  y: 80.0
+  z: 550.7659494416997
+  yaw: -186.16759
+  pitch: 5.5499907
+homes:
+  home:
+    world: world
+    x: -1749.5506795951562
+    y: 71.0
+    z: 235.89086482426106
+    yaw: 177.66571
+    pitch: 64.20006
+logoutlocation:
+  world: world
+  x: -1747.9601303019251
+  y: 71.0
+  z: 231.9351960477442
+  yaw: -301.5901
+  pitch: 13.95007
+money: '886945.0990000000001078'
+ip-address: 45.235.36.177
+last-account-name: DarkWzzard19

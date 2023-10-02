@@ -1,0 +1,804 @@
+Name: '&4&lC&c&la&6&lj&e&la &a&ld&2&le &3&lC&b&lo&9&ll&1&lo&5&lr&d&le&f&ls'
+Animation_Config: spin_3_rows
+Preview_Config: default
+Permission_Required: false
+Attached_Citizens: ''
+Opening:
+  Cooldown: 1
+  Cost:
+    MONEY: 0.0
+    EXP: 0.0
+Key:
+  Ids: []
+Block:
+  Locations: []
+  Pushback:
+    Enabled: false
+  Hologram:
+    Enabled: false
+    Offset:
+      Y: 1.5
+    Text:
+    - '&c&lMYSTERY CRATE'
+    - '&7Buy a key at &cwww.myserver.com&c'
+  Effect:
+    Model: SIMPLE
+    Particle:
+      Name: FLAME
+      Data: ''
+Rewards:
+  List:
+    '1':
+      Name: '&c&lLana Roja'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb40096qqbeclhn4ob6egt74pb4btrmurrc0400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb40096qqbeclhn4ob6egt74pb4btrmurrc0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '2':
+      Name: '&6&lLana Naranja'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i005bdd5n6aoric5j78ejfe9gmspr5btrmurrc0400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i005bdd5n6aoric5j78ejfe9gmspr5btrmurrc0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '3':
+      Name: '&e&lLana Amarilla'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i005bdd5n6aoric5j78ejpclm6orrnbtrmurrc0400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i005bdd5n6aoric5j78ejpclm6orrnbtrmurrc0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '4':
+      Name: '&a&lLana Lima'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip002dmmirj5cdp62pjk79m6irb5btrmurrc0400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip002dmmirj5cdp62pjk79m6irb5btrmurrc0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '5':
+      Name: '&2&lLana Verde'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800kdlkmspb3e9gmct1qctp6apbebtrmurrc0400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800kdlkmspb3e9gmct1qctp6apbebtrmurrc0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '6':
+      Name: '&3&lLana Cian'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip002dmmirj5cdp62pjk79hniobebtrmurrc0400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip002dmmirj5cdp62pjk79hniobebtrmurrc0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '7':
+      Name: '&b&lLana Celeste'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800pdlkmspb3e9gmct1qdhkmeq3kbth6otb5btrmurrc0400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800pdlkmspb3e9gmct1qdhkmeq3kbth6otb5btrmurrc0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '8':
+      Name: '&9&lLana Azul'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip002dmmirj5cdp62pjk79h6otb5btrmurrc0400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip002dmmirj5cdp62pjk79h6otb5btrmurrc0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '9':
+      Name: '&1&lLana Morada'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i005bdd5n6aoric5j78ejgelp70r35btrmurrc0400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i005bdd5n6aoric5j78ejgelp70r35btrmurrc0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '10':
+      Name: '&5&lLana Magenta'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01crb9dpim6sj1cpq3krb1ctimst31btrmurrc0400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01crb9dpim6sj1cpq3krb1ctimst31btrmurrc0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '11':
+      Name: '&d&lLana Rosada'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip002dmmirj5cdp62pjk79o6irjbbtrmurrc0400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip002dmmirj5cdp62pjk79o6irjbbtrmurrc0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '12':
+      Name: '&f&lLana Blanca'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800kdlkmspb3e9gmct1qetk6it35btrmurrc0400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800kdlkmspb3e9gmct1qetk6it35btrmurrc0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '13':
+      Name: '&7&lLana Gris Claro'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800pdlkmspb3e9gmct1qdhkmeq3kbtjn4obpbtrmurrc0400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800pdlkmspb3e9gmct1qdhkmeq3kbtjn4obpbtrmurrc0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '14':
+      Name: '&8&lLana Gris'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip002dmmirj5cdp62pjk79jn4obpbtrmurrc0400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip002dmmirj5cdp62pjk79jn4obpbtrmurrc0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '15':
+      Name: '&0&lLana Negra'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800kdlkmspb3e9gmct1qc9m62orbbtrmurrc0400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800kdlkmspb3e9gmct1qc9m62orbbtrmurrc0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '16':
+      Name: '&4&lLana Café'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800kdlkmspb3e9gmct1qc9p6utrebtrmurrc0400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800kdlkmspb3e9gmct1qc9p6utrebtrmurrc0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '17':
+      Name: '&c&lTerracota Roja'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip0031mmirj5cdp62pjk79p6ap2vehin4sj1cdnn8t310400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip0031mmirj5cdp62pjk79p6ap2vehin4sj1cdnn8t310400agrfeln78g00
+      Ignored_For_Permissions: []
+    '18':
+      Name: '&6&lTerracota Naranja'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01mrb9dpim6sj1cpq3krric5n6epavehin4sj1cdnn8t310400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01mrb9dpim6sj1cpq3krric5n6epavehin4sj1cdnn8t310400agrfeln78g00
+      Ignored_For_Permissions: []
+    '19':
+      Name: '&e&lTerracota Amarilla'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01mrb9dpim6sj1cpq3kub5dhm6utqvehin4sj1cdnn8t310400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01mrb9dpim6sj1cpq3kub5dhm6utqvehin4sj1cdnn8t310400agrfeln78g00
+      Ignored_For_Permissions: []
+    '20':
+      Name: '&a&lTerracota Lima'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800pdlkmspb3e9gmct1qdhkmqpavehin4sj1cdnn8t310400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800pdlkmspb3e9gmct1qdhkmqpavehin4sj1cdnn8t310400agrfeln78g00
+      Ignored_For_Permissions: []
+    '21':
+      Name: '&2&lTerracota Verde'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i006jdd5n6aoric5j78ej7e9imarivehin4sj1cdnn8t310400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i006jdd5n6aoric5j78ej7e9imarivehin4sj1cdnn8t310400agrfeln78g00
+      Ignored_For_Permissions: []
+    '22':
+      Name: '&3&lTerracota Cian'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800pdlkmspb3e9gmct1qcdsm2rivehin4sj1cdnn8t310400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800pdlkmspb3e9gmct1qcdsm2rivehin4sj1cdnn8t310400agrfeln78g00
+      Ignored_For_Permissions: []
+    '23':
+      Name: '&b&lTerracota Celeste'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i007rdd5n6aoric5j78ejcd5jmgt2vc9m7apavehin4sj1cdnn8t310400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i007rdd5n6aoric5j78ejcd5jmgt2vc9m7apavehin4sj1cdnn8t310400agrfeln78g00
+      Ignored_For_Permissions: []
+    '24':
+      Name: '&9&lTerracota Azul'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800pdlkmspb3e9gmct1qc9m7apavehin4sj1cdnn8t310400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800pdlkmspb3e9gmct1qc9m7apavehin4sj1cdnn8t310400agrfeln78g00
+      Ignored_For_Permissions: []
+    '25':
+      Name: '&5&lTerracota Morada'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01mrb9dpim6sj1cpq3ks3le9o6opavehin4sj1cdnn8t310400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01mrb9dpim6sj1cpq3ks3le9o6opavehin4sj1cdnn8t310400agrfeln78g00
+      Ignored_For_Permissions: []
+    '26':
+      Name: '&5&lTerracota Magenta'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400e6qqbeclhn4ob6egt6qob7cln78oavehin4sj1cdnn8t310400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400e6qqbeclhn4ob6egt6qob7cln78oavehin4sj1cdnn8t310400agrfeln78g00
+      Ignored_For_Permissions: []
+    '27':
+      Name: '&d&lTerracota Rosada'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800pdlkmspb3e9gmct1qe1kmsqqvehin4sj1cdnn8t310400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800pdlkmspb3e9gmct1qe1kmsqqvehin4sj1cdnn8t310400agrfeln78g00
+      Ignored_For_Permissions: []
+    '28':
+      Name: '&f&lTerracota Blanca'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i006jdd5n6aoric5j78ejnd1kn8pavehin4sj1cdnn8t310400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i006jdd5n6aoric5j78ejnd1kn8pavehin4sj1cdnn8t310400agrfeln78g00
+      Ignored_For_Permissions: []
+    '29':
+      Name: '&7&lTerracota Gris Claro'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i007rdd5n6aoric5j78ejcd5jmgt2vctp62uavehin4sj1cdnn8t310400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i007rdd5n6aoric5j78ejcd5jmgt2vctp62uavehin4sj1cdnn8t310400agrfeln78g00
+      Ignored_For_Permissions: []
+    '30':
+      Name: '&8&lTerracota Gris'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800pdlkmspb3e9gmct1qctp62uavehin4sj1cdnn8t310400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800pdlkmspb3e9gmct1qctp62uavehin4sj1cdnn8t310400agrfeln78g00
+      Ignored_For_Permissions: []
+    '31':
+      Name: '&0&lTerracota Negra'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i006jdd5n6aoric5j78ej2dhgm6qqvehin4sj1cdnn8t310400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i006jdd5n6aoric5j78ej2dhgm6qqvehin4sj1cdnn8t310400agrfeln78g00
+      Ignored_For_Permissions: []
+    '32':
+      Name: '&4&lTerracota Café'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i006jdd5n6aoric5j78ej2e9nnerivehin4sj1cdnn8t310400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i006jdd5n6aoric5j78ej2e9nnerivehin4sj1cdnn8t310400agrfeln78g00
+      Ignored_For_Permissions: []
+    '33':
+      Name: '&c&lCristal Rojo'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01mrb9dpim6sj1cpq3ksj5chfn6t31d5n6ap2vctm62srj0400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01mrb9dpim6sj1cpq3ksj5chfn6t31d5n6ap2vctm62srj0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '34':
+      Name: '&6&lCristal Naranjo'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800udlkmspb3e9gmct1qdtp62rj7clfn6t31d5n6ap2vctm62srj0400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800udlkmspb3e9gmct1qdtp62rj7clfn6t31d5n6ap2vctm62srj0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '35':
+      Name: '&e&lCristal Amarillo'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800udlkmspb3e9gmct1qf5imor3fetfn6t31d5n6ap2vctm62srj0400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800udlkmspb3e9gmct1qf5imor3fetfn6t31d5n6ap2vctm62srj0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '36':
+      Name: '&a&lCristal Lima'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400e6qqbeclhn4ob6egt6oqbdclfn6t31d5n6ap2vctm62srj0400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400e6qqbeclhn4ob6egt6oqbdclfn6t31d5n6ap2vctm62srj0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '37':
+      Name: '&2&lCristal Verde'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip003lmmirj5cdp62pjk79jn4pb5dpfn6t31d5n6ap2vctm62srj0400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip003lmmirj5cdp62pjk79jn4pb5dpfn6t31d5n6ap2vctm62srj0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '38':
+      Name: '&3&lCristal Cian'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400e6qqbeclhn4ob6egt66ub1dpfn6t31d5n6ap2vctm62srj0400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400e6qqbeclhn4ob6egt66ub1dpfn6t31d5n6ap2vctm62srj0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '39':
+      Name: '&b&lCristal Celeste'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip0049mmirj5cdp62pjk79m6ipr8ehfm4r3lclfn6t31d5n6ap2vctm62srj0400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip0049mmirj5cdp62pjk79m6ipr8ehfm4r3lclfn6t31d5n6ap2vctm62srj0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '40':
+      Name: '&9&lCristal Azul'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400e6qqbeclhn4ob6egt64r3lclfn6t31d5n6ap2vctm62srj0400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400e6qqbeclhn4ob6egt64r3lclfn6t31d5n6ap2vctm62srj0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '41':
+      Name: '&1&lCristal Morado'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800udlkmspb3e9gmct1qe1qn4s3cclfn6t31d5n6ap2vctm62srj0400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800udlkmspb3e9gmct1qe1qn4s3cclfn6t31d5n6ap2vctm62srj0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '42':
+      Name: '&5&lCristal Magenta'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i007rdd5n6aoric5j78ejdc5jmarjkc5fn6t31d5n6ap2vctm62srj0400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i007rdd5n6aoric5j78ejdc5jmarjkc5fn6t31d5n6ap2vctm62srj0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '43':
+      Name: '&d&lCristal Rosado'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400e6qqbeclhn4ob6egt70qbeddfn6t31d5n6ap2vctm62srj0400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400e6qqbeclhn4ob6egt70qbeddfn6t31d5n6ap2vctm62srj0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '44':
+      Name: '&f&lCristal Blanco'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip003lmmirj5cdp62pjk79rmgqbkclfn6t31d5n6ap2vctm62srj0400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip003lmmirj5cdp62pjk79rmgqbkclfn6t31d5n6ap2vctm62srj0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '45':
+      Name: '&7&lCristal Gris Claro'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip0049mmirj5cdp62pjk79m6ipr8ehfmesj1f5fn6t31d5n6ap2vctm62srj0400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip0049mmirj5cdp62pjk79m6ipr8ehfmesj1f5fn6t31d5n6ap2vctm62srj0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '46':
+      Name: '&8&lCristal Gris'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400e6qqbeclhn4ob6egt6esj1f5fn6t31d5n6ap2vctm62srj0400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400e6qqbeclhn4ob6egt6esj1f5fn6t31d5n6ap2vctm62srj0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '47':
+      Name: '&0&lCristal Negro'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip003lmmirj5cdp62pjk79h6oob3ddfn6t31d5n6ap2vctm62srj0400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip003lmmirj5cdp62pjk79h6oob3ddfn6t31d5n6ap2vctm62srj0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '48':
+      Name: '&4&lCristal Café'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip003lmmirj5cdp62pjk79h74rrndpfn6t31d5n6ap2vctm62srj0400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip003lmmirj5cdp62pjk79h74rrndpfn6t31d5n6ap2vctm62srj0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '49':
+      Name: '&c&lCemento Rojo'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip003lmmirj5cdp62pjk79p6ap2vcdnmsoriclq6anrgdtrm8pbi0400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip003lmmirj5cdp62pjk79p6ap2vcdnmsoriclq6anrgdtrm8pbi0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '50':
+      Name: '&6&lCemento Naranjo'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg020rb9dpim6sj1cpq3krric5n6epavcdnmsoriclq6anrgdtrm8pbi0400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg020rb9dpim6sj1cpq3krric5n6epavcdnmsoriclq6anrgdtrm8pbi0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '51':
+      Name: '&e&lCemento Amarillo'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg020rb9dpim6sj1cpq3kub5dhm6utqvcdnmsoriclq6anrgdtrm8pbi0400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg020rb9dpim6sj1cpq3kub5dhm6utqvcdnmsoriclq6anrgdtrm8pbi0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '52':
+      Name: '&a&lCemento Lima'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800udlkmspb3e9gmct1qdhkmqpavcdnmsoriclq6anrgdtrm8pbi0400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800udlkmspb3e9gmct1qdhkmqpavcdnmsoriclq6anrgdtrm8pbi0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '53':
+      Name: '&2&lCemento Verde'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i007rdd5n6aoric5j78ej7e9imarivcdnmsoriclq6anrgdtrm8pbi0400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i007rdd5n6aoric5j78ej7e9imarivcdnmsoriclq6anrgdtrm8pbi0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '54':
+      Name: '&3&lCemento Cian'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800udlkmspb3e9gmct1qcdsm2rivcdnmsoriclq6anrgdtrm8pbi0400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800udlkmspb3e9gmct1qcdsm2rivcdnmsoriclq6anrgdtrm8pbi0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '55':
+      Name: '&b&lCemento Celeste'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i0093dd5n6aoric5j78ejcd5jmgt2vc9m7apavcdnmsoriclq6anrgdtrm8pbi0400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i0093dd5n6aoric5j78ejcd5jmgt2vc9m7apavcdnmsoriclq6anrgdtrm8pbi0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '56':
+      Name: '&9&lCemento Azul'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800udlkmspb3e9gmct1qc9m7apavcdnmsoriclq6anrgdtrm8pbi0400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800udlkmspb3e9gmct1qc9m7apavcdnmsoriclq6anrgdtrm8pbi0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '57':
+      Name: '&1&lCemento Morado'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg020rb9dpim6sj1cpq3ks3le9o6opavcdnmsoriclq6anrgdtrm8pbi0400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg020rb9dpim6sj1cpq3ks3le9o6opavcdnmsoriclq6anrgdtrm8pbi0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '58':
+      Name: '&5&lCemento Magenta'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400gmqqbeclhn4ob6egt6qob7cln78oavcdnmsoriclq6anrgdtrm8pbi0400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400gmqqbeclhn4ob6egt6qob7cln78oavcdnmsoriclq6anrgdtrm8pbi0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '59':
+      Name: '&d&lCemento Rosado'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800udlkmspb3e9gmct1qe1kmsqqvcdnmsoriclq6anrgdtrm8pbi0400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800udlkmspb3e9gmct1qe1kmsqqvcdnmsoriclq6anrgdtrm8pbi0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '60':
+      Name: '&f&lCemento Blanco'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i007rdd5n6aoric5j78ejnd1kn8pavcdnmsoriclq6anrgdtrm8pbi0400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i007rdd5n6aoric5j78ejnd1kn8pavcdnmsoriclq6anrgdtrm8pbi0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '61':
+      Name: '&7&lCemento Gris Claro'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i0093dd5n6aoric5j78ejcd5jmgt2vctp62uavcdnmsoriclq6anrgdtrm8pbi0400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i0093dd5n6aoric5j78ejcd5jmgt2vctp62uavcdnmsoriclq6anrgdtrm8pbi0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '62':
+      Name: '&8&lCemento Gris'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800udlkmspb3e9gmct1qctp62uavcdnmsoriclq6anrgdtrm8pbi0400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800udlkmspb3e9gmct1qctp62uavcdnmsoriclq6anrgdtrm8pbi0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '63':
+      Name: '&0&lCemento Negro'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i007rdd5n6aoric5j78ej2dhgm6qqvcdnmsoriclq6anrgdtrm8pbi0400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i007rdd5n6aoric5j78ej2dhgm6qqvcdnmsoriclq6anrgdtrm8pbi0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '64':
+      Name: '&4&lCemento Café'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i007rdd5n6aoric5j78ej2e9nnerivcdnmsoriclq6anrgdtrm8pbi0400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i007rdd5n6aoric5j78ej2e9nnerivcdnmsoriclq6anrgdtrm8pbi0400agrfeln78g00
+      Ignored_For_Permissions: []
+Item:
+  Material: CHEST
+  Name: '&4&lC&c&la&6&lj&e&la &a&ld&2&le &3&lC&b&lo&9&ll&1&lo&5&lr&d&le&f&ls'
+  Lore:
+  - '&7Click izquierdo para ver los premios'
+  - '&aClick derecho para abrir!'

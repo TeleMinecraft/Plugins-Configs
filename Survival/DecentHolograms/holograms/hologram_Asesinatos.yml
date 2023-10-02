@@ -1,0 +1,24 @@
+location: world:454.500:80.500:496.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&6&lTop cantidad'
+    height: 0.3
+  - content: '&6&lde Asesinatos'
+    height: 0.3
+  - content: '&6&lI. &e&l%ajlb_lb_statistic_player_kills_1_alltime_name% &6&l%ajlb_lb_statistic_player_kills_1_alltime_value%'
+    height: 0.3
+  - content: '&6&lII. &e&l%ajlb_lb_statistic_player_kills_2_alltime_name% &6&l%ajlb_lb_statistic_player_kills_2_alltime_value%'
+    height: 0.3
+  - content: '&6&lIII. &e&l%ajlb_lb_statistic_player_kills_3_alltime_name% &6&l%ajlb_lb_statistic_player_kills_3_alltime_value%'
+    height: 0.3
+  - content: '&6IV. &e%ajlb_lb_statistic_player_kills_4_alltime_name% &6%ajlb_lb_statistic_player_kills_4_alltime_value%'
+    height: 0.3
+  - content: '&6V. &e%ajlb_lb_statistic_player_kills_5_alltime_name% &6%ajlb_lb_statistic_player_kills_5_alltime_value%'
+    height: 0.3
+  actions: {}

@@ -1,0 +1,3 @@
+2021-02-25 21:47:35.645: (0ms) 100% BLINK > No packet. Last other than KeepAlive: PacketPlayInCustomPayload there is: 3874ms . Ping: 0. Warn: 0. Player version: V1_16. TPS: [20.02010652308364, 20.00715664330684, 20.00408668544794]
+2021-02-25 21:47:48.735: (105ms) 95% INVENTORYMOVE > Detected when Open. Sprint: true, Sneak:false. Player version: V1_16. TPS: [20.015656708246954, 20.006808202503034, 20.004019625324833]
+2021-07-14 19:16:02.011: (0ms) 100% BLINK > No packet. Last other than KeepAlive: PacketPlayInCustomPayload there is: 3650ms . Ping: 0. Warn: 0. Player version: V1_16. TPS: [20.000072120660136, 20.000015200683034, 20.00039581762285]

@@ -1,0 +1,43 @@
+bypassLimit: true
+customItem:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2860
+  type: IRON_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    ItemFlags:
+    - HIDE_ATTRIBUTES
+repeatable: true
+description: §ePica unos cuantos minerales
+timer: 1440
+name: §a§lMinero Humilde §2[Gremio]
+endRewards:
+- id: commandReward
+  commands:
+  - console: false
+    delay: 0
+    label: scoreboard players add {PLAYER} Prestigio 3
+- id: itemReward
+  items:
+  - v: 2860
+    type: DIAMOND_PICKAXE
+id: 3
+manager:
+  branches:
+  - order: 0
+    stages:
+    - stageType: MINE
+      customText: null
+      objects:
+        0:
+          amount: 10
+          object: COAL_ORE
+        1:
+          amount: 5
+          object: IRON_ORE
+        2:
+          amount: 1
+          object: GOLD_ORE
+      order: 0
+    endingStages: []

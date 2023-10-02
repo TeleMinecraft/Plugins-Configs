@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 190.114.41.42
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1690725246419
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1690725356827
+  login: 1690725167175
+money: '55010138.8224999999989756'
+last-account-name: RobertxDess
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 1073.300000011921
+  y: 71.0
+  z: -214.3199507310308
+  yaw: 35.95928955078125
+  pitch: 21.45302391052246
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 1170.044766977835
+  y: 64.0
+  z: -261.5803279060073
+  yaw: -178.1485137939453
+  pitch: 13.85688591003418

@@ -1,0 +1,7 @@
+identifier: 5a261fb5-06ad-3f16-985a-205e22172c19
+quests:
+- stage0datas:
+    amount: 1
+  questID: 2
+  currentStage: 0
+  currentBranch: 0

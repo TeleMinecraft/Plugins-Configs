@@ -1,0 +1,23 @@
+playername: eric
+lang: es_ES
+minerate-full-mined: 61112
+minerate:
+  diamond: 74
+  gold: 131
+  iron: 180
+  coal: 404
+  ancient debris: 0
+better-click: 47
+cheats:
+  timer: 27
+  inventorymove: 1
+  antiknockback: 4
+  autoclick: 5
+  nuker: 5
+  forcefield: 5
+  fastplace: 2
+  blink: 1
+  nofall: 2
+  spider: 1
+  speed: 62
+creation-time: 1618797542486

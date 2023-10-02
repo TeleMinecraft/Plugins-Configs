@@ -1,0 +1,22 @@
+playername: Cebrp
+lang: es_ES
+minerate-full-mined: 23648
+minerate:
+  diamond: 12
+  gold: 7
+  iron: 109
+  coal: 99
+  ancient debris: 0
+better-click: 19
+cheats:
+  timer: 2
+  antiknockback: 2
+  nuker: 3
+  airplace: 2
+  forcefield: 2
+  fastplace: 1
+  noslowdown: 2
+  nofall: 6
+  spider: 1
+  speed: 8
+creation-time: 1614292033877

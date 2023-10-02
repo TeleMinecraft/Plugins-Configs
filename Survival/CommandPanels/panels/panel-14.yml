@@ -1,0 +1,173 @@
+panels:
+  panel-14:
+    perm: default
+    panelType: default
+    rows: 5
+    title: '&e&lTienda de Cajas         &e2/4'
+    command: panel-14
+    item:
+      '0':
+        material: YELLOW_STAINED_GLASS_PANE
+        name: ''
+      '1':
+        material: YELLOW_STAINED_GLASS_PANE
+        name: ''
+      '2':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '3':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '4':
+        material: BLACK_STAINED_GLASS_PANE
+        name: '§7%cp-player-displayname%'
+        enchanted: 'true'
+        lore:
+        - '&7Tienes: &a&o$&a&o%cp-player-balance%'
+      '5':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '6':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '7':
+        material: YELLOW_STAINED_GLASS_PANE
+        name: ''
+      '8':
+        material: YELLOW_STAINED_GLASS_PANE
+        name: ''
+      '9':
+        material: YELLOW_STAINED_GLASS_PANE
+        name: ''
+      '17':
+        material: YELLOW_STAINED_GLASS_PANE
+        name: ''
+      '18':
+        material: BLACK_STAINED_GLASS_PANE
+        name: '&a←'
+        enchanted: 'true'
+        commands:
+        - op= cp panel-13
+      '20':
+        material: CHEST
+        name: §6§lCaja de Comida
+        lore:
+        - '&7Click izquierdo para comprar por &a$&a1500'
+        - '&7Click derecho para comprar por &b7Lvl de XP'
+        commands:
+        - left= paywall= 1500
+        - left= op= crate give %cp-player-name% comida 1
+        - right= xp-paywall= 7
+        - right= op= crate give %cp-player-name% comida 1
+        - op= cp panel-14
+        has0:
+          value0: '%cp-player-name% HASPERM'
+          compare0: essentials.tpa
+          material: CHEST
+          name: §6§lCaja de Comida
+          lore:
+          - '&7Click izquierdo para comprar por &a$&a1200'
+          - '&7Click derecho para comprar por &b6Lvl de XP'
+          - '&d&l20% &b&lde descuento por ser &d&l&oVIP&b&l&o'
+          commands:
+          - left= paywall= 1200
+          - left= op= crate give %cp-player-name% comida 1
+          - right= xp-paywall= 6
+          - right= op= crate give %cp-player-name% comida 1
+          - op= cp panel-14
+      '22':
+        material: ENDER_CHEST
+        name: §b§l§nCaja de pociones
+        lore:
+        - '&7Click izquierdo para comprar por &a$&a10000'
+        - '&7Click derecho para comprar por &b18Lvl de XP'
+        commands:
+        - left= paywall= 10000
+        - left= op= crate give %cp-player-name% pociones 1
+        - right= xp-paywall= 18
+        - right= op= crate give %cp-player-name% pociones 1
+        - op= cp panel-14
+        has0:
+          value0: '%cp-player-name% HASPERM'
+          compare0: essentials.tpa
+          material: ENDER_CHEST
+          name: §b§l§nCaja de pociones
+          lore:
+          - '&7Click izquierdo para comprar por &a$&a8000'
+          - '&7Click derecho para comprar por &b14Lvl de XP'
+          - '&d&l20% &b&lde descuento por ser &d&l&oVIP&b&l&o'
+          commands:
+          - left= paywall= 8000
+          - left= op= crate give %cp-player-name% pociones 1
+          - right= xp-paywall= 14
+          - right= op= crate give %cp-player-name% pociones 1
+          - op= cp panel-14
+      '24':
+        material: CHEST
+        name: §2§lCaja de Flechas
+        lore:
+        - '&7Click izquierdo para comprar por &a$&a7000'
+        - '&7Click derecho para comprar por &b15Lvl de XP'
+        commands:
+        - left= paywall= 7000
+        - left= op= crate give %cp-player-name% flechas 1
+        - right= xp-paywall= 15
+        - right= op= crate give %cp-player-name% flechas 1
+        - op= cp panel-14
+        has0:
+          value0: '%cp-player-name% HASPERM'
+          compare0: essentials.tpa
+          material: CHEST
+          name: §2§lCaja de Flechas
+          lore:
+          - '&7Click izquierdo para comprar por &a$&a5600'
+          - '&7Click derecho para comprar por &b12Lvl de XP'
+          - '&d&l20% &b&lde descuento por ser &d&l&oVIP&b&l&o'
+          commands:
+          - left= paywall= 5600
+          - left= op= crate give %cp-player-name% flechas 1
+          - right= xp-paywall= 12
+          - right= op= crate give %cp-player-name% flechas 1
+          - op= cp panel-14
+      '26':
+        material: BLACK_STAINED_GLASS_PANE
+        name: '&a→'
+        enchanted: 'true'
+        commands:
+        - op= cp panel-15
+      '27':
+        material: YELLOW_STAINED_GLASS_PANE
+        name: ''
+      '35':
+        material: YELLOW_STAINED_GLASS_PANE
+        name: ''
+      '36':
+        material: YELLOW_STAINED_GLASS_PANE
+        name: ''
+      '37':
+        material: YELLOW_STAINED_GLASS_PANE
+        name: ''
+      '38':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '39':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '40':
+        material: BLACK_STAINED_GLASS_PANE
+        name: '§7%cp-player-displayname% &7tienes:'
+        enchanted: 'true'
+        lore:
+        - §b§o%player_level% Niveles de Experiencia
+      '41':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '42':
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+      '43':
+        material: YELLOW_STAINED_GLASS_PANE
+        name: ''
+      '44':
+        material: YELLOW_STAINED_GLASS_PANE
+        name: ''

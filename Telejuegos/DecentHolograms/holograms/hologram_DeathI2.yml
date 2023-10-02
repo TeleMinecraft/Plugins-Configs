@@ -1,0 +1,18 @@
+location: world_death:-2.710:32.500:-52.873
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&ePara triunfar aquí, debes'
+    height: 0.3
+  - content: '&ehacer todo lo posible por &lmorir'
+    height: 0.3
+  - content: '&elánzate de lugares altos, arde en llamas,'
+    height: 0.3
+  - content: '&eun único objetivo, &4&lsacrifícate!'
+    height: 0.3
+  actions: {}

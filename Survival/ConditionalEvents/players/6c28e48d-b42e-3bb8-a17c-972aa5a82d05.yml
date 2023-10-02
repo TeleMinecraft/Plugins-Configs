@@ -1,0 +1,68 @@
+name: Lordpalomauwu
+events:
+  event57:
+    one_time: false
+    cooldown: 1667586238717
+  event90:
+    one_time: false
+    cooldown: 1667347653386
+  event61:
+    one_time: false
+    cooldown: 1666739918643
+  event29:
+    one_time: false
+    cooldown: 1666712333059
+  event30:
+    one_time: false
+    cooldown: 1666712333510
+  event21:
+    one_time: false
+    cooldown: 1666985524768
+  event22:
+    one_time: false
+    cooldown: 1666985526152
+  event23:
+    one_time: false
+    cooldown: 1666985516310
+  event25:
+    one_time: false
+    cooldown: 1666730010920
+  event26:
+    one_time: false
+    cooldown: 1666730014923
+  event27:
+    one_time: false
+    cooldown: 1666730040966
+  event35:
+    one_time: false
+    cooldown: 1666730045571
+  event36:
+    one_time: false
+    cooldown: 1666983516788
+  event62:
+    one_time: false
+    cooldown: 1666982273870
+  event33:
+    one_time: false
+    cooldown: 1666983503349
+  event45:
+    one_time: false
+    cooldown: 1666983495184
+  event34:
+    one_time: false
+    cooldown: 1666983505778
+  event46:
+    one_time: false
+    cooldown: 1666983511684
+  event37:
+    one_time: false
+    cooldown: 1666983523529
+  event40:
+    one_time: false
+    cooldown: 1666983534690
+  event39:
+    one_time: false
+    cooldown: 1666983535341
+  event24:
+    one_time: false
+    cooldown: 1666985514258

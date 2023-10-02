@@ -1,0 +1,168 @@
+Name: '&d&l&nCaja de Minerales+'
+Animation_Config: roulette
+Preview_Config: default
+Permission_Required: false
+Attached_Citizens: ''
+Opening:
+  Cooldown: 1
+  Cost:
+    MONEY: 0.0
+    EXP: 0.0
+Key:
+  Ids: []
+Block:
+  Locations: []
+  Pushback:
+    Enabled: false
+  Hologram:
+    Enabled: false
+    Offset:
+      Y: 1.5
+    Text:
+    - '&c&lMYSTERY CRATE'
+    - '&7Buy a key at &cwww.myserver.com&c'
+  Effect:
+    Model: SIMPLE
+    Particle:
+      Name: FLAME
+      Data: ''
+Rewards:
+  List:
+    '1':
+      Name: '&8&lBloque de Carbón'
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800kdlkmspb3e9gmct1qcdnm2r2vc9m6uorb0400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800kdlkmspb3e9gmct1qcdnm2r2vc9m6uorb0400agrfeln78g00
+      Ignored_For_Permissions: []
+    cobre:
+      Name: '&6&lBloque de Cobre'
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01crb9dpim6sj1cpq3korfe1o6asivc9m6uorb0400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01crb9dpim6sj1cpq3korfe1o6asivc9m6uorb0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '2':
+      Name: '&7&lBloque de Hierro'
+      Chance: 20.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800kdlkmspb3e9gmct1qd5p6urivc9m6uorb0400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800kdlkmspb3e9gmct1qd5p6urivc9m6uorb0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '3':
+      Name: '&e&lBloque de Oro'
+      Chance: 15.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800kdlkmspb3e9gmct1qctnmop2vc9m6uorb0400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800kdlkmspb3e9gmct1qctnmop2vc9m6uorb0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '4':
+      Name: '&c&lBloque de Redstone'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip0031mmirj5cdp62pjk79p6ap3jehnmspavc9m6uorb0400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip0031mmirj5cdp62pjk79p6ap3jehnmspavc9m6uorb0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '5':
+      Name: '&9&lBloque de Lapislazuli'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i005bdd5n6aoric5j78ejcc5o6isqvc9m6uorb0400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i005bdd5n6aoric5j78ejcc5o6isqvc9m6uorb0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '6':
+      Name: '&f&lCuarzo'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01crb9dpim6sj1cpq3ksblc5p78uivc9m6uorb0400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01crb9dpim6sj1cpq3ksblc5p78uivc9m6uorb0400agrfeln78g00
+      Ignored_For_Permissions: []
+    amatista:
+      Name: '&5&lBloque de Amatista'
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip0031mmirj5cdp62pjk79gmqpbkd1sn6t2vc9m6uorb0400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip0031mmirj5cdp62pjk79gmqpbkd1sn6t2vc9m6uorb0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '7':
+      Name: '&a&lBloque de Esmeralda'
+      Chance: 5.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400bmqqbeclhn4ob6egt6arb5e9gmop2vc9m6uorb0400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400bmqqbeclhn4ob6egt6arb5e9gmop2vc9m6uorb0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '8':
+      Name: '&b&lBloque de Diamante'
+      Chance: 3.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400bmqqbeclhn4ob6egt68qb1dlnmsp2vc9m6uorb0400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400bmqqbeclhn4ob6egt68qb1dlnmsp2vc9m6uorb0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '9':
+      Name: '&5&lBloque de Netherite'
+      Chance: 1.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800pdlkmspb3e9gmct1qdpin8q35e9kn8pavc9m6uorb0400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800pdlkmspb3e9gmct1qdpin8q35e9kn8pavc9m6uorb0400agrfeln78g00
+      Ignored_For_Permissions: []
+Item:
+  Material: ENDER_CHEST
+  Name: '&d&l&nCaja de Minerales+'
+  Lore:
+  - '&7Click izquierdo para ver los premios'
+  - '&aClick derecho para abrir!'

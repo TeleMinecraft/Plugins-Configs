@@ -1,0 +1,20 @@
+identifier: acb3b221-041f-3ffd-9b87-c931e6c5b46c
+quests:
+- questID: 7
+  timer: 1629488522745
+  timesFinished: 1
+- stage0datas:
+    remaining:
+      1: 5
+  questID: 10
+  currentStage: 0
+  currentBranch: 0
+- stage0datas:
+    remaining:
+      0: 1
+  questID: 27
+  currentStage: 1
+  currentBranch: 0
+- questID: 13
+  timer: 1626897193277
+  timesFinished: 1

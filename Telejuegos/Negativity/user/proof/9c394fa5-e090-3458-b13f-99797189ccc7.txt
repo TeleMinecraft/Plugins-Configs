@@ -1,0 +1,1 @@
+2021-04-24 04:07:00.358: (180ms) 100% BLINK > PositionLook packet: 59 Position Packet: 27 (=86) Ping: 180 Warn for Timer: 0. Player version: V1_16. TPS: [20.386800998520865, 19.977816535932423, 19.97498720939604]

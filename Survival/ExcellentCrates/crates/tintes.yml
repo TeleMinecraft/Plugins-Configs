@@ -1,0 +1,226 @@
+Name: '&4&lC&c&la&6&lj&e&la &a&ld&2&le &3&lT&b&li&9&ln&1&lt&5&le&d&ls'
+Animation_Config: csgo_auto
+Preview_Config: default
+Permission_Required: false
+Attached_Citizens: ''
+Opening:
+  Cooldown: 1
+  Cost:
+    MONEY: 0.0
+    EXP: 0.0
+Key:
+  Ids: []
+Block:
+  Locations: []
+  Pushback:
+    Enabled: false
+  Hologram:
+    Enabled: false
+    Offset:
+      Y: 1.5
+    Text: []
+  Effect:
+    Model: SIMPLE
+    Particle:
+      Name: FLAME
+      Data: ''
+Rewards:
+  List:
+    '1':
+      Name: '&c&lRojo'
+      Chance: 6.25
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg012rb9dpim6sj1cpq3ksj5chfm8ub50400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg012rb9dpim6sj1cpq3ksj5chfm8ub50400agrfeln78g00
+      Ignored_For_Permissions: []
+    '2':
+      Name: '&6&lNaranjo'
+      Chance: 6.25
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800kdlkmspb3e9gmct1qdtp62rj7clfm8ub50400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800kdlkmspb3e9gmct1qdtp62rj7clfm8ub50400agrfeln78g00
+      Ignored_For_Permissions: []
+    '3':
+      Name: '&e&lAmarillo'
+      Chance: 6.25
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800kdlkmspb3e9gmct1qf5imor3fetfm8ub50400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800kdlkmspb3e9gmct1qf5imor3fetfm8ub50400agrfeln78g00
+      Ignored_For_Permissions: []
+    '4':
+      Name: '&a&lLima'
+      Chance: 6.25
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb40096qqbeclhn4ob6egt6oqbdclfm8ub50400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb40096qqbeclhn4ob6egt6oqbdclfm8ub50400agrfeln78g00
+      Ignored_For_Permissions: []
+    '5':
+      Name: '&2&lVerde'
+      Chance: 6.25
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip002dmmirj5cdp62pjk79jn4pb5dpfm8ub50400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip002dmmirj5cdp62pjk79jn4pb5dpfm8ub50400agrfeln78g00
+      Ignored_For_Permissions: []
+    '6':
+      Name: '&3&lCian'
+      Chance: 6.25
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb40096qqbeclhn4ob6egt66ub1dpfm8ub50400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb40096qqbeclhn4ob6egt66ub1dpfm8ub50400agrfeln78g00
+      Ignored_For_Permissions: []
+    '7':
+      Name: '&b&lCeleste'
+      Chance: 6.25
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip0031mmirj5cdp62pjk79m6ipr8ehfm4r3lclfm8ub50400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip0031mmirj5cdp62pjk79m6ipr8ehfm4r3lclfm8ub50400agrfeln78g00
+      Ignored_For_Permissions: []
+    '8':
+      Name: '&9&lAzul'
+      Chance: 6.25
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb40096qqbeclhn4ob6egt64r3lclfm8ub50400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb40096qqbeclhn4ob6egt64r3lclfm8ub50400agrfeln78g00
+      Ignored_For_Permissions: []
+    '9':
+      Name: '&1&lMorado'
+      Chance: 6.25
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800kdlkmspb3e9gmct1qe1qn4s3cclfm8ub50400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800kdlkmspb3e9gmct1qe1qn4s3cclfm8ub50400agrfeln78g00
+      Ignored_For_Permissions: []
+    '10':
+      Name: '&5&lMagenta'
+      Chance: 6.25
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i005bdd5n6aoric5j78ejdc5jmarjkc5fm8ub50400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i005bdd5n6aoric5j78ejdc5jmarjkc5fm8ub50400agrfeln78g00
+      Ignored_For_Permissions: []
+    '11':
+      Name: '&d&lRosado'
+      Chance: 6.25
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb40096qqbeclhn4ob6egt70qbeddfm8ub50400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb40096qqbeclhn4ob6egt70qbeddfm8ub50400agrfeln78g00
+      Ignored_For_Permissions: []
+    '12':
+      Name: '&f&lBlanco'
+      Chance: 6.25
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip002dmmirj5cdp62pjk79rmgqbkclfm8ub50400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip002dmmirj5cdp62pjk79rmgqbkclfm8ub50400agrfeln78g00
+      Ignored_For_Permissions: []
+    '13':
+      Name: '&7&lGris claro'
+      Chance: 6.25
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip0031mmirj5cdp62pjk79m6ipr8ehfmesj1f5fm8ub50400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip0031mmirj5cdp62pjk79m6ipr8ehfmesj1f5fm8ub50400agrfeln78g00
+      Ignored_For_Permissions: []
+    '14':
+      Name: '&8&lGris'
+      Chance: 6.25
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb40096qqbeclhn4ob6egt6esj1f5fm8ub50400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb40096qqbeclhn4ob6egt6esj1f5fm8ub50400agrfeln78g00
+      Ignored_For_Permissions: []
+    '15':
+      Name: '&0&lNegro'
+      Chance: 6.25
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip002dmmirj5cdp62pjk79h6oob3ddfm8ub50400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip002dmmirj5cdp62pjk79h6oob3ddfm8ub50400agrfeln78g00
+      Ignored_For_Permissions: []
+    '16':
+      Name: '&4&lCafé'
+      Chance: 6.25
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip002dmmirj5cdp62pjk79h74rrndpfm8ub50400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip002dmmirj5cdp62pjk79h74rrndpfm8ub50400agrfeln78g00
+      Ignored_For_Permissions: []
+Item:
+  Material: CHEST
+  Name: '&4&lC&c&la&6&lj&e&la &a&ld&2&le &3&lT&b&li&9&ln&1&lt&5&le&d&ls'
+  Lore:
+  - '&7Click izquierdo para ver los premios'
+  - '&aClick derecho para abrir!'

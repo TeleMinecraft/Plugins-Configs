@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 190.21.96.104
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1683492035199
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1683492075233
+  login: 1683489372331
+money: '1000.0'
+last-account-name: LEJUDIO
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: -1263.7132730683215
+  y: 66.0
+  z: 1496.106861073412
+  yaw: 122.19164276123047
+  pitch: 14.953073501586914
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 414.8790447535867
+  y: 77.0
+  z: -495.6227271194926
+  yaw: -7.5005950927734375
+  pitch: -3.8477163314819336

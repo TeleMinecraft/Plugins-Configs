@@ -1,0 +1,33 @@
+name: "#FF0000&lTNT&4&lRUN"
+discover_title:
+  title: "&5Descubrimiento!"
+  subtitle: "&7TNTRUN: %name%"
+  fade_in: 20
+  stay: 60
+  fade_out: 20
+discover_message:
+- "&7Para ver tu nuevo logro usa &b/codex                          "
+discover_sound:
+  name: ENTITY_PLAYER_LEVELUP
+  volume: 10
+  pitch: 0.1
+discoveries:
+  1:
+    name: "&4A correr!"
+    lore:
+    - "&7Juega &nTNTRUN"
+    #commands:
+    #- "xp give %player% 1"
+    #discovered_on_region: test
+    #discovered_on_mob_kill:
+    #  type: ZOMBIE
+    #  name: "Test"
+  2:
+    name: "&4Corredor/a expert@"
+    lore:
+    - "&7Gana una partida de &nTNTRUN"
+  3:
+    name: "&4Esto &lNO&4 es un logro"
+    lore:
+    - "&7Esto &lNO&7 es una descripción"
+    discovered_on_region: tntcodex2

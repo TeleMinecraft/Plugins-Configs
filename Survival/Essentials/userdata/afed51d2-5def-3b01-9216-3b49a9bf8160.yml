@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 201.241.0.219
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1680919756265
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1680919827762
+  login: 1680919776096
+money: '1000'
+last-account-name: Issa
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 354.7960845175694
+  y: 64.0
+  z: -965.9670851506371
+  yaw: 27.00048828125
+  pitch: 22.95015525817871
+homes:
+  home:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: 374.79660609993266
+    y: 70.0
+    z: -962.9105085121092
+    yaw: 87.75021362304688
+    pitch: 40.5
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 376.12887136497653
+  y: 70.0
+  z: -970.8929308326137
+  yaw: 22.350229263305664
+  pitch: 10.949999809265137

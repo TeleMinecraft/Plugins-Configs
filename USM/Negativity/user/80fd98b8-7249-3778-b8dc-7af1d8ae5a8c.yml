@@ -1,0 +1,27 @@
+playername: D1L4N1X
+lang: es_ES
+minerate-full-mined: 135974
+minerate:
+  diamond: 356
+  gold: 178
+  iron: 1094
+  coal: 1490
+  ancient debris: 0
+better-click: 64
+cheats:
+  forcefield: 1
+  blink: 1
+  speed: 1
+  timer: 8
+  inventorymove: 1
+  antiknockback: 1
+  fly: 37
+  jesus: 1
+  nuker: 1
+  airplace: 2
+  airjump: 1
+  fastplace: 1
+  step: 1
+  nofall: 2
+  faststairs: 1
+creation-time: 1614476601076

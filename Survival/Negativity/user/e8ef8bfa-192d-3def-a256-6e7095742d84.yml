@@ -1,0 +1,13 @@
+playername: zaku
+lang: es_ES
+minerate-full-mined: 400
+minerate:
+  diamond: 0
+  gold: 0
+  iron: 5
+  coal: 55
+  ancient debris: 0
+better-click: 9
+cheats:
+  forcefield: 1
+creation-time: 1677015099213

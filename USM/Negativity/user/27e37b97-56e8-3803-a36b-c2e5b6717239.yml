@@ -1,0 +1,14 @@
+playername: crix
+lang: es_ES
+minerate-full-mined: 256
+minerate:
+  diamond: 0
+  gold: 0
+  iron: 51
+  coal: 63
+  ancient debris: 0
+better-click: 6
+cheats:
+  speed: 19
+  forcefield: 1
+creation-time: 1649980607254

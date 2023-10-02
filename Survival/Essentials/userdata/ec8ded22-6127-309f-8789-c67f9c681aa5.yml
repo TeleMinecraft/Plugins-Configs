@@ -1,0 +1,96 @@
+timestamps:
+  login: 1681262262243
+  logout: 1681263189188
+  lastteleport: 1681235012751
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: 35.58594376581026
+  y: 78.38262221195797
+  z: -2418.6943017503977
+  yaw: -121.9359130859375
+  pitch: 20.25002098083496
+  world-name: world
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: -294.6522250267163
+  y: 109.0
+  z: 3047.971531409918
+  yaw: -168.25146484375
+  pitch: -9.381722450256348
+  world-name: world
+money: '88051391.94999999996062866'
+homes:
+  blazes:
+    world: ddd15208-45ed-42b1-90a4-dbd0adfbea42
+    x: 450.2540856210608
+    y: 81.0
+    z: -79.18607481296084
+    yaw: 68.11465454101562
+    pitch: 9.90005874633789
+    world-name: world_nether
+  heads2_0:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: 3444.699999988079
+    y: 12.0
+    z: 4498.6735914262445
+    yaw: -269.31719970703125
+    pitch: 9.000051498413086
+    world-name: world
+  cds:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: 3459.747499042105
+    y: 21.0
+    z: 4465.880214519834
+    yaw: -316.26568603515625
+    pitch: 15.450127601623535
+    world-name: world
+  a:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: -2794.9682013722445
+    y: 10.0
+    z: -2471.023619391021
+    yaw: -174.4920654296875
+    pitch: 5.0222272872924805
+    world-name: world
+  portal:
+    world: ab11b9bc-66dd-401b-9b82-5d243e23e02c
+    x: 57.5347477596662
+    y: 4.5
+    z: 251.92500001192093
+    yaw: -359.8720703125
+    pitch: 25.848478317260742
+    world-name: world_the_end
+  home:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: -218.15142783972223
+    y: 108.0
+    z: 226.25706979005957
+    yaw: 82.80007934570312
+    pitch: 3.600004196166992
+    world-name: world
+  desierto:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: 2216.5809386621777
+    y: 64.0
+    z: 2953.035896618366
+    yaw: -0.92559814453125
+    pitch: 3.9554858207702637
+    world-name: world
+afk: false
+ip-address: 201.223.218.160
+last-account-name: ThyfTN
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+nickname: Orozc048_

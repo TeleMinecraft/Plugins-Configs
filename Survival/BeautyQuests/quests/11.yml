@@ -1,0 +1,82 @@
+endRewards:
+- id: itemReward
+  items:
+  - v: 3337
+    type: IRON_HOE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Harvest
+        III"}],"text":""}'
+      enchants:
+        DURABILITY: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+  - v: 3337
+    type: HAY_BLOCK
+    amount: 32
+- id: commandReward
+  commands:
+  - console: true
+    label: scoreboard players add {PLAYER} Prestigio 5
+customItem:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: DIAMOND_HOE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    ItemFlags:
+    - HIDE_ATTRIBUTES
+repeatable: true
+bypassLimit: true
+description: §eDemuestra tus habilidades de granjero
+timer: 1440
+name: §b§lGranjero Experimentado §2[Gremio]
+manager:
+  branches:
+    '0':
+      stages:
+        '0':
+          objects:
+            00000000-0000-0000-0000-0000000009ae:
+              amount: 10
+              object: blockdata:minecraft:carrots[age=7]
+            00000000-0000-0001-0000-0000000009ae:
+              amount: 10
+              object: blockdata:minecraft:wheat[age=7]
+            00000000-0000-0002-0000-0000000009ae:
+              amount: 10
+              object: blockdata:minecraft:potatoes[age=7]
+            00000000-0000-0003-0000-0000000009ae:
+              amount: 1
+              object: PUMPKIN
+            00000000-0000-0004-0000-0000000009ae:
+              amount: 1
+              object: MELON
+          stageType: MINE
+        '1':
+          objects:
+            00000000-0000-0000-0000-0000000009ae:
+              amount: 10
+              object: CARROTS
+            00000000-0000-0001-0000-0000000009ae:
+              amount: 10
+              object: WHEAT
+            00000000-0000-0002-0000-0000000009ae:
+              amount: 10
+              object: POTATOES
+          stageType: PLACE_BLOCKS
+        '2':
+          result:
+            v: 3337
+            type: PUMPKIN_PIE
+          stageType: CRAFT
+        '3':
+          result:
+            v: 3337
+            type: MELON
+          stageType: CRAFT
+      endingStages: {}
+id: 11

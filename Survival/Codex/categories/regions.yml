@@ -1,0 +1,76 @@
+name: "&3&lLugares"
+discover_title:
+  title: "&5Descubrimiento!"
+  subtitle: "&3Lugares: %name%"
+  fade_in: 20
+  stay: 60
+  fade_out: 20
+discover_message:
+- "&7Para ver tu nuevo logro usa &b/codex                          "
+discover_sound:
+  name: ENTITY_PLAYER_LEVELUP
+  volume: 10
+  pitch: 0.1
+discoveries:
+  1:
+    name: "&6Ciudad"
+    lore:
+    - "&7El punto inicial del Survival"
+    - "&7donde inician tus aventuras"
+    commands:
+    - "xp give %player% 5l"
+    discovered_on_region: survival
+  2:
+    name: "&9Poblado"
+    lore:
+    - "&7La gran fortaleza con muchas"
+    - "&7tiendas y secretos ocultos"
+    commands:
+    - "eco give %player% 1000"
+    discovered_on_region: survival1
+  3:
+    name: "&aTeleBazar"
+    lore:
+    - "&7Tienda principal del Survival"
+    commands:
+    - "eco give %player% 5000"
+    discovered_on_region: telebazar
+  4:
+    name: "&4Tienda Infernal"
+    lore:
+    - "&7Se dice que aquí Herobrine"
+    - "&7compró el objeto prohibido..."
+    commands:
+    - "xp give %player% 5l"
+    - "scoreboard players set %player% TiendaI 1"
+    discovered_on_region: infernal
+  5:
+    name: "&5Tienda Secreta"
+    lore:
+    - "&7Solo los aventureros más"
+    - "&7audaces han llegado aquí"
+    commands:
+    - "xp give %player% 5l"
+    - "scoreboard players set %player% TiendaO 1"
+    discovered_on_region: tsecreta
+  6:
+    name: "&2Tienda de Protección"
+    lore:
+    - "&7Protege su casa comprando"
+    - "&7materiales en esta Tienda"
+    commands:
+    - "ps give 8 %player% 1"
+    discovered_on_region: protector
+  7:
+    name: "&3Tienda Vikinga"
+    lore:
+    - "&7Descubriste las armas milenarias"
+    commands:
+    - "ie give Hierro+ %player% 3"
+    discovered_on_region: tienda_v
+  8:
+    name: "&6Tienda de Katanas"
+    lore:
+    - "&7La sabiduría oriental se"
+    - "&7posa sobre tus hombros..."
+    discovered_on_region: katanas

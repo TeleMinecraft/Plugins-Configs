@@ -1,0 +1,99 @@
+inventory:
+- ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: SHIELD
+- ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: ENCHANTED_GOLDEN_APPLE
+- ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: POTION
+  meta:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:long_turtle_master
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+armor:
+- null
+- null
+- null
+- null
+requirePermission: true
+icon:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: SHIELD
+lockedIcon:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: BARRIER
+position: 4
+page: 1
+name: '&4&lResistencia'
+enabled: true
+lores:
+  unlocked:
+  - '&aClick para seleccionar'
+  - '&7Escudo x1'
+  - '&7Manzana dorada encantada x1'
+  - '&7Poción del maestro tortuga x1'
+  locked: '&cNo tienes acceso a este kit!'
+  line1: ' '
+  line2: ' '
+  line3: ' '
+  line4: ' '
+  line5: ' '
+  line6: ' '
+  line7: ' '
+  line8: ' '
+  line9: ' '
+  line10: ' '
+  line11: ' '
+  line12: ' '
+  line13: ' '
+  line14: ' '
+  line15: ' '
+  line16: ' '
+gameSettings:
+  noRegen: false
+  noPvp: false
+  soupPvp: false
+  noFallDamage: false
+filename: Resistencia

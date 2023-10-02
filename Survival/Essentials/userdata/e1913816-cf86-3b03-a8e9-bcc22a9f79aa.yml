@@ -1,0 +1,29 @@
+timestamps:
+  login: 1632413075154
+  logout: 1632413425836
+  lastteleport: 1632413286203
+lastlocation:
+  world: world
+  x: 998.5
+  y: 11.0
+  z: -238.5
+  yaw: -332.7329
+  pitch: -89.7
+money: '1070102'
+homes:
+  home:
+    world: world
+    x: 998.0354991709842
+    y: 11.0
+    z: -238.7839314157058
+    yaw: -120.79108
+    pitch: 25.499826
+logoutlocation:
+  world: world
+  x: 998.5
+  y: 11.0
+  z: -238.5
+  yaw: 344.0562
+  pitch: 19.650412
+ip-address: 190.47.61.184
+last-account-name: Ericksen_11

@@ -1,0 +1,19 @@
+playername: Blacktechnologic
+lang: es_ES
+minerate-full-mined: 2529
+minerate:
+  diamond: 0
+  gold: 0
+  iron: 144
+  coal: 139
+  ancient debris: 0
+better-click: 24
+cheats:
+  speed: 5
+  antiknockback: 1
+  timer: 20
+  nuker: 2
+  forcefield: 1
+  blink: 1
+  nofall: 1
+creation-time: 1621059966023

@@ -1,0 +1,11 @@
+Name: §e§lLlave Diaria
+Virtual: true
+Item:
+  Material: IRON_NUGGET
+  Amount: 1
+  Durability: 0
+  Name: '&dLlave Diaria Key'
+  Lore:
+  - '&bUsa esta llave para abrir tu &e&lRecompensa Diaria!'
+  Item_Flags: []
+  Unbreakable: false

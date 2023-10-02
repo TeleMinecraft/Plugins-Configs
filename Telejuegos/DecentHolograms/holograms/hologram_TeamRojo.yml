@@ -1,0 +1,12 @@
+location: world_arrows:41.500:48.500:-39.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&#FF0000&lTeam Rojo'
+    height: 0.3
+  actions: {}

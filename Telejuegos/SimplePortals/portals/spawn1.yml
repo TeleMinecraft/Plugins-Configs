@@ -1,0 +1,12 @@
+last-fill-material: AIR
+point-one: world,-71.0,30.0,71.0,0.0,0.0
+point-two: world,-71.0,30.0,71.0,0.0,0.0
+teleport-location: world,-3.5,31.5,4.5,45.0,0.0
+commands-only: false
+commands: []
+disabled: false
+message: ''
+title: '&a'
+sub-title: '&dWoosh!'
+bar-message: ''
+cooldown: 0

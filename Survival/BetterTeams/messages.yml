@@ -1,0 +1,488 @@
+# Any placeholders from placeholder API will work in this file
+invalidArg: '&cArgumento inválido'
+inTeam: '&cNecesitas estar en un equipo para usar este comando'
+notInTeam: '&cDebes salir de tu equipo antes de usar este comando'
+needOwner: '&cSolo el creador del equipo puede usar este comando'
+needAdmin: '&cSolo jugadores con el rango admin dentro del equipo puedes usar este
+  comando'
+needPlayer: '&4You must be a player to do that'
+noPlayer: '&cEse/a jugador/a no existe o no se encuentra conectad@'
+notTeam: '&cEse equipo no existe'
+needSameTeam: '&cNo estás en el mismo equipo que ese/a jugador/a'
+noPerm: '&cNo tienes permiso para eso'
+prefixSyntax: '&7[%s&7]&r%s'
+bannedChar: '&4A character you tried to use is banned'
+noTeam: '&cEse equipo no existe'
+loading: '&eCargando...'
+cooldown:
+  wait: '&cDebes esperar %s s antes de utilizar ese comando nuevamente'
+cost:
+  tooPoor: '&cNo tienes fondos suficientes'
+  run: '&4&l-%s'
+placeholder:
+  noTeam: ''
+  noDescription: ''
+  money: '%s '
+  owner: Líder
+  admin: Colider
+  default: Default
+  name: '%s'
+  tag: '%s'
+  displayname: '%s'
+  inteam: 'true'
+  notinteam: 'false'
+  noTitle: ''
+prefix:
+  owner: ' &6✪'
+  admin: ' &9✦'
+  default: ' &a'
+create:
+  exists: '&6Ese equipo ya existe'
+  success: '&aTu equipo ha sido creado'
+  banned: '&4Ese nombre ha sido baneado'
+  maxLength: '&4El nombre es muy largo'
+leave:
+  success: '&6Has dejado a tu equipo'
+  lastOwner: '&6Eres el único rango de propietario dentro del equipo. Promociona a
+    alguien o usa &b/team disband &6para disolver el equipo'
+rank:
+  noTeam: '&4Equipo no encontrado'
+  info: '&6Nivel de tu equipo:'
+  infos: '&6Nivel: &b%s &7(necesitas %s para subir de nivel a tu equipo)'
+  infom: '&6Nivel: &b%s &7(necesitas $%s para subir de nivel a tu equipo)'
+  infomm: '&6Nivel: &b%s &7(Nivel máximo)'
+  syntax: '&b%s: &6%s &7(%s)'
+delhome:
+  success: '&6El home de tu equipo ha sido eliminado'
+  noHome: '&cTu equipo no ha establecido un home'
+disband:
+  success: '&6Has disuelto el equipo...'
+  confirm: '&6Escribe &b/team disband &6denuevo para confirmar'
+description:
+  success: '&aHas cambiado la descripción del equipo'
+  view: '&6Descripción del equipo: %s'
+  noDesc: '&cNo se ha establecido una descripción del equipo'
+  noPerm: '&cNo tienes permisos para editar la descripción'
+name:
+  success: '&6Has cambiado el nombre del equipo'
+  view: '&6Nombre del equipo: %s'
+  exists: '&4Ese equipo ya existe'
+  noPerm: '&4No tienes permisos para cambiar el nombre del equipo'
+invite:
+  success: '&6El jugador ha sido invitado'
+  invite: '&6Has sido invitado para unirte al equipo %s. Usa &b/team join <team> &6
+    para unirte'
+  inTeam: '&6Ese jugador ya esta en tu equipo'
+  banned: '&6Ese jugador ha sido baneado de tu equipo'
+  full: '&6Tu equipo esta lleno. Expulsa a alguien antes de agregar a otro jugador'
+  expired: '&4La invitación al equipo &b%s ha caducado'
+join:
+  success: '&7Te has unido al equipo'
+  notify: '&7¡Bienvenido &b%s &6al equipo!'
+  notInvited: '&c4No has sido invitado al equipo'
+  banned: '&cEstas baneado de ese equipo'
+  full: '&cEse equipo esta lleno'
+open:
+  successopen: '&6Tu equipo ahora esta abierto para todos'
+  successclose: '&6Ahora se nesesita de una invitación para entrar a tu equipo'
+title:
+  change: '&6Tu apodo fue cambiado a &b%s'
+  remove: '&6Apodo eliminado'
+  success: '&6Apodo cambiado'
+  tooLong: '&cEse apodo demasiado largo'
+  noFormat: '&cNo tienes permisos para eso'
+  noColor: '&cNo tienes permisos para eso'
+  reset: '&6Apodo reseteado'
+  noPerm: '&cNo tienes permisos para eso'
+info:
+  needTeam: '&cNingún equipo o jugador encontrado bajo ese nombre'
+  name: '&7Nombre: &b%s'
+  description: '&7Descripción: &b%s'
+  open: '&7Abierto: &b%s'
+  level: '&7Nivel: &b%s'
+  owner: '&7Líder: &6%s'
+  admin: '&7Admins: &9%s'
+  default: '&7Miembros: &f%s'
+  tag: '&7Tag: &b%s'
+  fail: '&6Ningún equipo o jugador encontrado bajo ese nombre'
+  score: '&7Puntuación: &b%s'
+  money: '&7Balance: &a$%s'
+  ally: '&7Aliados: &2%s'
+kick:
+  success: '&6El jugador ha sido kickeado'
+  notify: '&6Has sido kickeado del equipo %s'
+  noPerm: '&6No tienes permiso para kickear a ese jugador.'
+  title: '&4You have been kicked from your team'
+ban:
+  success: '&6El jugador ha sido baneado'
+  notify: '&6Has sido baneado del equipo %s'
+  noPerm: '&6No tienes permisos para banear a ese jugador'
+  already: '&6Ese jugador ya ha sido baneado'
+  title: '&4You have been banned from your team'
+unban:
+  success: '&6El jugador ha sido desbaneado'
+  notify: '&6Has sido baneado del equipo %s'
+  noPerm: '&6No tienes permisos para desbanear a ese jugador'
+  not: '&6Ese jugador no esta baneado'
+promote:
+  success: '&6El jugador ha sido promocionado'
+  noPerm: '&6No tienes permisos para promocionar a ese jugador'
+  max: '&6¡El jugador ya esta promocionado al maximo!'
+  notify: '&7¡Has sido promocionado!'
+  maxAdmins: '&4Your team already has the maximum number of admins, demote someone
+    or level your team up'
+  maxOwners: '&4Your team already has the maximum number of owners, demote someone
+    or level your team up'
+demote:
+  success: '&6El jugador ha sido delegado'
+  noPerm: '&6No tienes permisos para delegar a ese jugador'
+  min: '&6El jugador tiene actualmente el rango mas bajo'
+  notify: '&7Has sido delegado...'
+  lastOwner: '&6No puedes delegar al ultimo Lider. Promociona a alguien más'
+  maxAdmins: '&4Your team already has the maximum number of admins, remove and admin
+    or level your team up'
+home:
+  success: '&aHas sido teletransportado'
+  noHome: '&cTu equipo no tiene un home establecido'
+  world: '&cNo se ha podido localizar el home del equipo'
+sethome:
+  success: '&aEl home del equipo ha sido establecido'
+  noPerm: '&cNo tienes el rango para establecer un home'
+chat:
+  enabled: '&6Tus mensajes ahora solo son visibles por tu equipo'
+  disabled: '&6Tus mensajes ahora son visibles por cualquiera'
+  syntax: '&7[&6Team&7]&f%s&f: %s'
+color:
+  success: '&aEl color de tu equipo ha sido cambiado'
+  fail: '&cEse color no está disponible o no existe'
+  banned: '&cSolo puedes utilizar colores, no formatos'
+deposit:
+  tooLittle: '&cNo puedes depositar montos negativos'
+  fail: '&cDepósito denegado'
+  success: '&aDepósito exitoso'
+  max: '&cEse monto excede el máximo de la tesorería de tu equipo'
+withdraw:
+  tooLittle: '&cNo puedes retirar montos negativos'
+  fail: '&cRetiro denegado'
+  success: '&aRetiro exitoso'
+  notEnough: '&cTu tesorería no tiene suficiente dinero'
+ally:
+  already: '&cEstos equipos ya son aliados'
+  success: '&aSus equipos ahora son aliados'
+  ally: '&aTu equipo ahora es aliado con &b%s'
+  requested: '&6Has enviado una petición de alianza'
+  request: '&b%s &6te han enviado una petición de alianza, usa &b/team ally <team>
+    &6para aceptar'
+  self: '&cQuieres tener una alianza contigo mismo? Te sientes bien?'
+  from: '&6Tienes una petición de alianza de: %s'
+  noRequests: '&cNo tienes peticiones de alianza'
+  onJoin: '&6Tienes solicitudes de alianza pendientes, usa &b/team ally &6para verlas'
+  limit: '&cHas alcanzado el límite de equipos aliados'
+  alreadyrequest: '&cYa le has enviado una petición a ese equipo'
+allychat:
+  disabled: '&6Tus mensajes ahora son visibles por todos'
+  enabled: '&6Tus mensajes ahora solo son visibles por tu equipo y aliados'
+  syntax: '&d[%s]&f%s: %s'
+neutral:
+  self: '&cEse es tu propio equipo'
+  requestremove: '&6Esa petición de alianza ha sido eliminada'
+  reject: '&6Tu petición de alianza con &b%s &6ha sido rechazada'
+  notAlly: '&cNo son aliados de ese equipo'
+  success: '&6Ya no son aliados'
+  remove: '&6Ya no tienes una alianza con el equipo &b%s'
+list:
+  noPage: '&cEsa página no se encuentra'
+  header: '&7--- &bLista de equipos [%s] &7---'
+  body: '&6%s: &b%s'
+  footer: ''
+setowner:
+  use: '&6You cannot promote that player, use &b/team setowner <player> &6to promote
+    that player to owner'
+  success: '&6That player is now owner'
+  notify: '&6You are now owner of your team'
+  max: '&4That player is already owner'
+setwarp:
+  exist: '&cEse warp ya existe'
+  max: '&cTu equipo alcanzó el máximo de warps disponibles'
+  success: '&aEl warp ha sido creado'
+  char: '&cHas usado un caracter inválido'
+warp:
+  nowarp: '&cEse warp no existe'
+  invalidPassword: '&cContraseña incorrecta'
+  success: '&aHas sido teletransportad@'
+  world: '&cLa ubicación de ese warp no está disponible'
+warps:
+  syntax: '&6Warps: &b%s'
+  none: '&cTu equipo no ha asignado warps'
+delwarp:
+  success: '&6Warp eliminado'
+teleport:
+  fail: '&cLa teletransportación ha fallado'
+  wait: '&6Espera &b%s &6seg'
+chest:
+  claim:
+    noChest: '&cDebes mirar a un cofre para ejecutar este comando'
+    limit: '&cTu equipo alcanzó la máxima cantidad de cofres reclamados'
+    claimed: '&cEse cofre ya fue reclamado'
+    success: '&aAhora este cofre pertenece a tu equipo'
+  remove:
+    noChest: '&cDebes mirar a un cofre para ejecutar este comando'
+    notClaimed: '&cEste cofre no es de tu equipo'
+    success: '&6Ahora este cofre es público'
+  all:
+    success: '&6Ahora todos los cofres de tu equipo son públicos'
+  claimed: '&cEse cofre pertenece a &a%s'
+echest:
+  echest: Enderchest
+pvp:
+  enabled: '&6Pvp activado entre miembros de tu equipo'
+  disabled: '&6Pvp desactivado entre miembros de tu equipo'
+rankup:
+  max: '&cTu equipo ya alcanzó el nivel máximo'
+  score: '&4You need %s score to rankup'
+  money: '&cNecesitas $%s en la tesorería del equipo para subir de nivel'
+  success: '&b&lTu equipo subió de nivel!'
+tag:
+  banned: '&cEsa tag no está permitida'
+  success: '&aTag modificada'
+  maxLength: '&cEsa tag es demasiado larga'
+  noPerm: '&cNo tienes permisos para modificar la tag'
+admin:
+  cancel: '&4The command was cancelled by another plugin'
+  tag:
+    success: '&6That teams tag successfully changed'
+  setrank:
+    success: '&6That teams rank has been set'
+    'no': '&4That rank either does not exist or is not setup correctly'
+  config:
+    reload: '&6BetterTeams has been reloaded (If you are having problems when using
+      this command, restart the server)'
+  holo:
+    create:
+      success: '&6Hologram created'
+    remove:
+      noHolo: '&4No holograms found'
+      success: '&6Hologram deleted'
+  title:
+    success: '&6That players title has been changed'
+    reset: '&6Your title has been removed'
+  version: '&6Current plugin version: %s'
+  noTeam: '&4That is not a team'
+  home:
+    success: '&6You have been teleported to that teams home'
+    noHome: '&4That team does not have a home'
+  name:
+    success: '&6The team name has been changed'
+  description:
+    success: '&6That teams name has been changed'
+  open:
+    successopen: '&6That team is now open for everyone'
+    successclose: '&6That team is now invite only'
+  invite:
+    success: '&6That player has been invited to that team'
+  create:
+    success: '&6That team has been created'
+  join:
+    banned: '&4That player is banned from that team'
+    success: '&6that player has joined the team'
+    notify: '&6You have joined the team &b%s'
+    full: '&4That team is full'
+  notInTeam: '&6That player cannot be in a team before doing that'
+  inTeam: '&4That player is not in a team'
+  leave:
+    success: '&6That player has left that team'
+    notify: '&6You have left that team'
+  demote:
+    notify: '&6You have been demoted'
+    success: '&6That player has been demoted'
+    min: '&4That player cannot be demoted any more'
+    maxAdmins: '&4That team already has the max number of admins, remove one before
+      demoting this player'
+  promote:
+    max: '&6That player is already the maximum rank'
+    notify: '&6You have been promoted'
+    success: '&6That player has been promoted'
+    owner: '&6It is configured that teams can only have a single owner, do &b/teama
+      setowner <player> &6to set the player as the owner'
+    maxAdmins: '&4That team already has the max number of admins, remove one before
+      promoting that player'
+    maxOwners: '&4That team already has the max number of owners, remove one before
+      promoting that player'
+  setowner:
+    already: '&4That player is already an owner'
+    nonotify: '&6You are no longer owner of the team'
+    success: '&6That player is the new team owner'
+    notify: '&6You are now the owner of your team'
+  warps:
+    none: '&4That team has not set any warps'
+  setwarp:
+    success: '&6That warp has been set '
+    max: '&6That team has already set the maximum number of warps'
+  purge:
+    confirm: '&6Run that command in the next 10 seconds to confirm, &4THIS CANNOT
+      BE UNDONE AND WILL RESET SCORES FOR ALL TEAMS'
+    success: '&6The teams have been purged'
+  score:
+    tooSmall: '&4The score must be greater than 0'
+    success: '&6That teams score has been changed'
+  update: '&4There is a new version of better teams released update here: (https://www.spigotmc.org/resources/better-teams.17129/)'
+  disband:
+    success: '&6That team has been disbanded successfully'
+  color:
+    success: '&6That teams color has been changed'
+  chest:
+    claim:
+      success: '&6You have claimed that chest on behalf of the team'
+    remove:
+      success: '&6You have successfully removed the claim from that chest'
+      notClaimed: '&4No team has claimed that chest'
+    all:
+      success: '&6All claims removed from that team'
+    disable:
+      already: '&4Chest claims are already disabled'
+      success: '&6Chest claiming has been disabled'
+    disabled:
+      bc: '&6&lAll claimed chests are able to be opened'
+    enable:
+      already: '&4Chest claims are already enabled'
+      success: '&6Chest claiming has been enabled'
+    enabled:
+      bc: '&6&lAll claimed chests are locked'
+  teleport:
+    success: '&6All online members of that team were teleported'
+  versionstorage: '&6Storage Method: &b%s'
+  versionversion: '&6Minecraft Version: &b%s'
+  versionlanguage: '&6Language Selected: &b%s'
+  bal:
+    toSmall: '&4The balance must be greater than 0'
+    success: '&6That teams balance has been changed'
+nametag:
+  syntax: '&6&l%s&r '
+holo:
+  leaderboard: '&6Leaderboard'
+  syntax: '&6%s: &b%s'
+  msyntax: '&6%s: &b$%s'
+top:
+  leaderboard: '&6&lTOP'
+  syntax: '&b%s: &6%s &7(%s)'
+  divide: '&f...'
+  sytax: '&b%s: &6%s &7(%s)'
+baltop:
+  leaderboard: '&6&lTOP'
+  syntax: '&b%s: &6%s &7(%s)'
+  divide: '&f...'
+spy:
+  stop: '&6You are no longer spying on team messages'
+  start: '&6You are now spying on team messages'
+  team: '&b[%s]&f%s&f: %s'
+  ally: '&d[%s]&f%s&f: %s'
+uclaim:
+  team: '&4You must be in a team to create a claim'
+  member: '&4You cannot leave your teams claim'
+  kick: '&4You cannot kick members of your own team from your claim'
+  ban: '&4You cannot ban members of your own team from your claim'
+  dissolve: '&4Your team has been disbanded so your claim has been dissolved'
+help:
+  description: Ver o cambiar la descripción de tu equipo
+  ban: Banea a un jugador de tu equipo
+  home: Teletransportarte al home de tu equipo
+  help: Ver esta sección de ayuda
+  promote: Sube de rango a un jugador de tu equipo
+  demote: Baja de rango a un jugador de tu equipo
+  unban: Desbanea a un jugador
+  kick: Expulsa a un jugador de tu equipo
+  leave: Abandona tu equipo voluntariamente
+  chat: Activa/Desactiva el chat privado de tu equipo
+  name: Ver o cambiar el nombre de tu equipo
+  sethome: Establece el home de tu equipo
+  create: Crea un equipo
+  invite: Invita al jugador especificado a tu equipo
+  disband: Disuelve tu equipo
+  open: Cambia tu clan a abierto/privado
+  info: Ver información sobre el jugador o equipo especificado
+  color: Cambia el color de tu equipo
+  deposit: Deposita dinero a la tesorería de tu equipo
+  bal: Ver el dinero que dispone la tesorería de tu equipo
+  withdraw: Retira dinero de la tesorería de tu equipo
+  title: Cambia tu apodo dentro del chat del clan
+  top: Ver el top de equipos
+  rank: Ver el nivel de un equipo
+  join: Ingresa al equipo especificado
+  delhome: Borra el home de tu equipo
+  ally: Manda una solicitud de alianza a otro equipo
+  neutral: Elimina aliados y rechaza solicitudes de alianza
+  allychat: Activa/Desactiva el chat privado con los equipos aliados
+  echest: Acceder al Enderchest de tu equipo
+  setwarp: Establece un warp para tu equipo
+  warps: Ver una lista de los warps de tu equipo
+  rankup: Sube de nivel a tu equipo
+  tag: Establecer la tag de tu equipo
+  delwarp: Elimina un warp de equipo
+  chest: ''
+  pvp: Activa/Desactiva el pvp entre miembros de tu equipo
+  baltop: Ver un top de equipos más millonarios
+  list: Ver una lista de todos los equipos del servidor
+  warp: Teletransportarte a un warp fijado por tu equipo
+  setowner: Set the teams new owner
+  removeall: Remove all claimed chests (useful if you lose track of a chest)
+  claim: Claim the chest you are standing on
+  remove: Removes your teams claim from the chest you are standing on
+command:
+  create: create
+  leave: leave
+  disband: disband
+  description: description
+  invite: invite
+  join: join
+  name: name
+  open: open
+  info: info
+  kick: kick
+  promote: promote
+  demote: demote
+  home: home
+  sethome: sethome
+  ban: ban
+  unban: unban
+  chat: chat
+  color: color
+  title: title
+  top: top
+  baltop: baltop
+  rank: rank
+  delhome: delhome
+  ally: ally
+  neutral: neutral
+  allychat: allychat
+  list: list
+  warp: warp
+  setwarp: setwarp
+  delwarp: delwarp
+  warps: warps
+  echest: echest
+  rankup: rankup
+  tag: tag
+  pvp: pvp
+  claim: claim
+  remove: remove
+  removeall: removeall
+  chest: chest
+  reload: reload
+  chatspy: chatspy
+  version: version
+  purge: purge
+  setrank: setrank
+  add: add
+  set: set
+  score: score
+  enableclaims: enableclaims
+  disableclaims: disableclaims
+  holo: holo
+  deposit: deposit
+  bal: bal
+  withdraw: withdraw
+  setowner: setowner
+  teleport: teleport
+version: 22
+internalError: '&4Something went wrong while executing that command, please report
+  it to your server owners'

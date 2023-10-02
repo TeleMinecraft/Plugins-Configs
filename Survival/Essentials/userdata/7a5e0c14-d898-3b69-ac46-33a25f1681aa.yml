@@ -1,0 +1,28 @@
+timestamps:
+  login: 1625379527224
+  logout: 1625379938850
+lastlocation:
+  world: world
+  x: 415.58634376613696
+  y: 64.0
+  z: -514.2977530767774
+  yaw: 2.2499084
+  pitch: 0.44995978
+money: '1002000.0'
+logoutlocation:
+  world: world
+  x: 1211.345728109985
+  y: 64.0
+  z: -698.0195161236458
+  yaw: -167.56572
+  pitch: 5.400039
+homes:
+  home:
+    world: world
+    x: 1207.6498600878167
+    y: 92.0
+    z: -676.6483793486743
+    yaw: -55.2
+    pitch: 41.999992
+ip-address: 45.167.25.170
+last-account-name: Jeremy1196

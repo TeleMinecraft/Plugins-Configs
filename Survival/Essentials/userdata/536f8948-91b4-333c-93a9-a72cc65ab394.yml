@@ -1,0 +1,40 @@
+timestamps:
+  login: 1653250682422
+  logout: 1653250973405
+  lastteleport: 1644084535379
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+lastlocation:
+  world: world
+  x: 1279.7923637629224
+  y: 24.0
+  z: 1243.1848194935524
+  yaw: -13.716599464416504
+  pitch: 40.65000915527344
+  world-name: ''
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: 477.4952023020596
+  y: 86.0
+  z: -393.1131744679482
+  yaw: -174.15150451660156
+  pitch: 30.749906539916992
+  world-name: world
+money: '2917951.0200000000001'
+afk: false
+ip-address: 190.46.218.97
+last-account-name: Tomas2220
+lastAccountName: Tomas2220
+ipAddress: 190.161.84.32
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false

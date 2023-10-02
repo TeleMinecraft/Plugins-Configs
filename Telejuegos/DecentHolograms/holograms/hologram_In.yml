@@ -1,0 +1,26 @@
+location: world_skywars:24.006:34.700:-22.015
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&l&eSkyWars: Instrucciones.'
+    height: 0.3
+  - content: ¡Para ganar, debes ser
+    height: 0.3
+  - content: el &lúltimo &rjugador en pie!
+    height: 0.3
+  - content: '&l&cDerriba &ra tus adversarios,'
+    height: 0.3
+  - content: consigue &arecursos&r en tu isla
+    height: 0.3
+  - content: y lucha por los &a&lmejores
+    height: 0.3
+  - content: en la isla central!
+    height: 0.3
+  - content: '#ICON: iron_sword'
+    height: 0.6
+  actions: {}

@@ -1,0 +1,25 @@
+playername: Ichi6o05
+lang: es_ES
+minerate-full-mined: 66723
+minerate:
+  diamond: 122
+  gold: 188
+  iron: 411
+  coal: 959
+  ancient debris: 0
+better-click: 21
+cheats:
+  forcefield: 10
+  blink: 1
+  speed: 1
+  timer: 15
+  antiknockback: 1
+  inventorymove: 2
+  fly: 44
+  nuker: 2
+  airplace: 12
+  airjump: 1
+  fastplace: 1
+  step: 43
+  nofall: 1
+creation-time: 1615991826266

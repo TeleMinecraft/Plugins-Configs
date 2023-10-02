@@ -1,0 +1,189 @@
+taunts:
+  none:
+    name: '&eSin burlas'
+    icon: BARRIER
+    level: 0
+    cost: 0
+    addGlow: false
+    lore:
+    - ''
+    message: ''
+    useCustomSound: true
+    volume: 10
+    pitch: 1
+    particleSpeed: 0.5
+    particleDensity: 30
+    position: 0
+    page: 1
+  izi:
+    name: '&a&lGG izi'
+    icon: SLIME_BALL
+    level: 0
+    cost: 0
+    addGlow: false
+    lore:
+    - '§7Gratis!'
+    message: '&a&lGG izi'
+    sound: ENTITY_SLIME_JUMP
+    useCustomSound: false
+    volume: 10
+    pitch: 1
+    particleSpeed: 0
+    particleDensity: 8
+    particles:
+    - VILLAGER_HAPPY
+    position: 2
+    page: 1
+  desinstalen:
+    name: '&c&lDesinstalen porfa'
+    icon: TNT
+    level: 7
+    cost: 35
+    addGlow: false
+    lore:
+    - '§7Desbloqueado'
+    message: '&c&lDesinstalen porfa'
+    sound: ENTITY_ENDER_DRAGON_GROWL
+    useCustomSound: false
+    volume: 10
+    pitch: 1
+    particleSpeed: 0
+    particleDensity: 8
+    particles:
+    - EXPLOSION_NORMAL
+    position: 13
+    page: 1
+  facilito:
+    name: '&e&lFACILITO'
+    icon: CAKE
+    level: 1
+    cost: 10
+    addGlow: false
+    lore:
+    - '§7Desbloqueado'
+    message: '&e&lFACILITO'
+    sound: ENTITY_GHAST_AMBIENT
+    useCustomSound: false
+    volume: 10
+    pitch: 1
+    particleSpeed: 0
+    particleDensity: 8
+    particles:
+    - CRIT
+    position: 4
+    page: 1
+  hace:
+    name: '&d&lSe te hace?'
+    icon: CHICKEN
+    level: 3
+    cost: 15
+    addGlow: false
+    lore:
+    - '§7Desbloqueado'
+    message: '&d&lSe te hace'
+    sound: ENTITY_CHICKEN_HURT
+    useCustomSound: false
+    volume: 10
+    pitch: 1
+    particleSpeed: 0
+    particleDensity: 8
+    particles:
+    - VILLAGER_ANGRY
+    position: 6
+    page: 1
+  pete:
+    name: '&6&lA casa pete'
+    icon: POTATO
+    level: 10
+    cost: 100
+    addGlow: false
+    lore:
+    - '§7Desbloqueado'
+    message: '&6&lA casa pete'
+    sound: ENTITY_FIREWORK_ROCKET_LAUNCH
+    useCustomSound: false
+    volume: 10
+    pitch: 1
+    particleSpeed: 0
+    particleDensity: 8
+    particles:
+    - FLAME
+    position: 17
+    page: 1
+  bots:
+    name: '&9&lFacilitos los bots'
+    icon: ARMOR_STAND
+    level: 5
+    cost: 15
+    addGlow: false
+    lore:
+    - '§7Desbloqueado'
+    message: '&9&lFacilitos los bots'
+    sound: ENTITY_PIG_HURT
+    useCustomSound: false
+    volume: 10
+    pitch: 1
+    particleSpeed: 0
+    particleDensity: 8
+    particles:
+    - SMOKE_NORMAL
+    position: 8
+    page: 1
+  teclado:
+    name: '&b&lA qué hora conectan el teclado?'
+    icon: RED_MUSHROOM
+    level: 5
+    cost: 20
+    addGlow: false
+    lore:
+    - '§7Desbloqueado'
+    message: '&b&lA qué hora conectan el teclado?'
+    sound: ENTITY_COW_HURT
+    useCustomSound: false
+    volume: 10
+    pitch: 1
+    particleSpeed: 0
+    particleDensity: 8
+    particles:
+    - HEART
+    position: 9
+    page: 1
+  lobby:
+    name: '&4&lPal lobby'
+    icon: DIAMOND_SWORD
+    level: 10
+    cost: 50
+    addGlow: false
+    lore:
+    - '§7Desbloqueado'
+    message: '&4&lPal lobby'
+    sound: ENTITY_WITHER_SPAWN
+    useCustomSound: false
+    volume: 10
+    pitch: 1
+    particleSpeed: 0
+    particleDensity: 8
+    particles:
+    - CRIT_MAGIC
+    position: 15
+    page: 1
+  manos:
+    name: '&5&lDevuelve el juego y cómprate manos'
+    icon: EMERALD
+    level: 7
+    cost: 20
+    addGlow: false
+    lore:
+    - '§7Desbloqueado'
+    message: '&5&lDevuelve el juego y cómprate manos'
+    sound: ENTITY_PLAYER_LEVELUP
+    useCustomSound: false
+    volume: 10
+    pitch: 1
+    particleSpeed: 0
+    particleDensity: 8
+    particles:
+    - SNEEZE
+    position: 11
+    page: 1
+menuSize: 45

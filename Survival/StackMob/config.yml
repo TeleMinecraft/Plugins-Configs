@@ -1,0 +1,226 @@
+# StackMob 5.8.6 Configuration file - by antiPerson and contributors.
+# If the comments have been removed, you can find a version with comments at https://github.com/Nathat23/StackMob-5/tree/master/src/main/resources
+#
+# Most options can be customised for specific entity types, for details about this, see the end of this file.
+# Asterisk meaning:
+# (*) This option cannot be overridden in the 'custom' section at the end of this file.
+# (**) The following option requires the use of Paper (https://papermc.io) because the API needed is not in Spigot.
+# (***) You can use group names for entities. These are: HOSTILE, ANIMALS, WATER, RAIDER, BOSS
+# Spigot JavaDoc Reference:
+# (1) https://hub.spigotmc.org/javadocs/spigot/org/bukkit/event/entity/EntityDamageEvent.DamageCause.html
+# (2) https://hub.spigotmc.org/javadocs/spigot/org/bukkit/event/entity/CreatureSpawnEvent.SpawnReason.html
+# (3) https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+# (4) https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+
+# StackMob 5.7.3 Configuration file - by antiPerson and contributors.
+# If the comments have been removed, you can find a version with comments at https://github.com/Nathat23/StackMob-5/tree/master/src/main/resources
+stack:
+  max-size: 30
+  interval: 100
+  merge-range:
+  - 10
+  - 10
+  - 10
+  threshold:
+    enabled: true
+    amount: 5
+  check-location:
+    enabled: true
+    distance: 1.0
+  on-spawn: false
+  # Only stack when two stacks can directly see each other
+  line-of-sight: true
+  # What should be done if a nametagged entity is removed when stacking?
+  # DROP - drop a nametag
+  # JOIN - make it so that the value of the nametag is added to the remaining entity
+  #        NOTE: this will only work if display-name.mode is NEARBY amd display-name.nearby.use-armorstand is enabled!
+  # IGNORE - do nothing
+  # Also see events.nametag where you can define what happens when stacks are nametagged
+  nametag-mode: JOIN
+worlds-blacklist:
+- world_nether
+- world_the_end
+worlds-blacklist-invert: false
+types-blacklist:
+- PIG
+- COW
+- SHEEP
+- CHICKEN
+types-blacklist-invert: true
+reason-blacklist:
+- SHOULDER_ENTITY
+reason-blacklist-invert: false
+display-name:
+  format: '&7%type% &d(%size%)'
+  visibility: ALWAYS
+  nearby:
+    range:
+    - 12
+    - 6
+    - 12
+    interval: 20
+    ray-trace: true
+    # Use an armor stand (using packets) to display the tag, rather than renaming the entity.
+    # This allows the entity to be renamed using name tags
+    armorstand:
+      enabled: true
+      # Whether the armor stand should be spawned at a fixed offset from the head location.
+      # This is useful when other plugins use packets for entity name tags. If the value is 0.0 then this is disabled.
+      offset: 0.0
+  threshold: 1
+traits:
+  sheep-color: true
+  sheep-sheared: true
+  slime-size: true
+  horse-color: true
+  llama-color: true
+  parrot-variant: true
+  drowned-hand-item: true
+  age: true
+  breed-mode: true
+  love-mode: true
+  cat-type: true
+  mooshroom-variant: true
+  fox-type: true
+  bee-nectar: true
+  bee-stung: true
+  zoglin-baby: true
+  piglin-baby: true
+  leashed: true
+  villager-profession: true
+  potion-effect: true
+  has-egg: true
+  allay-owner: true
+  frog-variant: true
+disable-targeting:
+  enabled: false
+  type-blacklist: []
+  type-blacklist-invert: false
+  reason-blacklist: []
+  reason-blacklist-invert: false
+events:
+  equip:
+    enabled: true
+    mode: IGNORE
+  breed:
+    enabled: true
+    mode: MULTIPLY
+    limit: -1
+  dye:
+    enabled: true
+    mode: SPLIT
+    limit: -1
+  shear:
+    enabled: true
+    mode: SPLIT
+    limit: -1
+  multiply:
+    drops: true
+    explosion: true
+    slime-split: true
+  divide:
+    nametag: true
+    tame: true
+    enter-block: true
+    bucket-fill: true
+  remove-stack-data:
+    nametag: true
+  explosion:
+    enabled: true
+    mode: MULTIPLY
+    limit: -1
+  # When a nametag is used to rename a mob (see nametag)
+  nametag:
+    enabled: true
+    # SLICE - slice off an entity so that a single entity is named and becomes unstackable
+    # PREVENT - prevent nametags from working with stacked mobs
+    mode: SLICE
+death:
+  skip-animation: false
+  SINGLE:
+    priority: 1
+    reason-blacklist: []
+    reason-blacklist-invert: false
+    spawn-reason-blacklist: []
+    spawn-reason-blacklist-invert: false
+    type-blacklist: []
+    type-blacklist-invert: false
+  ALL:
+    priority: 2
+    reason-blacklist: []
+    reason-blacklist-invert: false
+    spawn-reason-blacklist: []
+    spawn-reason-blacklist-invert: false
+    type-blacklist: []
+    type-blacklist-invert: false
+  STEP:
+    priority: 3
+    reason-blacklist: []
+    reason-blacklist-invert: false
+    spawn-reason-blacklist: []
+    spawn-reason-blacklist-invert: false
+    type-blacklist: []
+    type-blacklist-invert: false
+    max-step: 5
+    min-step: 1
+  STEP_DAMAGE:
+    priority: 4
+    reason-blacklist: []
+    reason-blacklist-invert: false
+    spawn-reason-blacklist: []
+    spawn-reason-blacklist-invert: false
+    type-blacklist: []
+    type-blacklist-invert: false
+drops:
+  enabled: true
+  use-loot-tables: true
+  one-per-stack: []
+  one-per-stack-invert: false
+  item-blacklist: []
+  item-blacklist-invert: false
+  reason-blacklist: []
+  reason-blacklist-invert: false
+  type-blacklist: []
+  type-blacklist-invert: false
+experience:
+  enabled: true
+  multiplier-min: 0.5
+  multiplier-max: 0.8
+  type-blacklist: []
+  type-blacklist-invert: false
+player-stats: true
+wait-to-stack:
+  enabled: true
+  wait-time: 5
+  types-whitelist:
+  - ZOMBIE
+  - SKELETON
+  - ZOMBIFIED_PIGLIN
+  - CREEPER
+  - ENDERMAN
+  types-whitelist-invert: false
+  reasons-whitelist:
+  - SPAWNER
+  reasons-whitelist-invert: false
+hooks:
+  worldguard: true
+  mythicmobs:
+    enabled: true
+    blacklist: []
+    blacklist-invert: false
+    stack: false
+    stack-blacklist: []
+    stack-blacklist-invert: false
+    prevent-stack: true
+  citizens: true
+  mcmmo: true
+  jobs:
+    enabled: true
+    # Modes:
+    # PREVENT - Do not give Jobs rewards for stacked mobs.
+    # IGNORE - Make it so StackMob doesn't touch Jobs.
+    # MULTIPLY - Multiply rewards for stacked mobs.
+    mode: PREVENT
+  protocollib: true
+  clearlagg: false
+  mypet: true

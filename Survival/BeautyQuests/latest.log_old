@@ -1,0 +1,832 @@
+[00:23:56] ---- BEAUTYQUESTS LOGGER - OPENED Tue Aug 29 00:23:56 GMT 2023 ----
+[00:24:52] [INFO] Enabling BeautyQuests v0.20.1
+[00:24:52] [INFO] ------------ BeautyQuests ------------
+[00:24:52] [DEBUG] Paper detected.
+[00:24:52] [DEBUG] Hooked into [Citizens] v2.0.31-SNAPSHOT (build 3036)
+[00:24:52] [DEBUG] Hooked into [WorldGuard] v7.0.8-beta-01+cbb2ba7
+[00:24:52] [DEBUG] Hooked into [MythicMobs] v5.2.6-0819d467
+[00:24:52] [DEBUG] Hooked into [Vault] v1.7.3-b131
+[00:24:52] [DEBUG] Hooked into [PlaceholderAPI] v2.11.3
+[00:24:52] [DEBUG] Hooked into [Jobs] v5.2.0.0
+[00:24:52] [DEBUG] Hooked into [HolographicDisplays] v3.0.2
+[00:24:52] [DEBUG] Hooked into [DecentHolograms] v2.8.3
+[00:24:52] [INFO] Loaded valid Minecraft version 1_19_R3.
+[00:24:52] [DEBUG] Loading data file, last time edited : Tue Aug 29 00:20:03 GMT 2023
+[00:24:52] [DEBUG] Unavailable string in config for key inv.mobSelect.advancedSpawners
+[00:24:52] [INFO] Loaded language es_ES (0.032s)!
+[00:24:52] [INFO] Loaded start particles: REDSTONE in shape POINT with color R255 G255 B0
+[00:24:52] [INFO] Loaded talk particles: VILLAGER_HAPPY in shape BAR
+[00:24:52] [INFO] Loaded next particles: SMOKE_NORMAL in shape SPOT
+[00:24:52] [DEBUG] Initlializing default stage types.
+[00:24:52] [DEBUG] Stage registered (Talk, 0)
+[00:24:52] [DEBUG] Stage registered (Items, 1)
+[00:24:52] [DEBUG] Stage registered (Mobs, 2)
+[00:24:52] [DEBUG] Stage registered (Mine, 3)
+[00:24:52] [DEBUG] Stage registered (Place, 4)
+[00:24:52] [DEBUG] Stage registered (Chat, 5)
+[00:24:52] [DEBUG] Stage registered (Interact, 6)
+[00:24:52] [DEBUG] Stage registered (Fish, 7)
+[00:24:52] [DEBUG] Stage registered (Melt, 8)
+[00:24:52] [DEBUG] Stage registered (Enchant, 9)
+[00:24:52] [DEBUG] Stage registered (Craft, 10)
+[00:24:52] [DEBUG] Stage registered (Bucket, 11)
+[00:24:52] [DEBUG] Stage registered (Location, 12)
+[00:24:52] [DEBUG] Stage registered (PlayTime, 13)
+[00:24:52] [DEBUG] Stage registered (Breed, 14)
+[00:24:52] [DEBUG] Stage registered (Tame, 15)
+[00:24:52] [DEBUG] Stage registered (Death, 16)
+[00:24:52] [DEBUG] Stage registered (DealDamage, 17)
+[00:24:52] [DEBUG] Stage registered (EatDrink, 18)
+[00:24:52] [DEBUG] Initlializing default rewards.
+[00:24:52] [DEBUG] Quest object registered in registry rewards (id: commandReward, class: fr.skytasul.quests.rewards.CommandReward)
+[00:24:52] [DEBUG] Quest object registered in registry rewards (id: itemReward, class: fr.skytasul.quests.rewards.ItemReward)
+[00:24:52] [DEBUG] Quest object registered in registry rewards (id: removeItemsReward, class: fr.skytasul.quests.rewards.RemoveItemsReward)
+[00:24:52] [DEBUG] Quest object registered in registry rewards (id: textReward, class: fr.skytasul.quests.rewards.MessageReward)
+[00:24:52] [DEBUG] Quest object registered in registry rewards (id: tpReward, class: fr.skytasul.quests.rewards.TeleportationReward)
+[00:24:52] [DEBUG] Quest object registered in registry rewards (id: expReward, class: fr.skytasul.quests.rewards.XPReward)
+[00:24:52] [DEBUG] Quest object registered in registry rewards (id: checkpointReward, class: fr.skytasul.quests.rewards.CheckpointReward)
+[00:24:52] [DEBUG] Quest object registered in registry rewards (id: questStopReward, class: fr.skytasul.quests.rewards.QuestStopReward)
+[00:24:52] [DEBUG] Quest object registered in registry rewards (id: requirementDependentReward, class: fr.skytasul.quests.rewards.RequirementDependentReward)
+[00:24:52] [DEBUG] Quest object registered in registry rewards (id: randomReward, class: fr.skytasul.quests.rewards.RandomReward)
+[00:24:52] [DEBUG] Quest object registered in registry rewards (id: wait, class: fr.skytasul.quests.rewards.WaitReward)
+[00:24:52] [DEBUG] Quest object registered in registry rewards (id: titleReward, class: fr.skytasul.quests.rewards.TitleReward)
+[00:24:52] [DEBUG] Initlializing default requirements.
+[00:24:52] [DEBUG] Quest object registered in registry requirements (id: logicalOr, class: fr.skytasul.quests.requirements.logical.LogicalOrRequirement)
+[00:24:52] [DEBUG] Quest object registered in registry requirements (id: questRequired, class: fr.skytasul.quests.requirements.QuestRequirement)
+[00:24:52] [DEBUG] Quest object registered in registry requirements (id: levelRequired, class: fr.skytasul.quests.requirements.LevelRequirement)
+[00:24:52] [DEBUG] Quest object registered in registry requirements (id: permissionRequired, class: fr.skytasul.quests.requirements.PermissionsRequirement)
+[00:24:52] [DEBUG] Quest object registered in registry requirements (id: scoreboardRequired, class: fr.skytasul.quests.requirements.ScoreboardRequirement)
+[00:24:52] [DEBUG] Quest object registered in registry requirements (id: equipmentRequired, class: fr.skytasul.quests.requirements.EquipmentRequirement)
+[00:24:52] [DEBUG] Initlializing default quest options.
+[00:24:52] [DEBUG] Quest option registered (id: pool)
+[00:24:52] [DEBUG] Quest option registered (id: name)
+[00:24:52] [DEBUG] Quest option registered (id: description)
+[00:24:52] [DEBUG] Quest option registered (id: customItem)
+[00:24:52] [DEBUG] Quest option registered (id: confirmMessage)
+[00:24:52] [DEBUG] Quest option registered (id: hologramText)
+[00:24:52] [DEBUG] Quest option registered (id: bypassLimit)
+[00:24:52] [DEBUG] Quest option registered (id: startableFromGUI)
+[00:24:52] [DEBUG] Quest option registered (id: failOnDeath)
+[00:24:52] [DEBUG] Quest option registered (id: cancellable)
+[00:24:52] [DEBUG] Quest option registered (id: cancelActions)
+[00:24:52] [DEBUG] Quest option registered (id: hologramLaunch)
+[00:24:52] [DEBUG] Quest option registered (id: hologramLaunchNo)
+[00:24:52] [DEBUG] Quest option registered (id: scoreboard)
+[00:24:52] [DEBUG] Quest option registered (id: hideNoRequirements)
+[00:24:52] [DEBUG] Quest option registered (id: auto)
+[00:24:52] [DEBUG] Quest option registered (id: repeatable)
+[00:24:52] [DEBUG] Quest option registered (id: timer)
+[00:24:52] [DEBUG] Quest option registered (id: visibility)
+[00:24:52] [DEBUG] Quest option registered (id: endSound)
+[00:24:52] [DEBUG] Quest option registered (id: firework)
+[00:24:52] [DEBUG] Quest option registered (id: requirements)
+[00:24:52] [DEBUG] Quest option registered (id: startRewards)
+[00:24:52] [DEBUG] Quest option registered (id: startMessage)
+[00:24:52] [DEBUG] Quest option registered (id: starterNPC)
+[00:24:52] [DEBUG] Quest option registered (id: startDialog)
+[00:24:52] [DEBUG] Quest option registered (id: endRewards)
+[00:24:52] [DEBUG] Quest option registered (id: endMsg)
+[00:24:52] [DEBUG] Item comparison registered (id: bukkit)
+[00:24:52] [DEBUG] Item comparison registered (id: customBukkit)
+[00:24:52] [DEBUG] Item comparison registered (id: material)
+[00:24:52] [DEBUG] Item comparison registered (id: name)
+[00:24:52] [DEBUG] Item comparison registered (id: lore)
+[00:24:52] [DEBUG] Item comparison registered (id: enchants)
+[00:24:52] [DEBUG] Item comparison registered (id: repair)
+[00:24:52] [DEBUG] Mob factory registered (id: bukkitEntity)
+[00:24:52] [DEBUG] Bossbars manager has been registered: fr.skytasul.quests.api.bossbar.BQBossBarImplementation
+[00:24:52] [DEBUG] Brigadier registered!
+[00:24:52] [DEBUG] Mob factory registered (id: citizensNPC)
+[00:24:52] [DEBUG] Now using WorldGuard entry API.
+[00:24:52] [DEBUG] Stage registered (Find, 19)
+[00:24:52] [DEBUG] Quest object registered in registry requirements (id: regionRequired, class: fr.skytasul.quests.requirements.RegionRequirement)
+[00:24:52] [DEBUG] Mob factory registered (id: mythicMobs)
+[00:24:52] [DEBUG] Quest object registered in registry rewards (id: moneyReward, class: fr.skytasul.quests.rewards.MoneyReward)
+[00:24:52] [DEBUG] Quest object registered in registry rewards (id: permReward, class: fr.skytasul.quests.rewards.PermissionReward)
+[00:24:52] [DEBUG] Quest object registered in registry requirements (id: moneyRequired, class: fr.skytasul.quests.requirements.MoneyRequirement)
+[00:24:52] [INFO] Placeholders registered !
+[00:24:52] [DEBUG] Quest object registered in registry requirements (id: placeholderRequired, class: fr.skytasul.quests.requirements.PlaceholderRequirement)
+[00:24:52] [DEBUG] Quest object registered in registry requirements (id: jobLevelRequired, class: fr.skytasul.quests.requirements.JobLevelRequirement)
+[00:24:52] [DEBUG] Holograms manager has been registered: fr.skytasul.quests.utils.compatibility.BQHolographicDisplays3
+[00:24:52] [WARNING] BQDecentHolograms will replace BQHolographicDisplays3 as the new holograms manager.
+[00:24:52] [DEBUG] Holograms manager has been registered: fr.skytasul.quests.utils.compatibility.BQDecentHolograms
+[00:24:52] [DEBUG] Started bStats metrics
+[00:24:52] [DEBUG] Starting Spigot updater
+[00:24:55] [INFO] You are using the latest version of BeautyQuests.
+[00:24:55] [DEBUG] 0 accounts loaded and 271 identifiers.
+[00:24:56] [INFO] 21 quests loaded (0.204s)!
+[00:24:56] [INFO] Periodic saves task started (18000 ticks). Task ID: 549
+[00:39:53] [DEBUG] Saving 0 loaded accounts and 271 identifiers.
+[00:39:53] [DEBUG] Saved datas (0.003s)!
+[00:39:53] [INFO] Datas saved ~ periodic save
+[00:54:53] [DEBUG] Saving 0 loaded accounts and 271 identifiers.
+[00:54:53] [DEBUG] Saved datas (0.003s)!
+[00:54:53] [INFO] Datas saved ~ periodic save
+[01:09:53] [DEBUG] Saving 0 loaded accounts and 271 identifiers.
+[01:09:53] [DEBUG] Saved datas (0.002s)!
+[01:09:53] [INFO] Datas saved ~ periodic save
+[01:24:53] [DEBUG] Saving 0 loaded accounts and 271 identifiers.
+[01:24:53] [DEBUG] Saved datas (0.005s)!
+[01:24:53] [INFO] Datas saved ~ periodic save
+[01:39:53] [DEBUG] Saving 0 loaded accounts and 271 identifiers.
+[01:39:53] [DEBUG] Saved datas (0.003s)!
+[01:39:53] [INFO] Datas saved ~ periodic save
+[01:54:53] [DEBUG] Saving 0 loaded accounts and 271 identifiers.
+[01:54:53] [DEBUG] Saved datas (0.007s)!
+[01:54:53] [INFO] Datas saved ~ periodic save
+[01:57:06] [DEBUG] alelau5 (87573003-6061-39b3-8acc-25c9a82dc232) joined the server
+[01:57:06] [DEBUG] Loading player alelau5...
+[01:57:07] [DEBUG] New account registered for alelau5 (87573003-6061-39b3-8acc-25c9a82dc232), index 272 via f.s.q.players.PlayersManager.tryLoad 176 -> f.s.q.players.PlayersManager.tryLoad 176
+[01:57:08] [DEBUG] Completed load of alelau5 (87573003-6061-39b3-8acc-25c9a82dc232 (#272)) datas within 1085 ms (0 quests, 0 pools)
+[02:09:53] [DEBUG] Saving 1 loaded accounts and 272 identifiers.
+[02:09:53] [DEBUG] Saved datas (0.005s)!
+[02:09:53] [INFO] Datas saved ~ periodic save
+[02:24:53] [DEBUG] Saving 1 loaded accounts and 272 identifiers.
+[02:24:53] [DEBUG] Saved datas (0.009s)!
+[02:24:53] [INFO] Datas saved ~ periodic save
+[02:39:53] [DEBUG] Saving 1 loaded accounts and 272 identifiers.
+[02:39:53] [DEBUG] Saved datas (0.004s)!
+[02:39:53] [INFO] Datas saved ~ periodic save
+[02:54:53] [DEBUG] Saving 1 loaded accounts and 272 identifiers.
+[02:54:53] [DEBUG] Saved datas (0.013s)!
+[02:54:53] [INFO] Datas saved ~ periodic save
+[03:09:53] [DEBUG] Saving 1 loaded accounts and 272 identifiers.
+[03:09:53] [DEBUG] Saved datas (0.003s)!
+[03:09:53] [INFO] Datas saved ~ periodic save
+[03:24:53] [DEBUG] Saving 1 loaded accounts and 272 identifiers.
+[03:24:53] [DEBUG] Saved datas (0.004s)!
+[03:24:53] [INFO] Datas saved ~ periodic save
+[03:39:53] [DEBUG] Saving 1 loaded accounts and 272 identifiers.
+[03:39:53] [DEBUG] Saved datas (0.003s)!
+[03:39:53] [INFO] Datas saved ~ periodic save
+[03:54:53] [DEBUG] Saving 1 loaded accounts and 272 identifiers.
+[03:54:53] [DEBUG] Saved datas (0.003s)!
+[03:54:53] [INFO] Datas saved ~ periodic save
+[04:09:53] [DEBUG] Saving 1 loaded accounts and 272 identifiers.
+[04:09:53] [DEBUG] Saved datas (0.005s)!
+[04:09:53] [INFO] Datas saved ~ periodic save
+[04:24:53] [DEBUG] Saving 1 loaded accounts and 272 identifiers.
+[04:24:53] [DEBUG] Saved datas (0.003s)!
+[04:24:53] [INFO] Datas saved ~ periodic save
+[04:39:53] [DEBUG] Saving 1 loaded accounts and 272 identifiers.
+[04:39:53] [DEBUG] Saved datas (0.003s)!
+[04:39:53] [INFO] Datas saved ~ periodic save
+[04:54:53] [DEBUG] Saving 1 loaded accounts and 272 identifiers.
+[04:54:53] [DEBUG] Saved datas (0.004s)!
+[04:54:53] [INFO] Datas saved ~ periodic save
+[05:09:53] [DEBUG] Saving 1 loaded accounts and 272 identifiers.
+[05:09:53] [DEBUG] Saved datas (0.002s)!
+[05:09:53] [INFO] Datas saved ~ periodic save
+[05:24:53] [DEBUG] Saving 1 loaded accounts and 272 identifiers.
+[05:24:53] [DEBUG] Saved datas (0.003s)!
+[05:24:53] [INFO] Datas saved ~ periodic save
+[05:24:57] [DEBUG] CONSOLE executed command: quest start alelau5 1 -overrideRequirements
+[05:24:57] [ADMIN]: alelau5 started the quest 1
+[05:25:04] [DEBUG] CONSOLE executed command: quest start alelau5 2 -overrideRequirements
+[05:25:04] [ADMIN]: alelau5 started the quest 2
+[05:25:06] [DEBUG] CONSOLE executed command: quest start alelau5 3 -overrideRequirements
+[05:25:06] [ADMIN]: alelau5 started the quest 3
+[05:25:06] [DEBUG] CONSOLE executed command: quest start alelau5 4 -overrideRequirements
+[05:25:06] [ADMIN]: alelau5 started the quest 4
+[05:25:08] [DEBUG] CONSOLE executed command: quest start alelau5 5 -overrideRequirements
+[05:25:08] [ADMIN]: alelau5 started the quest 5
+[05:25:09] [DEBUG] CONSOLE executed command: quest start alelau5 6 -overrideRequirements
+[05:25:09] [ADMIN]: alelau5 started the quest 6
+[05:25:10] [DEBUG] CONSOLE executed command: quest start alelau5 12 -overrideRequirements
+[05:25:10] [ADMIN]: alelau5 started the quest 12
+[05:25:11] [DEBUG] CONSOLE executed command: quest start alelau5 11 -overrideRequirements
+[05:25:11] [ADMIN]: alelau5 started the quest 11
+[05:25:11] [DEBUG] CONSOLE executed command: quest start alelau5 10 -overrideRequirements
+[05:25:11] [ADMIN]: alelau5 started the quest 10
+[05:25:11] [DEBUG] CONSOLE executed command: quest start alelau5 9 -overrideRequirements
+[05:25:11] [ADMIN]: alelau5 started the quest 9
+[05:25:12] [DEBUG] CONSOLE executed command: quest start alelau5 7 -overrideRequirements
+[05:25:12] [ADMIN]: alelau5 started the quest 7
+[05:25:14] [DEBUG] CONSOLE executed command: quest start alelau5 13 -overrideRequirements
+[05:25:14] [ADMIN]: alelau5 started the quest 13
+[05:25:15] [DEBUG] CONSOLE executed command: quest start alelau5 14 -overrideRequirements
+[05:25:15] [ADMIN]: alelau5 started the quest 14
+[05:25:16] [DEBUG] CONSOLE executed command: quest start alelau5 15 -overrideRequirements
+[05:25:16] [ADMIN]: alelau5 started the quest 15
+[05:25:16] [DEBUG] CONSOLE executed command: quest start alelau5 16 -overrideRequirements
+[05:25:16] [ADMIN]: alelau5 started the quest 16
+[05:25:16] [DEBUG] CONSOLE executed command: quest start alelau5 17 -overrideRequirements
+[05:25:16] [ADMIN]: alelau5 started the quest 17
+[05:25:16] [DEBUG] CONSOLE executed command: quest start alelau5 18 -overrideRequirements
+[05:25:16] [ADMIN]: alelau5 started the quest 18
+[05:25:20] [DEBUG] CONSOLE executed command: quest start alelau5 8 -overrideRequirements
+[05:25:20] [ADMIN]: alelau5 started the quest 8
+[05:39:53] [DEBUG] Saving 1 loaded accounts and 272 identifiers.
+[05:39:53] [DEBUG] Saved datas (0.004s)!
+[05:39:53] [INFO] Datas saved ~ periodic save
+[05:54:53] [DEBUG] Saving 1 loaded accounts and 272 identifiers.
+[05:54:53] [DEBUG] Saved datas (0.005s)!
+[05:54:53] [INFO] Datas saved ~ periodic save
+[06:09:53] [DEBUG] Saving 1 loaded accounts and 272 identifiers.
+[06:09:53] [DEBUG] Saved datas (0.008s)!
+[06:09:53] [INFO] Datas saved ~ periodic save
+[06:24:53] [DEBUG] Saving 1 loaded accounts and 272 identifiers.
+[06:24:53] [DEBUG] Saved datas (0.006s)!
+[06:24:53] [INFO] Datas saved ~ periodic save
+[06:30:43] [DEBUG] alelau5 left the server
+[06:30:43] [DEBUG] Unloading player alelau5... (18 quests, 0 pools)
+[06:39:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[06:39:53] [DEBUG] Saved datas (0.003s)!
+[06:39:53] [INFO] Datas saved ~ periodic save
+[06:54:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[06:54:53] [DEBUG] Saved datas (0.003s)!
+[06:54:53] [INFO] Datas saved ~ periodic save
+[07:09:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[07:09:53] [DEBUG] Saved datas (0.013s)!
+[07:09:53] [INFO] Datas saved ~ periodic save
+[07:24:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[07:24:53] [DEBUG] Saved datas (0.002s)!
+[07:24:53] [INFO] Datas saved ~ periodic save
+[07:39:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[07:39:53] [DEBUG] Saved datas (0.002s)!
+[07:39:53] [INFO] Datas saved ~ periodic save
+[07:54:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[07:54:53] [DEBUG] Saved datas (0.002s)!
+[07:54:53] [INFO] Datas saved ~ periodic save
+[08:09:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[08:09:53] [DEBUG] Saved datas (0.003s)!
+[08:09:53] [INFO] Datas saved ~ periodic save
+[08:24:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[08:24:53] [DEBUG] Saved datas (0.002s)!
+[08:24:53] [INFO] Datas saved ~ periodic save
+[08:39:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[08:39:53] [DEBUG] Saved datas (0.002s)!
+[08:39:53] [INFO] Datas saved ~ periodic save
+[08:54:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[08:54:53] [DEBUG] Saved datas (0.003s)!
+[08:54:53] [INFO] Datas saved ~ periodic save
+[09:09:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[09:09:53] [DEBUG] Saved datas (0.005s)!
+[09:09:53] [INFO] Datas saved ~ periodic save
+[09:24:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[09:24:53] [DEBUG] Saved datas (0.003s)!
+[09:24:53] [INFO] Datas saved ~ periodic save
+[09:39:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[09:39:53] [DEBUG] Saved datas (0.002s)!
+[09:39:53] [INFO] Datas saved ~ periodic save
+[09:54:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[09:54:53] [DEBUG] Saved datas (0.003s)!
+[09:54:53] [INFO] Datas saved ~ periodic save
+[10:09:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[10:09:53] [DEBUG] Saved datas (0.002s)!
+[10:09:53] [INFO] Datas saved ~ periodic save
+[10:24:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[10:24:53] [DEBUG] Saved datas (0.003s)!
+[10:24:53] [INFO] Datas saved ~ periodic save
+[10:39:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[10:39:53] [DEBUG] Saved datas (0.002s)!
+[10:39:53] [INFO] Datas saved ~ periodic save
+[10:54:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[10:54:53] [DEBUG] Saved datas (0.002s)!
+[10:54:53] [INFO] Datas saved ~ periodic save
+[11:09:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[11:09:53] [DEBUG] Saved datas (0.002s)!
+[11:09:53] [INFO] Datas saved ~ periodic save
+[11:24:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[11:24:53] [DEBUG] Saved datas (0.002s)!
+[11:24:53] [INFO] Datas saved ~ periodic save
+[11:39:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[11:39:53] [DEBUG] Saved datas (0.002s)!
+[11:39:53] [INFO] Datas saved ~ periodic save
+[11:54:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[11:54:53] [DEBUG] Saved datas (0.002s)!
+[11:54:53] [INFO] Datas saved ~ periodic save
+[12:09:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[12:09:53] [DEBUG] Saved datas (0.003s)!
+[12:09:53] [INFO] Datas saved ~ periodic save
+[12:24:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[12:24:53] [DEBUG] Saved datas (0.003s)!
+[12:24:53] [INFO] Datas saved ~ periodic save
+[12:39:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[12:39:53] [DEBUG] Saved datas (0.002s)!
+[12:39:53] [INFO] Datas saved ~ periodic save
+[12:54:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[12:54:53] [DEBUG] Saved datas (0.002s)!
+[12:54:53] [INFO] Datas saved ~ periodic save
+[13:09:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[13:09:53] [DEBUG] Saved datas (0.002s)!
+[13:09:53] [INFO] Datas saved ~ periodic save
+[13:24:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[13:24:53] [DEBUG] Saved datas (0.003s)!
+[13:24:53] [INFO] Datas saved ~ periodic save
+[13:39:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[13:39:53] [DEBUG] Saved datas (0.002s)!
+[13:39:53] [INFO] Datas saved ~ periodic save
+[13:54:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[13:54:53] [DEBUG] Saved datas (0.002s)!
+[13:54:53] [INFO] Datas saved ~ periodic save
+[14:09:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[14:09:53] [DEBUG] Saved datas (0.002s)!
+[14:09:53] [INFO] Datas saved ~ periodic save
+[14:24:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[14:24:53] [DEBUG] Saved datas (0.003s)!
+[14:24:53] [INFO] Datas saved ~ periodic save
+[14:39:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[14:39:53] [DEBUG] Saved datas (0.002s)!
+[14:39:53] [INFO] Datas saved ~ periodic save
+[14:54:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[14:54:53] [DEBUG] Saved datas (0.002s)!
+[14:54:53] [INFO] Datas saved ~ periodic save
+[15:09:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[15:09:53] [DEBUG] Saved datas (0.002s)!
+[15:09:53] [INFO] Datas saved ~ periodic save
+[15:24:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[15:24:53] [DEBUG] Saved datas (0.003s)!
+[15:24:53] [INFO] Datas saved ~ periodic save
+[15:39:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[15:39:53] [DEBUG] Saved datas (0.003s)!
+[15:39:53] [INFO] Datas saved ~ periodic save
+[15:54:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[15:54:53] [DEBUG] Saved datas (0.002s)!
+[15:54:53] [INFO] Datas saved ~ periodic save
+[16:09:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[16:09:53] [DEBUG] Saved datas (0.002s)!
+[16:09:53] [INFO] Datas saved ~ periodic save
+[16:24:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[16:24:53] [DEBUG] Saved datas (0.003s)!
+[16:24:53] [INFO] Datas saved ~ periodic save
+[16:39:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[16:39:53] [DEBUG] Saved datas (0.002s)!
+[16:39:53] [INFO] Datas saved ~ periodic save
+[16:54:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[16:54:53] [DEBUG] Saved datas (0.005s)!
+[16:54:53] [INFO] Datas saved ~ periodic save
+[17:09:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[17:09:53] [DEBUG] Saved datas (0.002s)!
+[17:09:53] [INFO] Datas saved ~ periodic save
+[17:24:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[17:24:53] [DEBUG] Saved datas (0.002s)!
+[17:24:53] [INFO] Datas saved ~ periodic save
+[17:39:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[17:39:53] [DEBUG] Saved datas (0.005s)!
+[17:39:53] [INFO] Datas saved ~ periodic save
+[17:54:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[17:54:53] [DEBUG] Saved datas (0.003s)!
+[17:54:53] [INFO] Datas saved ~ periodic save
+[17:56:53] [DEBUG] alelau5 (87573003-6061-39b3-8acc-25c9a82dc232) joined the server
+[17:56:53] [DEBUG] Loading player alelau5...
+[17:56:53] [DEBUG] Loading account #272. Last file edition: Tue Aug 29 06:30:43 GMT 2023
+[17:56:53] [DEBUG] Completed load of alelau5 (87573003-6061-39b3-8acc-25c9a82dc232 (#272)) datas within 114 ms (18 quests, 0 pools) | Loaded from file from index
+[17:57:53] [DEBUG] alelau5 left the server
+[17:57:53] [DEBUG] Unloading player alelau5... (18 quests, 0 pools)
+[18:09:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[18:09:53] [DEBUG] Saved datas (0.003s)!
+[18:09:53] [INFO] Datas saved ~ periodic save
+[18:24:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[18:24:53] [DEBUG] Saved datas (0.002s)!
+[18:24:53] [INFO] Datas saved ~ periodic save
+[18:39:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[18:39:53] [DEBUG] Saved datas (0.002s)!
+[18:39:53] [INFO] Datas saved ~ periodic save
+[18:54:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[18:54:53] [DEBUG] Saved datas (0.002s)!
+[18:54:53] [INFO] Datas saved ~ periodic save
+[19:09:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[19:09:53] [DEBUG] Saved datas (0.003s)!
+[19:09:53] [INFO] Datas saved ~ periodic save
+[19:24:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[19:24:53] [DEBUG] Saved datas (0.002s)!
+[19:24:53] [INFO] Datas saved ~ periodic save
+[19:39:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[19:39:53] [DEBUG] Saved datas (0.006s)!
+[19:39:53] [INFO] Datas saved ~ periodic save
+[19:54:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[19:54:53] [DEBUG] Saved datas (0.005s)!
+[19:54:53] [INFO] Datas saved ~ periodic save
+[20:09:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[20:09:53] [DEBUG] Saved datas (0.003s)!
+[20:09:53] [INFO] Datas saved ~ periodic save
+[20:20:40] [DEBUG] alelau5 (87573003-6061-39b3-8acc-25c9a82dc232) joined the server
+[20:20:40] [DEBUG] Loading player alelau5...
+[20:20:40] [DEBUG] Loading account #272. Last file edition: Tue Aug 29 17:57:53 GMT 2023
+[20:20:40] [DEBUG] Completed load of alelau5 (87573003-6061-39b3-8acc-25c9a82dc232 (#272)) datas within 74 ms (18 quests, 0 pools) | Loaded from file from index
+[20:24:53] [DEBUG] Saving 1 loaded accounts and 272 identifiers.
+[20:24:53] [DEBUG] Saved datas (0.005s)!
+[20:24:53] [INFO] Datas saved ~ periodic save
+[20:39:53] [DEBUG] Saving 1 loaded accounts and 272 identifiers.
+[20:39:53] [DEBUG] Saved datas (0.006s)!
+[20:39:53] [INFO] Datas saved ~ periodic save
+[20:47:06] [DEBUG] alelau5 left the server
+[20:47:06] [DEBUG] Unloading player alelau5... (18 quests, 0 pools)
+[20:54:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[20:54:53] [DEBUG] Saved datas (0.002s)!
+[20:54:53] [INFO] Datas saved ~ periodic save
+[21:09:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[21:09:53] [DEBUG] Saved datas (0.003s)!
+[21:09:53] [INFO] Datas saved ~ periodic save
+[21:24:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[21:24:53] [DEBUG] Saved datas (0.005s)!
+[21:24:53] [INFO] Datas saved ~ periodic save
+[21:39:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[21:39:53] [DEBUG] Saved datas (0.003s)!
+[21:39:53] [INFO] Datas saved ~ periodic save
+[21:54:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[21:54:53] [DEBUG] Saved datas (0.002s)!
+[21:54:53] [INFO] Datas saved ~ periodic save
+[22:09:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[22:09:53] [DEBUG] Saved datas (0.003s)!
+[22:09:53] [INFO] Datas saved ~ periodic save
+[22:24:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[22:24:53] [DEBUG] Saved datas (0.002s)!
+[22:24:53] [INFO] Datas saved ~ periodic save
+[22:39:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[22:39:53] [DEBUG] Saved datas (0.002s)!
+[22:39:53] [INFO] Datas saved ~ periodic save
+[22:54:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[22:54:53] [DEBUG] Saved datas (0.003s)!
+[22:54:53] [INFO] Datas saved ~ periodic save
+[23:09:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[23:09:53] [DEBUG] Saved datas (0.003s)!
+[23:09:53] [INFO] Datas saved ~ periodic save
+[23:24:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[23:24:53] [DEBUG] Saved datas (0.004s)!
+[23:24:53] [INFO] Datas saved ~ periodic save
+[23:39:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[23:39:53] [DEBUG] Saved datas (0.002s)!
+[23:39:53] [INFO] Datas saved ~ periodic save
+[23:54:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[23:54:53] [DEBUG] Saved datas (0.005s)!
+[23:54:53] [INFO] Datas saved ~ periodic save
+[00:09:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[00:09:53] [DEBUG] Saved datas (0.004s)!
+[00:09:53] [INFO] Datas saved ~ periodic save
+[00:24:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[00:24:53] [DEBUG] Saved datas (0.002s)!
+[00:24:53] [INFO] Datas saved ~ periodic save
+[00:39:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[00:39:53] [DEBUG] Saved datas (0.002s)!
+[00:39:53] [INFO] Datas saved ~ periodic save
+[00:54:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[00:54:53] [DEBUG] Saved datas (0.003s)!
+[00:54:53] [INFO] Datas saved ~ periodic save
+[01:09:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[01:09:53] [DEBUG] Saved datas (0.003s)!
+[01:09:53] [INFO] Datas saved ~ periodic save
+[01:24:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[01:24:53] [DEBUG] Saved datas (0.002s)!
+[01:24:53] [INFO] Datas saved ~ periodic save
+[01:39:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[01:39:53] [DEBUG] Saved datas (0.002s)!
+[01:39:53] [INFO] Datas saved ~ periodic save
+[01:54:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[01:54:53] [DEBUG] Saved datas (0.002s)!
+[01:54:53] [INFO] Datas saved ~ periodic save
+[02:09:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[02:09:53] [DEBUG] Saved datas (0.003s)!
+[02:09:53] [INFO] Datas saved ~ periodic save
+[02:24:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[02:24:53] [DEBUG] Saved datas (0.005s)!
+[02:24:53] [INFO] Datas saved ~ periodic save
+[02:39:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[02:39:53] [DEBUG] Saved datas (0.002s)!
+[02:39:53] [INFO] Datas saved ~ periodic save
+[02:54:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[02:54:53] [DEBUG] Saved datas (0.003s)!
+[02:54:53] [INFO] Datas saved ~ periodic save
+[03:09:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[03:09:53] [DEBUG] Saved datas (0.003s)!
+[03:09:53] [INFO] Datas saved ~ periodic save
+[03:24:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[03:24:53] [DEBUG] Saved datas (0.003s)!
+[03:24:53] [INFO] Datas saved ~ periodic save
+[03:39:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[03:39:53] [DEBUG] Saved datas (0.003s)!
+[03:39:53] [INFO] Datas saved ~ periodic save
+[03:54:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[03:54:53] [DEBUG] Saved datas (0.002s)!
+[03:54:53] [INFO] Datas saved ~ periodic save
+[04:09:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[04:09:53] [DEBUG] Saved datas (0.002s)!
+[04:09:53] [INFO] Datas saved ~ periodic save
+[04:24:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[04:24:53] [DEBUG] Saved datas (0.002s)!
+[04:24:53] [INFO] Datas saved ~ periodic save
+[04:39:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[04:39:53] [DEBUG] Saved datas (0.002s)!
+[04:39:53] [INFO] Datas saved ~ periodic save
+[04:54:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[04:54:53] [DEBUG] Saved datas (0.002s)!
+[04:54:53] [INFO] Datas saved ~ periodic save
+[05:09:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[05:09:53] [DEBUG] Saved datas (0.004s)!
+[05:09:53] [INFO] Datas saved ~ periodic save
+[05:24:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[05:24:53] [DEBUG] Saved datas (0.004s)!
+[05:24:53] [INFO] Datas saved ~ periodic save
+[05:39:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[05:39:53] [DEBUG] Saved datas (0.002s)!
+[05:39:53] [INFO] Datas saved ~ periodic save
+[05:54:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[05:54:53] [DEBUG] Saved datas (0.003s)!
+[05:54:53] [INFO] Datas saved ~ periodic save
+[06:09:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[06:09:53] [DEBUG] Saved datas (0.003s)!
+[06:09:53] [INFO] Datas saved ~ periodic save
+[06:24:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[06:24:53] [DEBUG] Saved datas (0.005s)!
+[06:24:53] [INFO] Datas saved ~ periodic save
+[06:39:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[06:39:53] [DEBUG] Saved datas (0.003s)!
+[06:39:53] [INFO] Datas saved ~ periodic save
+[06:54:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[06:54:53] [DEBUG] Saved datas (0.002s)!
+[06:54:53] [INFO] Datas saved ~ periodic save
+[07:09:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[07:09:53] [DEBUG] Saved datas (0.003s)!
+[07:09:53] [INFO] Datas saved ~ periodic save
+[07:24:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[07:24:53] [DEBUG] Saved datas (0.003s)!
+[07:24:53] [INFO] Datas saved ~ periodic save
+[07:39:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[07:39:53] [DEBUG] Saved datas (0.003s)!
+[07:39:53] [INFO] Datas saved ~ periodic save
+[07:54:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[07:54:53] [DEBUG] Saved datas (0.003s)!
+[07:54:53] [INFO] Datas saved ~ periodic save
+[08:09:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[08:09:53] [DEBUG] Saved datas (0.002s)!
+[08:09:53] [INFO] Datas saved ~ periodic save
+[08:24:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[08:24:53] [DEBUG] Saved datas (0.004s)!
+[08:24:53] [INFO] Datas saved ~ periodic save
+[08:39:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[08:39:53] [DEBUG] Saved datas (0.002s)!
+[08:39:53] [INFO] Datas saved ~ periodic save
+[08:54:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[08:54:53] [DEBUG] Saved datas (0.002s)!
+[08:54:53] [INFO] Datas saved ~ periodic save
+[09:09:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[09:09:53] [DEBUG] Saved datas (0.002s)!
+[09:09:53] [INFO] Datas saved ~ periodic save
+[09:24:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[09:24:53] [DEBUG] Saved datas (0.008s)!
+[09:24:53] [INFO] Datas saved ~ periodic save
+[09:39:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[09:39:53] [DEBUG] Saved datas (0.002s)!
+[09:39:53] [INFO] Datas saved ~ periodic save
+[09:54:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[09:54:53] [DEBUG] Saved datas (0.002s)!
+[09:54:53] [INFO] Datas saved ~ periodic save
+[10:09:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[10:09:53] [DEBUG] Saved datas (0.002s)!
+[10:09:53] [INFO] Datas saved ~ periodic save
+[10:24:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[10:24:53] [DEBUG] Saved datas (0.002s)!
+[10:24:53] [INFO] Datas saved ~ periodic save
+[10:39:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[10:39:53] [DEBUG] Saved datas (0.004s)!
+[10:39:53] [INFO] Datas saved ~ periodic save
+[10:54:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[10:54:53] [DEBUG] Saved datas (0.003s)!
+[10:54:53] [INFO] Datas saved ~ periodic save
+[11:09:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[11:09:53] [DEBUG] Saved datas (0.003s)!
+[11:09:53] [INFO] Datas saved ~ periodic save
+[11:24:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[11:24:53] [DEBUG] Saved datas (0.002s)!
+[11:24:53] [INFO] Datas saved ~ periodic save
+[11:39:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[11:39:53] [DEBUG] Saved datas (0.005s)!
+[11:39:53] [INFO] Datas saved ~ periodic save
+[11:54:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[11:54:53] [DEBUG] Saved datas (0.002s)!
+[11:54:53] [INFO] Datas saved ~ periodic save
+[12:09:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[12:09:53] [DEBUG] Saved datas (0.003s)!
+[12:09:53] [INFO] Datas saved ~ periodic save
+[12:24:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[12:24:53] [DEBUG] Saved datas (0.003s)!
+[12:24:53] [INFO] Datas saved ~ periodic save
+[12:39:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[12:39:53] [DEBUG] Saved datas (0.002s)!
+[12:39:53] [INFO] Datas saved ~ periodic save
+[12:54:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[12:54:53] [DEBUG] Saved datas (0.005s)!
+[12:54:53] [INFO] Datas saved ~ periodic save
+[13:09:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[13:09:53] [DEBUG] Saved datas (0.002s)!
+[13:09:53] [INFO] Datas saved ~ periodic save
+[13:24:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[13:24:53] [DEBUG] Saved datas (0.003s)!
+[13:24:53] [INFO] Datas saved ~ periodic save
+[13:39:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[13:39:53] [DEBUG] Saved datas (0.002s)!
+[13:39:53] [INFO] Datas saved ~ periodic save
+[13:54:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[13:54:53] [DEBUG] Saved datas (0.003s)!
+[13:54:53] [INFO] Datas saved ~ periodic save
+[14:09:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[14:09:53] [DEBUG] Saved datas (0.002s)!
+[14:09:53] [INFO] Datas saved ~ periodic save
+[14:24:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[14:24:53] [DEBUG] Saved datas (0.003s)!
+[14:24:53] [INFO] Datas saved ~ periodic save
+[14:39:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[14:39:53] [DEBUG] Saved datas (0.003s)!
+[14:39:53] [INFO] Datas saved ~ periodic save
+[14:54:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[14:54:53] [DEBUG] Saved datas (0.003s)!
+[14:54:53] [INFO] Datas saved ~ periodic save
+[15:09:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[15:09:53] [DEBUG] Saved datas (0.003s)!
+[15:09:53] [INFO] Datas saved ~ periodic save
+[15:24:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[15:24:53] [DEBUG] Saved datas (0.002s)!
+[15:24:53] [INFO] Datas saved ~ periodic save
+[15:39:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[15:39:53] [DEBUG] Saved datas (0.004s)!
+[15:39:53] [INFO] Datas saved ~ periodic save
+[15:54:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[15:54:53] [DEBUG] Saved datas (0.002s)!
+[15:54:53] [INFO] Datas saved ~ periodic save
+[16:09:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[16:09:53] [DEBUG] Saved datas (0.002s)!
+[16:09:53] [INFO] Datas saved ~ periodic save
+[16:24:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[16:24:53] [DEBUG] Saved datas (0.004s)!
+[16:24:53] [INFO] Datas saved ~ periodic save
+[16:39:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[16:39:53] [DEBUG] Saved datas (0.002s)!
+[16:39:53] [INFO] Datas saved ~ periodic save
+[16:54:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[16:54:53] [DEBUG] Saved datas (0.003s)!
+[16:54:53] [INFO] Datas saved ~ periodic save
+[17:09:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[17:09:53] [DEBUG] Saved datas (0.003s)!
+[17:09:53] [INFO] Datas saved ~ periodic save
+[17:24:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[17:24:53] [DEBUG] Saved datas (0.002s)!
+[17:24:53] [INFO] Datas saved ~ periodic save
+[17:39:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[17:39:53] [DEBUG] Saved datas (0.003s)!
+[17:39:53] [INFO] Datas saved ~ periodic save
+[17:54:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[17:54:53] [DEBUG] Saved datas (0.002s)!
+[17:54:53] [INFO] Datas saved ~ periodic save
+[18:09:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[18:09:53] [DEBUG] Saved datas (0.002s)!
+[18:09:53] [INFO] Datas saved ~ periodic save
+[18:24:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[18:24:53] [DEBUG] Saved datas (0.003s)!
+[18:24:53] [INFO] Datas saved ~ periodic save
+[18:39:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[18:39:53] [DEBUG] Saved datas (0.004s)!
+[18:39:53] [INFO] Datas saved ~ periodic save
+[18:54:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[18:54:53] [DEBUG] Saved datas (0.002s)!
+[18:54:53] [INFO] Datas saved ~ periodic save
+[19:09:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[19:09:53] [DEBUG] Saved datas (0.003s)!
+[19:09:53] [INFO] Datas saved ~ periodic save
+[19:24:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[19:24:53] [DEBUG] Saved datas (0.004s)!
+[19:24:53] [INFO] Datas saved ~ periodic save
+[19:39:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[19:39:53] [DEBUG] Saved datas (0.004s)!
+[19:39:53] [INFO] Datas saved ~ periodic save
+[19:54:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[19:54:53] [DEBUG] Saved datas (0.002s)!
+[19:54:53] [INFO] Datas saved ~ periodic save
+[20:09:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[20:09:53] [DEBUG] Saved datas (0.002s)!
+[20:09:53] [INFO] Datas saved ~ periodic save
+[20:24:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[20:24:53] [DEBUG] Saved datas (0.002s)!
+[20:24:53] [INFO] Datas saved ~ periodic save
+[20:39:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[20:39:53] [DEBUG] Saved datas (0.003s)!
+[20:39:53] [INFO] Datas saved ~ periodic save
+[20:54:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[20:54:53] [DEBUG] Saved datas (0.003s)!
+[20:54:53] [INFO] Datas saved ~ periodic save
+[21:09:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[21:09:53] [DEBUG] Saved datas (0.002s)!
+[21:09:53] [INFO] Datas saved ~ periodic save
+[21:24:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[21:24:53] [DEBUG] Saved datas (0.003s)!
+[21:24:53] [INFO] Datas saved ~ periodic save
+[21:39:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[21:39:53] [DEBUG] Saved datas (0.002s)!
+[21:39:53] [INFO] Datas saved ~ periodic save
+[21:54:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[21:54:53] [DEBUG] Saved datas (0.002s)!
+[21:54:53] [INFO] Datas saved ~ periodic save
+[22:09:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[22:09:53] [DEBUG] Saved datas (0.002s)!
+[22:09:53] [INFO] Datas saved ~ periodic save
+[22:24:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[22:24:53] [DEBUG] Saved datas (0.002s)!
+[22:24:53] [INFO] Datas saved ~ periodic save
+[22:39:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[22:39:53] [DEBUG] Saved datas (0.002s)!
+[22:39:53] [INFO] Datas saved ~ periodic save
+[22:54:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[22:54:53] [DEBUG] Saved datas (0.003s)!
+[22:54:53] [INFO] Datas saved ~ periodic save
+[23:09:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[23:09:53] [DEBUG] Saved datas (0.003s)!
+[23:09:53] [INFO] Datas saved ~ periodic save
+[23:24:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[23:24:53] [DEBUG] Saved datas (0.004s)!
+[23:24:53] [INFO] Datas saved ~ periodic save
+[23:39:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[23:39:53] [DEBUG] Saved datas (0.004s)!
+[23:39:53] [INFO] Datas saved ~ periodic save
+[23:54:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[23:54:53] [DEBUG] Saved datas (0.002s)!
+[23:54:53] [INFO] Datas saved ~ periodic save
+[00:09:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[00:09:53] [DEBUG] Saved datas (0.004s)!
+[00:09:53] [INFO] Datas saved ~ periodic save
+[00:24:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[00:24:53] [DEBUG] Saved datas (0.004s)!
+[00:24:53] [INFO] Datas saved ~ periodic save
+[00:39:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[00:39:53] [DEBUG] Saved datas (0.002s)!
+[00:39:53] [INFO] Datas saved ~ periodic save
+[00:54:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[00:54:53] [DEBUG] Saved datas (0.003s)!
+[00:54:53] [INFO] Datas saved ~ periodic save
+[01:09:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[01:09:53] [DEBUG] Saved datas (0.004s)!
+[01:09:53] [INFO] Datas saved ~ periodic save
+[01:24:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[01:24:53] [DEBUG] Saved datas (0.003s)!
+[01:24:53] [INFO] Datas saved ~ periodic save
+[01:39:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[01:39:53] [DEBUG] Saved datas (0.002s)!
+[01:39:53] [INFO] Datas saved ~ periodic save
+[01:54:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[01:54:53] [DEBUG] Saved datas (0.002s)!
+[01:54:53] [INFO] Datas saved ~ periodic save
+[02:09:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[02:09:53] [DEBUG] Saved datas (0.002s)!
+[02:09:53] [INFO] Datas saved ~ periodic save
+[02:24:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[02:24:53] [DEBUG] Saved datas (0.004s)!
+[02:24:53] [INFO] Datas saved ~ periodic save
+[02:39:53] [DEBUG] Saving 0 loaded accounts and 272 identifiers.
+[02:39:53] [DEBUG] Saved datas (0.002s)!
+[02:39:53] [INFO] Datas saved ~ periodic save
+[02:46:55] [DEBUG] SaaFigue2726 (df7ac309-71aa-3939-aeb5-0583f12f81c8) joined the server
+[02:46:55] [DEBUG] Loading player SaaFigue2726...
+[02:46:55] [DEBUG] Loading account #250. Last file edition: Wed Jul 19 21:38:31 GMT 2023
+[02:46:55] [DEBUG] Completed load of SaaFigue2726 (df7ac309-71aa-3939-aeb5-0583f12f81c8 (#250)) datas within 104 ms (0 quests, 0 pools) | Loaded from file from index
+[02:47:26] [DEBUG] SaaFigue2726 left the server
+[02:47:26] [DEBUG] Unloading player SaaFigue2726... (0 quests, 0 pools)
+[02:47:42] [DEBUG] Qaxecs (fcfe407a-62c9-39ad-88f0-7a7be21bca3b) joined the server
+[02:47:42] [DEBUG] Loading player Qaxecs...
+[02:47:42] [DEBUG] New account registered for Qaxecs (fcfe407a-62c9-39ad-88f0-7a7be21bca3b), index 273 via f.s.q.players.PlayersManager.tryLoad 176 -> f.s.q.players.PlayersManager.tryLoad 176
+[02:47:42] [DEBUG] Completed load of Qaxecs (fcfe407a-62c9-39ad-88f0-7a7be21bca3b (#273)) datas within 57 ms (0 quests, 0 pools)
+[02:47:47] [DEBUG] Qaxecs left the server
+[02:47:47] [DEBUG] Unloading player Qaxecs... (0 quests, 0 pools)
+[02:48:04] [DEBUG] Qaxecs (fcfe407a-62c9-39ad-88f0-7a7be21bca3b) joined the server
+[02:48:04] [DEBUG] Loading player Qaxecs...
+[02:48:04] [DEBUG] Completed load of Qaxecs (fcfe407a-62c9-39ad-88f0-7a7be21bca3b (#273)) datas within 40 ms (0 quests, 0 pools) | Loaded from cached accounts pending unload
+[02:48:20] [DEBUG] SaaFigue2726 (df7ac309-71aa-3939-aeb5-0583f12f81c8) joined the server
+[02:48:20] [DEBUG] Loading player SaaFigue2726...
+[02:48:20] [DEBUG] Completed load of SaaFigue2726 (df7ac309-71aa-3939-aeb5-0583f12f81c8 (#250)) datas within 38 ms (0 quests, 0 pools) | Loaded from cached accounts pending unload
+[02:49:25] [DEBUG] IgnaFigurita (fa81266b-dcd9-37fa-80f2-f0b511c4d200) joined the server
+[02:49:25] [DEBUG] Loading player IgnaFigurita...
+[02:49:25] [DEBUG] Loading account #238. Last file edition: Wed Jul 19 21:38:27 GMT 2023
+[02:49:25] [DEBUG] Completed load of IgnaFigurita (fa81266b-dcd9-37fa-80f2-f0b511c4d200 (#238)) datas within 86 ms (0 quests, 0 pools) | Loaded from file from index
+[02:54:53] [DEBUG] Saving 3 loaded accounts and 273 identifiers.
+[02:54:53] [DEBUG] Saved datas (0.003s)!
+[02:54:53] [INFO] Datas saved ~ periodic save
+[03:03:31] [DEBUG] SaaFigue2726 executed command: bq 
+[03:03:31] [DEBUG] SaaFigue2726 has opened inventory fr.skytasul.quests.gui.quests.PlayerListGUI.
+[03:04:21] [DEBUG] Qaxecs executed command: quests 
+[03:04:21] [DEBUG] Qaxecs has opened inventory fr.skytasul.quests.gui.quests.PlayerListGUI.
+[03:09:53] [DEBUG] Saving 3 loaded accounts and 273 identifiers.
+[03:09:53] [DEBUG] Saved datas (0.004s)!
+[03:09:53] [INFO] Datas saved ~ periodic save
+[03:20:10] [DEBUG] Qaxecs left the server
+[03:20:10] [DEBUG] Unloading player Qaxecs... (0 quests, 0 pools)
+[03:20:43] [DEBUG] IgnaFigurita left the server
+[03:20:43] [DEBUG] Unloading player IgnaFigurita... (0 quests, 0 pools)
+[03:24:53] [DEBUG] Saving 1 loaded accounts and 273 identifiers.
+[03:24:53] [DEBUG] Saved datas (0.003s)!
+[03:24:53] [INFO] Datas saved ~ periodic save
+[03:39:34] [DEBUG] SaaFigue2726 left the server
+[03:39:34] [DEBUG] Unloading player SaaFigue2726... (0 quests, 0 pools)
+[03:39:53] [DEBUG] Saving 0 loaded accounts and 273 identifiers.
+[03:39:53] [DEBUG] Saved datas (0.002s)!
+[03:39:53] [INFO] Datas saved ~ periodic save
+[03:46:38] [DEBUG] Storbo (b319b04c-ede3-36b1-ac74-131f573b07a9) joined the server
+[03:46:38] [DEBUG] Loading player Storbo...
+[03:46:38] [DEBUG] Loading account #1. Last file edition: Tue Aug 08 23:19:24 GMT 2023
+[03:46:39] [DEBUG] Completed load of Storbo (b319b04c-ede3-36b1-ac74-131f573b07a9 (#1)) datas within 209 ms (22 quests, 0 pools) | Loaded from file from index
+[03:48:10] [DEBUG] Storbo left the server
+[03:48:10] [DEBUG] Unloading player Storbo... (22 quests, 0 pools)
+[03:48:42] [INFO] Disabling BeautyQuests v0.20.1
+[03:48:42] [INFO] Periodic saves task stopped.
+[03:48:42] [DEBUG] Saving 0 loaded accounts and 273 identifiers.
+[03:48:42] [DEBUG] Saved datas (0.003s)!
+[03:48:42] [DEBUG] Unregistered from WorldGuard entry API.
+[03:48:42] Logger was open during 2 días 3 horas 24 minutos
+[03:48:42] ---- BEAUTYQUESTS LOGGER - CLOSED Thu Aug 31 03:48:42 GMT 2023 ----

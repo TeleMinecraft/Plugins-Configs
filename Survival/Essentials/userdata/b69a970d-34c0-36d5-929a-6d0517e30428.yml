@@ -1,0 +1,29 @@
+timestamps:
+  login: 1625181244125
+  logout: 1625181647533
+  lastteleport: 1625140080306
+lastlocation:
+  world: world
+  x: 4218.753761290947
+  y: 72.0
+  z: 76.872241363539
+  yaw: -328.25806
+  pitch: -3.080852
+logoutlocation:
+  world: world
+  x: 4103.1787105702915
+  y: 11.0
+  z: 53.667576185125164
+  yaw: -91.22955
+  pitch: 4.384207
+money: '171124.5200000000000928'
+homes:
+  home:
+    world: world
+    x: 4219.846373715504
+    y: 72.0
+    z: 76.08333226561298
+    yaw: -319.71524
+    pitch: 28.378237
+ip-address: 89.131.233.124
+last-account-name: Arepafrancesa

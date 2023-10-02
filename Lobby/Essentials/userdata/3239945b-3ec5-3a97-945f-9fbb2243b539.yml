@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 186.11.13.103
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1690149231267
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1690149344672
+  login: 1690149096016
+money: '0'
+last-account-name: M3MEI
+lastlocation:
+  world: 8039c8bf-b4ad-4692-9f73-205fa07ddece
+  world-name: world
+  x: -6.852439209566039
+  y: 32.03584062504456
+  z: 1.1345024043303866
+  yaw: 92.30889129638672
+  pitch: 25.292896270751953
+logoutlocation:
+  world: 8039c8bf-b4ad-4692-9f73-205fa07ddece
+  world-name: world
+  x: -70.9989478623662
+  y: 31.024424088213678
+  z: -23.333915003247988
+  yaw: 90.0
+  pitch: 54.912322998046875

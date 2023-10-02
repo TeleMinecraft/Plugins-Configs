@@ -1,0 +1,15 @@
+wins: 0
+losses: 0
+kills: 0
+deaths: 1
+pareffect: none
+proeffect: none
+glasscolor: none
+winsound: none
+killsound: none
+taunt: none
+uuid: a91df703-b885-368b-8868-0ce3e85a3995
+player_name: elbeca
+xp: 0
+permissions:
+- sw.taunt.izi

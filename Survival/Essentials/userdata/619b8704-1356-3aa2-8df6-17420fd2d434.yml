@@ -1,0 +1,63 @@
+timestamps:
+  login: 1663639914250
+  logout: 1663646038147
+  lastteleport: 1650149806064
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: -1800.300000011921
+  y: 64.0
+  z: 2494.2731724131895
+  yaw: 6.306396484375
+  pitch: 27.599830627441406
+  world-name: world
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: -1755.068867599161
+  y: 86.98875699763744
+  z: 2542.2534915758074
+  yaw: 96.04833984375
+  pitch: 61.049705505371094
+  world-name: world
+afk: false
+money: '10003700.7660000000003149'
+homes:
+  home:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: 89837.01086861854
+    y: 88.0
+    z: 7174.43536715187
+    yaw: -15.60213851928711
+    pitch: 38.3999137878418
+    world-name: world
+  evento:
+    world: world
+    x: 4046.696260143067
+    y: 65.0
+    z: 7588.122190055513
+    yaw: -184.784912109375
+    pitch: 56.250274658203125
+    world-name: ''
+  sasaki:
+    world: world
+    x: -3348.5134576224864
+    y: 67.0625
+    z: 7874.119520432063
+    yaw: -353.4482421875
+    pitch: 66.449951171875
+    world-name: ''
+ip-address: 190.114.41.138
+last-account-name: Cebrp
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false

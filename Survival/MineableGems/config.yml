@@ -1,0 +1,125 @@
+#  __  __ _                  _     _       _____                    
+# |  \/  (_)                | |   | |     / ____|                   
+# | \  / |_ _ __   ___  __ _| |__ | | ___| |  __  ___ _ __ ___  ___ 
+# | |\/| | | '_ \ / _ \/ _` | '_ \| |/ _ \ | |_ |/ _ \ '_ ` _ \/ __|
+# | |  | | | | | |  __/ (_| | |_) | |  __/ |__| |  __/ | | | | \__ \
+# |_|  |_|_|_| |_|\___|\__,_|_.__/|_|\___|\_____|\___|_| |_| |_|___/
+#
+#
+Prefix: "&8[&bMineable&cGems&8] &r"
+Update-Notifications: true
+
+messages:
+  #Reload permission: mineablegems.reload
+  command-help: "&cCommands: /mineablegems <reload/debug>"
+  no-permission: "&cNo tienes permisos para eso!"
+
+Blocks:
+  #NOTE: CONFIGURATION SECTIONS ARE CASE SENSITIVE!
+  #The Block that you want to set a custom drop on it.
+  COMMAND_BLOCK:
+    #The Custom Drop Material that you want to give when a player breaks that block.
+    Material: RED_DYE #RED_DYE has different IDs in different versions, if you use 1.12.2 or below, this drop won't load.
+    #Name of the Custom Drop
+    Name: "&cRuby"
+    #Lore of the Custom Drop
+    Lore:
+    - ""
+    - "&cRed Gemstone"
+    - ""
+    #Chance that you can get the Custom Drop, Remove this line or set it to 100.0 if you don't want this option.
+    Chance: 20.0
+    #Decide where the player can get the Custom Drop.
+    #There are two options: Everywhere and Underground. In Underground mode drops can only be found under 50(Y).
+    Find-In: Underground
+    #List of biomes that the custom drops can be found in them.
+    #If you don't want this option simply remove the biomes and set Filter-as-Blacklist to true.
+    #Note: If you remove all biomes and set Filter-as-Blacklist to false, nothing will drop because you are whitelisting nothing!
+    Biome-Filter:
+    - PLAINS
+    - JUNGLE
+    #If you want to make Biome-Filter to blacklisted biomes, set this to true, otherwise it will be whitelist mode.
+    Filter-as-Blacklist: false
+    #Setting this to false makes Fortune enchantment disabled and it won't work on the custom drops.
+    Fortune-Enchantment: true
+    #You can set any enchantment you want in a list like this, however we just want to make a glowing effect on this drop.
+    Enchantments:
+    - DURABILITY:1
+    Required-Item:
+    - "COMMAND_BLOCK"
+    #We set an enchantment that does nothing on this material, so now we hide this enchantment to make our glowing effect.
+    Hide-Enchantments: true
+    #This option will prevent custom drops if the block is placed by a player.
+    #Note: Blocks will become naturally again if you reload or restart the server.
+    Prevent-Drops-If-Placed: true
+    #This option is for block's vanilla drops.
+    #There are three options:
+    #1. <All> or <true> will keep vanilla drop. Also Removing this section will keep vanilla drops.
+    #2. <Half> will only drop vanilla drops if any of other conditions (Chance, Biome-Filter, Find-In, etc) fails. For example: If the chance is 40%, there is 60% to give the vanilla drop.
+    #3. <Disable> or <false> will completely disable block's vanilla drop.
+    Vanilla-Drops: half
+    #This option adds the custom item in the player's inventory instead of dropping it.
+    #The item will be dropped if the player's inventory is full.
+    Auto-Inventory: false
+    
+  #In this example we are making an "Iron Pickaxe" drop with with pretty low chance with enchantments and a console command:
+  BARRIER:
+    Material: IRON_PICKAXE
+    Chance: 0.5
+    Find-In: Underground
+    Biome-Filter: []
+    Filter-as-Blacklist: true
+    Required-Item:
+    - "COMMAND_BLOCK"
+    #A list of enchantments you want to put on the Iron Pickaxe, you can see a list of enchantments here:
+    #Newer versions of Minecraft: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/enchantments/Enchantment.html
+    #Older versions of Minecraft: https://helpch.at/docs/1.8.8/index.html?org/bukkit/enchantments/Enchantment.html
+    #You should write in this format » Enchantment:Level
+    Enchantments:
+    - DIG_SPEED:2
+    - DURABILITY:1
+    #If you set this to true, enchantments will be hide. Perfect for glowing items.
+    Hide-Enchantments: false
+    #Do you want to execute console commands when the player get this drop? Write them in this list! Use %player% for the player name.
+    Console-Commands:
+    - "msg %player% You found an Iron Pickaxe in this Stone!"
+    Fortune-Enchantment: false
+    Prevent-Drops-If-Placed: true
+    Vanilla-Drops: half
+    Auto-Inventory: false
+    
+  #Here is another example, in this example we are not going to write any custom name or lore for it.
+  END_PORTAL_FRAME:
+    Material: ICE
+    Chance: 10.0
+    Find-In: Everywhere
+    #We want to drop ice with 10% chance in frozen and cold ocean biomes, so we write all ocean biomes here:
+    Biome-Filter: 
+    - frozen_ocean
+    - deep_frozen_ocean
+    - cold_ocean
+    - deep_cold_ocean
+    Required-Item:
+    - "COMMAND_BLOCK"
+    Filter-as-Blacklist: false
+    Fortune-Enchantment: false
+    Prevent-Drops-If-Placed: true
+    #We set vanilla drops to true because if the player has a silk touch pickaxe, this custom drop acts as a bonus drop.
+    Vanilla-Drops: true
+    Auto-Inventory: false
+    
+  #Here we want to add Experience drop for Iron Ores without making a custom name, lore or setting any chance for it.
+  BEDROCK:
+    Material: IRON_ORE
+    #We want to randomize the experience that drops, we can do that by writing in this format: min-max
+    Experience: 1-5
+    Required-Item:
+    - "COMMAND_BLOCK"
+    Find-In: Everywhere
+    Biome-Filter: []
+    Filter-as-Blacklist: true
+    Fortune-Enchantment: false
+    Prevent-Drops-If-Placed: false
+    Vanilla-Drops: half
+    Auto-Inventory: false
+    

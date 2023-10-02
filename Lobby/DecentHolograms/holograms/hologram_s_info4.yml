@@ -1,0 +1,62 @@
+location: world:-10.500:32.500:-52.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: <#ffff00>&lDinero y economía</#0DDE00>
+    height: 0.3
+  - content: '&fConseguir &2dinero &fes una tarea'
+    height: 0.3
+  - content: '&ffundamental para poder realizar'
+    height: 0.3
+  - content: '&ftus compras en las múltiples'
+    height: 0.3
+  - content: '&aTiendas &fdisponibles en el mundo,'
+    height: 0.3
+  - content: '&7● [{page}/{pages}] &a●'
+    height: 0.3
+  actions:
+    RIGHT:
+    - NEXT_PAGE:s_info4
+    - SOUND:ITEM_BOOK_PAGE_TURN
+- lines:
+  - content: <#ffff00>&lDinero y economía</#0DDE00>
+    height: 0.3
+  - content: '&fexisten muchas maneras de'
+    height: 0.3
+  - content: '&fobtener &2dinero&f, desde &6trabajos'
+    height: 0.3
+  - content: '&fy &5misiones&f, hasta &avender'
+    height: 0.3
+  - content: '&aitems &fa los otros jugadores.'
+    height: 0.3
+  - content: '&a● &7[{page}/{pages}]&a ●'
+    height: 0.3
+  actions:
+    LEFT:
+    - PREV_PAGE:s_info4
+    - SOUND:ITEM_BOOK_PAGE_TURN
+    RIGHT:
+    - NEXT_PAGE:s_info4
+    - SOUND:ITEM_BOOK_PAGE_TURN
+- lines:
+  - content: <#ffff00>&lDinero y economía</#0DDE00>
+    height: 0.3
+  - content: '&fCerca del &b&o/warp Poblado&f puedes'
+    height: 0.3
+  - content: '&fencontrar un &6Ranking &fde los'
+    height: 0.3
+  - content: '&fjugadores con más &2dinero &fen el'
+    height: 0.3
+  - content: '&fserver, crees poder entrar al &6&lTOP&f?'
+    height: 0.3
+  - content: '&a● &7[{page}/{pages}] &7●'
+    height: 0.3
+  actions:
+    LEFT:
+    - PREV_PAGE:s_info4
+    - SOUND:ITEM_BOOK_PAGE_TURN

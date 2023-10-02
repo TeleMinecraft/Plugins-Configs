@@ -1,0 +1,98 @@
+timestamps:
+  login: 1650164586268
+  lastteleport: 1645674626650
+  logout: 1650167080804
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+lastlocation:
+  world: world
+  x: -1317.5
+  y: 66.0
+  z: -1088.5
+  yaw: 89.99999237060547
+  pitch: 0.0
+  world-name: ''
+money: '66114809.72449999999836315'
+homes:
+  cav:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: -1388.3925863590412
+    y: 51.0
+    z: -1039.7199202700433
+    yaw: -290.9998779296875
+    pitch: 1.6500457525253296
+    world-name: world
+  newcastle:
+    world: world
+    x: -1731.4872268425006
+    y: 77.0
+    z: -1080.8841476912696
+    yaw: -233.9998779296875
+    pitch: 5.400055885314941
+    world-name: ''
+  rich:
+    world: world
+    x: 2562.3074803203067
+    y: 72.0
+    z: 3882.923294625441
+    yaw: 0.530670166015625
+    pitch: 9.150213241577148
+    world-name: ''
+  michi:
+    world: world
+    x: -1828.7798858180108
+    y: 72.0
+    z: 261.1463646825127
+    yaw: 33.45281982421875
+    pitch: 7.1999831199646
+    world-name: ''
+  temp:
+    world: world
+    x: -1341.289270656622
+    y: 66.0
+    z: -1090.7194656585073
+    yaw: 295.49993896484375
+    pitch: 4.5000691413879395
+    world-name: ''
+  hielo:
+    world: world
+    x: 6344.8040223446
+    y: 63.0
+    z: -176.40479215860236
+    yaw: 13.20135498046875
+    pitch: 7.650020599365234
+    world-name: ''
+  calabaza:
+    world: world
+    x: -4417.764943878281
+    y: 79.0
+    z: -1842.9009397905318
+    yaw: 235.95050048828125
+    pitch: 13.949965476989746
+    world-name: ''
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: -13970.262646654546
+  y: 80.0
+  z: 6696.238416969037
+  yaw: 19.32221221923828
+  pitch: 10.500101089477539
+  world-name: world
+nickname: §3Ramsama1
+afk: false
+ip-address: 45.232.34.216
+last-account-name: Ramsama1
+lastAccountName: Ramsama1
+ipAddress: 45.232.34.78
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false

@@ -1,0 +1,19 @@
+playername: nxt4lia
+lang: es_ES
+minerate-full-mined: 15019
+minerate:
+  diamond: 2
+  gold: 0
+  iron: 93
+  coal: 452
+  ancient debris: 0
+better-click: 18
+cheats:
+  timer: 20
+  fastladder: 3
+  nuker: 2
+  fastplace: 1
+  blink: 3
+  spider: 1
+  speed: 19
+creation-time: 1623213336812

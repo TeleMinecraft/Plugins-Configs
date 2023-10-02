@@ -1,0 +1,29 @@
+timestamps:
+  login: 1600963364454
+  lastteleport: 1600963895227
+  logout: 1600966075116
+lastlocation:
+  world: world
+  x: -6312.283447726287
+  y: 65.0
+  z: 7975.107383977318
+  yaw: 197.56618
+  pitch: 12.8998575
+logoutlocation:
+  world: world_nether
+  x: -935.3718924697889
+  y: 70.0
+  z: 1033.1190999966827
+  yaw: 277.55237
+  pitch: -1.5143104
+money: '1216190.1610000000000530'
+homes:
+  home:
+    world: world
+    x: -4364.613740607514
+    y: 59.0
+    z: -3491.222978695246
+    yaw: 172.54657
+    pitch: 23.4008
+ip-address: 201.241.56.193
+last-account-name: Sup3rplay

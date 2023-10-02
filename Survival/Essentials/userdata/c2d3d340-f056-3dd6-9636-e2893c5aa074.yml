@@ -1,0 +1,55 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 201.188.238.139
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1669670105365
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1669671530829
+  login: 1669669981176
+money: '992767.20449999999997507'
+last-account-name: sebywis
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: 80.11251122972052
+  y: 70.0
+  z: 1778.8193044259503
+  yaw: -150.3227996826172
+  pitch: -1.1999753713607788
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  world-name: world
+  x: -56.545730833389214
+  y: 65.0
+  z: -1933.952642262044
+  yaw: 74.6807861328125
+  pitch: -4.349562644958496
+homes:
+  home:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: 195.1042391266856
+    y: 72.0
+    z: 1766.8945675298723
+    yaw: -84.32300567626953
+    pitch: 2.1001155376434326
+  raid:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: -60.458012681849816
+    y: 70.0
+    z: -1928.556883945531
+    yaw: -136.5216064453125
+    pitch: 32.1003303527832

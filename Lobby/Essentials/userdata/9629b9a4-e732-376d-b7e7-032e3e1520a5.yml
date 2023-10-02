@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 201.189.236.249
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1686941160244
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1686941190844
+  login: 1686941145604
+money: '0'
+last-account-name: xAtoh
+lastlocation:
+  world: 8039c8bf-b4ad-4692-9f73-205fa07ddece
+  world-name: world
+  x: 0.5913434760002279
+  y: 32.03584062504456
+  z: -7.175224584129478
+  yaw: 175.41647338867188
+  pitch: 20.725948333740234
+logoutlocation:
+  world: 8039c8bf-b4ad-4692-9f73-205fa07ddece
+  world-name: world
+  x: 0.0
+  y: 31.2
+  z: -94.5
+  yaw: 0.0
+  pitch: 0.0

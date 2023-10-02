@@ -1,0 +1,161 @@
+panels:
+  panel-19:
+    perm: default
+    rows: 5
+    title: '&4Tienda Bloques de Protección &8$'
+    item:
+      '11':
+        material: COAL_ORE
+        stack: 1
+        name: '&c&lProtección de 8x8'
+        lore:
+        - '&7Click para comprar por &a$&a1500'
+        commands:
+        - paywall= 1500
+        - op= ps give 8 %cp-player-name% 1
+        - op= cp panel-19
+      '13':
+        material: IRON_ORE
+        stack: 1
+        name: '&6&lProtección de 16x16'
+        lore:
+        - '&7Click para comprar por &a$&a5000'
+        commands:
+        - paywall= 5000
+        - op= ps give 16 %cp-player-name% 1
+        - op= cp panel-19
+      '15':
+        material: GOLD_ORE
+        stack: 1
+        name: '&e&lProtección de 32x32'
+        lore:
+        - '&7Click para comprar por &a$&a20000'
+        commands:
+        - paywall= 25000
+        - op= ps give 32 %cp-player-name% 1
+        - op= cp panel-19
+      '29':
+        material: EMERALD_ORE
+        stack: 1
+        name: '&a&lProtección de 48x48'
+        lore:
+        - '&7Click para comprar por &a$&a40000'
+        commands:
+        - paywall= 40000
+        - op= ps give 48 %cp-player-name% 1
+        - op= cp panel-19
+      '31':
+        material: DIAMOND_ORE
+        stack: 1
+        name: '&b&lProtección de 64x64'
+        lore:
+        - '&7Click para comprar por &a$&a60000'
+        commands:
+        - paywall= 60000
+        - op= ps give 64 %cp-player-name% 1
+        - op= cp panel-19
+      '0':
+        material: YELLOW_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '1':
+        material: YELLOW_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '2':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '3':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '4':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '5':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '6':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '7':
+        material: RED_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '8':
+        material: RED_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '9':
+        material: YELLOW_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '17':
+        material: RED_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '18':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '26':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '27':
+        material: RED_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '35':
+        material: YELLOW_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '36':
+        material: RED_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '37':
+        material: RED_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '38':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '39':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '40':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '41':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '42':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '43':
+        material: YELLOW_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '44':
+        material: YELLOW_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '33':
+        material: GOLD_NUGGET
+        stack: 1
+        name: '&9Actualmente estás comprando por dinero'
+        lore:
+        - '&7Tienes: &a&o$&a&o%cp-player-balance%'
+        - '&7Click para cambiar a compra por XP'
+        commands:
+        - op= cp panel-20

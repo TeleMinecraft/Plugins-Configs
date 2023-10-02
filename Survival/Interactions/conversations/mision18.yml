@@ -1,0 +1,484 @@
+name: '&fDon Isidro'
+# - NPC with id 149
+block_movement: false
+slow_effect: false
+save_conversation_progress: false
+start_conversation_radius: 0
+end_conversation_radius: 5
+requires_permission: false
+cooldown: 0
+hologram_dialogues:
+  enabled: false
+  offset_y: 0.0
+  offset_horizontal: 0.0
+starts_with: []
+conversation:
+  conversation1:
+    dialogue:
+      dialogue1:
+        text:
+        - '&b%player%!'
+        time: 1
+        start_conversation: conversation2
+        conditional_dialogue:
+          conditional_dialogue1:
+            requires:
+            - '%objective_score_chat18% == 1'
+            start_conversation: conversation11
+          conditional_dialogue2:
+            requires:
+            - '%objective_score_chat18% == 2'
+            start_conversation: conversation13
+          conditional_dialogue3:
+            requires:
+            - '%objective_score_chat18% == 3'
+            start_conversation: conversation17
+          conditional_dialogue4:
+            requires:
+            - '%objective_score_chat18% == 4'
+            start_conversation: conversation21
+          conditional_dialogue5:
+            requires:
+            - '%objective_score_chat18% == 5'
+            - '%checkitem_custommodeldata:4,material:potion% == no'
+            start_conversation: conversation25
+          conditional_dialogue6:
+            requires:
+            - '%objective_score_chat18% == 6'
+            - '%objective_score_evento18% == 5'
+            start_conversation: conversation31
+          conditional_dialogue7:
+            requires:
+            - '%checkitem_custommodeldata:4,material:potion% == yes'
+            start_conversation: conversation32
+    random_dialogue: false
+    interrupt_actions: []
+  conversation2:
+    dialogue:
+      dialogue1:
+        text:
+        - '&bTen mucho cuidado con la información que te diré...'
+        time: 2
+        show_name: false
+        start_conversation: conversation3
+    random_dialogue: false
+    interrupt_actions: []
+  conversation3:
+    dialogue:
+      dialogue1:
+        text:
+        - '&bLas autoridades quieren que pensemos que'
+        - '&bel 18 ya terminó, pero conociendo a las'
+        - '&bpersonas de este servidor, ambos sabemos'
+        - '&bque no están de acuerdo con esa idea...'
+        time: 6
+        show_name: false
+    options:
+      option1:
+        text: §7Tienes razón, el espíritu dieciochero sigue presente
+        start_conversation: conversation4
+      option2:
+        text: §7Emm... supongo?
+        start_conversation: conversation5
+      option3:
+        text: §7La verdad para mí el 18 no es la gran cosa
+        start_conversation: conversation6
+    random_dialogue: false
+    interrupt_actions: []
+  conversation4:
+    dialogue:
+      dialogue1:
+        text:
+        - '&bExacto! No podemos perderlo, estaba desesperado'
+        - '&bhasta que escuché rumores sobre una gran fonda'
+        - '&bque no se irá hasta que septiembre se acabe!'
+        time: 6
+        show_name: false
+    options:
+      option1:
+        text: §7Una fonda!? Cuéntame más!
+        start_conversation: conversation7
+      option2:
+        text: §7Estoy muy ocupad@ ahora, pero volveré lo antes posible.
+        start_conversation: conversation8
+    random_dialogue: false
+    interrupt_actions: []
+  conversation5:
+    dialogue:
+      dialogue1:
+        text:
+        - '&bPor qué dudas? Tú me preparabas los mejores'
+        - '&bterremotos en la fonda del 85... '
+        - '&bY hablando de fondas, he escuchado rumores sobre una gran'
+        - '&bfonda que no se irá hasta que septiembre se acabe!'
+        time: 6
+        show_name: false
+    options:
+      option1:
+        text: §7Una fonda? Después del 18? bueno, la verdad eso sí me despierta más
+          interes.
+        start_conversation: conversation7
+      option2:
+        text: §7La verdad tengo cosas que hacer, cuando tenga tiempo libre tal vez
+          cambie de opinión.
+        start_conversation: conversation8
+    random_dialogue: false
+    interrupt_actions: []
+  conversation6:
+    dialogue:
+      dialogue1:
+        text:
+        - '&bBueno, intentaré ignorar que insultaste mi'
+        - '&bcelebración favorita, tal vez para ti no sea'
+        - '&bla gran cosa, pero para mí si lo es, cuando'
+        - '&bescuché rumores de una gran fonda que seguirá'
+        - '&bhasta fines de septiembre, me emocioné mucho...'
+        time: 6
+        show_name: false
+    options:
+      option1:
+        text: §7Bueno, te acompaño a la fonda si eso te quita lo dramático.
+        start_conversation: conversation7
+      option2:
+        text: §7Lo siento, tengo mejores cosas que hacer.
+        start_conversation: conversation8
+    random_dialogue: false
+    interrupt_actions: []
+  conversation7:
+    dialogue:
+      dialogue1:
+        text:
+        - '&bEsa es la actitud!'
+        time: 2
+        show_name: false
+        start_conversation: conversation9
+    random_dialogue: false
+    interrupt_actions: []
+  conversation8:
+    dialogue:
+      dialogue1:
+        text:
+        - '&bOh, bueno, haz las cosas que debas hacer, yo seguiré aquí por un tiempo.'
+        time: 3
+        actions:
+        - 'console_command: scoreboard players set %player% chat18 1'
+        show_name: false
+    random_dialogue: false
+    interrupt_actions: []
+  conversation9:
+    dialogue:
+      dialogue1:
+        text:
+        - '&bBueno, según los rumores, esta fonda tiene cierto'
+        - '&bcomponente &omístico&b, supuestamente debes'
+        - '&bdemostrar que tienes un espíritu dieciochero'
+        - '&bsin igual... y la única manera que existe de'
+        - '&bhacer eso, es crafteando un #FF0000&lTerre#FFFF00&lmoto Gi&f&lgante'
+        time: 6
+        show_name: false
+        start_conversation: conversation10
+    random_dialogue: false
+    interrupt_actions: []
+  conversation10:
+    dialogue:
+      dialogue1:
+        text:
+        - '&bPara comenzar, vas a necesitar un vaso capaz de soportarlo...'
+        time: 2
+        show_name: false
+        start_conversation: conversation12
+    random_dialogue: false
+    interrupt_actions: []
+  conversation11:
+    dialogue:
+      dialogue1:
+        text:
+        - '&bVolviste? Me alegra que hayas recuperado las ganas de celebrar...'
+        time: 3
+        show_name: false
+        start_conversation: conversation9
+    random_dialogue: false
+    interrupt_actions: []
+  conversation12:
+    dialogue:
+      dialogue1:
+        text:
+        - '&bTe llevaré con alguien que nos puede ayudar...'
+        time: 3
+        last_actions:
+        - 'console_command: scoreboard players set %player% chat18 2'
+        - 'wait: 5'
+        - 'teleport: world;-2520;64;6623;-85;0'
+        - 'wait: 5'
+        - 'title: 20;120;20;&6Búsqueda I;&bVaso Gigante'
+        show_name: false
+    random_dialogue: false
+    interrupt_actions: []
+  conversation13:
+    dialogue:
+      dialogue1:
+        text:
+        - '&bConseguiste el vaso gigante?'
+        - '&bLo dejaste en el cofre?'
+        time: 3
+    options:
+      option1:
+        text: §7No aún.
+        start_conversation: conversation14
+      option2:
+        text: §7No, podrías llevarme de nuevo al lugar de la búsqueda?
+        start_conversation: conversation15
+      option3:
+        text: §7Sí, qué es lo siguiente?
+        start_conversation: conversation16
+        requires:
+        - '%objective_score_evento18% == 1'
+    random_dialogue: false
+    interrupt_actions: []
+  conversation14:
+    dialogue:
+      dialogue1:
+        text:
+        - '&bTómate tu tiempo'
+        time: 3
+        show_name: false
+    random_dialogue: false
+    interrupt_actions: []
+  conversation15:
+    dialogue:
+      dialogue1:
+        text:
+        - '&bPor supuesto, suerte!'
+        time: 2
+        last_actions:
+        - 'teleport: world;-2520;64;6623;-85;0'
+        - 'wait: 5'
+        - 'title: 20;120;20;&6Búsqueda I;&bVaso Gigante'
+        show_name: false
+    random_dialogue: false
+    interrupt_actions: []
+  conversation16:
+    dialogue:
+      dialogue1:
+        text:
+        - '&bSabía que podrías!'
+        - '&bTienes el vaso, ahora falta con que llenarlo...'
+        time: 5
+        last_actions:
+        - 'console_command: scoreboard players set %player% chat18 3'
+        - 'teleport: world;-989;64;1552;-93;0'
+        - 'wait: 5'
+        - 'title: 20;120;20;&6Búsqueda II;#FFFF00Pipeño'
+        show_name: false
+    random_dialogue: false
+    interrupt_actions: []
+  conversation17:
+    dialogue:
+      dialogue1:
+        text:
+        - '&bYa dejaste el Pipeño en el cofre?'
+        time: 3
+    options:
+      option1:
+        text: §7No por ahora.
+        start_conversation: conversation18
+      option2:
+        text: §7No, puedes llevarme de nuevo al lugar de la búsqueda?
+        start_conversation: conversation19
+      option3:
+        text: §7Obvio, con qué seguimos?
+        start_conversation: conversation20
+        requires:
+        - '%objective_score_evento18% == 2'
+    random_dialogue: false
+    interrupt_actions: []
+  conversation18:
+    dialogue:
+      dialogue1:
+        text:
+        - '&bEsfúerzate, valdrá la pena'
+        time: 3
+        show_name: false
+    random_dialogue: false
+    interrupt_actions: []
+  conversation19:
+    dialogue:
+      dialogue1:
+        text:
+        - '&bPor supuesto, que te vaya bien!'
+        time: 2
+        last_actions:
+        - 'teleport: world;-989;64;1552;-93;0'
+        - 'wait: 5'
+        - 'title: 20;120;20;&6Búsqueda II;#FFFF00Pipeño'
+        show_name: false
+    random_dialogue: false
+    interrupt_actions: []
+  conversation20:
+    dialogue:
+      dialogue1:
+        text:
+        - '&bTú nunca decepcionas!'
+        - '&bAhora nos hace falta, algo para'
+        - '&bdarle color a ese terremoto...'
+        time: 5
+        last_actions:
+        - 'console_command: scoreboard players set %player% chat18 4'
+        - 'teleport: world;-2110;70;7195;6;18'
+        - 'wait: 5'
+        - 'title: 20;120;20;&6Búsqueda III;#FF0000Granadina'
+        show_name: false
+    random_dialogue: false
+    interrupt_actions: []
+  conversation21:
+    dialogue:
+      dialogue1:
+        text:
+        - '&bYa pusiste la granadina en el cofre?'
+        time: 3
+    options:
+      option1:
+        text: §7No todavía.
+        start_conversation: conversation22
+      option2:
+        text: §7No, por favor me puedes llevar al lugar de la búsqueda?
+        start_conversation: conversation23
+      option3:
+        text: §7Sí, está lista y yo estoy list@ para lo siguiente.
+        start_conversation: conversation24
+        requires:
+        - '%objective_score_evento18% == 3'
+    random_dialogue: false
+    interrupt_actions: []
+  conversation22:
+    dialogue:
+      dialogue1:
+        text:
+        - '&bEs indispensable para el terremoto!'
+        time: 3
+        show_name: false
+    random_dialogue: false
+    interrupt_actions: []
+  conversation23:
+    dialogue:
+      dialogue1:
+        text:
+        - '&bObvio, ánimo en la búsqueda!'
+        time: 2
+        last_actions:
+        - 'teleport: world;-2110;70;7195;6;18'
+        - 'wait: 5'
+        - 'title: 20;120;20;&6Búsqueda III;#FF0000Granadina'
+        show_name: false
+    random_dialogue: false
+    interrupt_actions: []
+  conversation24:
+    dialogue:
+      dialogue1:
+        text:
+        - '&bEres increíble, ya casi terminas,'
+        - '&bsolo falta el toque final...'
+        time: 4
+        last_actions:
+        - 'console_command: scoreboard players set %player% chat18 5'
+        - 'teleport: world;-1597;64;8056;-144;13'
+        - 'wait: 5'
+        - 'title: 20;120;20;&6Búsqueda IV;#FDFF61Helado de Piña'
+        show_name: false
+    random_dialogue: false
+    interrupt_actions: []
+  conversation25:
+    dialogue:
+      dialogue1:
+        text:
+        - '&bDejaste el helado en el cofre?'
+        time: 3
+    options:
+      option1:
+        text: §7No aún.
+        start_conversation: conversation26
+      option2:
+        text: §7No, necesito que me lleves al lugar de la búsqueda.
+        start_conversation: conversation27
+      option3:
+        text: §aYa está en el cofre, está todo listo!
+        start_conversation: conversation28
+        requires:
+        - '%objective_score_evento18% == 4'
+    random_dialogue: false
+    interrupt_actions: []
+  conversation26:
+    dialogue:
+      dialogue1:
+        text:
+        - '&bEs el último ingrediente, tú puedes!'
+        time: 3
+        show_name: false
+    random_dialogue: false
+    interrupt_actions: []
+  conversation27:
+    dialogue:
+      dialogue1:
+        text:
+        - '&bEn seguida!'
+        time: 2
+        last_actions:
+        - 'teleport: world;-1597;64;8056;-144;13'
+        - 'wait: 5'
+        - 'title: 20;120;20;&6Búsqueda IV;#FDFF61Helado de Piña'
+        show_name: false
+    random_dialogue: false
+    interrupt_actions: []
+  conversation28:
+    dialogue:
+      dialogue1:
+        text:
+        - '&bLo lograste!'
+        - '&bDame un momento para juntar todo...'
+        time: 7
+        show_name: false
+        start_conversation: conversation29
+    random_dialogue: false
+    interrupt_actions: []
+  conversation29:
+    dialogue:
+      dialogue1:
+        text:
+        - '&bBueno, todo tuyo, si los rumores son ciertos'
+        - '&bdebería subir tu espíritu dieciochero lo'
+        - '&bsuficiente para encontrar la fonda &omística'
+        time: 4
+        show_name: false
+        start_conversation: conversation30
+    random_dialogue: false
+    interrupt_actions: []
+  conversation30:
+    dialogue:
+      dialogue1:
+        text:
+        - '&bSi todo sale bien, nos vemos allá!'
+        time: 2
+        last_actions:
+        - 'console_command: si give terremoto_gigante 1 %player% true'
+        show_name: false
+    random_dialogue: false
+    interrupt_actions: []
+  conversation31:
+    dialogue:
+      dialogue1:
+        text:
+        - '&bUsando el comando /fonda podemos'
+        - '&bir instantáneamente a la fonda,'
+        - '&bvamos? Hay que celebrar!'
+        time: 2
+        show_name: false
+    random_dialogue: false
+    interrupt_actions: []
+  conversation32:
+    dialogue:
+      dialogue1:
+        text:
+        - '&bBébelo para ir a la fonda'
+        time: 2
+    random_dialogue: false
+    interrupt_actions: []

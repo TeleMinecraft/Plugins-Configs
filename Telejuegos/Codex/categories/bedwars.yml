@@ -1,0 +1,34 @@
+name: "&c&lBed&6&lWars"
+discover_title:
+  title: "&5Descubrimiento!"
+  subtitle: "&7BedWars: %name%"
+  fade_in: 20
+  stay: 60
+  fade_out: 20
+discover_message:
+- "&7Para ver tu nuevo logro usa &b/codex                          "
+discover_sound:
+  name: ENTITY_PLAYER_LEVELUP
+  volume: 10
+  pitch: 0.1
+discoveries:
+  1:
+    name: "&cBatalla por las Camas"
+    lore:
+    - "&7Juega &nBedWars"
+    #commands:
+    #- "xp give %player% 1"
+    #discovered_on_region: test
+    #discovered_on_mob_kill:
+    #  type: ZOMBIE
+    #  name: "Test"
+  2:
+    name: "&cDestructor/a de Camas"
+    lore:
+    - "&7Gana una partida de &nBedWars"
+  3:
+    name: "&cCuál fue su crimen?"
+    lore:
+    - "&7Descubre la razón por la"
+    - "&7que castigaron al colgado"
+    - "&7en el lobby de &nBedWars"

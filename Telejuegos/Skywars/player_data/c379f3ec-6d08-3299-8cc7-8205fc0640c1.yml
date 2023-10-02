@@ -1,0 +1,16 @@
+uuid: c379f3ec-6d08-3299-8cc7-8205fc0640c1
+wins: 1
+losses: 8
+kills: 8
+deaths: 8
+elo: -30
+xp: 29
+pareffect: none
+proeffect: none
+glasscolor: none
+killsound: none
+winsound: none
+taunt: facilito
+permissions:
+- sw.killsound.none
+- sw.taunt.facilito

@@ -1,0 +1,29 @@
+timestamps:
+  login: 1629519900098
+  lastteleport: 1629522493861
+  logout: 1629522564206
+lastlocation:
+  world: world
+  x: 384.2435672622423
+  y: 77.0
+  z: -444.91815185739733
+  yaw: 5.400549
+  pitch: 13.79995
+money: '34424.625'
+logoutlocation:
+  world: world
+  x: 1116.5259074166627
+  y: 75.0
+  z: -149.27040178835432
+  yaw: -5.6993017
+  pitch: 4.5002747
+homes:
+  casa:
+    world: world
+    x: 1116.3191416000168
+    y: 75.0
+    z: -149.12378272678623
+    yaw: -68.24951
+    pitch: 22.500252
+ip-address: 170.82.189.40
+last-account-name: lukvvs

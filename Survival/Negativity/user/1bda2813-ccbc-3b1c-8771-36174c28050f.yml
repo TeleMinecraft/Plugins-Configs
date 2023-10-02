@@ -1,0 +1,21 @@
+playername: zappash1
+lang: es_ES
+minerate-full-mined: 20339
+minerate:
+  diamond: 98
+  gold: 267
+  iron: 654
+  coal: 993
+  ancient debris: 0
+better-click: 9
+cheats:
+  timer: 88
+  antiknockback: 2
+  inventorymove: 1
+  fastladder: 1
+  nuker: 1
+  forcefield: 1
+  blink: 3
+  nofall: 1
+  speed: 39
+creation-time: 1621305810237

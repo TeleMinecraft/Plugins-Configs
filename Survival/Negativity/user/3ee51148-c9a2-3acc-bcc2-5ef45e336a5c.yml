@@ -1,0 +1,24 @@
+playername: killminekuro
+lang: es_ES
+minerate-full-mined: 119863
+minerate:
+  diamond: 145
+  gold: 10
+  iron: 282
+  coal: 1013
+  ancient debris: 0
+better-click: 36
+cheats:
+  timer: 6
+  antiknockback: 5
+  pingspoof: 5
+  inventorymove: 1
+  nuker: 4
+  forcefield: 4
+  fastplace: 2
+  blink: 1
+  noslowdown: 2
+  nofall: 1
+  spider: 1
+  speed: 41
+creation-time: 1620084097702

@@ -1,0 +1,118 @@
+timestamps:
+  login: 1693453598951
+  logout: 1693453690488
+  kits:
+    color: 1653886238435
+    dtools: 1653886250152
+    nuevo: 0
+  lastteleport: 1693453634088
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: 422.6462808768558
+  y: 77.0
+  z: -459.1813392735443
+  yaw: 152.07594299316406
+  pitch: 11.009167671203613
+  world-name: world
+afk: false
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: 577.360501971293
+  y: 90.37144571088295
+  z: 522.7743388200558
+  yaw: 124.47837829589844
+  pitch: 25.21857452392578
+  world-name: world
+homes:
+  casita:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: 941.5
+    y: 71.0
+    z: 958.5
+    yaw: 88.49562072753906
+    pitch: 16.650190353393555
+    world-name: world
+  pieza:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: -1708.5182276985822
+    y: 77.0
+    z: -1051.4590937563455
+    yaw: 267.8971252441406
+    pitch: 0.5999792218208313
+    world-name: world
+  uwu:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: -2126.854667870892
+    y: 72.0
+    z: -1516.8638383849661
+    yaw: 355.7987365722656
+    pitch: 25.500202178955078
+    world-name: world
+  blaze:
+    world: ddd15208-45ed-42b1-90a4-dbd0adfbea42
+    x: -549.122344174809
+    y: 53.0
+    z: -179.22187154030738
+    yaw: -186.1636962890625
+    pitch: 20.70096778869629
+    world-name: world_nether
+  spawner:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: -3292.63361152646
+    y: 60.0
+    z: 8033.337389233876
+    yaw: 220.348876953125
+    pitch: 23.100370407104492
+    world-name: world
+  lanzas:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: 5217.3527031617605
+    y: 80.0
+    z: 6504.106264192547
+    yaw: -263.46978759765625
+    pitch: -4.800009250640869
+    world-name: world
+  end_:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: 1214.9238205231245
+    y: 28.0
+    z: 1315.6028812395477
+    yaw: 1.4478759765625
+    pitch: 23.41598892211914
+    world-name: world
+  japonfeudal:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: -545.4083090251568
+    y: 69.0
+    z: 2921.7188604635817
+    yaw: 87.25965881347656
+    pitch: 44.0999641418457
+  e18:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    world-name: world
+    x: -1790.5405865480816
+    y: 74.0
+    z: 2566.2190490075195
+    yaw: 91.957763671875
+    pitch: 17.849973678588867
+money: '9439941.75249999998022851'
+nickname: Storbo
+socialspy: false
+godmode: false
+ip-address: 201.239.114.55
+last-account-name: Storbo
+teleportenabled: true
+teleportauto: false
+muted: false
+jailed: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+lastAccountName: Storbo
+ipAddress: 201.241.56.246

@@ -1,0 +1,2 @@
+# This file is used to determine any /team commands which contain a cooldown or price . NOTE this currently does not work with /teama commands
+costFromTeam: true

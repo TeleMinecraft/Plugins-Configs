@@ -1,0 +1,19 @@
+playername: J4CK
+lang: es_ES
+minerate-full-mined: 3860
+minerate:
+  diamond: 0
+  gold: 4
+  iron: 97
+  coal: 166
+  ancient debris: 0
+better-click: 8
+cheats:
+  inventorymove: 1
+  pingspoof: 2
+  fly: 149
+  nuker: 1
+  forcefield: 1
+  blink: 1
+  speed: 1
+creation-time: 1617596622123

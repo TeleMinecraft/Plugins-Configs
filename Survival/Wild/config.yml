@@ -1,0 +1,34 @@
+# worldTo is  optional only use if you need to have to teleport from world a to b
+# Used as such
+# regions:
+#    worldName:
+#       worldTo: "otherWorldName"
+#    otherWorldName:
+#       normal stuff
+# Accepted default language files are english, spanish, dutch, deutsch, french, and italian.
+# You can add any other language you want by making a yml in the lang file and then putting the yml file's name
+# in language spot.
+# Cooldown is in seconds
+config-version: 403
+language: english
+blacklisted-biomes:
+- OCEAN
+use_hooks: false
+distance: 1000
+cost: 0
+retry_limit: -1
+delay: 0
+TeleportNewbies: true
+cooldown: 300
+regions:
+  world:
+    minX: -2000
+    maxX: 2000
+    minZ: -200
+    maxZ: 2000
+    worldTo: ''
+limit_usage: false
+teleport_on_respawn: false
+use_limit:
+  Rank1: -1
+  Rank2: -1

@@ -1,0 +1,13 @@
+playername: zazon222
+lang: es_ES
+minerate-full-mined: 240
+minerate:
+  diamond: 0
+  gold: 0
+  iron: 10
+  coal: 8
+  ancient debris: 0
+better-click: 5
+cheats:
+  forcefield: 1
+creation-time: 1618781823499

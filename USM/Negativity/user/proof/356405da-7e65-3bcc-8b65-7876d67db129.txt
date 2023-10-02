@@ -1,0 +1,4 @@
+2021-09-27 03:48:27.316: (149ms) 100% TIMER > Flying: 0, position: 9, look: 0, positionLook: 18, sum: 29.0, median: 27. Player version: V1_16. TPS: [20.362974160781175, 20.085446894987765, 20.030538154451495]
+2021-09-27 03:48:27.859: (149ms) 100% TIMER > Flying: 0, position: 0, look: 0, positionLook: 11, sum: 27.0, median: 27. Player version: V1_16. TPS: [20.362974160781175, 20.085446894987765, 20.030538154451495]
+2021-09-29 02:07:02.632: (157ms) 98% FASTPLACE > Block placed too quickly. Last time: 65, Last with ping: 48. Ping: 157. Player version: V1_16. TPS: [19.981956273980536, 19.996434666560255, 19.99931850421748]
+2021-09-29 02:20:11.672: (156ms) 100% SPIDER > Nothing around him. To > From: 0.6686636278992069 isAris: false, has not stab slairs. Player version: V1_16. TPS: [19.991809978162514, 19.997221147781712, 19.99927931447116]

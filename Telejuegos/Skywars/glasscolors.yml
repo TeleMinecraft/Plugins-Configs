@@ -1,0 +1,173 @@
+# The first value is the glass color.
+# The second value is the level to unlock that glass color.
+
+colors:
+  white:
+    displayname: '&bBlanco'
+    level: 1
+    cost: 10
+    material: WHITE_STAINED_GLASS
+    datavalue: -1
+    position: 2
+    page: 1
+  orange:
+    displayname: '&bNaranjo'
+    level: 1
+    cost: 10
+    material: ORANGE_STAINED_GLASS
+    datavalue: -1
+    position: 4
+    page: 1
+  magenta:
+    displayname: '&bMagenta'
+    level: 1
+    cost: 10
+    material: MAGENTA_STAINED_GLASS
+    datavalue: -1
+    position: 6
+    page: 1
+  lightblue:
+    displayname: '&bCeleste'
+    level: 1
+    cost: 10
+    material: LIGHT_BLUE_STAINED_GLASS
+    datavalue: -1
+    position: 8
+    page: 1
+  yellow:
+    displayname: '&bAmarillo'
+    level: 1
+    cost: 10
+    material: YELLOW_STAINED_GLASS
+    datavalue: -1
+    position: 9
+    page: 1
+  lime:
+    displayname: '&bVerde'
+    level: 1
+    cost: 10
+    material: LIME_STAINED_GLASS
+    datavalue: -1
+    position: 11
+    page: 1
+  pink:
+    displayname: '&bRosado'
+    level: 1
+    cost: 10
+    material: PINK_STAINED_GLASS
+    datavalue: -1
+    position: 13
+    page: 1
+  gray:
+    displayname: '&bGris'
+    level: 1
+    cost: 10
+    material: GRAY_STAINED_GLASS
+    datavalue: -1
+    position: 15
+    page: 1
+  lightgray:
+    displayname: '&bGris claro'
+    level: 1
+    cost: 10
+    material: LIGHT_GRAY_STAINED_GLASS
+    datavalue: -1
+    position: 17
+    page: 1
+  cyan:
+    displayname: '&bCyan'
+    level: 1
+    cost: 10
+    material: CYAN_STAINED_GLASS
+    datavalue: -1
+    position: 18
+    page: 1
+  purple:
+    displayname: '&bMorado'
+    level: 1
+    cost: 10
+    material: PURPLE_STAINED_GLASS
+    datavalue: -1
+    position: 20
+    page: 1
+  blue:
+    displayname: '&bAzul'
+    level: 1
+    cost: 10
+    material: BLUE_STAINED_GLASS
+    datavalue: -1
+    position: 22
+    page: 1
+  brown:
+    displayname: '&bCafé'
+    level: 1
+    cost: 10
+    material: BROWN_STAINED_GLASS
+    datavalue: -1
+    position: 24
+    page: 1
+  green:
+    displayname: '&bVerde oscuro'
+    level: 1
+    cost: 10
+    material: GREEN_STAINED_GLASS
+    datavalue: -1
+    position: 26
+    page: 1
+  red:
+    displayname: '&bRojo'
+    level: 1
+    cost: 10
+    material: RED_STAINED_GLASS
+    datavalue: -1
+    position: 27
+    page: 1
+  black:
+    displayname: '&bNegro'
+    level: 1
+    cost: 10
+    material: BLACK_STAINED_GLASS
+    datavalue: -1
+    position: 29
+    page: 1
+  lapis:
+    displayname: '&bLapislazuli'
+    level: 5
+    cost: 30
+    material: LAPIS_BLOCK
+    datavalue: -1
+    position: 31
+    page: 1
+  redstone:
+    displayname: '&bRedstone'
+    level: 5
+    cost: 30
+    material: REDSTONE_BLOCK
+    datavalue: -1
+    position: 33
+    page: 1
+  emerald:
+    displayname: '&bEsmeralda'
+    level: 10
+    cost: 70
+    material: EMERALD_BLOCK
+    datavalue: -1
+    position: 35
+    page: 1
+  diamond:
+    displayname: '&bDiamamte'
+    level: 10
+    cost: 100
+    material: DIAMOND_BLOCK
+    datavalue: -1
+    position: 36
+    page: 1
+  none:
+    displayname: '&bSin color'
+    level: 0
+    cost: 0
+    material: GLASS
+    datavalue: -1
+    position: 0
+    page: 1
+menuSize: 45

@@ -1,0 +1,17 @@
+playername: Matroxmatrix
+lang: es_ES
+minerate-full-mined: 1733
+minerate:
+  diamond: 0
+  gold: 3
+  iron: 40
+  coal: 0
+  ancient debris: 0
+better-click: 11
+cheats:
+  inventorymove: 3
+  timer: 3
+  nuker: 3
+  forcefield: 1
+  speed: 3
+creation-time: 1619238496802

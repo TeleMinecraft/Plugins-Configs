@@ -1,0 +1,29 @@
+timestamps:
+  login: 1587871436983
+  logout: 1587876070938
+  lastteleport: 1587873481304
+lastlocation:
+  world: world
+  x: 414.15826748705433
+  y: 66.0
+  z: -504.80007524602576
+  yaw: -179.24634
+  pitch: 35.549595
+money: '1214118.4700000000000191'
+homes:
+  home:
+    world: world
+    x: 3157.303449508482
+    y: 77.0
+    z: 3338.229233431084
+    yaw: 275.48956
+    pitch: 10.949553
+logoutlocation:
+  world: world
+  x: 3135.381952932665
+  y: 50.0
+  z: 3318.300330722468
+  yaw: 86.037964
+  pitch: 41.399323
+ip-address: 201.188.73.8
+last-account-name: Onny

@@ -1,0 +1,71 @@
+name: '&fJhony'
+# - NPC with id 148
+block_movement: false
+slow_effect: false
+save_conversation_progress: false
+start_conversation_radius: 0
+end_conversation_radius: 5
+requires_permission: false
+cooldown: 0
+hologram_dialogues:
+  enabled: false
+  offset_y: 0.0
+  offset_horizontal: 0.0
+starts_with: []
+conversation:
+  conversation1:
+    dialogue:
+      dialogue1:
+        text:
+        - '&bHola! Podrías hacerme un favor?'
+        time: 2
+        start_conversation: conversation2
+        conditional_dialogue:
+          conditional_dialogue1:
+            requires:
+            - '%checkitem_namecontains:&k% == yes'
+            start_conversation: conversation4
+    random_dialogue: false
+    interrupt_actions: []
+  conversation2:
+    dialogue:
+      dialogue1:
+        text:
+        - '&bMe da vergüenza ir de nuevo a ese local después'
+        - '&bde que los insultara por los altos precios...'
+        time: 5
+        start_conversation: conversation3
+    random_dialogue: false
+    interrupt_actions: []
+  conversation3:
+    dialogue:
+      dialogue1:
+        text:
+        - '&bPero en serio necesito esa compra,'
+        - '&bpodrías hacerla por mí?'
+        - ''
+        - '&bEs muy simple, debes comprar todos los items'
+        - '&bque ofrece el vendedor y luego hablar con'
+        - '&bAlquimista, él sabe qué hacer con los ingredientes'
+        time: 4
+        last_actions:
+        - 'console_command: si give hierro+ 1 %player% true'
+        - 'console_command: si give oro+ 1 %player% true'
+        - 'console_command: si give esmeralda+ 1 %player% true'
+        - 'console_command: si give diamante+ 1 %player% true'
+    random_dialogue: false
+    interrupt_actions: []
+  conversation4:
+    dialogue:
+      dialogue1:
+        text:
+        - '&bMuchísimas gracias!'
+        time: 3
+        last_actions:
+        - 'console_command: si take mezcla_mortal 100 %player% true'
+        - 'playsound: ENTITY_GENERIC_DRINK;10;1'
+        - 'console_command: si give requisito1 1 %player% true'
+        - 'wait: 100'
+        - 'player_command: warp Mision18'
+    random_dialogue: false
+    interrupt_actions: []

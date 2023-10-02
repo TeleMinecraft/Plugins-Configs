@@ -1,0 +1,43 @@
+Kits:
+  Inicio:
+    Items:
+      '1':
+        id: PAPER
+        amount: '1'
+        durability: '0'
+        name: '&9&lCredencial USM'
+        unbreakable: 'false'
+        custom_model_data: '1'
+      '2':
+        id: PAPER
+        amount: '1'
+        durability: '0'
+        name: '&e&lTarjeta Cuenta RUT'
+        unbreakable: 'false'
+        custom_model_data: '2'
+      '3':
+        id: PAPER
+        amount: '1'
+        durability: '0'
+        name: '&b&lJUNAEB'
+        unbreakable: 'false'
+        custom_model_data: '3'
+      '4':
+        id: FEATHER
+        amount: '1'
+        durability: '0'
+        name: '&6&lVuelo'
+        unbreakable: 'false'
+    slot: 1
+    display_item: IRON_SWORD
+    display_name: '&6&lInicio &aKit'
+    display_lore:
+    - '&7This is a description of the kit.'
+    - '&7You can add multiples &alines&7.'
+    cooldown: 3600
+    permission: playerkits.kit.Inicio
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&6&lInicio &aKit'
+      display_lore:
+      - '&cNo tienes permiso para eso!'

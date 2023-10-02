@@ -1,0 +1,43 @@
+timestamps:
+  login: 1611893341776
+  lastteleport: 1611716136363
+  logout: 1611893445537
+lastlocation:
+  world: world
+  x: -1222.0517883624452
+  y: 250.0
+  z: 1560.9929303310817
+  yaw: -274.8214
+  pitch: 10.005823
+money: '1175347.875'
+logoutlocation:
+  world: world
+  x: -1221.7946668130621
+  y: 250.0
+  z: 1559.7581290554506
+  yaw: -121.62811
+  pitch: 48.150364
+homes:
+  a:
+    world: world
+    x: -1220.4628324749171
+    y: 250.0
+    z: 1560.5004276914583
+    yaw: -336.04773
+    pitch: 30.00437
+  end:
+    world: world
+    x: -1940.2331374600863
+    y: 13.0
+    z: 533.6727703328371
+    yaw: -268.8717
+    pitch: 39.849716
+  b:
+    world: world
+    x: -2276.45003622401
+    y: 9.0
+    z: 667.1696592824978
+    yaw: -182.41016
+    pitch: 6.368852
+ip-address: 190.45.85.249
+last-account-name: Sipo_Apruebo

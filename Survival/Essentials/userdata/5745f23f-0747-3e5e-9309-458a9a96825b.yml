@@ -1,0 +1,29 @@
+timestamps:
+  login: 1588012292015
+  logout: 1588013798831
+  lastteleport: 1587873964665
+lastlocation:
+  world: world
+  x: 3152.099256568344
+  y: 69.0
+  z: 3296.07095753563
+  yaw: 4.2207336
+  pitch: 5.0997605
+logoutlocation:
+  world: world
+  x: 3162.997561829314
+  y: 75.0
+  z: 3336.225627933529
+  yaw: 324.19092
+  pitch: 24.45035
+money: '1217332.4450000000000876'
+homes:
+  home:
+    world: world
+    x: 3158.2192684142137
+    y: 75.0
+    z: 3340.3823387960833
+    yaw: -51.571274
+    pitch: 14.400375
+ip-address: 201.246.86.196
+last-account-name: CNiloG

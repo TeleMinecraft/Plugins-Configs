@@ -1,0 +1,33 @@
+name: "#FF0000&lSacrifice"
+discover_title:
+  title: "&5Descubrimiento!"
+  subtitle: "&7Sacrifice: %name%"
+  fade_in: 20
+  stay: 60
+  fade_out: 20
+discover_message:
+- "&7Para ver tu nuevo logro usa &b/codex                          "
+discover_sound:
+  name: ENTITY_PLAYER_LEVELUP
+  volume: 10
+  pitch: 0.1
+discoveries:
+  1:
+    name: "&4Lucha por el Sacrificio"
+    lore:
+    - "&7Juega &nSacrifice"
+    #commands:
+    #- "xp give %player% 1"
+    #discovered_on_region: test
+    #discovered_on_mob_kill:
+    #  type: ZOMBIE
+    #  name: "Test"
+  2:
+    name: "&4Sacrificio Celestial"
+    lore:
+    - "&7Gana una partida de &nSacrifice"
+  3:
+    name: "&4Buen intento"
+    lore:
+    - "&7Usa el comando /suicide para"
+    - "&7intentar ganar en el &nSacrifice"

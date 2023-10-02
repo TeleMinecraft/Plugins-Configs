@@ -1,0 +1,96 @@
+timestamps:
+  login: 1666904987529
+  logout: 1666910765589
+  lastteleport: 1666910747472
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: -91.86155373043039
+  y: 71.0
+  z: -280.0879857265951
+  yaw: 43.798828125
+  pitch: 13.200039863586426
+  world-name: world
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: -273.30000001192093
+  y: 65.0
+  z: -742.6650064758439
+  yaw: 62.84980773925781
+  pitch: 26.999879837036133
+  world-name: world
+money: '833277.33649999999471626'
+homes:
+  home:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: 415.00459821649406
+    y: 64.0
+    z: -1231.7947408125283
+    yaw: 234.3000946044922
+    pitch: 31.20000648498535
+    world-name: world
+  mina:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: 353.3469974946388
+    y: 47.0
+    z: -1387.8952218460915
+    yaw: 295.341796875
+    pitch: -3.150053024291992
+    world-name: world
+  mina2:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: -7.681665116872209
+    y: 12.0
+    z: -1368.1412277726074
+    yaw: -165.00994873046875
+    pitch: 2.399864673614502
+    world-name: world
+  casita:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: -286.04624846078553
+    y: 65.0
+    z: -741.8442989978118
+    yaw: -186.00010681152344
+    pitch: 14.399877548217773
+    world-name: world
+  refugio:
+    world: world
+    x: 384.5838051978405
+    y: 18.0
+    z: -1376.0430924610403
+    yaw: -349.0429992675781
+    pitch: 20.999847412109375
+    world-name: ''
+  uwu:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: -1697.7841607457935
+    y: 70.0
+    z: -1111.0149866564766
+    yaw: -188.05503845214844
+    pitch: 40.049495697021484
+    world-name: world
+  owo:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: -519.3660046286734
+    y: 42.5
+    z: 1015.3084648351382
+    yaw: -183.30718994140625
+    pitch: 13.500240325927734
+    world-name: world
+nickname: Bastiramelo
+afk: false
+ip-address: 45.232.95.89
+last-account-name: Bastiramelo
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false

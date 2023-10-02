@@ -1,0 +1,21 @@
+uuid: 536f8948-91b4-333c-93a9-a72cc65ab394
+wins: 14
+losses: 31
+kills: 14
+deaths: 31
+elo: 2147483585
+xp: 112
+pareffect: none
+proeffect: none
+glasscolor: none
+killsound: none
+winsound: none
+taunt: teclado
+permissions:
+- sw.taunt.none
+- sw.taunt.izi
+- sw.taunt.teclado
+- sw.taunt.manos
+- sw.taunt.facilito
+- sw.taunt.hace
+- sw.taunt.bots

@@ -1,0 +1,127 @@
+identifier: 71fc2b53-22d9-312d-8649-83001a4d0548
+quests:
+- stage0datas:
+    remaining:
+      0: 1
+      2: 1
+      3: 1
+  questID: 1
+  currentStage: 0
+  currentBranch: 0
+- stage0datas:
+    amount: 1
+  questID: 2
+  currentStage: 0
+  currentBranch: 0
+- stage0datas:
+    remaining:
+      0: 10
+      1: 5
+      2: 1
+  questID: 3
+  currentStage: 0
+  currentBranch: 0
+- stage0datas:
+    remaining:
+      0: 15
+      1: 10
+      2: 5
+      3: 5
+      4: 3
+      5: 3
+  questID: 4
+  currentStage: 0
+  currentBranch: 0
+- stage0datas:
+    remaining:
+      0: 64
+      1: 32
+      2: 25
+      3: 20
+      4: 15
+      5: 15
+      6: 5
+      7: 1
+      8: 3
+  questID: 5
+  currentStage: 0
+  currentBranch: 0
+- stage0datas:
+    remaining:
+      0: 3
+  questID: 6
+  currentStage: 0
+  currentBranch: 0
+- stage0datas:
+    remaining:
+      0: 2
+      1: 2
+  questID: 7
+  currentStage: 0
+  currentBranch: 0
+- stage0datas:
+    remaining:
+      0: 3
+      1: 3
+  questID: 8
+  currentStage: 0
+  currentBranch: 0
+- stage0datas:
+    remaining:
+      0: 10
+  questID: 9
+  currentStage: 0
+  currentBranch: 0
+- stage0datas:
+    remaining:
+      2: 5
+  questID: 10
+  currentStage: 0
+  currentBranch: 0
+- stage0datas:
+    remaining:
+      2: 10
+      3: 1
+      4: 1
+  questID: 11
+  currentStage: 0
+  currentBranch: 0
+- stage0datas:
+    remaining:
+      2: 20
+      3: 5
+      4: 5
+      5: 5
+      6: 5
+      7: 5
+  questID: 12
+  currentStage: 0
+  currentBranch: 0
+- stage0datas:
+    remaining:
+      0: 1
+  questID: 14
+  currentStage: 0
+  currentBranch: 0
+- stage0datas:
+    remaining:
+      1: 2
+  questID: 15
+  currentStage: 0
+  currentBranch: 0
+- stage0datas:
+    remaining:
+      0: 10
+  questID: 16
+  currentStage: 0
+  currentBranch: 0
+- stage0datas:
+    amount: 1
+  questID: 17
+  currentStage: 0
+  currentBranch: 0
+- stage0datas:
+    amount: 1
+  questID: 18
+  currentStage: 1
+  currentBranch: 0

@@ -1,0 +1,4 @@
+2021-05-08 01:50:19.317: (0ms) 100% BLINK > No packet. Last other than KeepAlive: PacketPlayInCustomPayload there is: 3850ms . Ping: 0. Warn: 0. Player version: V1_16. TPS: [20.000001389665105, 20.000000711842926, 20.00000119911261]
+2021-05-13 00:29:31.67: (0ms) 100% BLINK > No packet. Last other than KeepAlive: PacketPlayInCustomPayload there is: 3600ms . Ping: 0. Warn: 0. Player version: V1_16. TPS: [20.00003694370647, 20.00001728758572, 20.00142730713143]
+2021-06-22 21:51:12.95: (0ms) 100% BLINK > No packet. Last other than KeepAlive: PacketPlayInBlockPlace there is: 3752ms . Ping: 0. Warn: 0. Player version: V1_16. TPS: [20.000000000001506, 20.000000180817796, 20.00000260261779]
+2021-06-22 21:56:22.948: (0ms) 100% BLINK > No packet. Last other than KeepAlive: PacketPlayInBlockPlace there is: 3900ms . Ping: 0. Warn: 0. Player version: V1_16. TPS: [20.022587384759372, 20.003337846988657, 20.00103805920811]

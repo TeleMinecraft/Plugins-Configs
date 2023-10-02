@@ -1,0 +1,52 @@
+customItem:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2860
+  type: MUSIC_DISC_13
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    ItemFlags:
+    - HIDE_ATTRIBUTES
+name: §6§lTalento Musical §2[Gremio]
+description: §eToca música
+repeatable: true
+endRewards:
+- id: commandReward
+  commands:
+  - console: true
+    delay: 0
+    label: scoreboard players add {PLAYER} Prestigio 4
+- id: itemReward
+  items:
+  - v: 2860
+    type: BELL
+bypassLimit: true
+timer: 1440
+id: 18
+manager:
+  branches:
+  - order: 0
+    stages:
+    - stageType: INTERACT
+      customText: null
+      leftClick: false
+      block: BELL
+      order: 0
+    - result:
+        v: 2860
+        type: JUKEBOX
+      stageType: CRAFT
+      customText: null
+      order: 1
+    - result:
+        v: 2860
+        type: NOTE_BLOCK
+      stageType: CRAFT
+      customText: null
+      order: 2
+    - stageType: INTERACT
+      customText: null
+      leftClick: false
+      block: NOTE_BLOCK
+      order: 3
+    endingStages: []

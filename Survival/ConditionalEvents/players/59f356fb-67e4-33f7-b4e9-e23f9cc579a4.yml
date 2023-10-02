@@ -1,0 +1,5 @@
+name: Megaplayer64
+events:
+  resistencia_y_skin_al_entrar:
+    one_time: false
+    cooldown: 1687128969096

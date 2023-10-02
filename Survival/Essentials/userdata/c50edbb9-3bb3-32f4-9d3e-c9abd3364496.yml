@@ -1,0 +1,29 @@
+timestamps:
+  login: 1624675197905
+  lastteleport: 1619722075958
+  logout: 1624675231176
+lastlocation:
+  world: world
+  x: -3825.0610562662423
+  y: 68.0
+  z: 1073.9474938004053
+  yaw: 246.31226
+  pitch: 10.199992
+money: '1156402.0'
+homes:
+  home:
+    world: world
+    x: -3708.1320764481397
+    y: 63.0
+    z: 1287.8433804869774
+    yaw: 289.06635
+    pitch: 6.4911423
+logoutlocation:
+  world: world
+  x: -4010.883516498124
+  y: 71.0
+  z: 955.6097478385012
+  yaw: 46.73315
+  pitch: -10.939084
+ip-address: 186.106.211.51
+last-account-name: Cristian367

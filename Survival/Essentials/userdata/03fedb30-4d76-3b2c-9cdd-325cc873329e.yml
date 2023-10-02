@@ -1,0 +1,65 @@
+timestamps:
+  login: 1650155956805
+  lastteleport: 1650161290800
+  logout: 1650161317649
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+lastlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: -1727.411740915564
+  y: 11.0
+  z: 178.909914638899
+  yaw: -152.3238525390625
+  pitch: 7.278364181518555
+  world-name: world
+money: '14601210.439500000003691485'
+logoutlocation:
+  world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+  x: -1842.6660849160046
+  y: 63.0
+  z: 287.1597061347223
+  yaw: 24.99663734436035
+  pitch: -14.068997383117676
+  world-name: world
+homes:
+  home:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: -1844.5133890938503
+    y: 71.0
+    z: 277.6722403170358
+    yaw: 354.752685546875
+    pitch: 17.099952697753906
+    world-name: world
+  oro:
+    world: world_nether
+    x: -134.74062270167565
+    y: 128.0
+    z: -13.738897451594374
+    yaw: 288.88006591796875
+    pitch: -8.059803009033203
+    world-name: ''
+  pociones:
+    world: 6275cffa-8abc-4618-9934-0e82135ccf7a
+    x: -1863.5994926602664
+    y: 65.0
+    z: -3080.720212613476
+    yaw: 148.6884002685547
+    pitch: 90.0
+    world-name: world
+afk: false
+ip-address: 45.232.92.77
+last-account-name: michinoyaa
+lastAccountName: michinoyaa
+ipAddress: 168.196.203.119
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false

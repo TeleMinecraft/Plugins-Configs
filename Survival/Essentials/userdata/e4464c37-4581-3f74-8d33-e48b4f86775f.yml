@@ -1,0 +1,29 @@
+timestamps:
+  login: 1638392056669
+  logout: 1638392188566
+  lastteleport: 1609702323716
+lastlocation:
+  world: world
+  x: -1307.119277088204
+  y: 64.0
+  z: -5081.550089473892
+  yaw: 336.45126
+  pitch: 28.200027
+logoutlocation:
+  world: world
+  x: -2968.0357725422155
+  y: 68.0
+  z: -4528.432036641894
+  yaw: 29.151453
+  pitch: 17.700104
+money: '1237739.09650000000021630'
+homes:
+  home:
+    world: world
+    x: -2958.4427111791047
+    y: 73.0625
+    z: -4521.541015148299
+    yaw: -180.99408
+    pitch: 24.300604
+ip-address: 190.8.121.132
+last-account-name: camiix_x

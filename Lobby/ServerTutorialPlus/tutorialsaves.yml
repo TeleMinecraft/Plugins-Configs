@@ -1,0 +1,151 @@
+tutorials:
+  Lobby:
+    stats:
+      plays: 50
+    invisible: false
+    permission: false
+    block-chat: false
+    blocks-commands: false
+    rewards: []
+    command-whitelist: []
+    points:
+      '0':
+        type: TIMED
+        location: world 0.5135158091584069 33.0 0.5136719934265731 270.1998 -0.3000238
+        time: 4.0
+        locplayer: false
+        locview: false
+        messages: []
+        commands: []
+        title:
+          title: §bEste es el §dSpawn
+          subtitle: §bdel §d§lTeleserver
+          fade-in: 20
+          stay: 40
+          fade-out: 20
+      '1':
+        type: TIMED
+        location: world 29.5 45.0 0.5 270.04996 -1.7999997
+        time: 4.0
+        locplayer: false
+        locview: false
+        messages: []
+        commands: []
+        title:
+          title: §7Sección §e§lInfo
+          subtitle: ''
+          fade-in: 20
+          stay: 40
+          fade-out: 20
+      '2':
+        type: TIMED
+        location: world 69.5 39.0 0.5 269.75085 -1.0500216
+        time: 4.0
+        locplayer: false
+        locview: false
+        messages: []
+        commands: []
+        title:
+          title: §fAquí encontrarás
+          subtitle: §flos datos más §eimportantes §fdel servidor
+          fade-in: 20
+          stay: 40
+          fade-out: 20
+      '3':
+        type: TIMED
+        location: world 0.5 37.0 -35.5 180.35132 -1.0500059
+        time: 4.0
+        locplayer: false
+        locview: false
+        messages: []
+        commands: []
+        title:
+          title: §7Sección §a§lSurvival
+          subtitle: ''
+          fade-in: 20
+          stay: 40
+          fade-out: 20
+      '4':
+        type: TIMED
+        location: world -2.5 41.0 -59.5 202.70139 30.44998
+        time: 4.0
+        locplayer: false
+        locview: false
+        messages: []
+        commands: []
+        title:
+          title: §fUn §aSurvival
+          subtitle: §fcon §amejoras §fpara una §aexperiencia única§f!
+          fade-in: 20
+          stay: 40
+          fade-out: 20
+      '5':
+        type: TIMED
+        location: world -35.393637290183996 40.0 0.46118825999894336 90.051186 -1.0499476
+        time: 4.0
+        locplayer: false
+        locview: false
+        messages: []
+        commands: []
+        title:
+          title: §7Sección §d§lTelejuegos
+          subtitle: ''
+          fade-in: 20
+          stay: 40
+          fade-out: 20
+      '6':
+        type: TIMED
+        location: world -54.50062107724714 39.0 0.5688199509431309 89.45141 -2.0999959
+        time: 4.0
+        locplayer: false
+        locview: false
+        messages: []
+        commands: []
+        title:
+          title: §fJuegos §d§loriginales!
+          subtitle: '§fy los clásicos: §dSkyWars§7 | §dBedWars §7| §dTNTRUN'
+          fade-in: 20
+          stay: 40
+          fade-out: 20
+      '7':
+        type: TIMED
+        location: world 0.5257559385458269 41.0 37.47452264240516 -0.69857055 -3.3000069
+        time: 4.0
+        locplayer: false
+        locview: false
+        messages: []
+        commands: []
+        title:
+          title: §7Sección §3§lUSM
+          subtitle: ''
+          fade-in: 20
+          stay: 40
+          fade-out: 20
+      '8':
+        type: TIMED
+        location: world -0.5 49.0 47.5 0.5014337 11.400034
+        time: 4.0
+        locplayer: false
+        locview: false
+        messages: []
+        commands: []
+        title:
+          title: §3Campus San Joaquín
+          subtitle: §frecreado en Minecraft!
+          fade-in: 20
+          stay: 40
+          fade-out: 20
+      '9':
+        type: TIMED
+        location: world 0.5 33.0 0.5 -90.0 90.0
+        time: 4.0
+        locplayer: false
+        locview: false
+        messages: []
+        commands: []
+        title:
+          title: §aDisfruta del Server!
+          subtitle: §fMás dudas? Pregúntanos en §nInstagram§f!
+          fade-in: 20
+          stay: 40
+          fade-out: 20

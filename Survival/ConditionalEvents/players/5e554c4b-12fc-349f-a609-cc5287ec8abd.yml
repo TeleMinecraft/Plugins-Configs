@@ -1,0 +1,8 @@
+name: kutabare
+events:
+  event57:
+    one_time: false
+    cooldown: 1666906005692
+  event90:
+    one_time: false
+    cooldown: 1666908920177

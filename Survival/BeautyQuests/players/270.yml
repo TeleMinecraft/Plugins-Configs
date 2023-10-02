@@ -1,0 +1,37 @@
+identifier: b42b8738-2ea3-3783-afe8-8d86f0e2e422
+quests:
+- questID: 1
+  timer: 1690080770583
+  questFlow: 0:0
+  timesFinished: 1
+- questID: 2
+  timer: 1689994219084
+  questFlow: 0:0;0:1
+  timesFinished: 1
+- questID: 18
+  currentStage: 0
+  datas:
+    starting_time: 1690262882685
+    stage0: {}
+  currentBranch: 0
+- questID: 3
+  timer: 1690079604296
+  questFlow: 0:0
+  timesFinished: 1
+- questID: 4
+  currentStage: 0
+  datas:
+    starting_time: 1689994058815
+    stage0:
+      remaining:
+        00000000-0000-0004-0000-0000000009ae: 2
+  currentBranch: 0
+- questID: 10
+  currentStage: 0
+  datas:
+    starting_time: 1690110536243
+    stage0:
+      remaining:
+        00000000-0000-0000-0000-0000000009ae: 5
+        00000000-0000-0002-0000-0000000009ae: 5
+  currentBranch: 0

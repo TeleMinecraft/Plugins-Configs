@@ -1,0 +1,2 @@
+2021-04-24 04:14:02.123: (143ms) 92% AUTOCLICK > Clicks in one second: 37; Last second: 11; Better click in one second: 17 Ping: 143. Player version: V1_16. TPS: [20.26654601641332, 20.074962969843455, 19.998313222067665]
+2021-04-24 04:14:02.723: (143ms) 95% AUTOCLICK > Clicks in one second: 38; Last second: 11; Better click in one second: 17 Ping: 143. Player version: V1_16. TPS: [20.26654601641332, 20.074962969843455, 19.998313222067665]

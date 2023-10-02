@@ -1,0 +1,62 @@
+name: chipydayy
+events:
+  resistencia_y_skin_al_entrar:
+    one_time: false
+    cooldown: 1691868440195
+  descripcion_mision13:
+    one_time: false
+    cooldown: 1691868645725
+  mision_13:
+    one_time: false
+    cooldown: 1691868648910
+  mision_5:
+    one_time: false
+    cooldown: 1691868669894
+  mision_14:
+    one_time: false
+    cooldown: 1691868675096
+  mision_15:
+    one_time: false
+    cooldown: 1691868675750
+  mision_16:
+    one_time: false
+    cooldown: 1691868675902
+  mision_17:
+    one_time: false
+    cooldown: 1691868676162
+  mision_18:
+    one_time: false
+    cooldown: 1691868676496
+  mision_7:
+    one_time: false
+    cooldown: 1691868678814
+  mision_8:
+    one_time: false
+    cooldown: 1691868679000
+  mision_9:
+    one_time: false
+    cooldown: 1691868679463
+  mision_10:
+    one_time: false
+    cooldown: 1691868679851
+  mision_11:
+    one_time: false
+    cooldown: 1691868680380
+  mision_12:
+    one_time: false
+    cooldown: 1691868680596
+  mision_1:
+    one_time: false
+    cooldown: 1691868683372
+  mision_2:
+    one_time: false
+    cooldown: 1691868683748
+  mision_3:
+    one_time: false
+    cooldown: 1691868684201
+  mision_4:
+    one_time: false
+    cooldown: 1691868684656
+  mision_6:
+    one_time: false
+    cooldown: 1691868687252
