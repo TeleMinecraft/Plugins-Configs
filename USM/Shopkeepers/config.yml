@@ -4,7 +4,7 @@
 # The wiki also explains how item data gets specified inside the config.
 # Community translations: https://github.com/Shopkeepers/Language-Files
 # *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
-# 
+#
 # Determines the required config migrations. Do not edit manually!
 config-version: 5
 debug: false
@@ -562,3 +562,7 @@ book-empty-trade-item2: GRAY_STAINED_GLASS_PANE
 book-empty-item1: BARRIER
 book-empty-item2: BARRIER
 placeholder-item: PAPER
+cancel-citizen-npc-interactions: true
+enable-hanging-sign-shops: true
+enable-moving-of-player-shops: true
+move-item: ENDER_PEARL

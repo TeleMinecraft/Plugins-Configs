@@ -4,7 +4,7 @@ Plugin:
   Command_Aliases: excellentcrates,ecrates,crates,crate,case,cases
   # Sets the plugin language.
   # It will use language config from the '/lang/' sub-folder for specified language code.
-  # By default it's 'en', so 'messages_en.yml' will be used.
+  # By default uses your system's default locale.
   Language: en
   # Plugin prefix. Used in messages.
   # You can use %plugin_name_localized% placeholder for a plugin name.
@@ -48,9 +48,9 @@ Database:
     FileName: data.db
 
 Crate:
-  # Defines the crate behavior on certain block/NPC clicks.
-  # Allowed click types: LEFT, RIGHT, MIDDLE, SHIFT_LEFT, SHIFT_RIGHT
-  # Allowed crate actions: CRATE_OPEN, CRATE_PREVIEW
+  # Defines the crate behavior on certain clicks.
+  # Allowed click types: LEFT, RIGHT, SHIFT_LEFT, SHIFT_RIGHT
+  # Allowed crate actions: CRATE_OPEN, CRATE_MASS_OPEN, CRATE_PREVIEW
   Click_Actions:
     LEFT: CRATE_PREVIEW
     RIGHT: CRATE_OPEN

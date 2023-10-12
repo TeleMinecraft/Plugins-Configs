@@ -24,7 +24,7 @@ example:
     unlocked: false
     announced: false
   walker2:
-    progress: 8192
+    progress: 8286
     active: false
     completed: false
     unlocked: false

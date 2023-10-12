@@ -1,0 +1,667 @@
+Bungeecord
+
+AdvancedBan | 1.20
+https://www.spigotmc.org/resources/advancedban.8695/
+
+AdvancedNMotd | 1.19
+https://www.spigotmc.org/resources/advancednmotd-let-your-motd-smile.58677/
+
+EasyCommandBlocker | 1.20
+https://www.spigotmc.org/resources/easycommandblocker-spigot-waterfall-velocity-1-8-1-19.101752/
+
+Negativity Anti-Cheat | 1.20
+https://www.spigotmc.org/resources/ac-negativity-spigot-1-7-1-19-sponge-bungeecord-velocity.48399/
+
+SafeNET | 1.19
+https://www.spigotmc.org/resources/safenet-1-8-1-19-protect-your-network-from-ip-forward-bypass-exploit.65075/
+
+SkinRestorer | 1.20
+https://www.spigotmc.org/resources/skinsrestorer.2124/
+
+ViaBackwards | 1.20
+https://www.spigotmc.org/resources/viabackwards.27448/
+
+ViaVersion | 1.20
+https://www.spigotmc.org/resources/viaversion.19254/
+
+
+_________________________________________________________________
+
+
+Lobby
+
+AdvancedParticles | 1.19 (?)
+https://www.spigotmc.org/resources/advanceparticle-1-5-x-1-19-3-players-block-location-particles.71929/
+
+ajLeaderbords | 1.20
+https://www.spigotmc.org/resources/ajleaderboards.85548/
+
+ChatHearts | 1.20
+https://www.spigotmc.org/resources/1-8-chathearts.15598/
+
+ChatManager | 1.20
+https://www.spigotmc.org/resources/chat-manager-1-7-1-19-30-features-and-40-commands.52245/
+
+Citizens | 1.20
+https://www.spigotmc.org/resources/citizens.13811/
+
+CitizensText | 1.19
+https://www.spigotmc.org/resources/citizenstext.40107/
+
+CommandPanels | 1.20
+https://www.spigotmc.org/resources/command-panels-custom-guis.67788/
+
+ConditionalEvents | 1.20
+https://www.spigotmc.org/resources/conditionalevents-custom-actions-for-certain-events-1-8-1-19.82271/
+
+CustomAdvancements | 1.20
+https://www.spigotmc.org/resources/custom-advancements.91167/
+
+DecentHolograms | 1.20
+https://www.spigotmc.org/resources/decentholograms-1-8-1-19-3-papi-support-no-dependencies.96927/
+
+Denizen | 1.19
+https://www.spigotmc.org/resources/denizen.21039/
+
+EasyCommandBlocker | 1.19
+https://www.spigotmc.org/resources/easycommandblocker-spigot-waterfall-velocity-1-8-1-19.101752/
+
+Eglow | 1.20
+https://www.spigotmc.org/resources/eglow-glow-cosmetic-respects-eula-mysql.63295/
+
+EssentialsX, EssentialsXProtect, EssentialsXSpawn | 1.20
+https://www.spigotmc.org/resources/essentialsx.9089/
+
+FarmProtection | 1.20
+https://www.spigotmc.org/resources/farm-protection-for-mc-1-16-1-19.85488/
+
+HolographicDisplays | 1.20
+https://dev.bukkit.org/projects/holographic-displays
+
+HoloInfo | 1.19
+https://www.spigotmc.org/resources/holoinfo-holographic-information-1-8-1-16.65689/
+
+Interactions | 1.20
+https://www.spigotmc.org/resources/interactions-create-complex-conversations-with-npcs-1-8-1-19.87762/
+
+InteractiveBooks | 1.19
+https://www.spigotmc.org/resources/interactivebooks.45604/
+
+ItemEdit | 1.19
+https://www.spigotmc.org/resources/itemedit-1-8-x-1-20-x.40993/
+
+JumpPads | 1.19
+https://www.spigotmc.org/resources/custom-jumppads-1-8-1-19.44876/
+
+LoginSecurity | 1.20
+https://www.spigotmc.org/resources/loginsecurity.19362/
+
+LuckPerms | 1.20
+https://www.spigotmc.org/resources/luckperms.28140/
+
+Multiverse-Core | 1.19
+https://www.spigotmc.org/resources/multiverse-core.390/
+
+MyCommand | 1.20
+https://www.spigotmc.org/resources/mycommand.22272/
+
+Negativity Anti-Cheat | 1.20
+https://www.spigotmc.org/resources/ac-negativity-spigot-1-7-1-19-sponge-bungeecord-velocity.48399/
+
+PlaceholderAPI | 1.20
+https://www.spigotmc.org/resources/placeholderapi.6245/
+
+PlayerKits | 1.20
+https://www.spigotmc.org/resources/playerkits-fully-configurable-kits-1-8-1-19.75185/
+
+ProtocolLib | 1.19
+https://www.spigotmc.org/resources/protocollib.1997/
+
+RotatingHeads | 1.20
+https://www.spigotmc.org/resources/1-19-update-%E2%AD%90%EF%B8%8F-rotatingheads%E2%AD%90%EF%B8%8F-packet-based-decoration-plugin-%E2%AD%90%EF%B8%8F-best-for-lobbies.97906/
+
+SafeNET | 1.19
+https://www.spigotmc.org/resources/safenet-1-8-1-19-protect-your-network-from-ip-forward-bypass-exploit.65075/
+
+ServerTutorialPlus | 1.20
+https://www.spigotmc.org/resources/server-tutorial-plus.37741/
+
+ServerVariables | 1.20
+https://www.spigotmc.org/resources/servervariables-custom-data-and-variables-for-players-1-8-1-20-2.107803/
+
+SimplePortals | 1.20
+https://www.spigotmc.org/resources/%E2%8D%9F-simple-portals-%E2%8D%9F-effective-regional-portals-bungeecord-compatible.56772/
+
+SkinRestorer | 1.20
+https://www.spigotmc.org/resources/skinsrestorer.2124/
+
+Tablist | 1.20
+https://www.spigotmc.org/resources/animated-tab-tablist.46229/
+
+UltraBarPlugin | 1.20
+https://www.spigotmc.org/resources/ultra-bar.20113/
+
+Vault | 1.19
+https://www.spigotmc.org/resources/vault.34315/
+
+VoidSpawn | 1.18
+https://www.spigotmc.org/resources/voidspawn.19350/
+
+WorldEdit | 1.20
+https://dev.bukkit.org/projects/worldedit
+
+WorldGuard | 1.20
+https://dev.bukkit.org/projects/worldguard
+
+WorldGuardEvents | 1.19
+https://www.spigotmc.org/resources/worldguard-events.65176/
+
+Yamipa | 1.20
+https://www.spigotmc.org/resources/yamipa.88709/
+
+
+_________________________________________________________________
+
+
+Survival
+
+ABCore | 1.20
+https://www.spigotmc.org/resources/abcore.97898/
+
+ActionBarHealth | 1.20
+https://www.spigotmc.org/resources/action-bar-health.2661/
+
+AdvancedParticles | 1.19
+https://www.spigotmc.org/resources/advanceparticle-1-5-x-1-19-3-players-block-location-particles.71929/
+
+ajLeaderbords | 1.20
+https://www.spigotmc.org/resources/ajleaderboards.85548/
+
+AlchemicalArrows | 1.19
+https://www.spigotmc.org/resources/alchemicalarrows.11693/#:~:text=This%20plugin%20adds%2016%20unique,life%20arrows%20and%20more...
+
+BeautyQuest | 1.19
+https://www.spigotmc.org/resources/beautyquests.39255/
+
+BetterTeams | 1.20
+https://www.spigotmc.org/resources/better-teams.17129/
+
+ChatHearts | 1.20
+https://www.spigotmc.org/resources/1-8-chathearts.15598/
+
+ChatManager | 1.20
+https://www.spigotmc.org/resources/chat-manager-1-7-1-19-30-features-and-40-commands.52245/
+
+ChestShop | 1.20
+https://dev.bukkit.org/projects/chestshop
+
+Citizens | 1.20
+https://www.spigotmc.org/resources/citizens.13811/
+
+CitizensText | 1.19
+https://www.spigotmc.org/resources/citizenstext.40107/
+
+CMLib | 1.20
+https://www.spigotmc.org/resources/cmilib.87610/
+
+Codex | 1.20
+https://www.spigotmc.org/resources/codex-rpg-discoveries-1-8-1-19.90371/
+
+CommandPanels | 1.20
+https://www.spigotmc.org/resources/command-panels-custom-guis.67788/
+
+ConditionalEvents | 1.20
+https://www.spigotmc.org/resources/conditionalevents-custom-actions-for-certain-events-1-8-1-19.82271/
+
+CraftEnhance | 1.20
+https://www.spigotmc.org/resources/1-9-1-19-custom-recipes-and-crafting-craftenhance.65058/
+
+DeathCoordinates | 1.19
+https://www.spigotmc.org/resources/deathcoordinates-1-8-1-19.43318/
+
+DecentHolograms | 1.20
+https://www.spigotmc.org/resources/decentholograms-1-8-1-19-3-papi-support-no-dependencies.96927/
+
+Denizen | 1.19
+https://www.spigotmc.org/resources/denizen.21039/
+
+DiscordSRV | 1.20
+https://www.spigotmc.org/resources/discordsrv.18494/
+
+EasyCommandBlocker | 1.20
+https://www.spigotmc.org/resources/easycommandblocker-spigot-waterfall-velocity-1-8-1-19.101752/
+
+Enchantmentsplus | 1.18 (!)
+https://dev.bukkit.org/projects/enchantmentsplus
+
+EssentialsX, EssentialsXProtect, EssentialsXSpawn | 1.20
+https://www.spigotmc.org/resources/essentialsx.9089/
+
+ExcelLentCrates | 1.20
+https://www.spigotmc.org/resources/excellentcrates-advanced-custom-crates-now-even-better.48732/
+
+FarmProtection | 1.20
+https://www.spigotmc.org/resources/farm-protection-for-mc-1-16-1-19.85488/
+
+Graves | 1.20
+https://www.spigotmc.org/resources/graves.74208/
+
+HolographicDisplays | 1.20
+https://dev.bukkit.org/projects/holographic-displays
+
+Interactions | 1.20
+https://www.spigotmc.org/resources/interactions-create-complex-conversations-with-npcs-1-8-1-19.87762/
+
+InteractiveBooks | 1.19
+https://www.spigotmc.org/resources/interactivebooks.45604/
+
+ItemEdit | 1.20
+https://www.spigotmc.org/resources/itemedit-1-8-x-1-19-x.40993/
+
+ItemRarityGlow | 1.20
+https://www.spigotmc.org/resources/%E2%98%80-item-rarity-glow-%E2%98%80-glow-your-items-1-13-1-19.99981/
+
+JumpPads | 1.19
+https://www.spigotmc.org/resources/custom-jumppads-1-8-1-19.44876/
+
+JobsReborn | 1.20
+https://www.spigotmc.org/resources/jobs-reborn.4216/
+
+LibsDisguises | 1.20
+https://www.spigotmc.org/resources/libs-disguises-free.81/
+
+LuckPerms | 1.20
+https://www.spigotmc.org/resources/luckperms.28140/
+
+MagicalEvents | 1.20
+https://www.spigotmc.org/resources/1-8-to-1-20-magical-events.6140/
+
+MineableGems | 1.18 (?)
+https://www.spigotmc.org/resources/mineablegems-1-8-8-1-18-create-and-customize-your-own-drops.83807/
+
+ModelEngine | 1.20
+https://www.spigotmc.org/resources/conxeptworks-model-engine%E2%80%94ultimate-custom-entity-model-manager-1-16-5-1-19-3.79477/
+
+Multiverse-Core | 1.19
+https://www.spigotmc.org/resources/multiverse-core.390/
+
+MyCommand | 1.20
+https://www.spigotmc.org/resources/mycommand.22272/
+
+MythicMobs | 1.20
+https://www.spigotmc.org/resources/%E2%9A%94-mythicmobs-free-version-%E2%96%BAthe-1-custom-mob-creator%E2%97%84.5702/
+
+Negativity Anti-Cheat | 1.20
+https://www.spigotmc.org/resources/ac-negativity-spigot-1-7-1-19-sponge-bungeecord-velocity.48399/
+
+PlaceholderAPI | 1.20
+https://www.spigotmc.org/resources/placeholderapi.6245/
+
+PlayerKits | 1.20
+https://www.spigotmc.org/resources/playerkits-fully-configurable-kits-1-8-1-19.75185/
+
+PlotSquared | 1.20
+https://www.spigotmc.org/resources/plotsquared-v6.77506/
+
+Present | 1.20
+https://www.spigotmc.org/resources/present-1-17-1-19.97900/
+
+ProtectionStones | 1.20
+https://www.spigotmc.org/resources/protectionstones-updated-for-1-17.61797/
+
+ProtocolLib | 1.19
+https://www.spigotmc.org/resources/protocollib.1997/
+
+RotatingHeads | 1.20
+https://www.spigotmc.org/resources/rotatingheads-2-%E2%AD%90%EF%B8%8F-packet-based-decoration-plugin-%E2%AD%90%EF%B8%8F-armorstands-heads-and-entities-%E2%AD%90%EF%B8%8F-1-14-1-20.97906/
+
+SafeNET | 1.20
+https://www.spigotmc.org/resources/safenet-1-8-1-19-protect-your-network-from-ip-forward-bypass-exploit.65075/
+
+SellGUI | 1.20
+https://www.spigotmc.org/resources/sellgui.55201/
+
+ServerTutorialPlus | 1.20
+https://www.spigotmc.org/resources/server-tutorial-plus.37741/
+
+ServerVariables | 1.20
+https://www.spigotmc.org/resources/servervariables-custom-data-and-variables-for-players-1-8-1-19.107803/
+
+ShopKeepers | 1.20
+https://www.spigotmc.org/resources/shopkeepers.80756/
+
+SimplePortals | 1.20
+https://www.spigotmc.org/resources/%E2%8D%9F-simple-portals-%E2%8D%9F-effective-regional-portals-bungeecord-compatible.56772/
+
+SkinRestorer | 1.20
+https://www.spigotmc.org/resources/skinsrestorer.2124/
+
+SkyLantern | 1.20
+https://www.spigotmc.org/resources/sky-lantern-1-17-1-19.99615/
+
+SleepMost | 1.20
+https://www.spigotmc.org/resources/sleep-most-1-8-1-19-the-most-advanced-sleep-plugin-available-percentage-animations.60623/
+
+StackMob | 1.20
+https://www.spigotmc.org/resources/stackmob-enhance-your-servers-performance-without-the-sacrifice.29999/
+
+Tablist | 1.20
+https://www.spigotmc.org/resources/animated-tab-tablist.46229/
+
+TheSearch | 1.20
+https://www.spigotmc.org/resources/the-search-hidden-blocks-entities-in-your-lobbies-1-8-1-19.97334/
+
+TimedRewards | 1.19
+https://www.spigotmc.org/resources/timed-rewards.34008/
+
+TradeSystem | 1.20
+https://www.spigotmc.org/resources/trade-system-custom-layouts.58434/
+
+Vault | 1.19
+https://www.spigotmc.org/resources/vault.34315/
+
+WildernessTP | 1.19
+https://www.spigotmc.org/resources/wilderness-tp.18431/
+
+WorldEdit | 1.20
+https://dev.bukkit.org/projects/worldedit
+
+WorldGuard | 1.20
+https://dev.bukkit.org/projects/worldguard
+
+WorldGuardEvents | 1.19
+https://www.spigotmc.org/resources/worldguard-events.65176/
+
+XpBooster | 1.19
+https://www.spigotmc.org/resources/xpbooster.102045/
+
+Yamipa | 1.20
+https://www.spigotmc.org/resources/yamipa.88709/
+
+
+_________________________________________________________________
+
+
+Telejuegos
+
+AdvancedParticles | 1.19
+https://www.spigotmc.org/resources/advanceparticle-1-5-x-1-19-3-players-block-location-particles.71929/
+
+ajLeaderbords | 1.20
+https://www.spigotmc.org/resources/ajleaderboards.85548/
+
+AnimatedScoreboard | 1.20
+https://www.spigotmc.org/resources/animatedscoreboard.20848/
+
+BedWars | 1.20
+https://www.spigotmc.org/resources/screaming-bedwars-1-8-8-1-20-2.63714/
+
+ChatHearts | 1.20
+https://www.spigotmc.org/resources/1-8-chathearts.15598/
+
+ChatManager | 1.20
+https://www.spigotmc.org/resources/chat-manager-1-7-1-19-30-features-and-40-commands.52245/
+
+Citizens | 1.20
+https://www.spigotmc.org/resources/citizens.13811/
+
+CitizensText | 1.19
+https://www.spigotmc.org/resources/citizenstext.40107/
+
+Codex | 1.20
+https://www.spigotmc.org/resources/codex-rpg-discoveries-1-8-1-19.90371/
+
+CommandPanels | 1.20
+https://www.spigotmc.org/resources/command-panels-custom-guis.67788/
+
+ConditionalEvents | 1.20
+https://www.spigotmc.org/resources/conditionalevents-custom-actions-for-certain-events-1-8-1-19.82271/
+
+DecentHolograms | 1.20
+https://www.spigotmc.org/resources/decentholograms-1-8-1-19-3-papi-support-no-dependencies.96927/
+
+Denizen | 1.19
+https://www.spigotmc.org/resources/denizen.21039/
+
+Elevator | 1.20
+https://www.spigotmc.org/resources/simple-elevators-1-8-1-19.44462/
+
+EasyCommandBlocker | 1.20
+https://www.spigotmc.org/resources/easycommandblocker-spigot-waterfall-velocity-1-8-1-19.101752/
+
+EssentialsX, EssentialsXProtect, EssentialsXSpawn | 1.20
+https://www.spigotmc.org/resources/essentialsx.9089/
+
+ExecutableItems | 1.20
+https://www.spigotmc.org/resources/%E2%9A%94%EF%B8%8F-executableitems-%E2%AD%90-custom-tools-weapons-armor-set-potions-mmo-items-vouchers-cosmetics-%E2%AD%90.83070/
+
+FarmProtection | 1.20
+https://www.spigotmc.org/resources/farm-protection-for-mc-1-16-1-19.85488/
+
+HolographicDisplays | 1.20
+https://dev.bukkit.org/projects/holographic-displays
+
+Interactions | 1.20
+https://www.spigotmc.org/resources/interactions-create-complex-conversations-with-npcs-1-8-1-19.87762/
+
+InteractiveBooks | 1.19
+https://www.spigotmc.org/resources/interactivebooks.45604/
+
+ItemEdit | 1.20
+https://www.spigotmc.org/resources/itemedit-1-8-x-1-19-x.40993/
+
+Jukebox | 1.19
+https://www.spigotmc.org/resources/jukebox-music-plugin.40580/
+
+JumpPads | 1.19
+https://www.spigotmc.org/resources/custom-jumppads-1-8-1-19.44876/
+
+LuckPerms | 1.20
+https://www.spigotmc.org/resources/luckperms.28140/
+
+MineChess | 1.20
+https://www.spigotmc.org/resources/minechess-minigame-1-8-1-19.74178/
+
+Multiverse-Core | 1.19
+https://www.spigotmc.org/resources/multiverse-core.390/
+
+MyCommand | 1.20
+https://www.spigotmc.org/resources/mycommand.22272/
+
+Negativity Anti-Cheat | 1.20
+https://www.spigotmc.org/resources/ac-negativity-spigot-1-7-1-19-sponge-bungeecord-velocity.48399/
+
+NoteBlockAPI | 1.20
+https://www.spigotmc.org/resources/noteblockapi.19287/
+
+PlaceholderAPI | 1.20
+https://www.spigotmc.org/resources/placeholderapi.6245/
+
+PlayerKits | 1.20
+https://www.spigotmc.org/resources/playerkits-fully-configurable-kits-1-8-1-19.75185/
+
+ProtocolLib | 1.19
+https://www.spigotmc.org/resources/protocollib.1997/
+
+RotatingHeads | 1.20
+https://www.spigotmc.org/resources/1-19-update-%E2%AD%90%EF%B8%8F-rotatingheads%E2%AD%90%EF%B8%8F-packet-based-decoration-plugin-%E2%AD%90%EF%B8%8F-best-for-lobbies.97906/
+
+SafeNET | 1.20
+https://www.spigotmc.org/resources/safenet-1-8-1-19-protect-your-network-from-ip-forward-bypass-exploit.65075/
+
+ServerTutorialPlus | 1.20
+https://www.spigotmc.org/resources/server-tutorial-plus.37741/
+
+ServerVariables | 1.20
+https://www.spigotmc.org/resources/servervariables-custom-data-and-variables-for-players-1-8-1-19.107803/
+
+SimplePortals | 1.20
+https://www.spigotmc.org/resources/%E2%8D%9F-simple-portals-%E2%8D%9F-effective-regional-portals-bungeecord-compatible.56772/
+
+SkinRestorer | 1.20
+https://www.spigotmc.org/resources/skinsrestorer.2124/
+
+SkyWars | 1.20
+https://www.spigotmc.org/resources/skywarsreloaded-updated-recoded-1-20-support-new-features-1-8x-1-20x.69436/
+
+Tablist | 1.20
+https://www.spigotmc.org/resources/animated-tab-tablist.46229/
+
+TNTrun | 1.20
+https://www.spigotmc.org/resources/tntrun_reloaded-tntrun-for-1-13-1-20.53359/
+
+Vault | 1.19
+https://www.spigotmc.org/resources/vault.34315/
+
+VoidSpawn | 1.18
+https://www.spigotmc.org/resources/voidspawn.19350/
+
+WorldEdit | 1.20
+https://dev.bukkit.org/projects/worldedit
+
+WorldGuard | 1.20
+https://dev.bukkit.org/projects/worldguard
+
+WorldGuardEvents | 1.19
+https://www.spigotmc.org/resources/worldguard-events.65176/
+
+Yamipa | 1.20
+https://www.spigotmc.org/resources/yamipa.88709/
+
+
+_________________________________________________________________
+
+
+USM
+
+AdvancedParticles | 1.19
+https://www.spigotmc.org/resources/advanceparticle-1-5-x-1-19-3-players-block-location-particles.71929/
+
+BlueMap | 1.20
+https://www.spigotmc.org/resources/bluemap.83557/
+
+ChatHearts | 1.20
+https://www.spigotmc.org/resources/1-8-chathearts.15598/
+
+ChatManager | 1.20
+https://www.spigotmc.org/resources/chat-manager-1-7-1-19-30-features-and-40-commands.52245/
+
+Citizens | 1.20
+https://www.spigotmc.org/resources/citizens.13811/
+
+CitizensText | 1.19
+https://www.spigotmc.org/resources/citizenstext.40107/
+
+Codex | 1.20
+https://www.spigotmc.org/resources/codex-rpg-discoveries-1-8-1-19.90371/
+
+CommandPanels | 1.20
+https://www.spigotmc.org/resources/command-panels-custom-guis.67788/
+
+ConditionalEvents | 1.20
+https://www.spigotmc.org/resources/conditionalevents-custom-actions-for-certain-events-1-8-1-19.82271/
+
+CraftEnhance | 1.20
+https://www.spigotmc.org/resources/1-9-1-19-custom-recipes-and-crafting-craftenhance.65058/
+
+DecentHolograms | 1.20
+https://www.spigotmc.org/resources/decentholograms-1-8-1-19-3-papi-support-no-dependencies.96927/
+
+Denizen | 1.20
+https://www.spigotmc.org/resources/denizen.21039/
+
+DiscordSRV | 1.20
+https://www.spigotmc.org/resources/discordsrv.18494/
+
+EasyCommandBlocker | 1.20
+https://www.spigotmc.org/resources/easycommandblocker-spigot-waterfall-velocity-1-8-1-19.101752/
+
+EssentialsX, EssentialsXProtect, EssentialsXSpawn | 1.20
+https://www.spigotmc.org/resources/essentialsx.9089/
+
+ExecutableItems | 1.20
+https://www.spigotmc.org/resources/custom-items-free-executable-items.77578/
+
+FarmProtection | 1.20
+https://www.spigotmc.org/resources/farm-protection-for-mc-1-16-1-19.85488/
+
+GSit | 1.20
+https://www.spigotmc.org/resources/gsit-modern-sit-seat-and-chair-lay-and-crawl-plugin-1-13-x-1-19-x.62325/
+
+HolographicDisplays | 1.20
+https://dev.bukkit.org/projects/holographic-displays
+
+Interactions | 1.20
+https://www.spigotmc.org/resources/interactions-create-complex-conversations-with-npcs-1-8-1-19.87762/
+
+InteractiveBooks | 1.19
+https://www.spigotmc.org/resources/interactivebooks.45604/
+
+ItemEdit | 1.20
+https://www.spigotmc.org/resources/itemedit-1-8-x-1-19-x.40993/
+
+JumpPads | 1.19
+https://www.spigotmc.org/resources/custom-jumppads-1-8-1-19.44876/
+
+LuckPerms | 1.20
+https://www.spigotmc.org/resources/luckperms.28140/
+
+Multiverse-Core | 1.19
+https://www.spigotmc.org/resources/multiverse-core.390/
+
+MyCommand | 1.20
+https://www.spigotmc.org/resources/mycommand.22272/
+
+Negativity Anti-Cheat | 1.20
+https://www.spigotmc.org/resources/ac-negativity-spigot-1-7-1-19-sponge-bungeecord-velocity.48399/
+
+PlaceholderAPI | 1.20
+https://www.spigotmc.org/resources/placeholderapi.6245/
+
+PlayerKits | 1.20
+https://www.spigotmc.org/resources/playerkits-fully-configurable-kits-1-8-1-19.75185/
+
+ProtocolLib | 1.19
+https://www.spigotmc.org/resources/protocollib.1997/
+
+RotatingHeads | 1.20
+https://www.spigotmc.org/resources/1-19-update-%E2%AD%90%EF%B8%8F-rotatingheads%E2%AD%90%EF%B8%8F-packet-based-decoration-plugin-%E2%AD%90%EF%B8%8F-best-for-lobbies.97906/
+
+SafeNET | 1.20
+https://www.spigotmc.org/resources/safenet-1-8-1-19-protect-your-network-from-ip-forward-bypass-exploit.65075/
+
+ServerTutorialPlus | 1.20
+https://www.spigotmc.org/resources/server-tutorial-plus.37741/
+
+ServerVariables | 1.20
+https://www.spigotmc.org/resources/servervariables-custom-data-and-variables-for-players-1-8-1-19.107803/
+
+SimplePortals | 1.20
+https://www.spigotmc.org/resources/%E2%8D%9F-simple-portals-%E2%8D%9F-effective-regional-portals-bungeecord-compatible.56772/
+
+SkinRestorer | 1.20
+https://www.spigotmc.org/resources/skinsrestorer.2124/
+
+Tablist | 1.20
+https://www.spigotmc.org/resources/animated-tab-tablist.46229/
+
+TimedRewards | 1.20
+https://www.spigotmc.org/resources/timed-rewards.34008/
+
+Vault | 1.20
+https://www.spigotmc.org/resources/vault.34315/
+
+VoidSpawn | 1.18
+https://www.spigotmc.org/resources/voidspawn.19350/
+
+WorldEdit | 1.20
+https://dev.bukkit.org/projects/worldedit
+
+WorldGuard | 1.20
+https://dev.bukkit.org/projects/worldguard
+
+WorldGuardEvents | 1.19
+https://www.spigotmc.org/resources/worldguard-events.65176/
+
+Yamipa | 1.20
+https://www.spigotmc.org/resources/yamipa.88709/

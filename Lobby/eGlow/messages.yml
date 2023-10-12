@@ -1,0 +1,125 @@
+main:
+  prefix: '&7[&eGlow&7]&r '
+  
+  no-permission: '&cNo tienes permisos para eso!'
+  no-permission-join: '&cNo tienes permisos para eso!'
+  no-permission-glowonjoin: '&cNo tienes permisos para eso!'
+  
+  glow-new: '&fEstás brillando&f! &f[&e%glowname%&f]'
+  glow-same: '&eYa has seleccionado esa opción!'
+  glow-enable: '&fBrillo activado!'
+  glow-disable: '&fBrillo desavtivado!'
+  glow-removed: '&eBrillo desavtivado!'
+  glow-glowonjoin-toggle: '&fAhora tu brillo está: &e%value%'
+  glow-visibility-change: '&fAhora tu brillo está: &e%value%'
+  glow-visibility-all: Todos
+  glow-visibility-other: Otros
+  glow-visibility-own: Dueño
+  glow-visibility-none: Ninguno
+  glow-visibility-unsupported-version: '&cError de versión'
+  glow-unsupported: '&cError de versión'
+  
+  other-glow-player-confirm: '&e%target% &fis now glowing! &f[%glowname%&f]'
+  other-glow-on-join-confirm: '&e%target%''s &fglowonjoin has been set to &e%value%'
+  other-glow-player-confirm-off: '&e%target% &fis no longer glowing!'
+  other-glow-player-disabled-world: '&e%target% &cis in a world where glowing is disabled!'
+  other-glow-player-disguise: '&e%target% &cis in disguise which disabled the glow&f.'
+  other-glow-player-invisible: '&e%target% &cis invisible which disables the glow&f.'
+  other-glow-target-notification-prefix: '&f[&cRemote&f]'
+  
+  reload-success: '&aReloaded successfull!'
+  reload-fail: '&cReload failed&f.'
+  
+  glowing-state-on-join: '&fEstás brillando con &f[&e%glowname%&f]'
+  non-glowing-state-on-join: ''
+  
+  argument-no-last-glow: ' &cNo has brillado antes.'
+  argument-incorrect-usage: '&cUso incorrecto! %command%'
+  argument-player-not-found: '&cCouldn''t find player&f!'
+  
+  command-list: '&fUsa &e/eGlow help &fpara ver la lista de comandos.'
+  command-player-only: '&6This command can only by used as a player&f!'
+  
+  invisibility-glow-blocked: '&cGlowing is disabled while you''re invisible&f.'
+  invisibility-glow-disabled: '&cDisabling glow while you''re invisible&f.'
+  invisibility-glow-enabled: '&aRe-enabling you glow as you''re no longer invisible&f.'
+  
+  disguise-glow-blocked: '&cGlowing is not allowed while in disguise&f!'
+  disguise-glow-allowed: '&aYou have undisguised and are allowed to glow again&f!
+    &aReactivating glow&f!'
+  
+  world-glow-blocked: '&cGlowing is not allowed in this world&f!'
+  world-glow-blocked-reload: '&cGlowing is no longer allowed in this world&f! &cDeactivating
+    glow&f!'
+  world-glow-allowed: '&aGlowing is back allowed in this world&f! &aReactivating glow&f!'
+  
+  color-red: '&cRojo'
+  color-dark-red: '&4Rojo oscuro'
+  color-gold: '&6Naranja'
+  color-yellow: '&eAmarillo'
+  color-green: '&aVerde'
+  color-dark-green: '&2Verde oscuro'
+  color-aqua: '&bCeleste'
+  color-dark-aqua: '&3Celeste oscuro'
+  color-blue: '&9Azul'
+  color-dark-blue: '&1Azul oscuro'
+  color-purple: '&5Morado'
+  color-pink: '&dRosado'
+  color-white: '&fBlanco'
+  color-gray: '&7Gris'
+  color-dark-gray: '&8Gris oscuro'
+  color-black: '&8Negro'
+  color-none: '&fNinguno'
+  color-slow: '&6Lento'
+  color-fast: '&aRápido'
+  color-effect-blink: '&fP&ea&fr&ep&fa&ed&fe&eo'
+  color-effect-rainbow: '&4A&cr&6c&eo&aí&br&9i&ds'
+  
+  citizens-not-installed: '&cYou don''t have Citizens installed&f!'
+  citizens-npc: '&f[&cNPC&f] '
+  citizens-npc-not-spawned: '&cThe selected NPC is not spawned&f!'
+  citizens-npc-not-found: '&cCouldn''t find NPC&f!'
+  citizens-argument-npc-missing: '&cMissing NPC argument&f!'
+  citizens-argument-npcid-invalid: '&cCouldn''t find NPC by that ID&f!'
+  other-glow-player-animation: '&e%target% is currently using a GSit pose which disabled
+    the glow&f.'
+  reload-glow-blocked: '&cGlowing is no longer allowed %reason%&f!'
+  reload-glow-allowed: '&aGlowing is back allowed %reason%&f!'
+  invisibility-glow-allowed: '&aRe-enabling you glow as you''re no longer invisible&f.'
+  animation-glow-blocked: '&cGlow is not allowed using this pose&f!'
+  citizens-npc-not-spawned-or-found: '&cThe selected NPC isn''t spawned&f!'
+
+gui:
+  title: '&9Menú de selección'
+  
+  misc-yes: '&aSi'
+  misc-no: '&cNo'
+  misc-not-available: '&eN/A'
+  misc-left-click: '&fClick derecho: '
+  misc-right-click: '&fClick izquierdo: '
+  misc-click-to-toggle: '&9Click para cambiar&f.'
+  misc-click-to-open: '&9Click para abrir&f.'
+  misc-previous-page: '&e< Anterior'
+  misc-next-page: '&eSiguiente >'
+  misc-page-lore: '&fPágina: %page%'
+  misc-main-menu: '&eMenú principal'
+  
+  color-colorpermission: '&fPermiso de color: '
+  color-blinkpermission: '&fPermiso: de parpadeo'
+  color-effectpermission: '&fPermiso de efecto: '
+  
+  setting-item-name: '&eTu configuración'
+  setting-glow-on-join: '&fBrillar al ingresar: '
+  setting-last-glow: '&fÚltima configuración: '
+  
+  glow-item-name: '&eEstado del brillo: '
+  glow-glowing: '&fBrillando: '
+  
+  speed-item-name: '&eEfecto del brillo'
+  speed-speed: '&fVelocidad: '
+  
+  custom-effect-item-name: '&eMenú de efectos'
+  misc-click-to-cycle: '&9Click to cycle&f.'
+  misc-interaction-cooldown: '&cGUI is in cooldown&f! &cPlease slow down&f!'
+  glow-visibility-item-name: '&eGlow visibility'
+  glow-visibility-indicator: '&e>&f '

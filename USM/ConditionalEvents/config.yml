@@ -35,8 +35,9 @@ Messages:
   commandCallInvalidEvent: '&cYou can only execute a CALL event.'
   commandCallCorrect: '&aEvent &7%event% &asuccessfully executed.'
   commandCallFailed: '&cEvent &7%event% &ccould not be executed. Maybe a format error?'
+  playerNotOnline: '&cThat player is not online.'
 Events:
-  event1:
+  atm:
     type: block_interact
     conditions:
     - '%block_x% == -61'
@@ -49,15 +50,7 @@ Events:
     actions:
       default:
       - 'console_command: cp panel-2 %player%'
-  event2:
-    type: block_break
-    conditions:
-    - '%block% equals BARRIER'
-    actions:
-      default:
-      - 'player_command: execute positioned %block_x% %block_y% %block_z% run kill
-        @e[type=minecraft:armor_stand,distance=0..0.5,limit=1,sort=nearest]'
-  event3:
+  world_swap:
     type: item_interact
     conditions:
     - '%item% equals DIAMOND'
@@ -70,14 +63,14 @@ Events:
       - 'console_command: mvtp %player% world_planos'
       actions2:
       - 'console_command: mvtp %player% world'
-  event4:
+  cancel_craft:
     type: item_craft
     conditions:
     - '%item% equals GOLD_BLOCK'
     actions:
       default:
       - 'cancel_event: true'
-  event5:
+  cancel_craft2:
     type: item_craft
     conditions:
     - '%item% equals GOLD_INGOT'
@@ -85,19 +78,6 @@ Events:
     actions:
       default:
       - 'cancel_event: true'
-  event7:
-    type: player_command
-    conditions:
-    - '%command% equals /travel'
-    - '%player_world% equals world execute actions1'
-    - '%player_world% equals world_planos execute actions2'
-    actions:
-      actions1:
-      - 'cancel_event: true'
-      - 'console_command: mvtp %player% world_planos'
-      actions2:
-      - 'cancel_event: true'
-      - 'console_command: mvtp %player% world'
   vuelo:
     type: item_interact
     conditions:
@@ -107,13 +87,14 @@ Events:
     actions:
       default:
       - 'console_command: fly %player%'
-  porton:
+  check_credential:
     type: custom
     custom_event_data:
       event: net.raidstone.wgevents.events.RegionEnteredEvent
       variables_to_capture:
       - '%region%;getRegionName()'
       player_variable: getPlayer()
+    enable: false
     conditions:
     - '%region% equals porton'
     - '%checkitem_material:paper,inhand:main,namecontains:Credencial% equals no'
@@ -129,3 +110,14 @@ Events:
       default:
       - 'console_command: kit give Inicio %player%'
       - 'console_command: scoreboard players set %player% kitinicio 1'
+  filter_msg:
+    type: protocollib_receive_message
+    conditions:
+    - '%normal_message% contains &c&lHey! execute actions_for_all'
+    - '%normal_message% contains &6Teletransportando... execute actions_for_all'
+    - '%normal_message% contains &aPanel Opened for execute actions_for_all'
+    - '%normal_message% contains set completed execute actions_for_all'
+    - '%normal_message% contains &aVariable execute actions_for_all'
+    actions:
+      actions_for_all:
+      - 'cancel_event: true'

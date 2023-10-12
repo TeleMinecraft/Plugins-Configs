@@ -1,0 +1,116 @@
+tab:
+  default:
+    priority: 0
+    commands:
+      - /?
+      - /ayuda
+      - /cc
+      - /codex
+      - /createhome
+      - /daily
+      - /delhome
+      - /delhome
+      - /dinero
+      - /discord
+      - /events
+      - /help
+      - /home
+      - /homes
+      - /instagram
+      - /jobs
+      - /kits
+      - /lobby
+      - /money
+      - /msg
+      - /pay
+      - /present
+      - /ps
+      - /quest
+      - /quests
+      - /r
+      - /recipes
+      - /reglas
+      - /rules
+      - /sell
+      - /servers
+      - /sethome
+      - /shop
+      - /shops
+      - /skin
+      - /spawn
+      - /stats
+      - /team
+      - /telejuegos
+      - /tpaccept
+      - /tpacancel
+      - /trade
+      - /usm
+      - /vip
+      - /warp
+      - /warpinfo
+      - /warps
+  vip:
+    priority: 1
+    extends: default
+    commands:
+      - /afk
+      - /nick
+      - /tpa
+      - /tpaall
+blocked_command_default_actions:
+  - 'message: &7[&3Tele&bServer&7] &cNo tienes permiso para usar ese comando.'
+use_commands_as_whitelist: true
+commands:
+  - /?
+  - /ayuda
+  - /cc
+  - /codex
+  - /createhome
+  - /daily
+  - /delhome
+  - /delhome
+  - /dinero
+  - /discord
+  - /events
+  - /help
+  - /home
+  - /homes
+  - /instagram
+  - /jobs
+  - /kits
+  - /lobby
+  - /money
+  - /msg
+  - /pay
+  - /present
+  - /ps
+  - /quest
+  - /quests
+  - /r
+  - /recipes
+  - /reglas
+  - /rules
+  - /sell
+  - /servers
+  - /sethome
+  - /shop
+  - /shops
+  - /skin
+  - /spawn
+  - /stats
+  - /team
+  - /telejuegos
+  - /tpaccept
+  - /tpacancel
+  - /trade
+  - /usm
+  - /vip
+  - /warp
+  - /warpinfo
+  - /warps
+custom_commands_actions:
+  example1:
+    commands:
+      - /bungee
+    actions:
+      - 'message: &8[&b&lECB&8] &cYou can''t see the BungeeCord version!'

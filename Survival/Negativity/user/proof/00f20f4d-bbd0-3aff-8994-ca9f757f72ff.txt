@@ -855,3 +855,4 @@
 2023-05-07 02:24:50.747: (135ms) 100% SPEED > Player NOT in ground. WalkSpeed: 0.2 Distance between from/to location: 2.637777886593439. Player version: V1_19. TPS: [20.000039414077673, 20.000005975801784, 20.000001991155752]
 2023-05-08 22:25:28.611: (135ms) 100% SPEED > Player NOT in ground. WalkSpeed: 0.2 Distance between from/to location: 4.013955119824311. Player version: V1_19. TPS: [19.999990485671194, 20.000001651066803, 19.999999262777806]
 2023-05-21 03:33:59.888: (138ms) 100% SPEED > Player NOT in ground. WalkSpeed: 0.2 Distance between from/to location: 1.0876680872744835. Player version: V1_19. TPS: [20.00001630134662, 20.0000089822707, 20.000001376977874]
+2023-09-16 23:40:13.703: (131ms) 100% SPEED > Player NOT in ground. WalkSpeed: 0.2 Distance between from/to location: 1.147145323602234. Player version: V1_19. TPS: [20.000376589757526, 20.000009038004084, 20.00001802163846]

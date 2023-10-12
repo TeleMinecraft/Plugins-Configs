@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 201.214.214.71
+ip-address: 179.60.64.191
 afk: false
 socialspy: false
 npc: false
@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1686351409332
-  login: 1686351386337
+  logout: 1694905479950
+  login: 1694905457018
 money: '0'
 last-account-name: orozc048
 lastlocation:
@@ -31,8 +31,8 @@ lastlocation:
 logoutlocation:
   world: 8039c8bf-b4ad-4692-9f73-205fa07ddece
   world-name: world
-  x: 16.346115916194975
-  y: 30.0
-  z: 0.648284676919114
-  yaw: -96.94998168945312
-  pitch: -7.9499993324279785
+  x: 38.94743426156143
+  y: 32.0
+  z: 3.7180344195712527
+  yaw: -78.29998779296875
+  pitch: -7.450010776519775

@@ -55,3 +55,11 @@ quests:
     stage0:
       amount: 1
   currentBranch: 0
+- questID: 19
+  currentStage: 0
+  datas:
+    starting_time: 1695309929737
+    stage0:
+      remaining:
+        00000000-0000-0000-0000-0000000009ae: 1
+  currentBranch: 0

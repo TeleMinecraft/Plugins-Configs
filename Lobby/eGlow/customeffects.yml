@@ -1,0 +1,26 @@
+Effects:
+  Christmas:
+    Displayname: "&cF&2e&fl&ci&2z &fN&ca&2v&fi&cd&2a&fd"
+    Delay: 1.0
+    Colors:
+     - "red"
+     - "darkgreen"
+     - "white"
+    GUI:
+     Material: "SAPLING"
+     Meta: 1
+     Name: "&cF&2e&fl&ci&2z &fN&ca&2v&fi&cd&2a&fd"
+     Lores:
+      - "&fClick: %effect_name%"
+  Halloween:
+    Displayname: "&6Happy Halloween"
+    Delay: 1.0
+    Colors:
+     - "gold"
+     - "yellow"
+    GUI:
+     Material: "PUMPKIN"
+     Meta: 0
+     Name: "&6Happy Halloween"
+     Lores:
+      - "&fClick: %effect_name%"

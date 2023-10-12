@@ -2,7 +2,6 @@
 
 data:
 - npc: 112
-  times: {}
   players:
     d37d161e-5ad0-3da8-ba32-2771b7bbc00c: 1
     a750a078-e193-3028-9ffd-5224fa43daa7: 1
@@ -18,13 +17,11 @@ data:
     535fb7b0-5919-359b-b9e3-9f7d66277535: 2
     e005ee70-067c-3674-beff-84fa590eda1d: 1
     7173c792-f1b5-3db1-abc4-179f950390fc: 1
-    00f20f4d-bbd0-3aff-8994-ca9f757f72ff: 1
     7b2cd050-f4da-3051-942c-4ace93e83c1b: 1
     9629b9a4-e732-376d-b7e7-032e3e1520a5: 1
     59f356fb-67e4-33f7-b4e9-e23f9cc579a4: 1
     b4ffe8fd-2b3c-3da5-b31b-34759639f298: 1
     b42b8738-2ea3-3783-afe8-8d86f0e2e422: 1
-    9504288a-75c8-36d7-ac11-63749ab2c6df: 1
   messages:
     0: §bLo sé {PLAYER}, también quiero más eventos...
     1: §bTe avisaré apenas tenga novedades!

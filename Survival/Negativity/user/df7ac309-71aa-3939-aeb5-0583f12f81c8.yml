@@ -1,13 +1,14 @@
 playername: SaaFigue2726
 lang: es_ES
-minerate-full-mined: 50
+minerate-full-mined: 287
 minerate:
   diamond: 0
-  gold: 0
-  iron: 0
-  coal: 0
+  gold: 5
+  iron: 15
+  coal: 34
   ancient debris: 0
 better-click: 8
 cheats:
-  pingspoof: 8
+  speed: 1
+  pingspoof: 2
 creation-time: 1678053856477

@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 181.43.215.224
+ip-address: 190.101.149.24
 afk: false
 socialspy: false
 npc: false
@@ -11,28 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1693452019821
+  lastteleport: 1694203108316
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1693453174388
-  login: 1693450100786
-money: '1000'
+  logout: 1694203186961
+  login: 1694201416692
+money: '78600.0'
 last-account-name: SaaFigue2726
 lastlocation:
   world: 6275cffa-8abc-4618-9934-0e82135ccf7a
   world-name: world
-  x: 546.3895320505407
-  y: 86.0
-  z: 219.30000001192093
-  yaw: 33.29991149902344
-  pitch: 21.300006866455078
+  x: 481.5170300756146
+  y: 23.0
+  z: 542.566158669949
+  yaw: -62.69744873046875
+  pitch: 63.15006637573242
 logoutlocation:
   world: 6275cffa-8abc-4618-9934-0e82135ccf7a
   world-name: world
-  x: 415.1695461256897
-  y: 85.5
-  z: -512.4825580628024
-  yaw: -48.311126708984375
-  pitch: 34.64971923828125
+  x: 474.30000001192093
+  y: 29.5
+  z: 542.4762237761822
+  yaw: 169.7996826171875
+  pitch: 12.15009880065918

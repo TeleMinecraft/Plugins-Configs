@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 181.42.21.135
+ip-address: 201.239.63.179
 afk: false
 socialspy: false
 npc: false
@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1693340440716
-  login: 1693340415370
+  logout: 1695947120152
+  login: 1695947111524
 money: '0'
 last-account-name: alelau5
 lastlocation:
@@ -31,8 +31,8 @@ lastlocation:
 logoutlocation:
   world: 8039c8bf-b4ad-4692-9f73-205fa07ddece
   world-name: world
-  x: 0.0
-  y: 31.2
-  z: -94.5
-  yaw: 0.0
-  pitch: 0.0
+  x: 0.5
+  y: 33.0
+  z: 0.5
+  yaw: -119.85009765625
+  pitch: 44.70003890991211

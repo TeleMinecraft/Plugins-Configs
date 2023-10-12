@@ -175,5 +175,5 @@ activators:
 recognitions: []
 attributes: {}
 config_5: true
-config_update: false
+config_update: true
 config_5_98: true

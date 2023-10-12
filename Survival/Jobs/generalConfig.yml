@@ -88,6 +88,9 @@ Optimizations:
   Explore:
     # By setting this to true when there is max amount of players explored a chunk then it will be marked as fully explored and exact players who explored it will not be saved to save some memory
     Compact: true
+    # While enabled explored chunk data will be saved into database and will persist over server restarts
+    # While disabled expored chunk data resets on every server startup which will freeup memory and speedup server startups and stop in some cases
+    SaveIntoDatabase: false
 Logging:
   # With this set to true all players jobs actions will be logged to database for easy to see statistics
   # This is still in development and in future it will expand
@@ -112,6 +115,9 @@ DailyQuests:
     Minute: 0
   # Defines amount of skips player can do on a quest
   # This allows player to abandon current quest and get new one
+  useGUI: true
+  # Defines amount of skips player can do on a quest
+  # This allows player to abandon current quest and get new one
   Skips: 1
   # The cost of the quest skip (money).
   # Default 0, disabling cost of skipping quest.
@@ -125,7 +131,7 @@ ScheduleManager:
 # Counting in hours
 JobExpirationTime: 0
 # Maximum number of jobs a player can join.
-# Use 0 for no maximum
+# Use -1 to disable limitations
 # Keep in mind that jobs.max.[amount] will bypass this setting
 max-jobs: 2
 # Disabling the payment if the user reached the maximum level of a job.
@@ -590,6 +596,10 @@ JobsGUI:
     # closeinv! can be used to close players inventory when you click this icon
     Commands:
     - closeinv!
+  JoinButton:
+    Material: head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmZlYzNkMjVhZTBkMTQ3YzM0MmM0NTM3MGUwZTQzMzAwYTRlNDhhNWI0M2Y5YmI4NThiYWJmZjc1NjE0NGRhYyJ9fX0=
+  LeaveButton:
+    Material: head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzY1ZjNiYWUwZDIwM2JhMTZmZTFkYzNkMTMwN2E4NmE2MzhiZTkyNDQ3MWYyM2U4MmFiZDlkNzhmOGEzZmNhIn19fQ==
 Commands:
   # What should happen when performing clean /jobs command
   # Options:

@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1691457547239
-  login: 1691457540344
+  logout: 1694988055539
+  login: 1694988047835
 money: '0'
 last-account-name: Richard363
 lastlocation:
@@ -34,5 +34,5 @@ logoutlocation:
   x: 0.5
   y: 33.0
   z: 0.5
-  yaw: -90.0
-  pitch: 0.0
+  yaw: -101.55001068115234
+  pitch: 8.100000381469727

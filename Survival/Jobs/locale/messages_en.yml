@@ -22,6 +22,8 @@ general:
       smoker: Smoker
       blastfurnace: Blast furnace
       brewingstand: Brewing stand
+    join: '&eClick to join job'
+    leave: '&cClick to leave job'
   admin:
     error: '&cThere was an error in the command.'
     success: '&eYour command has been performed.'
@@ -386,6 +388,9 @@ command:
       bake:
         info: '&eBake'
         none: '%jobname% does not get money for cooking foods.'
+      bucket:
+        info: '&eBucket'
+        none: '%jobname% does not get money for bucketing.'
   playerinfo:
     help:
       info: Show how much each job is getting paid and for what on another player.
@@ -664,11 +669,14 @@ command:
         points: '&6[points] points'
       'on': '&aToggled: &aON'
       'off': '&aToggled: &4OFF'
-  version:
+  howmuch:
     help:
-      info: Plugin version information
+      info: Check potential payment by target entity or block
       args: ''
+  version:
     output:
+      payment: '&e[job] &f[action] &7[target] [exp] [money] [points]'
+      nopayment: '&7Can''t find any payments ([target])'
       jobsVersion: '&eJobs: &6[version]'
       jobsVersionNew: '&e-> [newVersion]'
       dbType: ' &7[db]'
@@ -677,6 +685,9 @@ command:
       newVault: '&eVault: &6[version] '
       CMILib: '&eCMILib: &6[version] '
       cmilVersionNew: '&e-> [newVersion]'
+    help:
+      info: Plugin version information
+      args: ''
 message:
   skillup:
     broadcast: '%playername% has been promoted to a %titlename% %jobname%.'

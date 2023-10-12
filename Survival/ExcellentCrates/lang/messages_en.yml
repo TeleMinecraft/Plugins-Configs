@@ -82,9 +82,22 @@ Command:
         - '&6&m              &6&l[ &a%player% &e&lCrate Keys &6&l]&6&m              &6'
         - '&7'
         - '&6▸ &e%key_name%: &6%amount%'
+    Usage: '[help]'
+    GiveAll:
+      Usage: <player> <key> <amount> [-s]
+      Desc: Give key to all online players.
+      Done: '#aaa8a8Given #ead931x%amount%#aaa8a8 of #ead931%key_name%#aaa8a8 key(s) to #ead931All Players#aaa8a8.'
+  Editor:
+    Desc: Open crates & keys editor.
+  Open:
+    Desc: Makes [player] to [force] open a crate.
+    Usage: <crate> [player] [-f] [-s]
+    Done: '#aaa8a8Forced #ead931%player_name%#aaa8a8 to open #ead931%crate_name%#aaa8a8.'
+    Notify: '#aaa8a8You have been forced to open #ead931%crate_name%#aaa8a8.'
 Crate:
   Error:
     Invalid: '&cInvalid crate!'
+    Exists: '#ea3131Crate with such id is already exists!'
   Open:
     Error:
       InventorySpace: '&cNo tienes suficiente espacio en tu inventario!'
@@ -100,9 +113,12 @@ Crate:
     Reward:
       Info: '&7Obtuviste: %reward_name% &7de la %crate_name%&7!'
       Broadcast: '&a%player% &7obtuvo: %reward_name% &7de una %crate_name%&7!'
+    Milestone:
+      Completed: '<! prefix:"false" sound:"ENTITY_PLAYER_LEVELUP" !>#aaa8a8You completed #74ea31%milestone_openings% Openings #aaa8a8milestone and got #74ea31%reward_name%#aaa8a8 as reward!'
   Key:
     Error:
       Invalid: '&cInvalid key!'
+      Exists: '#ea3131Key with such id is already exists!'
   Placeholder:
     Cooldown:
       Blank: '&aLista para abrir!'
@@ -157,6 +173,7 @@ Editor:
         Amount: '&7Enter win limit &aamount&7...'
         Cooldown: '&7Enter win limit &acooldown&7...'
       Permissions: '&7Enter a &apermission&7...'
+      Rarity: '#aaa8a8Enter #74ea31[Rarity]'
     Error:
       Create:
         Exist: '&cReward with such id is already exists!'
@@ -542,6 +559,56 @@ Editor:
       - ''
       - '#bbff6a&lActions:'
       - '#bbff6a▪ #bdc8c9Left-Click: #bbff6aToggle'
+    Reward:
+      Rarity:
+        Name: '#fdf35e&lRarity'
+        Lore:
+        - '#d4d9d8Sets the reward rarity.'
+        - '#d4d9d8Learn more about it on the plugin wiki.'
+        - ''
+        - '#fdf35e&lCurrent:'
+        - '#fdf35e▪ #d4d9d8Rarity: #fdf35e%reward_rarity_name%'
+        - ''
+        - '#aefd5e&lActions:'
+        - '#aefd5e▪ #d4d9d8Left-Click: #aefd5eChange'
+  Enter:
+    DisplayName: '#aaa8a8Enter #74ea31[Display Name]'
+    Amount: '#aaa8a8Enter #74ea31[Amount]'
+  Milestone:
+    Enter:
+      Reward: '#aaa8a8Enter #74ea31[Reward Id]'
+  Item:
+    Crate:
+      Milestones:
+        Name: '#fdf35e&lMilestones'
+        Lore:
+        - '#fdf35e▪ #d4d9d8Repeatable: #fdf35e%crate_milestones_repeatable%'
+        - ''
+        - '#d4d9d8Create & manage milestones here!'
+        - ''
+        - '#aefd5e&lActions:'
+        - '#aefd5e▪ #d4d9d8Left-Click: #aefd5eOpen'
+        - '#aefd5e▪ #d4d9d8Right-Click: #aefd5eToggle Repeatable'
+    Milestone:
+      Create:
+        Name: '#fdf35e&lNew Milestone'
+        Lore: []
+      Object:
+        Name: '#fdf35e&lMilestone: %milestone_openings%'
+        Lore:
+        - '#fdf35e▪ #d4d9d8Openings: #fdf35e%milestone_openings%'
+        - '#fdf35e▪ #d4d9d8Reward Id: #fdf35e%milestone_reward_id%'
+        - ''
+        - '#aefd5e&lActions:'
+        - '#aefd5e▪ #d4d9d8Left-Click: #aefd5eChange Openings'
+        - '#aefd5e▪ #d4d9d8Right-Click: #aefd5eChange Reward Id'
+        - '#aefd5e▪ #d4d9d8Shift-Right: #aefd5eDelete #ea3131(No Undo)'
 Other:
   All:
     Online: All online players
+# Here you can create your own custom placeholders to use it in language config.
+# Key = Placeholder, Value = Replacer.
+Placeholders:
+  '%red%': '#fd5e5e'
+  '%gray%': '#d4d9d8'
+  '%green%': '#aefd5e'

@@ -1,0 +1,5 @@
+version: 2
+world:
+  mode: touch
+world_ice:
+  mode: touch

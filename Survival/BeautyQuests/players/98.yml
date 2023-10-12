@@ -21,7 +21,6 @@ quests:
     stage0:
       remaining:
         00000000-0000-0005-0000-0000000009ae: 3
-        00000000-0000-0004-0000-0000000009ae: 3
   currentBranch: 0
   timesFinished: 2
 - questID: 5

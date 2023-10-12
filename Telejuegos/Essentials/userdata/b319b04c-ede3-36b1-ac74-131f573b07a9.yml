@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 200.1.20.136
+ip-address: 201.239.114.55
 afk: false
 socialspy: false
 npc: false
@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1685798556672
-  login: 1685798549588
+  logout: 1697073524637
+  login: 1697073515573
 money: '0'
 lastlocation:
   world: cb119622-024a-4018-b3d0-d9f8a8efda8c
@@ -30,9 +30,9 @@ lastlocation:
 logoutlocation:
   world: e79d3dd0-8b8a-4103-bae2-25428e23a084
   world-name: world
-  x: 1.5
-  y: 31.5
-  z: 0.5
-  yaw: 0.0
+  x: 0.0
+  y: 254.2
+  z: -20.5
+  yaw: 180.0
   pitch: 0.0
 last-account-name: Storbo

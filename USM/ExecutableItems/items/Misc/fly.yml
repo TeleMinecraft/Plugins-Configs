@@ -101,5 +101,5 @@ attributes:
     slot: HAND
     uuid: 91bed46e-0715-49ef-8c84-3915707c4314
 config_5: true
-config_update: false
+config_update: true
 config_5_98: true

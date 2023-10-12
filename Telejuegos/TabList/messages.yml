@@ -1,4 +1,4 @@
-# 
+#
 # DO NOT CHANGE THIS!
 reload-config: '&aThe plugin successfully reloaded!'
 no-permission: '&cYou don''t have permission for that!&7 (%perm%)'
@@ -64,8 +64,8 @@ fake-player:
   no-fake-player: '&cThere is no fake player either.'
   disabled: '&cThe fake player is disabled. Please enable in config.yml file.'
   list:
-  - '&cFake players&7 (&e%amount%&7):'
-  - '&r%fake-players%'
+  - '§cFake players§7 (§e%amount%§7):'
+  - §r%fake-players%
   not-exists: '&cFake player with this name not exists.'
   ping-can-not-be-less: '&cThe ping amount should be greater than&e %amount%&c and
     the value should be a number.'
@@ -97,7 +97,6 @@ chat-messages:
 config-version: 7
 reloadconfig: '&aReloaded!'
 nopermission: '&cYou don''t have permission for that!&7 (%perm%)'
-unknownsub-command: '&cUnknown sub-command&7 %subcmd%&c.'
 noconsole: '&cThis command ''&7/%command%&c'' can only be in-game.'
 set-group:
   meta-could-not-be-empty: '&cThe prefix text could not be empty!'

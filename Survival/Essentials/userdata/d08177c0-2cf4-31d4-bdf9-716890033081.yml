@@ -1,28 +1,28 @@
 timestamps:
-  login: 1689896719778
-  logout: 1689898461254
-  lastteleport: 1689897578183
+  login: 1694988055591
+  logout: 1694992140001
+  lastteleport: 1694981743282
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
 lastlocation:
   world: 6275cffa-8abc-4618-9934-0e82135ccf7a
-  x: 427.5
-  y: 54.0
-  z: -474.5
-  yaw: -90.0
-  pitch: 0.0
+  x: -1276.9869634159184
+  y: 66.0
+  z: -1123.3691513298186
+  yaw: 97.80014038085938
+  pitch: 12.099991798400879
   world-name: world
 logoutlocation:
   world: 6275cffa-8abc-4618-9934-0e82135ccf7a
-  x: 416.6847493423374
-  y: 77.0
-  z: -480.8086309141821
-  yaw: -17.5506591796875
-  pitch: 28.350019454956055
+  x: -1755.5263813772938
+  y: 72.0
+  z: 2557.274883581825
+  yaw: 71.6998291015625
+  pitch: 39.300132751464844
   world-name: world
-money: '34161558.54550000000264399'
+money: '34101458.54550000000264399'
 homes:
   casa2:
     world: 6275cffa-8abc-4618-9934-0e82135ccf7a

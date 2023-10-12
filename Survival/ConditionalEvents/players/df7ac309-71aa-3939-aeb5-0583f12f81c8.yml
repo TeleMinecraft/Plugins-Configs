@@ -2,7 +2,22 @@ name: SaaFigue2726
 events:
   resistencia_y_skin_al_entrar:
     one_time: false
-    cooldown: 1693450015369
+    cooldown: 1694201416567
   random_tp:
     one_time: false
-    cooldown: 1693452004682
+    cooldown: 1694203125998
+  mision_1:
+    one_time: false
+    cooldown: 1694202231553
+  descripcion_mision1:
+    one_time: false
+    cooldown: 1694202255340
+  descripcion_mision2:
+    one_time: false
+    cooldown: 1694202259639
+  descripcion_mision3:
+    one_time: false
+    cooldown: 1694202261825
+  descripcion_mision5:
+    one_time: false
+    cooldown: 1694202264137

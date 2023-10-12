@@ -56,6 +56,7 @@ bungee:
     rebuilding: '%name%: Rebuilding...'
     disabled: '%name%: Game is disabled'
   kick-when-proxy-too-slow: true
+  select-random-game: true
 farmBlocks:
   enable: false
   blocks: []
@@ -343,6 +344,7 @@ breakable:
   enabled: false
   asblacklist: false
   blocks: []
+  explosions: false
 leaveshortcuts:
   enabled: true
   list:
@@ -415,3 +417,10 @@ party:
   autojoin-members: false
   notify-when-warped: true
 prefer-1-19-4-display-entities: true
+remember-what-scoreboards-players-had-before: false
+use-chunk-tickets-if-available: true
+reset-full-spawner-countdown-after-picking: true
+players-can-win-game-only-after-seconds: 0
+kick-players-upon-final-death:
+  enabled: false
+  delay: 5

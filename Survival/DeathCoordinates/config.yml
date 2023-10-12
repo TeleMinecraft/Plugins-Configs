@@ -1,0 +1,44 @@
+# --------------------------------------------------
+# DeathCoordinates by Ajneb97 
+# If you find bugs, please contact with me:
+# https://www.spigotmc.org/resources/deathcoordinates-1-8-1-12.43318/
+# --------------------------------------------------
+Config:
+  new-version-reminder: true
+  lava_protection: false
+  void_protection: true
+  invulnerability_on_teleport:
+    enabled: true
+    time: 20
+  teleport-maxtime:
+    enabled: true
+    time: 300
+  teleport-cooldown: 15
+  enabled-worlds:
+  - world
+  - world_nether
+  - world_the_end
+  teleport_money_required: 100
+  console_notification:
+    enabled: false
+    message: '&cPlayer &e%player% &cjust died in: &8(&7%coord-x% %coord-y% %coord-z%&8,
+      &cWorld: &7%world%&8)'
+  world_alias:
+    world: Main World
+    minigames: MiniGames World
+Messages:
+  death-message:
+  - '&cHas muerto! &7Pasa el cursor aquí para más info'
+  death-message-extra: '&bHas click aquí &7para ir al lugar donde moriste por &a$100'
+  no-died-recently: '&7No has muerto recientemente!'
+  incorrect-world: '&7No puedes hacer eso en este mundo!'
+  prefix: ''
+  plugin-reload: '&aConfig Reloaded'
+  console-command: '&7Necesitas ser un jugador para ejecutar ese comando'
+  nopermissions: '&cNo tienes permisos para eso!'
+  wrongcommand: '&cEse comando no existe!'
+  error-lava: '&cNo puedes ir a esa ubicación porque está en la lava'
+  error-void: '&cNo puedes ir a esa ubicación porque está en el vacío'
+  error-money: '&7Necesitas &a$%money% &7para ser teletransportado'
+  teleporting-message: '&6Teletransportando...'
+  error-cooldown: '&7Necesitas esperar &b%time%s &7para usar el tp otra vez'

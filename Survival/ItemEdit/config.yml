@@ -20,6 +20,11 @@ storage:
   # how many item a player may save?
   # set -1 for unlimited
   player-item-limit: 45
+  type: YAML
+  mongodb:
+    uri: mongodb://127.0.0.1:27017
+    database: itemedit
+    collection_prefix: itemedit
 log:
   # log actions on console?
   console: true
@@ -193,4 +198,5 @@ blocked:
   # or here for versions 1.8-1.12 https://helpch.at/docs/1.12.2/org/bukkit/Material.html
   # CaPs are not relevant for this config
   type-blocked-rename: []
-config-version: 3
+config-version: 6
+check-updates: true

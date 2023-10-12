@@ -2,7 +2,7 @@ name: Sth3fan0
 events:
   resistencia_y_skin_al_entrar:
     one_time: false
-    cooldown: 1684723170688
+    cooldown: 1695499556000
   descripcion_mision14:
     one_time: false
     cooldown: 1678127743104

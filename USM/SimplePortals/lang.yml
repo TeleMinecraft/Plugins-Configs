@@ -13,7 +13,6 @@ selection-mode-message: '&aSelection mode has be &e{status}&a!'
 not-same-world-message: '&cBoth points within your selection must be in the same world.'
 portal-created-message: '&aThe portal &e{name} &ahas been successfully created!'
 portal-deleted-message: '&aThe portal &e{name} &ahas been successfully deleted!'
-portal-message: '&aYou have used the &e{name} &aportal!'
 switch-server-set-message: '&aThe portal &e{name} &awill now teleport players to the
   &e{server} &aserver!'
 reload-message: '&aAll configurations have been reloaded!'
@@ -38,9 +37,6 @@ enter-cooldown-message: '&cYou can''t enter this portal for another &e{time} &cs
 enter-no-permission-message: '&cYou don''t have permission to enter this portal.'
 portal-commands-message: '&aThe commands on the portal &e{name} &aare: &e{commands}'
 world-invalid-message: '&cThe world &e{name} &cdoes not exist.'
-portal-title-message: ''
-portal-subtitle-message: ''
-portal-bar-message: ''
 portal-message-set: '&aThe message &e{message} &ahas been set as the &e{type} &amessage
   for the &e{name} &aportal!'
 portal-link-message: '&aThe portal &e{name} &ahas been linked to the center of the
@@ -52,3 +48,22 @@ portal-enabled-message: '&aThe portal &e{name} &ahas been &eEnabled&a.'
 portal-disabled-message: '&aThe portal &e{name} &ahas been &eDisabled&a.'
 portal-list-message: '&eBelow is a list of all portals and their locations highlighted
   in either &aGREEN &eor &cRED &eindicating enabled/disabled:'
+portal-find-message: '&eBelow is a list of &63 &eportals within a range of &6{range}
+  &e(&aGREEN &eor &cRED &eindicating enabled/disabled):'
+invalid-range: '&cThe range defined is invalid. The range must be greater than zero.'
+invalid-cooldown: '&cThe cooldown defined is invalid. The cooldown must be greater
+  than or equal to zero.'
+invalid-delay: '&cThe delay defined is invalid. The delay must be greater than or
+  equal to zero.'
+no-find-results: '&cNo portals were found in the &e{range} &erange.'
+cooldown-set-message: '&aCooldown of &e{id} &aportal has been set to &e{cooldown}&a.'
+delay-set-message: '&aDelay of &e{id} &aportal has been set to &e{delay}&a.'
+teleport:
+  title: '&eTeleporting...'
+  sub-title: '&aTeleporting...'
+teleport-cancelled:
+  title: '&cTeleportation Cancelled'
+  sub-title: '&7You stepped out of the portal'
+teleport-delay:
+  title: '&eTeleporting...'
+  sub-title: '&f{rem} &7second(s) remaining...'

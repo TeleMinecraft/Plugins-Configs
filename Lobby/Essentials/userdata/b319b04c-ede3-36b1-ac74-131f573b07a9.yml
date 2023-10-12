@@ -1,7 +1,7 @@
 timestamps:
-  login: 1693453582678
-  logout: 1693453598857
-  lastteleport: 1693453595670
+  login: 1697073674844
+  logout: 1697073722971
+  lastteleport: 1696906235888
   lastheal: 1602077984194
   mute: 0
   jail: 0
@@ -10,18 +10,18 @@ timestamps:
     color: 1672790958635
 lastlocation:
   world: 8039c8bf-b4ad-4692-9f73-205fa07ddece
-  x: -2.818710685394643
-  y: 24.0
-  z: 0.07021840014295225
-  yaw: 91.0
-  pitch: 13.0
+  x: 0.551117463019326
+  y: 32.111135989440925
+  z: 7.478700455451501
+  yaw: 62.88332748413086
+  pitch: 4.853437900543213
   world-name: world
 afk: false
 logoutlocation:
   world: 8039c8bf-b4ad-4692-9f73-205fa07ddece
-  x: 0.5
+  x: 0.5661025830813678
   y: 33.0
-  z: 0.5
+  z: 0.6245001365616359
   yaw: -90.0
   pitch: 0.0
   world-name: world

@@ -1,6 +1,6 @@
 playername: Daniiiii6
 lang: es_ES
-minerate-full-mined: 2244
+minerate-full-mined: 2504
 minerate:
   diamond: 2
   gold: 2
@@ -9,7 +9,7 @@ minerate:
   ancient debris: 0
 better-click: 10
 cheats:
+  forcefield: 1
   nofall: 1
   speed: 4
-  forcefield: 1
 creation-time: 1680807826065

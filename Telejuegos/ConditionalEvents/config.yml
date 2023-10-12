@@ -22,95 +22,17 @@ Messages:
   debugDisabled: '&aDebug disabled for event &7%event%&a!'
   onlyPlayerCommand: '&cThis command can be only used by a player.'
   playerDoesNotExists: '&cThat player doesn''''t have any data.'
+  playerNotOnline: '&cThat player is not online.'
+  debugEnabledPlayer: '&aDebug now enabled for event &7%event% &aand player &7%player%&a!'
+  debugDisabledPlayer: '&aDebug disabled for event &7%event% &aand player &7%player%&a!'
+  eventDataResetForAllPlayers: '&aData reset for &eall players &aon event &e%event%&a!'
+  eventDataResetAllForAllPlayers: '&aAll player data reset.'
+  commandCallError: '&cUse &7/ce call <event> (optional)%variable1%=<value1>;%variableN%=<valueN>'
+  commandCallInvalidEvent: '&cYou can only execute a CALL event.'
+  commandCallCorrect: '&aEvent &7%event% &asuccessfully executed.'
+  commandCallFailed: '&cEvent &7%event% &ccould not be executed. Maybe a format error?'
 Events:
-  event1:
-    type: player_respawn
-    conditions:
-    - '%player_world% equals pvp1 or %player_world% equals pvp2'
-    actions:
-      default:
-      - 'teleport: lobby;0;60;0;90;0'
-      - 'message: &cYou died. Teleporting you back to the PvP Lobby...'
-  event2:
-    type: block_interact
-    conditions:
-    - '%block_x% == 20'
-    - '%block_y% == 60'
-    - '%block_z% == 20'
-    - '%block_world% equals lobby'
-    - '%block% equals STONE_BUTTON'
-    - '%action_type% equals RIGHT_CLICK'
-    actions:
-      default:
-      - 'message: &aYou''ve received $500!'
-      - 'console_command: eco give %player% 500'
-      - 'playsound: %player%;ENTITY_PLAYER_LEVELUP;10;2'
-    permission: conditionalevents.event.event2
-    permission_error_message: '&cYou need to have a rank to use this button.'
-    cooldown: 3600
-    cooldown_error_message: '&cYou need to wait &e%time% &cbefore claiming your reward
-      again.'
-  event3:
-    type: player_attack
-    conditions:
-    - '%victim% equals PLAYER'
-    - '%item% equals DIAMOND_SWORD'
-    - '%item_name% equals Super Sword'
-    - '%random_1-10% >= 8'
-    actions:
-      default:
-      - 'message: &aYour diamond sword poison effect was activated!'
-      - 'give_potion_effect: %victim%;POISON;120;1'
-  event4:
-    type: block_break;block_place
-    conditions:
-    - '%block_world% equals spawn'
-    actions:
-      default:
-      - 'cancel_event: true'
-      - 'message: &cYou can''t break or place blocks on this world.'
-      - 'playsound: %player%;BLOCK_NOTE_BLOCK_PLING;10;0.1'
-    ignore_with_permission: conditionalevents.ignore.event4
-  event5:
-    type: player_command
-    conditions:
-    - '%command% startsWith //calc or %command% startsWith //solve or %command% startsWith
-      //eval'
-    actions:
-      default:
-      - 'cancel_event: true'
-      - 'kick: &cWhat are you trying to do?'
-    ignore_with_permission: conditionalevents.ignore.event5
-  event6:
-    type: block_interact
-    conditions:
-    - '%block_x% == 40'
-    - '%block_y% == 60'
-    - '%block_z% == 40'
-    - '%block_world% equals lobby'
-    - '%block% equals STONE_BUTTON'
-    - '%action_type% equals RIGHT_CLICK'
-    - '%statistic_jump% < 1000 execute actions2'
-    actions:
-      default:
-      - 'message: &aYou''ve received $5000!'
-      - 'console_command: eco give %player% 5000'
-      actions2:
-      - 'message: &cYou need at least 1000 jumps to use this button.'
-    cooldown: 3600
-    cooldown_error_message: '&cYou need to wait &e%time% &cbefore claiming your reward
-      again.'
-  event7:
-    type: repetitive
-    repetitive_time: 10
-    enable: false
-    conditions:
-    - '%player_world% equals plotworld'
-    - '%player_gamemode% !equals CREATIVE'
-    actions:
-      default:
-      - 'gamemode: CREATIVE'
-  event8:
+  frozen_spectate:
     type: player_respawn
     conditions:
     - '%player_world% equals world_ice'
@@ -121,7 +43,7 @@ Events:
       - 'message: &cTe has caído! &aEscribe /spawn para volver al Lobby'
       - 'gamemode: SPECTATOR'
       - 'console_command: scoreboard players reset %player% Frozen'
-  event9:
+  anvil_spectate:
     type: player_respawn
     conditions:
     - '%player_world% equals world_anvil'
@@ -132,7 +54,7 @@ Events:
       - 'message: &cTe aplastaron! &aEscribe /spawn para volver al Lobby'
       - 'gamemode: SPECTATOR'
       - 'console_command: scoreboard players reset %player% AnvilStorm'
-  event12:
+  arrows_spectate_normal:
     type: player_respawn
     conditions:
     - '%player_world% equals world_arrows'
@@ -143,7 +65,7 @@ Events:
       - 'teleport: world_arrows;40.5;50;12.5;90;45'
       - 'message: &cTe asesinaron! &aEscribe /spawn para volver al Lobby'
       - 'gamemode: SPECTATOR'
-  event13:
+  arrows_spectate_rounds:
     type: player_respawn
     conditions:
     - '%player_world% equals world_arrows'
@@ -153,7 +75,7 @@ Events:
       - 'teleport: world_arrows;40.5;50;12.5;90;45'
       - 'message: &cTe asesinaron! &aEspera a la siguiente ronda'
       - 'gamemode: SPECTATOR'
-  event14:
+  arrows_to_lobby:
     type: block_interact
     conditions:
     - '%block_x% == -15'
@@ -169,7 +91,7 @@ Events:
       - 'console_command: scoreboard players reset %player% Flechas'
       - 'console_command: playsound minecraft:entity.enderman.teleport ambient %player%
         ~ ~ ~ 1 1 1'
-  event15:
+  arrows_to_lobby2:
     type: block_interact
     conditions:
     - '%block_x% == -16'
@@ -184,7 +106,7 @@ Events:
       - 'teleport: world;1.5;31.5;0.5;90;0'
       - 'console_command: playsound minecraft:entity.enderman.teleport ambient %player%
         ~ ~ ~ 1 1 1'
-  event16:
+  arrows_info_sign:
     type: block_interact
     conditions:
     - '%block_x% == 1'
@@ -198,7 +120,7 @@ Events:
       - 'message: &7Ocultate en las sombras y sorprende a tus enemigos.'
       - 'message: &4&lHabilidad:&rInvisible durante 4(seg) al &aniv. 7 .'
     cooldown: 10
-  event17:
+  arrows_info_sign2:
     type: block_interact
     conditions:
     - '%block_x% == 1'
@@ -212,7 +134,7 @@ Events:
       - 'message: &ePrevalece ante tus adversarios con tu espíritu indomable.'
       - 'message: &4&lHabilidad: &rResistencia durante 5(seg) al &aniv. 7.'
     cooldown: 10
-  event18:
+  arrows_info_sign3:
     type: block_interact
     conditions:
     - '%block_x% == -1'
@@ -226,7 +148,7 @@ Events:
       - 'message: &2Improvisa en el campo con diversas pociones.'
       - 'message: &4&lHabilidad: &rPoción aleatoria al &aniv. 7.'
     cooldown: 10
-  event19:
+  arrows_info_sign4:
     type: block_interact
     conditions:
     - '%block_x% == -5'
@@ -240,7 +162,7 @@ Events:
       - 'message: &cDestroza a tus enemigos con fuego y pólvora.'
       - 'message: &4&lHabilidad: &rVelocidad 5 por 4(seg) al &aniv. 7.'
     cooldown: 10
-  event20:
+  arrows_info_sign5:
     type: block_interact
     conditions:
     - '%block_x% == -9'
@@ -255,7 +177,7 @@ Events:
       - 'message: &4&lHabilidad: &rMarca a un enemigo aleatorio por 2(seg) al &aniv.
         7.'
     cooldown: 10
-  event21:
+  arrows_info_sign6:
     type: block_interact
     conditions:
     - '%block_x% == -15'
@@ -269,7 +191,7 @@ Events:
       - 'message: &9Congélalos hasta que dejen de caminar.'
       - 'message: &4&lHabilidad: &rCrea un &3[Cryogenic arrow]&r al &aniv. 7.'
     cooldown: 10
-  event22:
+  arrows_info_sign7:
     type: block_interact
     conditions:
     - '%block_x% == -15'
@@ -283,7 +205,7 @@ Events:
       - 'message: &bDomina a tus oponentes con la flecha y la espada'
       - 'message: &4&lHabilidad: &rCrea un &b[Excalibur]&r al &aniv. 8.'
     cooldown: 10
-  event23:
+  arrows_info_sign8:
     type: block_interact
     conditions:
     - '%block_x% == -13'
@@ -298,7 +220,7 @@ Events:
       - 'message: &4&lHabilidad: &rEquipa un &4&l&n[Demolition Suit]&r y regeneración
         II por 5(seg) al &aniv. 12.'
     cooldown: 10
-  event24:
+  arrows_info_sign9:
     type: block_interact
     conditions:
     - '%block_x% == -9'
@@ -313,7 +235,7 @@ Events:
       - 'message: &4&lHabilidad: &rSi hay una o más &e[Flecha elecrica]&r en el campo,
         un trueno carea sobre estas, y crea una &e[Flecha elecrica]&r al &aniv. 10.'
     cooldown: 10
-  event25:
+  arrows_info_sign10:
     type: block_interact
     conditions:
     - '%block_x% == -5'
@@ -329,7 +251,7 @@ Events:
         al bloquear. Si el valor llega a 600, otorga levitación a tus oponentes &lcercanos&r.
         Habilidad de uso inmediato.'
     cooldown: 10
-  event26:
+  player_motd:
     type: player_join
     conditions:
     - '%player% equals Storbo execute actions1'
@@ -344,7 +266,7 @@ Events:
       - 'console_command: title %player% title {"text":"Bienvenid@ %player%","color":"light_purple"}'
       - 'console_command: title %player% subtitle ["",{"text":"Diviértete en los Telejuegos!
         ","color":"gray"}]'
-  event27:
+  skywars_parkour_prize:
     type: block_interact
     conditions:
     - '%block_x% == -8'
@@ -369,7 +291,7 @@ Events:
         30m'
       - 'teleport: world_skywars;-4;30;17;90;0'
     cooldown: 60
-  event28:
+  banned_cmds:
     type: player_command
     conditions:
     - '%command% contains /tpa or %command% contains /warp'
@@ -377,7 +299,7 @@ Events:
       default:
       - 'cancel_event: true'
       - 'message: &cNo puedes usar ese comando aquí!'
-  event29:
+  banned_cmds2:
     type: player_command
     conditions:
     - '%command% contains // or %command% contains /plugins or %command% equals /pl'
@@ -386,7 +308,7 @@ Events:
       - 'cancel_event: true'
       - 'message: &cNo puedes usar ese comando!'
     ignore_with_permission: conditionalevents.ignore.event29
-  event30:
+  banned_cmds3:
     type: player_command
     conditions:
     - '%command% equals /stop or %command% equals /restart'
@@ -394,7 +316,7 @@ Events:
       default:
       - 'cancel_event: true'
       - 'message: &4Solo puedes hacer eso desde la consola!'
-  event31:
+  powers_to_lobby:
     type: block_interact
     conditions:
     - '%block_x% == -86 or %block_x% == -134'
@@ -411,7 +333,7 @@ Events:
       - 'console_command: minecraft:clear %player%'
       - 'console_command: playsound minecraft:entity.enderman.teleport ambient %player%
         ~ ~ ~ 1 1 1'
-  event32:
+  powers_respawn:
     type: player_respawn
     conditions:
     - '%player_world% equals world_poderes'
@@ -470,7 +392,7 @@ Events:
       - 'console_command: effect give %player% minecraft:saturation 1 100 true'
       - 'console_command: minecraft:clear %player% cooked_beef'
       - 'console_command: minecraft:give %player% cooked_beef 15'
-  event33:
+  powers_spectate:
     type: player_respawn
     conditions:
     - '%player_world% equals world_poderes'
@@ -505,7 +427,7 @@ Events:
       - 'console_command: minecraft:tp %player% @e[limit=1,tag=Parena3,sort=random]'
       - 'console_command: scoreboard players set %player% PoderesW -1'
       - 'console_command: minecraft:clear %player%'
-  event34:
+  clear_inventory_on_world_change:
     type: player_world_change
     conditions:
     - '%world_from% !equals _skywars'
@@ -513,7 +435,7 @@ Events:
       default:
       - 'console_command: effect clear %player%'
       - 'console_command: minecraft:clear %player%'
-  event35:
+  powers_reset_stats:
     type: player_world_change
     conditions:
     - '%world_to% equals world'
@@ -529,7 +451,7 @@ Events:
         set 0.1'
       - 'console_command: effect clear %player%'
       - 'console_command: minecraft: clear %player%'
-  event36:
+  banned_chat:
     type: player_chat
     conditions:
     - '%luckperms_primary_group_name% equals funa'
@@ -537,7 +459,7 @@ Events:
       default:
       - 'cancel_event: true'
       - 'to_all: message: &7[&c&lFUNAD@&7-&c&l%player%&7] &k%message%'
-  event37:
+  sacrifice_easter_egg:
     type: player_command
     conditions:
     - '%command% startsWith /suicide'
@@ -546,7 +468,7 @@ Events:
       default:
       - 'cancel_event: true'
       - 'message: &cBuen intento!'
-  event38:
+  bedwars_to_lobby:
     type: block_interact
     conditions:
     - '%block_x% == 1'
@@ -561,7 +483,7 @@ Events:
       - 'teleport: world;1.5;31.5;0.5;90;0'
       - 'console_command: playsound minecraft:entity.enderman.teleport ambient %player%
         ~ ~ ~ 1 1 1'
-  event39:
+  party_games_music:
     type: player_levelup
     conditions:
     - '%objective_score_Party_Juego% == 1'
@@ -578,7 +500,7 @@ Events:
       - 'console_command: playsound minecraft:block.note_block.pling master @a[scores={Party=1}]
         ~ ~ ~ 1 0 1'
       - 'console_command: xp set %player% 0l'
-  event40:
+  pass_hot_potato:
     type: player_attack
     conditions:
     - '%objective_score_Party_Juego% == 2'
@@ -602,7 +524,7 @@ Events:
         set 0.1'
       - 'console_command: attribute %target:player% minecraft:generic.movement_speed
         base set 0.13'
-  event41:
+  random_hot_potato:
     type: player_levelup
     conditions:
     - '%objective_score_Party_Juego% == 2'
@@ -617,7 +539,7 @@ Events:
       - 'console_command: replaceitem entity %player% armor.head minecraft:tnt{HideFlags:1,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]}
         1'
       - 'console_command: xp set %player% 0l'
-  event42:
+  party_spectate:
     type: player_respawn
     conditions:
     - '%objective_score_Party_Juego% == 1'
@@ -628,7 +550,7 @@ Events:
       - 'teleport: world_party;-90.5;39.5;-7.5;90;0'
       - 'gamemode: SPECTATOR'
       - 'message: &7Estás en modo espectador, espera al siguiente juego...'
-  event43:
+  banned_cmds4:
     type: player_command
     conditions:
     - '%command% equals /sethome or %command% equals /home'
@@ -636,7 +558,7 @@ Events:
       default:
       - 'cancel_event: true'
       - 'message: &4No puedes usar ese comando aquí!'
-  event44:
+  players_set_skin_on_join:
     type: player_join
     conditions:
     - '%random_1-3% >= 1'
@@ -644,7 +566,7 @@ Events:
       default:
       - 'wait: 5'
       - 'console_command: skin set %player% %player%'
-  event45:
+  anvil_to_lobby:
     type: block_interact
     conditions:
     - '%block_x% == 169'
@@ -660,7 +582,7 @@ Events:
       - 'console_command: scoreboard players reset %player% AnvilStorm'
       - 'console_command: playsound minecraft:entity.enderman.teleport ambient %player%
         ~ ~ ~ 1 1 1'
-  event46:
+  anvil_sign:
     type: block_interact
     conditions:
     - '%block_x% == -26'
@@ -684,7 +606,7 @@ Events:
       - 'message: &cEl minijuego está lleno!'
       - 'console_command: playsound minecraft:block.note_block.harp ambient %player%
         ~ ~ ~ 1 0 1'
-  event47:
+  arrows_sign:
     type: repetitive
     repetitive_time: 400
     conditions:
@@ -712,7 +634,7 @@ Events:
       - 'console_command: hd setline F_in 8 Corre a elegir una!'
       - 'console_command: hd setline F_in 9 &7[&a2&7/&a2&7]'
       - 'console_command: scoreboard players set Info Flechas 1'
-  event48:
+  arrows_votes:
     type: block_interact
     conditions:
     - '%block_x% == -1'
@@ -725,7 +647,7 @@ Events:
       default:
       - 'cancel_event: true'
       - 'console_command: ib open flechas_modo %player%'
-  event49:
+  skywars_counter:
     type: repetitive
     repetitive_time: 20
     conditions:
@@ -733,7 +655,7 @@ Events:
     actions:
       default:
       - 'console_command: scoreboard players set Total SkyWars %playerlist_online,world,yes,amount,world_skywars+arena1+arena2+arena3+arena4+arena5+arena6+arena7+team1+team2+team3%'
-  event50:
+  skywars_sign:
     type: block_interact
     conditions:
     - '%block_x% == 0'
@@ -749,7 +671,7 @@ Events:
       - 'console_command: title %player% title ["",{"text":"Sky","bold":true,"color":"dark_aqua"},{"text":"Wars","bold":true,"color":"aqua"}]'
       - 'console_command: playsound minecraft:entity.player.attack.sweep ambient %player%
         ~ ~ ~ 1 1 1'
-  event51:
+  tntrun_counter:
     type: repetitive
     repetitive_time: 20
     conditions:
@@ -757,7 +679,7 @@ Events:
     actions:
       default:
       - 'console_command: scoreboard players set Total TNTRUN %playerlist_online,world,yes,amount,world_tnt%'
-  event52:
+  tntrun_sign:
     type: block_interact
     conditions:
     - '%block_x% == 26'
@@ -773,7 +695,7 @@ Events:
       - 'console_command: title %player% title ["",{"text":"TNT","bold":true,"color":"#FF0000"},{"text":"RUN","bold":true,"color":"dark_red"}]'
       - 'console_command: playsound minecraft:entity.generic.explode ambient %player%
         ~ ~ ~ 1 1 1'
-  event53:
+  bedwars_counter:
     type: repetitive
     repetitive_time: 20
     conditions:
@@ -781,7 +703,7 @@ Events:
     actions:
       default:
       - 'console_command: scoreboard players set Total BedWars %playerlist_online,world,yes,amount,world_bedwars+bw1%'
-  event54:
+  bedwars_sign:
     type: block_interact
     conditions:
     - '%block_x% == 32'
@@ -797,7 +719,7 @@ Events:
       - 'console_command: title %player% title ["",{"text":"Bed","bold":true,"color":"red"},{"text":"Wars","bold":true,"color":"gold"}]'
       - 'console_command: playsound minecraft:entity.arrow.hit_player ambient %player%
         ~ ~ ~ 1 1 1'
-  event55:
+  arrows_votes2:
     type: block_interact
     conditions:
     - '%block_x% == 2'
@@ -810,7 +732,7 @@ Events:
       default:
       - 'cancel_event: true'
       - 'console_command: ib open flechas_modificadores %player%'
-  event56:
+  frozen_sign:
     type: block_interact
     conditions:
     - '%block_x% == -30'
@@ -838,7 +760,7 @@ Events:
       - 'message: &cEl minijuego está lleno!'
       - 'console_command: playsound minecraft:block.note_block.harp ambient %player%
         ~ ~ ~ 1 0 1'
-  event57:
+  sacrifice_sign:
     type: block_interact
     conditions:
     - '%block_x% == 0'
@@ -866,7 +788,7 @@ Events:
       - 'message: &cEl minijuego está lleno!'
       - 'console_command: playsound minecraft:block.note_block.harp ambient %player%
         ~ ~ ~ 1 0 1'
-  event58:
+  powers_counter:
     type: block_interact
     conditions:
     - '%block_x% == 26'
@@ -904,7 +826,7 @@ Events:
       - 'message: &cEl minijuego está lleno!'
       - 'console_command: playsound minecraft:block.note_block.harp ambient %player%
         ~ ~ ~ 1 0 1'
-  event59:
+  powers_sign:
     type: block_interact
     conditions:
     - '%block_x% == -28'
@@ -932,7 +854,7 @@ Events:
       - 'message: &cEl minijuego está lleno!'
       - 'console_command: playsound minecraft:block.note_block.harp ambient %player%
         ~ ~ ~ 1 0 1'
-  armornt:
+  powers_cancel_iron_armor:
     type: player_armor
     conditions:
     - '%objective_score_Phierro% == 1'
@@ -940,7 +862,29 @@ Events:
     actions:
       default:
       - 'cancel_event: true'
+  filter_msg:
+    type: protocollib_receive_message
+    conditions:
+    - '%normal_message% contains &aYou have execute actions_for_all'
+    - '%normal_message% contains &6Teletransportando... execute actions_for_all'
+    - '%normal_message% contains &6Welcome execute actions_for_all'
+    - '%normal_message% contains &6Type execute actions_for_all'
+    - '%normal_message% contains &6Players execute actions_for_all'
+    - '%normal_message% contains &7No tienes correo execute actions_for_all'
+    - '%normal_message% contains &d[&bSP&d] &cIt seems execute actions_for_all'
+    - '%normal_message% contains &c&lHey! execute actions_for_all'
+    - '%normal_message% contains &d[&bSP&d] &aYou have execute actions_for_all'
+    - '%normal_message% contains &6Usa el comando &c/back execute actions_for_all'
+    - '%normal_message% contains &a&l[ExecutableItems] &aBien hecho, haz golpeado
+      al jugador execute actions_for_all'
+    - '%normal_message% contains &e&l[ExecutableItems] &eEl jugador &6 execute actions_for_all'
+    - '%normal_message% contains &c&l[ExecutableItems] &cNing execute actions_for_all'
+    actions:
+      actions_for_all:
+      - 'cancel_event: true'
+
 Config:
   update_notification: true
   register_commands: []
   data_save_time: 5
+  debug_actions: true

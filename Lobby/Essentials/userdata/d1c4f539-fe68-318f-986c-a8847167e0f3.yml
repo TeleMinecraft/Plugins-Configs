@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1684723170732
-  login: 1684723162523
+  logout: 1695499555974
+  login: 1695499552153
 money: '0'
 last-account-name: Sth3fan0
 lastlocation:
@@ -31,8 +31,8 @@ lastlocation:
 logoutlocation:
   world: 8039c8bf-b4ad-4692-9f73-205fa07ddece
   world-name: world
-  x: -1.8358726947097501
-  y: 32.5
-  z: 1.076768343787166
-  yaw: -122.34999084472656
-  pitch: 15.299999237060547
+  x: 0.5
+  y: 33.0
+  z: 0.5
+  yaw: -98.9999771118164
+  pitch: 7.350000858306885

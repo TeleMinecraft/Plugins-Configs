@@ -35,3 +35,5 @@ titles:
 item-transfer: true
 item-teleport-delay: 2
 end-portal-locations-handle-death: true
+force-join: false
+force-join-world: ''

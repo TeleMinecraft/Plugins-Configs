@@ -3,3 +3,6 @@ events:
   random_tp:
     one_time: false
     cooldown: 1689897188298
+  resistencia_y_skin_al_entrar:
+    one_time: false
+    cooldown: 1694981203404

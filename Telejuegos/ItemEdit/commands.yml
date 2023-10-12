@@ -51,6 +51,8 @@ itemedit:
     name: ''
   goathornsound:
     name: goathornsound
+  bookenchant:
+    name: ''
 serveritem:
   give:
     name: give

@@ -1,5 +1,8 @@
 Lang:
   
+  # Defines whether the client language should be used, if it is available
+  client-lang: true
+  
   # Defines the plugin language
   lang: es_es
 
@@ -10,8 +13,6 @@ Options:
   
   
   Emote:
-    
-    # Defines whether to create the default "happy" emote in the emotes folder if it is missing
     create-default-emote: true
     
     # Defines the maximum range at which emotes can be seen

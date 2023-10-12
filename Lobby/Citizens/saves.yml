@@ -31,6 +31,7 @@ npc:
         perplayer: false
         randomSwitchTargets: false
         targetnpcs: false
+        linkedbody: false
         randomPitchRange:
           '0': -10.0
           '1': 0.0
@@ -63,11 +64,11 @@ npc:
         LastEffect: none
       scoreboardtrait:
         color: YELLOW
-    traitnames: owner,eglow,equipment,lookclose,hologramtrait,spawned,scoreboardtrait,inventory,sneak,mounttrait,rotationtrait,location,skintrait,type
+    traitnames: type,eglow,owner,lookclose,sneak,rotationtrait,location,skintrait,hologramtrait,equipment,inventory,mounttrait,scoreboardtrait,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '5':
     metadata:
       cached-skin-uuid-name: 28007ee6-db78-43e0-90fe-335d3e1c1dbb
@@ -87,6 +88,7 @@ npc:
         perplayer: false
         randomSwitchTargets: false
         targetnpcs: false
+        linkedbody: false
         randomPitchRange:
           '0': -10.0
           '1': 0.0
@@ -116,11 +118,11 @@ npc:
         LastEffect: none
       scoreboardtrait:
         color: GREEN
-    traitnames: owner,eglow,lookclose,equipment,spawned,scoreboardtrait,inventory,sneak,mounttrait,rotationtrait,location,skintrait,type
+    traitnames: type,eglow,owner,lookclose,rotationtrait,sneak,location,skintrait,equipment,inventory,mounttrait,scoreboardtrait,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '4':
     metadata:
       cached-skin-uuid-name: f0d8f514-a44f-4cc3-a350-9d5f526e69f7
@@ -140,6 +142,7 @@ npc:
         perplayer: false
         randomSwitchTargets: false
         targetnpcs: false
+        linkedbody: false
         randomPitchRange:
           '0': -10.0
           '1': 0.0
@@ -169,11 +172,11 @@ npc:
         LastEffect: none
       scoreboardtrait:
         color: DARK_AQUA
-    traitnames: owner,eglow,equipment,lookclose,spawned,scoreboardtrait,inventory,sneak,mounttrait,rotationtrait,location,skintrait,type
+    traitnames: type,eglow,owner,lookclose,rotationtrait,sneak,location,skintrait,equipment,inventory,mounttrait,scoreboardtrait,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '3':
     metadata:
       cached-skin-uuid-name: efb006ba-de03-4418-ac62-f6f5cdec0bf5
@@ -193,6 +196,7 @@ npc:
         perplayer: false
         randomSwitchTargets: false
         targetnpcs: false
+        linkedbody: false
         randomPitchRange:
           '0': -10.0
           '1': 0.0
@@ -222,11 +226,11 @@ npc:
         LastEffect: none
       scoreboardtrait:
         color: GOLD
-    traitnames: owner,eglow,equipment,lookclose,spawned,scoreboardtrait,inventory,sneak,mounttrait,rotationtrait,location,skintrait,type
+    traitnames: type,eglow,owner,lookclose,rotationtrait,sneak,location,skintrait,equipment,inventory,mounttrait,scoreboardtrait,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '2':
     metadata:
       cached-skin-uuid-name: c4e48d8a-09f0-4e59-a50a-c6fad2ce0e52
@@ -247,6 +251,7 @@ npc:
         perplayer: false
         randomSwitchTargets: false
         targetnpcs: false
+        linkedbody: false
         randomPitchRange:
           '0': -10.0
           '1': 0.0
@@ -276,11 +281,11 @@ npc:
         LastEffect: none
       scoreboardtrait:
         color: DARK_RED
-    traitnames: owner,eglow,lookclose,equipment,spawned,scoreboardtrait,inventory,sneak,mounttrait,rotationtrait,location,skintrait,type
+    traitnames: type,eglow,owner,lookclose,rotationtrait,sneak,location,skintrait,equipment,inventory,mounttrait,scoreboardtrait,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '1':
     metadata:
       cached-skin-uuid-name: 42d01208-48c6-4b1e-adba-5c74e8624ded
@@ -300,6 +305,7 @@ npc:
         perplayer: false
         randomSwitchTargets: false
         targetnpcs: false
+        linkedbody: false
         randomPitchRange:
           '0': -10.0
           '1': 0.0
@@ -329,11 +335,11 @@ npc:
         LastEffect: none
       scoreboardtrait:
         color: AQUA
-    traitnames: owner,eglow,equipment,lookclose,spawned,scoreboardtrait,inventory,sneak,mounttrait,rotationtrait,location,skintrait,type
+    traitnames: type,eglow,owner,lookclose,sneak,rotationtrait,location,skintrait,equipment,inventory,mounttrait,scoreboardtrait,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '16':
     name: §f§lBlack
     uuid: 4981b814-5568-4f52-845f-77d833e39986
@@ -351,6 +357,7 @@ npc:
         perplayer: false
         randomSwitchTargets: false
         targetnpcs: false
+        linkedbody: false
         randomPitchRange:
           '0': -10.0
           '1': 0.0
@@ -372,11 +379,11 @@ npc:
       sneak:
         sneaking: false
       type: POLAR_BEAR
-    traitnames: owner,inventory,sneak,mounttrait,rotationtrait,equipment,lookclose,location,skintrait,type,spawned,scoreboardtrait
+    traitnames: type,equipment,inventory,owner,lookclose,mounttrait,scoreboardtrait,rotationtrait,sneak,spawned,location,skintrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '15':
     name: §f§lNotaker
     uuid: ea29bf37-046e-4251-9004-6824b07b6535
@@ -394,6 +401,7 @@ npc:
         perplayer: false
         randomSwitchTargets: false
         targetnpcs: false
+        linkedbody: false
         randomPitchRange:
           '0': -10.0
           '1': 0.0
@@ -415,11 +423,11 @@ npc:
       sneak:
         sneaking: false
       type: POLAR_BEAR
-    traitnames: owner,inventory,sneak,mounttrait,rotationtrait,equipment,lookclose,location,skintrait,type,spawned,scoreboardtrait
+    traitnames: type,equipment,inventory,owner,lookclose,mounttrait,sneak,scoreboardtrait,rotationtrait,spawned,location,skintrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '14':
     name: §3§lLee
     uuid: 2631cc38-e57a-42ec-8fad-f8c32b560418
@@ -430,6 +438,7 @@ npc:
         sitting: false
         rolling: false
         sneezing: false
+        eating: false
       skintrait:
         fetchDefaultSkin: true
         updateSkins: false
@@ -450,6 +459,7 @@ npc:
         perplayer: false
         randomSwitchTargets: false
         targetnpcs: false
+        linkedbody: false
         randomPitchRange:
           '0': -10.0
           '1': 0.0
@@ -467,11 +477,11 @@ npc:
         z: '-55.6563'
         yaw: '-17.8283'
         pitch: '0.0'
-    traitnames: owner,age,pandatrait,equipment,lookclose,spawned,scoreboardtrait,inventory,sneak,mounttrait,rotationtrait,location,skintrait,type
+    traitnames: type,age,owner,lookclose,sneak,rotationtrait,location,skintrait,equipment,inventory,mounttrait,scoreboardtrait,pandatrait,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '13':
     name: §9§lMei
     uuid: 7c7c23ee-7ea8-4d4e-92b5-5ef33ea95f9b
@@ -489,6 +499,7 @@ npc:
         perplayer: false
         randomSwitchTargets: false
         targetnpcs: false
+        linkedbody: false
         randomPitchRange:
           '0': -10.0
           '1': 0.0
@@ -510,11 +521,11 @@ npc:
       sneak:
         sneaking: false
       type: PANDA
-    traitnames: owner,inventory,sneak,mounttrait,rotationtrait,lookclose,equipment,location,skintrait,type,spawned,scoreboardtrait
+    traitnames: type,equipment,inventory,owner,lookclose,mounttrait,scoreboardtrait,sneak,rotationtrait,spawned,location,skintrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '12':
     name: §x§f§f§0§0§0§0§lLhen
     uuid: a3039a1b-236c-466a-a368-4269cee3365a
@@ -544,6 +555,7 @@ npc:
         perplayer: false
         randomSwitchTargets: false
         targetnpcs: false
+        linkedbody: false
         randomPitchRange:
           '0': -10.0
           '1': 0.0
@@ -558,11 +570,11 @@ npc:
         z: '-29.3109'
         yaw: '10.4399'
         pitch: '0.0'
-    traitnames: owner,lookclose,equipment,hologramtrait,spawned,scoreboardtrait,inventory,sneak,mounttrait,rotationtrait,gravity,location,skintrait,type
+    traitnames: type,gravity,owner,lookclose,rotationtrait,sneak,location,skintrait,hologramtrait,equipment,inventory,mounttrait,scoreboardtrait,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
     metadata:
       flyable: true
   '11':
@@ -593,6 +605,7 @@ npc:
         perplayer: false
         randomSwitchTargets: false
         targetnpcs: false
+        linkedbody: false
         randomPitchRange:
           '0': -10.0
           '1': 0.0
@@ -607,11 +620,11 @@ npc:
         z: '-29.3237'
         yaw: '-162.7074'
         pitch: '0.0'
-    traitnames: owner,equipment,lookclose,spawned,scoreboardtrait,inventory,sneak,mounttrait,rotationtrait,parrottrait,gravity,location,skintrait,type
+    traitnames: type,gravity,owner,lookclose,sneak,rotationtrait,location,skintrait,equipment,inventory,parrottrait,mounttrait,scoreboardtrait,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
     metadata:
       flyable: true
   '10':
@@ -642,6 +655,7 @@ npc:
         perplayer: false
         randomSwitchTargets: false
         targetnpcs: false
+        linkedbody: false
         randomPitchRange:
           '0': -10.0
           '1': 0.0
@@ -656,11 +670,11 @@ npc:
         z: '-29.7'
         yaw: '173.5914'
         pitch: '0.0'
-    traitnames: owner,lookclose,equipment,spawned,scoreboardtrait,inventory,sneak,mounttrait,rotationtrait,parrottrait,gravity,location,skintrait,type
+    traitnames: type,gravity,owner,lookclose,rotationtrait,sneak,location,skintrait,equipment,inventory,parrottrait,mounttrait,scoreboardtrait,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
     metadata:
       flyable: true
   '9':
@@ -680,6 +694,7 @@ npc:
         perplayer: false
         randomSwitchTargets: false
         targetnpcs: false
+        linkedbody: false
         randomPitchRange:
           '0': -10.0
           '1': 0.0
@@ -703,11 +718,11 @@ npc:
       sneak:
         sneaking: false
       type: RABBIT
-    traitnames: owner,inventory,sneak,mounttrait,equipment,lookclose,location,skintrait,type,spawned,rabbittype,scoreboardtrait
+    traitnames: type,rabbittype,equipment,inventory,owner,lookclose,mounttrait,scoreboardtrait,sneak,spawned,location,skintrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '8':
     metadata:
       minecraft-ai: false
@@ -727,6 +742,7 @@ npc:
         perplayer: false
         randomSwitchTargets: false
         targetnpcs: false
+        linkedbody: false
         randomPitchRange:
           '0': -10.0
           '1': 0.0
@@ -750,11 +766,11 @@ npc:
       sneak:
         sneaking: false
       type: RABBIT
-    traitnames: owner,lookclose,equipment,spawned,scoreboardtrait,inventory,sneak,mounttrait,rotationtrait,location,skintrait,type,rabbittype
+    traitnames: type,rabbittype,owner,lookclose,rotationtrait,sneak,location,skintrait,equipment,inventory,mounttrait,scoreboardtrait,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '7':
     metadata:
       minecraft-ai: false
@@ -774,6 +790,7 @@ npc:
         perplayer: false
         randomSwitchTargets: false
         targetnpcs: false
+        linkedbody: false
         randomPitchRange:
           '0': -10.0
           '1': 0.0
@@ -800,11 +817,11 @@ npc:
       sneak:
         sneaking: false
       type: FOX
-    traitnames: owner,equipment,lookclose,spawned,scoreboardtrait,inventory,sneak,mounttrait,rotationtrait,foxtrait,location,skintrait,type
+    traitnames: type,owner,lookclose,sneak,rotationtrait,location,skintrait,equipment,inventory,foxtrait,mounttrait,scoreboardtrait,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '6':
     metadata:
       minecraft-ai: false
@@ -833,11 +850,11 @@ npc:
       sneak:
         sneaking: false
       type: FOX
-    traitnames: owner,inventory,sneak,mounttrait,foxtrait,equipment,location,skintrait,type,spawned,scoreboardtrait
+    traitnames: type,equipment,inventory,foxtrait,owner,mounttrait,scoreboardtrait,sneak,spawned,location,skintrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '22':
     metadata:
       removefromplayerlist: false
@@ -869,11 +886,11 @@ npc:
         persistSequence: false
       sneaking:
         sneaking: false
-    traitnames: invisible,owner,inventory,sneaking,mounttrait,commandtrait,location,skintrait,type,spawned,scoreboardtrait
+    traitnames: type,invisible,inventory,sneaking,owner,mounttrait,scoreboardtrait,commandtrait,spawned,location,skintrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '25':
     metadata:
       cached-skin-uuid: 8597ea12-c1e2-4779-8b69-9dd5790eb1a9
@@ -915,6 +932,7 @@ npc:
         perplayer: false
         randomSwitchTargets: false
         targetnpcs: false
+        linkedbody: false
         randomPitchRange:
           '0': 0.0
           '1': 0.0
@@ -926,11 +944,11 @@ npc:
       controllable:
         enabled: true
         owner_required: false
-    traitnames: owner,inventory,mounttrait,lookclose,gravity,location,skintrait,controllable,type,spawned,scoreboardtrait
+    traitnames: type,gravity,inventory,owner,lookclose,mounttrait,scoreboardtrait,spawned,controllable,location,skintrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '24':
     metadata:
       cached-skin-uuid: a947e7e1-b38e-42f9-9eb6-5fdcfb2f0cde
@@ -961,6 +979,7 @@ npc:
         perplayer: false
         randomSwitchTargets: false
         targetnpcs: false
+        linkedbody: false
         randomPitchRange:
           '0': 0.0
           '1': 0.0
@@ -990,11 +1009,11 @@ npc:
         offhand:
           type_key: iron_sword
           amount: 1
-    traitnames: owner,inventory,mounttrait,age,lookclose,equipment,gravity,location,skintrait,type,spawned,scoreboardtrait
+    traitnames: type,gravity,equipment,inventory,owner,age,lookclose,mounttrait,scoreboardtrait,spawned,location,skintrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '23':
     metadata:
       cached-skin-uuid: 8c881159-156b-4750-99e1-a30f8fe12a96
@@ -1037,6 +1056,7 @@ npc:
         perplayer: false
         randomSwitchTargets: false
         targetnpcs: false
+        linkedbody: false
         randomPitchRange:
           '0': 0.0
           '1': 0.0
@@ -1058,11 +1078,11 @@ npc:
         updateSkins: false
       gravity:
         enabled: true
-    traitnames: owner,inventory,mounttrait,equipment,lookclose,gravity,location,skintrait,hologramtrait,type,spawned,scoreboardtrait
+    traitnames: hologramtrait,type,gravity,equipment,inventory,owner,lookclose,mounttrait,scoreboardtrait,spawned,location,skintrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '29':
     metadata:
       cached-skin-uuid: 45e9306e-bed5-4a79-9ddf-b11b30e108ad
@@ -1111,6 +1131,7 @@ npc:
         perplayer: false
         randomSwitchTargets: false
         targetnpcs: false
+        linkedbody: false
         randomPitchRange:
           '0': 0.0
           '1': 0.0
@@ -1132,11 +1153,11 @@ npc:
         updateSkins: false
       gravity:
         enabled: true
-    traitnames: owner,inventory,mounttrait,lookclose,equipment,gravity,location,skintrait,type,spawned,scoreboardtrait
+    traitnames: type,gravity,equipment,inventory,owner,lookclose,mounttrait,scoreboardtrait,spawned,location,skintrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '28':
     metadata:
       cached-skin-uuid: 4385a719-7a0f-405d-bec7-e9ae50e93fdc
@@ -1164,6 +1185,7 @@ npc:
         perplayer: false
         randomSwitchTargets: false
         targetnpcs: false
+        linkedbody: false
         randomPitchRange:
           '0': 0.0
           '1': 0.0
@@ -1185,11 +1207,11 @@ npc:
         updateSkins: false
       gravity:
         enabled: true
-    traitnames: owner,inventory,mounttrait,lookclose,gravity,location,skintrait,powered,type,spawned,scoreboardtrait
+    traitnames: type,gravity,inventory,powered,owner,lookclose,mounttrait,scoreboardtrait,spawned,location,skintrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '27':
     metadata:
       cached-skin-uuid: 4ad3dc8f-c1dd-44df-a6fb-36646b2d08ba
@@ -1222,11 +1244,11 @@ npc:
         updateSkins: false
       gravity:
         enabled: true
-    traitnames: owner,inventory,mounttrait,gravity,location,skintrait,type,spawned,endermantrait,scoreboardtrait
+    traitnames: type,gravity,inventory,owner,endermantrait,mounttrait,scoreboardtrait,spawned,location,skintrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '32':
     metadata:
       cached-skin-uuid: 10713b62-0b7e-40d7-b29f-f3f22da8e70b
@@ -1257,11 +1279,11 @@ npc:
         enabled: true
       type: FALLING_BLOCK
       spawned: true
-    traitnames: owner,inventory,mounttrait,gravity,location,skintrait,type,spawned,scoreboardtrait
+    traitnames: type,gravity,inventory,owner,mounttrait,scoreboardtrait,spawned,location,skintrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
     itemprovider:
       type_key: composter
       amount: 1
@@ -1288,8 +1310,8 @@ npc:
       skintrait:
         fetchDefaultSkin: true
         updateSkins: false
-    traitnames: owner,inventory,mounttrait,gravity,location,skintrait,type,spawned,scoreboardtrait
+    traitnames: type,gravity,inventory,owner,mounttrait,scoreboardtrait,spawned,location,skintrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false

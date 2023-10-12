@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 181.43.215.224
+ip-address: 190.101.149.24
 afk: false
 socialspy: false
 npc: false
@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1693450100814
-  login: 1693450046290
+  logout: 1694201416399
+  login: 1694201402184
 money: '0'
 last-account-name: SaaFigue2726
 lastlocation:
@@ -31,8 +31,8 @@ lastlocation:
 logoutlocation:
   world: 8039c8bf-b4ad-4692-9f73-205fa07ddece
   world-name: world
-  x: -3.3949451086020916
-  y: 30.0
-  z: -55.60752873351763
-  yaw: 125.84941864013672
-  pitch: 16.649967193603516
+  x: 4.679876319815307
+  y: 32.5
+  z: 0.5
+  yaw: -90.30000305175781
+  pitch: 0.4500000476837158

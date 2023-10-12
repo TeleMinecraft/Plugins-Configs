@@ -33,11 +33,11 @@ npc:
         enabled: true
       owner:
         uuid: 7896059c-b3c9-30af-90d5-72b9224cb001
-    traitnames: location,inventory,type,skintrait,gravity,owner,mounttrait,scoreboardtrait,spawned,equipment
+    traitnames: gravity,inventory,mounttrait,type,skintrait,owner,location,equipment,spawned,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '58':
     metadata:
       cached-skin-uuid: 88e46d8d-d2c0-474d-84c1-d15937126767
@@ -64,11 +64,11 @@ npc:
         enabled: false
       owner:
         uuid: 7896059c-b3c9-30af-90d5-72b9224cb001
-    traitnames: location,inventory,type,skintrait,gravity,owner,mounttrait,scoreboardtrait,spawned,equipment
+    traitnames: gravity,inventory,mounttrait,type,skintrait,owner,location,equipment,spawned,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '57':
     metadata:
       cached-skin-uuid: 88e46d8d-d2c0-474d-84c1-d15937126767
@@ -95,11 +95,11 @@ npc:
         enabled: false
       owner:
         uuid: 7896059c-b3c9-30af-90d5-72b9224cb001
-    traitnames: location,inventory,type,skintrait,gravity,owner,mounttrait,scoreboardtrait,spawned,equipment
+    traitnames: gravity,inventory,mounttrait,type,owner,skintrait,location,equipment,spawned,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '62':
     metadata:
       nameplate-visible: 'false'
@@ -118,7 +118,7 @@ npc:
         bodyYaw: 47.3953
         world: world_skywars
         x: '36.4119'
-        y: '-2.0563836045216E9'
+        y: '-2.0474504840536E9'
         z: '9.6021'
         yaw: '47.3953'
         pitch: '0.0'
@@ -136,11 +136,11 @@ npc:
         persistSequence: false
       owner:
         uuid: 7896059c-b3c9-30af-90d5-72b9224cb001
-    traitnames: villagertrait,type,gravity,owner,scoreboardtrait,location,profession,inventory,skintrait,mounttrait,spawned,commandtrait,equipment
+    traitnames: commandtrait,owner,skintrait,villagertrait,location,profession,spawned,scoreboardtrait,inventory,gravity,mounttrait,type,equipment
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '61':
     name: Ancient Blacksmith
     uuid: 8a280e85-6d52-463c-838a-b95f5daba823
@@ -162,11 +162,11 @@ npc:
         enabled: false
       owner:
         uuid: 7896059c-b3c9-30af-90d5-72b9224cb001
-    traitnames: location,inventory,type,skintrait,gravity,owner,mounttrait,scoreboardtrait,spawned,equipment
+    traitnames: gravity,inventory,mounttrait,type,owner,skintrait,location,equipment,scoreboardtrait,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '60':
     metadata:
       cached-skin-uuid: c3c25b06-08b2-4070-b002-e692d39dc16b
@@ -193,11 +193,11 @@ npc:
         enabled: false
       owner:
         uuid: 7896059c-b3c9-30af-90d5-72b9224cb001
-    traitnames: location,inventory,type,skintrait,gravity,owner,mounttrait,scoreboardtrait,spawned,equipment
+    traitnames: inventory,gravity,mounttrait,type,skintrait,owner,location,equipment,spawned,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '66':
     metadata:
       cached-skin-uuid-name: bloque
@@ -227,11 +227,11 @@ npc:
         pitch: '-11.4'
       owner:
         uuid: b319b04c-ede3-36b1-ac74-131f573b07a9
-    traitnames: location,inventory,type,skintrait,gravity,owner,mounttrait,scoreboardtrait,spawned,equipment
+    traitnames: inventory,gravity,mounttrait,type,skintrait,owner,location,equipment,scoreboardtrait,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
     itemprovider:
       type_key: mossy_stone_bricks
       amount: 1
@@ -250,7 +250,7 @@ npc:
         bodyYaw: 271.48865
         world: world
         x: '-28.2709'
-        y: '-6.106179041709E8'
+        y: '-6.01684783975E8'
         z: '0.3633'
         yaw: '-88.5114'
         pitch: '0.0'
@@ -262,11 +262,11 @@ npc:
       spawned: true
       owner:
         uuid: b319b04c-ede3-36b1-ac74-131f573b07a9
-    traitnames: location,inventory,type,skintrait,gravity,owner,mounttrait,scoreboardtrait,spawned,equipment
+    traitnames: gravity,inventory,mounttrait,type,skintrait,owner,location,equipment,scoreboardtrait,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '68':
     metadata:
       cached-skin-uuid-name: alex
@@ -311,11 +311,11 @@ npc:
         uuid: b319b04c-ede3-36b1-ac74-131f573b07a9
       sneak:
         sneaking: false
-    traitnames: location,inventory,type,skintrait,gravity,owner,mounttrait,scoreboardtrait,spawned,equipment,sneak
+    traitnames: gravity,inventory,mounttrait,sneak,type,skintrait,owner,location,equipment,scoreboardtrait,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '67':
     metadata:
       cached-skin-uuid-name: flecha1
@@ -390,6 +390,7 @@ npc:
         perplayer: false
         randomSwitchTargets: false
         targetnpcs: false
+        linkedbody: false
         randomPitchRange:
           '0': -10.0
           '1': 0.0
@@ -400,11 +401,11 @@ npc:
         uuid: b319b04c-ede3-36b1-ac74-131f573b07a9
       sneak:
         sneaking: false
-    traitnames: location,inventory,lookclose,type,skintrait,gravity,owner,mounttrait,scoreboardtrait,spawned,equipment,sneak
+    traitnames: inventory,gravity,mounttrait,sneak,type,skintrait,owner,location,lookclose,equipment,spawned,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '71':
     metadata:
       nameplate-visible: 'false'
@@ -422,7 +423,7 @@ npc:
         bodyYaw: -358.35104
         world: world
         x: '-25.4986'
-        y: '-2.0563837453217E9'
+        y: '-2.0474506248537E9'
         z: '-30.5135'
         yaw: '1.649'
         pitch: '0.0'
@@ -435,11 +436,11 @@ npc:
       spawned: true
       owner:
         uuid: b319b04c-ede3-36b1-ac74-131f573b07a9
-    traitnames: location,inventory,age,type,skintrait,gravity,owner,mounttrait,scoreboardtrait,spawned,equipment
+    traitnames: inventory,gravity,mounttrait,type,owner,skintrait,age,location,equipment,scoreboardtrait,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '79':
     metadata:
       item-type-data: 0
@@ -469,11 +470,11 @@ npc:
         enabled: true
       owner:
         uuid: b319b04c-ede3-36b1-ac74-131f573b07a9
-    traitnames: location,inventory,type,skintrait,gravity,owner,mounttrait,scoreboardtrait,spawned,equipment
+    traitnames: gravity,inventory,mounttrait,type,owner,skintrait,location,equipment,spawned,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
     itemprovider:
       type_key: torch
       amount: 1
@@ -502,11 +503,11 @@ npc:
         enabled: false
       owner:
         uuid: 7896059c-b3c9-30af-90d5-72b9224cb001
-    traitnames: location,inventory,type,skintrait,gravity,owner,mounttrait,scoreboardtrait,spawned,equipment
+    traitnames: gravity,inventory,mounttrait,type,owner,skintrait,location,equipment,scoreboardtrait,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
     itemprovider:
       type_key: cake
       amount: 1
@@ -583,11 +584,11 @@ npc:
         uuid: d08177c0-2cf4-31d4-bdf9-716890033081
       sneak:
         sneaking: false
-    traitnames: location,inventory,type,skintrait,gravity,owner,mounttrait,scoreboardtrait,spawned,sneak,equipment
+    traitnames: inventory,gravity,mounttrait,sneak,type,owner,skintrait,location,equipment,spawned,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '82':
     metadata:
       cached-skin-uuid-name: alex2
@@ -682,11 +683,11 @@ npc:
         uuid: d08177c0-2cf4-31d4-bdf9-716890033081
       sneak:
         sneaking: false
-    traitnames: location,inventory,type,skintrait,gravity,owner,mounttrait,scoreboardtrait,spawned,equipment,sneak
+    traitnames: gravity,inventory,mounttrait,sneak,type,owner,skintrait,location,equipment,scoreboardtrait,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '81':
     metadata:
       nameplate-visible: 'false'
@@ -703,7 +704,7 @@ npc:
         bodyYaw: 179.3988
         world: world
         x: '37.636'
-        y: '-2.0563836749217E9'
+        y: '-2.0474505544537E9'
         z: '9.4557'
         yaw: '179.3988'
         pitch: '0.0'
@@ -714,11 +715,11 @@ npc:
       type: VILLAGER
       owner:
         uuid: d08177c0-2cf4-31d4-bdf9-716890033081
-    traitnames: location,inventory,type,skintrait,gravity,owner,mounttrait,scoreboardtrait,spawned,equipment
+    traitnames: gravity,inventory,mounttrait,type,owner,skintrait,location,equipment,spawned,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '80':
     metadata:
       cached-skin-uuid-name: ald1
@@ -737,7 +738,7 @@ npc:
         bodyYaw: 9.1552734E-5
         world: world
         x: '37.4624'
-        y: '-2.0563836749217E9'
+        y: '-2.0474505544537E9'
         z: '-7.7'
         yaw: '1.0E-4'
         pitch: '0.0'
@@ -750,11 +751,11 @@ npc:
       type: VILLAGER
       owner:
         uuid: d08177c0-2cf4-31d4-bdf9-716890033081
-    traitnames: location,inventory,type,skintrait,gravity,owner,mounttrait,scoreboardtrait,spawned,equipment
+    traitnames: inventory,gravity,mounttrait,type,owner,skintrait,location,equipment,spawned,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '85':
     metadata:
       cached-skin-uuid: 61699b2e-d327-4a01-9f1e-0ea8c3f06bc6
@@ -781,11 +782,11 @@ npc:
       type: PLAYER
       owner:
         uuid: d08177c0-2cf4-31d4-bdf9-716890033081
-    traitnames: location,inventory,type,skintrait,gravity,owner,mounttrait,scoreboardtrait,spawned,equipment
+    traitnames: gravity,inventory,mounttrait,type,owner,skintrait,location,equipment,scoreboardtrait,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '84':
     metadata:
       cached-skin-uuid: 40a50d9f-ff33-412f-b9e6-93695ca88fb3
@@ -812,11 +813,11 @@ npc:
       type: PLAYER
       owner:
         uuid: d08177c0-2cf4-31d4-bdf9-716890033081
-    traitnames: location,inventory,type,skintrait,gravity,owner,mounttrait,scoreboardtrait,spawned,equipment
+    traitnames: inventory,gravity,mounttrait,type,skintrait,owner,location,equipment,spawned,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '88':
     metadata:
       cached-skin-uuid-name: 360631bb-96da-499f-8771-697139163962
@@ -838,6 +839,7 @@ npc:
         perplayer: false
         randomSwitchTargets: false
         targetnpcs: false
+        linkedbody: false
         randomPitchRange:
           '0': -10.0
           '1': 0.0
@@ -864,11 +866,11 @@ npc:
         uuid: d08177c0-2cf4-31d4-bdf9-716890033081
       sneak:
         sneaking: false
-    traitnames: location,lookclose,inventory,type,skintrait,gravity,owner,mounttrait,scoreboardtrait,spawned,equipment,sneak
+    traitnames: gravity,inventory,mounttrait,sneak,type,owner,skintrait,location,lookclose,equipment,spawned,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '87':
     metadata:
       cached-skin-uuid: 61699b2e-d327-4a01-9f1e-0ea8c3f06bc6
@@ -893,11 +895,11 @@ npc:
         pitch: '33.45'
       owner:
         uuid: d08177c0-2cf4-31d4-bdf9-716890033081
-    traitnames: location,inventory,type,skintrait,owner,mounttrait,scoreboardtrait,spawned,equipment
+    traitnames: inventory,mounttrait,type,skintrait,owner,location,equipment,spawned,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '86':
     metadata:
       cached-skin-uuid-name: chancho
@@ -917,14 +919,14 @@ npc:
         bodyYaw: 1.578
         world: world_bedwars
         x: '30.4417'
-        y: '-2.0563836759217E9'
+        y: '-2.0474505554537E9'
         z: '3.5432'
         yaw: '1.578'
         pitch: '0.0'
       owner:
         uuid: 7896059c-b3c9-30af-90d5-72b9224cb001
-    traitnames: location,inventory,type,skintrait,owner,mounttrait,scoreboardtrait,spawned,equipment
+    traitnames: inventory,mounttrait,type,skintrait,owner,location,equipment,spawned,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false

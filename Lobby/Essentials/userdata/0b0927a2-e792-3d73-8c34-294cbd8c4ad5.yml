@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 186.78.72.54
+ip-address: 201.223.139.73
 afk: false
 socialspy: false
 npc: false
@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1690841306121
-  login: 1690841291860
+  logout: 1696982661312
+  login: 1696982660719
 money: '0'
 last-account-name: MonoMaczi
 lastlocation:
@@ -31,8 +31,8 @@ lastlocation:
 logoutlocation:
   world: 8039c8bf-b4ad-4692-9f73-205fa07ddece
   world-name: world
-  x: 5.104948928300783
-  y: 32.5
-  z: 0.8585344384829585
-  yaw: -94.0
-  pitch: 11.0
+  x: 0.5
+  y: 33.0
+  z: 0.5
+  yaw: -90.0
+  pitch: 0.0

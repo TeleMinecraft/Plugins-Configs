@@ -25,6 +25,10 @@ updater:
   auto-update: true
   minor-updates-only: true
 purchase:
+  permission:
+    enable: true
+    success: '&aYou have successfully passed the permission check for "%cp-args%".'
+    failure: '&cInefficient Permissions'
   coins:
     enable: true
     success: '&aSuccessfully Bought For %cp-args% Coins.'

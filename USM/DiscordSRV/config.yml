@@ -6,7 +6,7 @@ ConfigVersion: 1.26.2
 
 # Bot token; don't know what this is? Look at the video on the plugin page for instructions
 # You must restart your server after changing this option
-BotToken: "OTkzNjM0NzgzMjgyMzUyMTc5.GyhvaJ.mMJVMjdPqvTaV4_U6qpfL315OUHVGsH-eyZ8z8"
+BotToken: "OTkzNjM0NzgzMjgyMzUyMTc5.GP7MYQ.dRFlt_sXY-c6dgpcF3_SMCRhEbDTbp5ODgMlpE"
 
 # Channel links from game to Discord
 # syntax is Channels: {"in-game channel name from Minecraft": "numerical channel ID from Discord", "another in-game channel name from Minecraft": "another numerical channel ID from Discord"}

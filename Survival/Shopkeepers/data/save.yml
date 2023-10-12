@@ -9583,3 +9583,515 @@ data-version: 3|2|3337
         v: 3337
         type: IRON_NUGGET
   snapshots: []
+'51':
+  uniqueId: e7def6b6-cfbf-4678-b978-bcfc4df55510
+  world: world
+  x: -1760
+  y: 72
+  z: 2549
+  yaw: 143.10197
+  type: admin
+  name: ''
+  object:
+    type: citizen
+    npcId: a33c017b-4424-4341-a32c-790462e93c08
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#D41717","text":"Báltica"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Hidratación
+            III (1:00)"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Veneno
+            I (0:10)"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Borrachera
+            II (0:20)"}],"text":""}'
+          custom-model-data: 1
+          ItemFlags:
+          - HIDE_POTION_EFFECTS
+          potion-type: minecraft:water
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: GOLD_NUGGET
+        amount: 3
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"italic":false,"color":"yellow","text":"Moneda"}'
+          enchants:
+            DURABILITY: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          internal: H4sIAAAAAAAA/+NiYGBmEPaNDPHwdI73DHH1jQ9zDQr29PdjYGBg5GDghsqERAa4MrD55uelpiQyAAAtH4gkNAAAAA==
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FCD01D","text":"Mote
+            con Huesillo"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Hidratación
+            X (10:00)"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Saturación
+            III (0:05)"}],"text":""}'
+          custom-model-data: 8
+          ItemFlags:
+          - HIDE_POTION_EFFECTS
+          potion-type: minecraft:water
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: GOLD_NUGGET
+        amount: 3
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"italic":false,"color":"yellow","text":"Moneda"}'
+          enchants:
+            DURABILITY: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          internal: H4sIAAAAAAAA/+NiYGBmEPaNDPHwdI73DHH1jQ9zDQr29PdjYGBg5GDghsqERAa4MrD55uelpiQyAAAtH4gkNAAAAA==
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF0000","text":"Ter"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFFF00","text":"rem"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"oto"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Hidratación
+            III (1:30)"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Velocidad
+            I (1:00)"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Prisa
+            Minera VIII (10:00)"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Borrachera
+            II (1:00)"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Hambre
+            III (2:00)"}],"text":""}'
+          custom-model-data: 3
+          ItemFlags:
+          - HIDE_POTION_EFFECTS
+          potion-type: minecraft:water
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: GOLD_NUGGET
+        amount: 5
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"italic":false,"color":"yellow","text":"Moneda"}'
+          enchants:
+            DURABILITY: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          internal: H4sIAAAAAAAA/+NiYGBmEPaNDPHwdI73DHH1jQ9zDQr29PdjYGBg5GDghsqERAa4MrD55uelpiQyAAAtH4gkNAAAAA==
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF0000","text":"Terre"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFFF00","text":"moto
+            Gi"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"gante"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"Efectos
+            posibles:"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Borrachera
+            ∞"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Calentamiento
+            de hocico"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Pérdida
+            de conciencia"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Visión
+            borrosa"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Pérdida
+            de sentido común"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Dificultad
+            al hablar"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Desorientación"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Disminución
+            de sinapsis"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":true,"color":"red","text":"Tp
+            a la mejor fonda"}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"El
+            equipo del "},{"italic":true,"color":"dark_aqua","text":"Tele"},{"italic":true,"color":"aqua","text":"Server"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"no
+            se hace responsable"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"por
+            los problemas que"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"puedan
+            presentarse al"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"beber
+            este Terremoto."}],"text":""}'
+          custom-model-data: 4
+          ItemFlags:
+          - HIDE_POTION_EFFECTS
+          potion-type: minecraft:water
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: GOLD_NUGGET
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"italic":false,"color":"yellow","text":"Moneda"}'
+          enchants:
+            DURABILITY: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          internal: H4sIAAAAAAAA/+NiYGBmEPaNDPHwdI73DHH1jQ9zDQr29PdjYGBg5GDghsqERAa4MrD55uelpiQyAAAtH4gkNAAAAA==
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FCFF55","text":"Vino
+            Blanco "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#0A7300","text":"Santa
+            Helena"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Fuerza
+            II (3:00)"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Borrachera
+            IV (3:00)"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Fatiga
+            Minera I (2:00)"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Deshidratación
+            II (2:00)"}],"text":""}'
+          custom-model-data: 2
+          ItemFlags:
+          - HIDE_POTION_EFFECTS
+          potion-type: minecraft:water
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: GOLD_NUGGET
+        amount: 5
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"italic":false,"color":"yellow","text":"Moneda"}'
+          enchants:
+            DURABILITY: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          internal: H4sIAAAAAAAA/+NiYGBmEPaNDPHwdI73DHH1jQ9zDQr29PdjYGBg5GDghsqERAa4MrD55uelpiQyAAAtH4gkNAAAAA==
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#A00117","text":"Garrafa
+            de Vino Tinto"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Fuerza
+            III (3:00)"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Borrachera
+            X (3:00)"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Deshidratación
+            I (1:00)"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Lentitud
+            II (0:20)"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Hambre
+            II (1:00)"}],"text":""}'
+          custom-model-data: 7
+          ItemFlags:
+          - HIDE_POTION_EFFECTS
+          potion-type: minecraft:water
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: GOLD_NUGGET
+        amount: 4
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"italic":false,"color":"yellow","text":"Moneda"}'
+          enchants:
+            DURABILITY: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          internal: H4sIAAAAAAAA/+NiYGBmEPaNDPHwdI73DHH1jQ9zDQr29PdjYGBg5GDghsqERAa4MrD55uelpiQyAAAtH4gkNAAAAA==
+    '7':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFFF00","text":"Garrafa
+            de Pipeño"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Velocidad
+            II (0:30)"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Borrachera
+            V (1:00)"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Fatiga
+            Minera II (2:00)"}],"text":""}'
+          custom-model-data: 6
+          ItemFlags:
+          - HIDE_POTION_EFFECTS
+          potion-type: minecraft:water
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: GOLD_NUGGET
+        amount: 4
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"italic":false,"color":"yellow","text":"Moneda"}'
+          enchants:
+            DURABILITY: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          internal: H4sIAAAAAAAA/+NiYGBmEPaNDPHwdI73DHH1jQ9zDQr29PdjYGBg5GDghsqERAa4MrD55uelpiQyAAAtH4gkNAAAAA==
+    '8':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF0000","text":"Granadina"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Velocidad
+            V (0:30)"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Salto
+            II (0:30)"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Debilidad
+            I (0:30)"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Hambre
+            IV (0:30)"}],"text":""}'
+          custom-model-data: 9
+          ItemFlags:
+          - HIDE_POTION_EFFECTS
+          potion-type: minecraft:water
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: GOLD_NUGGET
+        amount: 4
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"italic":false,"color":"yellow","text":"Moneda"}'
+          enchants:
+            DURABILITY: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          internal: H4sIAAAAAAAA/+NiYGBmEPaNDPHwdI73DHH1jQ9zDQr29PdjYGBg5GDghsqERAa4MrD55uelpiQyAAAtH4gkNAAAAA==
+  snapshots: []
+'52':
+  uniqueId: 1e67199f-df29-48f6-b192-9cc12a8e7d28
+  world: world
+  x: -1762
+  y: 72
+  z: 2567
+  yaw: 346.04852
+  type: admin
+  name: ''
+  object:
+    type: citizen
+    npcId: ed85ea2a-0069-493d-ba20-5f4660517e47
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: COOKED_PORKCHOP
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Anticucho"}],"text":""}'
+          custom-model-data: 4
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: GOLD_NUGGET
+        amount: 5
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"italic":false,"color":"yellow","text":"Moneda"}'
+          enchants:
+            DURABILITY: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          internal: H4sIAAAAAAAA/+NiYGBmEPaNDPHwdI73DHH1jQ9zDQr29PdjYGBg5GDghsqERAa4MrD55uelpiQyAAAtH4gkNAAAAA==
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: COOKED_PORKCHOP
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Choripán"}],"text":""}'
+          custom-model-data: 2
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: GOLD_NUGGET
+        amount: 4
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"italic":false,"color":"yellow","text":"Moneda"}'
+          enchants:
+            DURABILITY: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          internal: H4sIAAAAAAAA/+NiYGBmEPaNDPHwdI73DHH1jQ9zDQr29PdjYGBg5GDghsqERAa4MrD55uelpiQyAAAtH4gkNAAAAA==
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: COOKED_PORKCHOP
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Choripán
+            con Pebre"}],"text":""}'
+          custom-model-data: 3
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: GOLD_NUGGET
+        amount: 5
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"italic":false,"color":"yellow","text":"Moneda"}'
+          enchants:
+            DURABILITY: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          internal: H4sIAAAAAAAA/+NiYGBmEPaNDPHwdI73DHH1jQ9zDQr29PdjYGBg5GDghsqERAa4MrD55uelpiQyAAAtH4gkNAAAAA==
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: BREAD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Empanada
+            de Pino"}],"text":""}'
+          custom-model-data: 4
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: GOLD_NUGGET
+        amount: 5
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"italic":false,"color":"yellow","text":"Moneda"}'
+          enchants:
+            DURABILITY: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          internal: H4sIAAAAAAAA/+NiYGBmEPaNDPHwdI73DHH1jQ9zDQr29PdjYGBg5GDghsqERAa4MrD55uelpiQyAAAtH4gkNAAAAA==
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: BREAD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Costillar
+            Asado"}],"text":""}'
+          custom-model-data: 6
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: GOLD_NUGGET
+        amount: 7
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"italic":false,"color":"yellow","text":"Moneda"}'
+          enchants:
+            DURABILITY: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          internal: H4sIAAAAAAAA/+NiYGBmEPaNDPHwdI73DHH1jQ9zDQr29PdjYGBg5GDghsqERAa4MrD55uelpiQyAAAtH4gkNAAAAA==
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: BREAD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Sopaipilla"}],"text":""}'
+          custom-model-data: 2
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: GOLD_NUGGET
+        amount: 3
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"italic":false,"color":"yellow","text":"Moneda"}'
+          enchants:
+            DURABILITY: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          internal: H4sIAAAAAAAA/+NiYGBmEPaNDPHwdI73DHH1jQ9zDQr29PdjYGBg5GDghsqERAa4MrD55uelpiQyAAAtH4gkNAAAAA==
+    '7':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: BREAD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Sopaipilla
+            con Pebre"}],"text":""}'
+          custom-model-data: 3
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: GOLD_NUGGET
+        amount: 4
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"italic":false,"color":"yellow","text":"Moneda"}'
+          enchants:
+            DURABILITY: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          internal: H4sIAAAAAAAA/+NiYGBmEPaNDPHwdI73DHH1jQ9zDQr29PdjYGBg5GDghsqERAa4MrD55uelpiQyAAAtH4gkNAAAAA==
+  snapshots: []

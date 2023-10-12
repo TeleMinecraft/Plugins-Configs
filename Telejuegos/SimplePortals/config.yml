@@ -35,3 +35,5 @@ titles:
   display-time: 5
 item-transfer: true
 item-teleport-delay: 2
+force-join: false
+force-join-world: ''

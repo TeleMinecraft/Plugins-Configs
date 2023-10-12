@@ -1,21 +1,3 @@
-#
-#  event10:
-#    type: player_join
-#    conditions:
-#    - '%luckperms_primary_group_name% !equals owner'
-#    - '%luckperms_primary_group_name% !equals admin'
-#    - '%luckperms_primary_group_name% !equals constructor'
-#    - '%luckperms_primary_group_name% !equals vip'
-#    - '%luckperms_primary_group_name% !equals funa'
-#    actions:
-#      default:
-#      - 'wait: 5'
-#      - 'console_command: lp user %player% parent set vip'
-#      - 'message: &a&lFelicidades! Has desbloqueado las recompensas exclusivas del mes de febrero!'
-#      - 'message: &7Disfruta del rango &d&l&oVIP &7y sus beneficios!'
-#      - 'message: &7Entra al &eSurvival &7para recibir más recompensas!'
-#      - 'message: &7Entra a los &5Teljuegos &7para recibir más recompensas!'
-
 Messages:
   prefix: '&4[&bConditionalEvents&4] '
   commandReload: '&aConfig Reloaded.'
@@ -48,6 +30,7 @@ Messages:
   commandCallInvalidEvent: '&cYou can only execute a CALL event.'
   commandCallCorrect: '&aEvent &7%event% &asuccessfully executed.'
   commandCallFailed: '&cEvent &7%event% &ccould not be executed. Maybe a format error?'
+  playerNotOnline: '&cThat player is not online.'
 Events:
   owner_join:
     type: player_join
@@ -319,7 +302,34 @@ Events:
     actions:
       default:
       - 'console_command: eglow set %player% rainbow fast'
-
+  filter_msg:
+    type: protocollib_receive_message
+    conditions:
+    - '%normal_message% contains &c&lHey! execute actions_for_all'
+    - '%normal_message% contains &6Teletransportando... execute actions_for_all'
+    - '%normal_message% contains &aPanel Opened for execute actions_for_all'
+    - '%normal_message% contains set completed execute actions_for_all'
+    - '%normal_message% contains &aVariable execute actions_for_all'
+    - '%normal_message% contains &7Check the execute actions_for_all'
+    actions:
+      actions_for_all:
+      - "cancel_event: true"
+  replace_msg:
+    type: protocollib_receive_message
+    conditions:
+    - '%normal_message% contains &cRegistrate execute msg_register'
+    - '%normal_message% contains &cInicia execute msg_login'
+    - '%normal_message% contains &fBienvenido. Tu s execute msg_autologin'
+    actions:
+      msg_register:
+      - 'cancel_event: true'
+      - 'message: &9Regístrate usando &b/register <contraseña> <contraseña>'
+      msg_login:
+      - 'cancel_event: true'
+      - 'message: &9Inicia sesión usando &b/login <constraseña>'
+      msg_autologin:
+      - 'cancel_event: true'
+      - 'message: &aSesión iniciada automáticamente ☺'
 
 
 Config:

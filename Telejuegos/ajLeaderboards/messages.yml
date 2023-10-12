@@ -11,6 +11,13 @@ formatted:
     t: t
     b: b
     q: q
+    qi: qi
+    sx: sx
+    sp: sp
+    o: o
+    n: n
+    d: d
+    ud: ud
 time:
     w: 'w '
     d: 'd '
@@ -54,3 +61,5 @@ loading:
     short: -?-
     position: ..
     size: '...'
+no-player-skin:
+    default: Superman00800

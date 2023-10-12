@@ -30,6 +30,7 @@ Messages:
   commandCallInvalidEvent: '&cYou can only execute a CALL event.'
   commandCallCorrect: '&aEvent &7%event% &asuccessfully executed.'
   commandCallFailed: '&cEvent &7%event% &ccould not be executed. Maybe a format error?'
+  playerNotOnline: '&cThat player is not online.'
 Events:
   tienda_minerales:
     type: block_interact
@@ -183,7 +184,8 @@ Events:
       - 'console_command: scoreboard players reset Lugar Eventos'
       - 'wait: 300'
       - 'console_command: events start MoneyBomb world 580 90 525'
-      - 'console_command: broadcast &aEl evento &6&lMoney Bomb &aha comenzado en 580 90 525, cerca del Poblado!'
+      - 'console_command: broadcast &aEl evento &6&lMoney Bomb &aha comenzado en 580
+        90 525, cerca del Poblado!'
       - 'wait: 600'
       - 'console_command: execute positioned 580 90 525 run kill @e[type=item,distance=0..50]'
       actions2:
@@ -192,7 +194,8 @@ Events:
       - 'console_command: scoreboard players reset Lugar Eventos'
       - 'wait: 300'
       - 'console_command: events start RedRain world 580 75 525'
-      - 'console_command: broadcast &aEl evento &4&lRed Rain &aha comenzado en 580 75 525, cerca del Poblado!'
+      - 'console_command: broadcast &aEl evento &4&lRed Rain &aha comenzado en 580
+        75 525, cerca del Poblado!'
       - 'wait: 600'
       - 'console_command: execute positioned 580 90 525 run kill @e[type=item,distance=0..50]'
       actions3:
@@ -201,7 +204,8 @@ Events:
       - 'console_command: scoreboard players reset Lugar Eventos'
       - 'wait: 300'
       - 'console_command: events start DJEvent world 580 80 525'
-      - 'console_command: broadcast &aEl evento &9&lAdmin Party &aha comenzado en 580 80 525, cerca del Poblado!'
+      - 'console_command: broadcast &aEl evento &9&lAdmin Party &aha comenzado en
+        580 80 525, cerca del Poblado!'
       - 'wait: 600'
       - 'console_command: execute positioned 580 90 525 run kill @e[type=item,distance=0..50]'
       actions4:
@@ -210,7 +214,8 @@ Events:
       - 'console_command: scoreboard players reset Lugar Eventos'
       - 'wait: 300'
       - 'console_command: events start MoneyBomb world 530 94 -431'
-      - 'console_command: broadcast &aEl evento &6&lMoney Bomb &aha comenzado en 530 94 -431, cerca de la Ciudad!'
+      - 'console_command: broadcast &aEl evento &6&lMoney Bomb &aha comenzado en 530
+        94 -431, cerca de la Ciudad!'
       - 'wait: 600'
       - 'console_command: execute positioned 530 94 -431 run kill @e[type=item,distance=0..50]'
       actions5:
@@ -219,7 +224,8 @@ Events:
       - 'console_command: scoreboard players reset Lugar Eventos'
       - 'wait: 300'
       - 'console_command: events start RedRain world 530 79 -431'
-      - 'console_command: broadcast &aEl evento &4&lRed Rain &aha comenzado en 530 79 -431, cerca de la Ciudad!'
+      - 'console_command: broadcast &aEl evento &4&lRed Rain &aha comenzado en 530
+        79 -431, cerca de la Ciudad!'
       - 'wait: 600'
       - 'console_command: execute positioned 530 94 -431 run kill @e[type=item,distance=0..50]'
       actions6:
@@ -228,7 +234,8 @@ Events:
       - 'console_command: scoreboard players reset Lugar Eventos'
       - 'wait: 300'
       - 'console_command: events start DJEvent world 530 84 -431'
-      - 'console_command: broadcast &aEl evento &d&lAdmin Party &aha comenzado en 530 84 -431, cerca de la Ciudad!'
+      - 'console_command: broadcast &aEl evento &d&lAdmin Party &aha comenzado en
+        530 84 -431, cerca de la Ciudad!'
       - 'wait: 600'
       - 'console_command: execute positioned 530 94 -431 run kill @e[type=item,distance=0..50]'
       actions7:
@@ -237,7 +244,8 @@ Events:
       - 'console_command: scoreboard players reset Lugar Eventos'
       - 'wait: 300'
       - 'console_command: events start MoneyBomb world 300 79 -501'
-      - 'console_command: broadcast &aEl evento &6&lMoney Bomb &aha comenzado en 300 79 -501, cerca de la Ciudad!'
+      - 'console_command: broadcast &aEl evento &6&lMoney Bomb &aha comenzado en 300
+        79 -501, cerca de la Ciudad!'
       - 'wait: 600'
       - 'console_command: execute positioned 300 79 -501 run kill @e[type=item,distance=0..50]'
       actions8:
@@ -246,7 +254,8 @@ Events:
       - 'console_command: scoreboard players reset Lugar Eventos'
       - 'wait: 300'
       - 'console_command: events start RedRain world 300 64 -501'
-      - 'console_command: broadcast &aEl evento &4&lRed Rain &aha comenzado en 300 79 -501, cerca de la Ciudad!'
+      - 'console_command: broadcast &aEl evento &4&lRed Rain &aha comenzado en 300
+        79 -501, cerca de la Ciudad!'
       - 'wait: 600'
       - 'console_command: execute positioned 300 79 -501 run kill @e[type=item,distance=0..50]'
       actions9:
@@ -255,7 +264,8 @@ Events:
       - 'console_command: scoreboard players reset Lugar Eventos'
       - 'wait: 300'
       - 'console_command: events start DJEvent world 300 69 -501'
-      - 'console_command: broadcast &aEl evento &d&lAdmin Party &aha comenzado en 300 79 -501, cerca de la Ciudad!'
+      - 'console_command: broadcast &aEl evento &d&lAdmin Party &aha comenzado en
+        300 79 -501, cerca de la Ciudad!'
       - 'wait: 600'
       - 'console_command: execute positioned 300 79 -501 run kill @e[type=item,distance=0..50]'
       actions10:
@@ -264,7 +274,8 @@ Events:
       - 'console_command: scoreboard players reset Lugar Eventos'
       - 'wait: 300'
       - 'console_command: events start MoneyBomb world 370 103 518'
-      - 'console_command: broadcast &aEl evento &6&lMoney Bomb &aha comenzado en 370 103 518, cerca del Poblado!'
+      - 'console_command: broadcast &aEl evento &6&lMoney Bomb &aha comenzado en 370
+        103 518, cerca del Poblado!'
       - 'wait: 600'
       - 'console_command: execute positioned 370 103 518 run kill @e[type=item,distance=0..50]'
       actions11:
@@ -273,7 +284,8 @@ Events:
       - 'console_command: scoreboard players reset Lugar Eventos'
       - 'wait: 300'
       - 'console_command: events start RedRain world 370 88 518'
-      - 'console_command: broadcast &aEl evento &4&lRed Rain &aha comenzado en 370 88 518, cerca del Poblado!'
+      - 'console_command: broadcast &aEl evento &4&lRed Rain &aha comenzado en 370
+        88 518, cerca del Poblado!'
       - 'wait: 600'
       - 'console_command: execute positioned 370 88 518 run kill @e[type=item,distance=0..50]'
       actions12:
@@ -282,7 +294,8 @@ Events:
       - 'console_command: scoreboard players reset Lugar Eventos'
       - 'wait: 300'
       - 'console_command: events start DJEvent world 370 93 518'
-      - 'console_command: broadcast &aEl evento &d&lAdmin Party &aha comenzado en 370 93 518, cerca del Poblado!'
+      - 'console_command: broadcast &aEl evento &d&lAdmin Party &aha comenzado en
+        370 93 518, cerca del Poblado!'
       - 'wait: 600'
       - 'console_command: execute positioned 370 93 518 run kill @e[type=item,distance=0..50]'
   random_dinero:
@@ -1451,17 +1464,11 @@ Events:
       player_variable: getPlayer()
     conditions:
     - '%region% equals evento_18_2022'
-    - '%objective_score_evento18% <= 4 execute actions1'
-    - '%objective_score_evento18% >= 5 execute actions2'
     actions:
-      actions1:
-      - 'cancel_event: true'
-      - 'message: &cNo tienes permitido el ingreso a la fonda!'
-      - 'message: &6Debes completar la: &oMisión Dieciochera'
-      actions2:
+      default:
       - 'console_command: stopsound %player%'
       - 'title: 20;40;20;#EB2727Bien#2739EBven&fid@;&fa la #EB2727&lTele#2739EB&lfonda
-        &f&l2022'
+        &f&l2023'
       - 'console_command: playsound minecraft:entity.illusioner.death ambient %player%
         ~ ~ ~ 0.1 1 1'
   colocar_chupalla:
@@ -1953,6 +1960,16 @@ Events:
       default:
       - 'console_command: ib reload'
       - 'console_command: ib open help %player%'
+  filter_msg:
+    type: protocollib_receive_message
+    conditions:
+    - '%normal_message% contains &c&lHey! execute actions_for_all'
+    - '%normal_message% contains &eDisfruta de tu nuevo execute actions_for_all'
+    actions:
+      actions_for_all:
+      - 'cancel_event: true'
+
+
 Config:
   update_notification: true
   data_save_time: 5

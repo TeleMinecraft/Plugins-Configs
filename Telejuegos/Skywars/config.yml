@@ -231,6 +231,7 @@ enabledMenus:
   winsound: true
   taunts: true
 sqldatabase:
+  ssl: true
   enabled: false
   hostname: localhost
   port: 3306

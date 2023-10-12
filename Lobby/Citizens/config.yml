@@ -48,6 +48,7 @@ npc:
     maximum-visited-blocks: 768
     # The default allowed maximum fall distance when pathfinding, set to -1 to use the Minecraft value
     allowed-fall-distance: -1
+    default-stuck-action: none
   chat:
     options:
       # Whether nearby players also hear text, even if targeted at a specific player
@@ -77,6 +78,8 @@ npc:
     max-ground-speed: 0.5
     # Whether to change vehicle direction with movement instead of strafe controls
     use-boat-controls: true
+    # The maximum flying speed that controllable NPCs can reach, in Minecraft velocity units
+    max-flying-speed: 0.75
   default:
     waypoints:
       # Whether to cache /npc path by default
@@ -120,11 +123,13 @@ npc:
     spawn-nodamage-duration: 1s
     # Default duration in the same location before the NPC considers itself stuck and failed pathfinding
     stationary-duration: -1
+    reset-yaw-on-spawn: true
   hologram:
     # Default distance between hologram lines
     default-line-height: 0.4
     # How often to update hologram names (including placeholders)
     update-rate: 1s
+    use-display-entities: false
   limits:
     # Default maximum number of NPCs owned by a single player (give the citizens ignore-limits permission to skip this check)
     default-limit: 10
@@ -155,6 +160,7 @@ npc:
     player-join-update-delay: 3s
     # How often to update placeholders
     placeholder-update-frequency: 5m
+    try-fetch-default-skin: true
   packets:
     update-delay: 30
   player:
@@ -203,6 +209,8 @@ npc:
   delay-player-teleport: -1
   scoreboard-teams:
     enable: true
+  shops:
+    global-view-permission: ''
 general:
   authlib:
     # Search for gameprofiles using this URL

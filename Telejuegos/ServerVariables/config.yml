@@ -1,5 +1,12 @@
 config:
   data_save_time: 5
+  mysql_database:
+    enabled: false
+    host: localhost
+    port: 3306
+    username: root
+    password: root
+    database: servervariables
 messages:
   prefix: '&8[&a&lServerVariables&8] '
   commandSetError: '&cYou need to use: &7/svar set <variable> <value> (optional)<player>'
@@ -32,6 +39,8 @@ messages:
   playerNoData: '&cThere is no data for that player.'
   commandResetCorrect: '&aVariable &7%variable% &areset.'
   commandResetCorrectPlayer: '&aVariable &7%variable% &areset for player &e%player%&a.'
+  variableLimitationOutOfRangeMax: '&cVariable out of range. Max value is &7%value%'
+  variableLimitationOutOfRangeMin: '&cVariable out of range. Min value is &7%value%'
 variables:
   lobby_portal_status:
     variable_type: GLOBAL
