@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 190.21.128.50
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1697384663476
+  login: 1697384642954
+money: '0'
+last-account-name: _RanchSauce
+lastlocation:
+  world: e79d3dd0-8b8a-4103-bae2-25428e23a084
+  world-name: world
+  x: 1.5
+  y: 31.5
+  z: 0.5
+  yaw: -90.0
+  pitch: 0.0
+logoutlocation:
+  world: f8ef5dba-403c-4219-b38d-829897fa1123
+  world-name: world_skywars
+  x: 0.5
+  y: 30.0
+  z: 0.5
+  yaw: 90.14996337890625
+  pitch: -26.250022888183594

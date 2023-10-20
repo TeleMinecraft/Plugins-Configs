@@ -1,7 +1,7 @@
 tutorials:
   Survival:
     stats:
-      plays: 110
+      plays: 111
     invisible: false
     permission: false
     block-chat: false

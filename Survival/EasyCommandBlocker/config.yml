@@ -28,6 +28,8 @@ tab:
       - /quest
       - /quests
       - /r
+      - /ranks
+      - /rangos
       - /recipes
       - /reglas
       - /rules
@@ -56,7 +58,7 @@ tab:
       - /afk
       - /nick
       - /tpa
-      - /tpaall
+      - /tpacancel
 blocked_command_default_actions:
   - 'message: &7[&3Tele&bServer&7] &cNo tienes permiso para usar ese comando.'
 use_commands_as_whitelist: true
@@ -87,6 +89,8 @@ commands:
   - /quest
   - /quests
   - /r
+  - /ranks
+  - /rangos
   - /recipes
   - /reglas
   - /rules
@@ -100,8 +104,10 @@ commands:
   - /stats
   - /team
   - /telejuegos
-  - /tpaccept
+  - /tpa
   - /tpacancel
+  - /tpaccept
+  - /tpadeny
   - /trade
   - /usm
   - /vip

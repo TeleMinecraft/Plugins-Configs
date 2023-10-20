@@ -1,0 +1,25 @@
+JumpPads:
+  world, 31, 29, 0:
+    owners:
+    - b319b04c-ede3-36b1-ac74-131f573b07a9
+    plate: SLIME_BLOCK
+    power: 15.0
+    angle: 45.0
+  world, 0, 29, -31:
+    owners:
+    - b319b04c-ede3-36b1-ac74-131f573b07a9
+    plate: SLIME_BLOCK
+    power: 15.0
+    angle: 45.0
+  world, -31, 29, 0:
+    owners:
+    - b319b04c-ede3-36b1-ac74-131f573b07a9
+    plate: SLIME_BLOCK
+    power: 15.0
+    angle: 45.0
+  world, 0, 29, 31:
+    owners:
+    - b319b04c-ede3-36b1-ac74-131f573b07a9
+    plate: SLIME_BLOCK
+    power: 15.0
+    angle: 45.0

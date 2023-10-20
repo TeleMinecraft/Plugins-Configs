@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 190.163.103.208
+ip-address: 200.1.20.136
 afk: false
 socialspy: false
 npc: false
@@ -16,23 +16,23 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1694988055539
-  login: 1694988047835
+  logout: 1697223383445
+  login: 1697223345915
 money: '0'
 last-account-name: Richard363
 lastlocation:
   world: 8039c8bf-b4ad-4692-9f73-205fa07ddece
   world-name: world
-  x: 1.7520674524999265
-  y: 32.5
-  z: -3.7593703711158977
-  yaw: 1.2000304460525513
-  pitch: 13.04988956451416
-logoutlocation:
-  world: 8039c8bf-b4ad-4692-9f73-205fa07ddece
-  world-name: world
   x: 0.5
   y: 33.0
   z: 0.5
-  yaw: -101.55001068115234
-  pitch: 8.100000381469727
+  yaw: -90.0
+  pitch: 0.0
+logoutlocation:
+  world: 8039c8bf-b4ad-4692-9f73-205fa07ddece
+  world-name: world
+  x: 0.4974373057484627
+  y: 33.0
+  z: 0.5006509369704872
+  yaw: 144.48068237304688
+  pitch: 15.224912643432617

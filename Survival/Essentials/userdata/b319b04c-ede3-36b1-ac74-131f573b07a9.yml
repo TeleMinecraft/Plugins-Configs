@@ -1,31 +1,31 @@
 timestamps:
-  login: 1697068744354
-  logout: 1697068982364
+  login: 1697769859022
+  logout: 1697770617943
   kits:
     color: 1653886238435
     dtools: 1653886250152
     nuevo: 0
-  lastteleport: 1696994843132
+  lastteleport: 1697769958857
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
 logoutlocation:
   world: 6275cffa-8abc-4618-9934-0e82135ccf7a
-  x: 415.06364493562086
-  y: 78.0
-  z: -515.0882594194636
-  yaw: 22.447141647338867
-  pitch: 10.01021671295166
+  x: 445.4038466779527
+  y: 77.0
+  z: 535.1804646832344
+  yaw: 128.05294799804688
+  pitch: 12.944499969482422
   world-name: world
 afk: false
 lastlocation:
   world: 6275cffa-8abc-4618-9934-0e82135ccf7a
-  x: 1215.355548005259
-  y: 28.0
-  z: 1315.5098831580544
-  yaw: 1.4478759765625
-  pitch: 23.41598892211914
+  x: 418.73438047739324
+  y: 81.73837073013298
+  z: -502.2634850306296
+  yaw: 0.0
+  pitch: 0.0
   world-name: world
 homes:
   casita:
@@ -100,7 +100,7 @@ homes:
     z: 2566.2190490075195
     yaw: 91.957763671875
     pitch: 17.849973678588867
-money: '9504844.88749999998022911'
+money: '9594844.88749999998022911'
 nickname: Storbo
 socialspy: false
 godmode: false

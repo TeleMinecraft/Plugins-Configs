@@ -12,7 +12,7 @@ example:
     unlocked: false
     announced: false
   walker3:
-    progress: 0
+    progress: 15324
     active: false
     completed: false
     unlocked: false
@@ -24,11 +24,11 @@ example:
     unlocked: false
     announced: false
   walker2:
-    progress: 8286
+    progress: 15000
     active: false
-    completed: false
+    completed: true
     unlocked: false
-    announced: false
+    announced: true
   walker1:
     progress: 10000
     active: false

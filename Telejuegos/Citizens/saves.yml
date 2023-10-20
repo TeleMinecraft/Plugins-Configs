@@ -33,7 +33,7 @@ npc:
         enabled: true
       owner:
         uuid: 7896059c-b3c9-30af-90d5-72b9224cb001
-    traitnames: gravity,inventory,mounttrait,type,skintrait,owner,location,equipment,spawned,scoreboardtrait
+    traitnames: skintrait,inventory,spawned,scoreboardtrait,equipment,type,gravity,owner,mounttrait,location
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -64,7 +64,7 @@ npc:
         enabled: false
       owner:
         uuid: 7896059c-b3c9-30af-90d5-72b9224cb001
-    traitnames: gravity,inventory,mounttrait,type,skintrait,owner,location,equipment,spawned,scoreboardtrait
+    traitnames: skintrait,inventory,spawned,scoreboardtrait,equipment,type,gravity,owner,mounttrait,location
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -95,7 +95,7 @@ npc:
         enabled: false
       owner:
         uuid: 7896059c-b3c9-30af-90d5-72b9224cb001
-    traitnames: gravity,inventory,mounttrait,type,owner,skintrait,location,equipment,spawned,scoreboardtrait
+    traitnames: skintrait,inventory,spawned,scoreboardtrait,equipment,type,gravity,owner,mounttrait,location
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -118,7 +118,7 @@ npc:
         bodyYaw: 47.3953
         world: world_skywars
         x: '36.4119'
-        y: '-2.0474504840536E9'
+        y: '-2.1042099883123E9'
         z: '9.6021'
         yaw: '47.3953'
         pitch: '0.0'
@@ -136,7 +136,7 @@ npc:
         persistSequence: false
       owner:
         uuid: 7896059c-b3c9-30af-90d5-72b9224cb001
-    traitnames: commandtrait,owner,skintrait,villagertrait,location,profession,spawned,scoreboardtrait,inventory,gravity,mounttrait,type,equipment
+    traitnames: profession,scoreboardtrait,commandtrait,gravity,mounttrait,skintrait,inventory,spawned,villagertrait,equipment,type,owner,location
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -162,7 +162,7 @@ npc:
         enabled: false
       owner:
         uuid: 7896059c-b3c9-30af-90d5-72b9224cb001
-    traitnames: gravity,inventory,mounttrait,type,owner,skintrait,location,equipment,scoreboardtrait,spawned
+    traitnames: skintrait,inventory,spawned,scoreboardtrait,equipment,type,gravity,owner,mounttrait,location
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -193,7 +193,7 @@ npc:
         enabled: false
       owner:
         uuid: 7896059c-b3c9-30af-90d5-72b9224cb001
-    traitnames: inventory,gravity,mounttrait,type,skintrait,owner,location,equipment,spawned,scoreboardtrait
+    traitnames: skintrait,inventory,spawned,scoreboardtrait,equipment,type,gravity,owner,mounttrait,location
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -227,7 +227,7 @@ npc:
         pitch: '-11.4'
       owner:
         uuid: b319b04c-ede3-36b1-ac74-131f573b07a9
-    traitnames: inventory,gravity,mounttrait,type,skintrait,owner,location,equipment,scoreboardtrait,spawned
+    traitnames: skintrait,inventory,spawned,scoreboardtrait,equipment,type,gravity,owner,mounttrait,location
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -250,7 +250,7 @@ npc:
         bodyYaw: 271.48865
         world: world
         x: '-28.2709'
-        y: '-6.01684783975E8'
+        y: '-6.584442865079E8'
         z: '0.3633'
         yaw: '-88.5114'
         pitch: '0.0'
@@ -262,7 +262,7 @@ npc:
       spawned: true
       owner:
         uuid: b319b04c-ede3-36b1-ac74-131f573b07a9
-    traitnames: gravity,inventory,mounttrait,type,skintrait,owner,location,equipment,scoreboardtrait,spawned
+    traitnames: skintrait,inventory,spawned,scoreboardtrait,equipment,type,gravity,owner,mounttrait,location
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -311,7 +311,7 @@ npc:
         uuid: b319b04c-ede3-36b1-ac74-131f573b07a9
       sneak:
         sneaking: false
-    traitnames: gravity,inventory,mounttrait,sneak,type,skintrait,owner,location,equipment,scoreboardtrait,spawned
+    traitnames: skintrait,inventory,sneak,spawned,scoreboardtrait,equipment,type,gravity,owner,mounttrait,location
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -401,7 +401,7 @@ npc:
         uuid: b319b04c-ede3-36b1-ac74-131f573b07a9
       sneak:
         sneaking: false
-    traitnames: inventory,gravity,mounttrait,sneak,type,skintrait,owner,location,lookclose,equipment,spawned,scoreboardtrait
+    traitnames: skintrait,inventory,sneak,spawned,scoreboardtrait,equipment,type,gravity,owner,lookclose,mounttrait,location
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -423,7 +423,7 @@ npc:
         bodyYaw: -358.35104
         world: world
         x: '-25.4986'
-        y: '-2.0474506248537E9'
+        y: '-2.1042101291124E9'
         z: '-30.5135'
         yaw: '1.649'
         pitch: '0.0'
@@ -436,7 +436,7 @@ npc:
       spawned: true
       owner:
         uuid: b319b04c-ede3-36b1-ac74-131f573b07a9
-    traitnames: inventory,gravity,mounttrait,type,owner,skintrait,age,location,equipment,scoreboardtrait,spawned
+    traitnames: skintrait,inventory,spawned,scoreboardtrait,equipment,type,gravity,age,owner,mounttrait,location
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -470,7 +470,7 @@ npc:
         enabled: true
       owner:
         uuid: b319b04c-ede3-36b1-ac74-131f573b07a9
-    traitnames: gravity,inventory,mounttrait,type,owner,skintrait,location,equipment,spawned,scoreboardtrait
+    traitnames: skintrait,inventory,spawned,scoreboardtrait,equipment,type,gravity,owner,mounttrait,location
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -503,7 +503,7 @@ npc:
         enabled: false
       owner:
         uuid: 7896059c-b3c9-30af-90d5-72b9224cb001
-    traitnames: gravity,inventory,mounttrait,type,owner,skintrait,location,equipment,scoreboardtrait,spawned
+    traitnames: skintrait,inventory,spawned,scoreboardtrait,equipment,type,gravity,owner,mounttrait,location
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -584,7 +584,7 @@ npc:
         uuid: d08177c0-2cf4-31d4-bdf9-716890033081
       sneak:
         sneaking: false
-    traitnames: inventory,gravity,mounttrait,sneak,type,owner,skintrait,location,equipment,spawned,scoreboardtrait
+    traitnames: skintrait,inventory,sneak,spawned,scoreboardtrait,equipment,type,gravity,owner,mounttrait,location
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -683,7 +683,7 @@ npc:
         uuid: d08177c0-2cf4-31d4-bdf9-716890033081
       sneak:
         sneaking: false
-    traitnames: gravity,inventory,mounttrait,sneak,type,owner,skintrait,location,equipment,scoreboardtrait,spawned
+    traitnames: skintrait,inventory,sneak,spawned,scoreboardtrait,equipment,type,gravity,owner,mounttrait,location
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -704,7 +704,7 @@ npc:
         bodyYaw: 179.3988
         world: world
         x: '37.636'
-        y: '-2.0474505544537E9'
+        y: '-2.1042100587124E9'
         z: '9.4557'
         yaw: '179.3988'
         pitch: '0.0'
@@ -715,7 +715,7 @@ npc:
       type: VILLAGER
       owner:
         uuid: d08177c0-2cf4-31d4-bdf9-716890033081
-    traitnames: gravity,inventory,mounttrait,type,owner,skintrait,location,equipment,spawned,scoreboardtrait
+    traitnames: skintrait,inventory,spawned,scoreboardtrait,equipment,type,gravity,owner,mounttrait,location
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -738,7 +738,7 @@ npc:
         bodyYaw: 9.1552734E-5
         world: world
         x: '37.4624'
-        y: '-2.0474505544537E9'
+        y: '-2.1042100587124E9'
         z: '-7.7'
         yaw: '1.0E-4'
         pitch: '0.0'
@@ -751,7 +751,7 @@ npc:
       type: VILLAGER
       owner:
         uuid: d08177c0-2cf4-31d4-bdf9-716890033081
-    traitnames: inventory,gravity,mounttrait,type,owner,skintrait,location,equipment,spawned,scoreboardtrait
+    traitnames: skintrait,inventory,spawned,scoreboardtrait,equipment,type,gravity,owner,mounttrait,location
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -782,7 +782,7 @@ npc:
       type: PLAYER
       owner:
         uuid: d08177c0-2cf4-31d4-bdf9-716890033081
-    traitnames: gravity,inventory,mounttrait,type,owner,skintrait,location,equipment,scoreboardtrait,spawned
+    traitnames: skintrait,inventory,spawned,scoreboardtrait,equipment,type,gravity,owner,mounttrait,location
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -813,7 +813,7 @@ npc:
       type: PLAYER
       owner:
         uuid: d08177c0-2cf4-31d4-bdf9-716890033081
-    traitnames: inventory,gravity,mounttrait,type,skintrait,owner,location,equipment,spawned,scoreboardtrait
+    traitnames: skintrait,inventory,spawned,scoreboardtrait,equipment,type,gravity,owner,mounttrait,location
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -866,7 +866,7 @@ npc:
         uuid: d08177c0-2cf4-31d4-bdf9-716890033081
       sneak:
         sneaking: false
-    traitnames: gravity,inventory,mounttrait,sneak,type,owner,skintrait,location,lookclose,equipment,spawned,scoreboardtrait
+    traitnames: skintrait,inventory,sneak,spawned,scoreboardtrait,equipment,type,gravity,lookclose,owner,mounttrait,location
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -895,7 +895,7 @@ npc:
         pitch: '33.45'
       owner:
         uuid: d08177c0-2cf4-31d4-bdf9-716890033081
-    traitnames: inventory,mounttrait,type,skintrait,owner,location,equipment,spawned,scoreboardtrait
+    traitnames: skintrait,inventory,spawned,scoreboardtrait,equipment,type,owner,mounttrait,location
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -919,13 +919,13 @@ npc:
         bodyYaw: 1.578
         world: world_bedwars
         x: '30.4417'
-        y: '-2.0474505554537E9'
+        y: '-2.1042100597124E9'
         z: '3.5432'
         yaw: '1.578'
         pitch: '0.0'
       owner:
         uuid: 7896059c-b3c9-30af-90d5-72b9224cb001
-    traitnames: inventory,mounttrait,type,skintrait,owner,location,equipment,spawned,scoreboardtrait
+    traitnames: skintrait,inventory,spawned,scoreboardtrait,equipment,type,owner,mounttrait,location
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

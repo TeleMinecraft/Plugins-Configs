@@ -7,3 +7,9 @@
 *.jpg
 *.png
 *.webp
+*.log
+*.sqlite
+*.bin
+*.mv
+*.mv.db
+*.log_old

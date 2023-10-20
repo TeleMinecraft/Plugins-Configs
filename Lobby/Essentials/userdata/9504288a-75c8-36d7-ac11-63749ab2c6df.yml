@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1696368344557
-  login: 1696368322459
+  logout: 1697497362702
+  login: 1697497353911
 money: '0'
 last-account-name: Daniiiii6
 lastlocation:
@@ -31,8 +31,8 @@ lastlocation:
 logoutlocation:
   world: 8039c8bf-b4ad-4692-9f73-205fa07ddece
   world-name: world
-  x: 0.5
+  x: 2.5795667840057614
   y: 33.0
-  z: 0.5
-  yaw: -94.0
-  pitch: 5.0
+  z: 0.9882267359512875
+  yaw: -73.3499984741211
+  pitch: 8.850001335144043

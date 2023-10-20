@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 186.105.202.228
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1697554671940
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1697555586522
+  login: 1697555577700
+money: '0'
+last-account-name: Atroxpsg20
+lastlocation:
+  world: 2e1ce19e-1f4f-4123-8c05-bbc1db660846
+  world-name: world
+  x: -10.281524926858063
+  y: 30.0
+  z: 10.46185457590417
+  yaw: 2.660400390625
+  pitch: 6.583962440490723
+logoutlocation:
+  world: 2e1ce19e-1f4f-4123-8c05-bbc1db660846
+  world-name: world
+  x: -11.5
+  y: 30.0
+  z: 12.5
+  yaw: -84.2315444946289
+  pitch: -14.687363624572754

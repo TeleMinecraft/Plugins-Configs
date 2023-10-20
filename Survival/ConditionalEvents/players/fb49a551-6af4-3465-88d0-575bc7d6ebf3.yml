@@ -1,0 +1,20 @@
+name: Atroxpsg20
+events:
+  resistencia_y_skin_al_entrar:
+    one_time: false
+    cooldown: 1697768796407
+  random_tp:
+    one_time: false
+    cooldown: 1697252328658
+  descripcion_mision3:
+    one_time: false
+    cooldown: 1697431432120
+  mision_3:
+    one_time: false
+    cooldown: 1697431453023
+  descripcion_mision10:
+    one_time: false
+    cooldown: 1697431631319
+  mision_10:
+    one_time: false
+    cooldown: 1697431637424

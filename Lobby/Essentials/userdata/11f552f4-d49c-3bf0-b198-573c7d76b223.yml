@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 186.79.195.229
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1697336722734
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1697336743525
+  login: 1697336692114
+money: '0'
+last-account-name: thebeartroll
+lastlocation:
+  world: 8039c8bf-b4ad-4692-9f73-205fa07ddece
+  world-name: world
+  x: 0.5569439396834697
+  y: 32.247392804072476
+  z: -6.595073306108736
+  yaw: 152.4507293701172
+  pitch: 20.250015258789062
+logoutlocation:
+  world: 8039c8bf-b4ad-4692-9f73-205fa07ddece
+  world-name: world
+  x: -0.9936946635785568
+  y: 30.0
+  z: -84.16745722651544
+  yaw: -177.6014404296875
+  pitch: 15.449995040893555

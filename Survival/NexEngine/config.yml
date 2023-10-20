@@ -1,0 +1,57 @@
+core:
+  lang: en
+  command-aliases: nexengine
+  prefix: NexEngine
+locale:
+  world-names:
+    world: World
+    world_nether: Nether
+    world_the_end: The End
+Plugin:
+  # Plugin prefix. Used in messages.
+  # You can use %plugin_name_localized% placeholder for a plugin name.
+  Prefix: NexEngine
+  # Command names that will be registered as main plugin commands.
+  # Do not leave this empty. Split multiple names with a comma.
+  Command_Aliases: nexengine
+  # Sets the plugin language.
+  # It will use language config from the '/lang/' sub-folder for specified language code.
+  # By default uses your system's default locale.
+  Language: en
+  # Localized plugin name. It's used in messages and with internal placeholders.
+  Name: NexEngine
+Locale:
+  World_Names:
+    world: World
+    world_nether: Nether
+    world_the_end: The End
+Head_Texture_Cache:
+  ? eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjM3MWU0ZTFjZjZhMWEzNmZkYWUyNzEzN2ZkOWI4NzQ4ZTYxNjkyOTk5MjVmOWFmMmJlMzAxZTU0Mjk4YzczIn19fQ==
+  : 8922cee7-0435-468e-9cf0-74773b7542b2
+  ? eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZhZjIxN2FlZGRmMGY0MDA2NDk2OWViYjIwNDJmN2FlYWZiYzdkMGYxNzVhMjc2MjQxMzNhM2JlZmQxMDI4MSJ9fX0=
+  : b276f561-8e6c-493d-a0e8-a121eda8fd95
+  ? eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWM1YThhYThhNGMwMzYwMGEyYjVhNGViNmJlYjUxZDU5MDI2MGIwOTVlZTFjZGFhOTc2YjA5YmRmZTU2NjFjNiJ9fX0=
+  : 305815c8-74f4-47ab-a931-8fcb0d189dff
+  ? eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2E0MzgxYTVhYjRhY2M2ZGU4ZDRlZWU3NjllYmE2YmFkYjJmMmI0ZTkzNDJhY2FlMjc1MDI5NWU2MDYwNGE1NyJ9fX0=
+  : d56c1a8a-5f40-4a6c-9299-47279b576f94
+  ? eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmMwZTZkOWUyNDI3MzU0ODE5MThjNWZkMTQ0OThiZDc2MGJiOWY0ZmY2NDMwYWQ0Njk2YjM4ZThhODgzZGE5NyJ9fX0=
+  : 15ceeff1-a35a-43cc-b518-d34818e13611
+  ? eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWU1YmI4YjMxZjQ2YWE5YWYxYmFhODhiNzRmMGZmMzgzNTE4Y2QyM2ZhYWM1MmEzYWNiOTZjZmU5MWUyMmViYyJ9fX0=
+  : d521c9fc-0428-403c-aace-7623bcf93f20
+  ? eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDI0ODZmMjg1OTE2OWM4YmZiNjZhNjg3YmNmNGM2OTkzNDE3ZjU4NGI1OGJiZmRiMzM2NDY0ZDUyMDcxY2NkNyJ9fX0=
+  : bace658f-fd30-4937-8ef9-00cde714f127
+  ? eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjgyYWQxYjljYjRkZDIxMjU5YzBkNzVhYTMxNWZmMzg5YzNjZWY3NTJiZTM5NDkzMzgxNjRiYWM4NGE5NmUifX19
+  : f54b16ad-65c2-414f-b724-9e60183e5ec3
+  ? eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzdhZWU5YTc1YmYwZGY3ODk3MTgzMDE1Y2NhMGIyYTdkNzU1YzYzMzg4ZmYwMTc1MmQ1ZjQ0MTlmYzY0NSJ9fX0=
+  : 69c4664e-510b-4432-895a-d5c9e0f9484d
+  ? eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTA2ZmJjNzU2MWVhZGNjZjdiYzZkNWE5NmM0NjM1MTRkNzlmZTY0ODlmZTE5OTJkZTQxNjBiYTI3MjA4ZjU1In19fQ==
+  : d1fd2134-1a15-4b57-a7f6-dfcf7b39e43a
+  ? eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+  : 905fb527-5f62-4b80-bba9-aee167ff2d00
+  ? eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTM4NTJiZjYxNmYzMWVkNjdjMzdkZTRiMGJhYTJjNWY4ZDhmY2E4MmU3MmRiY2FmY2JhNjY5NTZhODFjNCJ9fX0=
+  : 84f5823e-166e-4d3d-9217-0b7e3f534c06
+  ? eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWZmMzE0MzFkNjQ1ODdmZjZlZjk4YzA2NzU4MTA2ODFmOGMxM2JmOTZmNTFkOWNiMDdlZDc4NTJiMmZmZDEifX19
+  : 86511963-6ad4-4f71-9e6a-eb06d0bd4f88
+Engine:
+  # Sets whether or not 'Player#getDisplayName' can be used to find & get players in addition to regular 'Player#getName'.
+  Respect_Player_DisplayName: false

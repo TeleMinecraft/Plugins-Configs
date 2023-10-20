@@ -107,3 +107,87 @@ example:
     completed: false
     unlocked: false
     announced: false
+  juego-azul:
+    progress: 0
+    active: false
+    completed: false
+    unlocked: false
+    announced: false
+  seccion-usm:
+    progress: 0
+    active: false
+    completed: false
+    unlocked: false
+    announced: false
+  juego-amarillo:
+    progress: 0
+    active: false
+    completed: false
+    unlocked: false
+    announced: false
+  zona-oculta:
+    progress: 0
+    active: false
+    completed: false
+    unlocked: false
+    announced: false
+  seccion-survival:
+    progress: 0
+    active: false
+    completed: false
+    unlocked: false
+    announced: false
+  top-azul:
+    progress: 1
+    active: false
+    completed: false
+    unlocked: false
+    announced: false
+  juego-rojo:
+    progress: 0
+    active: false
+    completed: false
+    unlocked: false
+    announced: false
+  seccion-telejuegos:
+    progress: 0
+    active: false
+    completed: false
+    unlocked: false
+    announced: false
+  seccion-info:
+    progress: 0
+    active: false
+    completed: false
+    unlocked: false
+    announced: false
+  top-rojo:
+    progress: 1
+    active: false
+    completed: false
+    unlocked: false
+    announced: false
+  puerta-secreta:
+    progress: 0
+    active: false
+    completed: false
+    unlocked: false
+    announced: false
+  top-amarillo:
+    progress: 1
+    active: false
+    completed: false
+    unlocked: false
+    announced: false
+  top-verde:
+    progress: 1
+    active: false
+    completed: false
+    unlocked: false
+    announced: false
+  juego-verde:
+    progress: 0
+    active: false
+    completed: false
+    unlocked: false
+    announced: false

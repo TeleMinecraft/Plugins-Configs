@@ -21,13 +21,13 @@ npc:
         textureRaw: eyJ0aW1lc3RhbXAiOjE1ODI2MjE0MzAyNjMsInByb2ZpbGVJZCI6ImJlY2RkYjI4YTJjODQ5YjRhOWIwOTIyYTU4MDUxNDIwIiwicHJvZmlsZU5hbWUiOiJTdFR2Iiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yNDJkYjg1ZjEwOWFkOTA0NmE1YmNhMTA4M2I4YzVlZDhhNTRmOTYxNzU4OTgyM2ZjZDU1OWJkMGIxNjE4NDAwIn19fQ==
         updateSkins: false
       location:
-        bodyYaw: -5.4826202
+        bodyYaw: -2.5705185
         world: world
         x: '424.0538'
         y: '77.0'
         z: '-510.4043'
-        yaw: '-5.4826'
-        pitch: '32.5241'
+        yaw: '-2.5705'
+        pitch: '-10.9718'
       lookclose:
         range: '5.0'
         enabled: true
@@ -68,7 +68,7 @@ npc:
         sneaking: false
       owner:
         uuid: ''
-    traitnames: spawned,gravity,mounttrait,equipment,lookclose,owner,inventory,location,rotationtrait,sneak,type,skintrait,scoreboardtrait
+    traitnames: equipment,location,spawned,lookclose,skintrait,sneak,owner,type,inventory,gravity,rotationtrait,mounttrait,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -88,13 +88,13 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTU5Mzc0NzIyNDA4MCwKICAicHJvZmlsZUlkIiA6ICI5YzQ5YjU0YjFjZjU0NjZjYjRhNzA4M2JmZGQ4MDIxNSIsCiAgInByb2ZpbGVOYW1lIiA6ICI5c2kiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWIwMjAxOGIxZGI3MzE0NWIxMWVmOWQzMGQxMDBmY2QwYzEwNGNmYWNlNWNiYjVjZmNiODRlY2JkMGUxOGIwYyIKICAgIH0KICB9Cn0=
         updateSkins: false
       location:
-        bodyYaw: -136.8194
+        bodyYaw: -47.593025
         world: world
         x: '412.3465'
         y: '77.0'
         z: '-510.0406'
-        yaw: '-136.8194'
-        pitch: '-10.734'
+        yaw: '-47.593'
+        pitch: '-33.8022'
       spawned: true
       type: PLAYER
       inventory:
@@ -152,7 +152,7 @@ npc:
         sneaking: false
       owner:
         uuid: ''
-    traitnames: spawned,gravity,mounttrait,equipment,lookclose,owner,inventory,location,rotationtrait,sneak,type,skintrait,scoreboardtrait
+    traitnames: equipment,location,spawned,lookclose,skintrait,owner,sneak,type,inventory,gravity,rotationtrait,mounttrait,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -173,13 +173,13 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTU5MzUwOTQ2NzE1MSwKICAicHJvZmlsZUlkIiA6ICJmNWQwYjFhZTQxNmU0YTE5ODEyMTRmZGQzMWU3MzA1YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJDYXRjaFRoZVdhdmUxMCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xYzg2MDc5MWRiM2VhNDk3ZGJiZDViNDhkYWVjZTA5NTRkOWRkZmE0NDBiNmY3NjViNDUyMTk1Njk3NDI0NjhhIgogICAgfQogIH0KfQ==
         updateSkins: false
       location:
-        bodyYaw: -1.4849014
+        bodyYaw: 87.13072
         world: world
         x: '423.5'
         y: '77.0'
         z: '-474.5'
-        yaw: '-1.4849'
-        pitch: '0.0'
+        yaw: '87.1307'
+        pitch: '41.7694'
       spawned: true
       type: PLAYER
       skinlayers:
@@ -217,7 +217,7 @@ npc:
       inventory: {}
       equipment: {}
       invisible: false
-    traitnames: spawned,gravity,mounttrait,skinlayers,equipment,lookclose,invisible,owner,inventory,location,rotationtrait,sneak,type,skintrait,scoreboardtrait
+    traitnames: equipment,location,skinlayers,spawned,lookclose,skintrait,sneak,owner,type,inventory,gravity,rotationtrait,invisible,mounttrait,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -261,13 +261,13 @@ npc:
       gravity:
         enabled: false
       location:
-        bodyYaw: 86.26785
+        bodyYaw: 85.9707
         world: world
         x: '421.5'
         y: '78.0'
         z: '-521.5'
-        yaw: '94.3526'
-        pitch: '0.0'
+        yaw: '85.9707'
+        pitch: '-18.0583'
       inventory: {}
       equipment:
         hand:
@@ -275,7 +275,7 @@ npc:
           amount: 1
       owner:
         uuid: ''
-    traitnames: spawned,gravity,mounttrait,rotationtrait,equipment,lookclose,owner,inventory,type,location,skintrait,scoreboardtrait
+    traitnames: type,inventory,equipment,location,gravity,rotationtrait,spawned,lookclose,skintrait,mounttrait,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -301,12 +301,12 @@ npc:
             encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAAJbWV0YS10eXBldAAHY2hhcmdlZHQAE2NoYXJnZWQtcHJvamVjdGlsZXN1cQB+AAYAAAAEdAAISXRlbU1ldGF0AAhDUk9TU0JPV3NyABFqYXZhLmxhbmcuQm9vbGVhbs0gcoDVnPruAgABWgAFdmFsdWV4cAFzcgATamF2YS51dGlsLkFycmF5TGlzdHiB0h2Zx2GdAwABSQAEc2l6ZXhwAAAAAXcEAAAAAXNxAH4AAHNxAH4AA3VxAH4ABgAAAANxAH4ACHQAAXZ0AAR0eXBldXEAfgAGAAAAA3QAHm9yZy5idWtraXQuaW52ZW50b3J5Lkl0ZW1TdGFja3NyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAA0JdAAPRklSRVdPUktfUk9DS0VUeA==
       spawned: true
       location:
-        bodyYaw: -78.486206
+        bodyYaw: -103.640816
         world: world
         x: '403.5'
         y: '77.0'
         z: '-502.5'
-        yaw: '-78.4862'
+        yaw: '-103.6408'
         pitch: '0.0'
       skintrait:
         fetchDefaultSkin: true
@@ -360,7 +360,7 @@ npc:
         sneaking: false
       owner:
         uuid: ''
-    traitnames: spawned,gravity,mounttrait,equipment,lookclose,inventory,owner,location,rotationtrait,sneak,type,skintrait,scoreboardtrait
+    traitnames: equipment,location,spawned,lookclose,skintrait,sneak,owner,type,inventory,gravity,rotationtrait,mounttrait,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -380,12 +380,12 @@ npc:
       inventory: {}
       spawned: true
       location:
-        bodyYaw: -73.5468
+        bodyYaw: -149.4058
         world: world
         x: '407.5'
         y: '77.0'
         z: '-475.5'
-        yaw: '-73.5468'
+        yaw: '-149.4058'
         pitch: '0.0'
       skintrait:
         fetchDefaultSkin: true
@@ -419,7 +419,7 @@ npc:
       profession: FARMER
       owner:
         uuid: ''
-    traitnames: spawned,gravity,mounttrait,equipment,lookclose,owner,inventory,profession,location,rotationtrait,type,skintrait,scoreboardtrait
+    traitnames: equipment,location,spawned,lookclose,skintrait,owner,profession,type,inventory,gravity,rotationtrait,mounttrait,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -429,12 +429,12 @@ npc:
     uuid: 83902615-265a-4bd9-a006-7d55d8a03c3d
     traits:
       location:
-        bodyYaw: 89.357605
+        bodyYaw: 86.60924
         world: world
         x: '503.49'
         y: '76.0'
         z: '546.5209'
-        yaw: '90.8839'
+        yaw: '93.2659'
         pitch: '0.0'
       lookclose:
         range: '3.0'
@@ -461,7 +461,7 @@ npc:
       spawned: true
       owner:
         uuid: ''
-    traitnames: spawned,mounttrait,rotationtrait,equipment,lookclose,inventory,owner,type,location,skintrait,scoreboardtrait
+    traitnames: type,inventory,equipment,location,rotationtrait,spawned,lookclose,skintrait,mounttrait,scoreboardtrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -480,12 +480,12 @@ npc:
     uuid: 1818ffee-c63d-47b9-9952-ead3cc3b6ee2
     traits:
       location:
-        bodyYaw: -162.38806
+        bodyYaw: -174.85703
         world: world
         x: '383.0136'
         y: '77.0'
         z: '-436.0163'
-        yaw: '-162.3881'
+        yaw: '-174.857'
         pitch: '0.0'
       spawned: true
       type: PLAYER
@@ -538,7 +538,7 @@ npc:
         sneaking: false
       owner:
         uuid: ''
-    traitnames: spawned,mounttrait,equipment,hologramtrait,lookclose,inventory,owner,location,rotationtrait,sneak,type,skintrait,scoreboardtrait,commandtrait
+    traitnames: equipment,location,spawned,lookclose,hologramtrait,skintrait,sneak,owner,commandtrait,type,inventory,rotationtrait,mounttrait,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -548,12 +548,12 @@ npc:
     uuid: 161b23ce-93cd-4bf3-86a6-6e8c30e13090
     traits:
       location:
-        bodyYaw: -15.889912
+        bodyYaw: 29.70514
         world: world
         x: '383.0024'
         y: '77.0'
         z: '-446.4523'
-        yaw: '-35.8899'
+        yaw: '4.6357'
         pitch: '0.0'
       age:
         age: -1
@@ -605,7 +605,7 @@ npc:
         hand:
           type_key: chest
           amount: 1
-    traitnames: spawned,mounttrait,equipment,lookclose,age,inventory,owner,location,rotationtrait,type,skintrait,scoreboardtrait,commandtrait
+    traitnames: equipment,location,spawned,lookclose,skintrait,owner,commandtrait,type,inventory,rotationtrait,age,mounttrait,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -633,13 +633,13 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYwNjk2MDA0NDMxMSwKICAicHJvZmlsZUlkIiA6ICIxY2FhMTVmNTRhOWY0YjQ1YmE2NWU3ZTQ5MGQ2NmFhMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJTZWxrYWRvb20iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZThmNWNmNmQwZDhkYWIyNzExZGE2Y2E1OThkM2Y3ZDBhYmViMmZmZjc5OWUwNzcwZDFjYjA4NjI4MWQ2OTQ5MiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9
         updateSkins: false
       location:
-        bodyYaw: 55.550507
+        bodyYaw: 32.697052
         world: world
         x: '449.6452'
         y: '83.0'
         z: '-455.5161'
-        yaw: '55.5505'
-        pitch: '0.0'
+        yaw: '32.6971'
+        pitch: '-7.319'
       spawned: true
       lookclose:
         range: '3.0'
@@ -661,7 +661,7 @@ npc:
           '1': 360.0
       owner:
         uuid: ''
-    traitnames: spawned,mounttrait,rotationtrait,equipment,lookclose,owner,inventory,type,location,skintrait,scoreboardtrait
+    traitnames: type,equipment,inventory,location,rotationtrait,spawned,lookclose,skintrait,mounttrait,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -674,12 +674,12 @@ npc:
     uuid: e75c69e9-9c26-46c5-a4a6-a0c3dc2747db
     traits:
       location:
-        bodyYaw: 88.06883
+        bodyYaw: 68.80504
         world: world
         x: '431.3'
         y: '77.0'
         z: '-429.4964'
-        yaw: '102.5421'
+        yaw: '68.805'
         pitch: '0.0'
       skintrait:
         fetchDefaultSkin: true
@@ -737,7 +737,7 @@ npc:
         '40':
           type_key: lead
           amount: 1
-    traitnames: spawned,mounttrait,equipment,lookclose,inventory,owner,location,rotationtrait,sneak,type,skintrait,scoreboardtrait,commandtrait
+    traitnames: equipment,location,spawned,lookclose,skintrait,sneak,owner,commandtrait,type,inventory,rotationtrait,mounttrait,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -778,7 +778,7 @@ npc:
       type: HORSE
       owner:
         uuid: ''
-    traitnames: spawned,horsemodifiers,mounttrait,equipment,inventory,owner,type,location,skintrait,scoreboardtrait
+    traitnames: type,inventory,equipment,location,spawned,skintrait,horsemodifiers,mounttrait,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -825,7 +825,7 @@ npc:
           amount: 1
       owner:
         uuid: ''
-    traitnames: horsemodifiers,spawned,mounttrait,equipment,owner,inventory,type,location,skintrait,scoreboardtrait
+    traitnames: type,equipment,inventory,location,spawned,skintrait,horsemodifiers,mounttrait,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -855,7 +855,7 @@ npc:
         enabled: true
       owner:
         uuid: ''
-    traitnames: spawned,gravity,mounttrait,equipment,inventory,owner,type,location,skintrait,scoreboardtrait
+    traitnames: type,inventory,equipment,location,gravity,spawned,skintrait,mounttrait,scoreboardtrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -888,7 +888,7 @@ npc:
         enabled: true
       owner:
         uuid: ''
-    traitnames: spawned,gravity,mounttrait,equipment,inventory,owner,type,location,skintrait,scoreboardtrait
+    traitnames: type,equipment,inventory,location,gravity,spawned,skintrait,mounttrait,scoreboardtrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -921,7 +921,7 @@ npc:
         enabled: true
       owner:
         uuid: ''
-    traitnames: spawned,gravity,mounttrait,equipment,owner,inventory,type,location,skintrait,scoreboardtrait
+    traitnames: type,inventory,equipment,location,gravity,spawned,skintrait,mounttrait,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -978,7 +978,7 @@ npc:
           '1': 360.0
       owner:
         uuid: ''
-    traitnames: spawned,gravity,mounttrait,equipment,lookclose,inventory,owner,type,location,skintrait,scoreboardtrait
+    traitnames: type,inventory,equipment,location,gravity,spawned,lookclose,skintrait,mounttrait,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1040,7 +1040,7 @@ npc:
         sneaking: false
       owner:
         uuid: ''
-    traitnames: spawned,mounttrait,equipment,lookclose,inventory,owner,sneak,type,location,skintrait,scoreboardtrait
+    traitnames: type,equipment,inventory,location,spawned,lookclose,skintrait,mounttrait,scoreboardtrait,sneak,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1054,12 +1054,12 @@ npc:
         updateSkins: false
       type: VILLAGER
       location:
-        bodyYaw: -129.89233
+        bodyYaw: -140.53409
         world: world
         x: '443.4938'
         y: '77.0'
         z: '537.5016'
-        yaw: '-129.8923'
+        yaw: '-140.5341'
         pitch: '0.0'
       profession: CARTOGRAPHER
       spawned: true
@@ -1073,11 +1073,11 @@ npc:
         hideErrorMessages: false
         persistSequence: false
         commands:
-          '1':
+          '0':
             command: cp panel-20
             hand: RIGHT
             player: true
-            op: false
+            op: true
             cooldown: 0
             globalcooldown: 0
             n: -1
@@ -1104,7 +1104,7 @@ npc:
           '1': 360.0
       owner:
         uuid: ''
-    traitnames: spawned,mounttrait,equipment,lookclose,owner,inventory,profession,location,rotationtrait,villagertrait,type,skintrait,scoreboardtrait,commandtrait
+    traitnames: equipment,location,spawned,lookclose,skintrait,owner,commandtrait,profession,type,inventory,rotationtrait,villagertrait,mounttrait,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1175,7 +1175,7 @@ npc:
         sneaking: false
       owner:
         uuid: ''
-    traitnames: spawned,mounttrait,equipment,lookclose,inventory,owner,sneak,type,location,skintrait,scoreboardtrait
+    traitnames: type,inventory,equipment,location,spawned,lookclose,skintrait,mounttrait,sneak,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1214,7 +1214,7 @@ npc:
         sneaking: false
       owner:
         uuid: ''
-    traitnames: spawned,mounttrait,equipment,owner,inventory,sneak,type,location,skintrait,scoreboardtrait
+    traitnames: type,equipment,inventory,location,spawned,skintrait,mounttrait,owner,sneak,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1264,7 +1264,7 @@ npc:
         uuid: ''
       sneak:
         sneaking: false
-    traitnames: spawned,mounttrait,rotationtrait,equipment,lookclose,owner,inventory,sneak,type,location,skintrait,scoreboardtrait
+    traitnames: type,inventory,equipment,location,rotationtrait,spawned,lookclose,skintrait,mounttrait,owner,sneak,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1277,13 +1277,13 @@ npc:
         fetchDefaultSkin: true
         updateSkins: false
       location:
-        bodyYaw: -79.03763
+        bodyYaw: -19.640915
         world: world
         x: '396.8402'
         y: '77.0'
         z: '-468.1963'
-        yaw: '-77.8424'
-        pitch: '0.0'
+        yaw: '-19.6409'
+        pitch: '-15.0232'
       type: PIG
       spawned: true
       lookclose:
@@ -1306,7 +1306,7 @@ npc:
           '1': 360.0
       owner:
         uuid: ''
-    traitnames: spawned,mounttrait,rotationtrait,equipment,lookclose,owner,inventory,type,location,skintrait,scoreboardtrait
+    traitnames: type,inventory,equipment,location,rotationtrait,spawned,lookclose,skintrait,mounttrait,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1358,7 +1358,7 @@ npc:
         uuid: ''
       sneak:
         sneaking: false
-    traitnames: spawned,mounttrait,rotationtrait,equipment,lookclose,owner,inventory,sneak,type,location,skintrait,scoreboardtrait
+    traitnames: type,inventory,equipment,location,rotationtrait,spawned,lookclose,skintrait,mounttrait,owner,scoreboardtrait,sneak
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1409,7 +1409,7 @@ npc:
         uuid: ''
       sneak:
         sneaking: false
-    traitnames: spawned,mounttrait,rotationtrait,equipment,lookclose,owner,inventory,sneak,type,location,skintrait,scoreboardtrait
+    traitnames: type,inventory,equipment,location,rotationtrait,spawned,lookclose,skintrait,mounttrait,sneak,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1458,7 +1458,7 @@ npc:
         uuid: ''
       sneak:
         sneaking: false
-    traitnames: spawned,mounttrait,rotationtrait,equipment,lookclose,owner,inventory,sneak,type,location,skintrait,scoreboardtrait
+    traitnames: type,inventory,equipment,location,rotationtrait,spawned,lookclose,skintrait,mounttrait,owner,sneak,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1507,7 +1507,7 @@ npc:
         uuid: ''
       sneak:
         sneaking: false
-    traitnames: spawned,mounttrait,rotationtrait,equipment,lookclose,inventory,owner,sneak,type,location,skintrait,scoreboardtrait
+    traitnames: type,inventory,equipment,location,rotationtrait,spawned,lookclose,skintrait,mounttrait,owner,scoreboardtrait,sneak
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1556,7 +1556,7 @@ npc:
         uuid: ''
       sneak:
         sneaking: false
-    traitnames: spawned,mounttrait,rotationtrait,equipment,lookclose,inventory,owner,sneak,type,location,skintrait,scoreboardtrait
+    traitnames: type,inventory,equipment,location,rotationtrait,spawned,lookclose,skintrait,mounttrait,sneak,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1593,17 +1593,17 @@ npc:
         fetchDefaultSkin: true
         updateSkins: false
       location:
-        bodyYaw: 115.70505
+        bodyYaw: -21.213524
         world: world
         x: '395.2393'
         y: '77.0'
         z: '-468.4375'
-        yaw: '123.0222'
-        pitch: '0.0'
+        yaw: '-21.2135'
+        pitch: '-14.8126'
       spawned: true
       owner:
         uuid: ''
-    traitnames: spawned,mounttrait,rotationtrait,equipment,lookclose,owner,inventory,type,location,skintrait,scoreboardtrait
+    traitnames: type,inventory,equipment,location,rotationtrait,spawned,lookclose,skintrait,mounttrait,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1644,16 +1644,16 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: -152.3825
+        bodyYaw: 149.66829
         world: world
         x: '398.5988'
         y: '77.0'
         z: '-458.4552'
-        yaw: '-152.3825'
-        pitch: '0.0'
+        yaw: '169.6683'
+        pitch: '-55.7082'
       owner:
         uuid: ''
-    traitnames: spawned,sheeptrait,mounttrait,rotationtrait,equipment,lookclose,owner,inventory,type,location,skintrait,scoreboardtrait
+    traitnames: type,inventory,equipment,location,rotationtrait,spawned,lookclose,skintrait,mounttrait,sheeptrait,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1694,16 +1694,16 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: 139.4949
+        bodyYaw: 139.95709
         world: world
         x: '396.5913'
         y: '77.0'
         z: '-459.3475'
-        yaw: '121.8379'
-        pitch: '0.0'
+        yaw: '156.5362'
+        pitch: '-7.6054'
       owner:
         uuid: ''
-    traitnames: spawned,sheeptrait,mounttrait,rotationtrait,equipment,lookclose,inventory,owner,type,location,skintrait,scoreboardtrait
+    traitnames: type,equipment,inventory,location,rotationtrait,spawned,lookclose,skintrait,mounttrait,sheeptrait,scoreboardtrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1744,16 +1744,16 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: -140.42406
+        bodyYaw: -160.67331
         world: world
         x: '400.8887'
         y: '77.0'
         z: '-459.8225'
-        yaw: '-140.4241'
-        pitch: '0.0'
+        yaw: '-160.6733'
+        pitch: '-7.3165'
       owner:
         uuid: ''
-    traitnames: spawned,sheeptrait,mounttrait,rotationtrait,equipment,lookclose,inventory,owner,type,location,skintrait,scoreboardtrait
+    traitnames: type,inventory,equipment,location,rotationtrait,spawned,lookclose,skintrait,mounttrait,sheeptrait,scoreboardtrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1795,16 +1795,16 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: 132.60995
+        bodyYaw: -178.36906
         world: world
         x: '393.3696'
         y: '77.0'
         z: '-458.6508'
-        yaw: '145.6684'
-        pitch: '0.0'
+        yaw: '170.125'
+        pitch: '-5.6735'
       owner:
         uuid: ''
-    traitnames: spawned,mounttrait,rotationtrait,equipment,lookclose,owner,inventory,type,location,skintrait,scoreboardtrait
+    traitnames: type,equipment,inventory,location,rotationtrait,spawned,lookclose,skintrait,mounttrait,scoreboardtrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1842,16 +1842,16 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: 155.90538
+        bodyYaw: 154.2807
         world: world
         x: '394.827'
         y: '77.0'
         z: '-459.8766'
-        yaw: '175.9054'
-        pitch: '0.0'
+        yaw: '163.1478'
+        pitch: '-5.9969'
       owner:
         uuid: ''
-    traitnames: spawned,mounttrait,rotationtrait,equipment,lookclose,inventory,owner,type,location,skintrait,scoreboardtrait
+    traitnames: type,inventory,equipment,location,rotationtrait,spawned,lookclose,skintrait,mounttrait,scoreboardtrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1893,16 +1893,16 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: -135.08832
+        bodyYaw: -150.02003
         world: world
         x: '391.5038'
         y: '77.0'
         z: '-459.5969'
-        yaw: '-135.0883'
-        pitch: '0.0'
+        yaw: '-150.02'
+        pitch: '-5.8922'
       owner:
         uuid: ''
-    traitnames: spawned,mounttrait,rotationtrait,equipment,lookclose,inventory,owner,type,location,skintrait,scoreboardtrait
+    traitnames: type,equipment,inventory,location,rotationtrait,spawned,lookclose,skintrait,mounttrait,scoreboardtrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1948,16 +1948,16 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: -58.955242
+        bodyYaw: -12.90226
         world: world
         x: '391.7345'
         y: '77.0'
         z: '-467.737'
-        yaw: '-38.9552'
-        pitch: '0.0'
+        yaw: '-12.9023'
+        pitch: '-1.8658'
       owner:
         uuid: ''
-    traitnames: spawned,horsemodifiers,mounttrait,rotationtrait,equipment,lookclose,owner,inventory,type,location,skintrait,scoreboardtrait
+    traitnames: type,equipment,inventory,location,rotationtrait,spawned,lookclose,skintrait,horsemodifiers,mounttrait,scoreboardtrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2012,7 +2012,7 @@ npc:
         pitch: '0.0'
       owner:
         uuid: ''
-    traitnames: horsemodifiers,spawned,mounttrait,rotationtrait,equipment,lookclose,owner,inventory,type,location,skintrait,scoreboardtrait
+    traitnames: type,inventory,equipment,location,rotationtrait,spawned,lookclose,horsemodifiers,skintrait,mounttrait,scoreboardtrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2058,7 +2058,7 @@ npc:
         pitch: '0.0'
       owner:
         uuid: ''
-    traitnames: spawned,mounttrait,equipment,hologramtrait,owner,inventory,type,location,skintrait,scoreboardtrait
+    traitnames: type,equipment,inventory,location,spawned,hologramtrait,skintrait,mounttrait,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2090,7 +2090,7 @@ npc:
         pitch: '0.0'
       owner:
         uuid: ''
-    traitnames: spawned,mounttrait,equipment,hologramtrait,owner,inventory,type,location,skintrait,scoreboardtrait
+    traitnames: type,equipment,inventory,location,spawned,hologramtrait,skintrait,mounttrait,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2133,7 +2133,7 @@ npc:
         pitch: '0.0'
       owner:
         uuid: ''
-    traitnames: spawned,mounttrait,equipment,hologramtrait,owner,inventory,type,location,skintrait,scoreboardtrait
+    traitnames: type,equipment,inventory,location,spawned,hologramtrait,skintrait,mounttrait,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2174,7 +2174,7 @@ npc:
       spawned: true
       owner:
         uuid: ''
-    traitnames: spawned,mounttrait,equipment,hologramtrait,owner,inventory,type,location,skintrait,scoreboardtrait
+    traitnames: type,equipment,inventory,location,spawned,hologramtrait,skintrait,mounttrait,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2213,7 +2213,7 @@ npc:
       spawned: true
       owner:
         uuid: ''
-    traitnames: spawned,mounttrait,equipment,hologramtrait,owner,inventory,type,location,skintrait,scoreboardtrait
+    traitnames: type,equipment,inventory,location,spawned,hologramtrait,skintrait,mounttrait,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2282,7 +2282,7 @@ npc:
         uuid: ''
       sneak:
         sneaking: false
-    traitnames: spawned,gravity,mounttrait,equipment,lookclose,inventory,owner,location,rotationtrait,sneak,type,skintrait,scoreboardtrait,commandtrait
+    traitnames: equipment,location,spawned,lookclose,skintrait,sneak,owner,commandtrait,type,inventory,gravity,rotationtrait,mounttrait,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2343,7 +2343,7 @@ npc:
         style: NONE
       owner:
         uuid: ''
-    traitnames: horsemodifiers,spawned,mounttrait,equipment,inventory,owner,type,location,skintrait,scoreboardtrait
+    traitnames: type,equipment,inventory,location,spawned,horsemodifiers,skintrait,mounttrait,scoreboardtrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2380,19 +2380,19 @@ npc:
         updateSkins: false
       type: PLAYER
       location:
-        bodyYaw: -157.54272
+        bodyYaw: -64.471825
         world: world
         x: '485.44'
         y: '76.0'
         z: '532.3755'
-        yaw: '-157.5427'
+        yaw: '-64.4718'
         pitch: '0.0'
       spawned: true
       sneak:
         sneaking: false
       owner:
         uuid: ''
-    traitnames: spawned,mounttrait,rotationtrait,equipment,lookclose,inventory,owner,sneak,type,location,skintrait,scoreboardtrait
+    traitnames: type,inventory,equipment,location,rotationtrait,spawned,lookclose,skintrait,mounttrait,sneak,scoreboardtrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2412,13 +2412,13 @@ npc:
       spawned: true
       type: PLAYER
       location:
-        bodyYaw: 53.8295
+        bodyYaw: 114.84393
         world: world
         x: '485.5'
         y: '74.0'
         z: '507.5'
-        yaw: '53.8295'
-        pitch: '-43.5993'
+        yaw: '134.8439'
+        pitch: '-38.2295'
       lookclose:
         range: '3.0'
         enabled: true
@@ -2441,7 +2441,7 @@ npc:
         uuid: b319b04c-ede3-36b1-ac74-131f573b07a9
       sneak:
         sneaking: false
-    traitnames: spawned,mounttrait,rotationtrait,equipment,lookclose,owner,inventory,sneak,type,location,skintrait,scoreboardtrait
+    traitnames: type,inventory,equipment,location,rotationtrait,spawned,lookclose,skintrait,mounttrait,sneak,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2475,7 +2475,7 @@ npc:
         enabled: true
       owner:
         uuid: b319b04c-ede3-36b1-ac74-131f573b07a9
-    traitnames: spawned,gravity,mounttrait,equipment,owner,inventory,type,location,skintrait,scoreboardtrait
+    traitnames: type,inventory,equipment,location,gravity,spawned,skintrait,mounttrait,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2491,12 +2491,12 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: 256.29086
+        bodyYaw: 221.77747
         world: world
-        x: '422.8238'
+        x: '423.5289'
         y: '77.0'
-        z: '-493.3351'
-        yaw: '-103.7091'
+        z: '-494.413'
+        yaw: '-138.2225'
         pitch: '6.9155'
       owner:
         uuid: b319b04c-ede3-36b1-ac74-131f573b07a9
@@ -2577,7 +2577,7 @@ npc:
         offhand:
           type_key: firework_rocket
           amount: 1
-    traitnames: waypoints,spawned,mounttrait,equipment,lookclose,inventory,owner,type,location,skintrait,scoreboardtrait
+    traitnames: type,equipment,inventory,location,waypoints,spawned,lookclose,skintrait,mounttrait,owner,scoreboardtrait
     navigator:
       pathfindingrange: '200.0'
       stationaryticks: 200
@@ -2626,7 +2626,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: spawned,mounttrait,lookclose,owner,inventory,type,location,skintrait,scoreboardtrait
+    traitnames: type,inventory,location,spawned,lookclose,skintrait,mounttrait,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2668,7 +2668,7 @@ npc:
           amount: 64
           meta:
             encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAARY3VzdG9tLW1vZGVsLWRhdGF1cQB+AAYAAAAEdAAISXRlbU1ldGF0AApVTlNQRUNJRklDdACSeyJleHRyYSI6W3siYm9sZCI6ZmFsc2UsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwib2JmdXNjYXRlZCI6ZmFsc2UsImNvbG9yIjoid2hpdGUiLCJ0ZXh0IjoiTG9uZ2FuaXphIn1dLCJ0ZXh0IjoiIn1zcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAAAQ==
-    traitnames: spawned,mounttrait,equipment,inventory,owner,type,location,skintrait,scoreboardtrait
+    traitnames: type,equipment,inventory,location,spawned,skintrait,mounttrait,scoreboardtrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2728,7 +2728,7 @@ npc:
           amount: 64
           meta:
             encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAARY3VzdG9tLW1vZGVsLWRhdGF1cQB+AAYAAAAEdAAISXRlbU1ldGF0AApVTlNQRUNJRklDdACZeyJleHRyYSI6W3siYm9sZCI6ZmFsc2UsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwib2JmdXNjYXRlZCI6ZmFsc2UsImNvbG9yIjoid2hpdGUiLCJ0ZXh0IjoiRW1wYW5hZGEgZGUgUGlubyJ9XSwidGV4dCI6IiJ9c3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAAQ=
-    traitnames: spawned,mounttrait,equipment,lookclose,inventory,owner,type,location,skintrait,scoreboardtrait
+    traitnames: type,equipment,inventory,location,spawned,lookclose,skintrait,mounttrait,scoreboardtrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2780,7 +2780,7 @@ npc:
           amount: 1
           meta:
             encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAARY3VzdG9tLW1vZGVsLWRhdGF1cQB+AAYAAAAEdAAISXRlbU1ldGF0AApVTlNQRUNJRklDdACXeyJleHRyYSI6W3siYm9sZCI6ZmFsc2UsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwib2JmdXNjYXRlZCI6ZmFsc2UsImNvbG9yIjoid2hpdGUiLCJ0ZXh0IjoiU29tYnJlcm8gSHVhc28ifV0sInRleHQiOiIifXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAB
-    traitnames: spawned,mounttrait,equipment,owner,inventory,type,location,skintrait,scoreboardtrait
+    traitnames: type,equipment,inventory,location,spawned,skintrait,mounttrait,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2832,7 +2832,7 @@ npc:
           amount: 1
           meta:
             encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAARY3VzdG9tLW1vZGVsLWRhdGF1cQB+AAYAAAAEdAAISXRlbU1ldGF0AApVTlNQRUNJRklDdACReyJleHRyYSI6W3siYm9sZCI6ZmFsc2UsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwib2JmdXNjYXRlZCI6ZmFsc2UsImNvbG9yIjoid2hpdGUiLCJ0ZXh0IjoiQ2h1cGFsbGEifV0sInRleHQiOiIifXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAC
-    traitnames: spawned,mounttrait,equipment,owner,inventory,type,location,skintrait,scoreboardtrait
+    traitnames: type,equipment,inventory,location,spawned,skintrait,mounttrait,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2884,7 +2884,7 @@ npc:
         provider: linear
       spawned: true
       type: PLAYER
-    traitnames: waypoints,spawned,mounttrait,inventory,owner,type,location,skintrait,scoreboardtrait
+    traitnames: type,inventory,location,waypoints,spawned,skintrait,mounttrait,scoreboardtrait,owner
     navigator:
       pathfindingrange: '10.0'
       speedmodifier: '1.0'
@@ -2937,7 +2937,7 @@ npc:
                 yaw: '0.0'
                 pitch: '0.0'
         provider: linear
-    traitnames: waypoints,spawned,mounttrait,owner,inventory,type,location,skintrait,scoreboardtrait
+    traitnames: type,inventory,location,waypoints,spawned,skintrait,mounttrait,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2967,7 +2967,7 @@ npc:
         updateSkins: false
       spawned: true
       type: PLAYER
-    traitnames: spawned,mounttrait,inventory,owner,type,location,skintrait,scoreboardtrait
+    traitnames: type,inventory,location,spawned,skintrait,mounttrait,scoreboardtrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3026,7 +3026,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: spawned,mounttrait,equipment,lookclose,inventory,type,location,skintrait,scoreboardtrait
+    traitnames: type,equipment,inventory,location,spawned,lookclose,skintrait,mounttrait,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3095,7 +3095,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: spawned,mounttrait,equipment,lookclose,inventory,type,location,skintrait,scoreboardtrait
+    traitnames: type,equipment,inventory,location,spawned,lookclose,skintrait,mounttrait,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3137,7 +3137,7 @@ npc:
         updateSkins: false
       spawned: false
       type: PLAYER
-    traitnames: spawned,mounttrait,equipment,owner,inventory,type,location,skintrait,scoreboardtrait
+    traitnames: type,equipment,inventory,location,spawned,skintrait,mounttrait,scoreboardtrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3179,7 +3179,7 @@ npc:
         updateSkins: false
       spawned: false
       type: PLAYER
-    traitnames: spawned,mounttrait,equipment,inventory,owner,type,location,skintrait,scoreboardtrait
+    traitnames: type,equipment,inventory,location,spawned,skintrait,mounttrait,scoreboardtrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3221,7 +3221,7 @@ npc:
         updateSkins: false
       spawned: false
       type: PLAYER
-    traitnames: spawned,mounttrait,equipment,inventory,owner,type,location,skintrait,scoreboardtrait
+    traitnames: type,inventory,equipment,location,spawned,skintrait,mounttrait,scoreboardtrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3284,7 +3284,7 @@ npc:
           '1': 360.0
       sneaking:
         sneaking: true
-    traitnames: spawned,mounttrait,equipment,lookclose,owner,sneaking,inventory,type,location,skintrait,scoreboardtrait
+    traitnames: type,equipment,inventory,location,spawned,sneaking,lookclose,skintrait,mounttrait,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3337,7 +3337,7 @@ npc:
           amount: 32
           meta:
             encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAARY3VzdG9tLW1vZGVsLWRhdGF1cQB+AAYAAAAEdAAISXRlbU1ldGF0AApVTlNQRUNJRklDdACZeyJleHRyYSI6W3siYm9sZCI6ZmFsc2UsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwib2JmdXNjYXRlZCI6ZmFsc2UsImNvbG9yIjoid2hpdGUiLCJ0ZXh0IjoiRW1wYW5hZGEgZGUgUGlubyJ9XSwidGV4dCI6IiJ9c3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAAQ=
-    traitnames: spawned,mounttrait,equipment,inventory,owner,type,location,skintrait,scoreboardtrait
+    traitnames: type,inventory,equipment,location,spawned,skintrait,mounttrait,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3398,7 +3398,7 @@ npc:
           amount: 1
           meta:
             encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAARY3VzdG9tLW1vZGVsLWRhdGF1cQB+AAYAAAAEdAAISXRlbU1ldGF0AApVTlNQRUNJRklDdACReyJleHRyYSI6W3siYm9sZCI6ZmFsc2UsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwib2JmdXNjYXRlZCI6ZmFsc2UsImNvbG9yIjoid2hpdGUiLCJ0ZXh0IjoiUmVtb2xpbm8ifV0sInRleHQiOiIifXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAC
-    traitnames: spawned,mounttrait,equipment,lookclose,inventory,owner,type,location,skintrait,scoreboardtrait
+    traitnames: type,equipment,inventory,location,spawned,lookclose,skintrait,mounttrait,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3441,7 +3441,7 @@ npc:
         updateSkins: false
       spawned: true
       type: PLAYER
-    traitnames: spawned,mounttrait,equipment,inventory,owner,type,location,skintrait,scoreboardtrait
+    traitnames: type,equipment,inventory,location,spawned,skintrait,mounttrait,scoreboardtrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3484,7 +3484,7 @@ npc:
         updateSkins: false
       spawned: true
       type: PLAYER
-    traitnames: spawned,mounttrait,equipment,owner,inventory,type,location,skintrait,scoreboardtrait
+    traitnames: type,inventory,equipment,location,spawned,skintrait,mounttrait,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3559,7 +3559,7 @@ npc:
       controllable:
         enabled: false
         owner_required: false
-    traitnames: waypoints,spawned,horsemodifiers,mounttrait,controllable,owner,inventory,type,location,skintrait,scoreboardtrait
+    traitnames: type,inventory,location,waypoints,spawned,controllable,skintrait,horsemodifiers,mounttrait,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3639,7 +3639,7 @@ npc:
         provider: linear
       spawned: true
       type: HORSE
-    traitnames: waypoints,horsemodifiers,spawned,mounttrait,controllable,inventory,owner,type,location,skintrait,scoreboardtrait
+    traitnames: type,inventory,location,waypoints,spawned,controllable,horsemodifiers,skintrait,mounttrait,scoreboardtrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3688,7 +3688,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: spawned,mounttrait,lookclose,owner,inventory,type,location,skintrait,scoreboardtrait
+    traitnames: type,inventory,location,spawned,lookclose,skintrait,mounttrait,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3720,7 +3720,7 @@ npc:
         updateSkins: false
       spawned: true
       type: DONKEY
-    traitnames: horsemodifiers,spawned,mounttrait,inventory,owner,type,location,skintrait,scoreboardtrait
+    traitnames: type,inventory,location,spawned,skintrait,horsemodifiers,mounttrait,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3781,7 +3781,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: horsemodifiers,spawned,mounttrait,controllable,lookclose,inventory,owner,type,location,skintrait,scoreboardtrait
+    traitnames: type,inventory,location,spawned,controllable,lookclose,horsemodifiers,skintrait,mounttrait,scoreboardtrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3820,7 +3820,7 @@ npc:
         updateSkins: false
       spawned: true
       type: HORSE
-    traitnames: spawned,horsemodifiers,mounttrait,inventory,owner,type,location,skintrait,scoreboardtrait
+    traitnames: type,inventory,location,spawned,skintrait,horsemodifiers,mounttrait,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3880,7 +3880,7 @@ npc:
           amount: 1
           meta:
             encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAARY3VzdG9tLW1vZGVsLWRhdGF1cQB+AAYAAAAEdAAISXRlbU1ldGF0AApVTlNQRUNJRklDdACReyJleHRyYSI6W3siYm9sZCI6ZmFsc2UsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwib2JmdXNjYXRlZCI6ZmFsc2UsImNvbG9yIjoid2hpdGUiLCJ0ZXh0IjoiQ2h1cGFsbGEifV0sInRleHQiOiIifXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAC
-    traitnames: spawned,mounttrait,equipment,lookclose,inventory,owner,type,location,skintrait,scoreboardtrait
+    traitnames: type,equipment,inventory,location,spawned,lookclose,skintrait,mounttrait,scoreboardtrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3924,7 +3924,7 @@ npc:
           meta:
             encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAB3QAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAAEbG9yZXQAEWN1c3RvbS1tb2RlbC1kYXRhdAAJSXRlbUZsYWdzdAALcG90aW9uLXR5cGV1cQB+AAYAAAAHdAAISXRlbU1ldGF0AAZQT1RJT050AJx7ImV4dHJhIjpbeyJib2xkIjp0cnVlLCJpdGFsaWMiOmZhbHNlLCJ1bmRlcmxpbmVkIjpmYWxzZSwic3RyaWtldGhyb3VnaCI6ZmFsc2UsIm9iZnVzY2F0ZWQiOmZhbHNlLCJjb2xvciI6IiNGRkZGMDAiLCJ0ZXh0IjoiR2FycmFmYSBkZSBQaXBlw7FvIn1dLCJ0ZXh0IjoiIn1zcgA2Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVMaXN0JFNlcmlhbGl6ZWRGb3JtAAAAAAAAAAACAAFbAAhlbGVtZW50c3QAE1tMamF2YS9sYW5nL09iamVjdDt4cHVxAH4ABgAAAAN0AJt7ImV4dHJhIjpbeyJib2xkIjpmYWxzZSwiaXRhbGljIjpmYWxzZSwidW5kZXJsaW5lZCI6ZmFsc2UsInN0cmlrZXRocm91Z2giOmZhbHNlLCJvYmZ1c2NhdGVkIjpmYWxzZSwiY29sb3IiOiJibHVlIiwidGV4dCI6IlZlbG9jaWRhZCBJSSAoMDozMCkifV0sInRleHQiOiIifXQAmnsiZXh0cmEiOlt7ImJvbGQiOmZhbHNlLCJpdGFsaWMiOmZhbHNlLCJ1bmRlcmxpbmVkIjpmYWxzZSwic3RyaWtldGhyb3VnaCI6ZmFsc2UsIm9iZnVzY2F0ZWQiOmZhbHNlLCJjb2xvciI6InJlZCIsInRleHQiOiJCb3JyYWNoZXJhIFYgKDE6MDApIn1dLCJ0ZXh0IjoiIn10AJ57ImV4dHJhIjpbeyJib2xkIjpmYWxzZSwiaXRhbGljIjpmYWxzZSwidW5kZXJsaW5lZCI6ZmFsc2UsInN0cmlrZXRocm91Z2giOmZhbHNlLCJvYmZ1c2NhdGVkIjpmYWxzZSwiY29sb3IiOiJyZWQiLCJ0ZXh0IjoiRmF0aWdhIE1pbmVyYSBJSSAoMjowMCkifV0sInRleHQiOiIifXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAGc3IAE2phdmEudXRpbC5BcnJheUxpc3R4gdIdmcdhnQMAAUkABHNpemV4cAAAAAF3BAAAAAF0ABNISURFX1BPVElPTl9FRkZFQ1RTeHQAD21pbmVjcmFmdDp3YXRlcg==
       type: PLAYER
-    traitnames: spawned,mounttrait,equipment,sneaking,inventory,owner,type,location,skintrait,scoreboardtrait
+    traitnames: type,inventory,equipment,location,spawned,sneaking,skintrait,mounttrait,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3951,7 +3951,7 @@ npc:
         pitch: '0.0'
       spawned: false
       type: PLAYER
-    traitnames: spawned,mounttrait,owner,inventory,type,location,skintrait,scoreboardtrait
+    traitnames: type,inventory,location,spawned,skintrait,mounttrait,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3981,7 +3981,7 @@ npc:
         pitch: '0.0'
       spawned: false
       type: PLAYER
-    traitnames: spawned,mounttrait,owner,inventory,type,location,skintrait,scoreboardtrait
+    traitnames: type,inventory,location,spawned,skintrait,mounttrait,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4028,7 +4028,7 @@ npc:
           meta:
             encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABnQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAARY3VzdG9tLW1vZGVsLWRhdGF0AAlJdGVtRmxhZ3N0AAtwb3Rpb24tdHlwZXVxAH4ABgAAAAZ0AAhJdGVtTWV0YXQABlBPVElPTnQBF3siZXh0cmEiOlt7ImJvbGQiOnRydWUsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwib2JmdXNjYXRlZCI6ZmFsc2UsImNvbG9yIjoiI0ZDRkY1NSIsInRleHQiOiJWaW5vIEJsYW5jbyAifSx7ImJvbGQiOnRydWUsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwib2JmdXNjYXRlZCI6ZmFsc2UsImNvbG9yIjoiIzBBNzMwMCIsInRleHQiOiJTYW50YSBIZWxlbmEifV0sInRleHQiOiIifXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAACc3IAE2phdmEudXRpbC5BcnJheUxpc3R4gdIdmcdhnQMAAUkABHNpemV4cAAAAAF3BAAAAAF0ABNISURFX1BPVElPTl9FRkZFQ1RTeHQAD21pbmVjcmFmdDp3YXRlcg==
       type: PLAYER
-    traitnames: spawned,mounttrait,equipment,sneaking,owner,inventory,type,location,skintrait,scoreboardtrait
+    traitnames: type,equipment,inventory,location,spawned,sneaking,skintrait,mounttrait,scoreboardtrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4058,7 +4058,7 @@ npc:
         pitch: '0.0'
       spawned: false
       type: PLAYER
-    traitnames: spawned,mounttrait,owner,inventory,type,location,skintrait,scoreboardtrait
+    traitnames: type,inventory,location,spawned,skintrait,mounttrait,scoreboardtrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4099,7 +4099,7 @@ npc:
           pitch: '89.8611'
       spawned: false
       type: PLAYER
-    traitnames: spawned,sitting,mounttrait,owner,inventory,type,location,skintrait,scoreboardtrait
+    traitnames: type,inventory,sitting,location,spawned,skintrait,mounttrait,scoreboardtrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4152,7 +4152,7 @@ npc:
           '0': 0.0
           '1': 360.0
       type: PLAYER
-    traitnames: spawned,mounttrait,lookclose,sneaking,inventory,owner,type,location,skintrait,scoreboardtrait
+    traitnames: type,inventory,location,spawned,sneaking,lookclose,skintrait,mounttrait,scoreboardtrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4196,7 +4196,7 @@ npc:
           meta:
             encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAARY3VzdG9tLW1vZGVsLWRhdGF1cQB+AAYAAAAEdAAISXRlbU1ldGF0AApVTlNQRUNJRklDdACXeyJleHRyYSI6W3siYm9sZCI6ZmFsc2UsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwib2JmdXNjYXRlZCI6ZmFsc2UsImNvbG9yIjoid2hpdGUiLCJ0ZXh0IjoiU29tYnJlcm8gSHVhc28ifV0sInRleHQiOiIifXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAB
       type: PLAYER
-    traitnames: spawned,mounttrait,equipment,owner,inventory,sneaking,type,location,skintrait,scoreboardtrait
+    traitnames: type,equipment,inventory,location,spawned,sneaking,skintrait,mounttrait,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4240,7 +4240,7 @@ npc:
       type: PLAYER
       mounttrait:
         mountedon: fa54e4b0-0c7d-4fea-bc85-b695aadfc309
-    traitnames: spawned,mounttrait,equipment,inventory,owner,type,location,skintrait,scoreboardtrait
+    traitnames: type,inventory,equipment,location,spawned,skintrait,mounttrait,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4270,7 +4270,7 @@ npc:
         pitch: '0.0'
       spawned: false
       type: PLAYER
-    traitnames: spawned,mounttrait,equipment,owner,inventory,type,location,skintrait,scoreboardtrait
+    traitnames: type,equipment,inventory,location,spawned,skintrait,mounttrait,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4326,7 +4326,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: spawned,mounttrait,equipment,lookclose,inventory,owner,type,location,skintrait,scoreboardtrait
+    traitnames: type,inventory,equipment,location,spawned,lookclose,skintrait,mounttrait,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4387,7 +4387,7 @@ npc:
           '0': 0.0
           '1': 360.0
       type: PLAYER
-    traitnames: spawned,mounttrait,equipment,lookclose,owner,inventory,type,location,skintrait,scoreboardtrait
+    traitnames: type,equipment,inventory,location,spawned,lookclose,skintrait,mounttrait,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4424,7 +4424,7 @@ npc:
         pitch: '0.0'
       spawned: true
       type: DROWNED
-    traitnames: spawned,mounttrait,equipment,inventory,owner,type,location,skintrait,scoreboardtrait
+    traitnames: type,inventory,equipment,location,spawned,skintrait,mounttrait,scoreboardtrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4464,7 +4464,7 @@ npc:
         pitch: '0.0'
       spawned: true
       type: SKELETON
-    traitnames: spawned,mounttrait,equipment,owner,inventory,type,location,skintrait,scoreboardtrait
+    traitnames: type,equipment,inventory,location,spawned,skintrait,mounttrait,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4506,7 +4506,7 @@ npc:
         pitch: '0.0'
       spawned: true
       type: ZOMBIE
-    traitnames: spawned,mounttrait,equipment,owner,inventory,type,location,skintrait,scoreboardtrait
+    traitnames: type,equipment,inventory,location,spawned,skintrait,mounttrait,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4558,7 +4558,7 @@ npc:
           amount: 1
           meta:
             encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAB3QAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAAEbG9yZXQAEWN1c3RvbS1tb2RlbC1kYXRhdAAJSXRlbUZsYWdzdAALcG90aW9uLXR5cGV1cQB+AAYAAAAHdAAISXRlbU1ldGF0AAZQT1RJT050ARd7ImV4dHJhIjpbeyJib2xkIjp0cnVlLCJpdGFsaWMiOmZhbHNlLCJ1bmRlcmxpbmVkIjpmYWxzZSwic3RyaWtldGhyb3VnaCI6ZmFsc2UsIm9iZnVzY2F0ZWQiOmZhbHNlLCJjb2xvciI6IiNGQ0ZGNTUiLCJ0ZXh0IjoiVmlubyBCbGFuY28gIn0seyJib2xkIjp0cnVlLCJpdGFsaWMiOmZhbHNlLCJ1bmRlcmxpbmVkIjpmYWxzZSwic3RyaWtldGhyb3VnaCI6ZmFsc2UsIm9iZnVzY2F0ZWQiOmZhbHNlLCJjb2xvciI6IiMwQTczMDAiLCJ0ZXh0IjoiU2FudGEgSGVsZW5hIn1dLCJ0ZXh0IjoiIn1zcgA2Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVMaXN0JFNlcmlhbGl6ZWRGb3JtAAAAAAAAAAACAAFbAAhlbGVtZW50c3QAE1tMamF2YS9sYW5nL09iamVjdDt4cHVxAH4ABgAAAAR0AJh7ImV4dHJhIjpbeyJib2xkIjpmYWxzZSwiaXRhbGljIjpmYWxzZSwidW5kZXJsaW5lZCI6ZmFsc2UsInN0cmlrZXRocm91Z2giOmZhbHNlLCJvYmZ1c2NhdGVkIjpmYWxzZSwiY29sb3IiOiJibHVlIiwidGV4dCI6IkZ1ZXJ6YSBJSSAoMzowMCkifV0sInRleHQiOiIifXQAm3siZXh0cmEiOlt7ImJvbGQiOmZhbHNlLCJpdGFsaWMiOmZhbHNlLCJ1bmRlcmxpbmVkIjpmYWxzZSwic3RyaWtldGhyb3VnaCI6ZmFsc2UsIm9iZnVzY2F0ZWQiOmZhbHNlLCJjb2xvciI6InJlZCIsInRleHQiOiJCb3JyYWNoZXJhIElWICgzOjAwKSJ9XSwidGV4dCI6IiJ9dACdeyJleHRyYSI6W3siYm9sZCI6ZmFsc2UsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwib2JmdXNjYXRlZCI6ZmFsc2UsImNvbG9yIjoicmVkIiwidGV4dCI6IkZhdGlnYSBNaW5lcmEgSSAoMjowMCkifV0sInRleHQiOiIifXQAoHsiZXh0cmEiOlt7ImJvbGQiOmZhbHNlLCJpdGFsaWMiOmZhbHNlLCJ1bmRlcmxpbmVkIjpmYWxzZSwic3RyaWtldGhyb3VnaCI6ZmFsc2UsIm9iZnVzY2F0ZWQiOmZhbHNlLCJjb2xvciI6InJlZCIsInRleHQiOiJEZXNoaWRyYXRhY2nDs24gSUkgKDI6MDApIn1dLCJ0ZXh0IjoiIn1zcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAAAnNyABNqYXZhLnV0aWwuQXJyYXlMaXN0eIHSHZnHYZ0DAAFJAARzaXpleHAAAAABdwQAAAABdAATSElERV9QT1RJT05fRUZGRUNUU3h0AA9taW5lY3JhZnQ6d2F0ZXI=
-    traitnames: spawned,sleeping,mounttrait,equipment,inventory,owner,type,location,skintrait,scoreboardtrait
+    traitnames: type,inventory,equipment,location,sleeping,spawned,skintrait,mounttrait,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4599,7 +4599,7 @@ npc:
           pitch: '57.6333'
       spawned: true
       type: PLAYER
-    traitnames: spawned,sitting,mounttrait,owner,inventory,type,location,skintrait,scoreboardtrait
+    traitnames: type,inventory,sitting,location,spawned,skintrait,mounttrait,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4649,7 +4649,7 @@ npc:
           '0': 0.0
           '1': 360.0
       type: VILLAGER
-    traitnames: spawned,mounttrait,lookclose,owner,inventory,profession,villagertrait,type,location,skintrait,scoreboardtrait
+    traitnames: profession,type,inventory,location,villagertrait,spawned,lookclose,skintrait,mounttrait,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4699,7 +4699,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: spawned,mounttrait,lookclose,owner,inventory,profession,villagertrait,type,location,skintrait,scoreboardtrait
+    traitnames: profession,type,inventory,location,villagertrait,spawned,lookclose,skintrait,mounttrait,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4750,7 +4750,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: spawned,mounttrait,lookclose,owner,inventory,villagertrait,profession,type,location,skintrait,scoreboardtrait
+    traitnames: profession,type,inventory,location,villagertrait,spawned,lookclose,skintrait,mounttrait,scoreboardtrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4796,7 +4796,7 @@ npc:
         signature: th02YjbYqWfTWldLyvG00mPkjIaKz4gRP6zX+bACsOEUBwTq0TOUMFykyowMOmW37FYJHAeBj9YPk+kRSz2jTkDKEoaBENsAoWwcj8luqcusZ/smf6hj0I6ZLA2lBd1WIDiSP67angPGc4i7Kvfi4qwMUblE7B2mFyWrs/x3GU2AU1A02xlVPKtnpxhZ8WjdAH8muBIgnxCeIPtrarli2FfKc5Ya8pp3X33FiJiJKulW9qGPQpU0NAtkhqhOyQ5fxcDulyTk4CK3/3Jv8zcdScqhhNsOXDQflIz5SsgxK/O2vdCnChj0b/WV5ZE/6IZfvVoGKWkoXhjffoHOfTY5lf0iJyLhR8hFaO18wal9ycpeOiKxDWPthlK49H0Ii4+e1AXCukGj8X8zZEPHycA30uQgSzqmmKyJoZaCOB7MelHSQUg3XZTUAkCwZKx4wFW35/sS1jFx5TgLjY/rEtSD1IMVEiM79uaJ4/Kde55+FfecyqfS/qmz5dTAMq9WZhZwJp4QlMwxrOUo5DAnjXFCU5fJ0wnARdno+wUugzsAggFh2DQ/g7VLeOrMwXtiRdNjWCaTqOwcnoc0fzQYOdMSWyk+C0822EStlQoUmVGTjIOyVL1zNw+Vy/PNxSFwYSKvu9Zygw3lDyybih3Jpqvg6l7DNt4fgUejLQ38hMnQ4D4=
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY5NDk4OTg0NDQwMCwKICAicHJvZmlsZUlkIiA6ICI2ODM3NmMxMmY5ZDY0ZjcyYWRjNzVhZTdhNDY5YTE2MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSaWNoYXJkMzYzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RjMzc3MWUzZmMxZGMyZmVjYTk0MTJkOTk1YmE3ZDBlNWQxOWEwNzU5NzBmOTE3ZTM2YzZmNmRlZWE1ZjE3N2EiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y5YTc2NTM3NjQ3OTg5ZjlhMGI2ZDAwMWUzMjBkYWM1OTFjMzU5ZTllNjFhMzFmNGNlMTFjODhmMjA3ZjBhZDQiCiAgICB9CiAgfQp9
         updateSkins: false
-    traitnames: spawned,mounttrait,rotationtrait,lookclose,inventory,type,location,skintrait,scoreboardtrait
+    traitnames: type,inventory,location,rotationtrait,spawned,lookclose,skintrait,mounttrait,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4842,7 +4842,7 @@ npc:
         signature: th02YjbYqWfTWldLyvG00mPkjIaKz4gRP6zX+bACsOEUBwTq0TOUMFykyowMOmW37FYJHAeBj9YPk+kRSz2jTkDKEoaBENsAoWwcj8luqcusZ/smf6hj0I6ZLA2lBd1WIDiSP67angPGc4i7Kvfi4qwMUblE7B2mFyWrs/x3GU2AU1A02xlVPKtnpxhZ8WjdAH8muBIgnxCeIPtrarli2FfKc5Ya8pp3X33FiJiJKulW9qGPQpU0NAtkhqhOyQ5fxcDulyTk4CK3/3Jv8zcdScqhhNsOXDQflIz5SsgxK/O2vdCnChj0b/WV5ZE/6IZfvVoGKWkoXhjffoHOfTY5lf0iJyLhR8hFaO18wal9ycpeOiKxDWPthlK49H0Ii4+e1AXCukGj8X8zZEPHycA30uQgSzqmmKyJoZaCOB7MelHSQUg3XZTUAkCwZKx4wFW35/sS1jFx5TgLjY/rEtSD1IMVEiM79uaJ4/Kde55+FfecyqfS/qmz5dTAMq9WZhZwJp4QlMwxrOUo5DAnjXFCU5fJ0wnARdno+wUugzsAggFh2DQ/g7VLeOrMwXtiRdNjWCaTqOwcnoc0fzQYOdMSWyk+C0822EStlQoUmVGTjIOyVL1zNw+Vy/PNxSFwYSKvu9Zygw3lDyybih3Jpqvg6l7DNt4fgUejLQ38hMnQ4D4=
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY5NDk4OTg0NDQwMCwKICAicHJvZmlsZUlkIiA6ICI2ODM3NmMxMmY5ZDY0ZjcyYWRjNzVhZTdhNDY5YTE2MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSaWNoYXJkMzYzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RjMzc3MWUzZmMxZGMyZmVjYTk0MTJkOTk1YmE3ZDBlNWQxOWEwNzU5NzBmOTE3ZTM2YzZmNmRlZWE1ZjE3N2EiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y5YTc2NTM3NjQ3OTg5ZjlhMGI2ZDAwMWUzMjBkYWM1OTFjMzU5ZTllNjFhMzFmNGNlMTFjODhmMjA3ZjBhZDQiCiAgICB9CiAgfQp9
         updateSkins: false
-    traitnames: spawned,mounttrait,rotationtrait,lookclose,inventory,type,location,skintrait,scoreboardtrait
+    traitnames: type,inventory,location,rotationtrait,spawned,lookclose,skintrait,mounttrait,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
