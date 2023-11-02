@@ -1,0 +1,81 @@
+# This is an example book to show how to create one
+# Note: The placeholders in this book (like %player_name%) need PlaceholderAPI installed
+# with the proper expansion, see here for more informations: https://www.spigotmc.org/resources/placeholderapi.6245/
+
+# Item's name
+name: Eventos
+
+# Book's title
+title: Eventos
+
+# Book's author
+author: TeleServer
+
+# Book's generation
+# Valid values: ORIGINAL, COPY_OF_ORIGINAL, COPY_OF_COPY, TATTERED
+generation: ORIGINAL
+
+# Item's lore
+lore:
+- '§dEventos'
+
+# Command to open this book
+# You can remove this by setting it to ''
+# Separate multiple commands with a space
+open_command: ''
+
+pages:
+  '1':
+  - ' <gold><bold>E<black><bold>v<gold><bold>e<black><bold>n<gold><bold>t<black><bold>o <gold><bold>H<black><bold>a<gold><bold>l<black><bold>l<gold><bold>o<black><bold>w<gold><bold>e<black><bold>e<gold><bold>n<black><bold>!<reset>'
+  - ''
+  - '<black>El TeleServer está'
+  - '<black>siendo invadido por el'
+  - '<black>terror y la oscuridad,'
+  - '<black>el aire es denso y la'
+  - '<black>sensación de que te'
+  - '<black>observan, constante.'
+  - ''
+  - ''
+  - '<hover:show_text:"<gray>Haz click para ver las §a§nrecompensas<reset> <gray>que debes buscar durante el evento"><click:run_command:/halloween><color:#00CA00><bold>[Ver recompensas]<reset>'
+  - ''
+  - '<gray><italic>(Características del'
+  - '<gray><italic>evento detalladas en'
+  - '<gray><italic>la siguiente página)'
+  '2':
+  - ' <gold><bold>E<black><bold>v<gold><bold>e<black><bold>n<gold><bold>t<black><bold>o <gold><bold>H<black><bold>a<gold><bold>l<black><bold>l<gold><bold>o<black><bold>w<gold><bold>e<black><bold>e<gold><bold>n<black><bold>!<reset>'
+  - ''
+  - '<black>●Cuadros temáticos'
+  - '<black>●Discos de halloween'
+  - '<black>●Ambientación tétrica'
+  - '<black>●Nivel de Miedo'
+  - '<black>●Mobs especiales'
+  - '<black>●Oscuridad aumentada'
+  - '<black>●Música ambiental'
+  - '<black>●Efectos de terror'
+  - ''
+  - '<color:#AB0096><italic>(Juega con el sonido'
+  - '<color:#AB0096><italic>activado para una'
+  - '<color:#AB0096><italic>experiencia completa)'
+  'final':
+  - '        <color:#FF8000><bold>Eventos<reset>'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ' <click:run_command:/ib open help><hover:show_text:"<gray>Click para ir al inicio <br><gray>del libro de <green><underlined>ayuda"><dark_aqua><bold>><color:#00DC85><bold><underlined>Volver al índice<reset><dark_aqua><bold><<reset>'
+
+
+# For the placeholders to work correctly
+# you should download the Player and Vault
+# extensions for PlaceholderAPI:
+# /papi ecloud download Player
+# /papi ecloud download Vault
+# /papi reload

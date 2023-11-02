@@ -1,0 +1,12 @@
+update_notification: true
+prevent_creative: false
+max_distance_particle_display: 20
+objects_check_time: 4
+data_auto_save_time: 300
+mysql_database:
+  enabled: false
+  host: localhost
+  port: 3306
+  username: root
+  password: root
+  database: database

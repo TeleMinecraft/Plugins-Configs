@@ -1,0 +1,6 @@
+name: Nobaittap
+searches:
+  pascua:
+    finds:
+    - '3'
+    completed: false

@@ -1,0 +1,91 @@
+# This is an example book to show how to create one
+# Note: The placeholders in this book (like %player_name%) need PlaceholderAPI installed
+# with the proper expansion, see here for more informations: https://www.spigotmc.org/resources/placeholderapi.6245/
+
+# Item's name
+name: Pascua
+
+# Book's title
+title: Pascua
+
+# Book's author
+author: TeleServer
+
+# Book's generation
+# Valid values: ORIGINAL, COPY_OF_ORIGINAL, COPY_OF_COPY, TATTERED
+generation: ORIGINAL
+
+# Item's lore
+lore:
+- &dEvento de Pascua
+
+# Command to open this book
+# You can remove this by setting it to ''
+# Separate multiple commands with a space
+open_command: ''
+
+pages:
+  '1':
+  - ' &5&lEvento de Pascua'
+  - ''
+  - '&0El conejito escondió'
+  - '&0cestas con huevitos'
+  - '&0de chocolate, podrás'
+  - '&0encontrarlas todas?'
+  - ''
+  - '&0Gana dinero y +1 día'
+  - '&0de &d&oVIP &0por cada'
+  - '&0cesta que encuentres.'
+  - ''
+  - '    <change page:2><tooltip:&aDónde puedo encontrar huevitos?>&2¿Dónde buscar?<reset>'
+  - '      <change page:3><tooltip:&eClick para ver tu progreso en la Búsqueda>&6[Mi Progreso]<reset>'
+  - ' <change page:4><tooltip:&bQué beneficios obtendré al obtener &d&oVIP&b?>&9❱ Beneficios del VIP ❰<reset>'
+  '2':
+  - ' &5&lEvento de Pascua'
+  - ''
+  - '&0El conejito escogió'
+  - '&02 lugares en los que'
+  - '&0esconder huevitos,'
+  - '&0la &nCiudad&0 y el &nPoblado&0.'
+  - ''
+  - '&0No existe ni un solo'
+  - '&0huevito fuera de esas'
+  - '&0zonas, &5&lbusca bien!'
+  - '' 
+  - '  <tooltip:&fClick para ir a la &6Ciudad><run command:/warp Ciudad>&6&l[Ir a la Ciudad]<reset>'
+  - '   <tooltip:&fClick para ir al &9Poblado><run command:/warp Poblado>&9&l[Ir al Poblado]<reset>'
+  '3':
+  - ' &5&lEvento de Pascua'
+  - ''
+  - '&0Debes encontrar 70'
+  - '&0cestas con huevitos'
+  - '&0de chocolate, de las'
+  - '&0cuales llevas: &5&l%thesearch_total_found_objects_pascua%/70'
+  - ''
+  - '&0Es decir, te faltan: &5&l%thesearch_remaining_objects_pascua%'
+  - '&0para completar la'
+  - '&0búsqueda y que el'
+  - '&5&nConejito de Pascua'
+  - '&0se sienta orgulloso'
+  '4':
+  - ' &d&lBeneficios del &oVIP'
+  - ''
+  - '<tooltip:&aPodrás usar el comando &6&o/tpa&a en cualquier momento>&0Acceso a /tpa<reset>'
+  - '<tooltip:&aAcceso a &6&l7&a homes diferentes en el &2Survival>&0Hasta 7 homes<reset>'
+  - '<tooltip:&aAl escribir en el chat se verá de un &bcolor diferente&a al de las otras personas>&0Color especial en chat<reset>'
+  - '<tooltip:&a20% de descuento en la Tienda de XP, &d30% de descuento en la Tienda de Minerales y &b20% de descuento en las Tiendas de Cajas>&0Descuento en Tiendas<reset>'
+  - '<tooltip:&aAcceso a reclamar &nterrenos más grandes&a con los bloques de protección>&0Mayorres terrenos<reset>'
+  - '<tooltip:&aRol en el &9Discord&a del TeleServer>&0Rol exclusivo en<reset> <link:http://dc.teleserver.network/><tooltip:&9Discord Oficial>&9&lDC<reset>'
+  - '<tooltip:&aLos cosméticos de &b&lSky&3&lWars&a serán totalmente gratuitos para tí>&0Cosméticos gratis<reset>'
+  - '<tooltip:&aTendrás acceso a las novedades del servidor &nantes que todos los demás>&0Acceso anticipado<reset>'
+  - '<tooltip:&aA través del comando &6&o/nick [apodo] &apodrás establecer tu apodo personalizado que verán todos los demás cuando hables en el chat>&0Apodo personalizado<reset>'
+  - '<tooltip:&aEn el &2Survival&a, recibirás más &nllaves diarias y semanales&a cada 5 y 10 días respectivamente>&0Más recompensas<reset>'
+  - '<tooltip:&aEn el mundo de &2Tienda de jugadores&a, tendrás acceso a 2 parcelas y más tipos de mobs para tu tienda>&0Tiendas mejores<reset>'
+  - '<tooltip:&aCada mes en el &dInstagram&a oficial del servidor verás una pequeña mención y agradecimiento por tu aporte &d❤>&0Mención especial<reset>'
+  
+# For the placeholders to work correctly
+# you should download the Player and Vault
+# extensions for PlaceholderAPI:
+# /papi ecloud download Player
+# /papi ecloud download Vault
+# /papi reload

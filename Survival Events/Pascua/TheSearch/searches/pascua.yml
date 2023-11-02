@@ -1,0 +1,262 @@
+# 
+#  - ''
+default_actions:
+  find_title_message:
+    title: '&aCesta encontrada!'
+    subtitle: '&7(&e%current%&7/&e%total%&7)'
+    fadeIn: 20
+    stay: 40
+    fadeOut: 20
+  find_sound: ENTITY_EXPERIENCE_ORB_PICKUP;10;1.8
+  find_effects_are_random: false
+  find_effects:
+  - 'firework: colors:YELLOW type:BURST offsetY:0.5 fade:YELLOW'
+  find_commands:
+  - eco give %player% 1000
+  find_chat_message:
+  - '&d+1 día de &oVIP'
+last_actions:
+  find_title_message:
+    title: '&d✵ &5&lFeliz Pascua! &d✵'
+    subtitle: '&b&oGracias por jugar el evento'
+    fadeIn: 20
+    stay: 150
+    fadeOut: 20
+  find_sound: ENTITY_PLAYER_LEVELUP;10;1
+  find_effects_are_random: false
+  find_effects:
+  - 'firework: colors:RED,PURPLE type:BALL_LARGE offsetY:0.8 fade:FUCHSIA'
+  find_commands:
+  - si give pascua2022 1 %player% true
+  - crate give %player% mobs 5
+display_particles:
+  enabled: true
+  speed: 5
+  list_of_particles:
+    particle1:
+      particle: REDSTONE;16711680
+      speed: 0.01
+      offset_y: '0.7'
+      offset_x: '0.2'
+    particle2:
+      particle: REDSTONE;16711922
+      speed: 0.01
+      offset_y: '0.7'
+      offset_x: '-0.2'
+      offset_z: '-0.2'
+    particle3:
+      particle: REDSTONE;8978601
+      speed: 0.01
+      offset_y: '0.7'
+      offset_z: '0.2'
+to_find:
+  '1':
+    type: 'block: STRUCTURE_VOID'
+    location: 373.0;74.0;-439.0;world
+  '2':
+    type: 'block: STRUCTURE_VOID'
+    location: 387.0;77.0;-437.0;world
+  '3':
+    type: 'block: STRUCTURE_VOID'
+    location: 387.0;77.0;-446.0;world
+  '4':
+    type: 'block: STRUCTURE_VOID'
+    location: 407.0;78.0;-443.0;world
+  '5':
+    type: 'block: STRUCTURE_VOID'
+    location: 411.0;79.0;-443.0;world
+  '6':
+    type: 'block: STRUCTURE_VOID'
+    location: 416.0;78.0;-487.0;world
+  '7':
+    type: 'block: STRUCTURE_VOID'
+    location: 396.0;82.0;-472.0;world
+  '8':
+    type: 'block: STRUCTURE_VOID'
+    location: 398.0;79.0;-482.0;world
+  '9':
+    type: 'block: STRUCTURE_VOID'
+    location: 396.0;84.0;-480.0;world
+  '10':
+    type: 'block: STRUCTURE_VOID'
+    location: 397.0;86.0;-476.0;world
+  '11':
+    type: 'block: STRUCTURE_VOID'
+    location: 399.0;93.0;-477.0;world
+  '12':
+    type: 'block: STRUCTURE_VOID'
+    location: 403.0;76.0;-489.0;world
+  '13':
+    type: 'block: STRUCTURE_VOID'
+    location: 448.0;77.0;-445.0;world
+  '14':
+    type: 'block: STRUCTURE_VOID'
+    location: 448.0;77.0;-457.0;world
+  '15':
+    type: 'block: STRUCTURE_VOID'
+    location: 446.0;86.0;-450.0;world
+  '16':
+    type: 'block: STRUCTURE_VOID'
+    location: 442.0;90.0;-454.0;world
+  '17':
+    type: 'block: STRUCTURE_VOID'
+    location: 450.0;77.0;-458.0;world
+  '18':
+    type: 'block: STRUCTURE_VOID'
+    location: 420.0;77.0;-435.0;world
+  '19':
+    type: 'block: STRUCTURE_VOID'
+    location: 433.0;79.0;-429.0;world
+  '20':
+    type: 'block: STRUCTURE_VOID'
+    location: 361.0;70.0;-435.0;world
+  '21':
+    type: 'block: STRUCTURE_VOID'
+    location: 402.0;83.0;-463.0;world
+  '22':
+    type: 'block: STRUCTURE_VOID'
+    location: 402.0;83.0;-466.0;world
+  '23':
+    type: 'block: STRUCTURE_VOID'
+    location: 451.0;78.0;-474.0;world
+  '24':
+    type: 'block: STRUCTURE_VOID'
+    location: 442.0;85.0;-474.0;world
+  '25':
+    type: 'block: STRUCTURE_VOID'
+    location: 449.0;92.0;-512.0;world
+  '27':
+    type: 'block: STRUCTURE_VOID'
+    location: 413.0;64.0;-497.0;world
+  '28':
+    type: 'block: STRUCTURE_VOID'
+    location: 424.0;63.0;-534.0;world
+  '29':
+    type: 'block: STRUCTURE_VOID'
+    location: 398.0;66.0;-527.0;world
+  '31':
+    type: 'block: STRUCTURE_VOID'
+    location: 423.0;65.0;-521.0;world
+  '32':
+    type: 'block: STRUCTURE_VOID'
+    location: 405.0;71.0;-524.0;world
+  '33':
+    type: 'block: STRUCTURE_VOID'
+    location: 416.0;69.0;-522.0;world
+  '34':
+    type: 'block: STRUCTURE_VOID'
+    location: 431.0;55.0;-476.0;world
+  '35':
+    type: 'block: STRUCTURE_VOID'
+    location: 446.0;78.0;497.0;world
+  '36':
+    type: 'block: STRUCTURE_VOID'
+    location: 430.0;79.0;491.0;world
+  '37':
+    type: 'block: STRUCTURE_VOID'
+    location: 441.0;78.0;511.0;world
+  '38':
+    type: 'block: STRUCTURE_VOID'
+    location: 460.0;76.0;499.0;world
+  '39':
+    type: 'block: STRUCTURE_VOID'
+    location: 440.0;91.0;544.0;world
+  '40':
+    type: 'block: STRUCTURE_VOID'
+    location: 444.0;91.0;542.0;world
+  '41':
+    type: 'block: STRUCTURE_VOID'
+    location: 444.0;83.0;521.0;world
+  '43':
+    type: 'block: STRUCTURE_VOID'
+    location: 452.0;78.0;536.0;world
+  '44':
+    type: 'block: STRUCTURE_VOID'
+    location: 479.0;77.0;511.0;world
+  '45':
+    type: 'block: STRUCTURE_VOID'
+    location: 501.0;77.0;512.0;world
+  '46':
+    type: 'block: STRUCTURE_VOID'
+    location: 477.0;77.0;514.0;world
+  '47':
+    type: 'block: STRUCTURE_VOID'
+    location: 504.0;78.0;509.0;world
+  '48':
+    type: 'block: STRUCTURE_VOID'
+    location: 510.0;99.0;499.0;world
+  '49':
+    type: 'block: STRUCTURE_VOID'
+    location: 512.0;105.0;553.0;world
+  '50':
+    type: 'block: STRUCTURE_VOID'
+    location: 473.0;85.0;555.0;world
+  '51':
+    type: 'block: STRUCTURE_VOID'
+    location: 471.0;76.0;497.0;world
+  '52':
+    type: 'block: STRUCTURE_VOID'
+    location: 479.0;76.0;539.0;world
+  '53':
+    type: 'block: STRUCTURE_VOID'
+    location: 480.0;80.0;542.0;world
+  '54':
+    type: 'block: STRUCTURE_VOID'
+    location: 502.0;76.0;542.0;world
+  '55':
+    type: 'block: STRUCTURE_VOID'
+    location: 504.0;77.0;550.0;world
+  '56':
+    type: 'block: STRUCTURE_VOID'
+    location: 507.0;82.0;531.0;world
+  '57':
+    type: 'block: STRUCTURE_VOID'
+    location: 505.0;76.0;530.0;world
+  '58':
+    type: 'block: STRUCTURE_VOID'
+    location: 483.0;86.0;546.0;world
+  '59':
+    type: 'block: STRUCTURE_VOID'
+    location: 483.0;90.0;507.0;world
+  '60':
+    type: 'block: STRUCTURE_VOID'
+    location: 497.0;85.0;517.0;world
+  '61':
+    type: 'block: STRUCTURE_VOID'
+    location: 502.0;87.0;546.0;world
+  '62':
+    type: 'block: STRUCTURE_VOID'
+    location: 490.0;79.0;559.0;world
+  '63':
+    type: 'block: STRUCTURE_VOID'
+    location: 446.0;85.0;492.0;world
+  '64':
+    type: 'block: STRUCTURE_VOID'
+    location: 428.0;79.0;497.0;world
+  '65':
+    type: 'block: STRUCTURE_VOID'
+    location: 453.0;84.0;514.0;world
+  '66':
+    type: 'block: STRUCTURE_VOID'
+    location: 482.0;23.0;543.0;world
+  '67':
+    type: 'block: STRUCTURE_VOID'
+    location: 482.0;76.0;505.0;world
+  '68':
+    type: 'block: STRUCTURE_VOID'
+    location: 429.0;76.0;502.0;world
+  '69':
+    type: 'block: STRUCTURE_VOID'
+    location: 386.0;76.0;-458.0;world
+  '70':
+    type: 'block: STRUCTURE_VOID'
+    location: 431.0;77.0;-431.0;world
+  '71':
+    type: 'block: STRUCTURE_VOID'
+    location: 399.0;66.0;-525.0;world
+  '72':
+    type: 'block: STRUCTURE_VOID'
+    location: 445.0;61.0;-505.0;world
+  '73':
+    type: 'block: STRUCTURE_VOID'
+    location: 411.0;65.0;-517.0;world
