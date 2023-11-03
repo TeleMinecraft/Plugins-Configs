@@ -51,6 +51,7 @@ tab:
       - /warp
       - /warpinfo
       - /warps
+      - /halloween
   vip:
     priority: 1
     extends: default
@@ -114,6 +115,7 @@ commands:
   - /warp
   - /warpinfo
   - /warps
+  - /halloween
 custom_commands_actions:
   example1:
     commands:

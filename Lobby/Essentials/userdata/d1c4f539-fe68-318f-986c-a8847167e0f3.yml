@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 179.60.65.40
+ip-address: 179.60.65.36
 afk: false
 socialspy: false
 npc: false
@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1695499555974
-  login: 1695499552153
+  logout: 1698539160694
+  login: 1698539160392
 money: '0'
 last-account-name: Sth3fan0
 lastlocation:
@@ -34,5 +34,5 @@ logoutlocation:
   x: 0.5
   y: 33.0
   z: 0.5
-  yaw: -98.9999771118164
-  pitch: 7.350000858306885
+  yaw: -90.0
+  pitch: 0.0

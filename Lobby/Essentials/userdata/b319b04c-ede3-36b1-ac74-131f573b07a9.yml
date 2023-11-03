@@ -1,6 +1,6 @@
 timestamps:
-  login: 1697771570199
-  logout: 1697771575601
+  login: 1698968951560
+  logout: 1698968960284
   lastteleport: 1696906235888
   lastheal: 1602077984194
   mute: 0
@@ -22,8 +22,8 @@ logoutlocation:
   x: 0.5
   y: 33.0
   z: 0.5
-  yaw: -82.4164810180664
-  pitch: 9.403531074523926
+  yaw: 90.0
+  pitch: -90.0
   world-name: world
 homes:
   home:
@@ -34,7 +34,7 @@ homes:
     yaw: 270.0
     pitch: 0.0
     world-name: world
-ip-address: 201.239.114.55
+ip-address: 201.239.115.180
 last-account-name: Storbo
 teleportenabled: true
 teleportauto: false

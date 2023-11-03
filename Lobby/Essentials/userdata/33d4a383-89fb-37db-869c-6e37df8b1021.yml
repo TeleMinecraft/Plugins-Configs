@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 186.107.21.117
+ip-address: 186.107.21.15
 afk: false
 socialspy: false
 npc: false
@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1696017981956
-  login: 1696017966652
+  logout: 1698698753941
+  login: 1698698753636
 money: '0'
 last-account-name: Belepapa
 lastlocation:
@@ -34,5 +34,5 @@ logoutlocation:
   x: 0.5
   y: 33.0
   z: 0.5
-  yaw: -81.44998931884766
-  pitch: 5.700003147125244
+  yaw: -90.0
+  pitch: 0.0

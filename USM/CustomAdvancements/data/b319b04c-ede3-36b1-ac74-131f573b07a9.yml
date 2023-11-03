@@ -12,11 +12,11 @@ example:
     unlocked: false
     announced: false
   walker3:
-    progress: 15324
+    progress: 25000
     active: false
-    completed: false
+    completed: true
     unlocked: false
-    announced: false
+    announced: true
   breaktree:
     progress: 0
     active: false

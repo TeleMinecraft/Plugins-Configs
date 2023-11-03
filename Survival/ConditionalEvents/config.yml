@@ -1717,9 +1717,9 @@ Events:
       - 'message: #FDFF61&oHelado de Piña &a✔'
       - 'console_command: playsound minecraft:entity.player.levelup ambient %player%
         ~ ~ ~ 1 1 1'
-  sonido_aullido: # Halloween
+  sonido_aullido: #Halloween
     type: player_join
-    enabled: false
+    #enabled: false
     conditions:
     - '%objective_score_Eventos_Lugar% >= 0 execute actions1'
     actions:
@@ -1727,20 +1727,19 @@ Events:
       - 'wait: 20'
       - 'console_command: playsound minecraft:custom.aullido ambient %player% ~ ~
         ~ 1 1 1'
-  sonido_latidos: # Halloween
+  sonido_latidos: #Halloween
     type: repetitive
     repetitive_time: 60
-    enabled: false
+    #enabled: false
     conditions:
-    - '%player_light_level% <= 4'
+    - '%player_light_level% < 1'
     actions:
       default:
-      - 'give_potion_effect: BLINDNESS;120;1;false'
       - 'console_command: playsound minecraft:block.conduit.ambient ambient %player%
         ~ ~ ~ 1 0.3 1'
-  sonido_mounstros: # Halloween
+  sonido_mounstros: #Halloween
     type: player_world_change
-    enabled: false
+    #enabled: false
     conditions:
     - '%world_to% equals world_nether'
     actions:
@@ -1748,9 +1747,9 @@ Events:
       - 'wait: 20'
       - 'console_command: playsound minecraft:custom.mounstros ambient %player% ~
         ~ ~ 0.1 1'
-  sonido_alerta: # Halloween
+  sonido_alerta: #Halloween
     type: player_world_change
-    enabled: false
+    #enabled: false
     conditions:
     - '%world_to% equals world'
     actions:
@@ -1758,21 +1757,10 @@ Events:
       - 'wait: 20'
       - 'console_command: playsound minecraft:custom.alerta ambient %player% ~ ~ ~
         0.1 1 1'
-  calabaza_en_la_cabeza: # Halloween
-    type: entity_spawn
-    enabled: false
-    conditions:
-    - '%entity% equals ZOMBIE or %entity% equals SKELETON'
-    actions:
-      default:
-      - 'console_command: minecraft:item replace entity @e[type=minecraft:zombie]
-        armor.head with minecraft:carved_pumpkin'
-      - 'console_command: minecraft:item replace entity @e[type=minecraft:skeleton]
-        armor.head with minecraft:carved_pumpkin'
-  sonido_voces: # Halloween
+  sonido_voces: #Halloween
     type: repetitive
     repetitive_time: 100
-    enabled: false
+    #enabled: false
     conditions:
     - '%fearfeeling_fear% >= 50 execute actions1'
     - '%fearfeeling_fear% < 50 execute actions2'
@@ -1782,11 +1770,11 @@ Events:
         0.5 1 1'
       actions2:
       - 'console_command: stopsound %player% ambient minecraft:custom.voces'
-  sonido_tension: # Halloween
+  sonido_tension: #Halloween
     type: repetitive
     repetitive_time: 150
     cooldown: 10
-    enabled: false
+    #enabled: false
     conditions:
     - '%fearfeeling_fear% >= 80 execute actions1'
     - '%fearfeeling_fear% < 80 execute actions2'
@@ -1796,17 +1784,17 @@ Events:
         ~ 1 0.5 1'
       actions2:
       - 'console_command: stopsound %player% ambient minecraft:custom.tension'
-  no_puedes_dormir: # Halloween
+  no_puedes_dormir: #Halloween
     type: player_bed_enter
-    enabled: false
+    #enabled: false
     actions:
       default:
       - 'cancel_event: true'
       - 'actionbar: &cNo puedes dormir! Hay una &4&lpresencia&c a tus espaldas;100'
-  ver_la_presencia: # Halloween
+  ver_la_presencia: #Halloween
     type: repetitive
     repetitive_time: 20
-    enabled: false
+    #enabled: false
     conditions:
     - '%is_nearby_461_77_-439_world_0.7% equals true execute actions1'
     - '%is_nearby_461_77_-439_world_8% equals true execute actions2'
@@ -1817,10 +1805,10 @@ Events:
         0.1 1 0.1'
       actions2:
       - 'console_command: fear change 5 %player%'
-  cabeza_calabaza: # Premio Halloween
+  cabeza_calabaza: #Halloween
     type: repetitive
     repetitive_time: 2400
-    enabled: false
+    #enabled: false
     conditions:
     - '%checkitem_material:player_head,lorecontains:Saturaci,inslot:39% equals yes'
     actions:
@@ -1829,10 +1817,10 @@ Events:
       - 'give_potion_effect: SATURATION;20;10;false'
       - 'console_command: playsound minecraft:entity.generic.eat ambient %player%
         ~ ~ ~ 1 1 1'
-  musica_dia_halloween: # Halloween
+  musica_dia_halloween: #Halloween
     type: repetitive
     repetitive_time: 6000
-    enabled: false
+    #enabled: false
     conditions:
     - '%world_time_world% > 0'
     - '%world_time_world% < 11999'
@@ -1850,20 +1838,20 @@ Events:
       actions3:
       - 'console_command: playsound minecraft:custom.mundo2 ambient %player% ~ ~ ~
         0.1 1 0.1'
-  random_musica_halloween: # Halloween
+  random_musica_halloween: #Halloween
     type: repetitive_server
     repetitive_time: 6000
-    enabled: false
+    #enabled: false
     conditions:
     - '%server_online% >= 1'
     actions:
       default:
       - 'console_command: scoreboard players set MusicaD Halloween %random_1_3%'
       - 'console_command: scoreboard players set MusicaN Halloween %random_1_4%'
-  musica_noche_halloween: # Halloween
+  musica_noche_halloween: #Halloween
     type: repetitive
     repetitive_time: 6000
-    enabled: false
+    #enabled: false
     conditions:
     - '%world_time_world% > 12000'
     - '%player_world% equals world'
@@ -1884,10 +1872,10 @@ Events:
       actions4:
       - 'console_command: playsound minecraft:custom.noche2 ambient %player% ~ ~ ~
         0.1 1 0.1'
-  musica_nether_halloween: # Halloween
+  musica_nether_halloween: #Halloween
     type: repetitive
     repetitive_time: 6000
-    enabled: false
+    #enabled: false
     conditions:
     - '%player_world% equals world_nether'
     - '%objective_score_Halloween_MusicaN% == 1 execute actions1'
@@ -1907,17 +1895,17 @@ Events:
       actions4:
       - 'console_command: playsound minecraft:custom.nether3 ambient %player% ~ ~
         ~ 0.1 1 0.1'
-  musica_end_halloween: # Halloween
+  musica_end_halloween: #Halloween
     type: repetitive
     repetitive_time: 6000
-    enabled: false
+    #enabled: false
     conditions:
     - '%player_world% equals world_the_end'
     actions:
       default:
       - 'console_command: playsound minecraft:custom.end ambient %player% ~ ~ ~ 0.1
         1 0.1'
-  premios_halloween: # Halloween
+  premios_halloween: #Halloween
     type: repetitive
     repetitive_time: 20
     conditions:

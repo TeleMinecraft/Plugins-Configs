@@ -1,7 +1,7 @@
 tarjetactarut:
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 2975
+    v: 3337
     type: PAPER
     meta:
       ==: ItemMeta
@@ -12,7 +12,7 @@ tarjetactarut:
 moneda_10:
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 2975
+    v: 3337
     type: GOLD_NUGGET
     meta:
       ==: ItemMeta
@@ -22,7 +22,7 @@ moneda_10:
 moneda_50:
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 2975
+    v: 3337
     type: GOLD_NUGGET
     meta:
       ==: ItemMeta
@@ -32,7 +32,7 @@ moneda_50:
 moneda_100:
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 2975
+    v: 3337
     type: GOLD_NUGGET
     meta:
       ==: ItemMeta
@@ -42,7 +42,7 @@ moneda_100:
 moneda_500:
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 2975
+    v: 3337
     type: GOLD_NUGGET
     meta:
       ==: ItemMeta
@@ -52,7 +52,7 @@ moneda_500:
 billete_1000:
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 2975
+    v: 3337
     type: GOLD_INGOT
     meta:
       ==: ItemMeta
@@ -62,7 +62,7 @@ billete_1000:
 billete_2000:
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 2975
+    v: 3337
     type: GOLD_INGOT
     meta:
       ==: ItemMeta
@@ -72,7 +72,7 @@ billete_2000:
 billete_5000:
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 2975
+    v: 3337
     type: GOLD_INGOT
     meta:
       ==: ItemMeta
@@ -82,7 +82,7 @@ billete_5000:
 billete_10000:
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 2975
+    v: 3337
     type: GOLD_INGOT
     meta:
       ==: ItemMeta
@@ -92,7 +92,7 @@ billete_10000:
 billete_20000:
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 2975
+    v: 3337
     type: GOLD_INGOT
     meta:
       ==: ItemMeta
@@ -102,7 +102,7 @@ billete_20000:
 completo_i:
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 2975
+    v: 3337
     type: BREAD
     meta:
       ==: ItemMeta
@@ -113,7 +113,7 @@ completo_i:
 junaeb:
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 2975
+    v: 3337
     type: PAPER
     meta:
       ==: ItemMeta
@@ -123,7 +123,7 @@ junaeb:
 credencial:
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 2975
+    v: 3337
     type: PAPER
     meta:
       ==: ItemMeta
@@ -131,23 +131,23 @@ credencial:
       display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Credencial
         USM"}],"text":""}'
       custom-model-data: 1
-super8:
-  item:
-    ==: org.bukkit.inventory.ItemStack
-    v: 2975
-    type: BREAD
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFF700","text":"Super
-        "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#DE1C1C","text":"8"}],"text":""}'
-      custom-model-data: 2
 vuelo:
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 2975
+    v: 3337
     type: FEATHER
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
       display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Vuelo"}],"text":""}'
+super8:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: DRIED_KELP
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Super
+        "},{"bold":true,"italic":false,"color":"dark_red","text":"8"}],"text":""}'
+      custom-model-data: 1

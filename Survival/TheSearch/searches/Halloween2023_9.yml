@@ -1,0 +1,77 @@
+permission_required: false
+default_actions:
+  find_title_message:
+    title: '&9&kQué está pasando!?'
+    subtitle: '&7(&e%current%&7/&e%total%&7)'
+    fadeIn: 20
+    stay: 40
+    fadeOut: 20
+  find_sound: BLOCK_NOTE_BLOCK_PLING;10;1.8
+  find_effects_are_random: false
+  find_effects:
+  - 'firework: colors:ORANGE,BLACK type:STAR offsetY:0.8 flicker:true trail:true'
+last_actions:
+  find_title_message:
+    title: '&6&lFeliz Halloween!'
+    subtitle: '&7&oDisfruta el evento'
+    fadeIn: 20
+    stay: 150
+    fadeOut: 20
+  find_sound: ENTITY_PLAYER_LEVELUP;10;1
+  find_effects_are_random: false
+  find_effects:
+  - 'firework: colors:ORANGE,BLACK type:STAR offsetY:0.8 flicker:true trail:true'
+  find_commands:
+  - si give spawner_stractor 1 %player% true
+  - svar set halloween2023_9 1 %player%
+display_particles:
+  enabled: true
+  speed: 5
+  list_of_particles:
+    particle1:
+      particle: FLAME
+      speed: 0.05
+      offset_y: '0.3'
+    particle2:
+      particle: FLAME
+      speed: 0.05
+      offset_y: '0.3'
+    particle3:
+      particle: FLAME
+      speed: 0.05
+      offset_y: '0.3'
+    particle4:
+      particle: FLAME
+      speed: 0.05
+      offset_y: '0.3'
+to_find:
+  '1':
+    type: 'block: SPAWNER'
+    location: 468.0;79.0;552.0;world
+  '2':
+    type: 'block: SPAWNER'
+    location: 509.0;106.0;503.0;world
+  '3':
+    type: 'block: SPAWNER'
+    location: 451.0;102.0;541.0;world
+  '4':
+    type: 'block: SPAWNER'
+    location: 482.0;23.0;543.0;world
+  '5':
+    type: 'block: SPAWNER'
+    location: 436.0;79.0;480.0;world
+  '6':
+    type: 'block: SPAWNER'
+    location: 447.0;92.0;-492.0;world
+  '7':
+    type: 'block: SPAWNER'
+    location: 532.0;83.0;-500.0;world
+  '8':
+    type: 'block: SPAWNER'
+    location: 401.0;82.0;-433.0;world
+  '9':
+    type: 'block: SPAWNER'
+    location: 399.0;63.0;-504.0;world
+  '10':
+    type: 'block: SPAWNER'
+    location: 464.0;67.0;-527.0;world

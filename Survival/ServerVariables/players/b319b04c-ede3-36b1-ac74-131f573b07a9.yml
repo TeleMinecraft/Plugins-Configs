@@ -1,1 +1,11 @@
 name: Storbo
+variables:
+  halloween2023_1: '1'
+  halloween2023_2: '1'
+  halloween2023_5: '1'
+  halloween2023_6: '1'
+  halloween2023_9: '1'
+  halloween2023_3: '1'
+  halloween2023_4: '1'
+  halloween2023_8: '1'
+  halloween2023_7: '1'

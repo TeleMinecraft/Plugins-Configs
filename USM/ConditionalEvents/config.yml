@@ -117,7 +117,106 @@ Events:
     - '%normal_message% contains &6Teletransportando... execute actions_for_all'
     - '%normal_message% contains &aPanel Opened for execute actions_for_all'
     - '%normal_message% contains set completed execute actions_for_all'
-    - '%normal_message% contains &aVariable execute actions_for_all'
     actions:
       actions_for_all:
       - 'cancel_event: true'
+  door_interact_closed:
+    type: entity_interact
+    conditions:
+    - '%entity% == INTERACTION'
+    - '%entity_name% == DoorInteract'
+    - '%servervariables_globalvalue_glass_door% == close'
+    - '%player_yaw% < 90 and %player_yaw% > -90 execute actions1'
+    - '%player_yaw% < -90 or %player_yaw% < 180  execute actions2'
+    actions:
+      actions1:
+      - 'console_command: ce enable door_interact_opened'
+      - 'console_command: svar set glass_door open'
+      - 'console_command: fill -32 32 52 -32 34 52 minecraft:air'
+      - 'console_command: fill -31 32 53 -31 34 53 minecraft:chain[axis=z]'
+      - 'console_command: minecraft:tp @e[tag=DoorInteract] -30.65 33.1 53.7'
+      - 'console_command: data merge entity @e[type=item_display,limit=1,tag=GlassDoor]
+        {start_interpolation:0,interpolation_duration:5,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0.000f,0.707f,0.000f,0.707f],scale:[0.94f,1f,1f]}}'
+      actions2:
+      - 'console_command: ce enable door_interact_opened'
+      - 'console_command: svar set glass_door open2'
+      - 'console_command: fill -32 32 52 -32 34 52 minecraft:air'
+      - 'console_command: fill -31 32 51 -31 34 51 minecraft:chain[axis=z]'
+      - 'console_command: minecraft:tp @e[tag=DoorInteract] -30.65 33.1 51.3'
+      - 'console_command: data merge entity @e[type=item_display,limit=1,tag=GlassDoor]
+        {start_interpolation:0,interpolation_duration:5,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0.000f,-0.707f,0.000f,0.707f],scale:[0.94f,1f,1f]}}'
+  door_interact_opened:
+    type: entity_interact
+    conditions:
+    - '%entity% == INTERACTION'
+    - '%entity_name% == DoorInteract'
+    - '%servervariables_globalvalue_glass_door% == open execute actions1'
+    - '%servervariables_globalvalue_glass_door% == open2 execute actions2'
+    actions:
+      actions1:
+      - 'console_command: ce disable door_interact_opened'
+      - 'console_command: svar set glass_door close'
+      - 'console_command: fill -32 32 52 -32 34 52 minecraft:chain[axis=x]'
+      - 'console_command: fill -31 32 53 -31 34 53 minecraft:air'
+      - 'console_command: minecraft:tp @e[tag=DoorInteract] -31.8 33.1 52.5'
+      - 'console_command: data merge entity @e[type=item_display,limit=1,tag=GlassDoor]
+        {start_interpolation:0,interpolation_duration:5,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0.000f,0.000f,0.000f,1.000f],scale:[0.94f,1f,1f]}}'
+      actions2:
+      - 'console_command: ce disable door_interact_opened'
+      - 'console_command: svar set glass_door close'
+      - 'console_command: fill -32 32 52 -32 34 52 minecraft:chain[axis=x]'
+      - 'console_command: fill -31 32 51 -31 34 51 minecraft:air'
+      - 'console_command: minecraft:tp @e[tag=DoorInteract] -31.8 33.1 52.5'
+      - 'console_command: data merge entity @e[type=item_display,limit=1,tag=GlassDoor]
+        {start_interpolation:0,interpolation_duration:5,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0.000f,0.000f,0.000f,1.000f],scale:[0.94f,1f,1f]}}'
+    enabled: false
+  door_interact_closed2:
+    type: entity_interact
+    conditions:
+    - '%entity% == INTERACTION'
+    - '%entity_name% == DoorInteract2'
+    - '%servervariables_globalvalue_glass_door2% == close'
+    - '%player_yaw% < 90 and %player_yaw% > -90 execute actions1'
+    - '%player_yaw% < -90 or %player_yaw% < 180  execute actions2'
+    actions:
+      actions1:
+      - 'console_command: ce enable door_interact_opened2'
+      - 'console_command: svar set glass_door2 open'
+      - 'console_command: fill -33 32 52 -33 34 52 minecraft:air'
+      - 'console_command: fill -34 32 53 -34 34 53 minecraft:chain[axis=z]'
+      - 'console_command: minecraft:tp @e[tag=DoorInteract2] -33.4 33.1 53.7'
+      - 'console_command: data merge entity @e[type=item_display,limit=1,tag=GlassDoor2]
+        {start_interpolation:0,interpolation_duration:5,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0.000f,-0.707f,0.000f,0.707f],scale:[0.94f,1f,1f]}}'
+      actions2:
+      - 'console_command: ce enable door_interact_opened2'
+      - 'console_command: svar set glass_door2 open2'
+      - 'console_command: fill -33 32 52 -33 34 52 minecraft:air'
+      - 'console_command: fill -34 32 51 -34 34 51 minecraft:chain[axis=z]'
+      - 'console_command: minecraft:tp @e[tag=DoorInteract2] -33.4 33.1 51.3'
+      - 'console_command: data merge entity @e[type=item_display,limit=1,tag=GlassDoor2]
+        {start_interpolation:0,interpolation_duration:5,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0.000f,0.707f,0.000f,0.707f],scale:[0.94f,1f,1f]}}'
+  door_interact_opened2:
+    type: entity_interact
+    conditions:
+    - '%entity% == INTERACTION'
+    - '%entity_name% == DoorInteract2'
+    - '%servervariables_globalvalue_glass_door2% == open execute actions1'
+    - '%servervariables_globalvalue_glass_door2% == open2 execute actions2'
+    actions:
+      actions1:
+      - 'console_command: ce disable door_interact_opened2'
+      - 'console_command: svar set glass_door2 close'
+      - 'console_command: fill -33 32 52 -33 34 52 minecraft:chain[axis=x]'
+      - 'console_command: fill -34 32 53 -34 34 53 minecraft:air'
+      - 'console_command: minecraft:tp @e[tag=DoorInteract2] -32.25 33.1 52.5'
+      - 'console_command: data merge entity @e[type=item_display,limit=1,tag=GlassDoor2]
+        {start_interpolation:0,interpolation_duration:5,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0.000f,0.000f,0.000f,1.000f],scale:[0.94f,1f,1f]}}'
+      actions2:
+      - 'console_command: ce disable door_interact_opened2'
+      - 'console_command: svar set glass_door2 close'
+      - 'console_command: fill -33 32 52 -33 34 52 minecraft:chain[axis=x]'
+      - 'console_command: fill -34 32 51 -34 34 51 minecraft:air'
+      - 'console_command: minecraft:tp @e[tag=DoorInteract2] -32.25 33.1 52.5'
+      - 'console_command: data merge entity @e[type=item_display,limit=1,tag=GlassDoor2]
+        {start_interpolation:0,interpolation_duration:5,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0.000f,0.000f,0.000f,1.000f],scale:[0.94f,1f,1f]}}'
+    enabled: false

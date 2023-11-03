@@ -1,0 +1,65 @@
+permission_required: false
+default_actions:
+  find_title_message:
+    title: '&1Es una pesadilla!'
+    subtitle: '&7(&e%current%&7/&e%total%&7)'
+    fadeIn: 20
+    stay: 40
+    fadeOut: 20
+  find_sound: BLOCK_NOTE_BLOCK_PLING;10;1.8
+  find_effects_are_random: false
+  find_effects:
+  - 'firework: colors:ORANGE,BLACK type:STAR offsetY:0.8 flicker:true trail:true'
+last_actions:
+  find_title_message:
+    title: '&6&lFeliz Halloween!'
+    subtitle: '&7&oDisfruta el evento'
+    fadeIn: 20
+    stay: 150
+    fadeOut: 20
+  find_sound: ENTITY_PLAYER_LEVELUP;10;1
+  find_effects_are_random: false
+  find_effects:
+  - 'firework: colors:ORANGE,BLACK type:STAR offsetY:0.8 flicker:true trail:true'
+  find_commands:
+  - si give halloween4 1 %player% true
+  - svar set halloween2023_4 1 %player%
+display_particles:
+  enabled: true
+  speed: 5
+  list_of_particles:
+    particle1:
+      particle: REVERSE_PORTAL
+      speed: 0.01
+      offset_y: '0.6'
+to_find:
+  '1':
+    type: 'block: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjVhZDFhOTg4MDdkMjdjNDI1NGIxM2VhNTM5OWRmNjlhNzM4MDc1YmFhMWFmMTUzNDE3NGI4NGUyZWZhN2YyNSJ9fX0='
+    location: 493.0;81.0;558.0;world
+  '2':
+    type: 'block: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjVhZDFhOTg4MDdkMjdjNDI1NGIxM2VhNTM5OWRmNjlhNzM4MDc1YmFhMWFmMTUzNDE3NGI4NGUyZWZhN2YyNSJ9fX0='
+    location: 500.0;76.0;534.0;world
+  '3':
+    type: 'block: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjVhZDFhOTg4MDdkMjdjNDI1NGIxM2VhNTM5OWRmNjlhNzM4MDc1YmFhMWFmMTUzNDE3NGI4NGUyZWZhN2YyNSJ9fX0='
+    location: 431.0;78.0;495.0;world
+  '4':
+    type: 'block: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjVhZDFhOTg4MDdkMjdjNDI1NGIxM2VhNTM5OWRmNjlhNzM4MDc1YmFhMWFmMTUzNDE3NGI4NGUyZWZhN2YyNSJ9fX0='
+    location: 480.0;76.0;551.0;world
+  '5':
+    type: 'block: COBBLESTONE_SLAB'
+    location: 471.0;77.0;497.0;world
+  '6':
+    type: 'block: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjVhZDFhOTg4MDdkMjdjNDI1NGIxM2VhNTM5OWRmNjlhNzM4MDc1YmFhMWFmMTUzNDE3NGI4NGUyZWZhN2YyNSJ9fX0='
+    location: 426.0;77.0;-492.0;world
+  '7':
+    type: 'block: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjVhZDFhOTg4MDdkMjdjNDI1NGIxM2VhNTM5OWRmNjlhNzM4MDc1YmFhMWFmMTUzNDE3NGI4NGUyZWZhN2YyNSJ9fX0='
+    location: 444.0;84.0;-450.0;world
+  '8':
+    type: 'block: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjVhZDFhOTg4MDdkMjdjNDI1NGIxM2VhNTM5OWRmNjlhNzM4MDc1YmFhMWFmMTUzNDE3NGI4NGUyZWZhN2YyNSJ9fX0='
+    location: 398.0;83.0;-480.0;world
+  '9':
+    type: 'block: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjVhZDFhOTg4MDdkMjdjNDI1NGIxM2VhNTM5OWRmNjlhNzM4MDc1YmFhMWFmMTUzNDE3NGI4NGUyZWZhN2YyNSJ9fX0='
+    location: 387.0;77.0;-437.0;world
+  '10':
+    type: 'block: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjVhZDFhOTg4MDdkMjdjNDI1NGIxM2VhNTM5OWRmNjlhNzM4MDc1YmFhMWFmMTUzNDE3NGI4NGUyZWZhN2YyNSJ9fX0='
+    location: 380.0;64.0;-493.0;world

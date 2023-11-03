@@ -2,6 +2,7 @@
 
 data:
 - npc: 112
+  times: {}
   players:
     d37d161e-5ad0-3da8-ba32-2771b7bbc00c: 1
     a750a078-e193-3028-9ffd-5224fa43daa7: 1

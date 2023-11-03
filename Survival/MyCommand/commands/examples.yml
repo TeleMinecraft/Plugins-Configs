@@ -183,11 +183,17 @@ stats:
   - '&5Prestigio: &o%objective_score_prestigio%'
   - '&7--------------------------[&6■&7]-------------------------'
 eventos:
-  command: /event
+  command: /events
   permission-required: false
   type: RUN_AS_OPERATOR
   runcmd:
   - '/ib open events'
+halloween:
+  command: /halloween
+  permission-required: false
+  type: RUN_AS_OPERATOR
+  runcmd:
+  - '/cp panel-25'
 cesta:
   command: /cesta
   type: RUN_COMMAND

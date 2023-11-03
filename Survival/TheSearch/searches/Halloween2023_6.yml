@@ -1,0 +1,65 @@
+permission_required: false
+default_actions:
+  find_title_message:
+    title: '&5Jugemos un juego?'
+    subtitle: '&7(&e%current%&7/&e%total%&7)'
+    fadeIn: 20
+    stay: 40
+    fadeOut: 20
+  find_sound: BLOCK_NOTE_BLOCK_PLING;10;1.8
+  find_effects_are_random: false
+  find_effects:
+  - 'firework: colors:ORANGE,BLACK type:STAR offsetY:0.8 flicker:true trail:true'
+last_actions:
+  find_title_message:
+    title: '&6&lFeliz Halloween!'
+    subtitle: '&7&oDisfruta el evento'
+    fadeIn: 20
+    stay: 150
+    fadeOut: 20
+  find_sound: ENTITY_PLAYER_LEVELUP;10;1
+  find_effects_are_random: false
+  find_effects:
+  - 'firework: colors:ORANGE,BLACK type:STAR offsetY:0.8 flicker:true trail:true'
+  find_commands:
+  - si give halloween6 1 %player% true
+  - svar set halloween2023_6 1 %player%
+display_particles:
+  enabled: true
+  speed: 0
+  list_of_particles:
+    particle1:
+      particle: DAMAGE_INDICATOR
+      speed: 0.05
+      offset_y: '0.1'
+to_find:
+  '1':
+    type: 'block: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTA2Y2MwNDMwZDg4MmE5MzEzOTFkOGI0NzU4N2E1ZDI3ODMyYjUyZmRiYjVjYzBhNmM4MTk2NGFlMjQyZTI4MSJ9fX0='
+    location: 469.0;76.0;556.0;world
+  '2':
+    type: 'block: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTA2Y2MwNDMwZDg4MmE5MzEzOTFkOGI0NzU4N2E1ZDI3ODMyYjUyZmRiYjVjYzBhNmM4MTk2NGFlMjQyZTI4MSJ9fX0='
+    location: 495.0;77.0;515.0;world
+  '3':
+    type: 'block: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTA2Y2MwNDMwZDg4MmE5MzEzOTFkOGI0NzU4N2E1ZDI3ODMyYjUyZmRiYjVjYzBhNmM4MTk2NGFlMjQyZTI4MSJ9fX0='
+    location: 504.0;71.0;534.0;world
+  '4':
+    type: 'block: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTA2Y2MwNDMwZDg4MmE5MzEzOTFkOGI0NzU4N2E1ZDI3ODMyYjUyZmRiYjVjYzBhNmM4MTk2NGFlMjQyZTI4MSJ9fX0='
+    location: 453.0;84.0;514.0;world
+  '5':
+    type: 'block: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTA2Y2MwNDMwZDg4MmE5MzEzOTFkOGI0NzU4N2E1ZDI3ODMyYjUyZmRiYjVjYzBhNmM4MTk2NGFlMjQyZTI4MSJ9fX0='
+    location: 507.0;77.0;529.0;world
+  '6':
+    type: 'block: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTA2Y2MwNDMwZDg4MmE5MzEzOTFkOGI0NzU4N2E1ZDI3ODMyYjUyZmRiYjVjYzBhNmM4MTk2NGFlMjQyZTI4MSJ9fX0='
+    location: 400.0;77.0;-528.0;world
+  '7':
+    type: 'block: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTA2Y2MwNDMwZDg4MmE5MzEzOTFkOGI0NzU4N2E1ZDI3ODMyYjUyZmRiYjVjYzBhNmM4MTk2NGFlMjQyZTI4MSJ9fX0='
+    location: 396.0;84.0;-476.0;world
+  '8':
+    type: 'block: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTA2Y2MwNDMwZDg4MmE5MzEzOTFkOGI0NzU4N2E1ZDI3ODMyYjUyZmRiYjVjYzBhNmM4MTk2NGFlMjQyZTI4MSJ9fX0='
+    location: 441.0;91.0;-507.0;world
+  '9':
+    type: 'block: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTA2Y2MwNDMwZDg4MmE5MzEzOTFkOGI0NzU4N2E1ZDI3ODMyYjUyZmRiYjVjYzBhNmM4MTk2NGFlMjQyZTI4MSJ9fX0='
+    location: 453.0;77.0;-471.0;world
+  '10':
+    type: 'block: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTA2Y2MwNDMwZDg4MmE5MzEzOTFkOGI0NzU4N2E1ZDI3ODMyYjUyZmRiYjVjYzBhNmM4MTk2NGFlMjQyZTI4MSJ9fX0='
+    location: 409.0;77.0;-441.0;world

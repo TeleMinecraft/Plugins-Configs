@@ -56,7 +56,7 @@ panels:
         commands:
         - cpc
         - msg= &6Procesando...
-        - delay= 1 msg= &aTu saldo es de &o$%cp-player-balance%
+        - delay= 2 msg= &aTu saldo es de &2&o$&2&o%cp-player-balance%
         customdata: 3
       '10':
         material: INK_SAC

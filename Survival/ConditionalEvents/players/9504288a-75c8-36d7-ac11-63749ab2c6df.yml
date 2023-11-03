@@ -5,7 +5,7 @@ events:
     cooldown: 1675019113602
   resistencia_y_skin_al_entrar:
     one_time: false
-    cooldown: 1697497362667
+    cooldown: 1698867248118
   random_tp:
     one_time: false
     cooldown: 1692400429282
@@ -108,3 +108,6 @@ events:
   mision_9:
     one_time: false
     cooldown: 1685300637071
+  sonido_tension:
+    one_time: false
+    cooldown: 1698870240310

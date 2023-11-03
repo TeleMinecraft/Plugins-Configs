@@ -64,7 +64,7 @@ npc:
         LastEffect: none
       scoreboardtrait:
         color: YELLOW
-    traitnames: spawned,rotationtrait,eglow,lookclose,skintrait,location,equipment,inventory,owner,scoreboardtrait,hologramtrait,mounttrait,type,sneak
+    traitnames: eglow,equipment,owner,mounttrait,inventory,lookclose,type,sneak,location,hologramtrait,scoreboardtrait,spawned,skintrait,rotationtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -118,7 +118,7 @@ npc:
         LastEffect: none
       scoreboardtrait:
         color: GREEN
-    traitnames: spawned,rotationtrait,eglow,lookclose,skintrait,location,inventory,equipment,owner,scoreboardtrait,mounttrait,type,sneak
+    traitnames: eglow,owner,equipment,mounttrait,inventory,lookclose,type,sneak,location,scoreboardtrait,spawned,skintrait,rotationtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -172,7 +172,7 @@ npc:
         LastEffect: none
       scoreboardtrait:
         color: DARK_AQUA
-    traitnames: spawned,rotationtrait,eglow,lookclose,skintrait,location,inventory,equipment,owner,scoreboardtrait,mounttrait,type,sneak
+    traitnames: eglow,owner,equipment,mounttrait,inventory,lookclose,type,sneak,location,scoreboardtrait,spawned,skintrait,rotationtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -226,7 +226,7 @@ npc:
         LastEffect: none
       scoreboardtrait:
         color: GOLD
-    traitnames: spawned,rotationtrait,lookclose,eglow,skintrait,location,equipment,inventory,owner,scoreboardtrait,mounttrait,type,sneak
+    traitnames: eglow,equipment,owner,mounttrait,inventory,lookclose,type,sneak,location,scoreboardtrait,spawned,skintrait,rotationtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -281,7 +281,7 @@ npc:
         LastEffect: none
       scoreboardtrait:
         color: DARK_RED
-    traitnames: spawned,rotationtrait,lookclose,eglow,skintrait,location,equipment,inventory,owner,scoreboardtrait,mounttrait,type,sneak
+    traitnames: eglow,owner,equipment,mounttrait,inventory,lookclose,type,sneak,location,scoreboardtrait,spawned,skintrait,rotationtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -335,7 +335,7 @@ npc:
         LastEffect: none
       scoreboardtrait:
         color: AQUA
-    traitnames: spawned,rotationtrait,eglow,lookclose,skintrait,location,inventory,equipment,owner,scoreboardtrait,mounttrait,type,sneak
+    traitnames: eglow,owner,equipment,mounttrait,inventory,lookclose,type,sneak,location,scoreboardtrait,spawned,skintrait,rotationtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -379,7 +379,7 @@ npc:
       sneak:
         sneaking: false
       type: POLAR_BEAR
-    traitnames: owner,spawned,rotationtrait,lookclose,scoreboardtrait,mounttrait,type,sneak,skintrait,location,equipment,inventory
+    traitnames: location,scoreboardtrait,equipment,owner,spawned,mounttrait,inventory,lookclose,skintrait,type,rotationtrait,sneak
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -423,7 +423,7 @@ npc:
       sneak:
         sneaking: false
       type: POLAR_BEAR
-    traitnames: owner,spawned,rotationtrait,lookclose,scoreboardtrait,mounttrait,type,sneak,skintrait,location,inventory,equipment
+    traitnames: location,scoreboardtrait,owner,spawned,equipment,mounttrait,inventory,lookclose,skintrait,type,sneak,rotationtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -477,7 +477,7 @@ npc:
         z: '-55.6563'
         yaw: '-17.8283'
         pitch: '0.0'
-    traitnames: spawned,rotationtrait,lookclose,pandatrait,skintrait,location,equipment,inventory,owner,scoreboardtrait,mounttrait,type,sneak,age
+    traitnames: age,equipment,owner,mounttrait,inventory,lookclose,type,sneak,location,scoreboardtrait,spawned,pandatrait,skintrait,rotationtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -521,7 +521,7 @@ npc:
       sneak:
         sneaking: false
       type: PANDA
-    traitnames: spawned,owner,rotationtrait,lookclose,scoreboardtrait,mounttrait,type,sneak,skintrait,location,inventory,equipment
+    traitnames: location,scoreboardtrait,spawned,equipment,owner,mounttrait,inventory,lookclose,skintrait,type,sneak,rotationtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -570,7 +570,7 @@ npc:
         z: '-29.3109'
         yaw: '10.4399'
         pitch: '0.0'
-    traitnames: spawned,rotationtrait,lookclose,skintrait,location,inventory,equipment,gravity,owner,scoreboardtrait,hologramtrait,mounttrait,type,sneak
+    traitnames: owner,equipment,mounttrait,inventory,lookclose,type,sneak,location,hologramtrait,scoreboardtrait,spawned,gravity,skintrait,rotationtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -620,7 +620,7 @@ npc:
         z: '-29.3237'
         yaw: '-162.7074'
         pitch: '0.0'
-    traitnames: spawned,rotationtrait,lookclose,skintrait,location,equipment,gravity,inventory,owner,parrottrait,scoreboardtrait,mounttrait,type,sneak
+    traitnames: equipment,owner,mounttrait,inventory,lookclose,type,sneak,location,scoreboardtrait,spawned,parrottrait,gravity,skintrait,rotationtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -670,7 +670,7 @@ npc:
         z: '-29.7'
         yaw: '173.5914'
         pitch: '0.0'
-    traitnames: spawned,rotationtrait,lookclose,skintrait,location,gravity,inventory,equipment,owner,parrottrait,scoreboardtrait,mounttrait,type,sneak
+    traitnames: owner,equipment,mounttrait,inventory,lookclose,type,sneak,location,scoreboardtrait,spawned,parrottrait,gravity,skintrait,rotationtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -718,7 +718,7 @@ npc:
       sneak:
         sneaking: false
       type: RABBIT
-    traitnames: owner,spawned,lookclose,scoreboardtrait,mounttrait,rabbittype,type,sneak,skintrait,location,equipment,inventory
+    traitnames: location,scoreboardtrait,owner,spawned,equipment,mounttrait,inventory,lookclose,rabbittype,skintrait,type,sneak
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -766,7 +766,7 @@ npc:
       sneak:
         sneaking: false
       type: RABBIT
-    traitnames: spawned,rotationtrait,lookclose,rabbittype,skintrait,location,equipment,inventory,owner,scoreboardtrait,mounttrait,type,sneak
+    traitnames: equipment,owner,mounttrait,inventory,lookclose,type,sneak,location,scoreboardtrait,spawned,rabbittype,skintrait,rotationtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -817,7 +817,7 @@ npc:
       sneak:
         sneaking: false
       type: FOX
-    traitnames: spawned,rotationtrait,lookclose,skintrait,location,equipment,inventory,owner,foxtrait,scoreboardtrait,mounttrait,type,sneak
+    traitnames: equipment,owner,mounttrait,inventory,lookclose,type,sneak,location,scoreboardtrait,spawned,foxtrait,skintrait,rotationtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -850,7 +850,7 @@ npc:
       sneak:
         sneaking: false
       type: FOX
-    traitnames: owner,spawned,foxtrait,scoreboardtrait,mounttrait,type,sneak,skintrait,location,inventory,equipment
+    traitnames: location,scoreboardtrait,owner,spawned,equipment,mounttrait,inventory,foxtrait,skintrait,type,sneak
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -886,7 +886,7 @@ npc:
         persistSequence: false
       sneaking:
         sneaking: false
-    traitnames: invisible,spawned,owner,sneaking,commandtrait,scoreboardtrait,mounttrait,type,skintrait,location,inventory
+    traitnames: location,scoreboardtrait,invisible,spawned,owner,sneaking,mounttrait,inventory,skintrait,commandtrait,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -944,7 +944,7 @@ npc:
       controllable:
         enabled: true
         owner_required: false
-    traitnames: spawned,owner,lookclose,scoreboardtrait,mounttrait,type,controllable,skintrait,location,inventory,gravity
+    traitnames: location,scoreboardtrait,spawned,owner,mounttrait,inventory,lookclose,gravity,controllable,skintrait,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1009,7 +1009,7 @@ npc:
         offhand:
           type_key: iron_sword
           amount: 1
-    traitnames: owner,spawned,lookclose,scoreboardtrait,mounttrait,type,skintrait,age,location,gravity,equipment,inventory
+    traitnames: age,location,scoreboardtrait,owner,equipment,spawned,mounttrait,inventory,lookclose,gravity,skintrait,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1078,7 +1078,7 @@ npc:
         updateSkins: false
       gravity:
         enabled: true
-    traitnames: spawned,owner,lookclose,scoreboardtrait,hologramtrait,mounttrait,type,skintrait,location,equipment,inventory,gravity
+    traitnames: location,hologramtrait,scoreboardtrait,spawned,equipment,owner,mounttrait,inventory,lookclose,gravity,skintrait,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1153,7 +1153,7 @@ npc:
         updateSkins: false
       gravity:
         enabled: true
-    traitnames: owner,spawned,lookclose,scoreboardtrait,mounttrait,type,skintrait,location,equipment,inventory,gravity
+    traitnames: location,scoreboardtrait,owner,equipment,spawned,mounttrait,inventory,lookclose,gravity,skintrait,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1207,7 +1207,7 @@ npc:
         updateSkins: false
       gravity:
         enabled: true
-    traitnames: owner,spawned,powered,lookclose,scoreboardtrait,mounttrait,type,skintrait,location,gravity,inventory
+    traitnames: location,scoreboardtrait,owner,spawned,mounttrait,inventory,lookclose,gravity,powered,skintrait,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1244,7 +1244,7 @@ npc:
         updateSkins: false
       gravity:
         enabled: true
-    traitnames: endermantrait,spawned,owner,scoreboardtrait,mounttrait,type,skintrait,location,gravity,inventory
+    traitnames: location,scoreboardtrait,spawned,owner,mounttrait,inventory,gravity,endermantrait,skintrait,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1279,7 +1279,7 @@ npc:
         enabled: true
       type: FALLING_BLOCK
       spawned: true
-    traitnames: spawned,owner,scoreboardtrait,mounttrait,type,skintrait,location,gravity,inventory
+    traitnames: location,scoreboardtrait,spawned,owner,mounttrait,inventory,gravity,skintrait,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1310,7 +1310,7 @@ npc:
       skintrait:
         fetchDefaultSkin: true
         updateSkins: false
-    traitnames: spawned,owner,scoreboardtrait,mounttrait,type,skintrait,location,inventory,gravity
+    traitnames: location,scoreboardtrait,spawned,owner,mounttrait,inventory,gravity,skintrait,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

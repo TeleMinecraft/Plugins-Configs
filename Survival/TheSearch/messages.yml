@@ -1,4 +1,4 @@
-prefix: '&6[&f&lTheSearch&6] '
+prefix: '&7[&6Búsquedas&7] '
 commandCreateError: '&cYou need to use: &7/thesearch create <search>'
 searchAlreadyExists: '&cThe search &7%name% &calready exists.'
 searchCreated: '&aSearch &7%name% &acreated. Add blocks or entities to it using: &7/thesearch
@@ -12,16 +12,16 @@ blockAddCorrect: '&aAdded block to search &7%search%&a! This search has now &e%t
 configReloaded: '&aConfigs reloaded.'
 blockRemoveCorrect: '&aRemoved block from search &7%search%&a. This search has now
   &e%total% &aobjects to find.'
-cantRemoveObject: '&cYou can''t break that.'
-alreadyFindBlock: '&cYou''ve already found that block!'
-alreadyCompleteSearch: '&cYou''ve already completed that search!'
+cantRemoveObject: '&cNo puedes romper esto!'
+alreadyFindBlock: '&eYa habías encontrado este bloque'
+alreadyCompleteSearch: '&eYa completaste esta búsqueda!'
 commandAddentityError: '&cYou need to use: &7/thesearch entity <search>'
 commandAddentityNoPlugin: '&cIf you want to add entities to searches you need MythicMobs.'
 commandAddentityInvalidEntity: '&cYou must be looking at a MythicMobs entity.'
 entityAddError: '&cThat entity already belongs to a search.'
 entityAddCorrect: '&aAdded entity to search &7%search%&a! This search has now &e%total%
   &aobjects to find.'
-alreadyFindEntity: '&cYou''ve already found that entity!'
+alreadyFindEntity: '&eYa habías encontrado esta entidad'
 commandResetError: '&cYou need to use: &7/thesearch reset <player> <search>'
 playerDoesNotExists: '&cNo data found for that player.'
 commandResetCorrect: '&aSearch &7%name% &areset correctly for &e%player%&a!'

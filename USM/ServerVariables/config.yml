@@ -32,22 +32,27 @@ messages:
     &e%player%&a.'
   playerNotOnline: '&cThat player is not online.'
   pluginReloaded: '&aPlugin reloaded!'
-  commandGetCorrect: '&aVariable &7%variable% &acurrent value is: &7%value%&a.'
-  commandGetCorrectPlayer: '&aVariable &7%variable% &acurrent value from player &e%player%
-    &ais: &7%value%&a.'
+  commandGetCorrect: '&aVar &7%variable% &a= &7%value%&a.'
+  commandGetCorrectPlayer: '&aVar &7%variable% &afor &e%player%
+    &a=: &7%value%&a.'
   invalidValue: '&cYou must use a valid number value.'
   playerNoData: '&cThere is no data for that player.'
   commandResetCorrect: '&aVariable &7%variable% &areset.'
   commandResetCorrectPlayer: '&aVariable &7%variable% &areset for player &e%player%&a.'
 variables:
-  lobby_portal_status:
+  glass_door:
     variable_type: GLOBAL
     value_type: TEXT
     possible_values:
-    - 'off'
-    - 'on'
-    initial_value: 'off'
-  player_influence:
-    variable_type: PLAYER
-    value_type: INTEGER
-    initial_value: 0
+    - 'open'
+    - 'close'
+    - 'open2'
+    initial_value: 'close'
+  glass_door2:
+    variable_type: GLOBAL
+    value_type: TEXT
+    possible_values:
+    - 'open'
+    - 'close'
+    - 'open2'
+    initial_value: 'close'
