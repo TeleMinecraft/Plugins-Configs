@@ -13,3 +13,4 @@
 *.mv
 *.mv.db
 *.log_old
+*.cache
